@@ -1,0 +1,300 @@
+{
+  "Frames": [
+    {
+      "Path": "row-1-column-4.png",
+      "Duration": 2,
+      "HandleX": -51,
+      "HandleY": -107,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-3-column-9.png",
+      "Duration": 10,
+      "HandleX": -68,
+      "HandleY": -114,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "ryu_tatsu"
+    },
+    {
+      "Path": "row-3-column-10.png",
+      "Duration": 2,
+      "HandleX": -64,
+      "HandleY": -132,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": ""
+    },
+    {
+      "Path": "row-6-column-6.png",
+      "Duration": 2,
+      "HandleX": -59,
+      "HandleY": -124,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-4-column-4.png",
+      "Duration": 2,
+      "HandleX": -54,
+      "HandleY": -124,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "ryu_tatsu"
+    },
+    {
+      "Path": "row-4-column-6.png",
+      "Duration": 2,
+      "HandleX": -63,
+      "HandleY": -119,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-4-column-5.png",
+      "Duration": 2,
+      "HandleX": -65,
+      "HandleY": -117,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-4-column-4.png",
+      "Duration": 2,
+      "HandleX": -54,
+      "HandleY": -124,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-4-column-6.png",
+      "Duration": 2,
+      "HandleX": -63,
+      "HandleY": -119,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-4-column-5.png",
+      "Duration": 2,
+      "HandleX": -65,
+      "HandleY": -117,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-4-column-4.png",
+      "Duration": 2,
+      "HandleX": -54,
+      "HandleY": -124,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-4-column-6.png",
+      "Duration": 2,
+      "HandleX": -63,
+      "HandleY": -119,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-4-column-5.png",
+      "Duration": 2,
+      "HandleX": -65,
+      "HandleY": -117,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-4-column-4.png",
+      "Duration": 2,
+      "HandleX": -54,
+      "HandleY": -124,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-4-column-6.png",
+      "Duration": 2,
+      "HandleX": -63,
+      "HandleY": -119,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-4-column-5.png",
+      "Duration": 2,
+      "HandleX": -65,
+      "HandleY": -117,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-4-column-4.png",
+      "Duration": 2,
+      "HandleX": -54,
+      "HandleY": -124,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-4-column-6.png",
+      "Duration": 2,
+      "HandleX": -63,
+      "HandleY": -119,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-4-column-5.png",
+      "Duration": 2,
+      "HandleX": -65,
+      "HandleY": -117,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "ryu_tatsu"
+    }
+  ],
+  "PreventMovement": true,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 2,
+  "LinkedMap": null,
+  "OnFinish": "",
+  "AutoFlip": true
+}

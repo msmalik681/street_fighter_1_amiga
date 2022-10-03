@@ -1,0 +1,220 @@
+=== Image optimisations ===
+Reduce width of actors\retsu\idle.png by 7 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\retsu\idle.png by 7 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\retsu\20-3.png by 12 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\retsu\20-3.png by 12 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\fireball\1001-0.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\fireball\1001-1.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\fireball\1001-0.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\fireball\1001-1.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\row-1-column-1.png by 14 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-1.png by 14 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-5.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-10.png by 6 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-9.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-8.png by 7 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-7.png by 11 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-6.png by 8 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-5.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-1.png by 14 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-1.png by 14 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-5.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-10.png by 6 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-9.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-8.png by 7 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-7.png by 11 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-6.png by 8 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-5.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-1.png by 14 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-1.png by 14 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-7.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-10.png by 7 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-1.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-2.png by 15 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-1.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-1.png by 14 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-1.png by 14 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-7.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-10.png by 7 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-1.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-2.png by 15 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-1.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-9.png by 9 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-9.png by 9 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-5.png by 13 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-6.png by 11 pixels to 64 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-5.png by 13 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-5.png by 13 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-6.png by 11 pixels to 64 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-5.png by 13 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-6-column-8.png by 14 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-6-column-10.png by 7 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-6-column-8.png by 14 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-6-column-10.png by 7 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-1.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-1.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-7.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-8.png by 8 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-5-column-1.png by 7 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-10.png by 4 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-1.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-1.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-7.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-8.png by 8 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-5-column-1.png by 7 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-10.png by 4 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-1.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-1.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-1.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-1.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-7.png by 5 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-8.png by 5 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-7.png by 5 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-7.png by 5 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-8.png by 5 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-7.png by 5 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-1.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-1.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-3b.png by 13 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-4.png by 5 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-3b.png by 13 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-2-column-4.png by 5 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-6-column-1.png by 7 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-6-column-2.png by 15 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-6-column-1.png by 7 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-6-column-2.png by 15 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-1.png by 14 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-1.png by 14 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-10.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-10.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-6-column-6.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-6-column-7.png by 11 pixels to 64 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-6-column-6.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-10.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-10.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-10.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-6-column-6.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-6-column-7.png by 11 pixels to 64 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-6-column-6.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-10.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-10.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-10.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-7-column-2.png by 6 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-5-column-3.png by 10 pixels to 64 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-10.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-10.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-10.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-7-column-2.png by 6 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-5-column-3.png by 10 pixels to 64 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-10.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-7-column-2.png by 6 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-5-column-2.png by 14 pixels to 64 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-7-column-2.png by 6 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-5-column-2.png by 14 pixels to 64 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-5-column-10.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-5-column-4.png by 5 pixels to 64 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-5-column-10.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-5-column-4.png by 5 pixels to 64 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-4.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-5-column-5.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-5-column-5.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-4.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-5-column-5.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-5-column-5.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-4.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-4.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-10.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-4.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-4.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-10.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-5.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-5.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-4.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-10.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-6-column-6.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-4.png by 6 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-5.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-4.png by 6 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-5.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-4.png by 6 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-5.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-4.png by 6 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-5.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-4.png by 6 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-5.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-4.png by 13 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-3-column-10.png by 4 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-6-column-6.png by 15 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-4.png by 6 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-5.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-4.png by 6 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-5.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-4.png by 6 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-5.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-4.png by 6 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-5.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-4.png by 6 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-4-column-5.png by 8 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-2.png by 4 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-2.png by 4 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-2.png by 4 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-3.png by 6 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-3.png by 6 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-3.png by 6 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-2.png by 4 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-2.png by 4 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-2.png by 4 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-3.png by 6 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-3.png by 6 pixels to 48 to improve blit performance by 100.00%
+Reduce width of actors\ryu\row-1-column-3.png by 6 pixels to 48 to improve blit performance by 100.00%
+
+=== Misc ===
+Actor Count: 9
+Actor Data Size: 2664
+Block Count: 2
+Block Data Size: 104
+Anim5 Count: 1
+Anim5 Data Size: 4
+Sound Count: 7
+Sound Data Size: 224
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 55
+Animations Data Size: 880
+AnimationFrame Count: 224
+AnimationFrame Data Size: 3584
+ImageFrames: BlitzTool.BlitzWord
+ImageFrame Data Size: 8832
+Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
+Crunching Panel test_panel as 1.img. Original size: 18910. Crunched size: 3028
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 9620. Crunched size: 2706
+Crunching Project virtual machine redirects as project.rd. Original size: 4. Crunched size: 4
+Crunching Header data for map original_japan as 1.mhd. Original size: 9788. Crunched size: 278
+Crunching Data for map original_japan as 1.map. Original size: 6812. Crunched size: 1402
+Crunching Background for map original_japan as 1.bg. Original size: 2672. Crunched size: 170
+Crunching Asset bundle 0 as 0.gfx. Original size: 763840. Crunched size: 249316
+Crunching Asset bundle 1 as 1.gfx. Original size: 65440. Crunched size: 35672
+Crunching Project data as project.dat. Original size: 16300. Crunched size: 4324
+Crunching Scorpion header as project.hd. Original size: 4036. Crunched size: 1184
+
+Estimated memory usages:
+
+For chip:
+Map gfx (level gfx bundle 1 ): 0
+Music memory: 0
+BP Buffer memory: 121000
+core sfx/gfx memory: 763840
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 0
+Map background memory: 0
+EXE memory: 195044
+vm memory: 9620
+project memory: 16300
+
+Accounted memory chip: 884840
+Accounted memory other: 220964
+Accounted memory total: 1105804

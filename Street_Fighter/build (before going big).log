@@ -1,0 +1,131 @@
+=== Image optimisations ===
+Reduce width of actors\retsu\tile007.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\retsu\tile007.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\retsu\tile000.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\retsu\tile000.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\retsu\tile002.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\retsu\tile002.png by 6 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile036.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile037.png by 12 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile038.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile036.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile037.png by 12 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile038.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile022.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile023.png by 8 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile022.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile022.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile023.png by 8 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile022.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile017.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile018.png by 9 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile019.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile017.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile018.png by 9 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile019.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile020.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile020.png by 8 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile013.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile013.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile013.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile013.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile014.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile015.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile016.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile014.png by 4 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile015.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile016.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile034.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile000.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\big\full kick.png by 9 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile000.png by 7 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\big\full kick.png by 9 pixels to 80 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile029.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile029.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile004.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile005.png by 6 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile004.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile004.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile005.png by 6 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile004.png by 15 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile029.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile033.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile034.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile033.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile034.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile033.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile034.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile033.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile034.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile029.png by 2 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile033.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile034.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile033.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile034.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile033.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile034.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile033.png by 11 pixels to 32 to improve blit performance by 100.00%
+Reduce width of actors\ryu\tile034.png by 12 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile001.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile001.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile001.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile002.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile002.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile002.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile001.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile001.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile001.png by 10 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile002.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile002.png by 11 pixels to 16 to improve blit performance by 200.00%
+Reduce width of actors\ryu\tile002.png by 11 pixels to 16 to improve blit performance by 200.00%
+
+=== Misc ===
+Actor Count: 9
+Actor Data Size: 2664
+Block Count: 2
+Block Data Size: 104
+Anim5 Count: 1
+Anim5 Data Size: 4
+Sound Count: 6
+Sound Data Size: 192
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 36
+Animations Data Size: 576
+AnimationFrame Count: 125
+AnimationFrame Data Size: 2000
+ImageFrames: BlitzTool.BlitzWord
+ImageFrame Data Size: 5120
+Crunching Panel scorpion_eng_splashscreen as 0.img. Original size: 37106. Crunched size: 3308
+Crunching Panel test_panel as 1.img. Original size: 18910. Crunched size: 3028
+Crunching Project virtual machine (codeblocks) as project.vm. Original size: 8392. Crunched size: 2354
+Crunching Project virtual machine redirects as project.rd. Original size: 4. Crunched size: 4
+Crunching Header data for map japan as 1.mhd. Original size: 9788. Crunched size: 328
+Crunching Data for map japan as 1.map. Original size: 3436. Crunched size: 470
+Crunching Background for map japan as 1.bg. Original size: 2672. Crunched size: 92
+Crunching Asset bundle 0 as 0.gfx. Original size: 142270. Crunched size: 61460
+Crunching Asset bundle 1 as 1.gfx. Original size: 10496. Crunched size: 4548
+Crunching Project data as project.dat. Original size: 10668. Crunched size: 2594
+Crunching Scorpion header as project.hd. Original size: 4036. Crunched size: 1186
+
+Estimated memory usages:
+
+For chip:
+Map gfx (Panel: scorpion_eng_splashscreen): 0
+Music memory: 0
+BP Buffer memory: 87680
+core sfx/gfx memory: 142270
+Parallax memory: 0
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 0
+Map background memory: 0
+EXE memory: 195044
+vm memory: 8392
+project memory: 10668
+
+Accounted memory chip: 229950
+Accounted memory other: 214104
+Accounted memory total: 444054

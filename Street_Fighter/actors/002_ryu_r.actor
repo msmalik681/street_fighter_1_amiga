@@ -1,0 +1,150 @@
+{
+  "ShootDirType": "actor_direction",
+  "ClassType": "DefaultClass",
+  "DefaultLookDir": "right",
+  "Recycle": "Default",
+  "MoveType": "control_platform",
+  "MaxEntities": 0,
+  "NudgeX": 10,
+  "NudgeY": 15,
+  "Idles": {
+    "UpLeft": null,
+    "Up": null,
+    "UpRight": null,
+    "Left": "ryu_idle_r",
+    "Right": "ryu_idle_r",
+    "DownLeft": null,
+    "Down": null,
+    "DownRight": null
+  },
+  "Moves": {
+    "UpLeft": "",
+    "Up": null,
+    "UpRight": "",
+    "Left": "ryu_walk_r",
+    "Right": "ryu_walk_r",
+    "DownLeft": null,
+    "Down": null,
+    "DownRight": null
+  },
+  "Attacks": {
+    "UpLeft": null,
+    "Up": null,
+    "UpRight": null,
+    "Left": null,
+    "Right": "",
+    "DownLeft": null,
+    "Down": null,
+    "DownRight": ""
+  },
+  "ProjectileOffsets": [
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    }
+  ],
+  "CollBox": {
+    "X": -17,
+    "Y": -85,
+    "Width": 34,
+    "Height": 81
+  },
+  "AttackDelay": 0,
+  "ZOrder": 0,
+  "SpeedLeft": 2.5,
+  "SpeedRight": 2.5,
+  "SpeedUp": 8.0,
+  "SpeedDown": 8.0,
+  "AccelLeft": 2.0,
+  "AccelRight": 2.0,
+  "AccelUp": null,
+  "AccelDown": 1.1,
+  "AccelLeftAir": 0.0,
+  "AccelRightAir": 0.0,
+  "RotationSpeed": 0.0,
+  "CollType_Left": "block",
+  "CollType_Right": "block",
+  "CollType_Up": "block",
+  "CollType_Down": "block",
+  "Flags": 0,
+  "AttackProjectile": "",
+  "AutoFire": false,
+  "AttackProjectileAmmoVariable": "",
+  "AttackSound": null,
+  "JumpSound": null,
+  "DivertAttack": null,
+  "DivertSpawn": "",
+  "DivertPlayerCollision": null,
+  "DivertPlayerHit": "",
+  "DivertHitAgainstPlayer": null,
+  "DivertProjectileCollision": null,
+  "DivertOutOfScreenLeft": null,
+  "DivertOutOfScreenRight": null,
+  "DivertOutOfScreenUp": null,
+  "DivertOutOfScreenDown": null,
+  "DivertPlatformEdge": null,
+  "DivertPlatformLand": "on_land",
+  "DivertTimer": "ryu_ontimer",
+  "DivertTimerFrames": 0,
+  "Vars": [
+    "1",
+    "0",
+    "0",
+    "1",
+    "0",
+    "0"
+  ],
+  "ControlPort": 1,
+  "TileID": 4,
+  "SuggestedRecycle": "Never"
+}

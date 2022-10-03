@@ -1,0 +1,60 @@
+{
+  "Frames": [
+    {
+      "Path": "row-2-column-3.png",
+      "Duration": 3,
+      "HandleX": -73,
+      "HandleY": -109,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-2-column-3b.png",
+      "Duration": 3,
+      "HandleX": -77,
+      "HandleY": -104,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-2-column-4.png",
+      "Duration": 12,
+      "HandleX": -44,
+      "HandleY": -107,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "ryu_fireball"
+    }
+  ],
+  "PreventMovement": true,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": "on_land",
+  "AutoFlip": true
+}

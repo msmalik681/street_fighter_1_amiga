@@ -1,0 +1,105 @@
+{
+  "Frames": [
+    {
+      "Path": "row-1-column-2.png",
+      "Duration": 2,
+      "HandleX": -66,
+      "HandleY": -113,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-1-column-2.png",
+      "Duration": 2,
+      "HandleX": -66,
+      "HandleY": -115,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "ducking"
+    },
+    {
+      "Path": "row-1-column-2.png",
+      "Duration": 2,
+      "HandleX": -66,
+      "HandleY": -117,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-1-column-3.png",
+      "Duration": 2,
+      "HandleX": -46,
+      "HandleY": -118,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "ducking"
+    },
+    {
+      "Path": "row-1-column-3.png",
+      "Duration": 2,
+      "HandleX": -46,
+      "HandleY": -116,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-1-column-3.png",
+      "Duration": 2,
+      "HandleX": -46,
+      "HandleY": -114,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "ducking"
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": "",
+  "AutoFlip": true
+}
