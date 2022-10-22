@@ -1,0 +1,150 @@
+{
+  "Frames": [
+    {
+      "Path": null,
+      "Duration": 3,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": null,
+      "Duration": 1,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "light_punch"
+    },
+    {
+      "Path": null,
+      "Duration": 3,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "hard_kick_03_top.png",
+      "Duration": 2,
+      "HandleX": -44,
+      "HandleY": -114,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": null,
+      "Duration": 2,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "hard_kick_02_top.png",
+      "Duration": 2,
+      "HandleX": -24,
+      "HandleY": -114,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 35,
+        "Y": -85,
+        "Width": 50,
+        "Height": 38
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "hard_kick_01_top.png",
+      "Duration": 2,
+      "HandleX": -30,
+      "HandleY": -107,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": null,
+      "Duration": 2,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": null,
+      "Duration": 3,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    }
+  ],
+  "PreventMovement": true,
+  "PreventCollision": true,
+  "HideChildren": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 2,
+  "LinkedMap": null,
+  "OnFinish": "on_land",
+  "AutoFlip": true
+}

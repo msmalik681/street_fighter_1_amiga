@@ -94,13 +94,13 @@
     }
   ],
   "CollBox": {
-    "X": -4,
-    "Y": -4,
-    "Width": 8,
-    "Height": 8
+    "X": 37,
+    "Y": -78,
+    "Width": 26,
+    "Height": 23
   },
   "AttackDelay": 0,
-  "ZOrder": 0,
+  "ZOrder": 2,
   "SpeedLeft": 5.0,
   "SpeedRight": 5.0,
   "SpeedUp": 0.0,
@@ -124,9 +124,9 @@
   "JumpSound": null,
   "DivertAttack": null,
   "DivertSpawn": null,
-  "DivertPlayerCollision": null,
+  "DivertPlayerCollision": "",
   "DivertPlayerHit": null,
-  "DivertHitAgainstPlayer": null,
+  "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": null,
   "DivertOutOfScreenLeft": null,
   "DivertOutOfScreenRight": null,
@@ -145,6 +145,7 @@
     "0"
   ],
   "ControlPort": 0,
+  "JumpCancel": 2.0,
   "TileID": 1,
   "SuggestedRecycle": "Trash"
 }

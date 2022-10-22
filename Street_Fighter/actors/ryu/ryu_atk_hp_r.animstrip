@@ -28,10 +28,10 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "light_punch"
+      "OnFrame": ""
     },
     {
-      "Path": "row-1-column-7.png",
+      "Path": "block.png",
       "Duration": 2,
       "HandleX": -46,
       "HandleY": -114,
@@ -76,16 +76,16 @@
       "OnFrame": null
     },
     {
-      "Path": "row-2-column-2.png",
+      "Path": "hard_punch.png",
       "Duration": 3,
       "HandleX": -44,
       "HandleY": -112,
       "XFlipped": false,
       "HitBox": {
-        "X": 25,
-        "Y": -86,
-        "Width": 44,
-        "Height": 26
+        "X": 19,
+        "Y": -84,
+        "Width": 49,
+        "Height": 24
       },
       "HasHitBox": true,
       "OnFrame": null

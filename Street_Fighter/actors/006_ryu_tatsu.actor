@@ -1,7 +1,7 @@
 {
   "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
-  "DefaultLookDir": "left",
+  "DefaultLookDir": "right",
   "Recycle": "Default",
   "MoveType": "none",
   "MaxEntities": 0,
@@ -126,7 +126,7 @@
   "DivertSpawn": null,
   "DivertPlayerCollision": null,
   "DivertPlayerHit": null,
-  "DivertHitAgainstPlayer": null,
+  "DivertHitAgainstPlayer": "enemy_take_damage",
   "DivertProjectileCollision": null,
   "DivertOutOfScreenLeft": null,
   "DivertOutOfScreenRight": null,
@@ -142,9 +142,10 @@
     "0",
     "0",
     "0",
-    "0"
+    "10"
   ],
   "ControlPort": 0,
+  "JumpCancel": 2.0,
   "TileID": 8,
   "SuggestedRecycle": "Always"
 }

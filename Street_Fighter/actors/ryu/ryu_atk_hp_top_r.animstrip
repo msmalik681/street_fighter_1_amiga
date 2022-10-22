@@ -1,0 +1,120 @@
+{
+  "Frames": [
+    {
+      "Path": null,
+      "Duration": 3,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": null,
+      "Duration": 1,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "light_punch"
+    },
+    {
+      "Path": "block_top.png",
+      "Duration": 2,
+      "HandleX": -47,
+      "HandleY": -114,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": null,
+      "Duration": 2,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": null,
+      "Duration": 2,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "hard_punch_top.png",
+      "Duration": 3,
+      "HandleX": -45,
+      "HandleY": -112,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 19,
+        "Y": -84,
+        "Width": 49,
+        "Height": 24
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": null,
+      "Duration": 2,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    }
+  ],
+  "PreventMovement": true,
+  "PreventCollision": true,
+  "HideChildren": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": "on_land",
+  "AutoFlip": true
+}

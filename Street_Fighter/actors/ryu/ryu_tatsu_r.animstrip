@@ -272,7 +272,7 @@
     },
     {
       "Path": "row-4-column-5.png",
-      "Duration": 2,
+      "Duration": 10,
       "HandleX": -65,
       "HandleY": -117,
       "XFlipped": false,

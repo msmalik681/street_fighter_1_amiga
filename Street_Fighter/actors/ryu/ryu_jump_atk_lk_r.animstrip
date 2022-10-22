@@ -16,16 +16,16 @@
       "OnFrame": null
     },
     {
-      "Path": "row-5-column-2.png",
+      "Path": "jumping_light_kick_02.png",
       "Duration": 99,
       "HandleX": -44,
       "HandleY": -119,
       "XFlipped": false,
       "HitBox": {
-        "X": 12,
-        "Y": -57,
-        "Width": 48,
-        "Height": 32
+        "X": 8,
+        "Y": -56,
+        "Width": 52,
+        "Height": 30
       },
       "HasHitBox": true,
       "OnFrame": null
@@ -40,6 +40,6 @@
   "Multiplexes": 0,
   "LoopFrame": 0,
   "LinkedMap": null,
-  "OnFinish": "on_land",
+  "OnFinish": "",
   "AutoFlip": true
 }

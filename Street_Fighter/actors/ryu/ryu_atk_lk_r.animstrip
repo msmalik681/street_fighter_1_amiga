@@ -16,7 +16,7 @@
       "OnFrame": null
     },
     {
-      "Path": "row-1-column-9.png",
+      "Path": "light_kick.png",
       "Duration": 3,
       "HandleX": -60,
       "HandleY": -112,
@@ -24,7 +24,7 @@
       "HitBox": {
         "X": -11,
         "Y": -81,
-        "Width": 56,
+        "Width": 57,
         "Height": 34
       },
       "HasHitBox": true,
@@ -55,6 +55,6 @@
   "Multiplexes": 0,
   "LoopFrame": 0,
   "LinkedMap": null,
-  "OnFinish": "on_land",
+  "OnFinish": "",
   "AutoFlip": true
 }

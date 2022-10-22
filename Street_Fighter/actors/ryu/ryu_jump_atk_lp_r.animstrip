@@ -16,16 +16,16 @@
       "OnFrame": null
     },
     {
-      "Path": "row-5-column-4.png",
+      "Path": "jumping_light_punch_02.png",
       "Duration": 99,
       "HandleX": -58,
       "HandleY": -113,
       "XFlipped": false,
       "HitBox": {
-        "X": 9,
-        "Y": -72,
-        "Width": 35,
-        "Height": 30
+        "X": 3,
+        "Y": -76,
+        "Width": 40,
+        "Height": 38
       },
       "HasHitBox": true,
       "OnFrame": null

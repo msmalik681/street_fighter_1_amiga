@@ -1,0 +1,120 @@
+{
+  "Frames": [
+    {
+      "Path": null,
+      "Duration": 3,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": null,
+      "Duration": 1,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "light_punch"
+    },
+    {
+      "Path": null,
+      "Duration": 2,
+      "HandleX": 0,
+      "HandleY": 0,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": ""
+    },
+    {
+      "Path": "ducking_hard_kick_02_top.png",
+      "Duration": 2,
+      "HandleX": -33,
+      "HandleY": -103,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ducking_hard_kick_03_top.png",
+      "Duration": 3,
+      "HandleX": -25,
+      "HandleY": -106,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 25,
+        "Y": -21,
+        "Width": 55,
+        "Height": 23
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ducking_hard_kick_04_top.png",
+      "Duration": 2,
+      "HandleX": -49,
+      "HandleY": -94,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "ducking_hard_kick_05_top.png",
+      "Duration": 2,
+      "HandleX": -53,
+      "HandleY": -101,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    }
+  ],
+  "PreventMovement": true,
+  "PreventCollision": true,
+  "HideChildren": false,
+  "AutoSprite": false,
+  "OnlySprite": false,
+  "SpriteType": "Attached_16colors",
+  "Multiplexes": 0,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": "on_land",
+  "AutoFlip": true
+}

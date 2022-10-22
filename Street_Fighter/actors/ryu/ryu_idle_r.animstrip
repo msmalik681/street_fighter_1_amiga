@@ -13,18 +13,18 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": ""
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
-  "HideChildren": false,
+  "HideChildren": true,
   "AutoSprite": false,
   "OnlySprite": false,
   "SpriteType": "Attached_16colors",
   "Multiplexes": 0,
   "LoopFrame": 1,
   "LinkedMap": "",
-  "OnFinish": "ducking",
+  "OnFinish": "",
   "AutoFlip": true
 }

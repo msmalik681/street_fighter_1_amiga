@@ -28,7 +28,7 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "light_punch"
+      "OnFrame": ""
     },
     {
       "Path": "row-2-column-5.png",
@@ -46,7 +46,7 @@
       "OnFrame": null
     },
     {
-      "Path": "row-2-column-10.png",
+      "Path": "hard_kick_03.png",
       "Duration": 2,
       "HandleX": -43,
       "HandleY": -114,
@@ -76,22 +76,22 @@
       "OnFrame": null
     },
     {
-      "Path": "row-2-column-8.png",
+      "Path": "hard_kick_02.png",
       "Duration": 2,
       "HandleX": -23,
       "HandleY": -114,
       "XFlipped": false,
       "HitBox": {
-        "X": 27,
+        "X": 35,
         "Y": -85,
-        "Width": 61,
+        "Width": 50,
         "Height": 38
       },
       "HasHitBox": true,
       "OnFrame": null
     },
     {
-      "Path": "row-2-column-7.png",
+      "Path": "hard_kick_01.png",
       "Duration": 2,
       "HandleX": -29,
       "HandleY": -107,
@@ -145,6 +145,6 @@
   "Multiplexes": 0,
   "LoopFrame": 2,
   "LinkedMap": null,
-  "OnFinish": "on_land",
+  "OnFinish": "",
   "AutoFlip": true
 }

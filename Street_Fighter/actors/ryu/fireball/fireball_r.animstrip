@@ -12,7 +12,7 @@
         "Width": 26,
         "Height": 26
       },
-      "HasHitBox": true,
+      "HasHitBox": false,
       "OnFrame": null
     },
     {
@@ -27,7 +27,7 @@
         "Width": 29,
         "Height": 26
       },
-      "HasHitBox": true,
+      "HasHitBox": false,
       "OnFrame": null
     }
   ],

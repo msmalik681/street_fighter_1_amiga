@@ -126,25 +126,26 @@
   "DivertSpawn": "",
   "DivertPlayerCollision": null,
   "DivertPlayerHit": "",
-  "DivertHitAgainstPlayer": null,
+  "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": null,
-  "DivertOutOfScreenLeft": null,
-  "DivertOutOfScreenRight": null,
+  "DivertOutOfScreenLeft": "snap_to_screen",
+  "DivertOutOfScreenRight": "snap_to_screen",
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
   "DivertPlatformLand": "on_land",
-  "DivertTimer": "ryu_ontimer",
+  "DivertTimer": "",
   "DivertTimerFrames": 0,
   "Vars": [
     "1",
     "0",
     "0",
-    "1",
     "0",
-    "0"
+    "0",
+    "8"
   ],
   "ControlPort": 1,
+  "JumpCancel": 2.0,
   "TileID": 9,
   "SuggestedRecycle": "Never"
 }

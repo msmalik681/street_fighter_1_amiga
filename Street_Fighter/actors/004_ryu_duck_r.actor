@@ -126,7 +126,7 @@
   "DivertSpawn": null,
   "DivertPlayerCollision": null,
   "DivertPlayerHit": null,
-  "DivertHitAgainstPlayer": null,
+  "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": null,
   "DivertOutOfScreenLeft": null,
   "DivertOutOfScreenRight": null,
@@ -142,9 +142,10 @@
     "0",
     "1",
     "0",
-    "0"
+    "7"
   ],
   "ControlPort": 1,
+  "JumpCancel": 2.0,
   "TileID": 6,
   "SuggestedRecycle": "Never"
 }

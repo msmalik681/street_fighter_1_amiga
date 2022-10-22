@@ -1,10 +1,10 @@
 {
   "Frames": [
     {
-      "Path": "tile023.png",
-      "Duration": 5,
-      "HandleX": -28,
-      "HandleY": -48,
+      "Path": "5030-10.png",
+      "Duration": 999,
+      "HandleX": -32,
+      "HandleY": -86,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -16,8 +16,8 @@
       "OnFrame": null
     }
   ],
-  "PreventMovement": false,
-  "PreventCollision": false,
+  "PreventMovement": true,
+  "PreventCollision": true,
   "HideChildren": false,
   "AutoSprite": false,
   "OnlySprite": false,

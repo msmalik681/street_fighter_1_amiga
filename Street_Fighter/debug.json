@@ -2091,7 +2091,7 @@
     {
       "CodeBlock": "startup",
       "Name": "enemy_number",
-      "DefaultValue": "6",
+      "DefaultValue": "11",
       "Index": 194,
       "MemoryOffset": 194
     },
@@ -2101,6 +2101,90 @@
       "DefaultValue": "0",
       "Index": 195,
       "MemoryOffset": 195
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "spawn_top",
+      "DefaultValue": "0",
+      "Index": 196,
+      "MemoryOffset": 196
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "light_atk_top",
+      "DefaultValue": "0",
+      "Index": 197,
+      "MemoryOffset": 197
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "temp",
+      "DefaultValue": "0",
+      "Index": 198,
+      "MemoryOffset": 198
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "e_atk_damage",
+      "DefaultValue": "0",
+      "Index": 199,
+      "MemoryOffset": 199
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "p1_life",
+      "DefaultValue": "10",
+      "Index": 200,
+      "MemoryOffset": 200
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "p2_life",
+      "DefaultValue": "10",
+      "Index": 201,
+      "MemoryOffset": 201
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "atk_damage",
+      "DefaultValue": "0",
+      "Index": 202,
+      "MemoryOffset": 202
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "p1_score",
+      "DefaultValue": "0",
+      "Index": 203,
+      "MemoryOffset": 203
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "player_flash_x",
+      "DefaultValue": "0",
+      "Index": 204,
+      "MemoryOffset": 204
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "player_flash_y",
+      "DefaultValue": "0",
+      "Index": 205,
+      "MemoryOffset": 205
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "enemy_flash_x",
+      "DefaultValue": "0",
+      "Index": 206,
+      "MemoryOffset": 206
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "enemy_flash_y",
+      "DefaultValue": "0",
+      "Index": 207,
+      "MemoryOffset": 207
     }
   ],
   "Lines": [
@@ -2114,13 +2198,13 @@
       "CodeBlock": "project",
       "CodeBlockLine": 0,
       "MemoryOffset": 6,
-      "Description": "Core operation'SetControlMode'"
+      "Description": "Set 'controlmode' to '1'"
     },
     {
       "CodeBlock": "project",
       "CodeBlockLine": 0,
-      "MemoryOffset": 10,
-      "Description": "Raw expression '1'"
+      "MemoryOffset": 12,
+      "Description": "Core operation'SetControlMode'"
     },
     {
       "CodeBlock": "project",
@@ -2198,12 +2282,18 @@
       "CodeBlock": "destroy_all_actors",
       "CodeBlockLine": 1,
       "MemoryOffset": 220,
+      "Description": "Raw expression 'none'"
+    },
+    {
+      "CodeBlock": "destroy_all_actors",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 226,
       "Description": "Core operation'Foreach'"
     },
     {
       "CodeBlock": "destroy_all_actors",
       "CodeBlockLine": 1,
-      "MemoryOffset": 224,
+      "MemoryOffset": 230,
       "Description": "Foreach 'none' do 'destroy_actor'"
     },
     {
@@ -2240,25 +2330,25 @@
       "CodeBlock": "destroy_all_blocks",
       "CodeBlockLine": 5,
       "MemoryOffset": 314,
-      "Description": "Core operation'BlockSet'"
-    },
-    {
-      "CodeBlock": "destroy_all_blocks",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 318,
       "Description": "Raw expression 'none'"
     },
     {
       "CodeBlock": "destroy_all_blocks",
       "CodeBlockLine": 5,
-      "MemoryOffset": 324,
+      "MemoryOffset": 320,
       "Description": "Raw expression 'block_x'"
     },
     {
       "CodeBlock": "destroy_all_blocks",
       "CodeBlockLine": 5,
-      "MemoryOffset": 334,
+      "MemoryOffset": 330,
       "Description": "Raw expression 'block_y'"
+    },
+    {
+      "CodeBlock": "destroy_all_blocks",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 340,
+      "Description": "Core operation'BlockSet'"
     },
     {
       "CodeBlock": "destroy_all_blocks",
@@ -2294,25 +2384,25 @@
       "CodeBlock": "destroy_block",
       "CodeBlockLine": 1,
       "MemoryOffset": 412,
-      "Description": "Core operation'BlockSet'"
-    },
-    {
-      "CodeBlock": "destroy_block",
-      "CodeBlockLine": 1,
-      "MemoryOffset": 416,
       "Description": "Raw expression 'none'"
     },
     {
       "CodeBlock": "destroy_block",
       "CodeBlockLine": 1,
-      "MemoryOffset": 422,
+      "MemoryOffset": 418,
       "Description": "Raw expression 'block_x'"
     },
     {
       "CodeBlock": "destroy_block",
       "CodeBlockLine": 1,
-      "MemoryOffset": 432,
+      "MemoryOffset": 428,
       "Description": "Raw expression 'block_y'"
+    },
+    {
+      "CodeBlock": "destroy_block",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 438,
+      "Description": "Core operation'BlockSet'"
     },
     {
       "CodeBlock": "do_teleport",
@@ -2378,73 +2468,73 @@
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 8,
       "MemoryOffset": 632,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'player_type'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 8,
-      "MemoryOffset": 636,
-      "Description": "Raw expression 'player_type'"
+      "MemoryOffset": 652,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 9,
       "MemoryOffset": 656,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'player_var1'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 9,
-      "MemoryOffset": 660,
-      "Description": "Raw expression 'player_var1'"
+      "MemoryOffset": 676,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 10,
       "MemoryOffset": 680,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'player_var2'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 10,
-      "MemoryOffset": 684,
-      "Description": "Raw expression 'player_var2'"
+      "MemoryOffset": 700,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 11,
       "MemoryOffset": 704,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'player_var3'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 11,
-      "MemoryOffset": 708,
-      "Description": "Raw expression 'player_var3'"
+      "MemoryOffset": 724,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 12,
       "MemoryOffset": 728,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'player_var4'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 12,
-      "MemoryOffset": 732,
-      "Description": "Raw expression 'player_var4'"
+      "MemoryOffset": 748,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 13,
       "MemoryOffset": 752,
-      "Description": "Core operation'PushToStack'"
+      "Description": "Raw expression 'player_var5'"
     },
     {
       "CodeBlock": "do_teleport",
       "CodeBlockLine": 13,
-      "MemoryOffset": 756,
-      "Description": "Raw expression 'player_var5'"
+      "MemoryOffset": 772,
+      "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "do_teleport",
@@ -2570,7 +2660,7 @@
       "CodeBlock": "flipscreen_smooth",
       "CodeBlockLine": 3,
       "MemoryOffset": 1134,
-      "Description": "Set 'wait' to '1'"
+      "Description": "Set 'wait' to '2'"
     },
     {
       "CodeBlock": "flipscreen_smooth",
@@ -2600,7 +2690,7 @@
       "CodeBlock": "flipscreen_smooth",
       "CodeBlockLine": 7,
       "MemoryOffset": 1216,
-      "Description": "Set 'wait' to '1'"
+      "Description": "Set 'wait' to '2'"
     },
     {
       "CodeBlock": "flipscreen_smooth",
@@ -2630,7 +2720,7 @@
       "CodeBlock": "flipscreen_smooth",
       "CodeBlockLine": 11,
       "MemoryOffset": 1298,
-      "Description": "Set 'wait' to '1'"
+      "Description": "Set 'wait' to '2'"
     },
     {
       "CodeBlock": "flipscreen_smooth",
@@ -2660,7 +2750,7 @@
       "CodeBlock": "flipscreen_smooth",
       "CodeBlockLine": 15,
       "MemoryOffset": 1380,
-      "Description": "Set 'wait' to '1'"
+      "Description": "Set 'wait' to '2'"
     },
     {
       "CodeBlock": "flipscreen_smooth",
@@ -3806,7 +3896,7 @@
       "CodeBlock": "pre_quit",
       "CodeBlockLine": 6,
       "MemoryOffset": 3830,
-      "Description": "Set 'wait' to '1'"
+      "Description": "Set 'wait' to '2'"
     },
     {
       "CodeBlock": "pre_quit",
@@ -4556,12 +4646,18 @@
       "CodeBlock": "check_direction",
       "CodeBlockLine": 1,
       "MemoryOffset": 5772,
+      "Description": "Raw expression 'none'"
+    },
+    {
+      "CodeBlock": "check_direction",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 5778,
       "Description": "Core operation'Foreach'"
     },
     {
       "CodeBlock": "check_direction",
       "CodeBlockLine": 1,
-      "MemoryOffset": 5776,
+      "MemoryOffset": 5782,
       "Description": "Foreach 'none' do 'enemy_x'"
     },
     {
@@ -4610,2149 +4706,4023 @@
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 1,
       "MemoryOffset": 5918,
-      "Description": "If 'player_x' GreaterThan 'actor_x'"
-    },
-    {
-      "CodeBlock": "enemy_ai",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 5956,
-      "Description": "Set 'e_dir' to '0'"
-    },
-    {
-      "CodeBlock": "enemy_ai",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 5962,
-      "Description": "Set 'e_velo' to '1'"
-    },
-    {
-      "CodeBlock": "enemy_ai",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 5968,
-      "Description": "GOTO '00005986'"
+      "Description": "If 'actor_var1' Equals '5' ELSE GOTO 00005974"
     },
     {
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 5,
       "MemoryOffset": 5974,
-      "Description": "Set 'e_dir' to '1'"
+      "Description": "If 'player_x' GreaterThan 'actor_x'"
     },
     {
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 6,
-      "MemoryOffset": 5980,
-      "Description": "Set 'e_velo' to '-1'"
+      "MemoryOffset": 6012,
+      "Description": "Set 'e_dir' to '0'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6018,
+      "Description": "Set 'e_velo' to '1'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6024,
+      "Description": "GOTO '00006042'"
     },
     {
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 9,
-      "MemoryOffset": 5986,
-      "Description": "If 'actor_type' NotEquals '1 + enemy_number + e_dir' ELSE GOTO 00006068"
-    },
-    {
-      "CodeBlock": "enemy_ai",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 6018,
-      "Description": "Set 'actor_type' to '1 + enemy_number + e_dir'"
-    },
-    {
-      "CodeBlock": "enemy_ai",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 6032,
-      "Description": "Core operation'RefreshActorVariable'"
+      "MemoryOffset": 6030,
+      "Description": "Set 'e_dir' to '1'"
     },
     {
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 10,
       "MemoryOffset": 6036,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+      "Description": "Set 'e_velo' to '-1'"
     },
     {
       "CodeBlock": "enemy_ai",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 6040,
-      "Description": "Set 'actor_lookdir' to 'reset_movement'"
+      "CodeBlockLine": 13,
+      "MemoryOffset": 6042,
+      "Description": "If 'actor_type' NotEquals 'enemy_number + e_dir' ELSE GOTO 00006124"
     },
     {
       "CodeBlock": "enemy_ai",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 6046,
+      "CodeBlockLine": 14,
+      "MemoryOffset": 6074,
+      "Description": "Set 'actor_type' to 'enemy_number + e_dir'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 6088,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "enemy_ai",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 6050,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "enemy_ai",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 6054,
-      "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
-    },
-    {
-      "CodeBlock": "enemy_ai",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 6060,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "enemy_ai",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 6064,
+      "CodeBlockLine": 14,
+      "MemoryOffset": 6092,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 14,
-      "MemoryOffset": 6068,
+      "MemoryOffset": 6096,
+      "Description": "Set 'actor_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 6102,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 6106,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 6110,
+      "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 6116,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 6120,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 6124,
       "Description": "Set 'enemy_range' to 'player_x - actor_x'"
     },
     {
       "CodeBlock": "enemy_ai",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 6102,
-      "Description": "If 'enemy_range' LessThan '0' ELSE GOTO 00006130"
-    },
-    {
-      "CodeBlock": "enemy_ai",
-      "CodeBlockLine": 16,
-      "MemoryOffset": 6116,
-      "Description": "Set 'enemy_range' to 'enemy_range * -1'"
+      "CodeBlockLine": 19,
+      "MemoryOffset": 6158,
+      "Description": "If 'enemy_range' LessThan '0' ELSE GOTO 00006186"
     },
     {
       "CodeBlock": "enemy_ai",
       "CodeBlockLine": 20,
-      "MemoryOffset": 6130,
-      "Description": "If 'enemy_range' LessThan '70' ELSE GOTO 00006144"
+      "MemoryOffset": 6172,
+      "Description": "Set 'enemy_range' to 'enemy_range * -1'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 6186,
+      "Description": "If 'enemy_range' LessThan '70' ELSE GOTO 00006272"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 6200,
+      "Description": "Set 'dice' to '20'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 6206,
+      "Description": "Core operation'RollDice'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 6210,
+      "Description": "Set 'e_atk_damage' to 'dice'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 6220,
+      "Description": "If 'e_atk_damage' Equals '1' ELSE GOTO 00006272"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 6234,
+      "Description": "Set 'e_atk_damage' to '2'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 28,
+      "MemoryOffset": 6240,
+      "Description": "Set 'actor_animation' to 'retsu_atk_hp_r + e_dir'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 28,
+      "MemoryOffset": 6250,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 28,
+      "MemoryOffset": 6254,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 6258,
+      "Description": "Set 'actor_var1' to '5'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 6264,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_ai",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 6268,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_jump",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6176,
+      "MemoryOffset": 6304,
       "Description": "RYU_JUMP"
     },
     {
       "CodeBlock": "ryu_jump",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6176,
-      "Description": "If 'control1_x' NotZero '0' ELSE GOTO 00006206"
+      "MemoryOffset": 6304,
+      "Description": "If 'control1_x' NotZero '0' ELSE GOTO 00006334"
     },
     {
       "CodeBlock": "ryu_jump",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6188,
+      "MemoryOffset": 6316,
       "Description": "Set 'player_animation' to 'ryu_jump_forward_r + dir'"
     },
     {
       "CodeBlock": "ryu_jump",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6198,
+      "MemoryOffset": 6326,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_jump",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6202,
+      "MemoryOffset": 6330,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_jump",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6206,
-      "Description": "Set 'pushframes' to '15'"
+      "MemoryOffset": 6334,
+      "Description": "Set 'pushframes' to '30'"
     },
     {
       "CodeBlock": "ryu_jump",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6212,
+      "MemoryOffset": 6340,
       "Description": "Set 'player_ypush' to '-180'"
     },
     {
       "CodeBlock": "ryu_jump",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6220,
+      "MemoryOffset": 6348,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_jump",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6224,
+      "MemoryOffset": 6352,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_jump",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6228,
-      "Description": "Set 'pushframes' to '60'"
+      "MemoryOffset": 6356,
+      "Description": "Set 'pushframes' to '120'"
     },
     {
       "CodeBlock": "ryu_jump",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6234,
+      "MemoryOffset": 6362,
       "Description": "Set 'player_xpush' to '250 * control1_x'"
     },
     {
       "CodeBlock": "ryu_jump",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6246,
+      "MemoryOffset": 6374,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_jump",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6250,
+      "MemoryOffset": 6378,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_jump",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6254,
+      "MemoryOffset": 6382,
       "Description": "Set 'player_var1' to '2'"
     },
     {
       "CodeBlock": "ryu_jump",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6260,
+      "MemoryOffset": 6388,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_jump",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6264,
+      "MemoryOffset": 6392,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 6428,
+      "Description": "CAMERA"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 6428,
+      "Description": "If 'actor_tag' Equals '50' ELSE GOTO 00006720"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 6452,
+      "Description": "Set 'actor_var3' to 'player_x + player_var4'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 6486,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 6490,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6494,
+      "Description": "Set 'actor_var3' to 'actor_var3 / 2'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6520,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6524,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6528,
+      "Description": "If 'actor_var3' LessThan 'actor_x - 4'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6568,
+      "Description": "Set 'actor_lookdir' to 'move_left'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6574,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6578,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6582,
+      "Description": "GOTO '00006690'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 6588,
+      "Description": "If 'actor_var3' GreaterThan 'actor_x + 4'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6628,
+      "Description": "Set 'actor_lookdir' to 'move_right'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6634,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 6638,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 6642,
+      "Description": "GOTO '00006690'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 6648,
+      "Description": "Set 'actor_x' to 'actor_var3'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 6668,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 6672,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 6676,
+      "Description": "Set 'actor_lookdir' to 'stop_moving'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 6682,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 6686,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "camera",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 6690,
+      "Description": "Set 'camera_x' to '0 - xres / 2 + actor_x'"
+    },
+    {
+      "CodeBlock": "damage_light_standing_gosub",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 6752,
+      "Description": "DAMAGE_LIGHT_STANDING_GOSUB"
+    },
+    {
+      "CodeBlock": "damage_light_standing_gosub",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 6752,
+      "Description": "Set 'player_var1' to '3'"
+    },
+    {
+      "CodeBlock": "damage_light_standing_gosub",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 6758,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "damage_light_standing_gosub",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 6762,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "damage_light_standing_gosub",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6766,
+      "Description": "Set 'actor_animation' to 'ryu_hurt_stand_top_r + dir'"
+    },
+    {
+      "CodeBlock": "damage_light_standing_gosub",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6776,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "damage_light_standing_gosub",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 6780,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "damage_light_standing_gosub",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 6784,
+      "Description": "Set 'player_animation' to 'ryu_hurt_stand_r + dir'"
+    },
+    {
+      "CodeBlock": "damage_light_standing_gosub",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 6794,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "damage_light_standing_gosub",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 6798,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "damage_light_standing_gosub",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6802,
+      "Description": "Set 'pushframes' to '20'"
+    },
+    {
+      "CodeBlock": "damage_light_standing_gosub",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6808,
+      "Description": "Set 'player_xpush' to '-30 * velo'"
+    },
+    {
+      "CodeBlock": "damage_light_standing_gosub",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6818,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "damage_light_standing_gosub",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 6822,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ducking",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6300,
+      "MemoryOffset": 6890,
       "Description": "DUCKING"
     },
     {
       "CodeBlock": "ducking",
       "CodeBlockLine": 3,
-      "MemoryOffset": 6300,
+      "MemoryOffset": 6890,
       "Description": "If 'control1_y' Equals '1'"
     },
     {
       "CodeBlock": "ducking",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6314,
-      "Description": "If 'player_type' NotEquals '4 + dir' ELSE GOTO 00006402"
+      "MemoryOffset": 6904,
+      "Description": "If 'player_var1' Equals '1' ELSE GOTO 00007016"
     },
     {
       "CodeBlock": "ducking",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6342,
+      "MemoryOffset": 6928,
+      "Description": "If 'player_type' NotEquals '4 + dir' ELSE GOTO 00007016"
+    },
+    {
+      "CodeBlock": "ducking",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6956,
       "Description": "Set 'player_type' to '4 + dir'"
     },
     {
       "CodeBlock": "ducking",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6352,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6966,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ducking",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6356,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6970,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ducking",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6360,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6974,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "ducking",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6366,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6980,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ducking",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6370,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6984,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ducking",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6374,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6988,
       "Description": "Set 'player_animation' to 'Trigger_CancelAnimation'"
     },
     {
       "CodeBlock": "ducking",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6380,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6994,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ducking",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6384,
+      "CodeBlockLine": 6,
+      "MemoryOffset": 6998,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ducking",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6388,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 7002,
       "Description": "Set 'player_var1' to '0'"
     },
     {
       "CodeBlock": "ducking",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6394,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 7008,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ducking",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6398,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 7012,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ducking",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 6402,
-      "Description": "If 'player_var1' Equals '0' ELSE GOTO 00006526"
-    },
-    {
-      "CodeBlock": "ducking",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 6426,
-      "Description": "If 'control1fire' NotZero '0' ELSE GOTO 00006526"
-    },
-    {
-      "CodeBlock": "ducking",
       "CodeBlockLine": 11,
-      "MemoryOffset": 6438,
-      "Description": "Set 'player_var1' to '6'"
-    },
-    {
-      "CodeBlock": "ducking",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 6444,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "ducking",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 6448,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+      "MemoryOffset": 7016,
+      "Description": "If 'player_var1' Equals '0' ELSE GOTO 00007202"
     },
     {
       "CodeBlock": "ducking",
       "CodeBlockLine": 12,
-      "MemoryOffset": 6452,
-      "Description": "If 'control1_x' NotZero '0'"
+      "MemoryOffset": 7040,
+      "Description": "If 'control1fire' NotZero '0' ELSE GOTO 00007202"
     },
     {
       "CodeBlock": "ducking",
       "CodeBlockLine": 13,
-      "MemoryOffset": 6464,
-      "Description": "Set 'light_atk' to 'ryu_duck_atk_lk_r + dir'"
+      "MemoryOffset": 7052,
+      "Description": "Set 'player_var1' to '6'"
     },
     {
       "CodeBlock": "ducking",
-      "CodeBlockLine": 14,
-      "MemoryOffset": 6474,
-      "Description": "Set 'player_animation' to 'ryu_duck_atk_hk_r + dir'"
-    },
-    {
-      "CodeBlock": "ducking",
-      "CodeBlockLine": 14,
-      "MemoryOffset": 6484,
+      "CodeBlockLine": 13,
+      "MemoryOffset": 7058,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ducking",
-      "CodeBlockLine": 14,
-      "MemoryOffset": 6488,
+      "CodeBlockLine": 13,
+      "MemoryOffset": 7062,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ducking",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 7066,
+      "Description": "Set 'atk_damage' to '2'"
     },
     {
       "CodeBlock": "ducking",
       "CodeBlockLine": 15,
-      "MemoryOffset": 6492,
-      "Description": "GOTO '00006526'"
+      "MemoryOffset": 7072,
+      "Description": "If 'control1_x' NotZero '0'"
     },
     {
       "CodeBlock": "ducking",
       "CodeBlockLine": 16,
-      "MemoryOffset": 6498,
-      "Description": "Set 'light_atk' to 'ryu_duck_atk_lp_r + dir'"
+      "MemoryOffset": 7084,
+      "Description": "Set 'light_atk_top' to 'ryu_duck_atk_lk_top_r + dir'"
     },
     {
       "CodeBlock": "ducking",
       "CodeBlockLine": 17,
-      "MemoryOffset": 6508,
-      "Description": "Set 'player_animation' to 'ryu_duck_atk_hp_r + dir'"
+      "MemoryOffset": 7094,
+      "Description": "Set 'light_atk' to 'ryu_duck_atk_lk_r + dir'"
     },
     {
       "CodeBlock": "ducking",
-      "CodeBlockLine": 17,
-      "MemoryOffset": 6518,
+      "CodeBlockLine": 18,
+      "MemoryOffset": 7104,
+      "Description": "Set 'actor_animation' to 'ryu_duck_atk_hk_top_r + dir'"
+    },
+    {
+      "CodeBlock": "ducking",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 7114,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ducking",
-      "CodeBlockLine": 17,
-      "MemoryOffset": 6522,
+      "CodeBlockLine": 18,
+      "MemoryOffset": 7118,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ducking",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 7122,
+      "Description": "Set 'player_animation' to 'ryu_duck_atk_hk_r + dir'"
+    },
+    {
+      "CodeBlock": "ducking",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 7132,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ducking",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 7136,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ducking",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 7140,
+      "Description": "GOTO '00007202'"
+    },
+    {
+      "CodeBlock": "ducking",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 7146,
+      "Description": "Set 'light_atk_top' to 'ryu_duck_atk_lp_top_r + dir'"
+    },
+    {
+      "CodeBlock": "ducking",
       "CodeBlockLine": 22,
-      "MemoryOffset": 6526,
-      "Description": "GOTO '00006580'"
+      "MemoryOffset": 7156,
+      "Description": "Set 'light_atk' to 'ryu_duck_atk_lp_r + dir'"
     },
     {
       "CodeBlock": "ducking",
       "CodeBlockLine": 23,
-      "MemoryOffset": 6532,
-      "Description": "If 'player_type' NotEquals '2 + dir' ELSE GOTO 00006580"
+      "MemoryOffset": 7166,
+      "Description": "Set 'actor_animation' to 'ryu_duck_atk_hp_top_r + dir'"
+    },
+    {
+      "CodeBlock": "ducking",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7176,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ducking",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7180,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ducking",
       "CodeBlockLine": 24,
-      "MemoryOffset": 6560,
+      "MemoryOffset": 7184,
+      "Description": "Set 'player_animation' to 'ryu_duck_atk_hp_r + dir'"
+    },
+    {
+      "CodeBlock": "ducking",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 7194,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ducking",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 7198,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ducking",
+      "CodeBlockLine": 29,
+      "MemoryOffset": 7202,
+      "Description": "GOTO '00007280'"
+    },
+    {
+      "CodeBlock": "ducking",
+      "CodeBlockLine": 31,
+      "MemoryOffset": 7208,
+      "Description": "If 'player_var1' Equals '0' ELSE GOTO 00007280"
+    },
+    {
+      "CodeBlock": "ducking",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 7232,
+      "Description": "If 'player_type' NotEquals '2 + dir' ELSE GOTO 00007280"
+    },
+    {
+      "CodeBlock": "ducking",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 7260,
       "Description": "GOSUB TO 'ON_LAND'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 7312,
+      "Description": "ENEMY_ON_LAND"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 7312,
+      "Description": "Set 'actor_type' to 'enemy_number + e_dir'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 7326,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 7330,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 7334,
+      "Description": "Set 'actor_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 7340,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 7344,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 7348,
+      "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 7354,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 7358,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7362,
+      "Description": "Set 'pushframes' to '2'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7368,
+      "Description": "Set 'actor_xpush' to '0'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7374,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7378,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7382,
+      "Description": "Set 'actor_ypush' to '0'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7388,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7392,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 7396,
+      "Description": "Set 'actor_var1' to '1'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 7402,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_on_land",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 7406,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 7442,
+      "Description": "ENEMY_TAKE_DAMAGE"
+    },
+    {
+      "CodeBlock": "enemy_take_damage",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7442,
+      "Description": "Raw expression 'enemy_number + e_dir'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7456,
+      "Description": "Core operation'Foreach'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 7460,
+      "Description": "Foreach 'enemy_number + e_dir' do 'enemy_take_damage_gosub'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 7496,
+      "Description": "ENEMY_TAKE_DAMAGE_GOSUB"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 7496,
+      "Description": "If 'actor_tag' Equals '20' ELSE GOTO 00008148"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 7520,
+      "Description": "If 'atk_damage' LessThanOrEqual '1' ELSE GOTO 00007870"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 7534,
+      "Description": "Set 'temp' to '0'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 7540,
+      "Description": "If 'actor_var1' Equals '1'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 7564,
+      "Description": "Set 'temp' to '1'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 7570,
+      "Description": "GOTO '00007606'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 7576,
+      "Description": "If 'actor_var1' Equals '5' ELSE GOTO 00007606"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 12,
+      "MemoryOffset": 7600,
+      "Description": "Set 'temp' to '1'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 7606,
+      "Description": "If 'temp' NotZero '0' ELSE GOTO 00007864"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 7618,
+      "Description": "Set 'actor_spawn' to '010_flash'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 7624,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 7628,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 7632,
+      "Description": "Set 'new_animation' to 'flash_hit'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 7638,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 7642,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 7646,
+      "Description": "Set 'new_x' to 'player_x + player_flash_x'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 7670,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 7674,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 7678,
+      "Description": "Set 'new_y' to 'player_y + player_flash_y'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 7702,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 7706,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 7710,
+      "Description": "Set 'pushframes' to '2'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 7716,
+      "Description": "Set 'new_xpush' to '0'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 7722,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 7726,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 7730,
+      "Description": "Set 'new_ypush' to '0'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 7736,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 7740,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 7744,
+      "Description": "Set 'actor_animation' to 'retsu_hurt_stand_r + e_dir'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 7754,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 7758,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 7762,
+      "Description": "Set 'pushframes' to '20'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 7768,
+      "Description": "Set 'actor_xpush' to '-30 * e_velo'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 7778,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 7782,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7786,
+      "Description": "If 'p2_life' NotEquals 'p2_life - atk_damage' ELSE GOTO 00007826"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7808,
+      "Description": "Set 'p2_life' to 'p2_life - atk_damage'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 7822,
+      "Description": "Core operation'RefreshUI'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 7826,
+      "Description": "Set 'temp' to '0'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 7864,
+      "Description": "Set 'temp' to '0'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 31,
+      "MemoryOffset": 7870,
+      "Description": "Set 'actor_spawn' to '010_flash'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 31,
+      "MemoryOffset": 7876,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 31,
+      "MemoryOffset": 7880,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 7884,
+      "Description": "Set 'new_animation' to 'flash_hit'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 7890,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 7894,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 7898,
+      "Description": "Set 'new_x' to 'player_x + player_flash_x'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 7922,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 7926,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 7930,
+      "Description": "Set 'new_y' to 'player_y + player_flash_y'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 7954,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 7958,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 34,
+      "MemoryOffset": 7962,
+      "Description": "Set 'pushframes' to '2'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 34,
+      "MemoryOffset": 7968,
+      "Description": "Set 'new_xpush' to '0'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 34,
+      "MemoryOffset": 7974,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 34,
+      "MemoryOffset": 7978,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 34,
+      "MemoryOffset": 7982,
+      "Description": "Set 'new_ypush' to '0'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 34,
+      "MemoryOffset": 7988,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 34,
+      "MemoryOffset": 7992,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 36,
+      "MemoryOffset": 7996,
+      "Description": "Set 'actor_var1' to '4'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 36,
+      "MemoryOffset": 8002,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 36,
+      "MemoryOffset": 8006,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 37,
+      "MemoryOffset": 8010,
+      "Description": "Set 'actor_animation' to 'retsu_fall_r + e_dir'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 37,
+      "MemoryOffset": 8020,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 37,
+      "MemoryOffset": 8024,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 38,
+      "MemoryOffset": 8028,
+      "Description": "Set 'pushframes' to '16'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 38,
+      "MemoryOffset": 8034,
+      "Description": "Set 'actor_ypush' to '-50'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 38,
+      "MemoryOffset": 8040,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 38,
+      "MemoryOffset": 8044,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 39,
+      "MemoryOffset": 8048,
+      "Description": "Set 'pushframes' to '140'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 39,
+      "MemoryOffset": 8056,
+      "Description": "Set 'actor_xpush' to '-350 * e_velo'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 39,
+      "MemoryOffset": 8068,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 39,
+      "MemoryOffset": 8072,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 40,
+      "MemoryOffset": 8076,
+      "Description": "If 'p2_life' NotEquals 'p2_life - atk_damage' ELSE GOTO 00008116"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 40,
+      "MemoryOffset": 8098,
+      "Description": "Set 'p2_life' to 'p2_life - atk_damage'"
+    },
+    {
+      "CodeBlock": "enemy_take_damage_gosub",
+      "CodeBlockLine": 40,
+      "MemoryOffset": 8112,
+      "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "enemy_x",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6612,
+      "MemoryOffset": 8180,
       "Description": "ENEMY_X"
     },
     {
       "CodeBlock": "enemy_x",
       "CodeBlockLine": 1,
-      "MemoryOffset": 6612,
-      "Description": "If 'actor_var4' Equals '10' ELSE GOTO 00006664"
+      "MemoryOffset": 8180,
+      "Description": "If 'actor_var4' Equals '10' ELSE GOTO 00008232"
     },
     {
       "CodeBlock": "enemy_x",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6636,
+      "MemoryOffset": 8204,
       "Description": "Set 'player_var4' to 'actor_x'"
     },
     {
       "CodeBlock": "enemy_x",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6656,
+      "MemoryOffset": 8224,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "enemy_x",
       "CodeBlockLine": 2,
-      "MemoryOffset": 6660,
+      "MemoryOffset": 8228,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "fireball_hit",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 8264,
+      "Description": "FIREBALL_HIT"
+    },
+    {
+      "CodeBlock": "fireball_hit",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 8264,
+      "Description": "Set 'projectile_animation' to 'fireball_hit'"
+    },
+    {
+      "CodeBlock": "fireball_hit",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 8270,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "fireball_hit",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 8274,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "fireball_hit",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 8278,
+      "Description": "Set 'projectile_xspeed' to '16384'"
+    },
+    {
+      "CodeBlock": "fireball_hit",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 8286,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "fireball_hit",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 8290,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "fireball_hit",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8294,
+      "Description": "Set 'atk_damage' to '2'"
+    },
+    {
+      "CodeBlock": "fireball_hit",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 8300,
+      "Description": "GOSUB TO 'ENEMY_TAKE_DAMAGE'"
     },
     {
       "CodeBlock": "light_punch",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6696,
+      "MemoryOffset": 8352,
       "Description": "LIGHT_PUNCH"
     },
     {
       "CodeBlock": "light_punch",
-      "CodeBlockLine": 1,
-      "MemoryOffset": 6696,
-      "Description": "If 'control1fire' Equals '0' ELSE GOTO 00006728"
+      "CodeBlockLine": 2,
+      "MemoryOffset": 8352,
+      "Description": "If 'control1fire' Equals '0'"
     },
     {
       "CodeBlock": "light_punch",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6710,
+      "CodeBlockLine": 3,
+      "MemoryOffset": 8366,
+      "Description": "If 'actor_animation' Equals 'ryu_atk_hp_top_r + dir' ELSE GOTO 00008418"
+    },
+    {
+      "CodeBlock": "light_punch",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 8402,
+      "Description": "Set 'player_flash_x' to '52 * velo'"
+    },
+    {
+      "CodeBlock": "light_punch",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 8412,
+      "Description": "Set 'player_flash_y' to '-77'"
+    },
+    {
+      "CodeBlock": "light_punch",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 8418,
+      "Description": "Set 'atk_damage' to '1'"
+    },
+    {
+      "CodeBlock": "light_punch",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 8424,
+      "Description": "Set 'actor_animation' to 'light_atk_top'"
+    },
+    {
+      "CodeBlock": "light_punch",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 8434,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "light_punch",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 8438,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "light_punch",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 8442,
       "Description": "Set 'player_animation' to 'light_atk'"
     },
     {
       "CodeBlock": "light_punch",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6720,
+      "CodeBlockLine": 10,
+      "MemoryOffset": 8452,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "light_punch",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 6724,
+      "CodeBlockLine": 10,
+      "MemoryOffset": 8456,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "light_punch",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6728,
-      "Description": "Core operation'Sound'"
+      "CodeBlockLine": 11,
+      "MemoryOffset": 8460,
+      "Description": "GOTO '00008518'"
     },
     {
       "CodeBlock": "light_punch",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6732,
+      "CodeBlockLine": 12,
+      "MemoryOffset": 8466,
+      "Description": "If 'actor_animation' Equals 'ryu_atk_hp_top_r + dir' ELSE GOTO 00008518"
+    },
+    {
+      "CodeBlock": "light_punch",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 8502,
+      "Description": "Set 'player_flash_x' to '68 * velo'"
+    },
+    {
+      "CodeBlock": "light_punch",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 8512,
+      "Description": "Set 'player_flash_y' to '-78'"
+    },
+    {
+      "CodeBlock": "light_punch",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 8518,
       "Description": "Raw expression 'ryu_grunt'"
     },
     {
       "CodeBlock": "light_punch",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6738,
+      "CodeBlockLine": 18,
+      "MemoryOffset": 8524,
       "Description": "Raw expression 'Note_F1'"
+    },
+    {
+      "CodeBlock": "light_punch",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 8532,
+      "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "on_land",
       "CodeBlockLine": 0,
-      "MemoryOffset": 6778,
+      "MemoryOffset": 8568,
       "Description": "ON_LAND"
     },
     {
       "CodeBlock": "on_land",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 8568,
+      "Description": "Raw expression 'none'"
+    },
+    {
+      "CodeBlock": "on_land",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 8574,
+      "Description": "Core operation'Foreach'"
+    },
+    {
+      "CodeBlock": "on_land",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 8578,
+      "Description": "Foreach 'none' do 'on_land_gosub'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 8614,
+      "Description": "ON_LAND_GOSUB"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
       "CodeBlockLine": 4,
-      "MemoryOffset": 6778,
-      "Description": "If 'player_var1' Equals '6' ELSE GOTO 00006894"
+      "MemoryOffset": 8614,
+      "Description": "If 'actor_tag' Equals '-1' ELSE GOTO 00009272"
     },
     {
-      "CodeBlock": "on_land",
+      "CodeBlock": "on_land_gosub",
       "CodeBlockLine": 5,
-      "MemoryOffset": 6802,
-      "Description": "Set 'player_var1' to '0'"
+      "MemoryOffset": 8638,
+      "Description": "If 'player_var1' Equals '4' ELSE GOTO 00008944"
     },
     {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6808,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 6812,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "on_land",
+      "CodeBlock": "on_land_gosub",
       "CodeBlockLine": 6,
-      "MemoryOffset": 6816,
-      "Description": "Set 'player_type' to '4 + dir'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6826,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6830,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6834,
-      "Description": "Set 'player_lookdir' to 'reset_movement'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6840,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6844,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6848,
-      "Description": "Set 'player_animation' to 'Trigger_CancelAnimation'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6854,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 6858,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 6894,
-      "Description": "Set 'player_var1' to '1'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 6900,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 6904,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 6908,
-      "Description": "Set 'pushframes' to '1'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 6914,
-      "Description": "Set 'player_xpush' to '0'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 6920,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 6924,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 6928,
-      "Description": "Set 'player_ypush' to '0'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 6934,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 12,
-      "MemoryOffset": 6938,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 6942,
+      "MemoryOffset": 8662,
       "Description": "Set 'player_type' to '2 + dir'"
     },
     {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 6952,
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 8672,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 6956,
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 8676,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 6960,
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 8680,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 6966,
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 8686,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 6970,
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 8690,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 6974,
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 8694,
       "Description": "Set 'player_animation' to 'Trigger_CancelAnimation'"
     },
     {
-      "CodeBlock": "on_land",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 6980,
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 8700,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
-      "CodeBlock": "on_land",
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 8704,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 8708,
+      "Description": "Set 'pushframes' to '2'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 8714,
+      "Description": "Set 'player_xpush' to '0'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 8720,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 8724,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 8728,
+      "Description": "Set 'player_ypush' to '0'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 8734,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 7,
+      "MemoryOffset": 8738,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 8742,
+      "Description": "Set 'actor_type' to 'player_tag'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 8762,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 8766,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 8770,
+      "Description": "Set 'actor_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 8776,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 8780,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 8784,
+      "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 8790,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 8794,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 8798,
+      "Description": "If 'p1_life' LessThan '1' ELSE GOTO 00008862"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 8812,
+      "Description": "Set 'player_animation' to 'ryu_dead_r + dir'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 8822,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 10,
+      "MemoryOffset": 8826,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
       "CodeBlockLine": 13,
-      "MemoryOffset": 6984,
+      "MemoryOffset": 8862,
+      "Description": "Set 'actor_animation' to 'ryu_hurt_stand_top_r + dir'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 8872,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 8876,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 8880,
+      "Description": "Set 'player_animation' to 'ryu_hurt_stand_r + dir'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 8890,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 8894,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 8898,
+      "Description": "Set 'player_var1' to '3'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 8904,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 8908,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 8944,
+      "Description": "If 'player_var1' Equals '6'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 8968,
+      "Description": "Set 'player_var1' to '0'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 8974,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 8978,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 8982,
+      "Description": "Set 'player_type' to '4 + dir'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 8992,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 8996,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 9000,
+      "Description": "Set 'player_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 9006,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 9010,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 9014,
+      "Description": "Set 'player_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 9020,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 21,
+      "MemoryOffset": 9024,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 9028,
+      "Description": "Set 'actor_type' to 'player_tag'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 9048,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 9052,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 9056,
+      "Description": "Set 'actor_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 9062,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 9066,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 9070,
+      "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 9076,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 9080,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 9116,
+      "Description": "GOTO '00009272'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 9122,
+      "Description": "Set 'player_type' to '2 + dir'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 9132,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 9136,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 9140,
+      "Description": "Set 'player_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 9146,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 9150,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 9154,
+      "Description": "Set 'player_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 9160,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 9164,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 9168,
+      "Description": "Set 'pushframes' to '2'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 9174,
+      "Description": "Set 'player_xpush' to '0'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 9180,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 9184,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 9188,
+      "Description": "Set 'player_ypush' to '0'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 9194,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 9198,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 9202,
+      "Description": "Set 'actor_type' to 'player_tag'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 9222,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 9226,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 9230,
+      "Description": "Set 'actor_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 9236,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 9240,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 9244,
+      "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 9250,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 27,
+      "MemoryOffset": 9254,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 28,
+      "MemoryOffset": 9258,
+      "Description": "Set 'player_var1' to '1'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 28,
+      "MemoryOffset": 9264,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "on_land_gosub",
+      "CodeBlockLine": 28,
+      "MemoryOffset": 9268,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "player_take_damage",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7020,
+      "MemoryOffset": 9304,
       "Description": "PLAYER_TAKE_DAMAGE"
     },
     {
       "CodeBlock": "player_take_damage",
-      "CodeBlockLine": 1,
-      "MemoryOffset": 7020,
-      "Description": "If 'player_type' Equals '002_ryu_r' ELSE GOTO 00007078"
+      "CodeBlockLine": 2,
+      "MemoryOffset": 9304,
+      "Description": "Raw expression 'player_tag'"
     },
     {
       "CodeBlock": "player_take_damage",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7044,
-      "Description": "Set 'player_animation' to 'ryu_hurt_stand_r'"
+      "MemoryOffset": 9324,
+      "Description": "Core operation'Foreach'"
     },
     {
       "CodeBlock": "player_take_damage",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7050,
-      "Description": "Core operation'RefreshActorVariable'"
+      "MemoryOffset": 9328,
+      "Description": "Foreach 'player_tag' do 'player_take_damage_gosub'"
     },
     {
-      "CodeBlock": "player_take_damage",
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 9364,
+      "Description": "PLAYER_TAKE_DAMAGE_GOSUB"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7054,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+      "MemoryOffset": 9364,
+      "Description": "Set 'player_type' to '2 + dir'"
     },
     {
-      "CodeBlock": "player_take_damage",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7058,
-      "Description": "Set 'pushframes' to '5'"
-    },
-    {
-      "CodeBlock": "player_take_damage",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7064,
-      "Description": "Set 'player_xpush' to '-15'"
-    },
-    {
-      "CodeBlock": "player_take_damage",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7070,
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 9374,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
-      "CodeBlock": "player_take_damage",
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 9378,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 9382,
+      "Description": "Set 'player_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 9388,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 9392,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 9396,
+      "Description": "Set 'player_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 9402,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 9406,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7074,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+      "MemoryOffset": 9410,
+      "Description": "Set 'actor_type' to 'player_tag'"
     },
     {
-      "CodeBlock": "player_take_damage",
-      "CodeBlockLine": 7,
-      "MemoryOffset": 7078,
-      "Description": "If 'player_type' Equals '003_ryu_l' ELSE GOTO 00007136"
-    },
-    {
-      "CodeBlock": "player_take_damage",
-      "CodeBlockLine": 8,
-      "MemoryOffset": 7102,
-      "Description": "Set 'player_animation' to 'ryu_hurt_stand_l'"
-    },
-    {
-      "CodeBlock": "player_take_damage",
-      "CodeBlockLine": 8,
-      "MemoryOffset": 7108,
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 9430,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
-      "CodeBlock": "player_take_damage",
-      "CodeBlockLine": 8,
-      "MemoryOffset": 7112,
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 9434,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
-      "CodeBlock": "player_take_damage",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 7116,
-      "Description": "Set 'pushframes' to '3'"
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 9438,
+      "Description": "Set 'actor_lookdir' to 'reset_movement'"
     },
     {
-      "CodeBlock": "player_take_damage",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 7122,
-      "Description": "Set 'player_xpush' to '10'"
-    },
-    {
-      "CodeBlock": "player_take_damage",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 7128,
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 9444,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
-      "CodeBlock": "player_take_damage",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 7132,
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 9448,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 9452,
+      "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 9458,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 9462,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 9466,
+      "Description": "If 'e_atk_damage' LessThanOrEqual '1' ELSE GOTO 00009638"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 5,
+      "MemoryOffset": 9480,
+      "Description": "If 'player_var1' Equals '1'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 9504,
+      "Description": "GOSUB TO 'DAMAGE_LIGHT_STANDING_GOSUB'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 9556,
+      "Description": "GOTO '00009638'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 8,
+      "MemoryOffset": 9562,
+      "Description": "If 'player_var1' Equals '5' ELSE GOTO 00009638"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 9586,
+      "Description": "GOSUB TO 'DAMAGE_LIGHT_STANDING_GOSUB'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 9638,
+      "Description": "Set 'player_var1' to '4'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 9644,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 14,
+      "MemoryOffset": 9648,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 9652,
+      "Description": "Set 'player_animation' to 'ryu_hurt_fall_r + dir'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 9662,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 9666,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 9670,
+      "Description": "Set 'pushframes' to '16'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 9676,
+      "Description": "Set 'player_ypush' to '-50'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 9682,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 16,
+      "MemoryOffset": 9686,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 9690,
+      "Description": "Set 'pushframes' to '140'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 9698,
+      "Description": "Set 'player_xpush' to '-350 * velo'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 9710,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 17,
+      "MemoryOffset": 9714,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 9718,
+      "Description": "If 'p1_life' NotEquals 'p1_life - e_atk_damage' ELSE GOTO 00009758"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 9740,
+      "Description": "Set 'p1_life' to 'p1_life - e_atk_damage'"
+    },
+    {
+      "CodeBlock": "player_take_damage_gosub",
+      "CodeBlockLine": 18,
+      "MemoryOffset": 9754,
+      "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "ryu_dragon_punch",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7168,
+      "MemoryOffset": 9822,
       "Description": "RYU_DRAGON_PUNCH"
     },
     {
       "CodeBlock": "ryu_dragon_punch",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7168,
-      "Description": "Core operation'Sound'"
-    },
-    {
-      "CodeBlock": "ryu_dragon_punch",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 7172,
+      "MemoryOffset": 9822,
       "Description": "Raw expression 'shoryuken'"
     },
     {
       "CodeBlock": "ryu_dragon_punch",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7178,
+      "MemoryOffset": 9828,
       "Description": "Raw expression 'Note_F1'"
     },
     {
       "CodeBlock": "ryu_dragon_punch",
-      "CodeBlockLine": 3,
-      "MemoryOffset": 7186,
-      "Description": "Set 'pushframes' to '16'"
+      "CodeBlockLine": 2,
+      "MemoryOffset": 9836,
+      "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "ryu_dragon_punch",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7192,
+      "MemoryOffset": 9840,
+      "Description": "Set 'pushframes' to '32'"
+    },
+    {
+      "CodeBlock": "ryu_dragon_punch",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 9846,
       "Description": "Set 'player_ypush' to '-150'"
     },
     {
       "CodeBlock": "ryu_dragon_punch",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7200,
+      "MemoryOffset": 9854,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_dragon_punch",
       "CodeBlockLine": 3,
-      "MemoryOffset": 7204,
+      "MemoryOffset": 9858,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_dragon_punch",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7208,
-      "Description": "Set 'pushframes' to '30'"
+      "MemoryOffset": 9862,
+      "Description": "Set 'pushframes' to '60'"
     },
     {
       "CodeBlock": "ryu_dragon_punch",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7214,
+      "MemoryOffset": 9868,
       "Description": "Set 'player_xpush' to '80 * velo'"
     },
     {
       "CodeBlock": "ryu_dragon_punch",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7224,
+      "MemoryOffset": 9878,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_dragon_punch",
       "CodeBlockLine": 4,
-      "MemoryOffset": 7228,
+      "MemoryOffset": 9882,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_fireball",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7264,
+      "MemoryOffset": 9918,
       "Description": "RYU_FIREBALL"
     },
     {
       "CodeBlock": "ryu_fireball",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7264,
-      "Description": "Core operation'Sound'"
-    },
-    {
-      "CodeBlock": "ryu_fireball",
-      "CodeBlockLine": 1,
-      "MemoryOffset": 7268,
+      "MemoryOffset": 9918,
       "Description": "Raw expression 'hadoken'"
     },
     {
       "CodeBlock": "ryu_fireball",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7274,
+      "MemoryOffset": 9924,
       "Description": "Raw expression 'Note_E1'"
     },
     {
       "CodeBlock": "ryu_fireball",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 7282,
-      "Description": "Set 'actor_shoot' to '0 + 001_fireball'"
+      "CodeBlockLine": 1,
+      "MemoryOffset": 9932,
+      "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "ryu_fireball",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7290,
+      "MemoryOffset": 9936,
+      "Description": "Set 'actor_shoot' to '0 + 1'"
+    },
+    {
+      "CodeBlock": "ryu_fireball",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 9944,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_fireball",
       "CodeBlockLine": 2,
-      "MemoryOffset": 7294,
+      "MemoryOffset": 9948,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 0,
-      "MemoryOffset": 7330,
+      "MemoryOffset": 9984,
       "Description": "RYU_ONTIMER"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 1,
-      "MemoryOffset": 7330,
+      "MemoryOffset": 9984,
       "Description": "GOSUB TO 'CHECK_DIRECTION'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 7350,
-      "Description": "If 'dragon_input' GreaterThan '0' ELSE GOTO 00007376"
+      "CodeBlockLine": 5,
+      "MemoryOffset": 10004,
+      "Description": "If 'player_animation' Equals 'ryu_walk_r' ELSE GOTO 00010082"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 10,
-      "MemoryOffset": 7364,
-      "Description": "Set 'dragon_input' to 'dragon_input - 1'"
+      "CodeBlockLine": 6,
+      "MemoryOffset": 10036,
+      "Description": "If 'player_type' NotEquals '2 + dir' ELSE GOTO 00010082"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 13,
-      "MemoryOffset": 7376,
-      "Description": "If 'control1_x' Equals 'velo' ELSE GOTO 00007428"
+      "CodeBlockLine": 7,
+      "MemoryOffset": 10064,
+      "Description": "Set 'player_type' to '2 + dir'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 14,
-      "MemoryOffset": 7394,
-      "Description": "If 'dragon_input' LessThan '3' ELSE GOTO 00007428"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 7408,
-      "Description": "If 'control1_y' Equals '0' ELSE GOTO 00007428"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 16,
-      "MemoryOffset": 7422,
-      "Description": "Set 'dragon_input' to '3'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 22,
-      "MemoryOffset": 7428,
-      "Description": "If 'control1_y' Equals '1' ELSE GOTO 00007476"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 23,
-      "MemoryOffset": 7442,
-      "Description": "If 'dragon_input' GreaterThan '0' ELSE GOTO 00007476"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 24,
-      "MemoryOffset": 7456,
-      "Description": "If 'control1_x' Equals '0' ELSE GOTO 00007476"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 25,
-      "MemoryOffset": 7470,
-      "Description": "Set 'dragon_input' to '6'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 31,
-      "MemoryOffset": 7476,
-      "Description": "If 'control1_y' Equals '0' ELSE GOTO 00007528"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 32,
-      "MemoryOffset": 7490,
-      "Description": "If 'control1_x' Equals 'velo' ELSE GOTO 00007528"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 33,
-      "MemoryOffset": 7508,
-      "Description": "If 'dragon_input' GreaterThan '3' ELSE GOTO 00007528"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 34,
-      "MemoryOffset": 7522,
-      "Description": "Set 'dragon_input' to '9'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 40,
-      "MemoryOffset": 7528,
-      "Description": "If 'control1fire' NotZero '0' ELSE GOTO 00007652"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 7540,
-      "Description": "If 'player_var1' Equals '1' ELSE GOTO 00007652"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 42,
-      "MemoryOffset": 7564,
-      "Description": "If 'dragon_input' GreaterThan '6' ELSE GOTO 00007652"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 43,
-      "MemoryOffset": 7578,
-      "Description": "If 'player_isonplatform' LessThan '0' ELSE GOTO 00007652"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 44,
-      "MemoryOffset": 7602,
-      "Description": "Set 'player_var1' to '5'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 44,
-      "MemoryOffset": 7608,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 10074,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 44,
-      "MemoryOffset": 7612,
+      "CodeBlockLine": 7,
+      "MemoryOffset": 10078,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 45,
-      "MemoryOffset": 7616,
-      "Description": "Set 'fireball_input' to '0'"
+      "CodeBlockLine": 10,
+      "MemoryOffset": 10082,
+      "Description": "If 'player_animation' Equals 'ryu_walk_l' ELSE GOTO 00010160"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 46,
-      "MemoryOffset": 7622,
-      "Description": "Set 'dragon_input' to '0'"
+      "CodeBlockLine": 11,
+      "MemoryOffset": 10114,
+      "Description": "If 'player_type' NotEquals '2 + dir' ELSE GOTO 00010160"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 47,
-      "MemoryOffset": 7628,
-      "Description": "Set 'tatsu_input' to '0'"
+      "CodeBlockLine": 12,
+      "MemoryOffset": 10142,
+      "Description": "Set 'player_type' to '2 + dir'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 7634,
-      "Description": "Set 'player_animation' to 'ryu_dragon_punch_r + dir'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 7644,
+      "CodeBlockLine": 12,
+      "MemoryOffset": 10152,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 48,
-      "MemoryOffset": 7648,
+      "CodeBlockLine": 12,
+      "MemoryOffset": 10156,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 19,
+      "MemoryOffset": 10160,
+      "Description": "If 'dragon_input' GreaterThan '0' ELSE GOTO 00010186"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 20,
+      "MemoryOffset": 10174,
+      "Description": "Set 'dragon_input' to 'dragon_input - 1'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 23,
+      "MemoryOffset": 10186,
+      "Description": "If 'control1_x' Equals 'velo' ELSE GOTO 00010238"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 24,
+      "MemoryOffset": 10204,
+      "Description": "If 'dragon_input' LessThan '3' ELSE GOTO 00010238"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 25,
+      "MemoryOffset": 10218,
+      "Description": "If 'control1_y' Equals '0' ELSE GOTO 00010238"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 26,
+      "MemoryOffset": 10232,
+      "Description": "Set 'dragon_input' to '3'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 32,
+      "MemoryOffset": 10238,
+      "Description": "If 'control1_y' Equals '1' ELSE GOTO 00010286"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 33,
+      "MemoryOffset": 10252,
+      "Description": "If 'dragon_input' GreaterThan '0' ELSE GOTO 00010286"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 34,
+      "MemoryOffset": 10266,
+      "Description": "If 'control1_x' Equals '0' ELSE GOTO 00010286"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 35,
+      "MemoryOffset": 10280,
+      "Description": "Set 'dragon_input' to '6'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 41,
+      "MemoryOffset": 10286,
+      "Description": "If 'control1_y' Equals '0' ELSE GOTO 00010338"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 42,
+      "MemoryOffset": 10300,
+      "Description": "If 'control1_x' Equals 'velo' ELSE GOTO 00010338"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 43,
+      "MemoryOffset": 10318,
+      "Description": "If 'dragon_input' GreaterThan '3' ELSE GOTO 00010338"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 44,
+      "MemoryOffset": 10332,
+      "Description": "Set 'dragon_input' to '9'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 50,
+      "MemoryOffset": 10338,
+      "Description": "If 'control1fire' NotZero '0' ELSE GOTO 00010462"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 51,
+      "MemoryOffset": 10350,
+      "Description": "If 'player_var1' Equals '1' ELSE GOTO 00010462"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 52,
+      "MemoryOffset": 10374,
+      "Description": "If 'dragon_input' GreaterThan '6' ELSE GOTO 00010462"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 53,
+      "MemoryOffset": 10388,
+      "Description": "If 'player_isonplatform' LessThan '0' ELSE GOTO 00010462"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 54,
+      "MemoryOffset": 10412,
+      "Description": "Set 'player_var1' to '5'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 54,
+      "MemoryOffset": 10418,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 54,
+      "MemoryOffset": 10422,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 55,
-      "MemoryOffset": 7652,
-      "Description": "If 'fireball_input' GreaterThan '0' ELSE GOTO 00007678"
+      "MemoryOffset": 10426,
+      "Description": "Set 'fireball_input' to '0'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 56,
-      "MemoryOffset": 7666,
-      "Description": "Set 'fireball_input' to 'fireball_input - 1'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 59,
-      "MemoryOffset": 7678,
-      "Description": "If 'control1_y' Equals '1' ELSE GOTO 00007726"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 60,
-      "MemoryOffset": 7692,
-      "Description": "If 'control1_x' Equals '0' ELSE GOTO 00007726"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 61,
-      "MemoryOffset": 7706,
-      "Description": "If 'fireball_input' LessThan '2' ELSE GOTO 00007726"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 62,
-      "MemoryOffset": 7720,
-      "Description": "Set 'fireball_input' to '2'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 67,
-      "MemoryOffset": 7726,
-      "Description": "If 'control1_x' Equals 'velo' ELSE GOTO 00007778"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 68,
-      "MemoryOffset": 7744,
-      "Description": "If 'fireball_input' GreaterThan '0' ELSE GOTO 00007778"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 69,
-      "MemoryOffset": 7758,
-      "Description": "If 'control1_y' Equals '0' ELSE GOTO 00007778"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 70,
-      "MemoryOffset": 7772,
-      "Description": "Set 'fireball_input' to '4'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 75,
-      "MemoryOffset": 7778,
-      "Description": "If 'control1fire' NotZero '0' ELSE GOTO 00007958"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 76,
-      "MemoryOffset": 7790,
-      "Description": "If 'player_var1' Equals '1' ELSE GOTO 00007958"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 77,
-      "MemoryOffset": 7814,
-      "Description": "If 'fireball_input' GreaterThan '2' ELSE GOTO 00007958"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 78,
-      "MemoryOffset": 7828,
-      "Description": "If 'player_isonplatform' LessThan '0' ELSE GOTO 00007958"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 79,
-      "MemoryOffset": 7852,
-      "Description": "Set 'player_var1' to '5'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 79,
-      "MemoryOffset": 7858,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 79,
-      "MemoryOffset": 7862,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 80,
-      "MemoryOffset": 7866,
-      "Description": "Set 'fireball_input' to '0'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 81,
-      "MemoryOffset": 7872,
+      "MemoryOffset": 10432,
       "Description": "Set 'dragon_input' to '0'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 82,
-      "MemoryOffset": 7878,
-      "Description": "If 'velo' Equals '1'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 83,
-      "MemoryOffset": 7892,
-      "Description": "Set 'player_lookdir' to 'look_right'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 83,
-      "MemoryOffset": 7898,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 83,
-      "MemoryOffset": 7902,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 84,
-      "MemoryOffset": 7906,
-      "Description": "GOTO '00007926'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 85,
-      "MemoryOffset": 7912,
-      "Description": "Set 'player_lookdir' to 'look_left'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 85,
-      "MemoryOffset": 7918,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 85,
-      "MemoryOffset": 7922,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 87,
-      "MemoryOffset": 7926,
-      "Description": "Set 'player_var1' to '5'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 87,
-      "MemoryOffset": 7932,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 87,
-      "MemoryOffset": 7936,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 88,
-      "MemoryOffset": 7940,
-      "Description": "Set 'player_animation' to 'ryu_fireball_r + dir'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 88,
-      "MemoryOffset": 7950,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 88,
-      "MemoryOffset": 7954,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 97,
-      "MemoryOffset": 7958,
-      "Description": "If 'tatsu_input' GreaterThan '0' ELSE GOTO 00007984"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 98,
-      "MemoryOffset": 7972,
-      "Description": "Set 'tatsu_input' to 'tatsu_input - 1'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 101,
-      "MemoryOffset": 7984,
-      "Description": "If 'control1_y' Equals '1' ELSE GOTO 00008032"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 102,
-      "MemoryOffset": 7998,
-      "Description": "If 'control1_x' Equals '0' ELSE GOTO 00008032"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 103,
-      "MemoryOffset": 8012,
-      "Description": "If 'tatsu_input' LessThan '2' ELSE GOTO 00008032"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 104,
-      "MemoryOffset": 8026,
-      "Description": "Set 'tatsu_input' to '2'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 109,
-      "MemoryOffset": 8032,
-      "Description": "If 'control1_x' Equals 'velo * -1' ELSE GOTO 00008088"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 110,
-      "MemoryOffset": 8054,
-      "Description": "If 'tatsu_input' GreaterThan '0' ELSE GOTO 00008088"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 111,
-      "MemoryOffset": 8068,
-      "Description": "If 'control1_y' Equals '0' ELSE GOTO 00008088"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 112,
-      "MemoryOffset": 8082,
-      "Description": "Set 'tatsu_input' to '4'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 117,
-      "MemoryOffset": 8088,
-      "Description": "If 'control1fire' NotZero '0' ELSE GOTO 00008284"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 118,
-      "MemoryOffset": 8100,
-      "Description": "If 'player_var1' Equals '1' ELSE GOTO 00008284"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 119,
-      "MemoryOffset": 8124,
-      "Description": "If 'tatsu_input' GreaterThan '2' ELSE GOTO 00008284"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 120,
-      "MemoryOffset": 8138,
-      "Description": "If 'player_isonplatform' LessThan '0' ELSE GOTO 00008284"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 121,
-      "MemoryOffset": 8162,
-      "Description": "Set 'player_var1' to '5'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 121,
-      "MemoryOffset": 8168,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 121,
-      "MemoryOffset": 8172,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 122,
-      "MemoryOffset": 8176,
-      "Description": "Set 'fireball_input' to '0'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 123,
-      "MemoryOffset": 8182,
-      "Description": "Set 'dragon_input' to '0'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 124,
-      "MemoryOffset": 8188,
+      "CodeBlockLine": 57,
+      "MemoryOffset": 10438,
       "Description": "Set 'tatsu_input' to '0'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 125,
-      "MemoryOffset": 8194,
+      "CodeBlockLine": 58,
+      "MemoryOffset": 10444,
+      "Description": "Set 'player_animation' to 'ryu_dragon_punch_r + dir'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 58,
+      "MemoryOffset": 10454,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 58,
+      "MemoryOffset": 10458,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 66,
+      "MemoryOffset": 10462,
+      "Description": "If 'fireball_input' GreaterThan '0' ELSE GOTO 00010488"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 67,
+      "MemoryOffset": 10476,
+      "Description": "Set 'fireball_input' to 'fireball_input - 1'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 70,
+      "MemoryOffset": 10488,
+      "Description": "If 'control1_y' Equals '1' ELSE GOTO 00010536"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 71,
+      "MemoryOffset": 10502,
+      "Description": "If 'control1_x' Equals '0' ELSE GOTO 00010536"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 72,
+      "MemoryOffset": 10516,
+      "Description": "If 'fireball_input' LessThan '3' ELSE GOTO 00010536"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 73,
+      "MemoryOffset": 10530,
+      "Description": "Set 'fireball_input' to '3'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 78,
+      "MemoryOffset": 10536,
+      "Description": "If 'control1_x' Equals 'velo' ELSE GOTO 00010588"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 79,
+      "MemoryOffset": 10554,
+      "Description": "If 'fireball_input' GreaterThan '0' ELSE GOTO 00010588"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 80,
+      "MemoryOffset": 10568,
+      "Description": "If 'control1_y' Equals '0' ELSE GOTO 00010588"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 81,
+      "MemoryOffset": 10582,
+      "Description": "Set 'fireball_input' to '6'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 86,
+      "MemoryOffset": 10588,
+      "Description": "If 'control1fire' NotZero '0' ELSE GOTO 00010768"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 87,
+      "MemoryOffset": 10600,
+      "Description": "If 'player_var1' Equals '1' ELSE GOTO 00010768"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 88,
+      "MemoryOffset": 10624,
+      "Description": "If 'fireball_input' GreaterThan '3' ELSE GOTO 00010768"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 89,
+      "MemoryOffset": 10638,
+      "Description": "If 'player_isonplatform' LessThan '0' ELSE GOTO 00010768"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 90,
+      "MemoryOffset": 10662,
+      "Description": "Set 'player_var1' to '5'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 90,
+      "MemoryOffset": 10668,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 90,
+      "MemoryOffset": 10672,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 91,
+      "MemoryOffset": 10676,
+      "Description": "Set 'fireball_input' to '0'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 92,
+      "MemoryOffset": 10682,
+      "Description": "Set 'dragon_input' to '0'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 93,
+      "MemoryOffset": 10688,
       "Description": "If 'velo' Equals '1'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 126,
-      "MemoryOffset": 8208,
+      "CodeBlockLine": 94,
+      "MemoryOffset": 10702,
       "Description": "Set 'player_lookdir' to 'look_right'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 126,
-      "MemoryOffset": 8214,
+      "CodeBlockLine": 94,
+      "MemoryOffset": 10708,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 126,
-      "MemoryOffset": 8218,
+      "CodeBlockLine": 94,
+      "MemoryOffset": 10712,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 127,
-      "MemoryOffset": 8222,
-      "Description": "GOTO '00008242'"
+      "CodeBlockLine": 95,
+      "MemoryOffset": 10716,
+      "Description": "GOTO '00010736'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 128,
-      "MemoryOffset": 8228,
+      "CodeBlockLine": 96,
+      "MemoryOffset": 10722,
       "Description": "Set 'player_lookdir' to 'look_left'"
     },
     {
       "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 96,
+      "MemoryOffset": 10728,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 96,
+      "MemoryOffset": 10732,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 98,
+      "MemoryOffset": 10736,
+      "Description": "Set 'player_var1' to '5'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 98,
+      "MemoryOffset": 10742,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 98,
+      "MemoryOffset": 10746,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 99,
+      "MemoryOffset": 10750,
+      "Description": "Set 'player_animation' to 'ryu_fireball_r + dir'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 99,
+      "MemoryOffset": 10760,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 99,
+      "MemoryOffset": 10764,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 107,
+      "MemoryOffset": 10768,
+      "Description": "If 'tatsu_input' GreaterThan '0' ELSE GOTO 00010794"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 108,
+      "MemoryOffset": 10782,
+      "Description": "Set 'tatsu_input' to 'tatsu_input - 1'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 111,
+      "MemoryOffset": 10794,
+      "Description": "If 'control1_y' Equals '1' ELSE GOTO 00010842"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 112,
+      "MemoryOffset": 10808,
+      "Description": "If 'control1_x' Equals '0' ELSE GOTO 00010842"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 113,
+      "MemoryOffset": 10822,
+      "Description": "If 'tatsu_input' LessThan '3' ELSE GOTO 00010842"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 114,
+      "MemoryOffset": 10836,
+      "Description": "Set 'tatsu_input' to '3'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 119,
+      "MemoryOffset": 10842,
+      "Description": "If 'control1_x' Equals 'velo * -1' ELSE GOTO 00010898"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 120,
+      "MemoryOffset": 10864,
+      "Description": "If 'tatsu_input' GreaterThan '0' ELSE GOTO 00010898"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 121,
+      "MemoryOffset": 10878,
+      "Description": "If 'control1_y' Equals '0' ELSE GOTO 00010898"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 122,
+      "MemoryOffset": 10892,
+      "Description": "Set 'tatsu_input' to '6'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 127,
+      "MemoryOffset": 10898,
+      "Description": "If 'control1fire' NotZero '0' ELSE GOTO 00011094"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 128,
-      "MemoryOffset": 8234,
+      "MemoryOffset": 10910,
+      "Description": "If 'player_var1' Equals '1' ELSE GOTO 00011094"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 129,
+      "MemoryOffset": 10934,
+      "Description": "If 'tatsu_input' GreaterThan '3' ELSE GOTO 00011094"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 130,
+      "MemoryOffset": 10948,
+      "Description": "If 'player_isonplatform' LessThan '0' ELSE GOTO 00011094"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 131,
+      "MemoryOffset": 10972,
+      "Description": "Set 'player_var1' to '5'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 131,
+      "MemoryOffset": 10978,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 128,
-      "MemoryOffset": 8238,
+      "CodeBlockLine": 131,
+      "MemoryOffset": 10982,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 130,
-      "MemoryOffset": 8242,
-      "Description": "Set 'actor_type' to '006_ryu_tatsu'"
+      "CodeBlockLine": 132,
+      "MemoryOffset": 10986,
+      "Description": "Set 'fireball_input' to '0'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 130,
-      "MemoryOffset": 8248,
+      "CodeBlockLine": 133,
+      "MemoryOffset": 10992,
+      "Description": "Set 'dragon_input' to '0'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 134,
+      "MemoryOffset": 10998,
+      "Description": "Set 'tatsu_input' to '0'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 135,
+      "MemoryOffset": 11004,
+      "Description": "If 'velo' Equals '1'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 136,
+      "MemoryOffset": 11018,
+      "Description": "Set 'player_lookdir' to 'look_right'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 136,
+      "MemoryOffset": 11024,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 130,
-      "MemoryOffset": 8252,
+      "CodeBlockLine": 136,
+      "MemoryOffset": 11028,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 130,
-      "MemoryOffset": 8256,
-      "Description": "Set 'actor_lookdir' to 'reset_movement'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 130,
-      "MemoryOffset": 8262,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 130,
-      "MemoryOffset": 8266,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 130,
-      "MemoryOffset": 8270,
-      "Description": "Set 'actor_animation' to 'Trigger_CancelAnimation'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 130,
-      "MemoryOffset": 8276,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 130,
-      "MemoryOffset": 8280,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+      "CodeBlockLine": 137,
+      "MemoryOffset": 11032,
+      "Description": "GOTO '00011052'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 138,
-      "MemoryOffset": 8284,
-      "Description": "If 'player_var1' Equals '1' ELSE GOTO 00008408"
+      "MemoryOffset": 11038,
+      "Description": "Set 'player_lookdir' to 'look_left'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 139,
-      "MemoryOffset": 8308,
-      "Description": "If 'control1fire' NotZero '0' ELSE GOTO 00008408"
+      "CodeBlockLine": 138,
+      "MemoryOffset": 11044,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 138,
+      "MemoryOffset": 11048,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 140,
-      "MemoryOffset": 8320,
+      "MemoryOffset": 11052,
+      "Description": "Set 'player_type' to '6'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 140,
+      "MemoryOffset": 11058,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 140,
+      "MemoryOffset": 11062,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 140,
+      "MemoryOffset": 11066,
+      "Description": "Set 'player_lookdir' to 'reset_movement'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 140,
+      "MemoryOffset": 11072,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 140,
+      "MemoryOffset": 11076,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 140,
+      "MemoryOffset": 11080,
+      "Description": "Set 'player_animation' to 'Trigger_CancelAnimation'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 140,
+      "MemoryOffset": 11086,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 140,
+      "MemoryOffset": 11090,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 148,
+      "MemoryOffset": 11094,
+      "Description": "If 'player_var1' Equals '1' ELSE GOTO 00011280"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 149,
+      "MemoryOffset": 11118,
+      "Description": "If 'control1fire' NotZero '0' ELSE GOTO 00011280"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 150,
+      "MemoryOffset": 11130,
       "Description": "Set 'player_var1' to '5'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 140,
-      "MemoryOffset": 8326,
+      "CodeBlockLine": 150,
+      "MemoryOffset": 11136,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 140,
-      "MemoryOffset": 8330,
+      "CodeBlockLine": 150,
+      "MemoryOffset": 11140,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 141,
-      "MemoryOffset": 8334,
-      "Description": "If 'control1_x' NotZero '0'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 142,
-      "MemoryOffset": 8346,
-      "Description": "Set 'light_atk' to 'ryu_atk_lk_r + dir'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 143,
-      "MemoryOffset": 8356,
-      "Description": "Set 'player_animation' to 'ryu_atk_hk_r + dir'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 143,
-      "MemoryOffset": 8366,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 143,
-      "MemoryOffset": 8370,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 144,
-      "MemoryOffset": 8374,
-      "Description": "GOTO '00008408'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 145,
-      "MemoryOffset": 8380,
-      "Description": "Set 'light_atk' to 'ryu_atk_lp_r + dir'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 146,
-      "MemoryOffset": 8390,
-      "Description": "Set 'player_animation' to 'ryu_atk_hp_r + dir'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 146,
-      "MemoryOffset": 8400,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 146,
-      "MemoryOffset": 8404,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+      "CodeBlockLine": 151,
+      "MemoryOffset": 11144,
+      "Description": "Set 'atk_damage' to '2'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 152,
-      "MemoryOffset": 8408,
-      "Description": "If 'player_var1' Equals '2' ELSE GOTO 00008556"
+      "MemoryOffset": 11150,
+      "Description": "If 'control1_x' NotZero '0'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 153,
-      "MemoryOffset": 8432,
-      "Description": "If 'player_isonplatform' Equals '0' ELSE GOTO 00008556"
+      "MemoryOffset": 11162,
+      "Description": "Set 'light_atk' to 'ryu_atk_lk_r + dir'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 154,
-      "MemoryOffset": 8456,
-      "Description": "If 'control1fire' NotZero '0' ELSE GOTO 00008556"
+      "MemoryOffset": 11172,
+      "Description": "Set 'light_atk_top' to 'ryu_atk_lk_top_r + dir'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 155,
-      "MemoryOffset": 8468,
-      "Description": "Set 'player_var1' to '5'"
+      "MemoryOffset": 11182,
+      "Description": "Set 'actor_animation' to 'ryu_atk_hk_top_r + dir'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 155,
-      "MemoryOffset": 8474,
+      "MemoryOffset": 11192,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 155,
-      "MemoryOffset": 8478,
+      "MemoryOffset": 11196,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 156,
-      "MemoryOffset": 8482,
-      "Description": "If 'control1_x' NotZero '0'"
+      "MemoryOffset": 11200,
+      "Description": "Set 'player_animation' to 'ryu_atk_hk_r + dir'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 156,
+      "MemoryOffset": 11210,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 156,
+      "MemoryOffset": 11214,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 157,
-      "MemoryOffset": 8494,
-      "Description": "Set 'light_atk' to 'ryu_jump_atk_lk_r + dir'"
+      "MemoryOffset": 11218,
+      "Description": "GOTO '00011280'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 158,
-      "MemoryOffset": 8504,
-      "Description": "Set 'player_animation' to 'ryu_jump_atk_hk_r + dir'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 158,
-      "MemoryOffset": 8514,
-      "Description": "Core operation'RefreshActorVariable'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 158,
-      "MemoryOffset": 8518,
-      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+      "MemoryOffset": 11224,
+      "Description": "Set 'light_atk_top' to 'ryu_atk_lp_top_r + dir'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 159,
-      "MemoryOffset": 8522,
-      "Description": "GOTO '00008556'"
+      "MemoryOffset": 11234,
+      "Description": "Set 'light_atk' to 'ryu_atk_lp_r + dir'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 160,
-      "MemoryOffset": 8528,
-      "Description": "Set 'light_atk' to 'ryu_jump_atk_lp_r + dir'"
+      "MemoryOffset": 11244,
+      "Description": "Set 'actor_animation' to 'ryu_atk_hp_top_r + dir'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 160,
+      "MemoryOffset": 11254,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 160,
+      "MemoryOffset": 11258,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 161,
-      "MemoryOffset": 8538,
-      "Description": "Set 'player_animation' to 'ryu_jump_atk_hp_r + dir'"
+      "MemoryOffset": 11262,
+      "Description": "Set 'player_animation' to 'ryu_atk_hp_r + dir'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 161,
-      "MemoryOffset": 8548,
+      "MemoryOffset": 11272,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 161,
-      "MemoryOffset": 8552,
+      "MemoryOffset": 11276,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 166,
+      "MemoryOffset": 11280,
+      "Description": "If 'player_var1' Equals '2' ELSE GOTO 00011490"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 167,
+      "MemoryOffset": 11304,
+      "Description": "If 'player_isonplatform' Equals '0' ELSE GOTO 00011490"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 168,
+      "MemoryOffset": 11328,
+      "Description": "If 'control1fire' NotZero '0' ELSE GOTO 00011490"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 169,
-      "MemoryOffset": 8556,
-      "Description": "If 'player_var1' Equals '1' ELSE GOTO 00008644"
+      "MemoryOffset": 11340,
+      "Description": "Set 'player_var1' to '5'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 169,
+      "MemoryOffset": 11346,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 169,
+      "MemoryOffset": 11350,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 170,
-      "MemoryOffset": 8580,
-      "Description": "If 'control1_y' Equals '-1' ELSE GOTO 00008644"
+      "MemoryOffset": 11354,
+      "Description": "Set 'atk_damage' to '2'"
     },
     {
       "CodeBlock": "ryu_ontimer",
       "CodeBlockLine": 171,
-      "MemoryOffset": 8594,
+      "MemoryOffset": 11360,
+      "Description": "If 'control1_x' NotZero '0'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 172,
+      "MemoryOffset": 11372,
+      "Description": "Set 'light_atk' to 'ryu_jump_atk_lk_r + dir'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 173,
+      "MemoryOffset": 11382,
+      "Description": "Set 'light_atk_top' to 'ryu_jump_atk_lk_top_r + dir'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 174,
+      "MemoryOffset": 11392,
+      "Description": "Set 'player_animation' to 'ryu_jump_atk_hk_r + dir'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 174,
+      "MemoryOffset": 11402,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 174,
+      "MemoryOffset": 11406,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 175,
+      "MemoryOffset": 11410,
+      "Description": "Set 'actor_animation' to 'ryu_jump_atk_hk_top_r + dir'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 175,
+      "MemoryOffset": 11420,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 175,
+      "MemoryOffset": 11424,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 176,
+      "MemoryOffset": 11428,
+      "Description": "GOTO '00011490'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 177,
+      "MemoryOffset": 11434,
+      "Description": "Set 'light_atk' to 'ryu_jump_atk_lp_r + dir'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 178,
+      "MemoryOffset": 11444,
+      "Description": "Set 'light_atk_top' to 'ryu_jump_atk_lp_top_r + dir'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 179,
+      "MemoryOffset": 11454,
+      "Description": "Set 'actor_animation' to 'ryu_jump_atk_hp_top_r + dir'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 179,
+      "MemoryOffset": 11464,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 179,
+      "MemoryOffset": 11468,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 180,
+      "MemoryOffset": 11472,
+      "Description": "Set 'player_animation' to 'ryu_jump_atk_hp_r + dir'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 180,
+      "MemoryOffset": 11482,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 180,
+      "MemoryOffset": 11486,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 188,
+      "MemoryOffset": 11490,
+      "Description": "If 'player_var1' Equals '1' ELSE GOTO 00011578"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 189,
+      "MemoryOffset": 11514,
+      "Description": "If 'control1_y' Equals '-1' ELSE GOTO 00011578"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 190,
+      "MemoryOffset": 11528,
       "Description": "Set 'player_var1' to '2'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 171,
-      "MemoryOffset": 8600,
+      "CodeBlockLine": 190,
+      "MemoryOffset": 11534,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 171,
-      "MemoryOffset": 8604,
+      "CodeBlockLine": 190,
+      "MemoryOffset": 11538,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 172,
-      "MemoryOffset": 8608,
-      "Description": "Core operation'Sound'"
-    },
-    {
-      "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 172,
-      "MemoryOffset": 8612,
+      "CodeBlockLine": 191,
+      "MemoryOffset": 11542,
       "Description": "Raw expression 'ryu_grunt'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 172,
-      "MemoryOffset": 8618,
+      "CodeBlockLine": 191,
+      "MemoryOffset": 11548,
       "Description": "Raw expression 'Note_F1'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 173,
-      "MemoryOffset": 8626,
+      "CodeBlockLine": 191,
+      "MemoryOffset": 11556,
+      "Description": "Core operation'Sound'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 192,
+      "MemoryOffset": 11560,
       "Description": "Set 'player_animation' to 'ryu_jump_r + dir'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 173,
-      "MemoryOffset": 8636,
+      "CodeBlockLine": 192,
+      "MemoryOffset": 11570,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_ontimer",
-      "CodeBlockLine": 173,
-      "MemoryOffset": 8640,
+      "CodeBlockLine": 192,
+      "MemoryOffset": 11574,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ryu_ontimer",
+      "CodeBlockLine": 198,
+      "MemoryOffset": 11578,
+      "Description": "GOSUB TO 'DUCKING'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 0,
-      "MemoryOffset": 8676,
+      "MemoryOffset": 11630,
       "Description": "RYU_TATSU"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 1,
-      "MemoryOffset": 8676,
+      "MemoryOffset": 11630,
       "Description": "If 'player_var3' Equals '0'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 2,
-      "MemoryOffset": 8700,
-      "Description": "Set 'pushframes' to '10'"
+      "MemoryOffset": 11654,
+      "Description": "Set 'pushframes' to '20'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 2,
-      "MemoryOffset": 8706,
+      "MemoryOffset": 11660,
       "Description": "Set 'player_ypush' to '-50'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 2,
-      "MemoryOffset": 8712,
+      "MemoryOffset": 11666,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 2,
-      "MemoryOffset": 8716,
+      "MemoryOffset": 11670,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 3,
-      "MemoryOffset": 8720,
+      "MemoryOffset": 11674,
       "Description": "Set 'player_var3' to '1'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 3,
-      "MemoryOffset": 8726,
+      "MemoryOffset": 11680,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 3,
-      "MemoryOffset": 8730,
+      "MemoryOffset": 11684,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 4,
-      "MemoryOffset": 8734,
-      "Description": "GOTO '00008978'"
+      "MemoryOffset": 11688,
+      "Description": "GOTO '00011948'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 4,
-      "MemoryOffset": 8740,
+      "MemoryOffset": 11694,
       "Description": "If 'player_var3' Equals '1'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 5,
-      "MemoryOffset": 8764,
-      "Description": "Core operation'Sound'"
-    },
-    {
-      "CodeBlock": "ryu_tatsu",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 8768,
+      "MemoryOffset": 11718,
       "Description": "Raw expression 'tatsu'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 5,
-      "MemoryOffset": 8774,
+      "MemoryOffset": 11724,
       "Description": "Raw expression 'Note_F1'"
     },
     {
       "CodeBlock": "ryu_tatsu",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 8782,
-      "Description": "Set 'pushframes' to '80'"
+      "CodeBlockLine": 5,
+      "MemoryOffset": 11732,
+      "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 6,
-      "MemoryOffset": 8788,
+      "MemoryOffset": 11736,
+      "Description": "Set 'pushframes' to '160'"
+    },
+    {
+      "CodeBlock": "ryu_tatsu",
+      "CodeBlockLine": 6,
+      "MemoryOffset": 11744,
       "Description": "Set 'player_xpush' to '150 * velo'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 6,
-      "MemoryOffset": 8800,
+      "MemoryOffset": 11756,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 6,
-      "MemoryOffset": 8804,
+      "MemoryOffset": 11760,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 6,
-      "MemoryOffset": 8808,
+      "MemoryOffset": 11764,
       "Description": "Set 'player_ypush' to '0'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 6,
-      "MemoryOffset": 8814,
+      "MemoryOffset": 11770,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 6,
-      "MemoryOffset": 8818,
+      "MemoryOffset": 11774,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 7,
-      "MemoryOffset": 8822,
+      "MemoryOffset": 11778,
       "Description": "Set 'player_var3' to '2'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 7,
-      "MemoryOffset": 8828,
+      "MemoryOffset": 11784,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 7,
-      "MemoryOffset": 8832,
+      "MemoryOffset": 11788,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 8,
-      "MemoryOffset": 8836,
-      "Description": "GOTO '00008978'"
+      "MemoryOffset": 11792,
+      "Description": "GOTO '00011948'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 8,
-      "MemoryOffset": 8842,
-      "Description": "If 'player_var3' Equals '2' ELSE GOTO 00008978"
+      "MemoryOffset": 11798,
+      "Description": "If 'player_var3' Equals '2' ELSE GOTO 00011948"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8866,
-      "Description": "Set 'pushframes' to '1'"
+      "MemoryOffset": 11822,
+      "Description": "Set 'pushframes' to '2'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8872,
+      "MemoryOffset": 11828,
       "Description": "Set 'player_xpush' to '0'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8878,
+      "MemoryOffset": 11834,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8882,
+      "MemoryOffset": 11838,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8886,
+      "MemoryOffset": 11842,
       "Description": "Set 'player_ypush' to '0'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8892,
+      "MemoryOffset": 11848,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 9,
-      "MemoryOffset": 8896,
+      "MemoryOffset": 11852,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8900,
+      "MemoryOffset": 11856,
       "Description": "Set 'player_var3' to '0'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8906,
+      "MemoryOffset": 11862,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 10,
-      "MemoryOffset": 8910,
+      "MemoryOffset": 11866,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8914,
+      "MemoryOffset": 11870,
       "Description": "Set 'player_type' to '2 + dir'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8924,
+      "MemoryOffset": 11880,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8928,
+      "MemoryOffset": 11884,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8932,
+      "MemoryOffset": 11888,
       "Description": "Set 'player_lookdir' to 'reset_movement'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8938,
+      "MemoryOffset": 11894,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8942,
+      "MemoryOffset": 11898,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8946,
+      "MemoryOffset": 11902,
       "Description": "Set 'player_animation' to 'Trigger_CancelAnimation'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8952,
+      "MemoryOffset": 11908,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 11,
-      "MemoryOffset": 8956,
+      "MemoryOffset": 11912,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 12,
-      "MemoryOffset": 8960,
+      "MemoryOffset": 11916,
       "Description": "Set 'player_animation' to 'ryu_tatsu_end_r + dir'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 12,
-      "MemoryOffset": 8970,
+      "MemoryOffset": 11926,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "ryu_tatsu",
       "CodeBlockLine": 12,
-      "MemoryOffset": 8974,
+      "MemoryOffset": 11930,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ryu_tatsu",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 11934,
+      "Description": "Set 'player_var1' to '5'"
+    },
+    {
+      "CodeBlock": "ryu_tatsu",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 11940,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_tatsu",
+      "CodeBlockLine": 13,
+      "MemoryOffset": 11944,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ryu_top_spawn",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 11980,
+      "Description": "RYU_TOP_SPAWN"
+    },
+    {
+      "CodeBlock": "ryu_top_spawn",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 11980,
+      "Description": "Set 'newvalue' to 'top_panel'"
+    },
+    {
+      "CodeBlock": "ryu_top_spawn",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 11986,
+      "Description": "GOSUB TO 'LOAD_PANEL_TOP'"
+    },
+    {
+      "CodeBlock": "ryu_top_spawn",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 12006,
+      "Description": "Set 'player_spawn' to 'player_tag'"
+    },
+    {
+      "CodeBlock": "ryu_top_spawn",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 12026,
+      "Description": "Core operation'RefreshActorVariable'"
+    },
+    {
+      "CodeBlock": "ryu_top_spawn",
+      "CodeBlockLine": 3,
+      "MemoryOffset": 12030,
+      "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
+    },
+    {
+      "CodeBlock": "ryu_top_spawn",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 12034,
+      "Description": "Set 'camera_follow' to '0'"
+    },
+    {
+      "CodeBlock": "ryu_top_spawn",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 12040,
+      "Description": "Core operation'RefreshCameraFollow'"
+    },
+    {
+      "CodeBlock": "ryu_top_spawn",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 12044,
+      "Description": "Core operation'ForceFollowCurrentPlayer'"
     },
     {
       "CodeBlock": "test",
       "CodeBlockLine": 0,
-      "MemoryOffset": 9010,
+      "MemoryOffset": 12080,
       "Description": "TEST"
     },
     {
       "CodeBlock": "test",
-      "CodeBlockLine": 5,
-      "MemoryOffset": 9010,
-      "Description": "If 'player_lookdir' Equals '3'"
-    },
-    {
-      "CodeBlock": "test",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 9034,
+      "CodeBlockLine": 2,
+      "MemoryOffset": 12080,
       "Description": "Core operation'Print'"
     },
     {
       "CodeBlock": "test",
-      "CodeBlockLine": 6,
-      "MemoryOffset": 9038,
-      "Description": "Print 'yes' to top panel"
-    },
-    {
-      "CodeBlock": "test",
-      "CodeBlockLine": 7,
-      "MemoryOffset": 9046,
-      "Description": "GOTO '00009064'"
-    },
-    {
-      "CodeBlock": "test",
-      "CodeBlockLine": 8,
-      "MemoryOffset": 9052,
-      "Description": "Core operation'Print'"
-    },
-    {
-      "CodeBlock": "test",
-      "CodeBlockLine": 8,
-      "MemoryOffset": 9056,
-      "Description": "Print 'no' to top panel"
+      "CodeBlockLine": 2,
+      "MemoryOffset": 12084,
+      "Description": "Print 'me: {actor_type}' to top panel"
     },
     {
       "CodeBlock": "var5_reset",
       "CodeBlockLine": 0,
-      "MemoryOffset": 9096,
+      "MemoryOffset": 12132,
       "Description": "VAR5_RESET"
     },
     {
       "CodeBlock": "var5_reset",
       "CodeBlockLine": 1,
-      "MemoryOffset": 9096,
+      "MemoryOffset": 12132,
       "Description": "Set 'actor_var5' to '0'"
     },
     {
       "CodeBlock": "var5_reset",
       "CodeBlockLine": 1,
-      "MemoryOffset": 9102,
+      "MemoryOffset": 12138,
       "Description": "Core operation'RefreshActorVariable'"
     },
     {
       "CodeBlock": "var5_reset",
       "CodeBlockLine": 1,
-      "MemoryOffset": 9106,
+      "MemoryOffset": 12142,
       "Description": "Raw data of type 'BlitzTool.Scorpion_RefreshActorOperation'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 9142,
+      "MemoryOffset": 12178,
       "Description": "STARTUP"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 9142,
+      "MemoryOffset": 12178,
       "Description": "Set 'newvalue' to 'none'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 1,
-      "MemoryOffset": 9148,
+      "MemoryOffset": 12184,
       "Description": "GOSUB TO 'LOAD_PANEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 9168,
+      "MemoryOffset": 12204,
       "Description": "Set 'newvalue' to 'original_japan'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 2,
-      "MemoryOffset": 9174,
+      "MemoryOffset": 12210,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     }
   ],
   "Levels": {
     "0": "No level loaded",
-    "1": "original_japan"
+    "1": "original_japan",
+    "2": "level_japan"
   },
   "Music": {
     "0": "No music loaded"
   },
   "Panels": {
     "0": "scorpion_eng_splashscreen",
-    "1": "test_panel"
+    "1": "test_panel",
+    "2": "top_panel"
   },
   "Actors": {
     "0": "Destroyed actor",
@@ -6762,72 +8732,114 @@
     "4": "004_ryu_duck_r",
     "5": "005_ryu_duck_l",
     "6": "006_ryu_tatsu",
-    "7": "007_retsu_r",
-    "8": "008_retsu_l"
+    "7": "007_ryu_top_r",
+    "8": "008_ryu_top_l",
+    "9": "009_camera",
+    "10": "010_flash",
+    "11": "011_retsu_r",
+    "12": "012_retsu_l"
   },
   "Sounds": {
     "0": "No sound played",
     "1": "hadoken",
     "2": "ryu_grunt",
-    "3": "shoryuken (copy)",
-    "4": "shoryuken",
-    "5": "tatsu",
-    "6": "tatsumaki"
+    "3": "shoryuken",
+    "4": "tatsu"
   },
   "Animations": {
-    "1": "retsu_atk_lk_r",
-    "2": "retsu_atk_lk_l",
-    "3": "retsu_fall_r",
-    "4": "retsu_fall_l",
-    "5": "retsu_idle_r",
-    "6": "retsu_idle_l",
-    "7": "retsu_walk_r",
-    "8": "retsu_walk_l",
-    "9": "fireball_r",
-    "10": "fireball_l",
-    "11": "ryu_atk_hk_r",
-    "12": "ryu_atk_hk_l",
-    "13": "ryu_atk_hp_r",
-    "14": "ryu_atk_hp_l",
-    "15": "ryu_atk_lk_r",
-    "16": "ryu_atk_lk_l",
-    "17": "ryu_atk_lp_r",
-    "18": "ryu_atk_lp_l",
-    "19": "ryu_dragon_punch_r",
-    "20": "ryu_dragon_punch_l",
-    "21": "ryu_duck_atk_hk_r",
-    "22": "ryu_duck_atk_hk_l",
-    "23": "ryu_duck_atk_hp_r",
-    "24": "ryu_duck_atk_hp_l",
-    "25": "ryu_duck_atk_lk_r",
-    "26": "ryu_duck_atk_lk_l",
-    "27": "ryu_duck_atk_lp_r",
-    "28": "ryu_duck_atk_lp_l",
-    "29": "ryu_duck_r",
-    "30": "ryu_duck_l",
-    "31": "ryu_fireball_r",
-    "32": "ryu_fireball_l",
-    "33": "ryu_hurt_stand_r",
-    "34": "ryu_hurt_stand_l",
-    "35": "ryu_idle_r",
-    "36": "ryu_idle_l",
-    "37": "ryu_jump_atk_hk_r",
-    "38": "ryu_jump_atk_hk_l",
-    "39": "ryu_jump_atk_hp_r",
-    "40": "ryu_jump_atk_hp_l",
-    "41": "ryu_jump_atk_lk_r",
-    "42": "ryu_jump_atk_lk_l",
-    "43": "ryu_jump_atk_lp_r",
-    "44": "ryu_jump_atk_lp_l",
-    "45": "ryu_jump_forward_r",
-    "46": "ryu_jump_forward_l",
-    "47": "ryu_jump_r",
-    "48": "ryu_jump_l",
-    "49": "ryu_tatsu_end_r",
-    "50": "ryu_tatsu_end_l",
-    "51": "ryu_tatsu_r",
-    "52": "ryu_tatsu_l",
-    "53": "ryu_walk_r",
-    "54": "ryu_walk_l"
+    "1": "camera",
+    "2": "retsu_atk_hp_r",
+    "3": "retsu_atk_hp_l",
+    "4": "retsu_atk_lk_r",
+    "5": "retsu_atk_lk_l",
+    "6": "retsu_fall_r",
+    "7": "retsu_fall_l",
+    "8": "retsu_hurt_stand_r",
+    "9": "retsu_hurt_stand_l",
+    "10": "retsu_idle_r",
+    "11": "retsu_idle_l",
+    "12": "retsu_walk_r",
+    "13": "retsu_walk_l",
+    "14": "fireball_hit",
+    "15": "fireball_r",
+    "16": "fireball_l",
+    "17": "flash_block",
+    "18": "flash_hit",
+    "19": "ryu_atk_hk_r",
+    "20": "ryu_atk_hk_l",
+    "21": "ryu_atk_hk_top_r",
+    "22": "ryu_atk_hk_top_l",
+    "23": "ryu_atk_hp_r",
+    "24": "ryu_atk_hp_l",
+    "25": "ryu_atk_hp_top_r",
+    "26": "ryu_atk_hp_top_l",
+    "27": "ryu_atk_lk_r",
+    "28": "ryu_atk_lk_l",
+    "29": "ryu_atk_lk_top_r",
+    "30": "ryu_atk_lk_top_l",
+    "31": "ryu_atk_lp_r",
+    "32": "ryu_atk_lp_l",
+    "33": "ryu_atk_lp_top_r",
+    "34": "ryu_atk_lp_top_l",
+    "35": "ryu_dead_r",
+    "36": "ryu_dead_l",
+    "37": "ryu_dragon_punch_r",
+    "38": "ryu_dragon_punch_l",
+    "39": "ryu_duck_atk_hk_r",
+    "40": "ryu_duck_atk_hk_l",
+    "41": "ryu_duck_atk_hk_top_r",
+    "42": "ryu_duck_atk_hk_top_l",
+    "43": "ryu_duck_atk_hp_r",
+    "44": "ryu_duck_atk_hp_l",
+    "45": "ryu_duck_atk_hp_top_r",
+    "46": "ryu_duck_atk_hp_top_l",
+    "47": "ryu_duck_atk_lk_r",
+    "48": "ryu_duck_atk_lk_l",
+    "49": "ryu_duck_atk_lk_top_r",
+    "50": "ryu_duck_atk_lk_top_l",
+    "51": "ryu_duck_atk_lp_r",
+    "52": "ryu_duck_atk_lp_l",
+    "53": "ryu_duck_atk_lp_top_r",
+    "54": "ryu_duck_atk_lp_top_l",
+    "55": "ryu_duck_r",
+    "56": "ryu_duck_l",
+    "57": "ryu_fireball_r",
+    "58": "ryu_fireball_l",
+    "59": "ryu_hurt_fall_r",
+    "60": "ryu_hurt_fall_l",
+    "61": "ryu_hurt_stand_r",
+    "62": "ryu_hurt_stand_l",
+    "63": "ryu_hurt_stand_top_r",
+    "64": "ryu_hurt_stand_top_l",
+    "65": "ryu_idle_r",
+    "66": "ryu_idle_l",
+    "67": "ryu_idle_top_r",
+    "68": "ryu_idle_top_l",
+    "69": "ryu_jump_atk_hk_r",
+    "70": "ryu_jump_atk_hk_l",
+    "71": "ryu_jump_atk_hk_top_r",
+    "72": "ryu_jump_atk_hk_top_l",
+    "73": "ryu_jump_atk_hp_r",
+    "74": "ryu_jump_atk_hp_l",
+    "75": "ryu_jump_atk_hp_top_r",
+    "76": "ryu_jump_atk_hp_top_l",
+    "77": "ryu_jump_atk_lk_r",
+    "78": "ryu_jump_atk_lk_l",
+    "79": "ryu_jump_atk_lk_top_r",
+    "80": "ryu_jump_atk_lk_top_l",
+    "81": "ryu_jump_atk_lp_r",
+    "82": "ryu_jump_atk_lp_l",
+    "83": "ryu_jump_atk_lp_top_r",
+    "84": "ryu_jump_atk_lp_top_l",
+    "85": "ryu_jump_forward_r",
+    "86": "ryu_jump_forward_l",
+    "87": "ryu_jump_r",
+    "88": "ryu_jump_l",
+    "89": "ryu_tatsu_end_r",
+    "90": "ryu_tatsu_end_l",
+    "91": "ryu_tatsu_r",
+    "92": "ryu_tatsu_l",
+    "93": "ryu_walk_r",
+    "94": "ryu_walk_l"
   }
 }

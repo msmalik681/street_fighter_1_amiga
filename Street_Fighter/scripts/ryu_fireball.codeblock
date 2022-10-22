@@ -105,7 +105,7 @@
       "TeleportName": "none",
       "XFloat": null,
       "YFloat": null,
-      "ActorType": "001_fireball",
+      "ActorType": "1",
       "Animation": "none",
       "PushXPixels": "",
       "PushYPixels": "",

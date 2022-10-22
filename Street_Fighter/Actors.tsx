@@ -9,7 +9,7 @@
   </tile>
   <tile id="2">
     <properties>
-      <property name="Name" value="007_retsu_r" type="string" />
+      <property name="Name" value="011_retsu_r" type="string" />
     </properties>
   </tile>
   <tile id="3" />
@@ -42,7 +42,27 @@
   </tile>
   <tile id="11">
     <properties>
-      <property name="Name" value="008_retsu_l" type="string" />
+      <property name="Name" value="012_retsu_l" type="string" />
+    </properties>
+  </tile>
+  <tile id="12">
+    <properties>
+      <property name="Name" value="007_ryu_top_r" type="string" />
+    </properties>
+  </tile>
+  <tile id="13">
+    <properties>
+      <property name="Name" value="008_ryu_top_l" type="string" />
+    </properties>
+  </tile>
+  <tile id="14">
+    <properties>
+      <property name="Name" value="009_camera" type="string" />
+    </properties>
+  </tile>
+  <tile id="15">
+    <properties>
+      <property name="Name" value="010_flash" type="string" />
     </properties>
   </tile>
 </tileset>

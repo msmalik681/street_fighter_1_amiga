@@ -1,7 +1,7 @@
 {
   "Frames": [
     {
-      "Path": "row-1-column-5.png",
+      "Path": "jab_01.png",
       "Duration": 1,
       "HandleX": -48,
       "HandleY": -110,
@@ -16,22 +16,22 @@
       "OnFrame": null
     },
     {
-      "Path": "row-1-column-6.png",
+      "Path": "jab_02.png",
       "Duration": 2,
       "HandleX": -53,
       "HandleY": -114,
       "XFlipped": false,
       "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
+        "X": 9,
+        "Y": -84,
+        "Width": 42,
+        "Height": 21
       },
-      "HasHitBox": false,
+      "HasHitBox": true,
       "OnFrame": null
     },
     {
-      "Path": "row-1-column-5.png",
+      "Path": "jab_01.png",
       "Duration": 1,
       "HandleX": -48,
       "HandleY": -110,

@@ -16,15 +16,15 @@
       "OnFrame": null
     }
   ],
-  "PreventMovement": false,
+  "PreventMovement": true,
   "PreventCollision": false,
-  "HideChildren": false,
+  "HideChildren": true,
   "AutoSprite": false,
   "OnlySprite": false,
   "SpriteType": "Attached_16colors",
   "Multiplexes": 0,
   "LoopFrame": 0,
   "LinkedMap": null,
-  "OnFinish": "on_land",
+  "OnFinish": "",
   "AutoFlip": true
 }

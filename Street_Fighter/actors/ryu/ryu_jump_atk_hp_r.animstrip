@@ -28,7 +28,7 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "light_punch"
+      "OnFrame": ""
     },
     {
       "Path": "row-7-column-2.png",
@@ -46,16 +46,16 @@
       "OnFrame": null
     },
     {
-      "Path": "row-5-column-3.png",
+      "Path": "jumping_hard_punch_02.png",
       "Duration": 6,
       "HandleX": -57,
       "HandleY": -116,
       "XFlipped": false,
       "HitBox": {
-        "X": 10,
-        "Y": -81,
-        "Width": 43,
-        "Height": 30
+        "X": 6,
+        "Y": -79,
+        "Width": 45,
+        "Height": 29
       },
       "HasHitBox": true,
       "OnFrame": null
@@ -100,6 +100,6 @@
   "Multiplexes": 0,
   "LoopFrame": 0,
   "LinkedMap": null,
-  "OnFinish": "on_land",
+  "OnFinish": "",
   "AutoFlip": true
 }

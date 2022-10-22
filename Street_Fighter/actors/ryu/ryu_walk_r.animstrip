@@ -3,7 +3,22 @@
     {
       "Path": "row-1-column-2.png",
       "Duration": 2,
-      "HandleX": -66,
+      "HandleX": -59,
+      "HandleY": -111,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null
+    },
+    {
+      "Path": "row-1-column-2.png",
+      "Duration": 2,
+      "HandleX": -59,
       "HandleY": -113,
       "XFlipped": false,
       "HitBox": {
@@ -18,7 +33,7 @@
     {
       "Path": "row-1-column-2.png",
       "Duration": 2,
-      "HandleX": -66,
+      "HandleX": -59,
       "HandleY": -115,
       "XFlipped": false,
       "HitBox": {
@@ -28,28 +43,13 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "ducking"
-    },
-    {
-      "Path": "row-1-column-2.png",
-      "Duration": 2,
-      "HandleX": -66,
-      "HandleY": -117,
-      "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
       "OnFrame": null
     },
     {
       "Path": "row-1-column-3.png",
       "Duration": 2,
-      "HandleX": -46,
-      "HandleY": -118,
+      "HandleX": -56,
+      "HandleY": -115,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -58,13 +58,13 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "ducking"
+      "OnFrame": ""
     },
     {
       "Path": "row-1-column-3.png",
       "Duration": 2,
-      "HandleX": -46,
-      "HandleY": -116,
+      "HandleX": -56,
+      "HandleY": -113,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -73,13 +73,13 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": ""
     },
     {
       "Path": "row-1-column-3.png",
       "Duration": 2,
-      "HandleX": -46,
-      "HandleY": -114,
+      "HandleX": -56,
+      "HandleY": -111,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -88,12 +88,12 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "ducking"
+      "OnFrame": ""
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
-  "HideChildren": false,
+  "HideChildren": true,
   "AutoSprite": false,
   "OnlySprite": false,
   "SpriteType": "Attached_16colors",

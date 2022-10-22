@@ -1,22 +1,7 @@
 {
   "Frames": [
     {
-      "Path": "row-6-column-1.png",
-      "Duration": 5,
-      "HandleX": -58,
-      "HandleY": -102,
-      "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
-    },
-    {
-      "Path": "row-6-column-2.png",
+      "Path": "pain_standing.png",
       "Duration": 5,
       "HandleX": -56,
       "HandleY": -107,
@@ -40,6 +25,6 @@
   "Multiplexes": 0,
   "LoopFrame": 0,
   "LinkedMap": null,
-  "OnFinish": null,
+  "OnFinish": "",
   "AutoFlip": true
 }

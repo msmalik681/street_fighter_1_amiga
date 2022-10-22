@@ -16,15 +16,15 @@
       "OnFrame": null
     },
     {
-      "Path": "row-3-column-4.png",
+      "Path": "ducking_hard_punch.png",
       "Duration": 3,
       "HandleX": -44,
       "HandleY": -113,
       "XFlipped": false,
       "HitBox": {
-        "X": 17,
-        "Y": -60,
-        "Width": 43,
+        "X": 23,
+        "Y": -58,
+        "Width": 38,
         "Height": 28
       },
       "HasHitBox": true,
@@ -55,6 +55,6 @@
   "Multiplexes": 0,
   "LoopFrame": 0,
   "LinkedMap": null,
-  "OnFinish": "on_land",
+  "OnFinish": "",
   "AutoFlip": true
 }
