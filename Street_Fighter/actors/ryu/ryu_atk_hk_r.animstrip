@@ -1,36 +1,6 @@
 {
   "Frames": [
     {
-      "Path": "row-1-column-1.png",
-      "Duration": 3,
-      "HandleX": -62,
-      "HandleY": -112,
-      "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
-    },
-    {
-      "Path": "row-1-column-1.png",
-      "Duration": 1,
-      "HandleX": -62,
-      "HandleY": -112,
-      "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": ""
-    },
-    {
       "Path": "row-2-column-5.png",
       "Duration": 3,
       "HandleX": -63,
@@ -43,22 +13,11 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
-    },
-    {
-      "Path": "hard_kick_03.png",
-      "Duration": 2,
-      "HandleX": -43,
-      "HandleY": -114,
-      "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     },
     {
       "Path": "row-2-column-9.png",
@@ -73,25 +32,33 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     },
     {
-      "Path": "hard_kick_02.png",
+      "Path": "row-2-column-8.png",
       "Duration": 2,
       "HandleX": -23,
       "HandleY": -114,
       "XFlipped": false,
       "HitBox": {
-        "X": 35,
-        "Y": -85,
-        "Width": 50,
-        "Height": 38
+        "X": 30,
+        "Y": -87,
+        "Width": 55,
+        "Height": 44
       },
       "HasHitBox": true,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     },
     {
-      "Path": "hard_kick_01.png",
+      "Path": "row-2-column-7.png",
       "Duration": 2,
       "HandleX": -29,
       "HandleY": -107,
@@ -103,7 +70,11 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     },
     {
       "Path": "row-2-column-6.png",
@@ -118,7 +89,11 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     },
     {
       "Path": "row-2-column-5.png",
@@ -133,18 +108,18 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     }
   ],
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 2,
   "LinkedMap": null,
-  "OnFinish": "",
+  "OnFinish": "on_land_gosub",
   "AutoFlip": true
 }

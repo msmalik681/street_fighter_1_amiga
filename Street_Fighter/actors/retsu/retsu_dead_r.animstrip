@@ -1,0 +1,30 @@
+{
+  "Frames": [
+    {
+      "Path": "5040-10.png",
+      "Duration": 3,
+      "HandleX": -52,
+      "HandleY": -28,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
+    }
+  ],
+  "PreventMovement": true,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": "var5_reset",
+  "AutoFlip": true
+}

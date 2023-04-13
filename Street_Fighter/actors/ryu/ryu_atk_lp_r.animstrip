@@ -1,9 +1,9 @@
 {
   "Frames": [
     {
-      "Path": "jab_01.png",
+      "Path": "row-1-column-5.png",
       "Duration": 1,
-      "HandleX": -48,
+      "HandleX": -47,
       "HandleY": -110,
       "XFlipped": false,
       "HitBox": {
@@ -13,27 +13,35 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     },
     {
-      "Path": "jab_02.png",
+      "Path": "row-1-column-6.png",
       "Duration": 2,
-      "HandleX": -53,
+      "HandleX": -52,
       "HandleY": -114,
       "XFlipped": false,
       "HitBox": {
-        "X": 9,
-        "Y": -84,
-        "Width": 42,
-        "Height": 21
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
       },
-      "HasHitBox": true,
-      "OnFrame": null
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     },
     {
-      "Path": "jab_01.png",
+      "Path": "row-1-column-5.png",
       "Duration": 1,
-      "HandleX": -48,
+      "HandleX": -47,
       "HandleY": -110,
       "XFlipped": false,
       "HitBox": {
@@ -43,18 +51,18 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     }
   ],
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 0,
   "LinkedMap": null,
-  "OnFinish": "on_land",
+  "OnFinish": "on_land_gosub",
   "AutoFlip": true
 }

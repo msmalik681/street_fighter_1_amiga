@@ -1,0 +1,27 @@
+{
+  "Divert_PlayerProjectileCollision": null,
+  "BlockImagePath": "levels\\blocks.png",
+  "X": 0,
+  "Y": 0,
+  "Divert_PlayerCollision": "do_teleport",
+  "Divert_PlayerHit": null,
+  "Divert_PlayerOverlap": null,
+  "Divert_ProjectileCollision": null,
+  "OnAnimationFrame": null,
+  "FastBlit": false,
+  "IsInvisible": true,
+  "ReplaceTileProperties": true,
+  "LinkedMap": null,
+  "BlockSolidType": "Platform",
+  "PaletteLines": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "TileID": 0
+}

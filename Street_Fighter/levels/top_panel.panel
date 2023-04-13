@@ -1,7 +1,6 @@
 {
-  "DataVersion": 2,
+  "DataVersion": 3,
   "FirstCopper": 0,
-  "PanelImagePath": "levels\\top_panel.png",
   "FadeInFrames": 0,
   "FadeOutFrames": 0,
   "FadeInMusic": false,
@@ -11,6 +10,7 @@
   "TalkpadY": 0,
   "TalkpadWidth": 97,
   "TalkpadHeight": 14,
+  "PanelImagePath": "levels\\top_panel.png",
   "FireIndicatorPath": null,
   "ChoiceIndicatorPath": null,
   "FireIndicatorX": 0,
@@ -27,6 +27,7 @@
       "BarImage": null,
       "CounterImage1": null,
       "CounterDivisions": 1,
+      "PaletteLine": 3,
       "MaxValue": 9999
     },
     {
@@ -39,6 +40,7 @@
       "BarImage": "levels\\lifebar.png",
       "CounterImage1": null,
       "CounterDivisions": 1,
+      "PaletteLine": 3,
       "MaxValue": 10
     },
     {
@@ -51,13 +53,24 @@
       "BarImage": "levels\\lifebar.png",
       "CounterImage1": null,
       "CounterDivisions": 1,
+      "PaletteLine": 3,
       "MaxValue": 10
     }
   ],
   "GFXMode": "BP4",
-  "PanelOptionSound": null,
-  "CenterAdjust": 0,
+  "PanelSlot": "Top",
+  "PanelOptionSound": "none",
+  "PanelOptionSoundMD": "none",
   "OverlapsGameView": false,
-  "TalkpadLineHeight": 0,
-  "TalkpadSpaceWidth": 0
+  "CenterAdjustments": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0
+  },
+  "CenterAdjust_MegaDrive": 0,
+  "PaletteLines_MegaDrive": 1,
+  "StartingPaletteLine_MegaDrive": 3,
+  "TalkpadPalLine": 0,
+  "NumberFontPaletteLine": 0
 }

@@ -96,8 +96,8 @@
   "CollBox": {
     "X": -17,
     "Y": -85,
-    "Width": 34,
-    "Height": 81
+    "Width": 36,
+    "Height": 86
   },
   "AttackDelay": 0,
   "ZOrder": 0,
@@ -107,7 +107,7 @@
   "SpeedDown": 11.0,
   "AccelLeft": 2.0,
   "AccelRight": 2.0,
-  "AccelUp": null,
+  "AccelUp": 3.30000019,
   "AccelDown": 1.1,
   "AccelLeftAir": 0.0,
   "AccelRightAir": 0.0,
@@ -116,6 +116,10 @@
   "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "block",
+  "Player": null,
+  "CanRidePlatform": null,
+  "Camera": null,
+  "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": "",
   "AutoFire": false,
@@ -133,8 +137,8 @@
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
-  "DivertPlatformLand": "on_land",
-  "DivertTimer": "",
+  "DivertPlatformLand": "on_land_gosub",
+  "DivertTimer": "ryu_ontimer",
   "DivertTimerFrames": 0,
   "Vars": [
     "1",
@@ -142,10 +146,10 @@
     "0",
     "0",
     "0",
-    "8"
+    "3"
   ],
   "ControlPort": 1,
-  "JumpCancel": 2.0,
-  "TileID": 9,
-  "SuggestedRecycle": "Never"
+  "DataVersion": 3,
+  "AutoSpawn": null,
+  "TileID": 3
 }

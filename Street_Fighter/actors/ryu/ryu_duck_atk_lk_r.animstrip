@@ -1,7 +1,7 @@
 {
   "Frames": [
     {
-      "Path": "ducking_light_kick_01.png",
+      "Path": "row-3-column-7.png",
       "Duration": 1,
       "HandleX": -53,
       "HandleY": -115,
@@ -13,25 +13,33 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     },
     {
-      "Path": "ducking_light_kick_02.png",
+      "Path": "row-3-column-8.png",
       "Duration": 3,
       "HandleX": -42,
       "HandleY": -113,
       "XFlipped": false,
       "HitBox": {
-        "X": 2,
-        "Y": -27,
+        "X": -3,
+        "Y": -28,
         "Width": 58,
-        "Height": 29
+        "Height": 33
       },
       "HasHitBox": true,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     },
     {
-      "Path": "ducking_light_kick_01.png",
+      "Path": "row-3-column-7.png",
       "Duration": 1,
       "HandleX": -53,
       "HandleY": -115,
@@ -43,16 +51,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     }
   ],
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 0,
   "LinkedMap": null,
   "OnFinish": "",

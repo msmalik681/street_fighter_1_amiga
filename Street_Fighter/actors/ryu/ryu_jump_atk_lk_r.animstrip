@@ -13,31 +13,35 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     },
     {
-      "Path": "jumping_light_kick_02.png",
+      "Path": "row-5-column-2.png",
       "Duration": 99,
       "HandleX": -44,
       "HandleY": -119,
       "XFlipped": false,
       "HitBox": {
         "X": 8,
-        "Y": -56,
-        "Width": 52,
-        "Height": 30
+        "Y": -62,
+        "Width": 53,
+        "Height": 39
       },
       "HasHitBox": true,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     }
   ],
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 0,
   "LinkedMap": null,
   "OnFinish": "",

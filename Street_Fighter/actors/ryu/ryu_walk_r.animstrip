@@ -13,7 +13,11 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": "",
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     },
     {
       "Path": "row-1-column-2.png",
@@ -28,7 +32,11 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     },
     {
       "Path": "row-1-column-2.png",
@@ -43,7 +51,11 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     },
     {
       "Path": "row-1-column-3.png",
@@ -58,7 +70,11 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": ""
+      "OnFrame": "",
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     },
     {
       "Path": "row-1-column-3.png",
@@ -73,7 +89,11 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": ""
+      "OnFrame": "",
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     },
     {
       "Path": "row-1-column-3.png",
@@ -88,16 +108,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": ""
+      "OnFrame": "",
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal"
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
   "HideChildren": true,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 0,
   "LinkedMap": null,
   "OnFinish": "",

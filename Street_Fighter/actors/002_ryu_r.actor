@@ -2,7 +2,7 @@
   "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
   "DefaultLookDir": "right",
-  "Recycle": "Default",
+  "Recycle": "Never",
   "MoveType": "control_platform",
   "MaxEntities": 0,
   "NudgeX": 10,
@@ -18,14 +18,14 @@
     "DownRight": null
   },
   "Moves": {
-    "UpLeft": "",
+    "UpLeft": "ryu_walk_r",
     "Up": null,
     "UpRight": "",
     "Left": "ryu_walk_r",
     "Right": "ryu_walk_r",
     "DownLeft": null,
     "Down": null,
-    "DownRight": null
+    "DownRight": ""
   },
   "Attacks": {
     "UpLeft": null,
@@ -93,11 +93,22 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
   "CollBox": {
     "X": -17,
     "Y": -85,
-    "Width": 34,
-    "Height": 81
+    "Width": 33,
+    "Height": 86
   },
   "AttackDelay": 0,
   "ZOrder": 0,
@@ -107,8 +118,8 @@
   "SpeedDown": 8.0,
   "AccelLeft": 2.0,
   "AccelRight": 2.0,
-  "AccelUp": null,
-  "AccelDown": 1.1,
+  "AccelUp": 3.20000029,
+  "AccelDown": 1.06666672,
   "AccelLeftAir": 0.0,
   "AccelRightAir": 0.0,
   "RotationSpeed": 0.0,
@@ -116,6 +127,10 @@
   "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "block",
+  "Player": true,
+  "CanRidePlatform": null,
+  "Camera": true,
+  "AutoScroll": false,
   "Flags": 0,
   "AttackProjectile": "",
   "AutoFire": false,
@@ -123,17 +138,17 @@
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": null,
-  "DivertSpawn": "ryu_top_spawn",
+  "DivertSpawn": "",
   "DivertPlayerCollision": null,
   "DivertPlayerHit": "",
   "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": null,
-  "DivertOutOfScreenLeft": "snap_to_screen",
-  "DivertOutOfScreenRight": "snap_to_screen",
+  "DivertOutOfScreenLeft": "",
+  "DivertOutOfScreenRight": "",
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
-  "DivertPlatformLand": "on_land",
+  "DivertPlatformLand": "",
   "DivertTimer": "",
   "DivertTimerFrames": 0,
   "Vars": [
@@ -142,10 +157,10 @@
     "0",
     "0",
     "0",
-    "7"
+    "2"
   ],
   "ControlPort": 1,
-  "JumpCancel": 2.0,
-  "TileID": 4,
-  "SuggestedRecycle": "Never"
+  "DataVersion": 3,
+  "AutoSpawn": true,
+  "TileID": 2
 }

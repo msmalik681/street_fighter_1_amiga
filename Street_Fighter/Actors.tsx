@@ -9,60 +9,52 @@
   </tile>
   <tile id="2">
     <properties>
-      <property name="Name" value="011_retsu_r" type="string" />
-    </properties>
-  </tile>
-  <tile id="3" />
-  <tile id="4">
-    <properties>
       <property name="Name" value="002_ryu_r" type="string" />
     </properties>
   </tile>
-  <tile id="5" />
-  <tile id="6">
-    <properties>
-      <property name="Name" value="004_ryu_duck_r" type="string" />
-    </properties>
-  </tile>
-  <tile id="7" />
-  <tile id="8">
-    <properties>
-      <property name="Name" value="006_ryu_tatsu" type="string" />
-    </properties>
-  </tile>
-  <tile id="9">
+  <tile id="3">
     <properties>
       <property name="Name" value="003_ryu_l" type="string" />
     </properties>
   </tile>
-  <tile id="10">
+  <tile id="4">
+    <properties>
+      <property name="Name" value="004_ryu_duck_r" type="string" />
+    </properties>
+  </tile>
+  <tile id="5">
     <properties>
       <property name="Name" value="005_ryu_duck_l" type="string" />
     </properties>
   </tile>
+  <tile id="6">
+    <properties>
+      <property name="Name" value="006_camera" type="string" />
+    </properties>
+  </tile>
+  <tile id="7">
+    <properties>
+      <property name="Name" value="007_flash" type="string" />
+    </properties>
+  </tile>
+  <tile id="8">
+    <properties>
+      <property name="Name" value="008_retsu_r" type="string" />
+    </properties>
+  </tile>
+  <tile id="9">
+    <properties>
+      <property name="Name" value="009_retsu_l" type="string" />
+    </properties>
+  </tile>
+  <tile id="10">
+    <properties>
+      <property name="Name" value="010_retsu_duck_r" type="string" />
+    </properties>
+  </tile>
   <tile id="11">
     <properties>
-      <property name="Name" value="012_retsu_l" type="string" />
-    </properties>
-  </tile>
-  <tile id="12">
-    <properties>
-      <property name="Name" value="007_ryu_top_r" type="string" />
-    </properties>
-  </tile>
-  <tile id="13">
-    <properties>
-      <property name="Name" value="008_ryu_top_l" type="string" />
-    </properties>
-  </tile>
-  <tile id="14">
-    <properties>
-      <property name="Name" value="009_camera" type="string" />
-    </properties>
-  </tile>
-  <tile id="15">
-    <properties>
-      <property name="Name" value="010_flash" type="string" />
+      <property name="Name" value="011_retsu_duck_l" type="string" />
     </properties>
   </tile>
 </tileset>

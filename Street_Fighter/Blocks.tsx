@@ -3,7 +3,7 @@
   <image source="blocks.png" width="256" height="256" />
   <tile id="0">
     <properties>
-      <property name="Name" value="new_block" type="string" />
+      <property name="Name" value="block" type="string" />
     </properties>
   </tile>
 </tileset>
