@@ -13,11 +13,12 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null,
+      "OnFrame": "cloud_spawn",
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal"
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-2-column-3b.png",
@@ -36,7 +37,8 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal"
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-2-column-4.png",
@@ -55,7 +57,8 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal"
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-2-column-4.png",
@@ -74,7 +77,8 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal"
+      "RenderType": "Normal",
+      "HighPriority": false
     }
   ],
   "PreventMovement": true,
@@ -83,5 +87,6 @@
   "LoopFrame": 0,
   "LinkedMap": null,
   "OnFinish": "on_land_gosub",
-  "AutoFlip": true
+  "AutoFlip": true,
+  "Streamed": true
 }

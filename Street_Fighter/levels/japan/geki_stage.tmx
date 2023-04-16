@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="48" height="14" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="7" nextobjectid="1">
   <properties>
+    <property name="divert_timer" value="" />
     <property name="parallax_path" type="file" value="geki_sprite_lax.png" />
     <property name="rainbow_palette" type="file" value="geki_copper.png" />
   </properties>
@@ -26,7 +27,7 @@
 </data>
     <properties>
       <property name="amiga_ocs" type="bool" value="true" />
-      <property name="foreground" type="bool" value="False" />
+      <property name="foreground" type="bool" value="false" />
     </properties>
   </layer>
   <layer id="2" name="blocks" width="48" height="14">
@@ -43,12 +44,12 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257
 </data>
     <properties>
       <property name="amiga_ocs" type="bool" value="true" />
-      <property name="foreground" type="bool" value="False" />
+      <property name="foreground" type="bool" value="false" />
     </properties>
   </layer>
   <layer id="3" name="actors" width="48" height="14">
@@ -70,7 +71,7 @@
 </data>
     <properties>
       <property name="amiga_ocs" type="bool" value="true" />
-      <property name="foreground" type="bool" value="False" />
+      <property name="foreground" type="bool" value="false" />
     </properties>
   </layer>
   <layer id="4" name="foreground" width="48" height="14">
@@ -92,7 +93,7 @@
 </data>
     <properties>
       <property name="amiga_ocs" type="bool" value="true" />
-      <property name="foreground" type="bool" value="True" />
+      <property name="foreground" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="6" name="events" />

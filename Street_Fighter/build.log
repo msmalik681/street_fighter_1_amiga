@@ -173,7 +173,7 @@ For chip:
 Map gfx (level gfx bundle 3): 0
 Music memory (): 0
 BP Buffer memory: 116400
-core sfx/gfx memory: 805188
+core sfx/gfx memory: 810560
 Parallax memory: 0
 
 For other:
@@ -182,18 +182,18 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 201352
-vm memory: 128060
-project memory: 14530
+vm memory: 23974
+project memory: 15980
 
-Accounted memory chip: 921588
-Accounted memory other: 343942
-Accounted memory total: 1265530
+Accounted memory chip: 926960
+Accounted memory other: 241306
+Accounted memory total: 1168266
 
 === Misc ===
 Maps and Asset Bundles Count: 5
 Maps and Asset Bundles Data Size: 60
-Actor Count: 12
-Actor Data Size: 2400
+Actor Count: 17
+Actor Data Size: 3400
 Block Count: 2
 Block Data Size: 104
 Anim5 Count: 0
@@ -202,22 +202,22 @@ Sound Count: 5
 Sound Data Size: 120
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 69
-Animations Data Size: 1104
-AnimationFrame Count: 236
-AnimationFrame Data Size: 3776
-ImageFrames: 154
-ImageFrame Data Size: 6776
-Sprites: 1
-Sprites Data Size: 14
+Animations Count: 74
+Animations Data Size: 1184
+AnimationFrame Count: 241
+AnimationFrame Data Size: 3856
+ImageFrames: 159
+ImageFrame Data Size: 6996
+Sprites: 6
+Sprites Data Size: 84
 Attack Data: 1
 Attack Data Size: 66
 Misc data size: 100
-Asset bundle 0 (Core project asset bundle) Original size 805188 Crunched size 805188
+Asset bundle 0 (Core project asset bundle) Original size 810560 Crunched size 810560
 Asset bundle 1 (geki_stage) Original size 54720 Crunched size 54720
 Asset bundle 2 (original_japan) Original size 65440 Crunched size 65440
 Asset bundle 3 (vs_screen) Original size 137600 Crunched size 137600
-Background for map geki_stage Original size 2672 Crunched size 2672
+Background for map geki_stage Original size 2776 Crunched size 2776
 Background for map original_japan Original size 2672 Crunched size 2672
 Background for map vs_screen Original size 2672 Crunched size 2672
 Tile data for map geki_stage (mem restrictions:None) Original size 4176 Crunched size 4176
@@ -227,13 +227,13 @@ Header data for map geki_stage Original size 7996 Crunched size 7996
 Header data for map original_japan Original size 7996 Crunched size 7996
 Header data for map vs_screen Original size 7996 Crunched size 7996
 Parallax for map geki_stage Original size 28800 Crunched size 28800
-Project Data Original size 14530 Crunched size 14530
+Project Data Original size 15980 Crunched size 15980
 Project Header Original size 4032 Crunched size 4032
 Panel scorpion_eng_splashscreen Original size 35944 Crunched size 3280
 Panel bottom_panel Original size 23322 Crunched size 23322
-Panel top_panel Original size 18604 Crunched size 18604
-Project virtual machine (codeblocks) Original size 128060 Crunched size 128060
-Project virtual machine redirects Original size 688 Crunched size 688
+Panel top_panel Original size 18634 Crunched size 18634
+Project virtual machine (codeblocks) Original size 23974 Crunched size 23974
+Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
 retsu_atk_hp_r
@@ -293,86 +293,88 @@ ryu_tatsu_r
 ryu_tatsu_l
 
 === Codeblocks by compiled size ===
-startup: 25314
-ryu_ontimer: 18292
-enemy_take_damage_gosub: 4800
-load_level: 4538
-on_land_gosub: 3346
-ducking: 2978
-enemy_ai: 2686
-pause: 2598
-set_yresolution: 2538
-player_take_damage_gosub: 2492
-vs_colour_birdie: 1940
-vs_colour_eagle: 1924
-vs_colour_sagat: 1924
-vs_colour_adon: 1906
-vs_colour_geki: 1906
-vs_colour_mike: 1906
-vs_colour_gen: 1890
-vs_colour_joe: 1890
-vs_colour_ken: 1890
-vs_colour_lee: 1890
-flipscreen_smooth: 1788
-vs_colour_ryu: 1718
-do_teleport: 1690
-flipxymove: 1678
-ryu_tatsu: 1634
-vs_colour_retsu: 1460
-camera: 1410
-pre_startup: 1390
-snap_to_screen: 1158
-blocks_clear: 1112
-colour_geki_stage: 1070
-load_panel: 1056
-check_direction: 998
-unload_panel: 934
-destroy_all_blocks: 880
-ryu_dragon_punch: 880
-flipymove: 808
-unload_level: 790
-load_panel_bottom: 770
-pre_quit: 764
-load_panel_top: 742
-ryu_jump: 742
-waitforfireup: 706
-damage_light_standing_gosub: 706
-flipxmove: 704
-waitforfiredown: 704
-fadeout: 660
-waitforframes: 628
-load_music: 588
-fadein: 536
-unload_panel_bottom: 482
-fireball_hit: 474
-unload_panel_top: 464
-vs_goto_restsu_in: 440
-load_panel_finish: 408
-waitforfirehit: 394
-wrap_screen_bottom: 360
-wrap_screen_right: 358
-test: 354
-pre_anim5: 344
-wrap_screen_left: 344
-wrap_screen_top: 340
-enemy_x: 332
-enemy_take_damage: 280
-player_take_damage: 276
-regenerate_screen_wait: 258
-regenerate_screen: 254
-ryu_fireball: 248
-vm_constants_tile_properties: 204
-flipscreen: 198
-destroy_all_actors: 188
-jump_actor: 154
-quit: 140
-destroy_block: 132
-destroy_actor: 122
-debug_breakpoint: 116
-return: 106
-debug_dump: 104
+startup: 5308
+ryu_ontimer: 1682
+load_level: 1012
+enemy_take_damage_gosub: 738
+on_land_gosub: 542
+vs_colour_adon: 474
+vs_colour_birdie: 474
+vs_colour_eagle: 474
+vs_colour_geki: 474
+vs_colour_gen: 474
+vs_colour_joe: 474
+vs_colour_ken: 474
+vs_colour_lee: 474
+vs_colour_mike: 474
+vs_colour_sagat: 474
+set_yresolution: 448
+vs_colour_ryu: 446
+player_take_damage_gosub: 436
+do_teleport: 362
+vs_colour_retsu: 362
+ducking: 354
+flipscreen_smooth: 346
+enemy_ai: 346
+ryu_tatsu: 344
+flipxymove: 306
+camera: 302
+colour_geki_stage: 278
+pause: 252
+snap_to_screen: 190
+pre_startup: 188
+flipymove: 174
+flipxmove: 158
+ryu_jump: 158
+check_direction: 152
+load_panel: 146
+pre_quit: 146
+blocks_clear: 136
+damage_light_standing_gosub: 132
+ryu_dragon_punch: 126
+destroy_all_blocks: 124
+unload_level: 114
+fireball_hit: 108
+load_panel_bottom: 96
+load_panel_top: 96
+waitforfireup: 94
+unload_panel: 92
+wrap_screen_bottom: 92
+wrap_screen_right: 92
+waitforfiredown: 90
+wrap_screen_left: 88
+wrap_screen_top: 88
+flipscreen: 86
+pre_anim5: 86
+waitforfirehit: 86
+fadeout: 84
+waitforframes: 78
+player_take_damage: 76
+enemy_take_damage: 72
+enemy_x: 68
+quit: 66
+destroy_all_actors: 62
+jump_actor: 62
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+ryu_fireball: 60
+vs_goto_restsu_in: 60
+fadein: 58
+load_panel_finish: 56
+destroy_actor: 54
+regenerate_screen: 52
+return: 52
+destroy_block: 48
+cloud_spawn: 48
+test: 46
+regenerate_screen_wait: 42
+get_pos: 32
+debug_dump: 30
 vm_registers: 26
 vm_constants: 26
+debug_breakpoint: 26
 vm_constants_controlbits: 26
 vm_constants_notes: 26
+vm_constants_tile_properties: 26
 vm_constants_platform: 26

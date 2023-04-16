@@ -1,10 +1,10 @@
 {
   "Frames": [
     {
-      "Path": "row-1-column-1.png",
-      "Duration": -1,
-      "HandleX": -61,
-      "HandleY": -112,
+      "Path": "cloud_03.png",
+      "Duration": 0,
+      "HandleX": 0,
+      "HandleY": 0,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -13,20 +13,20 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "cloud_spawn",
+      "OnFrame": null,
       "PaletteLine": 0,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
+      "Multiplexes": 16,
+      "SpriteType": "Channel_8_to_1",
+      "RenderType": "OnlySprite",
       "HighPriority": false
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
   "HideChildren": false,
-  "LoopFrame": 1,
-  "LinkedMap": "",
-  "OnFinish": "",
-  "AutoFlip": true,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": false,
   "Streamed": true
 }
