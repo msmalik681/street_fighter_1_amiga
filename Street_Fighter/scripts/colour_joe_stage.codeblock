@@ -67,9 +67,9 @@
       "JumpOnHold": false,
       "ColorIndex": "16",
       "Color": {
-        "r": 170,
-        "g": 187,
-        "b": 0,
+        "r": 106,
+        "g": 132,
+        "b": 36,
         "a": 255
       },
       "Sound": "none",
@@ -141,9 +141,9 @@
       "JumpOnHold": false,
       "ColorIndex": "17",
       "Color": {
-        "r": 153,
-        "g": 153,
-        "b": 0,
+        "r": 181,
+        "g": 146,
+        "b": 111,
         "a": 255
       },
       "Sound": "none",
@@ -215,9 +215,9 @@
       "JumpOnHold": false,
       "ColorIndex": "18",
       "Color": {
-        "r": 136,
-        "g": 136,
-        "b": 0,
+        "r": 144,
+        "g": 109,
+        "b": 71,
         "a": 255
       },
       "Sound": "none",
@@ -289,9 +289,9 @@
       "JumpOnHold": false,
       "ColorIndex": "19",
       "Color": {
-        "r": 119,
-        "g": 119,
-        "b": 0,
+        "r": 213,
+        "g": 127,
+        "b": 27,
         "a": 255
       },
       "Sound": "none",
@@ -363,9 +363,9 @@
       "JumpOnHold": false,
       "ColorIndex": "20",
       "Color": {
-        "r": 85,
-        "g": 102,
-        "b": 0,
+        "r": 111,
+        "g": 119,
+        "b": 119,
         "a": 255
       },
       "Sound": "none",
@@ -437,9 +437,9 @@
       "JumpOnHold": false,
       "ColorIndex": "21",
       "Color": {
-        "r": 51,
-        "g": 68,
-        "b": 0,
+        "r": 90,
+        "g": 90,
+        "b": 21,
         "a": 255
       },
       "Sound": "none",
@@ -511,9 +511,9 @@
       "JumpOnHold": false,
       "ColorIndex": "22",
       "Color": {
-        "r": 204,
-        "g": 153,
-        "b": 119,
+        "r": 166,
+        "g": 79,
+        "b": 123,
         "a": 255
       },
       "Sound": "none",
@@ -585,9 +585,9 @@
       "JumpOnHold": false,
       "ColorIndex": "23",
       "Color": {
-        "r": 136,
-        "g": 102,
-        "b": 68,
+        "r": 102,
+        "g": 68,
+        "b": 0,
         "a": 255
       },
       "Sound": "none",
@@ -659,9 +659,9 @@
       "JumpOnHold": false,
       "ColorIndex": "24",
       "Color": {
-        "r": 51,
-        "g": 68,
-        "b": 119,
+        "r": 136,
+        "g": 153,
+        "b": 153,
         "a": 255
       },
       "Sound": "none",
@@ -733,9 +733,9 @@
       "JumpOnHold": false,
       "ColorIndex": "25",
       "Color": {
-        "r": 238,
-        "g": 102,
-        "b": 0,
+        "r": 153,
+        "g": 170,
+        "b": 170,
         "a": 255
       },
       "Sound": "none",
@@ -807,9 +807,9 @@
       "JumpOnHold": false,
       "ColorIndex": "26",
       "Color": {
-        "r": 187,
-        "g": 68,
-        "b": 0,
+        "r": 170,
+        "g": 187,
+        "b": 187,
         "a": 255
       },
       "Sound": "none",
@@ -881,9 +881,9 @@
       "JumpOnHold": false,
       "ColorIndex": "27",
       "Color": {
-        "r": 153,
-        "g": 51,
-        "b": 0,
+        "r": 204,
+        "g": 221,
+        "b": 221,
         "a": 255
       },
       "Sound": "none",
@@ -955,9 +955,9 @@
       "JumpOnHold": false,
       "ColorIndex": "28",
       "Color": {
-        "r": 136,
-        "g": 51,
-        "b": 0,
+        "r": 221,
+        "g": 238,
+        "b": 238,
         "a": 255
       },
       "Sound": "none",
@@ -1029,9 +1029,9 @@
       "JumpOnHold": false,
       "ColorIndex": "29",
       "Color": {
-        "r": 102,
-        "g": 51,
-        "b": 0,
+        "r": 255,
+        "g": 255,
+        "b": 255,
         "a": 255
       },
       "Sound": "none",

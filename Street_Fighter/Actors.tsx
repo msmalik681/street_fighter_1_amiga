@@ -57,29 +57,4 @@
       <property name="Name" value="011_retsu_duck_l" type="string" />
     </properties>
   </tile>
-  <tile id="12">
-    <properties>
-      <property name="Name" value="012_cloud_01" type="string" />
-    </properties>
-  </tile>
-  <tile id="13">
-    <properties>
-      <property name="Name" value="013_cloud_02" type="string" />
-    </properties>
-  </tile>
-  <tile id="14">
-    <properties>
-      <property name="Name" value="014_cloud_03" type="string" />
-    </properties>
-  </tile>
-  <tile id="15">
-    <properties>
-      <property name="Name" value="015_cloud_04" type="string" />
-    </properties>
-  </tile>
-  <tile id="16">
-    <properties>
-      <property name="Name" value="016_cloud_05" type="string" />
-    </properties>
-  </tile>
 </tileset>

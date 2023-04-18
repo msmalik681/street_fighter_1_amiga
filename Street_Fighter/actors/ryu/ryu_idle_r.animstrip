@@ -2,7 +2,7 @@
   "Frames": [
     {
       "Path": "row-1-column-1.png",
-      "Duration": -1,
+      "Duration": 5,
       "HandleX": -61,
       "HandleY": -112,
       "XFlipped": false,
@@ -13,7 +13,7 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "cloud_spawn",
+      "OnFrame": "",
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
@@ -24,7 +24,7 @@
   "PreventMovement": false,
   "PreventCollision": false,
   "HideChildren": false,
-  "LoopFrame": 1,
+  "LoopFrame": 0,
   "LinkedMap": "",
   "OnFinish": "",
   "AutoFlip": true,

@@ -30,9 +30,9 @@
   "Attacks": {
     "UpLeft": null,
     "Up": null,
-    "UpRight": null,
-    "Left": null,
-    "Right": "",
+    "UpRight": "ryu_atk_hp_r",
+    "Left": "ryu_atk_hp_r",
+    "Right": "ryu_atk_hp_r",
     "DownLeft": null,
     "Down": null,
     "DownRight": ""
@@ -94,15 +94,15 @@
     }
   ],
   "InvalidDirections": [
+    true,
+    false,
+    true,
     false,
     false,
     false,
+    true,
     false,
-    false,
-    false,
-    false,
-    false,
-    false
+    true
   ],
   "CollBox": {
     "X": -17,

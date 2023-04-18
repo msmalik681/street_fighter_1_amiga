@@ -170,10 +170,10 @@ Reduce width of actors\ryu\row-1-column-2.png by 15 pixels to 32 to improve blit
 === Estimated memory usages ===
 
 For chip:
-Map gfx (level gfx bundle 3): 0
+Map gfx (level gfx bundle 4): 0
 Music memory (): 0
 BP Buffer memory: 116400
-core sfx/gfx memory: 810560
+core sfx/gfx memory: 805188
 Parallax memory: 0
 
 For other:
@@ -182,18 +182,18 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 201352
-vm memory: 23974
-project memory: 15980
+vm memory: 25304
+project memory: 14608
 
-Accounted memory chip: 926960
-Accounted memory other: 241306
-Accounted memory total: 1168266
+Accounted memory chip: 921588
+Accounted memory other: 241264
+Accounted memory total: 1162852
 
 === Misc ===
-Maps and Asset Bundles Count: 5
-Maps and Asset Bundles Data Size: 60
-Actor Count: 17
-Actor Data Size: 3400
+Maps and Asset Bundles Count: 6
+Maps and Asset Bundles Data Size: 72
+Actor Count: 12
+Actor Data Size: 2400
 Block Count: 2
 Block Data Size: 104
 Anim5 Count: 0
@@ -202,37 +202,41 @@ Sound Count: 5
 Sound Data Size: 120
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 74
-Animations Data Size: 1184
-AnimationFrame Count: 241
-AnimationFrame Data Size: 3856
-ImageFrames: 159
-ImageFrame Data Size: 6996
-Sprites: 6
-Sprites Data Size: 84
-Attack Data: 1
-Attack Data Size: 66
+Animations Count: 69
+Animations Data Size: 1104
+AnimationFrame Count: 236
+AnimationFrame Data Size: 3776
+ImageFrames: 154
+ImageFrame Data Size: 6776
+Sprites: 1
+Sprites Data Size: 14
+Attack Data: 2
+Attack Data Size: 132
 Misc data size: 100
-Asset bundle 0 (Core project asset bundle) Original size 810560 Crunched size 810560
-Asset bundle 1 (geki_stage) Original size 54720 Crunched size 54720
-Asset bundle 2 (original_japan) Original size 65440 Crunched size 65440
-Asset bundle 3 (vs_screen) Original size 137600 Crunched size 137600
-Background for map geki_stage Original size 2776 Crunched size 2776
-Background for map original_japan Original size 2672 Crunched size 2672
-Background for map vs_screen Original size 2672 Crunched size 2672
-Tile data for map geki_stage (mem restrictions:None) Original size 4176 Crunched size 4176
-Tile data for map original_japan (mem restrictions:None) Original size 4176 Crunched size 4176
-Tile data for map vs_screen (mem restrictions:None) Original size 29776 Crunched size 29776
-Header data for map geki_stage Original size 7996 Crunched size 7996
-Header data for map original_japan Original size 7996 Crunched size 7996
-Header data for map vs_screen Original size 7996 Crunched size 7996
-Parallax for map geki_stage Original size 28800 Crunched size 28800
-Project Data Original size 15980 Crunched size 15980
-Project Header Original size 4032 Crunched size 4032
+Asset bundle 0 (Core project asset bundle) Original size 805188 Crunched size 265110
+Asset bundle 1 (geki_stage) Original size 69920 Crunched size 32260
+Asset bundle 2 (joe_stage) Original size 83040 Crunched size 35810
+Asset bundle 3 (retsu_stage) Original size 81440 Crunched size 44976
+Asset bundle 4 (vs_screen) Original size 137600 Crunched size 75262
+Background for map geki_stage Original size 2776 Crunched size 474
+Background for map joe_stage Original size 2672 Crunched size 92
+Background for map retsu_stage Original size 2672 Crunched size 92
+Background for map vs_screen Original size 2672 Crunched size 92
+Tile data for map geki_stage (mem restrictions:None) Original size 4176 Crunched size 1428
+Tile data for map joe_stage (mem restrictions:None) Original size 4176 Crunched size 1602
+Tile data for map retsu_stage (mem restrictions:None) Original size 4176 Crunched size 1578
+Tile data for map vs_screen (mem restrictions:None) Original size 29776 Crunched size 3198
+Header data for map geki_stage Original size 7996 Crunched size 286
+Header data for map joe_stage Original size 7996 Crunched size 284
+Header data for map retsu_stage Original size 7996 Crunched size 284
+Header data for map vs_screen Original size 7996 Crunched size 280
+Parallax for map geki_stage Original size 28800 Crunched size 6452
+Project Data Original size 14608 Crunched size 4880
+Project Header Original size 4032 Crunched size 1180
 Panel scorpion_eng_splashscreen Original size 35944 Crunched size 3280
-Panel bottom_panel Original size 23322 Crunched size 23322
-Panel top_panel Original size 18634 Crunched size 18634
-Project virtual machine (codeblocks) Original size 23974 Crunched size 23974
+Panel bottom_panel Original size 23322 Crunched size 2948
+Panel top_panel Original size 18634 Crunched size 3664
+Project virtual machine (codeblocks) Original size 25304 Crunched size 6614
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -251,7 +255,6 @@ retsu_walk_l
 flash_block
 ryu_atk_hk_r
 ryu_atk_hk_l
-ryu_atk_hp_r
 ryu_atk_hp_l
 ryu_atk_lk_r
 ryu_atk_lk_l
@@ -293,11 +296,12 @@ ryu_tatsu_r
 ryu_tatsu_l
 
 === Codeblocks by compiled size ===
-startup: 5308
+startup: 5634
 ryu_ontimer: 1682
 load_level: 1012
 enemy_take_damage_gosub: 738
 on_land_gosub: 542
+colour_retsu_stage: 474
 vs_colour_adon: 474
 vs_colour_birdie: 474
 vs_colour_eagle: 474
@@ -311,6 +315,8 @@ vs_colour_sagat: 474
 set_yresolution: 448
 vs_colour_ryu: 446
 player_take_damage_gosub: 436
+colour_geki_stage: 418
+colour_joe_stage: 418
 do_teleport: 362
 vs_colour_retsu: 362
 ducking: 354
@@ -319,7 +325,6 @@ enemy_ai: 346
 ryu_tatsu: 344
 flipxymove: 306
 camera: 302
-colour_geki_stage: 278
 pause: 252
 snap_to_screen: 190
 pre_startup: 188
@@ -366,10 +371,8 @@ destroy_actor: 54
 regenerate_screen: 52
 return: 52
 destroy_block: 48
-cloud_spawn: 48
 test: 46
 regenerate_screen_wait: 42
-get_pos: 32
 debug_dump: 30
 vm_registers: 26
 vm_constants: 26
@@ -378,3 +381,5 @@ vm_constants_controlbits: 26
 vm_constants_notes: 26
 vm_constants_tile_properties: 26
 vm_constants_platform: 26
+cloud_recycle: 26
+get_pos: 26

@@ -93,6 +93,17 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
   "CollBox": {
     "X": -17,
     "Y": -86,
@@ -100,7 +111,7 @@
     "Height": 87
   },
   "AttackDelay": 0,
-  "ZOrder": 0,
+  "ZOrder": 10,
   "SpeedLeft": 2.5,
   "SpeedRight": 2.5,
   "SpeedUp": 8.0,

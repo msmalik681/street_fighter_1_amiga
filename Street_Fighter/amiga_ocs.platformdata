@@ -14,7 +14,7 @@
   "XOffset": 16,
   "XFillSize": 20,
   "YFillSize": 17,
-  "Implode": false,
+  "Implode": true,
   "MapCache": false,
   "DoubleCopper": false,
   "AllocateMemoryUpfront": false,
