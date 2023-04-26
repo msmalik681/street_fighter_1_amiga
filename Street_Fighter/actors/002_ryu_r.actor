@@ -30,9 +30,9 @@
   "Attacks": {
     "UpLeft": null,
     "Up": null,
-    "UpRight": "ryu_atk_hp_r",
-    "Left": "ryu_atk_hp_r",
-    "Right": "ryu_atk_hp_r",
+    "UpRight": "",
+    "Left": "",
+    "Right": "",
     "DownLeft": null,
     "Down": null,
     "DownRight": ""
@@ -102,13 +102,13 @@
     false,
     true,
     false,
-    true
+    false
   ],
   "CollBox": {
     "X": -17,
     "Y": -85,
     "Width": 33,
-    "Height": 86
+    "Height": 78
   },
   "AttackDelay": 0,
   "ZOrder": 0,
@@ -143,12 +143,12 @@
   "DivertPlayerHit": "",
   "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": null,
-  "DivertOutOfScreenLeft": "",
-  "DivertOutOfScreenRight": "",
+  "DivertOutOfScreenLeft": "startup",
+  "DivertOutOfScreenRight": "snap_to_screen",
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
-  "DivertPlatformLand": "on_land_gosub",
+  "DivertPlatformLand": "",
   "DivertTimer": "",
   "DivertTimerFrames": 0,
   "Vars": [
@@ -161,6 +161,6 @@
   ],
   "ControlPort": 1,
   "DataVersion": 3,
-  "AutoSpawn": true,
+  "AutoSpawn": false,
   "TileID": 2
 }
