@@ -220,9 +220,9 @@ Asset bundle 3 (joe_stage) Original size 83040 Crunched size 35810
 Asset bundle 4 (lee_stage) Original size 94560 Crunched size 47190
 Asset bundle 5 (mike_stage) Original size 94880 Crunched size 53864
 Asset bundle 6 (retsu_stage) Original size 81440 Crunched size 44976
-Asset bundle 7 (vs_screen) Original size 137600 Crunched size 75262
+Asset bundle 7 (vs_screen) Original size 137600 Crunched size 75270
 Background for map geki_stage Original size 2776 Crunched size 474
-Background for map gen_stage Original size 2672 Crunched size 356
+Background for map gen_stage Original size 2672 Crunched size 358
 Background for map joe_stage Original size 2672 Crunched size 92
 Background for map lee_stage Original size 2672 Crunched size 92
 Background for map mike_stage Original size 2672 Crunched size 104
@@ -235,16 +235,16 @@ Tile data for map joe_stage (mem restrictions:None) Original size 4176 Crunched 
 Tile data for map lee_stage (mem restrictions:None) Original size 4176 Crunched size 1808
 Tile data for map mike_stage (mem restrictions:None) Original size 4176 Crunched size 1792
 Tile data for map retsu_stage (mem restrictions:None) Original size 4176 Crunched size 1578
-Tile data for map vs_screen (mem restrictions:None) Original size 29776 Crunched size 3198
+Tile data for map vs_screen (mem restrictions:None) Original size 29776 Crunched size 3212
 Header data for map geki_stage Original size 7996 Crunched size 286
-Header data for map gen_stage Original size 7996 Crunched size 286
+Header data for map gen_stage Original size 7996 Crunched size 274
 Header data for map joe_stage Original size 7996 Crunched size 284
 Header data for map lee_stage Original size 7996 Crunched size 284
 Header data for map mike_stage Original size 7996 Crunched size 290
 Header data for map retsu_stage Original size 7996 Crunched size 284
 Header data for map vs_screen Original size 7996 Crunched size 280
 Parallax for map geki_stage Original size 28800 Crunched size 6452
-Parallax for map gen_stage Original size 28800 Crunched size 5682
+Parallax for map gen_stage Original size 28800 Crunched size 7556
 Project Data Original size 14578 Crunched size 4874
 Project Header Original size 4032 Crunched size 1178
 Panel scorpion_eng_splashscreen Original size 35944 Crunched size 3280
