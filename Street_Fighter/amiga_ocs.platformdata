@@ -1,5 +1,5 @@
 {
-  "OutputSpeed": "PAL_25HZ",
+  "OutputSpeed": "PAL_50HZ",
   "GFXMode": "BP5",
   "MemorySaver": "None",
   "EmulatedAmiga": "CD32",
@@ -11,11 +11,11 @@
   "SScan2": false,
   "FMode": 0,
   "Width": 256,
-  "XOffset": 16,
+  "XOffset": 32,
   "XFillSize": 20,
   "YFillSize": 17,
-  "Implode": true,
-  "MapCache": false,
+  "Implode": false,
+  "MapCache": true,
   "DoubleCopper": false,
   "AllocateMemoryUpfront": false,
   "NTSC": false

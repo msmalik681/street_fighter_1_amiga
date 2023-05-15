@@ -92,6 +92,8 @@
     }
   },
   "SplashScreen": null,
-  "LogicSpeed": "PAL_25HZ",
-  "PaletteLines": 1
+  "LogicSpeed": "PAL_50HZ",
+  "PaletteLines": 1,
+  "ReadCD32Buttons": false,
+  "MDRegion": "E"
 }

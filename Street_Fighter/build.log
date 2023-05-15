@@ -170,7 +170,7 @@ Reduce width of actors\ryu\row-1-column-2.png by 15 pixels to 32 to improve blit
 === Estimated memory usages ===
 
 For chip:
-Map gfx (level gfx bundle 7): 0
+Map gfx (level gfx bundle 11): 0
 Music memory (retsu_stage1): 0
 BP Buffer memory: 116400
 core sfx/gfx memory: 805188
@@ -179,19 +179,19 @@ Parallax memory: 0
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 0
+Map data memory: 29776
 Map background memory: 0
 EXE memory: 202096
-vm memory: 27202
-project memory: 14578
+vm memory: 27082
+project memory: 14626
 
 Accounted memory chip: 921588
-Accounted memory other: 243876
-Accounted memory total: 1165464
+Accounted memory other: 273580
+Accounted memory total: 1195168
 
 === Misc ===
-Maps and Asset Bundles Count: 9
-Maps and Asset Bundles Data Size: 108
+Maps and Asset Bundles Count: 13
+Maps and Asset Bundles Data Size: 156
 Actor Count: 12
 Actor Data Size: 2400
 Block Count: 2
@@ -213,44 +213,65 @@ Sprites Data Size: 14
 Attack Data: 1
 Attack Data Size: 66
 Misc data size: 100
-Asset bundle 0 (Core project asset bundle) Original size 805188 Crunched size 265110
-Asset bundle 1 (geki_stage) Original size 69920 Crunched size 32260
-Asset bundle 2 (gen_stage) Original size 77760 Crunched size 24498
-Asset bundle 3 (joe_stage) Original size 83040 Crunched size 35810
-Asset bundle 4 (lee_stage) Original size 94560 Crunched size 47190
-Asset bundle 5 (mike_stage) Original size 94880 Crunched size 53864
-Asset bundle 6 (retsu_stage) Original size 81440 Crunched size 44976
-Asset bundle 7 (vs_screen) Original size 137600 Crunched size 75270
-Background for map geki_stage Original size 2776 Crunched size 474
-Background for map gen_stage Original size 2672 Crunched size 358
-Background for map joe_stage Original size 2672 Crunched size 92
-Background for map lee_stage Original size 2672 Crunched size 92
-Background for map mike_stage Original size 2672 Crunched size 104
-Background for map retsu_stage Original size 2672 Crunched size 92
-Background for map vs_screen Original size 2672 Crunched size 92
-Music file retsu_stage1 Original size 187624 Crunched size 134154
-Tile data for map geki_stage (mem restrictions:None) Original size 4176 Crunched size 1428
-Tile data for map gen_stage (mem restrictions:None) Original size 4176 Crunched size 1508
-Tile data for map joe_stage (mem restrictions:None) Original size 4176 Crunched size 1602
-Tile data for map lee_stage (mem restrictions:None) Original size 4176 Crunched size 1808
-Tile data for map mike_stage (mem restrictions:None) Original size 4176 Crunched size 1792
-Tile data for map retsu_stage (mem restrictions:None) Original size 4176 Crunched size 1578
-Tile data for map vs_screen (mem restrictions:None) Original size 29776 Crunched size 3212
-Header data for map geki_stage Original size 7996 Crunched size 286
-Header data for map gen_stage Original size 7996 Crunched size 274
-Header data for map joe_stage Original size 7996 Crunched size 284
-Header data for map lee_stage Original size 7996 Crunched size 284
-Header data for map mike_stage Original size 7996 Crunched size 290
-Header data for map retsu_stage Original size 7996 Crunched size 284
-Header data for map vs_screen Original size 7996 Crunched size 280
-Parallax for map geki_stage Original size 28800 Crunched size 6452
-Parallax for map gen_stage Original size 28800 Crunched size 7556
-Project Data Original size 14578 Crunched size 4874
-Project Header Original size 4032 Crunched size 1178
+Asset bundle 0 (Core project asset bundle) Original size 805188 Crunched size 805188
+Asset bundle 1 (adon_stage) Original size 79200 Crunched size 79200
+Asset bundle 2 (birdie_stage) Original size 85920 Crunched size 85920
+Asset bundle 3 (eagle_stage) Original size 70240 Crunched size 70240
+Asset bundle 4 (geki_stage) Original size 69920 Crunched size 69920
+Asset bundle 5 (gen_stage) Original size 77920 Crunched size 77920
+Asset bundle 6 (joe_stage) Original size 83040 Crunched size 83040
+Asset bundle 7 (lee_stage) Original size 94560 Crunched size 94560
+Asset bundle 8 (mike_stage) Original size 94240 Crunched size 94240
+Asset bundle 9 (retsu_stage) Original size 81440 Crunched size 81440
+Asset bundle 10 (sagat_stage) Original size 45920 Crunched size 45920
+Asset bundle 11 (vs_screen) Original size 137600 Crunched size 137600
+Background for map adon_stage Original size 2672 Crunched size 2672
+Background for map birdie_stage Original size 2672 Crunched size 2672
+Background for map eagle_stage Original size 2672 Crunched size 2672
+Background for map geki_stage Original size 2672 Crunched size 2672
+Background for map gen_stage Original size 2672 Crunched size 2672
+Background for map joe_stage Original size 2672 Crunched size 2672
+Background for map lee_stage Original size 2672 Crunched size 2672
+Background for map mike_stage Original size 2672 Crunched size 2672
+Background for map retsu_stage Original size 2672 Crunched size 2672
+Background for map sagat_stage Original size 2672 Crunched size 2672
+Background for map vs_screen Original size 2672 Crunched size 2672
+Music file stage2_geki Original size 166956 Crunched size 166956
+Music file retsu_stage1 Original size 187624 Crunched size 187624
+Music file stage1_retsu_v2 Original size 184100 Crunched size 184100
+Tile data for map adon_stage (mem restrictions:None) Original size 4176 Crunched size 4176
+Tile data for map birdie_stage (mem restrictions:None) Original size 4176 Crunched size 4176
+Tile data for map eagle_stage (mem restrictions:None) Original size 4096 Crunched size 4096
+Tile data for map geki_stage (mem restrictions:None) Original size 4176 Crunched size 4176
+Tile data for map gen_stage (mem restrictions:None) Original size 4176 Crunched size 4176
+Tile data for map joe_stage (mem restrictions:None) Original size 4176 Crunched size 4176
+Tile data for map lee_stage (mem restrictions:None) Original size 4176 Crunched size 4176
+Tile data for map mike_stage (mem restrictions:None) Original size 4176 Crunched size 4176
+Tile data for map retsu_stage (mem restrictions:None) Original size 4176 Crunched size 4176
+Tile data for map sagat_stage (mem restrictions:None) Original size 4176 Crunched size 4176
+Tile data for map vs_screen (mem restrictions:None) Original size 29776 Crunched size 29776
+Header data for map adon_stage Original size 7996 Crunched size 7996
+Header data for map birdie_stage Original size 7996 Crunched size 7996
+Header data for map eagle_stage Original size 7996 Crunched size 7996
+Header data for map geki_stage Original size 7996 Crunched size 7996
+Header data for map gen_stage Original size 7996 Crunched size 7996
+Header data for map joe_stage Original size 7996 Crunched size 7996
+Header data for map lee_stage Original size 7996 Crunched size 7996
+Header data for map mike_stage Original size 7996 Crunched size 7996
+Header data for map retsu_stage Original size 7996 Crunched size 7996
+Header data for map sagat_stage Original size 7996 Crunched size 7996
+Header data for map vs_screen Original size 7996 Crunched size 7996
+Parallax for map adon_stage Original size 28800 Crunched size 28800
+Parallax for map eagle_stage Original size 28800 Crunched size 28800
+Parallax for map geki_stage Original size 28800 Crunched size 28800
+Parallax for map gen_stage Original size 28800 Crunched size 28800
+Parallax for map sagat_stage Original size 14400 Crunched size 14400
+Project Data Original size 14626 Crunched size 14626
+Project Header Original size 4032 Crunched size 4032
 Panel scorpion_eng_splashscreen Original size 35944 Crunched size 3280
-Panel bottom_panel Original size 23322 Crunched size 2948
-Panel top_panel Original size 18634 Crunched size 3664
-Project virtual machine (codeblocks) Original size 27202 Crunched size 7134
+Panel bottom_panel Original size 23322 Crunched size 23322
+Panel top_panel Original size 18634 Crunched size 18634
+Project virtual machine (codeblocks) Original size 27082 Crunched size 27082
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -311,9 +332,8 @@ ryu_tatsu_r
 ryu_tatsu_l
 
 === Codeblocks by compiled size ===
-startup: 6198
+startup: 6954
 ryu_ontimer: 1682
-colour_stages: 1334
 load_level: 1012
 enemy_take_damage_gosub: 738
 on_land_gosub: 542
@@ -328,6 +348,7 @@ vs_colour_ken: 474
 vs_colour_lee: 474
 vs_colour_mike: 474
 vs_colour_sagat: 474
+colour_stages: 458
 set_yresolution: 448 (Unused?)
 vs_colour_ryu: 446
 player_take_damage_gosub: 436
