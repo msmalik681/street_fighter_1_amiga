@@ -1,18 +1,18 @@
 {
-  "ShootDirType": "actor_direction",
+  "ShootDirType": "projectile_direction",
   "ClassType": "DefaultClass",
-  "DefaultLookDir": "right",
-  "Recycle": "Default",
+  "DefaultLookDir": "up",
+  "Recycle": "Trash",
   "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 8,
   "Idles": {
     "UpLeft": null,
-    "Up": null,
+    "Up": "flash_hit",
     "UpRight": null,
     "Left": null,
-    "Right": "camera",
+    "Right": "flash_hit",
     "DownLeft": null,
     "Down": null,
     "DownRight": null
@@ -93,6 +93,17 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    true,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+  ],
   "CollBox": {
     "X": -4,
     "Y": -4,
@@ -116,7 +127,7 @@
   "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "block",
-  "Player": null,
+  "Player": false,
   "CanRidePlatform": null,
   "Camera": null,
   "AutoScroll": null,
@@ -150,6 +161,6 @@
   ],
   "ControlPort": 0,
   "DataVersion": 3,
-  "AutoSpawn": null,
+  "AutoSpawn": false,
   "TileID": 7
 }

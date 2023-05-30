@@ -1,0 +1,132 @@
+{
+  "Frames": [
+    {
+      "Path": "hard_kick_01.png",
+      "Duration": 6,
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
+    },
+    {
+      "Path": "hard_kick_02.png",
+      "Duration": 6,
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
+    },
+    {
+      "Path": "hard_kick_03.png",
+      "Duration": 7,
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
+    },
+    {
+      "Path": "hard_kick_04.png",
+      "Duration": 6,
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
+    },
+    {
+      "Path": "hard_kick_05.png",
+      "Duration": 6,
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
+    },
+    {
+      "Path": "hard_kick_06.png",
+      "Duration": 6,
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
+    }
+  ],
+  "PreventMovement": true,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": "enemy_on_land",
+  "AutoFlip": true,
+  "Streamed": true
+}

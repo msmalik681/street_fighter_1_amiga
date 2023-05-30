@@ -2,7 +2,7 @@
   "Frames": [
     {
       "Path": "row-1-column-4.png",
-      "Duration": 3,
+      "Duration": 6,
       "HandleX": -51,
       "HandleY": -107,
       "XFlipped": false,
@@ -13,7 +13,12 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-1-column-4.png",
@@ -28,7 +33,12 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "ryu_jump"
+      "OnFrame": "ryu_jump",
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-3-column-9.png",
@@ -43,11 +53,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-3-column-10.png",
-      "Duration": 5,
+      "Duration": 6,
       "HandleX": -64,
       "HandleY": -132,
       "XFlipped": false,
@@ -58,7 +73,12 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-3-column-9.png",
@@ -73,18 +93,20 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     }
   ],
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 9,
   "LinkedMap": null,
   "OnFinish": null,
-  "AutoFlip": true
+  "AutoFlip": true,
+  "Streamed": true
 }

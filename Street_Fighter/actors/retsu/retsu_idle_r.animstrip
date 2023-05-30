@@ -2,9 +2,9 @@
   "Frames": [
     {
       "Path": "idle.png",
-      "Duration": 2,
-      "HandleX": -31,
-      "HandleY": -98,
+      "Duration": 50,
+      "HandleX": -70,
+      "HandleY": -143,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -26,7 +26,7 @@
   "HideChildren": false,
   "LoopFrame": 0,
   "LinkedMap": null,
-  "OnFinish": "",
+  "OnFinish": "enemy_ai",
   "AutoFlip": true,
   "Streamed": true
 }

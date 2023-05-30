@@ -2,7 +2,7 @@
   "Frames": [
     {
       "Path": "row-1-column-4.png",
-      "Duration": 2,
+      "Duration": 6,
       "HandleX": -51,
       "HandleY": -107,
       "XFlipped": false,
@@ -13,11 +13,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-3-column-9.png",
-      "Duration": 10,
+      "Duration": 6,
       "HandleX": -68,
       "HandleY": -114,
       "XFlipped": false,
@@ -28,7 +33,12 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "ryu_tatsu"
+      "OnFrame": "ryu_tatsu",
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-3-column-10.png",
@@ -43,11 +53,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": ""
+      "OnFrame": "",
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-6-column-6.png",
-      "Duration": 2,
+      "Duration": 3,
       "HandleX": -59,
       "HandleY": -124,
       "XFlipped": false,
@@ -58,11 +73,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-4-column-4.png",
-      "Duration": 2,
+      "Duration": 4,
       "HandleX": -54,
       "HandleY": -124,
       "XFlipped": false,
@@ -73,11 +93,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "ryu_tatsu"
+      "OnFrame": "ryu_tatsu",
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-4-column-6.png",
-      "Duration": 2,
+      "Duration": 4,
       "HandleX": -63,
       "HandleY": -119,
       "XFlipped": false,
@@ -88,11 +113,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-4-column-5.png",
-      "Duration": 2,
+      "Duration": 4,
       "HandleX": -65,
       "HandleY": -117,
       "XFlipped": false,
@@ -103,11 +133,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-4-column-4.png",
-      "Duration": 2,
+      "Duration": 4,
       "HandleX": -54,
       "HandleY": -124,
       "XFlipped": false,
@@ -118,11 +153,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-4-column-6.png",
-      "Duration": 2,
+      "Duration": 4,
       "HandleX": -63,
       "HandleY": -119,
       "XFlipped": false,
@@ -133,11 +173,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-4-column-5.png",
-      "Duration": 2,
+      "Duration": 4,
       "HandleX": -65,
       "HandleY": -117,
       "XFlipped": false,
@@ -148,11 +193,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-4-column-4.png",
-      "Duration": 2,
+      "Duration": 4,
       "HandleX": -54,
       "HandleY": -124,
       "XFlipped": false,
@@ -163,11 +213,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-4-column-6.png",
-      "Duration": 2,
+      "Duration": 4,
       "HandleX": -63,
       "HandleY": -119,
       "XFlipped": false,
@@ -178,11 +233,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-4-column-5.png",
-      "Duration": 2,
+      "Duration": 4,
       "HandleX": -65,
       "HandleY": -117,
       "XFlipped": false,
@@ -193,11 +253,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-4-column-4.png",
-      "Duration": 2,
+      "Duration": 4,
       "HandleX": -54,
       "HandleY": -124,
       "XFlipped": false,
@@ -208,11 +273,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-4-column-6.png",
-      "Duration": 2,
+      "Duration": 4,
       "HandleX": -63,
       "HandleY": -119,
       "XFlipped": false,
@@ -223,11 +293,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-4-column-5.png",
-      "Duration": 2,
+      "Duration": 4,
       "HandleX": -65,
       "HandleY": -117,
       "XFlipped": false,
@@ -238,11 +313,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-4-column-4.png",
-      "Duration": 2,
+      "Duration": 4,
       "HandleX": -54,
       "HandleY": -124,
       "XFlipped": false,
@@ -253,11 +333,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-4-column-6.png",
-      "Duration": 2,
+      "Duration": 4,
       "HandleX": -63,
       "HandleY": -119,
       "XFlipped": false,
@@ -268,11 +353,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-4-column-5.png",
-      "Duration": 10,
+      "Duration": 8,
       "HandleX": -65,
       "HandleY": -117,
       "XFlipped": false,
@@ -283,18 +373,20 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "ryu_tatsu"
+      "OnFrame": "ryu_tatsu",
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     }
   ],
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 2,
   "LinkedMap": null,
   "OnFinish": "",
-  "AutoFlip": true
+  "AutoFlip": true,
+  "Streamed": true
 }

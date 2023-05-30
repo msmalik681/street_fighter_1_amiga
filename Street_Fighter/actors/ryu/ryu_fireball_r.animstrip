@@ -2,7 +2,7 @@
   "Frames": [
     {
       "Path": "row-2-column-3.png",
-      "Duration": 3,
+      "Duration": 6,
       "HandleX": -73,
       "HandleY": -109,
       "XFlipped": false,
@@ -22,7 +22,7 @@
     },
     {
       "Path": "row-2-column-3b.png",
-      "Duration": 3,
+      "Duration": 6,
       "HandleX": -77,
       "HandleY": -104,
       "XFlipped": false,
@@ -42,7 +42,7 @@
     },
     {
       "Path": "row-2-column-4.png",
-      "Duration": 12,
+      "Duration": 25,
       "HandleX": -44,
       "HandleY": -107,
       "XFlipped": false,
@@ -59,26 +59,6 @@
       "SpriteType": "Attached_16colors",
       "RenderType": "Normal",
       "HighPriority": false
-    },
-    {
-      "Path": "row-2-column-4.png",
-      "Duration": 1,
-      "HandleX": -44,
-      "HandleY": -107,
-      "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": "",
-      "PaletteLine": 0,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
     }
   ],
   "PreventMovement": true,
@@ -86,7 +66,7 @@
   "HideChildren": false,
   "LoopFrame": 0,
   "LinkedMap": null,
-  "OnFinish": "on_land_gosub",
+  "OnFinish": "player_on_land",
   "AutoFlip": true,
   "Streamed": true
 }

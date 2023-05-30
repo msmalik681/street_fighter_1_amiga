@@ -93,6 +93,17 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+  ],
   "CollBox": {
     "X": 37,
     "Y": -78,
@@ -151,7 +162,5 @@
   "ControlPort": 0,
   "DataVersion": 3,
   "AutoSpawn": null,
-  "TileID": 1,
-  "SuggestedRecycle": "Trash",
-  "UpAccelerationName": "Accel Up"
+  "TileID": 1
 }

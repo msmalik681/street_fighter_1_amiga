@@ -1,8 +1,8 @@
 {
   "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
-  "DefaultLookDir": "left",
-  "Recycle": "Default",
+  "DefaultLookDir": "up",
+  "Recycle": "Always",
   "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 8,
@@ -13,19 +13,19 @@
     "UpRight": null,
     "Left": "camera",
     "Right": "camera",
-    "DownLeft": null,
+    "DownLeft": "camera",
     "Down": null,
-    "DownRight": null
+    "DownRight": "camera"
   },
   "Moves": {
     "UpLeft": null,
-    "Up": null,
+    "Up": "camera",
     "UpRight": null,
     "Left": "camera",
     "Right": "camera",
-    "DownLeft": null,
+    "DownLeft": "camera",
     "Down": null,
-    "DownRight": null
+    "DownRight": "camera"
   },
   "Attacks": {
     "UpLeft": null,
@@ -93,6 +93,17 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    true,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+  ],
   "CollBox": {
     "X": -8,
     "Y": -8,
@@ -100,9 +111,9 @@
     "Height": 16
   },
   "AttackDelay": 0,
-  "ZOrder": 0,
-  "SpeedLeft": 2.5,
-  "SpeedRight": 2.5,
+  "ZOrder": 10,
+  "SpeedLeft": 0.5,
+  "SpeedRight": 0.5,
   "SpeedUp": 0.0,
   "SpeedDown": 0.0,
   "AccelLeft": null,
@@ -116,11 +127,11 @@
   "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "block",
-  "Player": null,
+  "Player": false,
   "CanRidePlatform": null,
-  "Camera": null,
+  "Camera": true,
   "AutoScroll": null,
-  "Flags": 0,
+  "Flags": "strafe",
   "AttackProjectile": null,
   "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
@@ -132,13 +143,13 @@
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,
   "DivertProjectileCollision": null,
-  "DivertOutOfScreenLeft": null,
-  "DivertOutOfScreenRight": null,
+  "DivertOutOfScreenLeft": "snap_to_screen",
+  "DivertOutOfScreenRight": "snap_to_screen",
   "DivertOutOfScreenUp": null,
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": "camera",
+  "DivertTimer": "",
   "DivertTimerFrames": 0,
   "Vars": [
     "0",
@@ -146,10 +157,10 @@
     "0",
     "0",
     "0",
-    "50"
+    "0"
   ],
   "ControlPort": 1,
   "DataVersion": 3,
-  "AutoSpawn": null,
+  "AutoSpawn": true,
   "TileID": 6
 }

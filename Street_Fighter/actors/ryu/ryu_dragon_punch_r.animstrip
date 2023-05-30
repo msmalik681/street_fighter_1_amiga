@@ -2,7 +2,7 @@
   "Frames": [
     {
       "Path": "row-6-column-8.png",
-      "Duration": 5,
+      "Duration": 9,
       "HandleX": -60,
       "HandleY": -115,
       "XFlipped": false,
@@ -13,11 +13,16 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-6-column-9.png",
-      "Duration": 10,
+      "Duration": 20,
       "HandleX": -65,
       "HandleY": -119,
       "XFlipped": false,
@@ -28,7 +33,12 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "ryu_dragon_punch"
+      "OnFrame": "ryu_dragon_punch",
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-6-column-10.png",
@@ -43,18 +53,20 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": ""
+      "OnFrame": "",
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     }
   ],
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 5,
   "LinkedMap": null,
-  "OnFinish": "on_land",
-  "AutoFlip": true
+  "OnFinish": "player_on_land",
+  "AutoFlip": true,
+  "Streamed": true
 }

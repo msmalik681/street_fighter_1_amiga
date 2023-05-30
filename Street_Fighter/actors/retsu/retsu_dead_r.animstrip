@@ -1,10 +1,10 @@
 {
   "Frames": [
     {
-      "Path": "5040-10.png",
+      "Path": "dead.png",
       "Duration": 3,
-      "HandleX": -52,
-      "HandleY": -28,
+      "HandleX": -70,
+      "HandleY": -143,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -17,14 +17,16 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal"
+      "RenderType": "Normal",
+      "HighPriority": false
     }
   ],
   "PreventMovement": true,
-  "PreventCollision": false,
+  "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
   "LinkedMap": null,
   "OnFinish": "var5_reset",
-  "AutoFlip": true
+  "AutoFlip": true,
+  "Streamed": true
 }

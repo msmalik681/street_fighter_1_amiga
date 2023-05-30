@@ -5,17 +5,17 @@
   "Recycle": "Default",
   "MoveType": "cpu",
   "MaxEntities": 0,
-  "NudgeX": 6,
+  "NudgeX": 9,
   "NudgeY": 15,
   "Idles": {
     "UpLeft": null,
     "Up": null,
     "UpRight": null,
-    "Left": "ryu_duck_r",
-    "Right": "ryu_duck_r",
+    "Left": "",
+    "Right": "retsu_duck_block_r",
     "DownLeft": null,
     "Down": null,
-    "DownRight": null
+    "DownRight": ""
   },
   "Moves": {
     "UpLeft": null,
@@ -93,11 +93,22 @@
       "sqrMagnitude": 0
     }
   ],
+  "InvalidDirections": [
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+  ],
   "CollBox": {
-    "X": -17,
-    "Y": -55,
-    "Width": 38,
-    "Height": 56
+    "X": -19,
+    "Y": -57,
+    "Width": 40,
+    "Height": 50
   },
   "AttackDelay": 0,
   "ZOrder": 0,
@@ -138,7 +149,7 @@
   "DivertOutOfScreenDown": null,
   "DivertPlatformEdge": null,
   "DivertPlatformLand": "on_land_gosub",
-  "DivertTimer": "ducking",
+  "DivertTimer": "",
   "DivertTimerFrames": 0,
   "Vars": [
     "0",
@@ -146,7 +157,7 @@
     "0",
     "1",
     "0",
-    "4"
+    "20"
   ],
   "ControlPort": 1,
   "DataVersion": 3,

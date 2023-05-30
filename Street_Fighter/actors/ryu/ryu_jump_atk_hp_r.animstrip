@@ -17,11 +17,12 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal"
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-7-column-2.png",
-      "Duration": 3,
+      "Duration": 5,
       "HandleX": -82,
       "HandleY": -130,
       "XFlipped": false,
@@ -36,11 +37,12 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal"
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-5-column-3.png",
-      "Duration": 8,
+      "Duration": 15,
       "HandleX": -57,
       "HandleY": -116,
       "XFlipped": false,
@@ -55,11 +57,12 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal"
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-3-column-10.png",
-      "Duration": 3,
+      "Duration": 5,
       "HandleX": -64,
       "HandleY": -132,
       "XFlipped": false,
@@ -74,7 +77,8 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal"
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-3-column-9.png",
@@ -93,7 +97,8 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal"
+      "RenderType": "Normal",
+      "HighPriority": false
     }
   ],
   "PreventMovement": true,
@@ -102,5 +107,6 @@
   "LoopFrame": 0,
   "LinkedMap": null,
   "OnFinish": "",
-  "AutoFlip": true
+  "AutoFlip": true,
+  "Streamed": true
 }

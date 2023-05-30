@@ -2,7 +2,7 @@
   "Frames": [
     {
       "Path": "row-2-column-5.png",
-      "Duration": 3,
+      "Duration": 6,
       "HandleX": -63,
       "HandleY": -107,
       "XFlipped": false,
@@ -17,11 +17,12 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal"
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-2-column-9.png",
-      "Duration": 2,
+      "Duration": 6,
       "HandleX": -27,
       "HandleY": -108,
       "XFlipped": false,
@@ -36,11 +37,12 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal"
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-2-column-8.png",
-      "Duration": 2,
+      "Duration": 8,
       "HandleX": -23,
       "HandleY": -114,
       "XFlipped": false,
@@ -55,11 +57,12 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal"
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-2-column-7.png",
-      "Duration": 2,
+      "Duration": 6,
       "HandleX": -29,
       "HandleY": -107,
       "XFlipped": false,
@@ -74,11 +77,12 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal"
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-2-column-6.png",
-      "Duration": 2,
+      "Duration": 6,
       "HandleX": -36,
       "HandleY": -107,
       "XFlipped": false,
@@ -93,11 +97,12 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal"
+      "RenderType": "Normal",
+      "HighPriority": false
     },
     {
       "Path": "row-2-column-5.png",
-      "Duration": 3,
+      "Duration": 10,
       "HandleX": -63,
       "HandleY": -107,
       "XFlipped": false,
@@ -112,14 +117,16 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal"
+      "RenderType": "Normal",
+      "HighPriority": false
     }
   ],
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
-  "LoopFrame": 2,
+  "LoopFrame": 0,
   "LinkedMap": null,
-  "OnFinish": "on_land_gosub",
-  "AutoFlip": true
+  "OnFinish": "player_on_land",
+  "AutoFlip": true,
+  "Streamed": true
 }

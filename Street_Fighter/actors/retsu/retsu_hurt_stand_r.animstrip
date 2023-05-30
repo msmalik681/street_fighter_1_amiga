@@ -1,10 +1,10 @@
 {
   "Frames": [
     {
-      "Path": "5000-0.png",
+      "Path": "pain_01.png",
       "Duration": 5,
-      "HandleX": -36,
-      "HandleY": -93,
+      "HandleX": -70,
+      "HandleY": -143,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -13,18 +13,40 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
+    },
+    {
+      "Path": "pain_02.png",
+      "Duration": 5,
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false
     }
   ],
-  "PreventMovement": true,
-  "PreventCollision": true,
+  "PreventMovement": false,
+  "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 0,
   "LinkedMap": null,
   "OnFinish": "enemy_on_land",
-  "AutoFlip": true
+  "AutoFlip": true,
+  "Streamed": true
 }
