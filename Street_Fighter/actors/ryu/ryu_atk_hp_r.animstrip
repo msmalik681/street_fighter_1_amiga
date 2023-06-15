@@ -2,7 +2,7 @@
   "Frames": [
     {
       "Path": "row-1-column-7.png",
-      "Duration": 6,
+      "Duration": 3,
       "HandleX": -45,
       "HandleY": -114,
       "XFlipped": false,
@@ -17,12 +17,13 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-1-column-10.png",
-      "Duration": 4,
+      "Duration": 2,
       "HandleX": -56,
       "HandleY": -106,
       "XFlipped": false,
@@ -37,12 +38,13 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-2-column-1.png",
-      "Duration": 4,
+      "Duration": 2,
       "HandleX": -53,
       "HandleY": -113,
       "XFlipped": false,
@@ -57,12 +59,13 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-2-column-2.png",
-      "Duration": 6,
+      "Duration": 3,
       "HandleX": -51,
       "HandleY": -112,
       "XFlipped": false,
@@ -77,12 +80,13 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-2-column-1.png",
-      "Duration": 5,
+      "Duration": 2,
       "HandleX": -53,
       "HandleY": -113,
       "XFlipped": false,
@@ -97,8 +101,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     }
   ],
   "PreventMovement": true,

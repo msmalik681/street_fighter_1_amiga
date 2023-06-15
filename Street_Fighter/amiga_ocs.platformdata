@@ -1,9 +1,9 @@
 {
-  "OutputSpeed": "PAL_50HZ",
+  "OutputSpeed": "PAL_25HZ",
   "GFXMode": "BP5",
   "MemorySaver": "None",
   "EmulatedAmiga": "CD32",
-  "EmulatedFastRam": 8,
+  "EmulatedFastRam": 0,
   "WinUAEConfiguration": "",
   "SpriteMode": "Mode_0_16_Wide",
   "Uses24BitColor": false,
@@ -17,6 +17,6 @@
   "Implode": false,
   "MapCache": false,
   "DoubleCopper": false,
-  "AllocateMemoryUpfront": true,
+  "AllocateMemoryUpfront": false,
   "NTSC": false
 }

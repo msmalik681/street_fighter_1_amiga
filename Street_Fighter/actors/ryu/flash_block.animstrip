@@ -2,7 +2,7 @@
   "Frames": [
     {
       "Path": "fireball\\8000-0.png",
-      "Duration": 3,
+      "Duration": 2,
       "HandleX": -5,
       "HandleY": -5,
       "XFlipped": false,
@@ -13,11 +13,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "fireball\\8000-1.png",
-      "Duration": 3,
+      "Duration": 2,
       "HandleX": -8,
       "HandleY": -8,
       "XFlipped": false,
@@ -28,11 +34,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "fireball\\8000-2.png",
-      "Duration": 3,
+      "Duration": 2,
       "HandleX": -10,
       "HandleY": -10,
       "XFlipped": false,
@@ -43,11 +55,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "fireball\\8000-3.png",
-      "Duration": 3,
+      "Duration": 2,
       "HandleX": -11,
       "HandleY": -12,
       "XFlipped": false,
@@ -58,11 +76,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "fireball\\8000-4.png",
-      "Duration": 3,
+      "Duration": 2,
       "HandleX": -13,
       "HandleY": -14,
       "XFlipped": false,
@@ -73,11 +97,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "fireball\\8000-5.png",
-      "Duration": 3,
+      "Duration": 2,
       "HandleX": -13,
       "HandleY": -14,
       "XFlipped": false,
@@ -88,18 +118,21 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 0,
   "LinkedMap": null,
   "OnFinish": null,
-  "AutoFlip": false
+  "AutoFlip": false,
+  "Streamed": true
 }

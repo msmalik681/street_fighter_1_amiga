@@ -1,5 +1,5 @@
 {
-  "DataVersion": 5,
+  "DataVersion": 6,
   "FirstCopper": 0,
   "FadeInFrames": 0,
   "FadeOutFrames": 0,
@@ -10,7 +10,7 @@
   "TalkpadY": 0,
   "TalkpadWidth": 97,
   "TalkpadHeight": 14,
-  "PanelImagePath": "levels\\top_panel.png",
+  "PanelImagePath": "top_panel.png",
   "FireIndicatorPath": null,
   "ChoiceIndicatorPath": null,
   "FireIndicatorX": 0,
@@ -37,7 +37,7 @@
       "Y": 17,
       "NumberFont": null,
       "Font": null,
-      "BarImage": "levels\\lifebar.png",
+      "BarImage": "lifebar.png",
       "CounterImage1": null,
       "CounterDivisions": 1,
       "PaletteLine": 3,
@@ -50,7 +50,7 @@
       "Y": 33,
       "NumberFont": null,
       "Font": null,
-      "BarImage": "levels\\lifebar.png",
+      "BarImage": "lifebar.png",
       "CounterImage1": null,
       "CounterDivisions": 1,
       "PaletteLine": 3,
@@ -99,5 +99,6 @@
       "Top": 0
     }
   ],
-  "ParallaxOverlayPath": null
+  "ParallaxOverlayPath": null,
+  "Gap": 4
 }

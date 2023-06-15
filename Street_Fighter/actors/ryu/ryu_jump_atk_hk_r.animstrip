@@ -17,12 +17,13 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-6-column-6.png",
-      "Duration": 5,
+      "Duration": 2,
       "HandleX": -59,
       "HandleY": -125,
       "XFlipped": false,
@@ -37,12 +38,13 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-6-column-7.png",
-      "Duration": 15,
+      "Duration": 6,
       "HandleX": -54,
       "HandleY": -116,
       "XFlipped": false,
@@ -57,12 +59,13 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-6-column-6.png",
-      "Duration": 5,
+      "Duration": 2,
       "HandleX": -59,
       "HandleY": -125,
       "XFlipped": false,
@@ -77,12 +80,13 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-3-column-10.png",
-      "Duration": 3,
+      "Duration": 2,
       "HandleX": -64,
       "HandleY": -132,
       "XFlipped": false,
@@ -97,8 +101,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-3-column-9.png",
@@ -117,8 +122,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     }
   ],
   "PreventMovement": true,

@@ -1,5 +1,5 @@
 {
-  "DataVersion": 5,
+  "DataVersion": 6,
   "FirstCopper": 0,
   "FadeInFrames": 0,
   "FadeOutFrames": 0,
@@ -10,7 +10,7 @@
   "TalkpadY": 3,
   "TalkpadWidth": 254,
   "TalkpadHeight": 88,
-  "PanelImagePath": "levels\\bottom_panel.png",
+  "PanelImagePath": "bottom_panel.png",
   "FireIndicatorPath": null,
   "ChoiceIndicatorPath": null,
   "FireIndicatorX": 0,
@@ -46,5 +46,6 @@
       "Top": 0
     }
   ],
-  "ParallaxOverlayPath": null
+  "ParallaxOverlayPath": null,
+  "Gap": 4
 }

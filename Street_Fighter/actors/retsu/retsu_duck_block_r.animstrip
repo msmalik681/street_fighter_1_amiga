@@ -17,8 +17,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "duck_block.png",
@@ -37,8 +38,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     }
   ],
   "PreventMovement": true,

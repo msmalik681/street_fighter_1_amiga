@@ -29,10 +29,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "control1_x",
           "Comparison": "NotZero",
           "RightSide": "0",
+          "ComparisonNext": "End",
           "IsValid": true
         }
       ],
@@ -112,10 +112,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "",
           "Comparison": "NotZero",
           "RightSide": "",
+          "ComparisonNext": "End",
           "IsValid": false
         }
       ],
@@ -195,10 +195,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "",
           "Comparison": "NotZero",
           "RightSide": "",
+          "ComparisonNext": "End",
           "IsValid": false
         }
       ],
@@ -278,10 +278,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "",
           "Comparison": "NotZero",
           "RightSide": "",
+          "ComparisonNext": "End",
           "IsValid": false
         }
       ],
@@ -302,7 +302,7 @@
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
-      "Frames": "18",
+      "Frames": "15",
       "CameraX": "",
       "CameraY": "",
       "CameraBox": {
@@ -361,10 +361,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "",
           "Comparison": "NotZero",
           "RightSide": "",
+          "ComparisonNext": "End",
           "IsValid": false
         }
       ],
@@ -377,7 +377,7 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": "170 * control1_x",
+      "PushXPixels": "150 * control1_x",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
@@ -385,7 +385,7 @@
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
-      "Frames": "60",
+      "Frames": "30",
       "CameraX": "",
       "CameraY": "",
       "CameraBox": {
@@ -444,10 +444,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "",
           "Comparison": "NotZero",
           "RightSide": "",
+          "ComparisonNext": "End",
           "IsValid": false
         }
       ],

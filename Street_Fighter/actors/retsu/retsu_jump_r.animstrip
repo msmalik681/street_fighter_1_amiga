@@ -1,31 +1,10 @@
 {
   "Frames": [
     {
-      "Path": "row-2-column-3.png",
-      "Duration": 4,
-      "HandleX": -73,
-      "HandleY": -109,
-      "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": "cloud_spawn",
-      "PaletteLine": 0,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "Sliced",
-      "HighPriority": false,
-      "Background": false
-    },
-    {
-      "Path": "row-2-column-3b.png",
-      "Duration": 4,
-      "HandleX": -77,
-      "HandleY": -104,
+      "Path": "land.png",
+      "Duration": 1,
+      "HandleX": -70,
+      "HandleY": -143,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -43,10 +22,10 @@
       "Background": false
     },
     {
-      "Path": "row-2-column-4.png",
-      "Duration": 25,
-      "HandleX": -44,
-      "HandleY": -107,
+      "Path": "jump_01.png",
+      "Duration": 8,
+      "HandleX": -70,
+      "HandleY": -143,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -55,7 +34,49 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "ryu_fireball",
+      "OnFrame": "enemy_jump",
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
+    },
+    {
+      "Path": "jump_02.png",
+      "Duration": 5,
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
+    },
+    {
+      "Path": "jump_01.png",
+      "Duration": 999,
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
@@ -69,7 +90,7 @@
   "HideChildren": false,
   "LoopFrame": 0,
   "LinkedMap": null,
-  "OnFinish": "player_on_land",
-  "AutoFlip": true,
+  "OnFinish": null,
+  "AutoFlip": null,
   "Streamed": true
 }

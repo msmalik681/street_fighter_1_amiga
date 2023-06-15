@@ -17,8 +17,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-3-column-9.png",
@@ -37,8 +38,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-3-column-10.png",
@@ -57,8 +59,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-6-column-6.png",
@@ -77,8 +80,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-4-column-4.png",
@@ -97,8 +101,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-4-column-6.png",
@@ -117,8 +122,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-4-column-5.png",
@@ -137,8 +143,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-4-column-4.png",
@@ -157,8 +164,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-4-column-6.png",
@@ -177,8 +185,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-4-column-5.png",
@@ -197,8 +206,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-4-column-4.png",
@@ -217,8 +227,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-4-column-6.png",
@@ -237,8 +248,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-4-column-5.png",
@@ -257,8 +269,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-4-column-4.png",
@@ -277,8 +290,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-4-column-6.png",
@@ -297,8 +311,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-4-column-5.png",
@@ -317,8 +332,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-4-column-4.png",
@@ -337,8 +353,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-4-column-6.png",
@@ -357,8 +374,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-4-column-5.png",
@@ -377,8 +395,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     }
   ],
   "PreventMovement": true,

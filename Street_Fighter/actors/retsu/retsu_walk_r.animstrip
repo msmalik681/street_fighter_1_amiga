@@ -1,10 +1,10 @@
 {
   "Frames": [
     {
-      "Path": "row-2-column-3.png",
-      "Duration": 4,
-      "HandleX": -73,
-      "HandleY": -109,
+      "Path": "walk-02.png",
+      "Duration": 3,
+      "HandleX": -70,
+      "HandleY": -143,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -13,7 +13,7 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "cloud_spawn",
+      "OnFrame": "",
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
@@ -22,10 +22,31 @@
       "Background": false
     },
     {
-      "Path": "row-2-column-3b.png",
-      "Duration": 4,
-      "HandleX": -77,
-      "HandleY": -104,
+      "Path": "walk-01.png",
+      "Duration": 3,
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": "",
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
+    },
+    {
+      "Path": "walk-02.png",
+      "Duration": 3,
+      "HandleX": -70,
+      "HandleY": -143,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -41,35 +62,14 @@
       "RenderType": "Sliced",
       "HighPriority": false,
       "Background": false
-    },
-    {
-      "Path": "row-2-column-4.png",
-      "Duration": 25,
-      "HandleX": -44,
-      "HandleY": -107,
-      "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": "ryu_fireball",
-      "PaletteLine": 0,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "Sliced",
-      "HighPriority": false,
-      "Background": false
     }
   ],
-  "PreventMovement": true,
+  "PreventMovement": false,
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
   "LinkedMap": null,
-  "OnFinish": "player_on_land",
+  "OnFinish": "enemy_on_land",
   "AutoFlip": true,
   "Streamed": true
 }

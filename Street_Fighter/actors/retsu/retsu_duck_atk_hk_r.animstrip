@@ -2,7 +2,7 @@
   "Frames": [
     {
       "Path": "duck.png",
-      "Duration": 5,
+      "Duration": 2,
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
@@ -17,12 +17,13 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "duck_hk_01.png",
-      "Duration": 5,
+      "Duration": 2,
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
@@ -37,12 +38,13 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "duck_hk_02.png",
-      "Duration": 5,
+      "Duration": 2,
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
@@ -57,32 +59,34 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "duck_hk_03.png",
-      "Duration": 6,
+      "Duration": 3,
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
       "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
+        "X": 37,
+        "Y": -21,
+        "Width": 34,
+        "Height": 22
       },
-      "HasHitBox": false,
+      "HasHitBox": true,
       "OnFrame": null,
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "duck_hk_04.png",
-      "Duration": 5,
+      "Duration": 2,
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
@@ -97,12 +101,13 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "duck_hk_05.png",
-      "Duration": 5,
+      "Duration": 2,
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
@@ -117,12 +122,13 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "duck.png",
-      "Duration": 5,
+      "Duration": 2,
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
@@ -137,8 +143,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     }
   ],
   "PreventMovement": true,

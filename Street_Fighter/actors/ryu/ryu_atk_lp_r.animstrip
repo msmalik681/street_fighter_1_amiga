@@ -2,7 +2,7 @@
   "Frames": [
     {
       "Path": "row-1-column-5.png",
-      "Duration": 3,
+      "Duration": 1,
       "HandleX": -47,
       "HandleY": -110,
       "XFlipped": false,
@@ -17,12 +17,13 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-1-column-6.png",
-      "Duration": 4,
+      "Duration": 2,
       "HandleX": -52,
       "HandleY": -114,
       "XFlipped": false,
@@ -37,12 +38,13 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "row-1-column-5.png",
-      "Duration": 3,
+      "Duration": 1,
       "HandleX": -47,
       "HandleY": -110,
       "XFlipped": false,
@@ -57,8 +59,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "Normal",
-      "HighPriority": false
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     }
   ],
   "PreventMovement": true,

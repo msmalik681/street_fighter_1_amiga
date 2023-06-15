@@ -2,7 +2,7 @@
   "Frames": [
     {
       "Path": "1002-0.png",
-      "Duration": 3,
+      "Duration": 2,
       "HandleX": 45,
       "HandleY": -74,
       "XFlipped": false,
@@ -13,11 +13,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "1002-1.png",
-      "Duration": 3,
+      "Duration": 2,
       "HandleX": 44,
       "HandleY": -75,
       "XFlipped": false,
@@ -28,11 +34,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "1002-2.png",
-      "Duration": 3,
+      "Duration": 2,
       "HandleX": 39,
       "HandleY": -79,
       "XFlipped": false,
@@ -43,11 +55,17 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "1002-3.png",
-      "Duration": 3,
+      "Duration": 2,
       "HandleX": 36,
       "HandleY": -82,
       "XFlipped": false,
@@ -58,18 +76,21 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     }
   ],
   "PreventMovement": false,
   "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 0,
   "LinkedMap": null,
   "OnFinish": "destroy_actor",
-  "AutoFlip": true
+  "AutoFlip": true,
+  "Streamed": true
 }

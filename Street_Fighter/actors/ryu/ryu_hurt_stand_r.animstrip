@@ -1,7 +1,7 @@
 {
   "Frames": [
     {
-      "Path": "pain_standing.png",
+      "Path": "row-6-column-2.png",
       "Duration": 5,
       "HandleX": -56,
       "HandleY": -107,
@@ -13,18 +13,21 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Sliced",
+      "HighPriority": false,
+      "Background": false
     }
   ],
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "SpriteType": "Attached_16colors",
-  "Multiplexes": 0,
   "LoopFrame": 0,
   "LinkedMap": null,
-  "OnFinish": "",
-  "AutoFlip": true
+  "OnFinish": "player_on_land",
+  "AutoFlip": true,
+  "Streamed": true
 }
