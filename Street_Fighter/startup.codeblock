@@ -2213,7 +2213,7 @@
       "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
-      "Variable": "e_ani_pain_high",
+      "Variable": "e_ani_pain",
       "Expression": "retsu_hurt_stand_r",
       "Index": "0",
       "Label": "",
