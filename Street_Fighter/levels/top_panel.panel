@@ -28,6 +28,7 @@
       "CounterImage1": null,
       "CounterDivisions": 1,
       "PaletteLine": 3,
+      "IsHighPriority": true,
       "MaxValue": 9999
     },
     {
@@ -41,6 +42,7 @@
       "CounterImage1": null,
       "CounterDivisions": 1,
       "PaletteLine": 3,
+      "IsHighPriority": true,
       "MaxValue": 10
     },
     {
@@ -54,20 +56,50 @@
       "CounterImage1": null,
       "CounterDivisions": 1,
       "PaletteLine": 3,
+      "IsHighPriority": true,
       "MaxValue": 10
     },
     {
+      "PanelElementType": 1,
+      "Variable": "player1_wins",
+      "X": 16,
+      "Y": 16,
+      "NumberFont": null,
+      "Font": null,
+      "BarImage": "win_conter.png",
+      "CounterImage1": "win_conter.png",
+      "CounterDivisions": 1,
+      "PaletteLine": 3,
+      "IsHighPriority": true,
+      "MaxValue": 2
+    },
+    {
+      "PanelElementType": 1,
+      "Variable": "player2_wins",
+      "X": 240,
+      "Y": 16,
+      "NumberFont": null,
+      "Font": null,
+      "BarImage": "win_conter.png",
+      "CounterImage1": "win_conter.png",
+      "CounterDivisions": 1,
+      "PaletteLine": 3,
+      "IsHighPriority": true,
+      "MaxValue": 2
+    },
+    {
       "PanelElementType": 0,
-      "Variable": "p1_block_x",
-      "X": 12,
-      "Y": 36,
+      "Variable": "temp",
+      "X": 153,
+      "Y": 4,
       "NumberFont": "defaultnumberfont",
       "Font": null,
       "BarImage": null,
       "CounterImage1": null,
       "CounterDivisions": 1,
       "PaletteLine": 3,
-      "MaxValue": 9999
+      "IsHighPriority": true,
+      "MaxValue": 10
     }
   ],
   "GFXMode": "BP4",

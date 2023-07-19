@@ -7,12 +7,12 @@
       "HandleY": -80,
       "XFlipped": false,
       "HitBox": {
-        "X": 37,
-        "Y": -80,
-        "Width": 26,
-        "Height": 26
+        "X": 43,
+        "Y": -77,
+        "Width": 17,
+        "Height": 20
       },
-      "HasHitBox": false,
+      "HasHitBox": true,
       "OnFrame": null,
       "PaletteLine": 0,
       "Multiplexes": 0,
@@ -28,12 +28,12 @@
       "HandleY": -82,
       "XFlipped": false,
       "HitBox": {
-        "X": 35,
-        "Y": -80,
-        "Width": 29,
-        "Height": 26
+        "X": 43,
+        "Y": -77,
+        "Width": 17,
+        "Height": 20
       },
-      "HasHitBox": false,
+      "HasHitBox": true,
       "OnFrame": null,
       "PaletteLine": 0,
       "Multiplexes": 0,

@@ -2,7 +2,7 @@
   "Frames": [
     {
       "Path": "dead.png",
-      "Duration": 3,
+      "Duration": -1,
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
@@ -27,7 +27,7 @@
   "HideChildren": false,
   "LoopFrame": 0,
   "LinkedMap": null,
-  "OnFinish": "var5_reset",
+  "OnFinish": "",
   "AutoFlip": true,
   "Streamed": true
 }

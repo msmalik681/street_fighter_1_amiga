@@ -13,7 +13,7 @@
     "UpRight": null,
     "Left": "ryu_duck_r",
     "Right": "ryu_duck_r",
-    "DownLeft": null,
+    "DownLeft": "ryu_duck_r",
     "Down": null,
     "DownRight": null
   },
@@ -21,9 +21,9 @@
     "UpLeft": null,
     "Up": null,
     "UpRight": null,
-    "Left": "",
+    "Left": "ryu_duck_r",
     "Right": null,
-    "DownLeft": null,
+    "DownLeft": "ryu_duck_r",
     "Down": null,
     "DownRight": null
   },

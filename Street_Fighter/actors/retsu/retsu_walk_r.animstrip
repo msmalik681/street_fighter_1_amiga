@@ -64,7 +64,7 @@
       "Background": false
     }
   ],
-  "PreventMovement": false,
+  "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,

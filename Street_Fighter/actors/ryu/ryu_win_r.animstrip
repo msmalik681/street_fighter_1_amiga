@@ -1,10 +1,10 @@
 {
   "Frames": [
     {
-      "Path": "1002-0.png",
-      "Duration": 2,
-      "HandleX": 45,
-      "HandleY": -74,
+      "Path": "row-4-column-2.png",
+      "Duration": 10,
+      "HandleX": -56,
+      "HandleY": -115,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -22,10 +22,10 @@
       "Background": false
     },
     {
-      "Path": "1002-1.png",
-      "Duration": 2,
-      "HandleX": 44,
-      "HandleY": -75,
+      "Path": "row-4-column-3.png",
+      "Duration": 20,
+      "HandleX": -55,
+      "HandleY": -115,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -34,7 +34,7 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null,
+      "OnFrame": "",
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
@@ -43,10 +43,10 @@
       "Background": false
     },
     {
-      "Path": "1002-2.png",
-      "Duration": 2,
-      "HandleX": 39,
-      "HandleY": -79,
+      "Path": "row-4-column-3.png",
+      "Duration": -1,
+      "HandleX": -55,
+      "HandleY": -115,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -55,28 +55,7 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 0,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "Sliced",
-      "HighPriority": false,
-      "Background": false
-    },
-    {
-      "Path": "1002-3.png",
-      "Duration": 2,
-      "HandleX": 36,
-      "HandleY": -82,
-      "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": null,
+      "OnFrame": "stage_reset",
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
@@ -87,10 +66,10 @@
   ],
   "PreventMovement": true,
   "PreventCollision": false,
-  "HideChildren": false,
+  "HideChildren": true,
   "LoopFrame": 0,
   "LinkedMap": null,
-  "OnFinish": "destroy_actor",
+  "OnFinish": "",
   "AutoFlip": true,
   "Streamed": true
 }

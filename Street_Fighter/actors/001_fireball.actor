@@ -142,7 +142,7 @@
   "DivertPlayerCollision": "",
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": "",
-  "DivertProjectileCollision": null,
+  "DivertProjectileCollision": "",
   "DivertOutOfScreenLeft": null,
   "DivertOutOfScreenRight": null,
   "DivertOutOfScreenUp": null,

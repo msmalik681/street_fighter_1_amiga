@@ -2,7 +2,7 @@
   "Frames": [
     {
       "Path": "row-1-column-4.png",
-      "Duration": 6,
+      "Duration": 5,
       "HandleX": -51,
       "HandleY": -107,
       "XFlipped": false,
@@ -44,7 +44,7 @@
     },
     {
       "Path": "row-3-column-10.png",
-      "Duration": 2,
+      "Duration": 1,
       "HandleX": -64,
       "HandleY": -132,
       "XFlipped": false,
@@ -65,7 +65,7 @@
     },
     {
       "Path": "row-6-column-6.png",
-      "Duration": 3,
+      "Duration": 1,
       "HandleX": -59,
       "HandleY": -124,
       "XFlipped": false,
@@ -86,7 +86,7 @@
     },
     {
       "Path": "row-4-column-4.png",
-      "Duration": 4,
+      "Duration": 2,
       "HandleX": -54,
       "HandleY": -124,
       "XFlipped": false,
@@ -107,7 +107,7 @@
     },
     {
       "Path": "row-4-column-6.png",
-      "Duration": 4,
+      "Duration": 2,
       "HandleX": -63,
       "HandleY": -119,
       "XFlipped": false,
@@ -128,7 +128,7 @@
     },
     {
       "Path": "row-4-column-5.png",
-      "Duration": 4,
+      "Duration": 2,
       "HandleX": -65,
       "HandleY": -117,
       "XFlipped": false,
@@ -149,7 +149,7 @@
     },
     {
       "Path": "row-4-column-4.png",
-      "Duration": 4,
+      "Duration": 2,
       "HandleX": -54,
       "HandleY": -124,
       "XFlipped": false,
@@ -170,7 +170,7 @@
     },
     {
       "Path": "row-4-column-6.png",
-      "Duration": 4,
+      "Duration": 2,
       "HandleX": -63,
       "HandleY": -119,
       "XFlipped": false,
@@ -191,7 +191,7 @@
     },
     {
       "Path": "row-4-column-5.png",
-      "Duration": 4,
+      "Duration": 2,
       "HandleX": -65,
       "HandleY": -117,
       "XFlipped": false,
@@ -212,7 +212,7 @@
     },
     {
       "Path": "row-4-column-4.png",
-      "Duration": 4,
+      "Duration": 2,
       "HandleX": -54,
       "HandleY": -124,
       "XFlipped": false,
@@ -233,7 +233,7 @@
     },
     {
       "Path": "row-4-column-6.png",
-      "Duration": 4,
+      "Duration": 2,
       "HandleX": -63,
       "HandleY": -119,
       "XFlipped": false,
@@ -254,7 +254,7 @@
     },
     {
       "Path": "row-4-column-5.png",
-      "Duration": 4,
+      "Duration": 2,
       "HandleX": -65,
       "HandleY": -117,
       "XFlipped": false,
@@ -275,7 +275,7 @@
     },
     {
       "Path": "row-4-column-4.png",
-      "Duration": 4,
+      "Duration": 2,
       "HandleX": -54,
       "HandleY": -124,
       "XFlipped": false,
@@ -296,7 +296,7 @@
     },
     {
       "Path": "row-4-column-6.png",
-      "Duration": 4,
+      "Duration": 2,
       "HandleX": -63,
       "HandleY": -119,
       "XFlipped": false,
@@ -317,7 +317,7 @@
     },
     {
       "Path": "row-4-column-5.png",
-      "Duration": 4,
+      "Duration": 2,
       "HandleX": -65,
       "HandleY": -117,
       "XFlipped": false,
@@ -338,7 +338,7 @@
     },
     {
       "Path": "row-4-column-4.png",
-      "Duration": 4,
+      "Duration": 2,
       "HandleX": -54,
       "HandleY": -124,
       "XFlipped": false,
@@ -359,7 +359,7 @@
     },
     {
       "Path": "row-4-column-6.png",
-      "Duration": 4,
+      "Duration": 2,
       "HandleX": -63,
       "HandleY": -119,
       "XFlipped": false,

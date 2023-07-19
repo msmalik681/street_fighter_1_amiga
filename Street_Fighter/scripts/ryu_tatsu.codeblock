@@ -29,10 +29,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "player_var3",
           "Comparison": "Equals",
           "RightSide": "0",
+          "ComparisonNext": "End",
           "IsValid": true
         }
       ],
@@ -112,10 +112,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "",
           "Comparison": "NotZero",
           "RightSide": "",
+          "ComparisonNext": "End",
           "IsValid": false
         }
       ],
@@ -136,7 +136,7 @@
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
-      "Frames": "10",
+      "Frames": "8",
       "CameraX": "",
       "CameraY": "",
       "CameraBox": {
@@ -195,10 +195,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "",
           "Comparison": "NotZero",
           "RightSide": "",
+          "ComparisonNext": "End",
           "IsValid": false
         }
       ],
@@ -278,10 +278,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "player_var3",
           "Comparison": "Equals",
           "RightSide": "1",
+          "ComparisonNext": "End",
           "IsValid": true
         }
       ],
@@ -361,10 +361,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "",
           "Comparison": "NotZero",
           "RightSide": "",
+          "ComparisonNext": "End",
           "IsValid": false
         }
       ],
@@ -444,10 +444,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "",
           "Comparison": "NotZero",
           "RightSide": "",
+          "ComparisonNext": "End",
           "IsValid": false
         }
       ],
@@ -468,7 +468,7 @@
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
-      "Frames": "80",
+      "Frames": "50",
       "CameraX": "",
       "CameraY": "",
       "CameraBox": {
@@ -527,10 +527,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "",
           "Comparison": "NotZero",
           "RightSide": "",
+          "ComparisonNext": "End",
           "IsValid": false
         }
       ],
@@ -610,10 +610,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "player_var3",
           "Comparison": "Equals",
           "RightSide": "2",
+          "ComparisonNext": "End",
           "IsValid": true
         }
       ],
@@ -693,10 +693,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "",
           "Comparison": "NotZero",
           "RightSide": "",
+          "ComparisonNext": "End",
           "IsValid": false
         }
       ],
@@ -776,10 +776,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "",
           "Comparison": "NotZero",
           "RightSide": "",
+          "ComparisonNext": "End",
           "IsValid": false
         }
       ],
@@ -859,10 +859,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "",
           "Comparison": "NotZero",
           "RightSide": "",
+          "ComparisonNext": "End",
           "IsValid": false
         }
       ],
@@ -942,10 +942,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "",
           "Comparison": "NotZero",
           "RightSide": "",
+          "ComparisonNext": "End",
           "IsValid": false
         }
       ],
@@ -1025,10 +1025,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "",
           "Comparison": "NotZero",
           "RightSide": "",
+          "ComparisonNext": "End",
           "IsValid": false
         }
       ],
@@ -1108,10 +1108,10 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "IsOR": false,
           "LeftSide": "",
           "Comparison": "NotZero",
           "RightSide": "",
+          "ComparisonNext": "End",
           "IsValid": false
         }
       ],

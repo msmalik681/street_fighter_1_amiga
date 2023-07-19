@@ -142,7 +142,7 @@
   "DivertPlayerCollision": null,
   "DivertPlayerHit": "enemy_take_damage",
   "DivertHitAgainstPlayer": "player_take_damage",
-  "DivertProjectileCollision": "",
+  "DivertProjectileCollision": "fireball_hit",
   "DivertOutOfScreenLeft": "snap_to_screen",
   "DivertOutOfScreenRight": "snap_to_screen",
   "DivertOutOfScreenUp": null,
