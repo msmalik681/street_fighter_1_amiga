@@ -34,7 +34,7 @@
         "Height": 0
       },
       "HasHitBox": false,
-      "OnFrame": "ryu_jump",
+      "OnFrame": "player_jump",
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
@@ -44,7 +44,7 @@
     },
     {
       "Path": "row-3-column-9.png",
-      "Duration": 7,
+      "Duration": 10,
       "HandleX": -68,
       "HandleY": -114,
       "XFlipped": false,

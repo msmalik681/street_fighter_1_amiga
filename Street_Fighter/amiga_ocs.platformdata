@@ -1,7 +1,7 @@
 {
   "OutputSpeed": "PAL_25HZ",
   "GFXMode": "BP5",
-  "MemorySaver": "None",
+  "MemorySaver": "EndRun",
   "EmulatedAmiga": "CD32",
   "EmulatedFastRam": 0,
   "WinUAEConfiguration": "",
@@ -17,6 +17,6 @@
   "Implode": false,
   "MapCache": false,
   "DoubleCopper": false,
-  "AllocateMemoryUpfront": false,
+  "AllocateMemoryUpfront": true,
   "NTSC": false
 }

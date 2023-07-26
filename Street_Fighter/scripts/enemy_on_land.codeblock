@@ -1347,7 +1347,7 @@
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
       "Goto": "",
-      "Comment": "if actor was jumping atk stop the movement",
+      "Comment": "if actor was jumping in a direction stop the movement",
       "Variable": "actor_var1",
       "Expression": "7",
       "Index": "0",

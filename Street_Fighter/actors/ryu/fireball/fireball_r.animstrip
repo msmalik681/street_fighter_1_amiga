@@ -12,7 +12,7 @@
         "Width": 17,
         "Height": 20
       },
-      "HasHitBox": true,
+      "HasHitBox": false,
       "OnFrame": null,
       "PaletteLine": 0,
       "Multiplexes": 0,
@@ -33,7 +33,7 @@
         "Width": 17,
         "Height": 20
       },
-      "HasHitBox": true,
+      "HasHitBox": false,
       "OnFrame": null,
       "PaletteLine": 0,
       "Multiplexes": 0,

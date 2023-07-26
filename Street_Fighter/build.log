@@ -3,24 +3,24 @@
 === Estimated memory usages ===
 
 For chip:
-Map gfx (level gfx bundle 11): 0
-Music memory (retsu_stage1): 0
+Map gfx (level gfx bundle 11): 137600
+Music memory (retsu_stage1): 187624
 BP Buffer memory: 116400
 core sfx/gfx memory: 437612
-Parallax memory: 0
+Parallax memory: 28800
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 0
-Map background memory: 0
+Map data memory: 29788
+Map background memory: 2672
 EXE memory: 203164
-vm memory: 29476
+vm memory: 29646
 project memory: 18384
 
-Accounted memory chip: 554012
-Accounted memory other: 251024
-Accounted memory total: 805036
+Accounted memory chip: 908036
+Accounted memory other: 283654
+Accounted memory total: 1191690
 
 === Misc ===
 Maps and Asset Bundles Count: 13
@@ -102,7 +102,8 @@ Project Header Original size 4032 Crunched size 4032
 Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
 Panel bottom_panel Original size 23326 Crunched size 23326
 Panel top_panel Original size 18810 Crunched size 18810
-Project virtual machine (codeblocks) Original size 29476 Crunched size 29476
+Panel wining_panel Original size 14862 Crunched size 14862
+Project virtual machine (codeblocks) Original size 29646 Crunched size 29646
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -183,9 +184,9 @@ ryu_win_l
 011_retsu_duck_l
 
 === Codeblocks by compiled size ===
-startup: 7892
-player_ontimer: 1754
-enemy_ai: 1132
+startup: 7938
+player_ontimer: 1734
+enemy_ai: 1158
 load_level: 920
 player_ducking: 694
 vs_colour_adon: 474
@@ -198,10 +199,9 @@ vs_colour_ken: 474
 vs_colour_lee: 474
 vs_colour_mike: 474
 vs_colour_sagat: 474
-player_on_land: 468
 colour_stages: 458
-stage_reset_gosub: 458
 set_yresolution: 448 (Unused?)
+player_on_land: 446
 vs_colour_ryu: 446
 colour_geki_stage: 418
 colour_joe_stage: 418
@@ -211,15 +211,17 @@ do_teleport: 392
 enemy_on_land: 368
 vs_colour_retsu: 362
 ryu_tatsu: 350
+stage_reset: 348
 flipscreen_smooth: 346 (Unused?)
 camera: 340
 flipxymove: 306 (Unused?)
+stage_reset_gosub: 302
 pause: 252 (Unused?)
+enemy_jump: 224
 pre_startup: 194
-enemy_jump: 194
 snap_to_screen: 190
 flipymove: 174 (Unused?)
-ryu_jump: 164
+player_jump: 164
 flipxmove: 158 (Unused?)
 check_direction: 152
 fireball_hit: 148
@@ -232,7 +234,7 @@ pre_load_level: 118
 unload_level: 114
 blocks_clear: 98 (Unused?)
 load_panel_bottom: 96
-load_panel_top: 96 (Unused?)
+load_panel_top: 96
 waitforfireup: 94
 unload_panel: 92
 wrap_screen_bottom: 92 (Unused?)
@@ -245,7 +247,6 @@ flipscreen: 86 (Unused?)
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
 fadeout: 84
-stage_reset: 84
 waitforframes: 78
 enemy_x: 68
 quit: 66 (Unused?)
