@@ -89,7 +89,7 @@
     },
     {
       "PanelElementType": 0,
-      "Variable": "temp",
+      "Variable": "stage_timer",
       "X": 153,
       "Y": 4,
       "NumberFont": "defaultnumberfont",
@@ -99,7 +99,7 @@
       "CounterDivisions": 1,
       "PaletteLine": 3,
       "IsHighPriority": true,
-      "MaxValue": 10
+      "MaxValue": 100
     }
   ],
   "GFXMode": "BP4",
@@ -132,5 +132,6 @@
     }
   ],
   "ParallaxOverlayPath": null,
-  "Gap": 4
+  "Gap": 4,
+  "MarsRenderMode": "ForegroundAlpha16bit"
 }

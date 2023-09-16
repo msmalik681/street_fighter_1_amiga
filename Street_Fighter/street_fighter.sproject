@@ -5,10 +5,6 @@
   "StartupCodeBlock": "startup",
   "Recompile": true,
   "DebugMode": false,
-  "Fire1Jump": false,
-  "Fire2Jump": false,
-  "UpJump": false,
-  "JumpOnHold": false,
   "DataVersion": 4,
   "Commands": [
     {
@@ -95,5 +91,6 @@
   "StartingPaletteLine": 0,
   "PaletteLines": 1,
   "ReadCD32Buttons": false,
-  "MDRegion": "E"
+  "MDRegion": "E",
+  "MDSoundDriver": "MDSDRV"
 }
