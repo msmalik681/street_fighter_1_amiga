@@ -15,12 +15,12 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 208256
-vm memory: 30412
-project memory: 18480
+vm memory: 30944
+project memory: 18608
 
 Accounted memory chip: 559354
-Accounted memory other: 257148
-Accounted memory total: 816502
+Accounted memory other: 257808
+Accounted memory total: 817162
 
 === Misc ===
 Maps and Asset Bundles Count: 13
@@ -35,10 +35,10 @@ Sound Count: 5
 Sound Data Size: 120
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 91
-Animations Data Size: 1456
-AnimationFrame Count: 318
-AnimationFrame Data Size: 5088
+Animations Count: 93
+Animations Data Size: 1488
+AnimationFrame Count: 324
+AnimationFrame Data Size: 5184
 ImageFrames: 206
 ImageFrame Data Size: 9064
 Sprites: 1
@@ -102,8 +102,8 @@ Asset bundle 9 (retsu_stage) Original size 81440 Crunched size 81440
 Asset bundle 10 (sagat_stage) Original size 45920 Crunched size 45920
 Asset bundle 11 (vs_screen) Original size 137600 Crunched size 137600
 Project Header Original size 4032 Crunched size 4032
-Project Data Original size 18480 Crunched size 18480
-Project virtual machine (codeblocks) Original size 30412 Crunched size 30412
+Project Data Original size 18608 Crunched size 18608
+Project virtual machine (codeblocks) Original size 30944 Crunched size 30944
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -113,7 +113,6 @@ retsu_atk_lk_l
 retsu_atk_lp_l
 retsu_block_r
 retsu_block_l
-retsu_dead_l
 retsu_duck_atk_hk_l
 retsu_duck_pain_r
 retsu_duck_pain_l
@@ -122,6 +121,7 @@ retsu_hurt_stand_l
 retsu_jump_atk_r
 retsu_jump_atk_l
 retsu_jump_l
+retsu_waiting_l
 retsu_walk_l
 retsu_win_l
 flash_block
@@ -185,13 +185,13 @@ ryu_win_l
 011_retsu_duck_l
 
 === Codeblocks by compiled size ===
-startup: 8038
+startup: 8044
 player_ontimer: 1756
-enemy_ai: 1170
+enemy_ai: 1364
 load_level: 926
-player_ducking: 700
-player_on_land: 584
-stage_reset: 530
+player_ducking: 886
+player_on_land: 594
+stage_reset: 592
 vs_colour_adon: 474
 vs_colour_birdie: 474
 vs_colour_eagle: 474
@@ -207,6 +207,7 @@ set_yresolution: 448 (Unused?)
 vs_colour_ryu: 446
 colour_geki_stage: 418
 colour_joe_stage: 418
+stage_reset_gosub: 418
 enemy_take_damage: 408
 player_take_damage: 398
 do_teleport: 392
@@ -214,7 +215,6 @@ enemy_on_land: 368
 vs_colour_retsu: 362
 ryu_tatsu: 350
 flipscreen_smooth: 346 (Unused?)
-stage_reset_gosub: 346
 camera: 340
 flipxymove: 306 (Unused?)
 pre_startup: 282
