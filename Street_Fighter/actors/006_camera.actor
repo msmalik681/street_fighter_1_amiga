@@ -131,9 +131,8 @@
   "CanRidePlatform": null,
   "Camera": true,
   "AutoScroll": null,
-  "Flags": "strafe",
+  "Flags": 0,
   "AttackProjectile": null,
-  "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
@@ -162,5 +161,6 @@
   "ControlPort": 1,
   "DataVersion": 3,
   "AutoSpawn": true,
+  "AutoNavigate": false,
   "TileID": 6
 }

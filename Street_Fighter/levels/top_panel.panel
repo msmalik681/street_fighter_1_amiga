@@ -100,6 +100,48 @@
       "PaletteLine": 3,
       "IsHighPriority": true,
       "MaxValue": 100
+    },
+    {
+      "PanelElementType": 0,
+      "Variable": "key_input_1",
+      "X": 246,
+      "Y": 34,
+      "NumberFont": "defaultnumberfont",
+      "Font": null,
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "PaletteLine": 3,
+      "IsHighPriority": true,
+      "MaxValue": 3
+    },
+    {
+      "PanelElementType": 0,
+      "Variable": "key_input_2",
+      "X": 254,
+      "Y": 34,
+      "NumberFont": "defaultnumberfont",
+      "Font": null,
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "PaletteLine": 3,
+      "IsHighPriority": true,
+      "MaxValue": 3
+    },
+    {
+      "PanelElementType": 0,
+      "Variable": "key_input_3",
+      "X": 263,
+      "Y": 34,
+      "NumberFont": "defaultnumberfont",
+      "Font": null,
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "PaletteLine": 3,
+      "IsHighPriority": true,
+      "MaxValue": 3
     }
   ],
   "GFXMode": "BP4",
