@@ -133,7 +133,6 @@
   "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": null,
-  "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
@@ -141,7 +140,7 @@
   "DivertSpawn": null,
   "DivertPlayerCollision": null,
   "DivertPlayerHit": null,
-  "DivertHitAgainstPlayer": "",
+  "DivertHitAgainstPlayer": "enemy_take_damage",
   "DivertProjectileCollision": null,
   "DivertOutOfScreenLeft": null,
   "DivertOutOfScreenRight": null,
@@ -162,5 +161,6 @@
   "ControlPort": 1,
   "DataVersion": 3,
   "AutoSpawn": false,
+  "AutoNavigate": false,
   "TileID": 4
 }

@@ -142,6 +142,20 @@
       "PaletteLine": 3,
       "IsHighPriority": true,
       "MaxValue": 3
+    },
+    {
+      "PanelElementType": 0,
+      "Variable": "player_var1",
+      "X": 262,
+      "Y": 2,
+      "NumberFont": "defaultnumberfont",
+      "Font": null,
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "PaletteLine": 3,
+      "IsHighPriority": true,
+      "MaxValue": 9
     }
   ],
   "GFXMode": "BP4",

@@ -15,12 +15,12 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 208256
-vm memory: 31170
-project memory: 18608
+vm memory: 32124
+project memory: 18644
 
 Accounted memory chip: 559354
-Accounted memory other: 258034
-Accounted memory total: 817388
+Accounted memory other: 259024
+Accounted memory total: 818378
 
 === Misc ===
 Maps and Asset Bundles Count: 13
@@ -49,7 +49,7 @@ Misc data size: 114
 Music file retsu_stage1 Original size 187624 Crunched size 187624
 Panel scorpion_eng_splashscreen Original size 35154 Crunched size 3258
 Panel bottom_panel Original size 23318 Crunched size 23318
-Panel top_panel Original size 18900 Crunched size 18900
+Panel top_panel Original size 18930 Crunched size 18930
 Panel wining_panel Original size 14862 Crunched size 14862
 Header data for map adon_stage Original size 7996 Crunched size 7996
 Tile data for map adon_stage (mem restrictions:None) Original size 4188 Crunched size 4188
@@ -102,8 +102,8 @@ Asset bundle 9 (retsu_stage) Original size 81440 Crunched size 81440
 Asset bundle 10 (sagat_stage) Original size 45920 Crunched size 45920
 Asset bundle 11 (vs_screen) Original size 137600 Crunched size 137600
 Project Header Original size 4032 Crunched size 4032
-Project Data Original size 18608 Crunched size 18608
-Project virtual machine (codeblocks) Original size 31170 Crunched size 31170
+Project Data Original size 18644 Crunched size 18644
+Project virtual machine (codeblocks) Original size 32124 Crunched size 32124
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -186,12 +186,13 @@ ryu_win_l
 
 === Codeblocks by compiled size ===
 startup: 8044
-player_ontimer: 1756
+player_ontimer: 1700
 enemy_ai: 1364
+player_ducking: 1250
 load_level: 926
-player_ducking: 886
-player_on_land: 594
-stage_reset: 592
+stage_reset: 658
+player_on_land: 592
+stage_reset_gosub: 584
 vs_colour_adon: 474
 vs_colour_birdie: 474
 vs_colour_eagle: 474
@@ -203,17 +204,17 @@ vs_colour_lee: 474
 vs_colour_mike: 474
 vs_colour_sagat: 474
 colour_stages: 458
-stage_reset_gosub: 454
+player_take_damage: 450
 set_yresolution: 448 (Unused?)
+key_input: 448
 vs_colour_ryu: 446
 colour_geki_stage: 418
 colour_joe_stage: 418
 enemy_take_damage: 408
-player_take_damage: 398
 do_teleport: 392
-enemy_on_land: 368
+enemy_on_land: 390
+ryu_tatsu: 382
 vs_colour_retsu: 362
-ryu_tatsu: 350
 flipscreen_smooth: 346 (Unused?)
 camera: 340
 flipxymove: 306 (Unused?)
@@ -221,20 +222,19 @@ pre_startup: 282
 pause: 252 (Unused?)
 enemy_jump: 224
 snap_to_screen: 190
+player_jump: 190
 flipymove: 174 (Unused?)
-player_jump: 164
+damage_light_standing_gosub: 164 (Unused?)
 flipxmove: 158 (Unused?)
 check_direction: 152
 stage_timer: 152
 load_panel: 146
 pre_quit: 146
-key_input: 144 (Unused?)
-damage_light_standing_gosub: 138 (Unused?)
-fireball_hit: 126
-ryu_dragon_punch: 126
+ryu_dragon_punch: 132
 destroy_all_blocks: 124 (Unused?)
 pre_load_level: 118
 unload_level: 114
+fireball_hit: 114
 load_music: 104
 blocks_clear: 98 (Unused?)
 load_panel_bottom: 96
