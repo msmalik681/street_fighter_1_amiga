@@ -4,7 +4,10 @@
   "Variables": [],
   "Commands": [
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -90,7 +93,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -168,7 +174,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -261,7 +270,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -361,7 +373,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -447,7 +462,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -533,7 +551,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -619,7 +640,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -705,7 +729,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -783,7 +810,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "Return",
@@ -861,7 +891,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -947,7 +980,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "Return",
@@ -1025,7 +1061,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -1111,7 +1150,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -1197,7 +1239,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -1283,7 +1328,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -1369,7 +1417,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -1469,7 +1520,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -1562,7 +1616,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -1648,7 +1705,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
@@ -1734,7 +1794,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -1820,7 +1883,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -1906,7 +1972,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -1984,7 +2053,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -2070,7 +2142,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -2156,7 +2231,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -2242,7 +2320,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -2328,7 +2409,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -2414,7 +2498,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "Return",
@@ -2500,7 +2587,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -2578,7 +2668,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -2656,7 +2749,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -2672,7 +2768,7 @@
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
       "Goto": "",
-      "Comment": "ducking control",
+      "Comment": "### DUCKING CONTROL ###",
       "Variable": "none",
       "Expression": "0",
       "Index": "0",
@@ -2742,7 +2838,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -2835,7 +2934,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -2921,7 +3023,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -3007,7 +3112,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -3093,7 +3201,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -3179,7 +3290,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -3265,7 +3379,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -3351,7 +3468,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -3437,7 +3557,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -3523,7 +3646,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -3609,7 +3735,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -3636,8 +3765,8 @@
       "Conditions": [
         {
           "LeftSide": "control1_buttons",
-          "Comparison": "BitTest",
-          "RightSide": "0",
+          "Comparison": "Equals",
+          "RightSide": "1",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -3695,7 +3824,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -3781,7 +3913,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -3867,7 +4002,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Audio",
       "BasicOperationType": "CommentOnly",
@@ -3953,7 +4091,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -4039,7 +4180,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -4125,7 +4269,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -4211,7 +4358,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -4297,7 +4447,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -4383,7 +4536,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -4469,7 +4625,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -4555,7 +4714,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -4582,8 +4744,8 @@
       "Conditions": [
         {
           "LeftSide": "control1_buttons",
-          "Comparison": "BitTest",
-          "RightSide": "1",
+          "Comparison": "Equals",
+          "RightSide": "2",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -4641,7 +4803,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -4727,7 +4892,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -4813,7 +4981,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -4899,7 +5070,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -4985,7 +5159,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -5071,7 +5248,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -5157,7 +5337,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -5243,7 +5426,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -5329,7 +5515,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -5415,7 +5604,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -5501,7 +5693,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -5587,7 +5782,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -5673,7 +5871,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -5759,7 +5960,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -5845,7 +6049,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "Gosub",
@@ -5931,7 +6138,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -6017,7 +6227,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -6103,7 +6316,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -6189,7 +6405,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -6275,7 +6494,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -6361,7 +6583,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -6447,7 +6672,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -6533,7 +6761,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -6619,7 +6850,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -6705,7 +6939,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -6791,7 +7028,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",

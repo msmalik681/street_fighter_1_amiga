@@ -101,7 +101,7 @@
   "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": "",
   "AutoFlip": true,
   "Streamed": true,

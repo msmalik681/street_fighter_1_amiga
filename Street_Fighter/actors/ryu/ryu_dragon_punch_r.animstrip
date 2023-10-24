@@ -77,7 +77,7 @@
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 5,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": "player_on_land",
   "AutoFlip": true,
   "Streamed": true,

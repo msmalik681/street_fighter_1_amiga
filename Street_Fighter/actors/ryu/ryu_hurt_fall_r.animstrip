@@ -1,33 +1,37 @@
 {
   "Frames": [
     {
-      "Path": "row-3-column-5.png",
       "Duration": 99,
-      "HandleX": -53,
-      "HandleY": -126,
-      "XFlipped": false,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "row-3-column-5.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 0,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "Sliced",
+      "HandleX": -53,
+      "HandleY": -126,
+      "XFlipped": false,
       "HighPriority": false,
-      "Background": false
+      "ZeroIsTransparent": false,
+      "Name": "row-3-column-5",
+      "IsBlank": false
     }
   ],
   "PreventMovement": true,
   "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": true,
-  "Streamed": true
+  "Streamed": true,
+  "PatternBuffer": 0
 }

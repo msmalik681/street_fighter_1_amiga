@@ -4,7 +4,10 @@
   "Variables": [],
   "Commands": [
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Audio",
       "BasicOperationType": "CommentOnly",
@@ -90,7 +93,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -108,7 +114,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "atk_damage",
-      "Expression": "2",
+      "Expression": "4",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
@@ -176,7 +182,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -262,7 +271,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -348,7 +360,10 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelTop": "none",
+        "PanelBottom": "none"
+      },
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",

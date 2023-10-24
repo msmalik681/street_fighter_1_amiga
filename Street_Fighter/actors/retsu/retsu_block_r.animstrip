@@ -1,54 +1,61 @@
 {
   "Frames": [
     {
-      "Path": "walk-01.png",
       "Duration": 5,
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "walk-01.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 0,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "Sliced",
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
       "HighPriority": false,
-      "Background": false
+      "ZeroIsTransparent": false,
+      "Name": "walk-01",
+      "IsBlank": false
     },
     {
-      "Path": "block.png",
       "Duration": 5,
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "block.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 0,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "Sliced",
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
       "HighPriority": false,
-      "Background": false
+      "ZeroIsTransparent": false,
+      "Name": "block",
+      "IsBlank": false
     }
   ],
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": true,
-  "Streamed": true
+  "Streamed": true,
+  "PatternBuffer": 0
 }

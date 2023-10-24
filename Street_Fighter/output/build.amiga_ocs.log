@@ -6,21 +6,25 @@ For chip:
 Map gfx (level gfx bundle 11): 0
 Music memory (retsu_stage1): 0
 BP Buffer memory: 116400
-core sfx/gfx memory: 442954
+core sfx/gfx memory: 442536
 Parallax memory: 0
+OS/other estimated: 99328
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 208256
-vm memory: 32124
-project memory: 18644
+EXE memory: 209948
+vm memory: 32714
+project memory: 18632
+memory reserved for active actors on screen (32): 4480
+memory reserved for dormant actors in map (256): 9216
+OS/other estimated: 105472
 
-Accounted memory chip: 559354
-Accounted memory other: 259024
-Accounted memory total: 818378
+Accounted memory chip: 763736
+Accounted memory other: 274990
+Accounted memory total: 1038726
 
 === Misc ===
 Maps and Asset Bundles Count: 13
@@ -32,13 +36,13 @@ Block Data Size: 136
 Anim5 Count: 0
 Anim5 Data Size: 0
 Sound Count: 5
-Sound Data Size: 120
+Sound Data Size: 140
 Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 93
 Animations Data Size: 1488
-AnimationFrame Count: 324
-AnimationFrame Data Size: 5184
+AnimationFrame Count: 322
+AnimationFrame Data Size: 5152
 ImageFrames: 206
 ImageFrame Data Size: 9064
 Sprites: 1
@@ -89,7 +93,7 @@ Parallax for map sagat_stage Original size 14400 Crunched size 14400
 Header data for map vs_screen Original size 7996 Crunched size 7996
 Tile data for map vs_screen (mem restrictions:None) Original size 29788 Crunched size 29788
 Background for map vs_screen Original size 1396 Crunched size 1396
-Asset bundle 0 (Core project asset bundle) Original size 442954 Crunched size 442954
+Asset bundle 0 (Core project asset bundle) Original size 442536 Crunched size 442536
 Asset bundle 1 (adon_stage) Original size 79200 Crunched size 79200
 Asset bundle 2 (birdie_stage) Original size 85920 Crunched size 85920
 Asset bundle 3 (eagle_stage) Original size 70240 Crunched size 70240
@@ -101,12 +105,13 @@ Asset bundle 8 (mike_stage) Original size 94240 Crunched size 94240
 Asset bundle 9 (retsu_stage) Original size 81440 Crunched size 81440
 Asset bundle 10 (sagat_stage) Original size 45920 Crunched size 45920
 Asset bundle 11 (vs_screen) Original size 137600 Crunched size 137600
-Project Header Original size 4032 Crunched size 4032
-Project Data Original size 18644 Crunched size 18644
-Project virtual machine (codeblocks) Original size 32124 Crunched size 32124
+Project Header Original size 4036 Crunched size 4036
+Project Data Original size 18632 Crunched size 18632
+Project virtual machine (codeblocks) Original size 32714 Crunched size 32714
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
+flash_block
 retsu_atk_hk_l
 retsu_atk_hp_l
 retsu_atk_lk_l
@@ -124,7 +129,6 @@ retsu_jump_l
 retsu_waiting_l
 retsu_walk_l
 retsu_win_l
-flash_block
 ryu_atk_hk_r
 ryu_atk_hk_l
 ryu_atk_hp_r
@@ -189,10 +193,10 @@ startup: 8044
 player_ontimer: 1700
 enemy_ai: 1364
 player_ducking: 1250
-load_level: 926
-stage_reset: 658
-player_on_land: 592
-stage_reset_gosub: 584
+load_level: 996
+stage_reset: 696
+stage_reset_gosub: 680
+player_on_land: 586
 vs_colour_adon: 474
 vs_colour_birdie: 474
 vs_colour_eagle: 474
@@ -213,12 +217,12 @@ colour_joe_stage: 418
 enemy_take_damage: 408
 do_teleport: 392
 enemy_on_land: 390
-ryu_tatsu: 382
+ryu_tatsu: 380
 vs_colour_retsu: 362
 flipscreen_smooth: 346 (Unused?)
-camera: 340
+camera: 312
 flipxymove: 306 (Unused?)
-pre_startup: 282
+pre_startup: 292
 pause: 252 (Unused?)
 enemy_jump: 224
 snap_to_screen: 190
@@ -232,10 +236,11 @@ load_panel: 146
 pre_quit: 146
 ryu_dragon_punch: 132
 destroy_all_blocks: 124 (Unused?)
+load_music: 118
 pre_load_level: 118
 unload_level: 114
 fireball_hit: 114
-load_music: 104
+ryu_fireball: 112
 blocks_clear: 98 (Unused?)
 load_panel_bottom: 96
 load_panel_top: 96
@@ -259,10 +264,10 @@ destroy_all_actors: 62 (Unused?)
 jump_actor: 62 (Unused?)
 unload_panel_bottom: 62
 unload_panel_top: 62
-ryu_fireball: 60
 fadein: 58
 load_panel_finish: 56
 destroy_actor: 54
+load_music_finish: 52
 regenerate_screen: 52
 return: 52 (Unused?)
 destroy_block: 48 (Unused?)
@@ -274,5 +279,5 @@ vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
 vm_constants_controlbits: 26 (Unused?)
 vm_constants_notes: 26 (Unused?)
-vm_constants_tile_properties: 26 (Unused?)
 vm_constants_platform: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)

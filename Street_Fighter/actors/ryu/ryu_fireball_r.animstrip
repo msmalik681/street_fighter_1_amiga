@@ -1,75 +1,85 @@
 {
   "Frames": [
     {
-      "Path": "row-2-column-3.png",
       "Duration": 4,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "row-2-column-3.png",
+      "OnFrame": "cloud_spawn",
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
       "HandleX": -73,
       "HandleY": -109,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "row-2-column-3",
+      "IsBlank": false
+    },
+    {
+      "Duration": 4,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "row-2-column-3b.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": "cloud_spawn",
-      "PaletteLine": 0,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "Sliced",
-      "HighPriority": false,
-      "Background": false
-    },
-    {
-      "Path": "row-2-column-3b.png",
-      "Duration": 4,
       "HandleX": -77,
       "HandleY": -104,
       "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "row-2-column-3b",
+      "IsBlank": false
+    },
+    {
+      "Duration": 25,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "row-2-column-4.png",
+      "OnFrame": "ryu_fireball",
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 0,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "Sliced",
-      "HighPriority": false,
-      "Background": false
-    },
-    {
-      "Path": "row-2-column-4.png",
-      "Duration": 25,
       "HandleX": -44,
       "HandleY": -107,
       "XFlipped": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HasHitBox": false,
-      "OnFrame": "ryu_fireball",
-      "PaletteLine": 0,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "Sliced",
       "HighPriority": false,
-      "Background": false
+      "ZeroIsTransparent": false,
+      "Name": "row-2-column-4",
+      "IsBlank": false
     }
   ],
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": "player_on_land",
   "AutoFlip": true,
-  "Streamed": true
+  "Streamed": true,
+  "PatternBuffer": 0
 }

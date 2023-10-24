@@ -1,54 +1,61 @@
 {
   "Frames": [
     {
-      "Path": "row-7-column-2.png",
       "Duration": 3,
-      "HandleX": -82,
-      "HandleY": -130,
-      "XFlipped": false,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "row-7-column-2.png",
+      "OnFrame": null,
+      "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
         "Width": 0,
         "Height": 0
       },
-      "HasHitBox": false,
-      "OnFrame": null,
-      "PaletteLine": 0,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "Sliced",
+      "HandleX": -82,
+      "HandleY": -130,
+      "XFlipped": false,
       "HighPriority": false,
-      "Background": false
+      "ZeroIsTransparent": false,
+      "Name": "row-7-column-2",
+      "IsBlank": false
     },
     {
-      "Path": "row-5-column-2.png",
       "Duration": 99,
-      "HandleX": -44,
-      "HandleY": -119,
-      "XFlipped": false,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "row-5-column-2.png",
+      "OnFrame": null,
+      "HasHitBox": true,
       "HitBox": {
         "X": 8,
         "Y": -62,
         "Width": 53,
         "Height": 39
       },
-      "HasHitBox": true,
-      "OnFrame": null,
-      "PaletteLine": 0,
-      "Multiplexes": 0,
-      "SpriteType": "Attached_16colors",
-      "RenderType": "Sliced",
+      "HandleX": -44,
+      "HandleY": -119,
+      "XFlipped": false,
       "HighPriority": false,
-      "Background": false
+      "ZeroIsTransparent": false,
+      "Name": "row-5-column-2",
+      "IsBlank": false
     }
   ],
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": null,
+  "LinkedMap": "",
   "OnFinish": "",
   "AutoFlip": true,
-  "Streamed": true
+  "Streamed": true,
+  "PatternBuffer": 0
 }
