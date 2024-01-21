@@ -4,10 +4,7 @@
   "Variables": [],
   "Commands": [
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -31,15 +28,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -90,13 +78,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -120,15 +115,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "actor_var1",
-          "Comparison": "Equals",
-          "RightSide": "4",
-          "ComparisonNext": "End",
-          "IsValid": true
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -179,13 +165,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "actor_var1",
+          "Comparison": "Equals",
+          "RightSide": "4",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
@@ -209,15 +202,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -268,13 +252,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -298,15 +289,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -357,13 +339,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
@@ -387,15 +376,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -446,13 +426,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -476,15 +463,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -535,13 +513,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -565,15 +550,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -624,13 +600,20 @@
       "Sound": "",
       "Music": "",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -654,15 +637,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "actor_var1",
-          "Comparison": "Equals",
-          "RightSide": "3",
-          "ComparisonNext": "End",
-          "IsValid": true
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -713,13 +687,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "actor_var1",
+          "Comparison": "Equals",
+          "RightSide": "3",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -743,15 +724,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "p2_life",
-          "Comparison": "LessThan",
-          "RightSide": "1",
-          "ComparisonNext": "End",
-          "IsValid": true
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -802,13 +774,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "p2_life",
+          "Comparison": "LessThan",
+          "RightSide": "1",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
@@ -832,15 +811,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -891,13 +861,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -921,15 +898,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -980,13 +948,20 @@
       "Sound": "",
       "Music": "",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -1010,15 +985,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1069,13 +1035,20 @@
       "Sound": "",
       "Music": "",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "Return",
@@ -1099,15 +1072,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1158,13 +1122,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -1188,15 +1159,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1247,13 +1209,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -1277,15 +1246,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1336,13 +1296,20 @@
       "Sound": "",
       "Music": "",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -1366,15 +1333,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1425,13 +1383,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -1455,22 +1420,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "actor_var1",
-          "Comparison": "Equals",
-          "RightSide": "8",
-          "ComparisonNext": "Or",
-          "IsValid": true
-        },
-        {
-          "LeftSide": "actor_var1",
-          "Comparison": "Equals",
-          "RightSide": "7",
-          "ComparisonNext": "End",
-          "IsValid": true
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1521,13 +1470,27 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "actor_var1",
+          "Comparison": "Equals",
+          "RightSide": "8",
+          "ComparisonNext": "Or",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "actor_var1",
+          "Comparison": "Equals",
+          "RightSide": "7",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
@@ -1551,15 +1514,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1610,13 +1564,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -1640,15 +1601,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1699,13 +1651,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -1729,15 +1688,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1788,13 +1738,20 @@
       "Sound": "",
       "Music": "",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -1818,15 +1775,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1877,13 +1825,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
@@ -1907,15 +1862,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -1966,13 +1912,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -1996,15 +1949,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -2055,13 +1999,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "SetVariable",
@@ -2085,15 +2036,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -2144,13 +2086,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",
@@ -2174,15 +2123,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -2233,7 +2173,17 @@
       "Sound": "",
       "Music": "",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     }
   ]
 }

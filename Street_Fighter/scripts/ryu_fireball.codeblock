@@ -4,10 +4,7 @@
   "Variables": [],
   "Commands": [
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Audio",
       "BasicOperationType": "CommentOnly",
@@ -31,15 +28,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -90,13 +78,20 @@
       "Sound": "hadoken",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
@@ -120,15 +115,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -179,13 +165,20 @@
       "Sound": "none",
       "Music": "none",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "New",
       "BasicOperationType": "CommentOnly",
@@ -209,7 +202,6 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "velo * 45 + Player_X",
@@ -260,7 +252,9 @@
       "Sound": "",
       "Music": "",
       "MusicPos": "0",
-      "SpeakDelay": 1
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": []
     }
   ]
 }

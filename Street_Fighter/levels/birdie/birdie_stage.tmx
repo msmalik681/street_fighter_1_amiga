@@ -4,8 +4,8 @@
     <property name="override_palette" type="file" value="birdie_pal.png" />
     <property name="rainbow_palette" type="file" value="birdie_copper.png" />
   </properties>
-  <tileset firstgid="1" source="..\..\Actors.tsx" />
-  <tileset firstgid="257" source="..\..\Blocks.tsx" />
+  <tileset firstgid="1" source="../../Actors.tsx" />
+  <tileset firstgid="257" source="../../Blocks.tsx" />
   <tileset firstgid="513" source="birdie_stage.tileset.tsx" />
   <layer id="1" name="map" width="48" height="14">
     <data encoding="csv">

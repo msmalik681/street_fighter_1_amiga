@@ -1,21 +1,16 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 4,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "1001-0.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 43,
-        "Y": -77,
-        "Width": 17,
-        "Height": 20
-      },
       "HandleX": -16,
       "HandleY": -80,
       "XFlipped": false,
@@ -25,21 +20,16 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 4,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "1001-1.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 43,
-        "Y": -77,
-        "Width": 17,
-        "Height": 20
-      },
       "HandleX": -16,
       "HandleY": -80,
       "XFlipped": false,
@@ -53,9 +43,9 @@
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
   "OnFinish": null,
   "AutoFlip": true,
   "Streamed": true,
-  "PatternBuffer": 0
+  "PatternBuffer": 0,
+  "LinkedMap": ""
 }

@@ -1,6 +1,9 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 4,
       "Background": false,
       "Multiplexes": 0,
@@ -8,14 +11,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "row-2-column-3.png",
-      "OnFrame": "cloud_spawn",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -73,
       "HandleY": -109,
       "XFlipped": false,
@@ -25,6 +20,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 4,
       "Background": false,
       "Multiplexes": 0,
@@ -32,14 +30,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "row-2-column-3b.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -77,
       "HandleY": -104,
       "XFlipped": false,
@@ -49,6 +39,46 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Dir": "move_right",
+            "Codeblock": "ryu_fireball",
+            "Actor": "none",
+            "Sound": "none",
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "Scale": "1",
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          }
+        ]
+      },
       "Duration": 25,
       "Background": false,
       "Multiplexes": 0,
@@ -56,14 +86,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "row-2-column-4.png",
-      "OnFrame": "ryu_fireball",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -44,
       "HandleY": -107,
       "XFlipped": false,
@@ -77,9 +99,9 @@
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
   "OnFinish": "player_on_land",
   "AutoFlip": true,
   "Streamed": true,
-  "PatternBuffer": 0
+  "PatternBuffer": 0,
+  "LinkedMap": ""
 }

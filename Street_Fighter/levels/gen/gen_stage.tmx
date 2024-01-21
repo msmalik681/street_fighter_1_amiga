@@ -4,8 +4,8 @@
     <property name="parallax_path" type="file" value="gen_plax.png" />
     <property name="override_palette" type="file" value="gen_pal.png" />
   </properties>
-  <tileset firstgid="1" source="..\..\Actors.tsx" />
-  <tileset firstgid="257" source="..\..\Blocks.tsx" />
+  <tileset firstgid="1" source="../../Actors.tsx" />
+  <tileset firstgid="257" source="../../Blocks.tsx" />
   <tileset firstgid="513" source="gen_stage.tileset.tsx" />
   <layer id="1" name="map" width="48" height="14">
     <data encoding="csv">

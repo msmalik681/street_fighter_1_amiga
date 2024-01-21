@@ -1,7 +1,7 @@
 {
   "OutputSpeed": "PAL_25HZ",
   "GFXMode": "BP5",
-  "MemorySaver": "EndRun",
+  "MemorySaver": "None",
   "EmulatedAmiga": "CD32",
   "EmulatedFastRam": 4,
   "WinUAEConfiguration": "",
@@ -10,13 +10,17 @@
   "SpriteColorBank": 1,
   "SScan2": false,
   "FMode": 0,
-  "Width": 256,
-  "XOffset": 32,
-  "XFillSize": 20,
+  "Width": 272,
+  "XOffset": 16,
+  "XFillSize": 21,
   "YFillSize": 17,
+  "XFillSizeMD": 21,
+  "YFillSizeMD": 16,
   "MapCache": false,
   "DoubleCopper": false,
   "AllocateMemoryUpfront": false,
   "NTSC": false,
-  "CrunchMode": "NoCrunch"
+  "CrunchMode": "Implode",
+  "MaxActiveActors": 32,
+  "DynamicPatterns": 0
 }

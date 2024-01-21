@@ -5,8 +5,8 @@
     <property name="parallax_path" type="file" value="eagle_plax.png" />
     <property name="rainbow_palette" type="file" value="..\geki\geki_copper.png" />
   </properties>
-  <tileset firstgid="1" source="..\..\Actors.tsx" />
-  <tileset firstgid="257" source="..\..\Blocks.tsx" />
+  <tileset firstgid="1" source="../../Actors.tsx" />
+  <tileset firstgid="257" source="../../Blocks.tsx" />
   <tileset firstgid="513" source="eagle_stage.tileset.tsx" />
   <layer id="1" name="map" width="47" height="14">
     <data encoding="csv">
