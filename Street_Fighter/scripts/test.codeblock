@@ -1,7 +1,6 @@
 {
   "CompileOrder": 0,
   "DataVersion": 1,
-  "Variables": [],
   "Commands": [
     {
       "Values": {},
@@ -80,6 +79,8 @@
       "MusicPos": "0",
       "SpeakDelay": 1,
       "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
       "Conditions": [
         {
           "LeftSide": "",
@@ -91,7 +92,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "PanelSlot": "Top"
+      },
       "DataVersion": 6,
       "Category": "Dialogue",
       "BasicOperationType": "CommentOnly",
@@ -100,7 +103,7 @@
       "ConditionType": "Condition",
       "LevelOperationType": "LoadLevel",
       "ActorOperationType": "SetType",
-      "DialogueOperationType": "Print_TopPanel",
+      "DialogueOperationType": "Print_Panel",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
       "PaletteOperationType": "SetColor",
@@ -167,6 +170,8 @@
       "MusicPos": "0",
       "SpeakDelay": 1,
       "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
       "Conditions": [
         {
           "LeftSide": "",
@@ -254,6 +259,8 @@
       "MusicPos": "0",
       "SpeakDelay": 1,
       "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
       "Conditions": [
         {
           "LeftSide": "",
@@ -341,6 +348,8 @@
       "MusicPos": "0",
       "SpeakDelay": 1,
       "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
       "Conditions": [
         {
           "LeftSide": "",
@@ -428,6 +437,8 @@
       "MusicPos": "0",
       "SpeakDelay": 1,
       "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
       "Conditions": [
         {
           "LeftSide": "",
@@ -515,6 +526,8 @@
       "MusicPos": "0",
       "SpeakDelay": 1,
       "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
       "Conditions": [
         {
           "LeftSide": "",
