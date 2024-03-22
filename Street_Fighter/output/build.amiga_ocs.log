@@ -31,7 +31,7 @@ Maps and Asset Bundles Count: 13
 Maps and Asset Bundles Data Size: 156
 Actor Count: 12
 Actor Data Size: 2256
-Movement Pattern Data: 0
+Movement Pattern Data: 2
 Block Count: 2
 Block Data Size: 136
 Anim5 Count: 0
@@ -52,6 +52,7 @@ Attack Data: 1
 Attack Data Size: 72
 Misc data size: 106
 Music file retsu_stage1 Original size 187624 Crunched size 134154
+Movement patterns Original size 2 Crunched size 2
 Panel scorpion_eng_splashscreen Original size 35172 Crunched size 3268
 Panel bottom_panel Original size 23302 Crunched size 2986
 Panel top_panel Original size 18934 Crunched size 3684
