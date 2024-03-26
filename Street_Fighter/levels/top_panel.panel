@@ -19,20 +19,6 @@
   "Options": [],
   "Elements": [
     {
-      "PanelElementType": 0,
-      "Variable": "p1_score",
-      "X": 22,
-      "Y": 4,
-      "NumberFont": "defaultnumberfont",
-      "Font": null,
-      "BarImage": null,
-      "CounterImage1": null,
-      "CounterDivisions": 1,
-      "PaletteLine": 3,
-      "IsHighPriority": true,
-      "MaxValue": 9999
-    },
-    {
       "PanelElementType": 2,
       "Variable": "p1_life",
       "X": 127,
