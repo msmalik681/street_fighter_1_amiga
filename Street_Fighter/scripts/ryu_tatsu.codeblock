@@ -519,7 +519,7 @@
         "b": 0,
         "a": 255
       },
-      "Sound": "tatsu",
+      "Sound": "sfx_tatsu",
       "Music": "none",
       "MusicPos": "0",
       "SpeakDelay": 1,

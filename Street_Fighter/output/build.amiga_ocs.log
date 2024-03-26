@@ -6,7 +6,7 @@ For chip:
 Map gfx (level gfx bundle 11): 0
 Music memory (retsu_stage1): 0
 BP Buffer memory: 121800
-core sfx/gfx memory: 451062
+core sfx/gfx memory: 444348
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -15,16 +15,16 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 213084
-vm memory: 40400
-project memory: 18938
+EXE memory: 212900
+vm memory: 39170
+project memory: 18994
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 777662
-Accounted memory other: 286382
-Accounted memory total: 1064044
+Accounted memory chip: 770948
+Accounted memory other: 285024
+Accounted memory total: 1055972
 
 === Misc ===
 Maps and Asset Bundles Count: 13
@@ -36,8 +36,8 @@ Block Count: 2
 Block Data Size: 136
 Anim5 Count: 0
 Anim5 Data Size: 0
-Sound Count: 5
-Sound Data Size: 140
+Sound Count: 7
+Sound Data Size: 196
 Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 93
@@ -55,8 +55,10 @@ Music file retsu_stage1 Original size 187624 Crunched size 134154
 Movement patterns Original size 2 Crunched size 2
 Panel scorpion_eng_splashscreen Original size 35172 Crunched size 3268
 Panel bottom_panel Original size 23302 Crunched size 2986
-Panel top_panel Original size 18934 Crunched size 3684
+Panel new_top_panel Original size 8820 Crunched size 1050
+Panel top_panel Original size 14960 Crunched size 3406
 Panel wining_panel Original size 14848 Crunched size 2902
+Project virtual machine (codeblocks) Original size 39170 Crunched size 8714
 Header data for map adon_stage Original size 7996 Crunched size 274
 Tile data for map adon_stage (mem restrictions:None) Original size 4188 Crunched size 1806
 Background for map adon_stage Original size 1688 Crunched size 478
@@ -85,7 +87,7 @@ Background for map lee_stage Original size 1400 Crunched size 80
 Header data for map mike_stage Original size 7996 Crunched size 280
 Tile data for map mike_stage (mem restrictions:None) Original size 4188 Crunched size 2010
 Background for map mike_stage Original size 1400 Crunched size 94
-Header data for map retsu_stage Original size 7996 Crunched size 286
+Header data for map retsu_stage Original size 7996 Crunched size 264
 Tile data for map retsu_stage (mem restrictions:None) Original size 4446 Crunched size 1784
 Background for map retsu_stage Original size 1400 Crunched size 80
 Header data for map sagat_stage Original size 7996 Crunched size 284
@@ -95,7 +97,7 @@ Parallax for map sagat_stage Original size 14340 Crunched size 2412
 Header data for map vs_screen Original size 7996 Crunched size 274
 Tile data for map vs_screen (mem restrictions:None) Original size 29788 Crunched size 3710
 Background for map vs_screen Original size 1400 Crunched size 80
-Asset bundle 0 (Core project asset bundle) Original size 451062 Crunched size 271268
+Asset bundle 0 (Core project asset bundle) Original size 444348 Crunched size 266348
 Asset bundle 1 (adon_stage) Original size 75748 Crunched size 36886
 Asset bundle 2 (birdie_stage) Original size 82954 Crunched size 32508
 Asset bundle 3 (eagle_stage) Original size 66812 Crunched size 33664
@@ -107,10 +109,9 @@ Asset bundle 8 (mike_stage) Original size 92180 Crunched size 58128
 Asset bundle 9 (retsu_stage) Original size 79892 Crunched size 45468
 Asset bundle 10 (sagat_stage) Original size 44126 Crunched size 18284
 Asset bundle 11 (vs_screen) Original size 132804 Crunched size 75168
-Project Header Original size 4036 Crunched size 1186
-Project Data Original size 18938 Crunched size 5648
-Project virtual machine (codeblocks) Original size 40400 Crunched size 8988
-Project virtual machine redirects Original size 132 Crunched size 132
+Project Header Original size 4036 Crunched size 1188
+Project Data Original size 18994 Crunched size 5670
+Project virtual machine redirects Original size 116 Crunched size 116
 
 === Possibly unused animations ===
 flash_block
@@ -190,15 +191,18 @@ ryu_win_l
 010_retsu_duck_r
 011_retsu_duck_l
 
+=== Possibly unused sound effects ===
+sfx_light_atk
+sfx_ryu_wins
+
 === Codeblocks by compiled size ===
 startup: 9368
-player_ontimer: 1718
-enemy_ai: 1340
-player_ducking: 1184
+player_ontimer: 1442
+enemy_ai: 1332
+player_ducking: 1040
 load_level: 764
-stage_reset_gosub: 710
-stage_reset: 686
-player_on_land: 572
+stage_reset: 662
+stage_reset_gosub: 602
 vs_colour_adon: 538
 vs_colour_birdie: 538
 vs_colour_eagle: 538
@@ -211,36 +215,36 @@ vs_colour_mike: 538
 vs_colour_sagat: 538
 colour_stages: 518
 vs_colour_ryu: 506
-key_input: 476
+player_on_land: 500
 colour_geki_stage: 474
 colour_joe_stage: 474
-player_take_damage: 464
-set_yresolution: 458 (Unused?)
 do_teleport: 424
 enemy_take_damage: 420
+player_take_damage: 416
 vs_colour_retsu: 410
-ryu_tatsu: 384
 enemy_on_land: 380
+ryu_tatsu: 360
 flipscreen_smooth: 310 (Unused?)
+key_input: 304
 flipxymove: 278 (Unused?)
 camera: 262
 enemy_jump: 236
 pre_startup: 204
-player_jump: 200
+set_yresolution: 202 (Unused?)
 waitforframes: 194
 check_talkpad: 192 (Unused?)
 pause: 176 (Unused?)
-damage_light_standing_gosub: 170 (Unused?)
+player_jump: 176
 flipymove: 162 (Unused?)
 snap_to_screen: 158
 pre_quit: 152
-stage_timer: 148
+stage_timer: 148 (Unused?)
 load_panel: 146
+damage_light_standing_gosub: 146 (Unused?)
 ryu_dragon_punch: 144
 flipxmove: 142 (Unused?)
 unload_level: 142
 check_direction: 138
-load_music: 130
 destroy_all_blocks: 124 (Unused?)
 pre_load_level: 122
 autogen_ryu_dragon_punch_r_1: 116
@@ -307,6 +311,7 @@ autogen_ryu_tatsu_l_11: 88
 autogen_ryu_tatsu_l_14: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
+load_music: 78
 AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_None_None: 78
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)

@@ -1052,7 +1052,7 @@
       "SpeakDelay": 1,
       "Platform": "all",
       "VariableType": "Variable",
-      "VariableExpansionMode": "Word",
+      "VariableExpansionMode": "Long",
       "Conditions": []
     },
     {
@@ -4958,7 +4958,8 @@
     },
     {
       "Values": {
-        "PanelTop": "top_panel"
+        "Background": "",
+        "PanelTop": "new_top_panel"
       },
       "DataVersion": 6,
       "Category": "Level",

@@ -10,6 +10,7 @@
   "TalkpadY": 0,
   "TalkpadWidth": 97,
   "TalkpadHeight": 14,
+  "OverrideGamePalette": true,
   "PanelImagePath": "top_panel.png",
   "FireIndicatorPath": null,
   "ChoiceIndicatorPath": null,
@@ -100,68 +101,11 @@
       "PaletteLine": 3,
       "IsHighPriority": true,
       "MaxValue": 100
-    },
-    {
-      "PanelElementType": 0,
-      "Variable": "key_input_1",
-      "X": 246,
-      "Y": 34,
-      "NumberFont": "defaultnumberfont",
-      "Font": null,
-      "BarImage": null,
-      "CounterImage1": null,
-      "CounterDivisions": 1,
-      "PaletteLine": 3,
-      "IsHighPriority": true,
-      "MaxValue": 3
-    },
-    {
-      "PanelElementType": 0,
-      "Variable": "key_input_2",
-      "X": 254,
-      "Y": 34,
-      "NumberFont": "defaultnumberfont",
-      "Font": null,
-      "BarImage": null,
-      "CounterImage1": null,
-      "CounterDivisions": 1,
-      "PaletteLine": 3,
-      "IsHighPriority": true,
-      "MaxValue": 3
-    },
-    {
-      "PanelElementType": 0,
-      "Variable": "key_input_3",
-      "X": 263,
-      "Y": 34,
-      "NumberFont": "defaultnumberfont",
-      "Font": null,
-      "BarImage": null,
-      "CounterImage1": null,
-      "CounterDivisions": 1,
-      "PaletteLine": 3,
-      "IsHighPriority": true,
-      "MaxValue": 3
-    },
-    {
-      "PanelElementType": 0,
-      "Variable": "player_var1",
-      "X": 262,
-      "Y": 2,
-      "NumberFont": "defaultnumberfont",
-      "Font": null,
-      "BarImage": null,
-      "CounterImage1": null,
-      "CounterDivisions": 1,
-      "PaletteLine": 3,
-      "IsHighPriority": true,
-      "MaxValue": 9
     }
   ],
-  "GFXMode": "BP4",
+  "GFXMode": "BP3",
   "PanelSlot": "Top",
   "PanelOptionSound": "none",
-  "PanelOptionSoundMD": "none",
   "OverlapsGameView": false,
   "CenterAdjustments": {
     "0": 0,
@@ -184,10 +128,14 @@
       "Left": -0.5,
       "Idle": 0.0,
       "Right": 0.5,
+      "Pseudo3DDistance": 0.0,
+      "Pseudo3DSpeed": 0.0,
       "Top": 0
     }
   ],
   "ParallaxOverlayPath": null,
   "Gap": 4,
-  "MarsRenderMode": "ForegroundAlpha16bit"
+  "MarsRenderMode": "ForegroundAlpha16bit",
+  "OnType": null,
+  "IsRightAligned": false
 }
