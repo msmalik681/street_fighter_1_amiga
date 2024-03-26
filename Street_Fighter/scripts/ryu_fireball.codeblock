@@ -1,7 +1,6 @@
 {
   "CompileOrder": 0,
   "DataVersion": 1,
-  "Variables": [],
   "Commands": [
     {
       "Values": {},
@@ -22,7 +21,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "none",
-      "Expression": "Note_E1",
+      "Expression": "0",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
@@ -80,6 +79,8 @@
       "MusicPos": "0",
       "SpeakDelay": 1,
       "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
       "Conditions": [
         {
           "LeftSide": "",
@@ -167,6 +168,8 @@
       "MusicPos": "0",
       "SpeakDelay": 1,
       "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
       "Conditions": [
         {
           "LeftSide": "",
@@ -254,6 +257,8 @@
       "MusicPos": "0",
       "SpeakDelay": 1,
       "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
       "Conditions": []
     }
   ]
