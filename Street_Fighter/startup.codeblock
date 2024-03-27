@@ -4959,7 +4959,7 @@
     {
       "Values": {
         "Background": "",
-        "PanelTop": "new_top_panel"
+        "PanelTop": "top_panel"
       },
       "DataVersion": 6,
       "Category": "Level",

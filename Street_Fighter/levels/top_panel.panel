@@ -87,6 +87,20 @@
       "PaletteLine": 3,
       "IsHighPriority": true,
       "MaxValue": 100
+    },
+    {
+      "PanelElementType": 0,
+      "Variable": "p1_score",
+      "X": 26,
+      "Y": 4,
+      "NumberFont": "defaultnumberfont",
+      "Font": null,
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "PaletteLine": 3,
+      "IsHighPriority": true,
+      "MaxValue": 99999
     }
   ],
   "GFXMode": "BP3",
