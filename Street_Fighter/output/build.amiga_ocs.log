@@ -16,15 +16,15 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 212948
-vm memory: 38882
+vm memory: 39054
 project memory: 18994
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 770948
-Accounted memory other: 284784
-Accounted memory total: 1055732
+Accounted memory other: 284956
+Accounted memory total: 1055904
 
 === Misc ===
 Maps and Asset Bundles Count: 13
@@ -54,10 +54,10 @@ Misc data size: 106
 Music file retsu_stage1 Original size 187624 Crunched size 134154
 Movement patterns Original size 2 Crunched size 2
 Panel scorpion_eng_splashscreen Original size 35172 Crunched size 3268
-Panel bottom_panel Original size 23302 Crunched size 2986
+Panel bottom_panel Original size 23278 Crunched size 2836
 Panel top_panel Original size 14992 Crunched size 3420
-Panel wining_panel Original size 14848 Crunched size 2902
-Project virtual machine (codeblocks) Original size 38882 Crunched size 8680
+Panel wining_panel Original size 18300 Crunched size 2626
+Project virtual machine (codeblocks) Original size 39054 Crunched size 8712
 Header data for map adon_stage Original size 7996 Crunched size 274
 Tile data for map adon_stage (mem restrictions:None) Original size 4188 Crunched size 1806
 Background for map adon_stage Original size 1688 Crunched size 478
@@ -108,9 +108,9 @@ Asset bundle 8 (mike_stage) Original size 92180 Crunched size 58128
 Asset bundle 9 (retsu_stage) Original size 79892 Crunched size 45468
 Asset bundle 10 (sagat_stage) Original size 44126 Crunched size 18284
 Asset bundle 11 (vs_screen) Original size 132804 Crunched size 75168
-Project Header Original size 4036 Crunched size 1188
-Project Data Original size 18994 Crunched size 5674
-Project virtual machine redirects Original size 104 Crunched size 104
+Project Header Original size 4036 Crunched size 1186
+Project Data Original size 18994 Crunched size 5684
+Project virtual machine redirects Original size 124 Crunched size 124
 
 === Possibly unused animations ===
 flash_block
@@ -173,8 +173,6 @@ ryu_tatsu_end_l
 ryu_tatsu_r
 ryu_tatsu_l
 ryu_waiting_l
-ryu_win_r
-ryu_win_l
 
 === Possibly unused Actors ===
 001_fireball
@@ -191,7 +189,6 @@ ryu_win_l
 
 === Possibly unused sound effects ===
 sfx_light_atk
-sfx_ryu_wins
 
 === Codeblocks by compiled size ===
 startup: 9374
@@ -199,7 +196,7 @@ player_ontimer: 1442
 player_ducking: 1040
 enemy_ai: 1028
 load_level: 764
-stage_reset: 662
+stage_reset: 668
 stage_reset_gosub: 602
 vs_colour_adon: 538
 vs_colour_birdie: 538
@@ -295,6 +292,7 @@ autogen_ryu_tatsu_r_14: 90
 autogen_ryu_tatsu_l_7: 90
 autogen_ryu_tatsu_l_10: 90
 autogen_ryu_tatsu_l_13: 90
+win_sfx: 90
 fadeout: 88
 autogen_retsu_jump_atk_r_3: 88
 autogen_ryu_jump_atk_hk_r_2: 88
@@ -347,7 +345,9 @@ autogen_ryu_tatsu_r_1: 38
 autogen_ryu_tatsu_r_15: 38
 autogen_ryu_tatsu_l_1: 38
 autogen_ryu_tatsu_l_15: 38
+autogen_ryu_win_r_1: 38
 autogen_ryu_win_r_3: 38
+autogen_ryu_win_l_1: 38
 autogen_ryu_win_l_3: 38
 camera_enemy_pos: 38
 block_coll_force: 32 (Unused?)

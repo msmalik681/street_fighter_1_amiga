@@ -2625,7 +2625,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "none",
-      "Expression": "player wins the round!",
+      "Expression": "<Y40>player wins the round!",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
