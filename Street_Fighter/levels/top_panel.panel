@@ -101,6 +101,20 @@
       "PaletteLine": 3,
       "IsHighPriority": true,
       "MaxValue": 99999
+    },
+    {
+      "PanelElementType": 0,
+      "Variable": "temp",
+      "X": 12,
+      "Y": 35,
+      "NumberFont": "defaultnumberfont",
+      "Font": null,
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "PaletteLine": 3,
+      "IsHighPriority": true,
+      "MaxValue": 999
     }
   ],
   "GFXMode": "BP3",

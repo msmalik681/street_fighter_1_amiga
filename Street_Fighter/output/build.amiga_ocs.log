@@ -16,15 +16,15 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 212948
-vm memory: 38848
+vm memory: 38882
 project memory: 18994
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 770948
-Accounted memory other: 284750
-Accounted memory total: 1055698
+Accounted memory other: 284784
+Accounted memory total: 1055732
 
 === Misc ===
 Maps and Asset Bundles Count: 13
@@ -55,10 +55,9 @@ Music file retsu_stage1 Original size 187624 Crunched size 134154
 Movement patterns Original size 2 Crunched size 2
 Panel scorpion_eng_splashscreen Original size 35172 Crunched size 3268
 Panel bottom_panel Original size 23302 Crunched size 2986
-Panel new_top_panel Original size 8148 Crunched size 744
-Panel top_panel Original size 14960 Crunched size 3406
+Panel top_panel Original size 14992 Crunched size 3420
 Panel wining_panel Original size 14848 Crunched size 2902
-Project virtual machine (codeblocks) Original size 38848 Crunched size 8656
+Project virtual machine (codeblocks) Original size 38882 Crunched size 8680
 Header data for map adon_stage Original size 7996 Crunched size 274
 Tile data for map adon_stage (mem restrictions:None) Original size 4188 Crunched size 1806
 Background for map adon_stage Original size 1688 Crunched size 478
@@ -110,7 +109,7 @@ Asset bundle 9 (retsu_stage) Original size 79892 Crunched size 45468
 Asset bundle 10 (sagat_stage) Original size 44126 Crunched size 18284
 Asset bundle 11 (vs_screen) Original size 132804 Crunched size 75168
 Project Header Original size 4036 Crunched size 1188
-Project Data Original size 18994 Crunched size 5670
+Project Data Original size 18994 Crunched size 5674
 Project virtual machine redirects Original size 104 Crunched size 104
 
 === Possibly unused animations ===
@@ -217,9 +216,9 @@ vs_colour_ryu: 506
 player_on_land: 500
 colour_geki_stage: 474
 colour_joe_stage: 474
+player_take_damage: 450
 do_teleport: 424
 enemy_take_damage: 420
-player_take_damage: 416
 vs_colour_retsu: 410
 enemy_on_land: 380
 ryu_tatsu: 360
