@@ -16,15 +16,15 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 213084
-vm memory: 39616
+vm memory: 40858
 project memory: 19354
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 770948
-Accounted memory other: 286014
-Accounted memory total: 1056962
+Accounted memory other: 287256
+Accounted memory total: 1058204
 
 === Misc ===
 Maps and Asset Bundles Count: 13
@@ -57,7 +57,7 @@ Panel scorpion_eng_splashscreen Original size 35170 Crunched size 3266
 Panel bottom_panel Original size 23276 Crunched size 2832
 Panel top_panel Original size 14990 Crunched size 3418
 Panel wining_panel Original size 18298 Crunched size 2624
-Project virtual machine (codeblocks) Original size 39616 Crunched size 8750
+Project virtual machine (codeblocks) Original size 40858 Crunched size 9054
 Header data for map adon_stage Original size 8000 Crunched size 276
 Tile data for map adon_stage (mem restrictions:None) Original size 4188 Crunched size 1806
 Background for map adon_stage Original size 1688 Crunched size 478
@@ -110,7 +110,7 @@ Asset bundle 10 (sagat_stage) Original size 44126 Crunched size 18284
 Asset bundle 11 (vs_screen) Original size 132804 Crunched size 75168
 Project Header Original size 4036 Crunched size 1188
 Project Data Original size 19354 Crunched size 5768
-Project virtual machine redirects Original size 132 Crunched size 132
+Project virtual machine redirects Original size 140 Crunched size 140
 
 === Possibly unused animations ===
 flash_block
@@ -191,7 +191,7 @@ ryu_waiting_l
 sfx_light_atk
 
 === Codeblocks by compiled size ===
-startup: 9374
+startup: 10616
 player_ontimer: 1462
 player_ducking: 1040
 enemy_ai: 1028
