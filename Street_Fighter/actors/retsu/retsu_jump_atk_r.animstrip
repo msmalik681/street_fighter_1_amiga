@@ -136,7 +136,63 @@
           }
         ]
       },
-      "Duration": 99,
+      "Duration": 2,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "jump_attack_01.png",
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "jump_attack_01",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "MeleeBox",
+            "Dir": "move_right",
+            "Codeblock": null,
+            "Actor": "none",
+            "Sound": "none",
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": 3,
+              "Y": -62,
+              "Width": 57,
+              "Height": 40
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          }
+        ]
+      },
+      "Duration": 2,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
@@ -156,7 +212,7 @@
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
-  "LoopFrame": 0,
+  "LoopFrame": 3,
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,

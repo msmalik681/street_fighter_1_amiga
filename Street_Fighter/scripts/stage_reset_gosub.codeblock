@@ -1765,7 +1765,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "stage_timer",
-      "Expression": "99",
+      "Expression": "5",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,

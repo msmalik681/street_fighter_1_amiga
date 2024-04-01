@@ -3223,7 +3223,7 @@
         {
           "LeftSide": "player1_wins",
           "Comparison": "Equals",
-          "RightSide": "1",
+          "RightSide": "2",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -3252,7 +3252,7 @@
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
-      "Disabled": true,
+      "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
       "NewBlock": "none",
