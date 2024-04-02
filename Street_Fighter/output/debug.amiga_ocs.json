@@ -15308,7 +15308,7 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 32,
       "MemoryOffset": 22936,
-      "Description": "Raw expression 'vs_screen_all'"
+      "Description": "Raw expression 'vs_screen_retsu'"
     },
     {
       "CodeBlock": "startup",
@@ -15320,7 +15320,7 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 32,
       "MemoryOffset": 22950,
-      "Description": "Raw expression 'vs_screen_all'"
+      "Description": "Raw expression 'vs_screen_retsu'"
     },
     {
       "CodeBlock": "startup",
@@ -26209,7 +26209,8 @@
     "10": "sagat_stage",
     "11": "vs_screen",
     "12": "vs_screen_all",
-    "13": "level_japan"
+    "13": "vs_screen_retsu",
+    "14": "level_japan"
   },
   "Music": {
     "0": "No music loaded",

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tileset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="retsu_stage" tilewidth="16" tileheight="16" tilecount="512" columns="16">
-  <image source="../retsu_stage.tileset.png" width="256" height="512" />
+  <image source="retsu_stage.tileset.png" width="256" height="512" />
   <tile id="0">
     <properties>
       <property name="IsSolid" value="False" type="bool" />

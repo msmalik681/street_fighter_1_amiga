@@ -17,18 +17,18 @@ Map data memory: 0
 Map background memory: 0
 EXE memory: 213084
 vm memory: 39834
-project memory: 19366
+project memory: 19378
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 770948
-Accounted memory other: 286244
-Accounted memory total: 1057192
+Accounted memory other: 286256
+Accounted memory total: 1057204
 
 === Misc ===
-Maps and Asset Bundles Count: 14
-Maps and Asset Bundles Data Size: 168
+Maps and Asset Bundles Count: 15
+Maps and Asset Bundles Data Size: 180
 Actor Count: 12
 Actor Data Size: 2256
 Movement Pattern Data: 2
@@ -99,6 +99,9 @@ Background for map vs_screen Original size 1400 Crunched size 80
 Header data for map vs_screen_all Original size 8000 Crunched size 248
 Tile data for map vs_screen_all (mem restrictions:None) Original size 6132 Crunched size 3056
 Background for map vs_screen_all Original size 1400 Crunched size 80
+Header data for map vs_screen_retsu Original size 8000 Crunched size 248
+Tile data for map vs_screen_retsu (mem restrictions:None) Original size 8064 Crunched size 3230
+Background for map vs_screen_retsu Original size 1400 Crunched size 80
 Asset bundle 0 (Core project asset bundle) Original size 444348 Crunched size 266348
 Asset bundle 1 (adon_stage) Original size 75748 Crunched size 36886
 Asset bundle 2 (birdie_stage) Original size 82954 Crunched size 32508
@@ -112,8 +115,9 @@ Asset bundle 9 (retsu_stage) Original size 79892 Crunched size 45468
 Asset bundle 10 (sagat_stage) Original size 44126 Crunched size 18284
 Asset bundle 11 (vs_screen) Original size 132804 Crunched size 75168
 Asset bundle 12 (vs_screen_all) Original size 129494 Crunched size 70392
-Project Header Original size 4036 Crunched size 1188
-Project Data Original size 19366 Crunched size 5768
+Asset bundle 13 (vs_screen_retsu) Original size 129494 Crunched size 70390
+Project Header Original size 4036 Crunched size 1190
+Project Data Original size 19378 Crunched size 5768
 Project virtual machine redirects Original size 132 Crunched size 132
 
 === Possibly unused animations ===

@@ -2586,7 +2586,7 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Level": "vs_screen_all",
+      "Level": "vs_screen_retsu",
       "NewBlock": "none",
       "XPosition": "",
       "YPosition": "",
