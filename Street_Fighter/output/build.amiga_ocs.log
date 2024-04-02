@@ -16,19 +16,19 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 213084
-vm memory: 40858
-project memory: 19354
+vm memory: 39834
+project memory: 19366
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 770948
-Accounted memory other: 287256
-Accounted memory total: 1058204
+Accounted memory other: 286244
+Accounted memory total: 1057192
 
 === Misc ===
-Maps and Asset Bundles Count: 13
-Maps and Asset Bundles Data Size: 156
+Maps and Asset Bundles Count: 14
+Maps and Asset Bundles Data Size: 168
 Actor Count: 12
 Actor Data Size: 2256
 Movement Pattern Data: 2
@@ -57,7 +57,7 @@ Panel scorpion_eng_splashscreen Original size 35170 Crunched size 3266
 Panel bottom_panel Original size 23276 Crunched size 2832
 Panel top_panel Original size 14990 Crunched size 3418
 Panel wining_panel Original size 18298 Crunched size 2624
-Project virtual machine (codeblocks) Original size 40858 Crunched size 9054
+Project virtual machine (codeblocks) Original size 39834 Crunched size 8804
 Header data for map adon_stage Original size 8000 Crunched size 276
 Tile data for map adon_stage (mem restrictions:None) Original size 4188 Crunched size 1806
 Background for map adon_stage Original size 1688 Crunched size 478
@@ -96,6 +96,9 @@ Parallax for map sagat_stage Original size 14340 Crunched size 2412
 Header data for map vs_screen Original size 8000 Crunched size 276
 Tile data for map vs_screen (mem restrictions:None) Original size 29788 Crunched size 3710
 Background for map vs_screen Original size 1400 Crunched size 80
+Header data for map vs_screen_all Original size 8000 Crunched size 248
+Tile data for map vs_screen_all (mem restrictions:None) Original size 6132 Crunched size 3056
+Background for map vs_screen_all Original size 1400 Crunched size 80
 Asset bundle 0 (Core project asset bundle) Original size 444348 Crunched size 266348
 Asset bundle 1 (adon_stage) Original size 75748 Crunched size 36886
 Asset bundle 2 (birdie_stage) Original size 82954 Crunched size 32508
@@ -108,9 +111,10 @@ Asset bundle 8 (mike_stage) Original size 92180 Crunched size 58128
 Asset bundle 9 (retsu_stage) Original size 79892 Crunched size 45468
 Asset bundle 10 (sagat_stage) Original size 44126 Crunched size 18284
 Asset bundle 11 (vs_screen) Original size 132804 Crunched size 75168
+Asset bundle 12 (vs_screen_all) Original size 129494 Crunched size 70392
 Project Header Original size 4036 Crunched size 1188
-Project Data Original size 19354 Crunched size 5768
-Project virtual machine redirects Original size 140 Crunched size 140
+Project Data Original size 19366 Crunched size 5768
+Project virtual machine redirects Original size 132 Crunched size 132
 
 === Possibly unused animations ===
 flash_block
@@ -191,7 +195,7 @@ ryu_waiting_l
 sfx_light_atk
 
 === Codeblocks by compiled size ===
-startup: 10616
+startup: 9592
 player_ontimer: 1462
 player_ducking: 1040
 enemy_ai: 1028
