@@ -3,7 +3,7 @@
 === Estimated memory usages ===
 
 For chip:
-Map gfx (level gfx bundle 11): 0
+Map gfx (level gfx bundle 13): 0
 Music memory (retsu_stage1): 0
 BP Buffer memory: 121800
 core sfx/gfx memory: 444348
@@ -17,18 +17,18 @@ Map data memory: 0
 Map background memory: 0
 EXE memory: 213084
 vm memory: 39834
-project memory: 19378
+project memory: 19402
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 770948
-Accounted memory other: 286256
-Accounted memory total: 1057204
+Accounted memory other: 286280
+Accounted memory total: 1057228
 
 === Misc ===
-Maps and Asset Bundles Count: 15
-Maps and Asset Bundles Data Size: 180
+Maps and Asset Bundles Count: 17
+Maps and Asset Bundles Data Size: 204
 Actor Count: 12
 Actor Data Size: 2256
 Movement Pattern Data: 2
@@ -73,6 +73,9 @@ Header data for map geki_stage Original size 8000 Crunched size 286
 Tile data for map geki_stage (mem restrictions:None) Original size 4188 Crunched size 1630
 Background for map geki_stage Original size 1676 Crunched size 468
 Parallax for map geki_stage Original size 24150 Crunched size 6414
+Header data for map geki_vs_screen Original size 8000 Crunched size 272
+Tile data for map geki_vs_screen (mem restrictions:None) Original size 2908 Crunched size 594
+Background for map geki_vs_screen Original size 1400 Crunched size 80
 Header data for map gen_stage Original size 8000 Crunched size 272
 Tile data for map gen_stage (mem restrictions:None) Original size 4188 Crunched size 1716
 Background for map gen_stage Original size 1576 Crunched size 390
@@ -89,6 +92,9 @@ Background for map mike_stage Original size 1400 Crunched size 94
 Header data for map retsu_stage Original size 8000 Crunched size 286
 Tile data for map retsu_stage (mem restrictions:None) Original size 4446 Crunched size 1784
 Background for map retsu_stage Original size 1400 Crunched size 80
+Header data for map retsu_vs_screen Original size 8000 Crunched size 272
+Tile data for map retsu_vs_screen (mem restrictions:None) Original size 2908 Crunched size 582
+Background for map retsu_vs_screen Original size 1400 Crunched size 80
 Header data for map sagat_stage Original size 8000 Crunched size 286
 Tile data for map sagat_stage (mem restrictions:None) Original size 4188 Crunched size 1226
 Background for map sagat_stage Original size 1556 Crunched size 300
@@ -96,28 +102,30 @@ Parallax for map sagat_stage Original size 14340 Crunched size 2412
 Header data for map vs_screen Original size 8000 Crunched size 276
 Tile data for map vs_screen (mem restrictions:None) Original size 29788 Crunched size 3710
 Background for map vs_screen Original size 1400 Crunched size 80
-Header data for map vs_screen_all Original size 8000 Crunched size 248
-Tile data for map vs_screen_all (mem restrictions:None) Original size 6132 Crunched size 3056
+Header data for map vs_screen_all Original size 8000 Crunched size 272
+Tile data for map vs_screen_all (mem restrictions:None) Original size 6132 Crunched size 3018
 Background for map vs_screen_all Original size 1400 Crunched size 80
-Header data for map vs_screen_retsu Original size 8000 Crunched size 248
-Tile data for map vs_screen_retsu (mem restrictions:None) Original size 8064 Crunched size 3230
+Header data for map vs_screen_retsu Original size 8000 Crunched size 274
+Tile data for map vs_screen_retsu (mem restrictions:None) Original size 10384 Crunched size 3336
 Background for map vs_screen_retsu Original size 1400 Crunched size 80
 Asset bundle 0 (Core project asset bundle) Original size 444348 Crunched size 266348
 Asset bundle 1 (adon_stage) Original size 75748 Crunched size 36886
 Asset bundle 2 (birdie_stage) Original size 82954 Crunched size 32508
 Asset bundle 3 (eagle_stage) Original size 66812 Crunched size 33664
 Asset bundle 4 (geki_stage) Original size 65244 Crunched size 32206
-Asset bundle 5 (gen_stage) Original size 72790 Crunched size 23286
-Asset bundle 6 (joe_stage) Original size 81230 Crunched size 35774
-Asset bundle 7 (lee_stage) Original size 92520 Crunched size 47140
-Asset bundle 8 (mike_stage) Original size 92180 Crunched size 58128
-Asset bundle 9 (retsu_stage) Original size 79892 Crunched size 45468
-Asset bundle 10 (sagat_stage) Original size 44126 Crunched size 18284
-Asset bundle 11 (vs_screen) Original size 132804 Crunched size 75168
-Asset bundle 12 (vs_screen_all) Original size 129494 Crunched size 70392
-Asset bundle 13 (vs_screen_retsu) Original size 129494 Crunched size 70390
-Project Header Original size 4036 Crunched size 1190
-Project Data Original size 19378 Crunched size 5768
+Asset bundle 5 (geki_vs_screen) Original size 18064 Crunched size 9484
+Asset bundle 6 (gen_stage) Original size 72790 Crunched size 23286
+Asset bundle 7 (joe_stage) Original size 81230 Crunched size 35774
+Asset bundle 8 (lee_stage) Original size 92520 Crunched size 47140
+Asset bundle 9 (mike_stage) Original size 92180 Crunched size 58128
+Asset bundle 10 (retsu_stage) Original size 79892 Crunched size 45468
+Asset bundle 11 (retsu_vs_screen) Original size 17622 Crunched size 8928
+Asset bundle 12 (sagat_stage) Original size 44126 Crunched size 18284
+Asset bundle 13 (vs_screen) Original size 132804 Crunched size 75168
+Asset bundle 14 (vs_screen_all) Original size 128494 Crunched size 70522
+Asset bundle 15 (vs_screen_retsu) Original size 128494 Crunched size 70526
+Project Header Original size 4036 Crunched size 1188
+Project Data Original size 19402 Crunched size 5768
 Project virtual machine redirects Original size 132 Crunched size 132
 
 === Possibly unused animations ===
