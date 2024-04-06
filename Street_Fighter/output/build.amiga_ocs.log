@@ -82,8 +82,8 @@ Header data for map geki_stage Original size 8000 Crunched size 286
 Tile data for map geki_stage (mem restrictions:None) Original size 4188 Crunched size 1630
 Background for map geki_stage Original size 1676 Crunched size 468
 Parallax for map geki_stage Original size 24150 Crunched size 6414
-Header data for map geki_vs_screen Original size 8000 Crunched size 272
-Tile data for map geki_vs_screen (mem restrictions:None) Original size 2908 Crunched size 594
+Header data for map geki_vs_screen Original size 8000 Crunched size 274
+Tile data for map geki_vs_screen (mem restrictions:None) Original size 2908 Crunched size 588
 Background for map geki_vs_screen Original size 1400 Crunched size 80
 Header data for map gen_stage Original size 8000 Crunched size 272
 Tile data for map gen_stage (mem restrictions:None) Original size 4188 Crunched size 1716
@@ -137,7 +137,7 @@ Asset bundle 4 (birdie_vs_screen) Original size 18748 Crunched size 11402
 Asset bundle 5 (eagle_stage) Original size 66812 Crunched size 33664
 Asset bundle 6 (eagle_vs_screen) Original size 19150 Crunched size 12126
 Asset bundle 7 (geki_stage) Original size 65244 Crunched size 32206
-Asset bundle 8 (geki_vs_screen) Original size 18064 Crunched size 9484
+Asset bundle 8 (geki_vs_screen) Original size 17824 Crunched size 8850
 Asset bundle 9 (gen_stage) Original size 72790 Crunched size 23286
 Asset bundle 10 (gen_vs_screen) Original size 18790 Crunched size 11158
 Asset bundle 11 (joe_stage) Original size 81230 Crunched size 35774
