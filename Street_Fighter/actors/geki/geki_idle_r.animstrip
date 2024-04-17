@@ -10,13 +10,13 @@
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "duck_pain.png",
+      "Path": "idle.png",
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "duck_pain",
+      "Name": "idle",
       "IsBlank": false
     }
   ],
@@ -24,9 +24,9 @@
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "OnFinish": null,
+  "OnFinish": "enemy_ai",
   "AutoFlip": true,
   "Streamed": true,
   "PatternBuffer": 0,
-  "LinkedMap": "retsu_stage"
+  "LinkedMap": "geki_stage"
 }

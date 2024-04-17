@@ -5,7 +5,6 @@
         "Events": []
       },
       "Duration": 1,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
@@ -61,7 +60,6 @@
         ]
       },
       "Duration": 8,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
@@ -81,7 +79,6 @@
         "Events": []
       },
       "Duration": 5,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
@@ -137,7 +134,6 @@
         ]
       },
       "Duration": 2,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
@@ -193,7 +189,6 @@
         ]
       },
       "Duration": 2,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
@@ -217,5 +212,5 @@
   "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0,
-  "LinkedMap": ""
+  "LinkedMap": "retsu_stage"
 }
