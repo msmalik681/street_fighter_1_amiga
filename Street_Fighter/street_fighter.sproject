@@ -197,8 +197,6 @@
   },
   "SplashScreen": null,
   "LogicSpeed": "PAL_25HZ",
-  "StartingPaletteLine": 0,
-  "PaletteLines": 1,
   "ReadCD32Buttons": false,
   "ReadMD6Buttons": false,
   "MDRegion": "Universal",
