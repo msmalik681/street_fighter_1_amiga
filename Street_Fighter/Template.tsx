@@ -57,4 +57,9 @@
       <property name="Name" value="011_retsu_duck_l" type="string" />
     </properties>
   </tile>
+  <tile id="12">
+    <properties>
+      <property name="Name" value="012_geki_r" type="string" />
+    </properties>
+  </tile>
 </tileset>
