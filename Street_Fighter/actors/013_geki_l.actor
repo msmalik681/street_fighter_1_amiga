@@ -1,30 +1,30 @@
 {
   "ShootDirType": "actor_direction",
   "DefaultLookDir": "left",
-  "Recycle": "Default",
+  "Recycle": "Always",
   "MoveType": "cpu_platform",
   "MaxEntities": 0,
-  "NudgeX": 9,
+  "NudgeX": 7,
   "NudgeY": 15,
   "Idles": {
     "UpLeft": "",
     "Up": "",
     "UpRight": "",
-    "Left": "geki_idle_r",
-    "Right": "geki_idle_r",
+    "Left": "geki_idle_l",
+    "Right": "geki_idle_l",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
   },
   "Moves": {
-    "UpLeft": "geki_idle_r",
+    "UpLeft": "",
     "Up": "",
-    "UpRight": "geki_idle_r",
-    "Left": "geki_idle_r",
+    "UpRight": "",
+    "Left": "",
     "Right": "",
-    "DownLeft": "geki_idle_r",
+    "DownLeft": "",
     "Down": "",
-    "DownRight": "geki_idle_r"
+    "DownRight": ""
   },
   "Attacks": {
     "UpLeft": "",
@@ -104,7 +104,7 @@
     false
   ],
   "CollBox": {
-    "X": -19,
+    "X": -21,
     "Y": -92,
     "Width": 40,
     "Height": 85
@@ -126,18 +126,18 @@
   "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "block",
-  "Player": false,
+  "Player": null,
   "BlockCollider": null,
-  "CanRidePlatform": null,
-  "Camera": false,
-  "AutoScroll": false,
+  "CanRidePlatform": false,
+  "Camera": null,
+  "AutoScroll": null,
   "Flags": 0,
   "AttackProjectile": null,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": "",
-  "DivertSpawn": "",
+  "DivertSpawn": "stage_reset_gosub",
   "DivertPlayerCollision": "",
   "DivertPlayerHit": "enemy_take_damage",
   "DivertHitAgainstPlayer": "player_take_damage",
@@ -160,7 +160,7 @@
   ],
   "ControlPort": 1,
   "DataVersion": 3,
-  "AutoSpawn": false,
+  "AutoSpawn": true,
   "AutoNavigate": false,
   "ActorTimeline": {
     "TimelineFrames": {
@@ -189,5 +189,5 @@
     "TimelineEvents": {},
     "PingPong": false
   },
-  "TileID": 12
+  "TileID": 13
 }
