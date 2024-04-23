@@ -1,17 +1,17 @@
 {
   "ShootDirType": "actor_direction",
   "DefaultLookDir": "left",
-  "Recycle": "Always",
+  "Recycle": "Default",
   "MoveType": "cpu_platform",
   "MaxEntities": 0,
-  "NudgeX": 7,
+  "NudgeX": 9,
   "NudgeY": 15,
   "Idles": {
     "UpLeft": "",
     "Up": "",
     "UpRight": "",
-    "Left": "geki_idle_l",
-    "Right": "geki_idle_l",
+    "Left": "retsu_idle_l",
+    "Right": "retsu_idle_r",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
@@ -20,9 +20,9 @@
     "UpLeft": "",
     "Up": "",
     "UpRight": "",
-    "Left": "",
+    "Left": "retsu_idle_l",
     "Right": "",
-    "DownLeft": "",
+    "DownLeft": "retsu_idle_l",
     "Down": "",
     "DownRight": ""
   },
@@ -104,7 +104,7 @@
     false
   ],
   "CollBox": {
-    "X": -21,
+    "X": -19,
     "Y": -92,
     "Width": 40,
     "Height": 85
@@ -126,18 +126,18 @@
   "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "block",
-  "Player": null,
+  "Player": false,
   "BlockCollider": null,
-  "CanRidePlatform": false,
-  "Camera": null,
-  "AutoScroll": null,
+  "CanRidePlatform": null,
+  "Camera": false,
+  "AutoScroll": false,
   "Flags": 0,
   "AttackProjectile": null,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": "",
-  "DivertSpawn": "stage_reset_gosub",
+  "DivertSpawn": "",
   "DivertPlayerCollision": "",
   "DivertPlayerHit": "enemy_take_damage",
   "DivertHitAgainstPlayer": "player_take_damage",
@@ -160,7 +160,7 @@
   ],
   "ControlPort": 1,
   "DataVersion": 3,
-  "AutoSpawn": true,
+  "AutoSpawn": false,
   "AutoNavigate": false,
   "ActorTimeline": {
     "TimelineFrames": {
@@ -189,5 +189,5 @@
     "TimelineEvents": {},
     "PingPong": false
   },
-  "TileID": 13
+  "TileID": 8
 }

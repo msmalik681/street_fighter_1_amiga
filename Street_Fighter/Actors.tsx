@@ -62,4 +62,9 @@
       <property name="Name" value="012_geki_r" type="string" />
     </properties>
   </tile>
+  <tile id="13">
+    <properties>
+      <property name="Name" value="013_geki_l" type="string" />
+    </properties>
+  </tile>
 </tileset>
