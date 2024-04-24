@@ -137,7 +137,7 @@
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": "",
-  "DivertSpawn": "",
+  "DivertSpawn": "stage_reset_gosub",
   "DivertPlayerCollision": "",
   "DivertPlayerHit": "enemy_take_damage",
   "DivertHitAgainstPlayer": "player_take_damage",

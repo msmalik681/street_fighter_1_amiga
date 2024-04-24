@@ -175,6 +175,13 @@
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
+    },
+    "sfx_retsu_win": {
+      "LinkedMap": "retsu_stage",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},

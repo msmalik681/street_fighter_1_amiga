@@ -28,9 +28,10 @@
       "BarImage": "lifebar.png",
       "CounterImage1": null,
       "CounterDivisions": 1,
-      "PaletteLine": 3,
       "IsHighPriority": true,
-      "MaxValue": 10
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
+      "MaxValue": 100
     },
     {
       "PanelElementType": 2,
@@ -42,9 +43,10 @@
       "BarImage": "lifebar.png",
       "CounterImage1": null,
       "CounterDivisions": 1,
-      "PaletteLine": 3,
       "IsHighPriority": true,
-      "MaxValue": 10
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
+      "MaxValue": 100
     },
     {
       "PanelElementType": 1,
@@ -56,8 +58,9 @@
       "BarImage": "win_conter.png",
       "CounterImage1": "win_conter.png",
       "CounterDivisions": 1,
-      "PaletteLine": 3,
       "IsHighPriority": true,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
       "MaxValue": 2
     },
     {
@@ -70,8 +73,9 @@
       "BarImage": "win_conter.png",
       "CounterImage1": "win_conter.png",
       "CounterDivisions": 1,
-      "PaletteLine": 3,
       "IsHighPriority": true,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
       "MaxValue": 2
     },
     {
@@ -84,8 +88,9 @@
       "BarImage": null,
       "CounterImage1": null,
       "CounterDivisions": 1,
-      "PaletteLine": 3,
       "IsHighPriority": true,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
       "MaxValue": 100
     },
     {
@@ -98,8 +103,9 @@
       "BarImage": null,
       "CounterImage1": null,
       "CounterDivisions": 1,
-      "PaletteLine": 3,
       "IsHighPriority": true,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
       "MaxValue": 99999
     },
     {
@@ -112,8 +118,9 @@
       "BarImage": null,
       "CounterImage1": null,
       "CounterDivisions": 1,
-      "PaletteLine": 3,
       "IsHighPriority": true,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
       "MaxValue": 999
     }
   ],
@@ -128,12 +135,22 @@
     "3": 0
   },
   "CenterAdjust_MegaDrive": 0,
-  "PaletteLines_MegaDrive": 1,
-  "StartingPaletteLine_MegaDrive": 3,
-  "TalkpadPalLine": 0,
-  "FireIndicatorPalLine": 0,
-  "ChoiceIndicatorPalLine": 0,
-  "NumberFontPaletteLine": 0,
+  "MegaDrivePaletteLines": {
+    "Start": 3,
+    "Talkpad": 3,
+    "FireIndicator": 3,
+    "ChoiceIndicator": 3,
+    "NumberFont": 3,
+    "Total": 1
+  },
+  "NeoGeoPaletteLines": {
+    "Start": 15,
+    "Talkpad": 0,
+    "FireIndicator": 0,
+    "ChoiceIndicator": 0,
+    "NumberFont": 0,
+    "Total": 1
+  },
   "ParallaxMultiplierX": 0.5,
   "ParallaxMultiplierY": 0.0,
   "SliceMode": "Unsliced",
