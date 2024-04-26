@@ -3157,7 +3157,7 @@
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
       "Goto": "",
-      "Comment": "check if anyone won",
+      "Comment": "check if anyone won 2 rounds",
       "Variable": "none",
       "Expression": "0",
       "Index": "0",
