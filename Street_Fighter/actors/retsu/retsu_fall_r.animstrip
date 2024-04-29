@@ -20,6 +20,7 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": true,
   "PreventMovement": true,
   "PreventCollision": true,
   "HideChildren": false,

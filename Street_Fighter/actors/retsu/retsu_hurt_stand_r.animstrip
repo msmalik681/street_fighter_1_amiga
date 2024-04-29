@@ -39,8 +39,9 @@
       "IsBlank": false
     }
   ],
-  "PreventMovement": false,
-  "PreventCollision": false,
+  "PreventAttack": true,
+  "PreventMovement": true,
+  "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
   "OnFinish": "enemy_on_land",
