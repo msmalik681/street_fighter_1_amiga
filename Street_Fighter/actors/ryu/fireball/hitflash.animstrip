@@ -10,32 +10,13 @@
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "fireball\\8000-0.png",
-      "HandleX": -5,
-      "HandleY": -5,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "8000-0",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 1,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "fireball\\8000-1.png",
+      "Path": "6000-0.png",
       "HandleX": -8,
-      "HandleY": -8,
+      "HandleY": -11,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "8000-1",
+      "Name": "6000-0",
       "IsBlank": false
     },
     {
@@ -48,51 +29,13 @@
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "fireball\\8000-2.png",
-      "HandleX": -10,
-      "HandleY": -10,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "8000-2",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 1,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "fireball\\8000-3.png",
-      "HandleX": -11,
-      "HandleY": -12,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "8000-3",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 1,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "fireball\\8000-4.png",
+      "Path": "6000-1.png",
       "HandleX": -13,
       "HandleY": -14,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "8000-4",
+      "Name": "6000-1",
       "IsBlank": false
     },
     {
@@ -105,13 +48,32 @@
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "fireball\\8000-5.png",
-      "HandleX": -13,
-      "HandleY": -14,
+      "Path": "6000-3.png",
+      "HandleX": -17,
+      "HandleY": -16,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "8000-5",
+      "Name": "6000-3",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 1,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "6000-4.png",
+      "HandleX": -17,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "6000-4",
       "IsBlank": false
     }
   ],
@@ -121,7 +83,7 @@
   "HideChildren": false,
   "LoopFrame": 0,
   "OnFinish": "destroy_actor",
-  "AutoFlip": false,
+  "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0,
   "LinkedMap": ""
