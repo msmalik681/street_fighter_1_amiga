@@ -16,15 +16,15 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 213208
-vm memory: 33328
+vm memory: 33368
 project memory: 21074
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 631966
-Accounted memory other: 281570
-Accounted memory total: 913536
+Accounted memory other: 281610
+Accounted memory total: 913576
 
 === Misc ===
 ImageFrames: 246
@@ -71,14 +71,14 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 2832
 Panel top_panel Original size 14992 Crunched size 3420
 Panel wining_panel Original size 18300 Crunched size 2626
-Project virtual machine (codeblocks) Original size 33328 Crunched size 7516
+Project virtual machine (codeblocks) Original size 33368 Crunched size 7514
 Header data for map retsu_stage Original size 8000 Crunched size 286
 Tile data for map retsu_stage (mem restrictions:None) Original size 4446 Crunched size 1812
 Background for map retsu_stage Original size 1400 Crunched size 80
 Asset bundle 0 (Core project asset bundle) Original size 311666 Crunched size 186712
 Asset bundle 1 (retsu_stage) Original size 255338 Crunched size 151278
 Project Header Original size 4036 Crunched size 1184
-Project Data Original size 21074 Crunched size 6452
+Project Data Original size 21074 Crunched size 6454
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -167,7 +167,7 @@ ryu_waiting_l
 === Codeblocks by compiled size ===
 startup: 8904
 player_ontimer: 1574
-player_ducking: 1140
+player_ducking: 1078
 enemy_ai: 1002
 enemy_take_damage: 982
 load_level: 764
@@ -200,6 +200,7 @@ ryu_dragon_punch: 144
 flipxmove: 142 (Unused?)
 unload_level: 142
 check_direction: 138
+test: 128
 win_sfx: 126
 destroy_all_blocks: 124 (Unused?)
 pre_load_level: 122
@@ -334,4 +335,3 @@ vm_constants_controlbits: 26 (Unused?)
 vm_constants_notes: 26 (Unused?)
 vm_constants_platform: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)
-test: 26 (Unused?)
