@@ -182,6 +182,62 @@
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
+    },
+    "sfx_block": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "sfx_hadoken": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "sfx_hard_atk": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "sfx_light_atk": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "sfx_ryu_grunt": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "sfx_ryu_wins": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "sfx_shoryuken": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "sfx_tatsu": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},

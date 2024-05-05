@@ -1,21 +1,52 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "MeleeBox",
+            "Dir": "move_right",
+            "Codeblock": null,
+            "Actor": "none",
+            "Sound": "none",
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": 9,
+              "Y": -84,
+              "Width": 30,
+              "Height": 45
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          }
+        ]
+      },
       "Duration": 4,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "row-6-column-8.png",
-      "OnFrame": null,
-      "HasHitBox": true,
-      "HitBox": {
-        "X": 9,
-        "Y": -84,
-        "Width": 30,
-        "Height": 45
-      },
       "HandleX": -60,
       "HandleY": -115,
       "XFlipped": false,
@@ -25,21 +56,87 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Dir": "move_right",
+            "Codeblock": "ryu_dragon_punch",
+            "Actor": "none",
+            "Sound": "none",
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          },
+          {
+            "FrameEventType": "MeleeBox",
+            "Dir": "move_right",
+            "Codeblock": null,
+            "Actor": "none",
+            "Sound": "none",
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -8,
+              "Y": -123,
+              "Width": 37,
+              "Height": 120
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          }
+        ]
+      },
       "Duration": 15,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "row-6-column-9.png",
-      "OnFrame": "ryu_dragon_punch",
-      "HasHitBox": true,
-      "HitBox": {
-        "X": -8,
-        "Y": -123,
-        "Width": 37,
-        "Height": 120
-      },
       "HandleX": -65,
       "HandleY": -119,
       "XFlipped": false,
@@ -49,21 +146,16 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 99,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "row-6-column-10.png",
-      "OnFrame": "",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -71,
       "HandleY": -119,
       "XFlipped": false,
@@ -73,13 +165,14 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 5,
-  "LinkedMap": "",
   "OnFinish": "player_on_land",
   "AutoFlip": true,
   "Streamed": true,
-  "PatternBuffer": 0
+  "PatternBuffer": 0,
+  "LinkedMap": ""
 }

@@ -1,21 +1,16 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 2,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "row-4-column-7.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -32,
       "HandleY": -105,
       "XFlipped": false,
@@ -25,21 +20,16 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 2,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "row-4-column-9.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -32,
       "HandleY": -103,
       "XFlipped": false,
@@ -49,21 +39,52 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "MeleeBox",
+            "Dir": "move_right",
+            "Codeblock": null,
+            "Actor": "none",
+            "Sound": "none",
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": 26,
+              "Y": -28,
+              "Width": 55,
+              "Height": 32
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          }
+        ]
+      },
       "Duration": 3,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "row-4-column-8.png",
-      "OnFrame": null,
-      "HasHitBox": true,
-      "HitBox": {
-        "X": 26,
-        "Y": -28,
-        "Width": 55,
-        "Height": 32
-      },
       "HandleX": -24,
       "HandleY": -106,
       "XFlipped": false,
@@ -73,21 +94,16 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 2,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "row-5-column-1.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -48,
       "HandleY": -94,
       "XFlipped": false,
@@ -97,21 +113,16 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 3,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "row-4-column-10.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -56,
       "HandleY": -101,
       "XFlipped": false,
@@ -121,13 +132,14 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
   "OnFinish": "player_on_land",
   "AutoFlip": true,
   "Streamed": true,
-  "PatternBuffer": 0
+  "PatternBuffer": 0,
+  "LinkedMap": ""
 }
