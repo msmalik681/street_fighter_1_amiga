@@ -6,7 +6,7 @@ For chip:
 Map gfx (level gfx bundle 1): 0
 Music memory (retsu_stage1): 0
 BP Buffer memory: 115500
-core sfx/gfx memory: 324444
+core sfx/gfx memory: 311666
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -17,18 +17,18 @@ Map data memory: 0
 Map background memory: 0
 EXE memory: 213208
 vm memory: 33368
-project memory: 21806
+project memory: 21074
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 644744
-Accounted memory other: 282342
-Accounted memory total: 927086
+Accounted memory chip: 631966
+Accounted memory other: 281610
+Accounted memory total: 913576
 
 === Misc ===
-ImageFrames: 248
-ImageFrame Data Size: 10912
+ImageFrames: 246
+ImageFrame Data Size: 10824
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 11
@@ -46,8 +46,8 @@ Animations Count: 106
 Animations Data Size: 1696
 AnimationFrame Count: 363
 AnimationFrame Data Size: System.Collections.Generic.List`1[System.Byte]
-Sprites: 47
-Sprites Data Size: 658
+Sprites: 1
+Sprites Data Size: 14
 Attack Data: 1
 Attack Data Size: 72
 Misc data size: 106
@@ -75,10 +75,10 @@ Project virtual machine (codeblocks) Original size 33368 Crunched size 7514
 Header data for map retsu_stage Original size 8000 Crunched size 286
 Tile data for map retsu_stage (mem restrictions:None) Original size 4446 Crunched size 1812
 Background for map retsu_stage Original size 1400 Crunched size 80
-Asset bundle 0 (Core project asset bundle) Original size 324444 Crunched size 174122
+Asset bundle 0 (Core project asset bundle) Original size 311666 Crunched size 186712
 Asset bundle 1 (retsu_stage) Original size 255338 Crunched size 151278
-Project Header Original size 4036 Crunched size 1186
-Project Data Original size 21806 Crunched size 6914
+Project Header Original size 4036 Crunched size 1184
+Project Data Original size 21074 Crunched size 6454
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
