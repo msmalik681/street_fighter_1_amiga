@@ -10,13 +10,13 @@
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "block.png",
-      "HandleX": -70,
-      "HandleY": -143,
+      "Path": "row-1-column-7.png",
+      "HandleX": -45,
+      "HandleY": -114,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "block",
+      "Name": "row-1-column-7",
       "IsBlank": false
     }
   ],
@@ -25,9 +25,9 @@
   "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
-  "OnFinish": "enemy_on_land",
+  "OnFinish": "",
   "AutoFlip": true,
   "Streamed": true,
   "PatternBuffer": 0,
-  "LinkedMap": "retsu_stage"
+  "LinkedMap": ""
 }

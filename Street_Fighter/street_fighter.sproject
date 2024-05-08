@@ -265,5 +265,5 @@
   "MDRegion": "Universal",
   "MDSoundDriver": "MDSDRV",
   "SplashScreenFrames": 50,
-  "TestLevel": ""
+  "TestLevel": "retsu_stage"
 }
