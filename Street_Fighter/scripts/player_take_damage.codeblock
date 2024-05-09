@@ -367,6 +367,13 @@
           "LeftSide": "player_var1",
           "Comparison": "Equals",
           "RightSide": "1",
+          "ComparisonNext": "And",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "player_isonplatform",
+          "Comparison": "Equals",
+          "RightSide": "True",
           "ComparisonNext": "End",
           "IsValid": true
         }
