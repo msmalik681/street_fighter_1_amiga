@@ -16,15 +16,15 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 213208
-vm memory: 34486
-project memory: 21138
+vm memory: 33838
+project memory: 21106
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 631966
-Accounted memory other: 282792
-Accounted memory total: 914758
+Accounted memory other: 282112
+Accounted memory total: 914078
 
 === Misc ===
 ImageFrames: 246
@@ -44,7 +44,7 @@ Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 108
 Animations Data Size: 1728
-AnimationFrame Count: 365
+AnimationFrame Count: 363
 AnimationFrame Data Size: System.Collections.Generic.List`1[System.Byte]
 Sprites: 1
 Sprites Data Size: 14
@@ -71,15 +71,15 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 2832
 Panel top_panel Original size 14992 Crunched size 3418
 Panel wining_panel Original size 18300 Crunched size 2626
-Project virtual machine (codeblocks) Original size 34486 Crunched size 7684
+Project virtual machine (codeblocks) Original size 33838 Crunched size 7392
 Header data for map retsu_stage Original size 8000 Crunched size 286
 Tile data for map retsu_stage (mem restrictions:None) Original size 4446 Crunched size 1812
 Background for map retsu_stage Original size 1400 Crunched size 80
 Asset bundle 0 (Core project asset bundle) Original size 311666 Crunched size 186712
 Asset bundle 1 (retsu_stage) Original size 255338 Crunched size 151278
 Project Header Original size 4036 Crunched size 1184
-Project Data Original size 21138 Crunched size 6504
-Project virtual machine redirects Original size 24 Crunched size 24
+Project Data Original size 21106 Crunched size 6514
+Project virtual machine redirects Original size 20 Crunched size 20
 
 === Possibly unused animations ===
 blockflash
@@ -167,18 +167,16 @@ ryu_waiting_l
 010_geki
 
 === Codeblocks by compiled size ===
-startup: 8904
+startup: 8864
 player_ontimer: 1574
-player_ducking: 1078
+player_ducking: 1124
+player_take_damage: 1094
+enemy_take_damage: 1040
 enemy_ai: 1002
-enemy_take_damage: 982
-player_take_damage: 814
 load_level: 764
 stage_reset: 638
 stage_reset_gosub: 558
-colour_stages: 518
 player_on_land: 500
-colour_joe_stage: 474
 enemy_on_land: 432
 do_teleport: 424
 ryu_tatsu: 360
