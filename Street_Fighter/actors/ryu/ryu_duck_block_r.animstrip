@@ -10,13 +10,13 @@
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "row-1-column-7.png",
-      "HandleX": -45,
-      "HandleY": -114,
+      "Path": "row-3-column-2.png",
+      "HandleX": -57,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "row-1-column-7",
+      "Name": "row-3-column-2",
       "IsBlank": false
     }
   ],
