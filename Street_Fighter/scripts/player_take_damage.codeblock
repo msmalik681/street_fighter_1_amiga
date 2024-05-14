@@ -627,6 +627,13 @@
           "LeftSide": "actor_var1",
           "Comparison": "Equals",
           "RightSide": "6",
+          "ComparisonNext": "And",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "player_var1",
+          "Comparison": "NotEquals",
+          "RightSide": "0",
           "ComparisonNext": "End",
           "IsValid": true
         }

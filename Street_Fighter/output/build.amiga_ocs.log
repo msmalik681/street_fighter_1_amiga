@@ -16,15 +16,15 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 213208
-vm memory: 33808
+vm memory: 33824
 project memory: 21170
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 631966
-Accounted memory other: 282146
-Accounted memory total: 914112
+Accounted memory other: 282162
+Accounted memory total: 914128
 
 === Misc ===
 ImageFrames: 246
@@ -71,7 +71,7 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 2832
 Panel top_panel Original size 14992 Crunched size 3418
 Panel wining_panel Original size 18300 Crunched size 2626
-Project virtual machine (codeblocks) Original size 33808 Crunched size 7456
+Project virtual machine (codeblocks) Original size 33824 Crunched size 7458
 Header data for map retsu_stage Original size 8000 Crunched size 286
 Tile data for map retsu_stage (mem restrictions:None) Original size 4446 Crunched size 1812
 Background for map retsu_stage Original size 1400 Crunched size 80
@@ -174,7 +174,7 @@ player_ontimer: 1574
 player_ducking: 1124
 enemy_take_damage: 1040
 enemy_ai: 1002
-player_take_damage: 952
+player_take_damage: 968
 load_level: 764
 stage_reset: 638
 stage_reset_gosub: 558
