@@ -7455,7 +7455,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "e_ani_pain",
-      "Expression": "retsu_hurt_stand_r",
+      "Expression": "geki_hurt_stand_r",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
