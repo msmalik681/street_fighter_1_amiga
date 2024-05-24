@@ -4,38 +4,19 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 1,
+      "Duration": 3,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "row-1-column-4.png",
-      "HandleX": -51,
-      "HandleY": -107,
+      "Path": "smoke_01.png",
+      "HandleX": -70,
+      "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "row-1-column-4",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 5,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "row-5-column-5.png",
-      "HandleX": -63,
-      "HandleY": -106,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "row-5-column-5",
+      "Name": "smoke_01",
       "IsBlank": false
     },
     {
@@ -48,13 +29,13 @@
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "row-5-column-6.png",
-      "HandleX": -59,
-      "HandleY": -111,
+      "Path": "smoke_02.png",
+      "HandleX": -70,
+      "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "row-5-column-6",
+      "Name": "smoke_02",
       "IsBlank": false
     },
     {
@@ -67,13 +48,32 @@
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "row-5-column-8.png",
-      "HandleX": -56,
-      "HandleY": -109,
+      "Path": "smoke_03.png",
+      "HandleX": -70,
+      "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "row-5-column-8",
+      "Name": "smoke_03",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "smoke_04.png",
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "smoke_04",
       "IsBlank": false
     },
     {
@@ -86,24 +86,24 @@
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "row-5-column-5.png",
-      "HandleX": -63,
-      "HandleY": -106,
+      "Path": null,
+      "HandleX": 0,
+      "HandleY": 0,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "row-5-column-5",
-      "IsBlank": false
+      "Name": "[ blank ]",
+      "IsBlank": true
     }
   ],
-  "PreventAttack": false,
+  "PreventAttack": true,
   "PreventMovement": true,
-  "PreventCollision": false,
+  "PreventCollision": true,
   "HideChildren": false,
-  "LoopFrame": 9,
-  "OnFinish": null,
+  "LoopFrame": 0,
+  "OnFinish": "",
   "AutoFlip": true,
   "Streamed": true,
   "PatternBuffer": 0,
-  "LinkedMap": ""
+  "LinkedMap": "geki_stage"
 }
