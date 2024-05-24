@@ -19,12 +19,12 @@
   "Moves": {
     "UpLeft": "",
     "Up": "",
-    "UpRight": "",
+    "UpRight": "retsu_idle_r",
     "Left": "retsu_idle_l",
     "Right": "",
     "DownLeft": "retsu_idle_l",
     "Down": "",
-    "DownRight": ""
+    "DownRight": "retsu_idle_r"
   },
   "Attacks": {
     "UpLeft": "",
