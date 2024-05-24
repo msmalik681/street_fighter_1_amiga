@@ -6,7 +6,7 @@ For chip:
 Map gfx (level gfx bundle 1): 0
 Music memory (retsu_stage1): 0
 BP Buffer memory: 115500
-core sfx/gfx memory: 383214
+core sfx/gfx memory: 477034
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -22,9 +22,9 @@ memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 703514
+Accounted memory chip: 797334
 Accounted memory other: 286812
-Accounted memory total: 990326
+Accounted memory total: 1084146
 
 === Misc ===
 ImageFrames: 267
@@ -72,13 +72,14 @@ Panel bottom_panel Original size 23278 Crunched size 2832
 Panel top_panel Original size 14992 Crunched size 3418
 Panel wining_panel Original size 18300 Crunched size 2626
 Project virtual machine (codeblocks) Original size 36318 Crunched size 7808
-Header data for map retsu_stage Original size 8000 Crunched size 286
-Tile data for map retsu_stage (mem restrictions:None) Original size 4446 Crunched size 1812
-Background for map retsu_stage Original size 1400 Crunched size 80
-Asset bundle 0 (Core project asset bundle) Original size 383214 Crunched size 223846
-Asset bundle 1 (retsu_stage) Original size 255338 Crunched size 151278
+Header data for map geki_stage Original size 8000 Crunched size 284
+Tile data for map geki_stage (mem restrictions:None) Original size 4446 Crunched size 1700
+Background for map geki_stage Original size 1676 Crunched size 468
+Parallax for map geki_stage Original size 24150 Crunched size 6414
+Asset bundle 0 (Core project asset bundle) Original size 477034 Crunched size 279350
+Asset bundle 1 (geki_stage) Original size 173896 Crunched size 88612
 Project Header Original size 4036 Crunched size 1186
-Project Data Original size 23326 Crunched size 7366
+Project Data Original size 23326 Crunched size 7374
 Project virtual machine redirects Original size 96 Crunched size 96
 
 === Possibly unused animations ===
@@ -205,7 +206,7 @@ flipymove: 162 (Unused?)
 enemy_walk: 160
 snap_to_screen: 158
 pre_quit: 152
-stage_timer: 148
+stage_timer: 148 (Unused?)
 load_panel: 146
 ryu_dragon_punch: 144
 flipxmove: 142 (Unused?)
