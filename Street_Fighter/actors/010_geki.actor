@@ -132,7 +132,7 @@
   "Camera": false,
   "AutoScroll": false,
   "Flags": 0,
-  "AttackProjectile": null,
+  "AttackProjectile": "001_fireball",
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,

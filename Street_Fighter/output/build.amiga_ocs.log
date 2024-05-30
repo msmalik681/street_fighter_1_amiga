@@ -16,15 +16,15 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 213208
-vm memory: 36354
-project memory: 23326
+vm memory: 36334
+project memory: 23398
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 797334
-Accounted memory other: 286848
-Accounted memory total: 1084182
+Accounted memory other: 286900
+Accounted memory total: 1084234
 
 === Misc ===
 ImageFrames: 267
@@ -48,8 +48,8 @@ AnimationFrame Count: 426
 AnimationFrame Data Size: System.Collections.Generic.List`1[System.Byte]
 Sprites: 1
 Sprites Data Size: 14
-Attack Data: 1
-Attack Data Size: 72
+Attack Data: 2
+Attack Data Size: 144
 Misc data size: 106
 Music file retsu_stage1 Original size 187624 Crunched size 134154
 Music file sf1_coin Original size 32948 Crunched size 30744
@@ -71,15 +71,15 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 2832
 Panel top_panel Original size 14992 Crunched size 3418
 Panel wining_panel Original size 18300 Crunched size 2626
-Project virtual machine (codeblocks) Original size 36354 Crunched size 7824
+Project virtual machine (codeblocks) Original size 36334 Crunched size 7804
 Header data for map geki_stage Original size 8000 Crunched size 284
 Tile data for map geki_stage (mem restrictions:None) Original size 4446 Crunched size 1700
 Background for map geki_stage Original size 1676 Crunched size 468
 Parallax for map geki_stage Original size 24150 Crunched size 6414
 Asset bundle 0 (Core project asset bundle) Original size 477034 Crunched size 279350
 Asset bundle 1 (geki_stage) Original size 173896 Crunched size 88612
-Project Header Original size 4036 Crunched size 1184
-Project Data Original size 23326 Crunched size 7368
+Project Header Original size 4036 Crunched size 1186
+Project Data Original size 23398 Crunched size 7404
 Project virtual machine redirects Original size 96 Crunched size 96
 
 === Possibly unused animations ===
@@ -195,7 +195,7 @@ hitflash_update: 308
 key_input: 304
 flipxymove: 278 (Unused?)
 camera: 262
-geki_special: 250
+geki_special: 230
 pre_startup: 204
 set_yresolution: 202 (Unused?)
 waitforframes: 194

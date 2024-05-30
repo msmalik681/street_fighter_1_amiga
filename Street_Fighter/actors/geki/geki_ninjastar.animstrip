@@ -40,7 +40,7 @@
     }
   ],
   "PreventAttack": false,
-  "PreventMovement": true,
+  "PreventMovement": false,
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
