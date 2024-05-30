@@ -43,15 +43,11 @@
     </properties>
   </tile>
   <tile id="9" />
-  <tile id="10">
-    <properties>
-      <property name="Name" value="009_retsu_duck" type="string" />
-    </properties>
-  </tile>
+  <tile id="10" />
   <tile id="11" />
   <tile id="12">
     <properties>
-      <property name="Name" value="010_geki" type="string" />
+      <property name="Name" value="009_geki" type="string" />
     </properties>
   </tile>
 </tileset>

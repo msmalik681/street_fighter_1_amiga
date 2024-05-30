@@ -81,7 +81,15 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -8484,7 +8492,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "geki_atk_ninjastar_r + e_dir",
+      "Animation": "geki_jump_atk_ninjastar_r + e_dir",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

@@ -1,6 +1,5 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "DefaultClass",
   "DefaultLookDir": "right",
   "Recycle": "Default",
   "MoveType": "cpu",
@@ -112,22 +111,23 @@
   },
   "AttackDelay": 0,
   "ZOrder": 2,
-  "SpeedLeft": 6.0,
-  "SpeedRight": 6.0,
-  "SpeedUp": 0.0,
-  "SpeedDown": 0.0,
-  "AccelLeft": null,
-  "AccelRight": null,
-  "AccelUp": null,
-  "AccelDown": null,
+  "SpeedLeft": 5.0,
+  "SpeedRight": 5.0,
+  "SpeedUp": 5.0,
+  "SpeedDown": 5.0,
+  "AccelLeft": 1.0,
+  "AccelRight": 1.0,
+  "AccelUp": 1.0,
+  "AccelDown": 1.0,
   "AccelLeftAir": null,
   "AccelRightAir": null,
   "RotationSpeed": 0.0,
   "CollType_Left": "destroy",
   "CollType_Right": "destroy",
   "CollType_Up": "block",
-  "CollType_Down": "block",
+  "CollType_Down": "destroy",
   "Player": null,
+  "BlockCollider": null,
   "CanRidePlatform": null,
   "Camera": null,
   "AutoScroll": null,
@@ -162,5 +162,32 @@
   "DataVersion": 3,
   "AutoSpawn": null,
   "AutoNavigate": false,
+  "ActorTimeline": {
+    "TimelineFrames": {
+      "50": {
+        "X": 16,
+        "Y": 16,
+        "EaseX": "linear",
+        "EaseY": "linear",
+        "Bezier": "linear",
+        "BezierPoints": [
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          }
+        ]
+      }
+    },
+    "TimelineEvents": {},
+    "PingPong": false
+  },
   "TileID": 1
 }

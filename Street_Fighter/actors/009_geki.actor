@@ -56,10 +56,10 @@
       "sqrMagnitude": 0
     },
     {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
+      "x": -5,
+      "y": -41,
+      "magnitude": 41.3037529,
+      "sqrMagnitude": 1706
     },
     {
       "x": 0,
@@ -128,11 +128,11 @@
   "CollType_Down": "block",
   "Player": false,
   "BlockCollider": null,
-  "CanRidePlatform": null,
+  "CanRidePlatform": true,
   "Camera": false,
   "AutoScroll": false,
   "Flags": 0,
-  "AttackProjectile": "001_fireball",
+  "AttackProjectile": "",
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,

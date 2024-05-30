@@ -4,7 +4,7 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 2,
+      "Duration": 3,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
@@ -59,7 +59,7 @@
           }
         ]
       },
-      "Duration": 10,
+      "Duration": 6,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
@@ -95,7 +95,43 @@
     },
     {
       "EventContainer": {
-        "Events": []
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Dir": "move_right",
+            "Codeblock": "geki_special",
+            "Actor": "none",
+            "Sound": "none",
+            "Expression": null,
+            "Tag": "FrameEvent0",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          }
+        ]
       },
       "Duration": -1,
       "Multiplexes": 0,
