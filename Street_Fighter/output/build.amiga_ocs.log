@@ -51,35 +51,35 @@ Sprites Data Size: 14
 Attack Data: 2
 Attack Data Size: 144
 Misc data size: 92
-Music file retsu_stage1 Original size 187624 Crunched size 134154
-Music file sf1_coin Original size 32948 Crunched size 30744
-Music file sf1_stage01_retsu Original size 184100 Crunched size 131658
-Music file sf1_stage02_geki Original size 166956 Crunched size 129214
-Music file sf1_stage03_joe Original size 66320 Crunched size 51312
-Music file sf1_stage04_mike Original size 139856 Crunched size 117198
-Music file sf1_stage05_lee Original size 143708 Crunched size 123448
-Music file sf1_stage06_gen Original size 173568 Crunched size 164326
-Music file sf1_stage07_birdie Original size 92284 Crunched size 82726
-Music file sf1_stage08_eagle Original size 50836 Crunched size 45600
-Music file sf1_stage09_adon Original size 56690 Crunched size 37282
-Music file sf1_stage10_sagat Original size 127530 Crunched size 109470
-Music file sf1_stage_clear Original size 145712 Crunched size 139002
-Music file sf1_stage_select Original size 123458 Crunched size 92830
-Music file sf1_vs Original size 174996 Crunched size 168562
+Music file retsu_stage1 Original size 187624 Crunched size 187624
+Music file sf1_coin Original size 32948 Crunched size 32948
+Music file sf1_stage01_retsu Original size 184100 Crunched size 184100
+Music file sf1_stage02_geki Original size 166956 Crunched size 166956
+Music file sf1_stage03_joe Original size 66320 Crunched size 66320
+Music file sf1_stage04_mike Original size 139856 Crunched size 139856
+Music file sf1_stage05_lee Original size 143708 Crunched size 143708
+Music file sf1_stage06_gen Original size 173568 Crunched size 173568
+Music file sf1_stage07_birdie Original size 92284 Crunched size 92284
+Music file sf1_stage08_eagle Original size 50836 Crunched size 50836
+Music file sf1_stage09_adon Original size 56690 Crunched size 56690
+Music file sf1_stage10_sagat Original size 127530 Crunched size 127530
+Music file sf1_stage_clear Original size 145712 Crunched size 145712
+Music file sf1_stage_select Original size 123458 Crunched size 123458
+Music file sf1_vs Original size 174996 Crunched size 174996
 Movement patterns Original size 2 Crunched size 2
 Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
-Panel bottom_panel Original size 23278 Crunched size 2832
-Panel top_panel Original size 14992 Crunched size 3418
-Panel wining_panel Original size 18300 Crunched size 2626
-Project virtual machine (codeblocks) Original size 36680 Crunched size 7874
-Header data for map geki_stage Original size 8000 Crunched size 284
-Tile data for map geki_stage (mem restrictions:None) Original size 4446 Crunched size 1700
-Background for map geki_stage Original size 1676 Crunched size 468
-Parallax for map geki_stage Original size 24150 Crunched size 6414
-Asset bundle 0 (Core project asset bundle) Original size 477034 Crunched size 279350
-Asset bundle 1 (geki_stage) Original size 173896 Crunched size 88612
-Project Header Original size 4036 Crunched size 1184
-Project Data Original size 23196 Crunched size 7360
+Panel bottom_panel Original size 23278 Crunched size 23278
+Panel top_panel Original size 14992 Crunched size 14992
+Panel wining_panel Original size 18300 Crunched size 18300
+Project virtual machine (codeblocks) Original size 36680 Crunched size 36680
+Header data for map geki_stage Original size 8000 Crunched size 8000
+Tile data for map geki_stage (mem restrictions:None) Original size 4446 Crunched size 4446
+Background for map geki_stage Original size 1648 Crunched size 1648
+Parallax for map geki_stage Original size 24320 Crunched size 24320
+Asset bundle 0 (Core project asset bundle) Original size 477034 Crunched size 477034
+Asset bundle 1 (geki_stage) Original size 173896 Crunched size 173896
+Project Header Original size 4036 Crunched size 4036
+Project Data Original size 23196 Crunched size 23196
 Project virtual machine redirects Original size 112 Crunched size 112
 
 === Possibly unused animations ===
