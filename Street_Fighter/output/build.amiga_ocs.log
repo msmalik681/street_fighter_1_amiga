@@ -5,7 +5,7 @@
 For chip:
 Map gfx (level gfx bundle 1): 0
 Music memory (retsu_stage1): 0
-BP Buffer memory: 115500
+BP Buffer memory: 121000
 core sfx/gfx memory: 477034
 Parallax memory: 0
 OS/other estimated: 99328
@@ -16,15 +16,15 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 213208
-vm memory: 36680
+vm memory: 36664
 project memory: 23196
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 797334
-Accounted memory other: 287044
-Accounted memory total: 1084378
+Accounted memory chip: 802834
+Accounted memory other: 287028
+Accounted memory total: 1089862
 
 === Misc ===
 ImageFrames: 267
@@ -71,16 +71,16 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 36680 Crunched size 36680
+Project virtual machine (codeblocks) Original size 36664 Crunched size 36664
 Header data for map geki_stage Original size 8000 Crunched size 8000
 Tile data for map geki_stage (mem restrictions:None) Original size 4446 Crunched size 4446
-Background for map geki_stage Original size 1648 Crunched size 1648
-Parallax for map geki_stage Original size 24320 Crunched size 24320
+Background for map geki_stage Original size 1544 Crunched size 1544
+Parallax for map geki_stage Original size 28800 Crunched size 28800
 Asset bundle 0 (Core project asset bundle) Original size 477034 Crunched size 477034
 Asset bundle 1 (geki_stage) Original size 173896 Crunched size 173896
 Project Header Original size 4036 Crunched size 4036
 Project Data Original size 23196 Crunched size 23196
-Project virtual machine redirects Original size 112 Crunched size 112
+Project virtual machine redirects Original size 104 Crunched size 104
 
 === Possibly unused animations ===
 blockflash
@@ -167,7 +167,6 @@ ryu_tatsu_l
 ryu_waiting_l
 
 === Possibly unused Actors ===
-001_fireball
 002_ryu_r
 003_ryu_l
 004_ryu_duck_r
@@ -189,7 +188,7 @@ stage_reset_gosub: 558
 player_on_land: 500
 enemy_on_land: 480
 do_teleport: 424
-geki_special: 420
+geki_special: 404
 ryu_tatsu: 360
 enemy_jump: 316
 flipscreen_smooth: 310 (Unused?)

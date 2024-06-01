@@ -2,7 +2,7 @@
 <map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="48" height="15" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="7" nextobjectid="1">
   <properties>
     <property name="override_palette" type="file" value="geki_stage_palette.png" />
-    <property name="parallax_path" type="file" value="geki_sprite_lax.png" />
+    <property name="parallax_path" type="file" value="geki_stage_parallax.png" />
     <property name="rainbow_palette" type="file" value="geki_copper.png" />
   </properties>
   <tileset firstgid="1" source="../../Actors.tsx" />
