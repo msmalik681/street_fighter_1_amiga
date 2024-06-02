@@ -16,19 +16,19 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 213208
-vm memory: 36722
-project memory: 23196
+vm memory: 36758
+project memory: 23832
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 802834
-Accounted memory other: 287086
-Accounted memory total: 1089920
+Accounted memory other: 287758
+Accounted memory total: 1090592
 
 === Misc ===
-ImageFrames: 267
-ImageFrame Data Size: 11748
+ImageFrames: 276
+ImageFrame Data Size: 12144
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 10
@@ -42,9 +42,9 @@ Sound Count: 10
 Sound Data Size: 280
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 126
-Animations Data Size: 2016
-AnimationFrame Count: 426
+Animations Count: 127
+Animations Data Size: 2032
+AnimationFrame Count: 440
 AnimationFrame Data Size: System.Collections.Generic.List`1[System.Byte]
 Sprites: 1
 Sprites Data Size: 14
@@ -71,15 +71,15 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 36722 Crunched size 36722
+Project virtual machine (codeblocks) Original size 36758 Crunched size 36758
 Header data for map geki_stage Original size 8000 Crunched size 8000
 Tile data for map geki_stage (mem restrictions:None) Original size 4446 Crunched size 4446
 Background for map geki_stage Original size 1544 Crunched size 1544
 Parallax for map geki_stage Original size 28800 Crunched size 28800
 Asset bundle 0 (Core project asset bundle) Original size 477034 Crunched size 477034
-Asset bundle 1 (geki_stage) Original size 173896 Crunched size 173896
+Asset bundle 1 (geki_stage) Original size 185724 Crunched size 185724
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 23196 Crunched size 23196
+Project Data Original size 23832 Crunched size 23832
 Project virtual machine redirects Original size 116 Crunched size 116
 
 === Possibly unused animations ===
@@ -98,6 +98,7 @@ geki_jump_forward_r
 geki_jump_forward_l
 geki_jump_r
 geki_jump_l
+geki_teleport
 geki_waiting_l
 geki_walk_l
 geki_win
@@ -187,8 +188,8 @@ stage_reset: 638
 stage_reset_gosub: 558
 player_on_land: 500
 enemy_on_land: 480
+geki_special: 462
 do_teleport: 424
-geki_special: 404
 ryu_tatsu: 360
 enemy_jump: 316
 flipscreen_smooth: 310 (Unused?)
@@ -213,6 +214,7 @@ ryu_dragon_punch: 144
 flipxmove: 142 (Unused?)
 unload_level: 142
 check_direction: 136
+AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
 fireball_hit: 128
 test: 128
 win_sfx: 126
@@ -343,10 +345,6 @@ autogen_geki_jump_atk_ninjastar_r_1: 38
 autogen_geki_jump_atk_ninjastar_r_3: 38
 autogen_geki_jump_atk_ninjastar_l_1: 38
 autogen_geki_jump_atk_ninjastar_l_3: 38
-autogen_geki_jump_forward_r_1: 38
-autogen_geki_jump_forward_r_3: 38
-autogen_geki_jump_forward_l_1: 38
-autogen_geki_jump_forward_l_3: 38
 autogen_geki_jump_r_1: 38
 autogen_geki_jump_r_3: 38
 autogen_geki_jump_l_1: 38

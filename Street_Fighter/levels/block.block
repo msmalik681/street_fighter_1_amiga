@@ -1,5 +1,4 @@
 {
-  "Divert_PlayerProjectileCollision": null,
   "BlockImagePath": "levels\\blocks.png",
   "X": 0,
   "Y": 0,
@@ -12,7 +11,7 @@
   "IsInvisible": true,
   "ReplaceTileProperties": true,
   "LinkedMap": "",
-  "BlockSolidType": "Platform",
+  "BlockSolidType": "Solid",
   "PlayerCollisionOverride": "Default",
   "ProjectileCollisionOverride": "Default",
   "PaletteLines": [
@@ -35,5 +34,7 @@
       false
     ]
   ],
+  "ZeroIsTransparent": false,
+  "PaletteLineNeo": 0,
   "TileID": 0
 }
