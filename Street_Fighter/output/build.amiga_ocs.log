@@ -16,15 +16,15 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 213208
-vm memory: 36758
+vm memory: 36834
 project memory: 23832
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 802834
-Accounted memory other: 287758
-Accounted memory total: 1090592
+Accounted memory other: 287834
+Accounted memory total: 1090668
 
 === Misc ===
 ImageFrames: 276
@@ -71,11 +71,11 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 36758 Crunched size 36758
+Project virtual machine (codeblocks) Original size 36834 Crunched size 36834
 Header data for map geki_stage Original size 8000 Crunched size 8000
 Tile data for map geki_stage (mem restrictions:None) Original size 4446 Crunched size 4446
 Background for map geki_stage Original size 1544 Crunched size 1544
-Parallax for map geki_stage Original size 28800 Crunched size 28800
+Parallax for map geki_stage Original size 1800 Crunched size 1800
 Asset bundle 0 (Core project asset bundle) Original size 477034 Crunched size 477034
 Asset bundle 1 (geki_stage) Original size 185724 Crunched size 185724
 Project Header Original size 4036 Crunched size 4036
@@ -98,10 +98,8 @@ geki_jump_forward_r
 geki_jump_forward_l
 geki_jump_r
 geki_jump_l
-geki_teleport
 geki_waiting_l
 geki_walk_l
-geki_win
 retsu_atk_hk_l
 retsu_atk_hp_l
 retsu_atk_lk_l
@@ -177,10 +175,10 @@ ryu_waiting_l
 009_geki
 
 === Codeblocks by compiled size ===
-startup: 8910
+startup: 8916
 player_ontimer: 1574
+enemy_take_damage: 1224
 player_ducking: 1124
-enemy_take_damage: 1122
 enemy_ai: 1034
 player_take_damage: 968
 load_level: 764
@@ -215,7 +213,6 @@ flipxmove: 142 (Unused?)
 unload_level: 142
 check_direction: 136
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
-fireball_hit: 128
 test: 128
 win_sfx: 126
 destroy_all_blocks: 124 (Unused?)
@@ -230,6 +227,7 @@ waitforfiredown: 110
 unload_panel: 106
 load_panel_bottom: 96
 load_panel_top: 96 (Unused?)
+fireball_hit: 96
 destroy_child_actors: 94 (Unused?)
 autogen_geki_atk_hp_r_2: 90
 autogen_geki_atk_hp_l_2: 90
