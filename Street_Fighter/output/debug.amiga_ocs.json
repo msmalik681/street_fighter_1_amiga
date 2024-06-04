@@ -12577,49 +12577,49 @@
     },
     {
       "CodeBlock": "fireball_hit",
-      "CodeBlockLine": 1,
+      "CodeBlockLine": 2,
       "MemoryOffset": 19252,
       "Description": "Raw expression '8'"
     },
     {
       "CodeBlock": "fireball_hit",
-      "CodeBlockLine": 1,
+      "CodeBlockLine": 2,
       "MemoryOffset": 19258,
       "Description": "Raw expression 'fireball_hit'"
     },
     {
       "CodeBlock": "fireball_hit",
-      "CodeBlockLine": 1,
+      "CodeBlockLine": 2,
       "MemoryOffset": 19264,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "fireball_hit",
-      "CodeBlockLine": 1,
+      "CodeBlockLine": 2,
       "MemoryOffset": 19270,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "fireball_hit",
-      "CodeBlockLine": 1,
+      "CodeBlockLine": 2,
       "MemoryOffset": 19276,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "fireball_hit",
-      "CodeBlockLine": 2,
+      "CodeBlockLine": 3,
       "MemoryOffset": 19284,
       "Description": "Set 'projectile_xspeed' to '0.0'"
     },
     {
       "CodeBlock": "fireball_hit",
-      "CodeBlockLine": 3,
+      "CodeBlockLine": 4,
       "MemoryOffset": 19296,
       "Description": "Set 'atk_damage' to '2'"
     },
     {
       "CodeBlock": "fireball_hit",
-      "CodeBlockLine": 4,
+      "CodeBlockLine": 5,
       "MemoryOffset": 19302,
       "Description": "GOSUB TO 'ENEMY_TAKE_DAMAGE'"
     },
