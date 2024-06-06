@@ -1,5 +1,5 @@
-Compiled on 06 June 2024 12:14:54
-Version string: SE2024.1.240606.12.04.EX
+Compiled on 06 June 2024 14:05:20
+Version string: SE2024.1.240606.23.12.EX
 
 === Misc ===
 ImageFrames: 276
@@ -47,7 +47,7 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 33442 Crunched size 33442
+Project virtual machine (codeblocks) Original size 33412 Crunched size 33412
 Header data for map geki_stage Original size 8000 Crunched size 8000
 Tile data for map geki_stage (mem restrictions:None) Original size 4454 Crunched size 4454
 Background for map geki_stage Original size 1396 Crunched size 1396
@@ -74,15 +74,15 @@ Map header cache memory: 0
 Map data memory: 4454
 Map background memory: 1396
 EXE memory: 214976
-vm memory: 33442
+vm memory: 33412
 project memory: 23412
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 1073686
-Accounted memory other: 397112
-Accounted memory total: 1470798
+Accounted memory other: 397082
+Accounted memory total: 1470768
 
 === Possibly unused animations ===
 blockflash
@@ -179,12 +179,12 @@ ryu_waiting_l
 startup: 8922
 player_ontimer: 1398
 enemy_take_damage: 1218
-player_ducking: 1058
+player_ducking: 1032
 enemy_ai: 1024
 player_take_damage: 986
 stage_reset: 638
 load_level: 568
-stage_reset_gosub: 562
+stage_reset_gosub: 558
 player_on_land: 496
 enemy_on_land: 480
 geki_special: 462
@@ -219,7 +219,7 @@ check_direction: 140
 win_sfx: 138
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
 destroy_all_blocks: 128 (Unused?)
-test: 128
+test: 128 (Unused?)
 pre_load_level: 122
 autogen_ryu_dragon_punch_r_1: 116
 autogen_ryu_dragon_punch_l_1: 116

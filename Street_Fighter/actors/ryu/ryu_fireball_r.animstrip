@@ -5,9 +5,9 @@
         "Events": []
       },
       "Duration": 4,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "row-2-column-3.png",
@@ -24,9 +24,9 @@
         "Events": []
       },
       "Duration": 4,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "row-2-column-3b.png",
@@ -54,7 +54,6 @@
             "OverrideSpeed": false,
             "XFloat": null,
             "YFloat": null,
-            "Scale": "1",
             "ColorR": 0,
             "ColorG": 0,
             "ColorB": 255,
@@ -80,9 +79,9 @@
         ]
       },
       "Duration": 25,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "row-2-column-4.png",
@@ -95,6 +94,7 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,

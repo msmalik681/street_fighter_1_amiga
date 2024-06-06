@@ -888,7 +888,7 @@
       "TeleportName": "none",
       "XFloat": null,
       "YFloat": null,
-      "ActorType": "2 + dir",
+      "ActorType": "player_number",
       "Animation": "none",
       "PushXPixels": "",
       "PushYPixels": "",
