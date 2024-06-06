@@ -1,4 +1,4 @@
-Compiled on 06 June 2024 14:05:20
+Compiled on 06 June 2024 17:05:26
 Version string: SE2024.1.240606.23.12.EX
 
 === Misc ===
@@ -47,7 +47,7 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 33412 Crunched size 33412
+Project virtual machine (codeblocks) Original size 33418 Crunched size 33418
 Header data for map geki_stage Original size 8000 Crunched size 8000
 Tile data for map geki_stage (mem restrictions:None) Original size 4454 Crunched size 4454
 Background for map geki_stage Original size 1396 Crunched size 1396
@@ -74,15 +74,15 @@ Map header cache memory: 0
 Map data memory: 4454
 Map background memory: 1396
 EXE memory: 214976
-vm memory: 33412
+vm memory: 33418
 project memory: 23412
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 1073686
-Accounted memory other: 397082
-Accounted memory total: 1470768
+Accounted memory other: 397088
+Accounted memory total: 1470774
 
 === Possibly unused animations ===
 blockflash
@@ -190,7 +190,7 @@ enemy_on_land: 480
 geki_special: 462
 do_teleport: 424
 ryu_tatsu: 362
-enemy_jump: 316
+enemy_jump: 322
 flipscreen_smooth: 310 (Unused?)
 hitflash_update: 308
 key_input: 304

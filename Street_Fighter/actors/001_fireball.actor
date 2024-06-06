@@ -5,13 +5,13 @@
   "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 8,
-  "NudgeY": 70,
+  "NudgeY": 8,
   "Idles": {
     "UpLeft": "",
     "Up": "",
     "UpRight": "",
     "Left": "",
-    "Right": "",
+    "Right": "fireball_r",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
@@ -104,10 +104,10 @@
     false
   ],
   "CollBox": {
-    "X": -12,
-    "Y": -76,
-    "Width": 24,
-    "Height": 21
+    "X": -8,
+    "Y": -8,
+    "Width": 16,
+    "Height": 16
   },
   "AttackDelay": 0,
   "ZOrder": 2,
