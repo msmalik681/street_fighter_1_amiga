@@ -1,38 +1,13 @@
-=== Image optimisations ===
-
-=== Estimated memory usages ===
-
-For chip:
-Map gfx (level gfx bundle 1): 0
-Music memory (retsu_stage1): 0
-BP Buffer memory: 121000
-core sfx/gfx memory: 477034
-Parallax memory: 0
-OS/other estimated: 99328
-
-For other:
-Map cache memory: 0
-Map header cache memory: 0
-Map data memory: 0
-Map background memory: 0
-EXE memory: 213208
-vm memory: 37124
-project memory: 23832
-memory reserved for active actors on screen (32): 4744
-memory reserved for dormant actors in map (256): 9216
-OS/other estimated: 105472
-
-Accounted memory chip: 802834
-Accounted memory other: 288124
-Accounted memory total: 1090958
+Compiled on 06 June 2024 12:14:54
+Version string: SE2024.1.240606.12.04.EX
 
 === Misc ===
 ImageFrames: 276
 ImageFrame Data Size: 12144
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 10
-Actor Data Size: 1880
+Actor Count: 8
+Actor Data Size: 1504
 Movement Pattern Data: 2
 Block Count: 2
 Block Data Size: 136
@@ -45,12 +20,13 @@ Teleporter Data Size: 8
 Animations Count: 127
 Animations Data Size: 2032
 AnimationFrame Count: 440
-AnimationFrame Data Size: System.Collections.Generic.List`1[System.Byte]
+AnimationFrame Data Size: 7040
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 2
-Attack Data Size: 144
-Misc data size: 92
+Attack Data Size: 148
+Misc data size: 44
+=== Image optimisations ===
 Music file retsu_stage1 Original size 187624 Crunched size 187624
 Music file sf1_coin Original size 32948 Crunched size 32948
 Music file sf1_stage01_retsu Original size 184100 Crunched size 184100
@@ -71,15 +47,42 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 37124 Crunched size 37124
+Project virtual machine (codeblocks) Original size 33442 Crunched size 33442
 Header data for map geki_stage Original size 8000 Crunched size 8000
-Tile data for map geki_stage (mem restrictions:None) Original size 4446 Crunched size 4446
-Background for map geki_stage Original size 1400 Crunched size 1400
+Tile data for map geki_stage (mem restrictions:None) Original size 4454 Crunched size 4454
+Background for map geki_stage Original size 1396 Crunched size 1396
 Asset bundle 0 (Core project asset bundle) Original size 477034 Crunched size 477034
 Asset bundle 1 (geki_stage) Original size 188700 Crunched size 188700
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 23832 Crunched size 23832
-Project virtual machine redirects Original size 128 Crunched size 128
+Project Data Original size 23412 Crunched size 23412
+Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Accounted Memory Usage ===
+(Note that this isn't a full account of memory usage, just the memory we can account for)
+
+For chip:
+Map gfx (level gfx bundle 1): 188700
+Music memory (retsu_stage1): 187624
+BP Buffer memory: 121000
+core sfx/gfx memory: 477034
+Parallax memory: 0
+OS/other estimated: 99328
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 4454
+Map background memory: 1396
+EXE memory: 214976
+vm memory: 33442
+project memory: 23412
+memory reserved for active actors on screen (32): 4744
+memory reserved for dormant actors in map (256): 9216
+OS/other estimated: 105472
+
+Accounted memory chip: 1073686
+Accounted memory other: 397112
+Accounted memory total: 1470798
 
 === Possibly unused animations ===
 blockflash
@@ -140,6 +143,7 @@ ryu_duck_atk_lp_r
 ryu_duck_atk_lp_l
 ryu_duck_block_r
 ryu_duck_block_l
+ryu_duck_l
 ryu_fireball_r
 ryu_fireball_l
 ryu_hurt_fall_r
@@ -165,57 +169,57 @@ ryu_tatsu_l
 ryu_waiting_l
 
 === Possibly unused Actors ===
-002_ryu_r
-003_ryu_l
-004_ryu_duck_r
-005_ryu_duck_l
-006_camera
-008_retsu
-009_geki
+002_camera
+004_ryu
+005_ryu_duck
+006_retsu
+007_geki
 
 === Codeblocks by compiled size ===
 startup: 8922
-player_ontimer: 1574
-enemy_take_damage: 1224
-player_ducking: 1124
-enemy_ai: 1034
-player_take_damage: 968
-load_level: 764
+player_ontimer: 1398
+enemy_take_damage: 1218
+player_ducking: 1058
+enemy_ai: 1024
+player_take_damage: 986
 stage_reset: 638
-stage_reset_gosub: 558
-player_on_land: 500
+load_level: 568
+stage_reset_gosub: 562
+player_on_land: 496
 enemy_on_land: 480
 geki_special: 462
 do_teleport: 424
-ryu_tatsu: 360
+ryu_tatsu: 362
 enemy_jump: 316
 flipscreen_smooth: 310 (Unused?)
 hitflash_update: 308
 key_input: 304
 flipxymove: 278 (Unused?)
-camera: 262
+camera: 266
+block_find: 206 (Unused?)
 pre_startup: 204
+fireball_hit: 204
 set_yresolution: 202 (Unused?)
-fireball_hit: 200
 waitforframes: 194
 check_talkpad: 192 (Unused?)
+block_count: 178 (Unused?)
 pause: 176 (Unused?)
 player_jump: 176
-ryu_fireball: 168
+ryu_fireball: 174
 flipymove: 162 (Unused?)
 enemy_walk: 160
 snap_to_screen: 158
 pre_quit: 152
+ryu_dragon_punch: 150
 stage_timer: 148 (Unused?)
 load_panel: 146
-ryu_dragon_punch: 144
 flipxmove: 142 (Unused?)
 unload_level: 142
-check_direction: 136
+check_direction: 140
+win_sfx: 138
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
+destroy_all_blocks: 128 (Unused?)
 test: 128
-win_sfx: 126
-destroy_all_blocks: 124 (Unused?)
 pre_load_level: 122
 autogen_ryu_dragon_punch_r_1: 116
 autogen_ryu_dragon_punch_l_1: 116
@@ -235,7 +239,6 @@ autogen_geki_atk_lk_l_2: 90
 autogen_geki_duck_atk_hp_r_3: 90
 autogen_geki_duck_atk_hp_l_3: 90
 autogen_geki_ninjastar_0: 90
-autogen_geki_ninjastar_1: 90
 autogen_retsu_atk_hk_r_2: 90
 autogen_retsu_atk_hk_l_2: 90
 autogen_retsu_atk_hp_r_2: 90
@@ -247,7 +250,6 @@ autogen_retsu_atk_lp_l_1: 90
 autogen_retsu_duck_atk_hk_r_3: 90
 autogen_retsu_duck_atk_hk_l_3: 90
 autogen_retsu_jump_atk_l_3: 90
-autogen_retsu_jump_atk_l_4: 90
 autogen_ryu_atk_hk_r_2: 90
 autogen_ryu_atk_hk_l_2: 90
 autogen_ryu_atk_hp_r_3: 90
@@ -268,33 +270,18 @@ autogen_ryu_duck_atk_lp_l_1: 90
 autogen_ryu_jump_atk_hk_l_2: 90
 autogen_ryu_jump_atk_hp_l_2: 90
 autogen_ryu_jump_atk_lk_l_1: 90
-autogen_ryu_jump_atk_lk_l_2: 90
 autogen_ryu_jump_atk_lp_r_1: 90
-autogen_ryu_jump_atk_lp_r_2: 90
 autogen_ryu_jump_atk_lp_l_1: 90
-autogen_ryu_jump_atk_lp_l_2: 90
 autogen_ryu_tatsu_r_5: 90
-autogen_ryu_tatsu_r_8: 90
-autogen_ryu_tatsu_r_11: 90
-autogen_ryu_tatsu_r_14: 90
 autogen_ryu_tatsu_l_7: 90
-autogen_ryu_tatsu_l_10: 90
-autogen_ryu_tatsu_l_13: 90
 fadeout: 88
 autogen_retsu_jump_atk_r_3: 88
-autogen_retsu_jump_atk_r_4: 88
 autogen_ryu_atk_lk_r_1: 88
 autogen_ryu_jump_atk_hk_r_2: 88
 autogen_ryu_jump_atk_hp_r_2: 88
 autogen_ryu_jump_atk_lk_r_1: 88
-autogen_ryu_jump_atk_lk_r_2: 88
 autogen_ryu_tatsu_r_7: 88
-autogen_ryu_tatsu_r_10: 88
-autogen_ryu_tatsu_r_13: 88
 autogen_ryu_tatsu_l_5: 88
-autogen_ryu_tatsu_l_8: 88
-autogen_ryu_tatsu_l_11: 88
-autogen_ryu_tatsu_l_14: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
 load_music: 78
@@ -322,68 +309,16 @@ freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
 autogen_geki_atk_hp_r_0: 38
 autogen_geki_atk_hp_r_1: 38
-autogen_geki_atk_hp_l_0: 38
-autogen_geki_atk_hp_l_1: 38
-autogen_geki_atk_lk_r_0: 38
 autogen_geki_atk_lk_r_1: 38
-autogen_geki_atk_lk_l_0: 38
-autogen_geki_atk_lk_l_1: 38
 autogen_geki_atk_ninjastar_r_0: 38
-autogen_geki_atk_ninjastar_r_1: 38
 autogen_geki_atk_ninjastar_r_3: 38
-autogen_geki_atk_ninjastar_l_0: 38
-autogen_geki_atk_ninjastar_l_1: 38
-autogen_geki_atk_ninjastar_l_3: 38
-autogen_geki_duck_atk_hp_r_0: 38
-autogen_geki_duck_atk_hp_r_1: 38
-autogen_geki_duck_atk_hp_r_2: 38
-autogen_geki_duck_atk_hp_l_0: 38
-autogen_geki_duck_atk_hp_l_1: 38
-autogen_geki_duck_atk_hp_l_2: 38
-autogen_geki_jump_atk_ninjastar_r_1: 38
-autogen_geki_jump_atk_ninjastar_r_3: 38
-autogen_geki_jump_atk_ninjastar_l_1: 38
-autogen_geki_jump_atk_ninjastar_l_3: 38
 autogen_geki_jump_r_1: 38
-autogen_geki_jump_r_3: 38
-autogen_geki_jump_l_1: 38
-autogen_geki_jump_l_3: 38
 autogen_geki_walk_r_0: 38
-autogen_geki_walk_l_0: 38
-autogen_retsu_atk_hk_r_0: 38
-autogen_retsu_atk_hk_l_0: 38
-autogen_retsu_atk_hp_r_0: 38
-autogen_retsu_atk_hp_l_0: 38
-autogen_retsu_atk_lk_r_0: 38
-autogen_retsu_atk_lk_l_0: 38
-autogen_retsu_atk_lp_r_0: 38
-autogen_retsu_atk_lp_l_0: 38
-autogen_retsu_duck_atk_hk_r_0: 38
-autogen_retsu_duck_atk_hk_r_1: 38
-autogen_retsu_duck_atk_hk_l_0: 38
-autogen_retsu_duck_atk_hk_l_1: 38
-autogen_retsu_jump_atk_r_0: 38
-autogen_retsu_jump_atk_r_1: 38
-autogen_retsu_jump_atk_l_0: 38
-autogen_retsu_jump_atk_l_1: 38
-autogen_retsu_jump_r_1: 38
-autogen_retsu_jump_l_1: 38
 autogen_retsu_win_r_1: 38
 autogen_retsu_win_r_3: 38
-autogen_retsu_win_l_1: 38
-autogen_retsu_win_l_3: 38
 autogen_ryu_fireball_r_2: 38
-autogen_ryu_fireball_l_2: 38
 autogen_ryu_jump_r_1: 38
-autogen_ryu_jump_l_1: 38
 autogen_ryu_tatsu_r_1: 38
-autogen_ryu_tatsu_r_15: 38
-autogen_ryu_tatsu_l_1: 38
-autogen_ryu_tatsu_l_15: 38
-autogen_ryu_win_r_1: 38
-autogen_ryu_win_r_3: 38
-autogen_ryu_win_l_1: 38
-autogen_ryu_win_l_3: 38
 enemy_low_attack: 36
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
@@ -391,13 +326,6 @@ clear_block_collision: 32
 enemy_atk_hard: 32
 enemy_atk_light: 32
 vm_registers: 26 (Unused?)
-vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
-hardware_amiga: 26 (Unused?)
-hardware_megadrive: 26 (Unused?)
-vm_constants_audiodriver: 26 (Unused?)
-vm_constants_controlbits: 26 (Unused?)
-vm_constants_notes: 26 (Unused?)
-vm_constants_platform: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)
 enemy_jump_attack: 26 (Unused?)

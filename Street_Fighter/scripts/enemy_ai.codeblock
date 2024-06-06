@@ -3144,9 +3144,9 @@
       "VariableExpansionMode": "Word",
       "Conditions": [
         {
-          "LeftSide": "player_x",
-          "Comparison": "GreaterThan",
-          "RightSide": "actor_x",
+          "LeftSide": "dir",
+          "Comparison": "Equals",
+          "RightSide": "1",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -3409,7 +3409,15 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},

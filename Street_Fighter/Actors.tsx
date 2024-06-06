@@ -9,37 +9,29 @@
   </tile>
   <tile id="2">
     <properties>
-      <property name="Name" value="002_ryu_r" type="string" />
+      <property name="Name" value="004_ryu" type="string" />
     </properties>
   </tile>
-  <tile id="3">
-    <properties>
-      <property name="Name" value="003_ryu_l" type="string" />
-    </properties>
-  </tile>
+  <tile id="3" />
   <tile id="4">
     <properties>
-      <property name="Name" value="004_ryu_duck_r" type="string" />
+      <property name="Name" value="005_ryu_duck" type="string" />
     </properties>
   </tile>
-  <tile id="5">
-    <properties>
-      <property name="Name" value="005_ryu_duck_l" type="string" />
-    </properties>
-  </tile>
+  <tile id="5" />
   <tile id="6">
     <properties>
-      <property name="Name" value="006_camera" type="string" />
+      <property name="Name" value="002_camera" type="string" />
     </properties>
   </tile>
   <tile id="7">
     <properties>
-      <property name="Name" value="007_flash" type="string" />
+      <property name="Name" value="003_flash" type="string" />
     </properties>
   </tile>
   <tile id="8">
     <properties>
-      <property name="Name" value="008_retsu" type="string" />
+      <property name="Name" value="006_retsu" type="string" />
     </properties>
   </tile>
   <tile id="9" />
@@ -47,7 +39,7 @@
   <tile id="11" />
   <tile id="12">
     <properties>
-      <property name="Name" value="009_geki" type="string" />
+      <property name="Name" value="007_geki" type="string" />
     </properties>
   </tile>
 </tileset>
