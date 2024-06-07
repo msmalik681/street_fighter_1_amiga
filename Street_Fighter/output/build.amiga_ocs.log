@@ -1,5 +1,5 @@
-Compiled on 06 June 2024 17:05:26
-Version string: SE2024.1.240606.23.12.EX
+Compiled on 07 June 2024 13:51:57
+Version string: SE2024.1.240607.17.03.EX
 
 === Misc ===
 ImageFrames: 276
@@ -47,7 +47,7 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 33418 Crunched size 33418
+Project virtual machine (codeblocks) Original size 33710 Crunched size 33710
 Header data for map geki_stage Original size 8000 Crunched size 8000
 Tile data for map geki_stage (mem restrictions:None) Original size 4454 Crunched size 4454
 Background for map geki_stage Original size 1396 Crunched size 1396
@@ -74,15 +74,15 @@ Map header cache memory: 0
 Map data memory: 4454
 Map background memory: 1396
 EXE memory: 214976
-vm memory: 33418
+vm memory: 33710
 project memory: 23412
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 1073686
-Accounted memory other: 397088
-Accounted memory total: 1470774
+Accounted memory other: 397380
+Accounted memory total: 1471066
 
 === Possibly unused animations ===
 blockflash
@@ -143,7 +143,6 @@ ryu_duck_atk_lp_r
 ryu_duck_atk_lp_l
 ryu_duck_block_r
 ryu_duck_block_l
-ryu_duck_l
 ryu_fireball_r
 ryu_fireball_l
 ryu_hurt_fall_r
@@ -177,17 +176,17 @@ ryu_waiting_l
 
 === Codeblocks by compiled size ===
 startup: 8922
-player_ontimer: 1398
-enemy_take_damage: 1218
+player_ontimer: 1444
+enemy_take_damage: 1270
 player_ducking: 1032
 enemy_ai: 1024
 player_take_damage: 986
+geki_special: 656
 stage_reset: 638
 load_level: 568
 stage_reset_gosub: 558
 player_on_land: 496
 enemy_on_land: 480
-geki_special: 462
 do_teleport: 424
 ryu_tatsu: 362
 enemy_jump: 322
