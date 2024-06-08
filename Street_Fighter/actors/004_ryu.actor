@@ -50,10 +50,28 @@
       "sqrMagnitude": 0
     },
     {
+      "x": 46,
+      "y": -70,
+      "magnitude": 83.7615662,
+      "sqrMagnitude": 7016
+    },
+    {
+      "x": -46,
+      "y": -70,
+      "magnitude": 83.7615662,
+      "sqrMagnitude": 7016
+    },
+    {
       "x": 0,
       "y": 0,
       "magnitude": 0.0,
       "sqrMagnitude": 0
+    },
+    {
+      "x": 46,
+      "y": -70,
+      "magnitude": 83.7615662,
+      "sqrMagnitude": 7016
     },
     {
       "x": 0,
@@ -68,28 +86,10 @@
       "sqrMagnitude": 0
     },
     {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
-    },
-    {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
-    },
-    {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
-    },
-    {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
+      "x": 46,
+      "y": -70,
+      "magnitude": 83.7615662,
+      "sqrMagnitude": 7016
     }
   ],
   "InvalidDirections": [
@@ -132,7 +132,7 @@
   "Camera": false,
   "AutoScroll": false,
   "Flags": 0,
-  "AttackProjectile": "",
+  "AttackProjectile": "001_fireball",
   "AttackProjectileAmmoVariable": "",
   "AttackSound": null,
   "JumpSound": null,
