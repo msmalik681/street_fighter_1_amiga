@@ -4,66 +4,28 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 2,
+      "Duration": 3,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "land.png",
+      "Path": "jump_atk_01.png",
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "land",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 5,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "jump_01.png",
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "jump_01",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 2,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "jump_02.png",
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "jump_02",
+      "Name": "jump_atk_01",
       "IsBlank": false
     },
     {
       "EventContainer": {
         "Events": [
           {
-            "FrameEventType": "Trigger",
+            "FrameEventType": "MeleeBox",
             "Dir": "move_right",
-            "Codeblock": "enemy_jump_attack",
+            "Codeblock": null,
             "Actor": "none",
             "Sound": "none",
             "Expression": null,
@@ -77,10 +39,10 @@
             "ColorG": 0,
             "ColorB": 255,
             "Box": {
-              "X": -4,
-              "Y": -4,
-              "Width": 8,
-              "Height": 8
+              "X": 13,
+              "Y": -50,
+              "Width": 51,
+              "Height": 25
             },
             "HasTag": true,
             "Color": {
@@ -103,18 +65,54 @@
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "jump_03.png",
+      "Path": "jump_atk_02.png",
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "jump_03",
+      "Name": "jump_atk_02",
       "IsBlank": false
     },
     {
       "EventContainer": {
-        "Events": []
+        "Events": [
+          {
+            "FrameEventType": "MeleeBox",
+            "Dir": "move_right",
+            "Codeblock": null,
+            "Actor": "none",
+            "Sound": "none",
+            "Expression": null,
+            "Tag": "FrameEvent0",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": 13,
+              "Y": -50,
+              "Width": 51,
+              "Height": 25
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          }
+        ]
       },
       "Duration": 2,
       "Multiplexes": 0,
@@ -122,32 +120,13 @@
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "jump_04.png",
+      "Path": "jump_atk_02.png",
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "jump_04",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": -1,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "jump_01.png",
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "jump_01",
+      "Name": "jump_atk_02",
       "IsBlank": false
     }
   ],
@@ -155,7 +134,7 @@
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
-  "LoopFrame": 0,
+  "LoopFrame": 1,
   "OnFinish": "",
   "AutoFlip": true,
   "Streamed": true,

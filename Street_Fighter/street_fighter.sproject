@@ -296,5 +296,5 @@
   "MDSoundDriver": "MDSDRV",
   "SplashScreenFrames": 50,
   "TestLevel": "geki_stage",
-  "SafetyRails": true
+  "SafetyRails": false
 }
