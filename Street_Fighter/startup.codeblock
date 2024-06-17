@@ -8938,7 +8938,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "e_ani_jump_atk",
-      "Expression": "geki_jump_r",
+      "Expression": "geki_jump_atk_r",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,

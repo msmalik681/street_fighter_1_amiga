@@ -1,14 +1,13 @@
-Compiled on 11 June 2024 16:16:59
-Version string: SE2024.1.240610.22.56.EX
+Compiled on 17 June 2024 10:03:03
+Version string: SE2024.1.240617.10.54.EX
 
 === Misc ===
-ImageFrames: 276
-ImageFrame Data Size: 12144
+ImageFrames: 280
+ImageFrame Data Size: 12320
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 8
 Actor Data Size: 1504
-Movement Pattern Data: 2
 Block Count: 2
 Block Data Size: 136
 Anim5 Count: 0
@@ -17,10 +16,10 @@ Sound Count: 10
 Sound Data Size: 280
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 127
-Animations Data Size: 2032
-AnimationFrame Count: 442
-AnimationFrame Data Size: 7072
+Animations Count: 129
+Animations Data Size: 2064
+AnimationFrame Count: 450
+AnimationFrame Data Size: 7200
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 3
@@ -42,19 +41,19 @@ Music file sf1_stage10_sagat Original size 127530 Crunched size 127530
 Music file sf1_stage_clear Original size 145712 Crunched size 145712
 Music file sf1_stage_select Original size 123458 Crunched size 123458
 Music file sf1_vs Original size 174996 Crunched size 174996
-Movement patterns Original size 2 Crunched size 2
 Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 34182 Crunched size 34182
+Project virtual machine (codeblocks) Original size 34482 Crunched size 34482
 Header data for map geki_stage Original size 8000 Crunched size 8000
 Tile data for map geki_stage (mem restrictions:None) Original size 4454 Crunched size 4454
 Background for map geki_stage Original size 1396 Crunched size 1396
 Asset bundle 0 (Core project asset bundle) Original size 477034 Crunched size 477034
-Asset bundle 1 (geki_stage) Original size 188700 Crunched size 188700
+Asset bundle 1 (geki_stage) Original size 194174 Crunched size 194174
+Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 23518 Crunched size 23518
+Project Data Original size 23854 Crunched size 23854
 Project virtual machine redirects Original size 8 Crunched size 8
 
 === Accounted Memory Usage ===
@@ -73,16 +72,16 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 214976
-vm memory: 34182
-project memory: 23518
-memory reserved for active actors on screen (32): 4744
+EXE memory: 214984
+vm memory: 34482
+project memory: 23854
+memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 697362
-Accounted memory other: 392108
-Accounted memory total: 1089470
+Accounted memory other: 392624
+Accounted memory total: 1089986
 
 === Possibly unused animations ===
 blockflash
@@ -96,6 +95,7 @@ geki_fall_l
 geki_hurt_stand_l
 geki_jump_atk_ninjastar_r
 geki_jump_atk_ninjastar_l
+geki_jump_atk_l
 geki_jump_forward_l
 geki_jump_l
 geki_waiting_l
@@ -213,7 +213,7 @@ load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142
 check_direction: 140
-win_sfx: 138
+win_sfx: 140
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
 destroy_all_blocks: 128 (Unused?)
 test: 128 (Unused?)
@@ -226,6 +226,7 @@ autogen_ryu_tatsu_r_4: 114
 fadein: 112
 waitforfiredown: 110
 unload_panel: 106
+enemy_jump_attack: 104
 load_panel_bottom: 96
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
@@ -235,6 +236,8 @@ autogen_geki_atk_lk_r_2: 90
 autogen_geki_atk_lk_l_2: 90
 autogen_geki_duck_atk_hp_r_3: 90
 autogen_geki_duck_atk_hp_l_3: 90
+autogen_geki_jump_atk_r_1: 90
+autogen_geki_jump_atk_l_1: 90
 autogen_geki_ninjastar_0: 90
 autogen_retsu_atk_hk_r_2: 90
 autogen_retsu_atk_hk_l_2: 90
@@ -309,6 +312,7 @@ autogen_geki_atk_hp_r_1: 38
 autogen_geki_atk_lk_r_1: 38
 autogen_geki_atk_ninjastar_r_0: 38
 autogen_geki_atk_ninjastar_r_3: 38
+autogen_geki_jump_forward_r_3: 38
 autogen_geki_jump_r_1: 38
 autogen_geki_walk_r_0: 38
 autogen_retsu_win_r_1: 38
@@ -325,4 +329,3 @@ enemy_atk_light: 32
 vm_registers: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)
-enemy_jump_attack: 26 (Unused?)

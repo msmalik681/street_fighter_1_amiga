@@ -173,7 +173,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "LoopAnimation": "True"
+      },
       "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
