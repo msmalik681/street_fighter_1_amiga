@@ -81,7 +81,15 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -100,7 +108,7 @@
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
       "Goto": "",
-      "Comment": "20% chance to walk back",
+      "Comment": "10% chance to walk back",
       "Variable": "none",
       "Expression": "",
       "Index": "0",
@@ -166,7 +174,7 @@
         {
           "LeftSide": "enemy_flash_y",
           "Comparison": "LessThanOrEqual",
-          "RightSide": "2",
+          "RightSide": "1",
           "ComparisonNext": "End",
           "IsValid": true
         }
