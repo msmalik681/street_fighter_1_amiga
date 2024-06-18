@@ -1,9 +1,9 @@
-Compiled on 18 June 2024 15:24:56
+Compiled on 18 June 2024 17:10:31
 Version string: SE2024.1.240618.20.06.EX
 
 === Misc ===
-ImageFrames: 280
-ImageFrame Data Size: 12320
+ImageFrames: 282
+ImageFrame Data Size: 12408
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 8
@@ -18,8 +18,8 @@ Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 129
 Animations Data Size: 2064
-AnimationFrame Count: 450
-AnimationFrame Data Size: 7200
+AnimationFrame Count: 446
+AnimationFrame Data Size: 7136
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 4
@@ -45,7 +45,7 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 34950 Crunched size 34950
+Project virtual machine (codeblocks) Original size 32732 Crunched size 32732
 Header data for map geki_stage Original size 8000 Crunched size 8000
 Tile data for map geki_stage (mem restrictions:None) Original size 4454 Crunched size 4454
 Background for map geki_stage Original size 1396 Crunched size 1396
@@ -53,8 +53,8 @@ Asset bundle 0 (Core project asset bundle) Original size 477034 Crunched size 47
 Asset bundle 1 (geki_stage) Original size 194174 Crunched size 194174
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 23928 Crunched size 23928
-Project virtual machine redirects Original size 8 Crunched size 8
+Project Data Original size 23952 Crunched size 23952
+Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -73,15 +73,15 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 215384
-vm memory: 34950
-project memory: 23928
+vm memory: 32732
+project memory: 23952
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 697362
-Accounted memory other: 393566
-Accounted memory total: 1090928
+Accounted memory other: 391372
+Accounted memory total: 1088734
 
 === Possibly unused animations ===
 blockflash
@@ -171,7 +171,7 @@ ryu_waiting_l
 007_geki
 
 === Codeblocks by compiled size ===
-startup: 9038
+startup: 6820
 player_ontimer: 1398
 enemy_take_damage: 1330
 enemy_ai: 1324
@@ -247,7 +247,7 @@ autogen_retsu_atk_lp_r_1: 90
 autogen_retsu_atk_lp_l_1: 90
 autogen_retsu_duck_atk_hk_r_3: 90
 autogen_retsu_duck_atk_hk_l_3: 90
-autogen_retsu_jump_atk_l_3: 90
+autogen_retsu_jump_atk_l_1: 90
 autogen_ryu_atk_hk_r_2: 90
 autogen_ryu_atk_hk_l_2: 90
 autogen_ryu_atk_hp_r_3: 90
@@ -273,7 +273,7 @@ autogen_ryu_jump_atk_lp_l_1: 90
 autogen_ryu_tatsu_r_5: 90
 autogen_ryu_tatsu_l_7: 90
 fadeout: 88
-autogen_retsu_jump_atk_r_3: 88
+autogen_retsu_jump_atk_r_1: 88
 autogen_ryu_atk_lk_r_1: 88
 autogen_ryu_jump_atk_hk_r_2: 88
 autogen_ryu_jump_atk_hp_r_2: 88
