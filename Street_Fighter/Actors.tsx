@@ -42,4 +42,9 @@
       <property name="Name" value="007_geki" type="string" />
     </properties>
   </tile>
+  <tile id="13">
+    <properties>
+      <property name="Name" value="008_joe" type="string" />
+    </properties>
+  </tile>
 </tileset>
