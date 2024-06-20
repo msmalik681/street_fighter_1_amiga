@@ -10,21 +10,21 @@
     "UpLeft": "",
     "Up": "",
     "UpRight": "",
-    "Left": "geki_idle_l",
-    "Right": "geki_idle_r",
+    "Left": "joe_idle_l",
+    "Right": "joe_idle_r",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
   },
   "Moves": {
-    "UpLeft": "geki_idle_l",
+    "UpLeft": "joe_idle_l",
     "Up": "",
-    "UpRight": "geki_idle_r",
-    "Left": "geki_idle_l",
-    "Right": "",
-    "DownLeft": "geki_idle_l",
+    "UpRight": "joe_idle_r",
+    "Left": "joe_walk_l",
+    "Right": "joe_walk_r",
+    "DownLeft": "joe_idle_l",
     "Down": "",
-    "DownRight": "geki_idle_r"
+    "DownRight": "joe_idle_r"
   },
   "Attacks": {
     "UpLeft": "",

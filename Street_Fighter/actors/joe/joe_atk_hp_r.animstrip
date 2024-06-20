@@ -2,106 +2,11 @@
   "Frames": [
     {
       "EventContainer": {
-        "Events": []
-      },
-      "Duration": 3,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "smoke_01.png",
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "smoke_01",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 3,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "smoke_02.png",
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "smoke_02",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 3,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "smoke_03.png",
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "smoke_03",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 3,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "smoke_04.png",
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "smoke_04",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 15,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": null,
-      "HandleX": 0,
-      "HandleY": 0,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "[ blank ]",
-      "IsBlank": true
-    },
-    {
-      "EventContainer": {
         "Events": [
           {
             "FrameEventType": "Trigger",
             "Dir": "move_right",
-            "Codeblock": "enemy_special",
+            "Codeblock": "hitflash_update",
             "Actor": "none",
             "Sound": "none",
             "Expression": null,
@@ -135,106 +40,142 @@
           }
         ]
       },
+      "Duration": 3,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "hard_punch_01.png",
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "hard_punch_01",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 2,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": null,
-      "HandleX": 0,
-      "HandleY": 0,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "[ blank ]",
-      "IsBlank": true
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 3,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "smoke_01.png",
+      "Path": "hard_punch_02.png",
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "smoke_01",
+      "Name": "hard_punch_02",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "MeleeBox",
+            "Dir": "move_right",
+            "Codeblock": null,
+            "Actor": "none",
+            "Sound": "none",
+            "Expression": null,
+            "Tag": "FrameEvent0",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": 28,
+              "Y": -88,
+              "Width": 36,
+              "Height": 18
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          }
+        ]
+      },
+      "Duration": 4,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "hard_punch_03.png",
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "hard_punch_03",
       "IsBlank": false
     },
     {
       "EventContainer": {
         "Events": []
       },
-      "Duration": 3,
+      "Duration": 2,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "smoke_02.png",
+      "Path": "hard_punch_02.png",
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "smoke_02",
+      "Name": "hard_punch_02",
       "IsBlank": false
     },
     {
       "EventContainer": {
         "Events": []
       },
-      "Duration": 3,
+      "Duration": 2,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "smoke_03.png",
+      "Path": "hard_punch_01.png",
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "smoke_03",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 3,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "smoke_04.png",
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "smoke_04",
+      "Name": "hard_punch_01",
       "IsBlank": false
     }
   ],
   "PreventAttack": false,
   "PreventMovement": true,
-  "PreventCollision": true,
+  "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "OnFinish": "enemy_on_land",
-  "AutoFlip": true,
+  "OnFinish": null,
+  "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0,
-  "LinkedMap": "geki_stage"
+  "LinkedMap": "joe_stage"
 }

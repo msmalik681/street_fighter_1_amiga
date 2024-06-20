@@ -10,13 +10,13 @@
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "fall.png",
+      "Path": "fall_01.png",
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "fall",
+      "Name": "fall_01",
       "IsBlank": false
     }
   ],
@@ -26,8 +26,8 @@
   "HideChildren": false,
   "LoopFrame": 0,
   "OnFinish": null,
-  "AutoFlip": true,
+  "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0,
-  "LinkedMap": "retsu_stage"
+  "LinkedMap": "joe_stage"
 }

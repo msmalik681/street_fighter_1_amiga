@@ -4,19 +4,19 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 3,
+      "Duration": 6,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "land.png",
+      "Path": "win_01.png",
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "land",
+      "Name": "win_01",
       "IsBlank": false
     },
     {
@@ -25,7 +25,7 @@
           {
             "FrameEventType": "Trigger",
             "Dir": "move_right",
-            "Codeblock": "geki_special",
+            "Codeblock": "win_sfx",
             "Actor": "none",
             "Sound": "none",
             "Expression": null,
@@ -59,38 +59,19 @@
           }
         ]
       },
-      "Duration": 6,
+      "Duration": 23,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "kick_01.png",
-      "HandleX": -76,
-      "HandleY": -143,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "kick_01",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 5,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "jump_atk_01.png",
+      "Path": "win_02.png",
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "jump_atk_01",
+      "Name": "win_02",
       "IsBlank": false
     },
     {
@@ -99,7 +80,7 @@
           {
             "FrameEventType": "Trigger",
             "Dir": "move_right",
-            "Codeblock": "enemy_special",
+            "Codeblock": "stage_reset",
             "Actor": "none",
             "Sound": "none",
             "Expression": null,
@@ -139,24 +120,24 @@
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "jump_atk_throw_01.png",
+      "Path": "win_02.png",
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "jump_atk_throw_01",
+      "Name": "win_02",
       "IsBlank": false
     }
   ],
-  "PreventAttack": false,
+  "PreventAttack": true,
   "PreventMovement": true,
-  "PreventCollision": false,
+  "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
-  "OnFinish": "",
-  "AutoFlip": true,
+  "OnFinish": null,
+  "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0,
-  "LinkedMap": "geki_stage"
+  "LinkedMap": "joe_stage"
 }
