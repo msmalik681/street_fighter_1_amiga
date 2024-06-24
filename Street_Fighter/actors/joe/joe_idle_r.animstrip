@@ -25,7 +25,7 @@
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "OnFinish": null,
+  "OnFinish": "enemy_ai",
   "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0,

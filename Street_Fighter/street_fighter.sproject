@@ -295,6 +295,6 @@
   "MDRegion": "Universal",
   "MDSoundDriver": "MDSDRV",
   "SplashScreenFrames": 50,
-  "TestLevel": "geki_stage",
+  "TestLevel": "",
   "SafetyRails": false
 }

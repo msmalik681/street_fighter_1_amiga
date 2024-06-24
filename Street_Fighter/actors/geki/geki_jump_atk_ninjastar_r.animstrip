@@ -25,7 +25,7 @@
           {
             "FrameEventType": "Trigger",
             "Dir": "move_right",
-            "Codeblock": "geki_special",
+            "Codeblock": "enemy_special",
             "Actor": "none",
             "Sound": "none",
             "Expression": null,

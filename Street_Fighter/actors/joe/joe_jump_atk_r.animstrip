@@ -189,7 +189,7 @@
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
-  "LoopFrame": 0,
+  "LoopFrame": 2,
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,
