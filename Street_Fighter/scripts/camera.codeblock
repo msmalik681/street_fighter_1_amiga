@@ -21,7 +21,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "none",
-      "Expression": "0",
+      "Expression": "",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
@@ -81,15 +81,7 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ]
+      "Conditions": []
     },
     {
       "Values": {},

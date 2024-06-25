@@ -20,8 +20,8 @@
     "UpLeft": "joe_idle_l",
     "Up": "",
     "UpRight": "joe_idle_r",
-    "Left": "joe_walk_l",
-    "Right": "joe_walk_r",
+    "Left": "joe_idle_l",
+    "Right": "joe_idle_r",
     "DownLeft": "joe_idle_l",
     "Down": "",
     "DownRight": "joe_idle_r"
