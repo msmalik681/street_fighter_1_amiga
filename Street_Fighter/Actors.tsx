@@ -47,4 +47,39 @@
       <property name="Name" value="008_joe" type="string" />
     </properties>
   </tile>
+  <tile id="14">
+    <properties>
+      <property name="Name" value="009_mike" type="string" />
+    </properties>
+  </tile>
+  <tile id="15">
+    <properties>
+      <property name="Name" value="010_lee" type="string" />
+    </properties>
+  </tile>
+  <tile id="16">
+    <properties>
+      <property name="Name" value="011_gen" type="string" />
+    </properties>
+  </tile>
+  <tile id="17">
+    <properties>
+      <property name="Name" value="012_birdie" type="string" />
+    </properties>
+  </tile>
+  <tile id="18">
+    <properties>
+      <property name="Name" value="013_eagle" type="string" />
+    </properties>
+  </tile>
+  <tile id="19">
+    <properties>
+      <property name="Name" value="014_adon" type="string" />
+    </properties>
+  </tile>
+  <tile id="20">
+    <properties>
+      <property name="Name" value="015_sagat" type="string" />
+    </properties>
+  </tile>
 </tileset>

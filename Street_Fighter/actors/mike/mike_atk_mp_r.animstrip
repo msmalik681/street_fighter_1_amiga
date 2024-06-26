@@ -2,49 +2,11 @@
   "Frames": [
     {
       "EventContainer": {
-        "Events": []
-      },
-      "Duration": 50,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "idle.png",
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "idle",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 6,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "win_01.png",
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "win_01",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
         "Events": [
           {
             "FrameEventType": "Trigger",
             "Dir": "move_right",
-            "Codeblock": "win_sfx",
+            "Codeblock": "hitflash_update",
             "Actor": "none",
             "Sound": "none",
             "Expression": null,
@@ -78,28 +40,47 @@
           }
         ]
       },
-      "Duration": 23,
+      "Duration": 2,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "win_02.png",
+      "Path": "med_punch_01.png",
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "win_02",
+      "Name": "med_punch_01",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 2,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "med_punch_02.png",
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "med_punch_02",
       "IsBlank": false
     },
     {
       "EventContainer": {
         "Events": [
           {
-            "FrameEventType": "Trigger",
+            "FrameEventType": "MeleeBox",
             "Dir": "move_right",
-            "Codeblock": "stage_reset",
+            "Codeblock": null,
             "Actor": "none",
             "Sound": "none",
             "Expression": null,
@@ -113,10 +94,10 @@
             "ColorG": 0,
             "ColorB": 255,
             "Box": {
-              "X": -4,
-              "Y": -4,
-              "Width": 8,
-              "Height": 8
+              "X": 30,
+              "Y": -93,
+              "Width": 39,
+              "Height": 17
             },
             "HasTag": true,
             "Color": {
@@ -133,19 +114,57 @@
           }
         ]
       },
-      "Duration": -1,
+      "Duration": 3,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "win_02.png",
+      "Path": "med_punch_03.png",
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "win_02",
+      "Name": "med_punch_03",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 2,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "med_punch_02.png",
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "med_punch_02",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 2,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "med_punch_01.png",
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "med_punch_01",
       "IsBlank": false
     }
   ],
@@ -154,9 +173,9 @@
   "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
-  "OnFinish": null,
-  "AutoFlip": null,
+  "OnFinish": "enemy_on_land",
+  "AutoFlip": true,
   "Streamed": true,
   "PatternBuffer": 0,
-  "LinkedMap": "joe_stage"
+  "LinkedMap": "mike_stage"
 }

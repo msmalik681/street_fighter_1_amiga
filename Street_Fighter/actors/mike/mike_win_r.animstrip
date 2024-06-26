@@ -21,25 +21,6 @@
     },
     {
       "EventContainer": {
-        "Events": []
-      },
-      "Duration": 6,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "win_01.png",
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "win_01",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
         "Events": [
           {
             "FrameEventType": "Trigger",
@@ -78,19 +59,38 @@
           }
         ]
       },
-      "Duration": 23,
+      "Duration": 2,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "win_02.png",
+      "Path": "med_punch_01.png",
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "win_02",
+      "Name": "med_punch_01",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 20,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "win.png",
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "win",
       "IsBlank": false
     },
     {
@@ -139,24 +139,24 @@
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "win_02.png",
+      "Path": "win.png",
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "win_02",
+      "Name": "win",
       "IsBlank": false
     }
   ],
-  "PreventAttack": true,
+  "PreventAttack": false,
   "PreventMovement": true,
-  "PreventCollision": true,
+  "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "OnFinish": null,
-  "AutoFlip": null,
+  "OnFinish": "",
+  "AutoFlip": true,
   "Streamed": true,
   "PatternBuffer": 0,
-  "LinkedMap": "joe_stage"
+  "LinkedMap": "mike_stage"
 }
