@@ -3747,7 +3747,7 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": "-30 * velo",
+      "PushXPixels": "-40 * velo",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
       "ResetMovement": true,

@@ -1,9 +1,9 @@
-Compiled on 27 June 2024 14:09:25
-Version string: SE2024.1.240627.15.50.EX
+Compiled on 30 June 2024 12:24:39
+Version string: SE2024.1.240630.12.39.EX
 
 === Misc ===
-ImageFrames: 402
-ImageFrame Data Size: 17688
+ImageFrames: 416
+ImageFrame Data Size: 18304
 Maps and Asset Bundles Count: 22
 Maps and Asset Bundles Data Size: 264
 Actor Count: 16
@@ -16,10 +16,10 @@ Sound Count: 10
 Sound Data Size: 280
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 189
-Animations Data Size: 3024
-AnimationFrame Count: 639
-AnimationFrame Data Size: 10224
+Animations Count: 203
+Animations Data Size: 3248
+AnimationFrame Count: 659
+AnimationFrame Data Size: 10544
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 5
@@ -45,7 +45,7 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 36446 Crunched size 36446
+Project virtual machine (codeblocks) Original size 36898 Crunched size 36898
 Header data for map adon_stage Original size 8000 Crunched size 8000
 Tile data for map adon_stage (mem restrictions:None) Original size 4196 Crunched size 4196
 Background for map adon_stage Original size 1684 Crunched size 1684
@@ -113,9 +113,10 @@ Background for map sagat_vs_screen Original size 1396 Crunched size 1396
 Header data for map vs_screen_all Original size 8000 Crunched size 8000
 Tile data for map vs_screen_all (mem restrictions:None) Original size 6140 Crunched size 6140
 Background for map vs_screen_all Original size 1396 Crunched size 1396
-Asset bundle 0 (Core project asset bundle) Original size 275084 Crunched size 275084
+Asset bundle 0 (Core project asset bundle) Original size 279194 Crunched size 279194
 Asset bundle 7 (geki_stage) Original size 194174 Crunched size 194174
 Asset bundle 11 (joe_stage) Original size 228930 Crunched size 228930
+Asset bundle 13 (lee_stage) Original size 133424 Crunched size 133424
 Asset bundle 15 (mike_stage) Original size 211418 Crunched size 211418
 Asset bundle 17 (retsu_stage) Original size 255914 Crunched size 255914
 Asset bundle 1 (adon_stage) Original size 75748 Crunched size 75748
@@ -128,7 +129,6 @@ Asset bundle 8 (geki_vs_screen) Original size 17824 Crunched size 17824
 Asset bundle 9 (gen_stage) Original size 72790 Crunched size 72790
 Asset bundle 10 (gen_vs_screen) Original size 18620 Crunched size 18620
 Asset bundle 12 (joe_vs_screen) Original size 18404 Crunched size 18404
-Asset bundle 13 (lee_stage) Original size 92146 Crunched size 92146
 Asset bundle 14 (lee_vs_screen) Original size 19268 Crunched size 19268
 Asset bundle 16 (mike_vs_screen) Original size 18674 Crunched size 18674
 Asset bundle 18 (retsu_vs_screen) Original size 17622 Crunched size 17622
@@ -137,8 +137,8 @@ Asset bundle 20 (sagat_vs_screen) Original size 18446 Crunched size 18446
 Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 35040 Crunched size 35040
-Project virtual machine redirects Original size 68 Crunched size 68
+Project Data Original size 36200 Crunched size 36200
+Project virtual machine redirects Original size 88 Crunched size 88
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -147,7 +147,7 @@ For chip:
 Map gfx (level gfx bundle 17): 0
 Music memory (retsu_stage1): 0
 BP Buffer memory: 121000
-core sfx/gfx memory: 275084
+core sfx/gfx memory: 279194
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -156,16 +156,16 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 215056
-vm memory: 36446
-project memory: 35040
+EXE memory: 214900
+vm memory: 36898
+project memory: 36200
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 495412
-Accounted memory other: 405846
-Accounted memory total: 901258
+Accounted memory chip: 499522
+Accounted memory other: 407302
+Accounted memory total: 906824
 
 === Possibly unused animations ===
 blockflash
@@ -198,6 +198,18 @@ joe_jump_l
 joe_waiting_l
 joe_walk_l
 joe_win_l
+lee_block_r
+lee_block_l
+lee_dead_r
+lee_dead_l
+lee_fall_r
+lee_fall_l
+lee_pain_r
+lee_pain_l
+lee_waiting_r
+lee_waiting_l
+lee_walk_r
+lee_walk_l
 mike_atk_hp_l
 mike_atk_lowp_l
 mike_atk_lp_l
@@ -293,37 +305,37 @@ ryu_waiting_l
 
 === Codeblocks by compiled size ===
 startup: 7598
-player_ontimer: 1422
+player_ontimer: 1492
 enemy_take_damage: 1330
 enemy_ai: 1324
 player_take_damage: 1082
+hitflash_update: 1058
 player_ducking: 1048
 enemy_special: 910
-hitflash_update: 850
 stage_reset: 736
 load_level: 568
 stage_reset_gosub: 560
-player_on_land: 502
+player_on_land: 524
 enemy_on_land: 496
 do_teleport: 424
 camera: 414
 ryu_tatsu: 364
+pre_startup: 354
 enemy_jump: 354
 flipscreen_smooth: 310 (Unused?)
 key_input: 304
 flipxymove: 278 (Unused?)
 block_find: 206 (Unused?)
 004_ryu_autogen_attack: 206
-pre_startup: 204
 fireball_hit: 204
 set_yresolution: 202 (Unused?)
 waitforframes: 194
 check_talkpad: 192 (Unused?)
 005_ryu_duck_autogen_attack: 184
 block_count: 178 (Unused?)
-player_jump: 178
 ryu_fireball: 178
 pause: 176 (Unused?)
+player_jump: 176
 enemy_walk: 170
 flipymove: 162 (Unused?)
 snap_to_screen: 158

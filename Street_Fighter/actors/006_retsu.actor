@@ -111,12 +111,12 @@
   },
   "AttackDelay": 0,
   "ZOrder": 0,
-  "SpeedLeft": 3.5,
-  "SpeedRight": 3.5,
-  "SpeedUp": 9.0,
-  "SpeedDown": 9.0,
-  "AccelLeft": null,
-  "AccelRight": null,
+  "SpeedLeft": 4.0,
+  "SpeedRight": 4.0,
+  "SpeedUp": 14.0,
+  "SpeedDown": 14.0,
+  "AccelLeft": 40.0,
+  "AccelRight": 40.0,
   "AccelUp": null,
   "AccelDown": 1.0,
   "AccelLeftAir": null,
@@ -190,5 +190,9 @@
     "TimelineEvents": {},
     "PingPong": false
   },
+  "DontSpawnIfTooMany": false,
+  "DivertMeleeByProjectile": null,
+  "DivertMeleeAgainstProjectile": null,
+  "IsAttacker": null,
   "TileID": 8
 }

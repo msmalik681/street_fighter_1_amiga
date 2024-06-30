@@ -23,7 +23,7 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 4,
+      "Duration": 3,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
@@ -78,7 +78,7 @@
           }
         ]
       },
-      "Duration": 25,
+      "Duration": 10,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
