@@ -1,9 +1,9 @@
-Compiled on 04 July 2024 17:14:12
+Compiled on 04 July 2024 18:53:59
 Version string: SE2024.1.240701.13.49.EX
 
 === Misc ===
-ImageFrames: 472
-ImageFrame Data Size: 20768
+ImageFrames: 474
+ImageFrame Data Size: 20856
 Maps and Asset Bundles Count: 22
 Maps and Asset Bundles Data Size: 264
 Actor Count: 16
@@ -18,8 +18,8 @@ Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 223
 Animations Data Size: 3568
-AnimationFrame Count: 763
-AnimationFrame Data Size: 12208
+AnimationFrame Count: 771
+AnimationFrame Data Size: 12336
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 5
@@ -45,7 +45,7 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 38408 Crunched size 38408
+Project virtual machine (codeblocks) Original size 39140 Crunched size 39140
 Header data for map adon_stage Original size 8000 Crunched size 8000
 Tile data for map adon_stage (mem restrictions:None) Original size 4196 Crunched size 4196
 Background for map adon_stage Original size 1684 Crunched size 1684
@@ -137,8 +137,8 @@ Asset bundle 20 (sagat_vs_screen) Original size 18446 Crunched size 18446
 Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 40648 Crunched size 40648
-Project virtual machine redirects Original size 160 Crunched size 160
+Project Data Original size 40864 Crunched size 40864
+Project virtual machine redirects Original size 200 Crunched size 200
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -157,15 +157,15 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 214932
-vm memory: 38408
-project memory: 40648
+vm memory: 39140
+project memory: 40864
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 499522
-Accounted memory other: 413292
-Accounted memory total: 912814
+Accounted memory other: 414240
+Accounted memory total: 913762
 
 === Possibly unused animations ===
 blockflash
@@ -310,17 +310,17 @@ ryu_waiting_l
 === Codeblocks by compiled size ===
 startup: 7878
 player_ontimer: 1492
-enemy_take_damage: 1330
+enemy_take_damage: 1420
+hitflash_update: 1416
 enemy_ai: 1328
-player_take_damage: 1082
-hitflash_update: 1068
+player_take_damage: 1144
 player_ducking: 1048
-enemy_special: 978
+enemy_special: 982
 stage_reset: 736
-enemy_on_land: 584
+stage_reset_gosub: 592
+enemy_on_land: 590
 load_level: 568
-stage_reset_gosub: 560
-player_on_land: 524
+player_on_land: 530
 do_teleport: 424
 camera: 414
 ryu_tatsu: 364
@@ -426,7 +426,9 @@ autogen_ryu_atk_lk_l_1: 90
 autogen_ryu_atk_lp_r_1: 90
 autogen_ryu_atk_lp_l_1: 90
 autogen_ryu_dragon_punch_r_0: 90
+autogen_ryu_dragon_punch_r_2: 90
 autogen_ryu_dragon_punch_l_0: 90
+autogen_ryu_dragon_punch_l_2: 90
 autogen_ryu_duck_atk_hk_r_2: 90
 autogen_ryu_duck_atk_hk_l_2: 90
 autogen_ryu_duck_atk_hp_r_2: 90

@@ -22,7 +22,7 @@
   ],
   "PreventAttack": false,
   "PreventMovement": false,
-  "PreventCollision": true,
+  "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
   "OnFinish": "",
