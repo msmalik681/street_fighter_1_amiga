@@ -94,9 +94,9 @@
             "ColorG": 0,
             "ColorB": 255,
             "Box": {
-              "X": 39,
+              "X": 32,
               "Y": -82,
-              "Width": 33,
+              "Width": 39,
               "Height": 20
             },
             "HasTag": true,

@@ -1,9 +1,9 @@
-Compiled on 30 June 2024 12:24:39
-Version string: SE2024.1.240630.12.39.EX
+Compiled on 04 July 2024 17:11:59
+Version string: SE2024.1.240701.13.49.EX
 
 === Misc ===
-ImageFrames: 416
-ImageFrame Data Size: 18304
+ImageFrames: 472
+ImageFrame Data Size: 20768
 Maps and Asset Bundles Count: 22
 Maps and Asset Bundles Data Size: 264
 Actor Count: 16
@@ -16,10 +16,10 @@ Sound Count: 10
 Sound Data Size: 280
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 203
-Animations Data Size: 3248
-AnimationFrame Count: 659
-AnimationFrame Data Size: 10544
+Animations Count: 223
+Animations Data Size: 3568
+AnimationFrame Count: 763
+AnimationFrame Data Size: 12208
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 5
@@ -45,7 +45,7 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 36898 Crunched size 36898
+Project virtual machine (codeblocks) Original size 38408 Crunched size 38408
 Header data for map adon_stage Original size 8000 Crunched size 8000
 Tile data for map adon_stage (mem restrictions:None) Original size 4196 Crunched size 4196
 Background for map adon_stage Original size 1684 Crunched size 1684
@@ -86,7 +86,7 @@ Header data for map joe_vs_screen Original size 8000 Crunched size 8000
 Tile data for map joe_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
 Background for map joe_vs_screen Original size 1396 Crunched size 1396
 Header data for map lee_stage Original size 8000 Crunched size 8000
-Tile data for map lee_stage (mem restrictions:None) Original size 4196 Crunched size 4196
+Tile data for map lee_stage (mem restrictions:None) Original size 4454 Crunched size 4454
 Background for map lee_stage Original size 1396 Crunched size 1396
 Header data for map lee_vs_screen Original size 8000 Crunched size 8000
 Tile data for map lee_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
@@ -116,7 +116,7 @@ Background for map vs_screen_all Original size 1396 Crunched size 1396
 Asset bundle 0 (Core project asset bundle) Original size 279194 Crunched size 279194
 Asset bundle 7 (geki_stage) Original size 194174 Crunched size 194174
 Asset bundle 11 (joe_stage) Original size 228930 Crunched size 228930
-Asset bundle 13 (lee_stage) Original size 133424 Crunched size 133424
+Asset bundle 13 (lee_stage) Original size 253628 Crunched size 253628
 Asset bundle 15 (mike_stage) Original size 211418 Crunched size 211418
 Asset bundle 17 (retsu_stage) Original size 255914 Crunched size 255914
 Asset bundle 1 (adon_stage) Original size 75748 Crunched size 75748
@@ -129,7 +129,7 @@ Asset bundle 8 (geki_vs_screen) Original size 17824 Crunched size 17824
 Asset bundle 9 (gen_stage) Original size 72790 Crunched size 72790
 Asset bundle 10 (gen_vs_screen) Original size 18620 Crunched size 18620
 Asset bundle 12 (joe_vs_screen) Original size 18404 Crunched size 18404
-Asset bundle 14 (lee_vs_screen) Original size 19268 Crunched size 19268
+Asset bundle 14 (lee_vs_screen) Original size 19374 Crunched size 19374
 Asset bundle 16 (mike_vs_screen) Original size 18674 Crunched size 18674
 Asset bundle 18 (retsu_vs_screen) Original size 17622 Crunched size 17622
 Asset bundle 19 (sagat_stage) Original size 44126 Crunched size 44126
@@ -137,8 +137,8 @@ Asset bundle 20 (sagat_vs_screen) Original size 18446 Crunched size 18446
 Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 36200 Crunched size 36200
-Project virtual machine redirects Original size 88 Crunched size 88
+Project Data Original size 40648 Crunched size 40648
+Project virtual machine redirects Original size 160 Crunched size 160
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -156,16 +156,16 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 214900
-vm memory: 36898
-project memory: 36200
+EXE memory: 214932
+vm memory: 38408
+project memory: 40648
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 499522
-Accounted memory other: 407302
-Accounted memory total: 906824
+Accounted memory other: 413292
+Accounted memory total: 912814
 
 === Possibly unused animations ===
 blockflash
@@ -198,18 +198,23 @@ joe_jump_l
 joe_waiting_l
 joe_walk_l
 joe_win_l
-lee_block_r
+lee_atk_hk_l
+lee_atk_hp_l
+lee_atk_lk_l
+lee_atk_low_hk_l
+lee_atk_lp_l
+lee_atk_special_01_l
+lee_atk_special_02_r
+lee_atk_special_02_l
 lee_block_l
-lee_dead_r
 lee_dead_l
-lee_fall_r
 lee_fall_l
-lee_pain_r
+lee_jump_atk_l
+lee_jump_l
 lee_pain_l
-lee_waiting_r
 lee_waiting_l
-lee_walk_r
 lee_walk_l
+lee_win_l
 mike_atk_hp_l
 mike_atk_lowp_l
 mike_atk_lp_l
@@ -296,7 +301,6 @@ ryu_waiting_l
 007_geki
 008_joe
 009_mike
-010_lee
 011_gen
 012_birdie
 013_eagle
@@ -304,19 +308,19 @@ ryu_waiting_l
 015_sagat
 
 === Codeblocks by compiled size ===
-startup: 7598
+startup: 7878
 player_ontimer: 1492
 enemy_take_damage: 1330
-enemy_ai: 1324
+enemy_ai: 1328
 player_take_damage: 1082
-hitflash_update: 1058
+hitflash_update: 1068
 player_ducking: 1048
-enemy_special: 910
+enemy_special: 978
 stage_reset: 736
+enemy_on_land: 584
 load_level: 568
 stage_reset_gosub: 560
 player_on_land: 524
-enemy_on_land: 496
 do_teleport: 424
 camera: 414
 ryu_tatsu: 364
@@ -375,21 +379,32 @@ autogen_geki_ninjastar_0: 90
 autogen_joe_atk_hp_r_2: 90
 autogen_joe_atk_hp_l_2: 90
 autogen_joe_atk_low_kick_r_2: 90
-autogen_joe_atk_low_kick_r_4: 90
+autogen_joe_atk_low_kick_r_5: 90
 autogen_joe_atk_low_kick_l_2: 90
-autogen_joe_atk_low_kick_l_4: 90
+autogen_joe_atk_low_kick_l_5: 90
 autogen_joe_atk_low_punch_r_3: 90
 autogen_joe_atk_low_punch_l_3: 90
-autogen_joe_atk_lp_r_1: 90
-autogen_joe_atk_lp_l_1: 90
+autogen_joe_atk_lp_r_2: 90
+autogen_joe_atk_lp_l_2: 90
 autogen_joe_jump_atk_r_2: 90
 autogen_joe_jump_atk_l_2: 90
+autogen_lee_atk_hp_r_2: 90
+autogen_lee_atk_hp_l_2: 90
+autogen_lee_atk_lk_l_2: 90
+autogen_lee_atk_low_hk_r_3: 90
+autogen_lee_atk_low_hk_l_3: 90
+autogen_lee_atk_lp_r_2: 90
+autogen_lee_atk_lp_l_2: 90
+autogen_lee_atk_special_02_r_1: 90
+autogen_lee_atk_special_02_l_1: 90
+autogen_lee_jump_atk_r_1: 90
+autogen_lee_jump_atk_l_1: 90
 autogen_mike_atk_hp_r_2: 90
 autogen_mike_atk_hp_l_2: 90
 autogen_mike_atk_lowp_r_2: 90
 autogen_mike_atk_lowp_l_2: 90
-autogen_mike_atk_lp_r_1: 90
-autogen_mike_atk_lp_l_1: 90
+autogen_mike_atk_lp_r_2: 90
+autogen_mike_atk_lp_l_2: 90
 autogen_mike_atk_mp_r_2: 90
 autogen_mike_atk_mp_l_2: 90
 autogen_retsu_atk_hk_r_2: 90
@@ -398,8 +413,8 @@ autogen_retsu_atk_hp_r_2: 90
 autogen_retsu_atk_hp_l_2: 90
 autogen_retsu_atk_lk_r_2: 90
 autogen_retsu_atk_lk_l_2: 90
-autogen_retsu_atk_lp_r_1: 90
-autogen_retsu_atk_lp_l_1: 90
+autogen_retsu_atk_lp_r_2: 90
+autogen_retsu_atk_lp_l_2: 90
 autogen_retsu_duck_atk_hk_r_3: 90
 autogen_retsu_duck_atk_hk_l_3: 90
 autogen_retsu_jump_atk_l_1: 90
@@ -428,6 +443,7 @@ autogen_ryu_jump_atk_lp_l_1: 90
 autogen_ryu_tatsu_r_5: 90
 autogen_ryu_tatsu_l_7: 90
 fadeout: 88
+autogen_lee_atk_lk_r_2: 88
 autogen_retsu_jump_atk_r_1: 88
 autogen_ryu_atk_lk_r_1: 88
 autogen_ryu_jump_atk_hk_r_2: 88
@@ -435,6 +451,7 @@ autogen_ryu_jump_atk_hp_r_2: 88
 autogen_ryu_jump_atk_lk_r_1: 88
 autogen_ryu_tatsu_r_7: 88
 autogen_ryu_tatsu_l_5: 88
+enemy_low_attack: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
 load_music: 78
@@ -461,10 +478,9 @@ regenerate_screen_wait: 46
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
 autogen_geki_atk_hp_r_0: 38
-autogen_geki_atk_hp_r_1: 38
 autogen_geki_atk_lk_r_1: 38
-autogen_geki_atk_ninjastar_r_0: 38
 autogen_geki_atk_ninjastar_r_3: 38
+autogen_geki_duck_atk_hp_r_0: 38
 autogen_geki_jump_forward_r_3: 38
 autogen_geki_jump_r_1: 38
 autogen_geki_walk_r_0: 38
@@ -473,11 +489,9 @@ autogen_geki_win_5: 38
 autogen_ryu_fireball_r_2: 38
 autogen_ryu_jump_r_1: 38
 autogen_ryu_tatsu_r_1: 38
-enemy_low_attack: 36
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
 clear_block_collision: 32
-enemy_atk_hard: 32
 enemy_atk_light: 32
 vm_registers: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
