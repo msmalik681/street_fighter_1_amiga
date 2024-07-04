@@ -4791,7 +4791,7 @@
       "ActorType": "none",
       "Animation": "none",
       "PushXPixels": "enemy_range * e_velo",
-      "PushYPixels": "40",
+      "PushYPixels": "-40",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
       "ResetAnimations": true,
