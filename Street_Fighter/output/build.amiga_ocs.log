@@ -1,9 +1,9 @@
-Compiled on 04 July 2024 18:53:59
+Compiled on 05 July 2024 10:26:15
 Version string: SE2024.1.240701.13.49.EX
 
 === Misc ===
-ImageFrames: 474
-ImageFrame Data Size: 20856
+ImageFrames: 476
+ImageFrame Data Size: 20944
 Maps and Asset Bundles Count: 22
 Maps and Asset Bundles Data Size: 264
 Actor Count: 16
@@ -18,8 +18,8 @@ Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 223
 Animations Data Size: 3568
-AnimationFrame Count: 771
-AnimationFrame Data Size: 12336
+AnimationFrame Count: 773
+AnimationFrame Data Size: 12368
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 5
@@ -45,7 +45,7 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 39140 Crunched size 39140
+Project virtual machine (codeblocks) Original size 39078 Crunched size 39078
 Header data for map adon_stage Original size 8000 Crunched size 8000
 Tile data for map adon_stage (mem restrictions:None) Original size 4196 Crunched size 4196
 Background for map adon_stage Original size 1684 Crunched size 1684
@@ -113,7 +113,7 @@ Background for map sagat_vs_screen Original size 1396 Crunched size 1396
 Header data for map vs_screen_all Original size 8000 Crunched size 8000
 Tile data for map vs_screen_all (mem restrictions:None) Original size 6140 Crunched size 6140
 Background for map vs_screen_all Original size 1396 Crunched size 1396
-Asset bundle 0 (Core project asset bundle) Original size 279194 Crunched size 279194
+Asset bundle 0 (Core project asset bundle) Original size 284952 Crunched size 284952
 Asset bundle 7 (geki_stage) Original size 194174 Crunched size 194174
 Asset bundle 11 (joe_stage) Original size 228930 Crunched size 228930
 Asset bundle 13 (lee_stage) Original size 253628 Crunched size 253628
@@ -137,7 +137,7 @@ Asset bundle 20 (sagat_vs_screen) Original size 18446 Crunched size 18446
 Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 40864 Crunched size 40864
+Project Data Original size 40984 Crunched size 40984
 Project virtual machine redirects Original size 200 Crunched size 200
 
 === Accounted Memory Usage ===
@@ -147,7 +147,7 @@ For chip:
 Map gfx (level gfx bundle 17): 0
 Music memory (retsu_stage1): 0
 BP Buffer memory: 121000
-core sfx/gfx memory: 279194
+core sfx/gfx memory: 284952
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -157,15 +157,15 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 214932
-vm memory: 39140
-project memory: 40864
+vm memory: 39078
+project memory: 40984
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 499522
-Accounted memory other: 414240
-Accounted memory total: 913762
+Accounted memory chip: 505280
+Accounted memory other: 414298
+Accounted memory total: 919578
 
 === Possibly unused animations ===
 blockflash
@@ -309,21 +309,21 @@ ryu_waiting_l
 
 === Codeblocks by compiled size ===
 startup: 7878
-player_ontimer: 1492
-enemy_take_damage: 1420
+player_ontimer: 1502
 hitflash_update: 1416
 enemy_ai: 1328
+enemy_take_damage: 1312
 player_take_damage: 1144
-player_ducking: 1048
+player_ducking: 1042
 enemy_special: 982
 stage_reset: 736
-stage_reset_gosub: 592
+stage_reset_gosub: 598
 enemy_on_land: 590
 load_level: 568
-player_on_land: 530
+player_on_land: 562
 do_teleport: 424
 camera: 414
-ryu_tatsu: 364
+ryu_tatsu: 358
 pre_startup: 354
 enemy_jump: 354
 flipscreen_smooth: 310 (Unused?)
@@ -342,9 +342,9 @@ pause: 176 (Unused?)
 player_jump: 176
 enemy_walk: 170
 flipymove: 162 (Unused?)
+ryu_dragon_punch: 160
 snap_to_screen: 158
 pre_quit: 152
-ryu_dragon_punch: 150
 stage_timer: 148
 load_panel: 146
 flipxmove: 142 (Unused?)

@@ -25,7 +25,7 @@
   "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
-  "OnFinish": "enemy_on_land",
+  "OnFinish": "",
   "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0,

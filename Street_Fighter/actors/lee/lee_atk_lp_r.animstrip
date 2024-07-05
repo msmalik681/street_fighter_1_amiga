@@ -130,10 +130,10 @@
             "ColorG": 0,
             "ColorB": 255,
             "Box": {
-              "X": 27,
-              "Y": -83,
-              "Width": 37,
-              "Height": 29
+              "X": 22,
+              "Y": -85,
+              "Width": 42,
+              "Height": 25
             },
             "HasTag": true,
             "Color": {

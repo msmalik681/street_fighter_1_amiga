@@ -1663,7 +1663,7 @@
         {
           "LeftSide": "actor_var3",
           "Comparison": "GreaterThan",
-          "RightSide": "2",
+          "RightSide": "3",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -1785,7 +1785,7 @@
       "Breakpoint": false,
       "Level": "none",
       "NewBlock": "none",
-      "XPosition": "actor_x + 2",
+      "XPosition": "actor_x + 3",
       "YPosition": "",
       "TeleportName": "none",
       "XFloat": null,
@@ -1955,7 +1955,7 @@
       "Breakpoint": false,
       "Level": "none",
       "NewBlock": "none",
-      "XPosition": "actor_x - 2",
+      "XPosition": "actor_x - 3",
       "YPosition": "",
       "TeleportName": "none",
       "XFloat": null,

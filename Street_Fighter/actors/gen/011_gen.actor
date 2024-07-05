@@ -10,21 +10,21 @@
     "UpLeft": "",
     "Up": "",
     "UpRight": "",
-    "Left": "joe_idle_l",
-    "Right": "joe_idle_r",
+    "Left": "gen_idle_l",
+    "Right": "gen_idle_r",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
   },
   "Moves": {
-    "UpLeft": "joe_idle_l",
+    "UpLeft": "gen_idle_l",
     "Up": "",
-    "UpRight": "joe_idle_r",
-    "Left": "joe_idle_l",
-    "Right": "joe_idle_r",
-    "DownLeft": "joe_idle_l",
+    "UpRight": "gen_idle_r",
+    "Left": "gen_idle_l",
+    "Right": "gen_idle_r",
+    "DownLeft": "gen_idle_l",
     "Down": "",
-    "DownRight": "joe_idle_r"
+    "DownRight": "gen_idle_r"
   },
   "Attacks": {
     "UpLeft": "",
@@ -104,17 +104,17 @@
     false
   ],
   "CollBox": {
-    "X": -19,
+    "X": -20,
     "Y": -92,
     "Width": 40,
     "Height": 85
   },
   "AttackDelay": 0,
   "ZOrder": 0,
-  "SpeedLeft": 3.5,
-  "SpeedRight": 3.5,
-  "SpeedUp": 9.0,
-  "SpeedDown": 9.0,
+  "SpeedLeft": 4.0,
+  "SpeedRight": 4.0,
+  "SpeedUp": 13.0,
+  "SpeedDown": 13.0,
   "AccelLeft": null,
   "AccelRight": null,
   "AccelUp": null,

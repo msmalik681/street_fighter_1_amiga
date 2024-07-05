@@ -2606,7 +2606,7 @@
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
-      "Frames": "10",
+      "Frames": "8",
       "CameraX": "",
       "CameraY": "",
       "CameraBox": {
@@ -4443,7 +4443,7 @@
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
-      "Frames": "10",
+      "Frames": "6",
       "CameraX": "",
       "CameraY": "",
       "CameraBox": {

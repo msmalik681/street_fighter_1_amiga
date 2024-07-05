@@ -4,8 +4,7 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 8,
-      "Background": false,
+      "Duration": 4,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
@@ -19,8 +18,28 @@
       "ZeroIsTransparent": false,
       "Name": "row-6-column-2",
       "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 2,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "row-6-column-1.png",
+      "HandleX": -59,
+      "HandleY": -102,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "row-6-column-1",
+      "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": true,
   "PreventCollision": true,
   "HideChildren": false,
