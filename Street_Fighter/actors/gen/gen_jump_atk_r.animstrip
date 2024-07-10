@@ -2,49 +2,11 @@
   "Frames": [
     {
       "EventContainer": {
-        "Events": []
-      },
-      "Duration": 3,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "smoke_01.png",
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "smoke_01",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 3,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "smoke_02.png",
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "smoke_02",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
         "Events": [
           {
             "FrameEventType": "Trigger",
             "Dir": "move_right",
-            "Codeblock": "win_sfx",
+            "Codeblock": "hitflash_update",
             "Actor": "none",
             "Sound": "none",
             "Expression": null,
@@ -84,60 +46,22 @@
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "smoke_03.png",
+      "Path": "jump_atk_01.png",
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "smoke_03",
+      "Name": "jump_atk_01",
       "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 3,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "smoke_04.png",
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "smoke_04",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 20,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": null,
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "[ blank ]",
-      "IsBlank": true
     },
     {
       "EventContainer": {
         "Events": [
           {
-            "FrameEventType": "Trigger",
+            "FrameEventType": "MeleeBox",
             "Dir": "move_right",
-            "Codeblock": "stage_reset",
+            "Codeblock": null,
             "Actor": "none",
             "Sound": "none",
             "Expression": null,
@@ -151,10 +75,10 @@
             "ColorG": 0,
             "ColorB": 255,
             "Box": {
-              "X": -4,
-              "Y": -4,
-              "Width": 8,
-              "Height": 8
+              "X": 30,
+              "Y": -48,
+              "Width": 55,
+              "Height": 18
             },
             "HasTag": true,
             "Color": {
@@ -171,30 +95,85 @@
           }
         ]
       },
-      "Duration": -1,
+      "Duration": 2,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": null,
+      "Path": "jump_atk_02.png",
       "HandleX": -70,
       "HandleY": -143,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "[ blank ]",
-      "IsBlank": true
+      "Name": "jump_atk_02",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "MeleeBox",
+            "Dir": "move_right",
+            "Codeblock": null,
+            "Actor": "none",
+            "Sound": "none",
+            "Expression": null,
+            "Tag": "FrameEvent0",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": 30,
+              "Y": -48,
+              "Width": 55,
+              "Height": 18
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          }
+        ]
+      },
+      "Duration": 2,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "jump_atk_02.png",
+      "HandleX": -70,
+      "HandleY": -143,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "jump_atk_02",
+      "IsBlank": false
     }
   ],
-  "PreventAttack": true,
+  "PreventAttack": false,
   "PreventMovement": true,
-  "PreventCollision": true,
+  "PreventCollision": false,
   "HideChildren": false,
-  "LoopFrame": 0,
-  "OnFinish": "",
-  "AutoFlip": false,
+  "LoopFrame": 1,
+  "OnFinish": "enemy_on_land",
+  "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0,
-  "LinkedMap": "geki_stage"
+  "LinkedMap": "gen_stage"
 }
