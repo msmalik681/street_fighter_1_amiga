@@ -35926,7 +35926,7 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Level": "lee_stage",
+      "Level": "gen_stage",
       "NewBlock": "none",
       "XPosition": "",
       "YPosition": "",

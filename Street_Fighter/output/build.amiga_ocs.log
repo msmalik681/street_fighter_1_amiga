@@ -1,4 +1,4 @@
-Compiled on 15 July 2024 17:26:37
+Compiled on 15 July 2024 17:35:12
 Version string: SE2024.1.240714.14.37.EX
 
 === Misc ===
@@ -45,7 +45,7 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 40834 Crunched size 40834
+Project virtual machine (codeblocks) Original size 40854 Crunched size 40854
 Header data for map adon_stage Original size 8000 Crunched size 8000
 Tile data for map adon_stage (mem restrictions:None) Original size 4196 Crunched size 4196
 Background for map adon_stage Original size 1684 Crunched size 1684
@@ -137,7 +137,7 @@ Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
 Project Data Original size 45904 Crunched size 45904
-Project virtual machine redirects Original size 320 Crunched size 320
+Project virtual machine redirects Original size 324 Crunched size 324
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -156,15 +156,15 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 216980
-vm memory: 40834
+vm memory: 40854
 project memory: 45904
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 505280
-Accounted memory other: 423022
-Accounted memory total: 928302
+Accounted memory other: 423042
+Accounted memory total: 928322
 
 === Possibly unused animations ===
 blockflash
@@ -329,7 +329,7 @@ player_take_damage: 1144
 player_ducking: 1042
 enemy_special: 982
 stage_reset: 736
-stage_reset_gosub: 598
+stage_reset_gosub: 618
 enemy_on_land: 590
 load_level: 568
 player_on_land: 562
