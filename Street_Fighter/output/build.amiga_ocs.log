@@ -1,9 +1,9 @@
-Compiled on 05 July 2024 10:26:15
-Version string: SE2024.1.240701.13.49.EX
+Compiled on 15 July 2024 17:26:37
+Version string: SE2024.1.240714.14.37.EX
 
 === Misc ===
-ImageFrames: 476
-ImageFrame Data Size: 20944
+ImageFrames: 542
+ImageFrame Data Size: 23848
 Maps and Asset Bundles Count: 22
 Maps and Asset Bundles Data Size: 264
 Actor Count: 16
@@ -16,10 +16,10 @@ Sound Count: 10
 Sound Data Size: 280
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 223
-Animations Data Size: 3568
-AnimationFrame Count: 773
-AnimationFrame Data Size: 12368
+Animations Count: 253
+Animations Data Size: 4048
+AnimationFrame Count: 869
+AnimationFrame Data Size: 13904
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 5
@@ -45,7 +45,7 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 39078 Crunched size 39078
+Project virtual machine (codeblocks) Original size 40834 Crunched size 40834
 Header data for map adon_stage Original size 8000 Crunched size 8000
 Tile data for map adon_stage (mem restrictions:None) Original size 4196 Crunched size 4196
 Background for map adon_stage Original size 1684 Crunched size 1684
@@ -73,9 +73,8 @@ Header data for map geki_vs_screen Original size 8000 Crunched size 8000
 Tile data for map geki_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
 Background for map geki_vs_screen Original size 1396 Crunched size 1396
 Header data for map gen_stage Original size 8000 Crunched size 8000
-Tile data for map gen_stage (mem restrictions:None) Original size 4196 Crunched size 4196
-Background for map gen_stage Original size 1572 Crunched size 1572
-Parallax for map gen_stage Original size 28614 Crunched size 28614
+Tile data for map gen_stage (mem restrictions:None) Original size 4454 Crunched size 4454
+Background for map gen_stage Original size 1396 Crunched size 1396
 Header data for map gen_vs_screen Original size 8000 Crunched size 8000
 Tile data for map gen_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
 Background for map gen_vs_screen Original size 1396 Crunched size 1396
@@ -115,6 +114,7 @@ Tile data for map vs_screen_all (mem restrictions:None) Original size 6140 Crunc
 Background for map vs_screen_all Original size 1396 Crunched size 1396
 Asset bundle 0 (Core project asset bundle) Original size 284952 Crunched size 284952
 Asset bundle 7 (geki_stage) Original size 194174 Crunched size 194174
+Asset bundle 9 (gen_stage) Original size 241996 Crunched size 241996
 Asset bundle 11 (joe_stage) Original size 228930 Crunched size 228930
 Asset bundle 13 (lee_stage) Original size 253628 Crunched size 253628
 Asset bundle 15 (mike_stage) Original size 211418 Crunched size 211418
@@ -126,7 +126,6 @@ Asset bundle 4 (birdie_vs_screen) Original size 18710 Crunched size 18710
 Asset bundle 5 (eagle_stage) Original size 66812 Crunched size 66812
 Asset bundle 6 (eagle_vs_screen) Original size 19248 Crunched size 19248
 Asset bundle 8 (geki_vs_screen) Original size 17824 Crunched size 17824
-Asset bundle 9 (gen_stage) Original size 72790 Crunched size 72790
 Asset bundle 10 (gen_vs_screen) Original size 18620 Crunched size 18620
 Asset bundle 12 (joe_vs_screen) Original size 18404 Crunched size 18404
 Asset bundle 14 (lee_vs_screen) Original size 19374 Crunched size 19374
@@ -137,8 +136,8 @@ Asset bundle 20 (sagat_vs_screen) Original size 18446 Crunched size 18446
 Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 40984 Crunched size 40984
-Project virtual machine redirects Original size 200 Crunched size 200
+Project Data Original size 45904 Crunched size 45904
+Project virtual machine redirects Original size 320 Crunched size 320
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -156,16 +155,16 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 214932
-vm memory: 39078
-project memory: 40984
+EXE memory: 216980
+vm memory: 40834
+project memory: 45904
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 505280
-Accounted memory other: 414298
-Accounted memory total: 919578
+Accounted memory other: 423022
+Accounted memory total: 928302
 
 === Possibly unused animations ===
 blockflash
@@ -182,6 +181,20 @@ geki_jump_forward_l
 geki_jump_l
 geki_waiting_l
 geki_walk_l
+gen_atk_hk_l
+gen_atk_hp_l
+gen_atk_lk_l
+gen_atk_lp_l
+gen_atk_special_l
+gen_block_l
+gen_dead_l
+gen_fall_l
+gen_jump_atk_l
+gen_jump_l
+gen_pain_l
+gen_waiting_l
+gen_walk_l
+gen_win_l
 joe_atk_hp_l
 joe_atk_low_kick_l
 joe_atk_low_punch_l
@@ -301,16 +314,15 @@ ryu_waiting_l
 007_geki
 008_joe
 009_mike
-011_gen
 012_birdie
 013_eagle
 014_adon
 015_sagat
 
 === Codeblocks by compiled size ===
-startup: 7878
+startup: 8184
 player_ontimer: 1502
-hitflash_update: 1416
+hitflash_update: 1426
 enemy_ai: 1328
 enemy_take_damage: 1312
 player_take_damage: 1144
@@ -376,6 +388,20 @@ autogen_geki_duck_atk_hp_l_3: 90
 autogen_geki_jump_atk_r_1: 90
 autogen_geki_jump_atk_l_1: 90
 autogen_geki_ninjastar_0: 90
+autogen_gen_atk_hk_r_3: 90
+autogen_gen_atk_hk_l_3: 90
+autogen_gen_atk_hp_r_2: 90
+autogen_gen_atk_hp_l_2: 90
+autogen_gen_atk_lk_r_1: 90
+autogen_gen_atk_lk_l_1: 90
+autogen_gen_atk_lp_r_1: 90
+autogen_gen_atk_lp_l_1: 90
+autogen_gen_atk_special_r_2: 90
+autogen_gen_atk_special_r_5: 90
+autogen_gen_atk_special_l_2: 90
+autogen_gen_atk_special_l_5: 90
+autogen_gen_jump_atk_r_1: 90
+autogen_gen_jump_atk_l_1: 90
 autogen_joe_atk_hp_r_2: 90
 autogen_joe_atk_hp_l_2: 90
 autogen_joe_atk_low_kick_r_2: 90
@@ -388,6 +414,8 @@ autogen_joe_atk_lp_r_2: 90
 autogen_joe_atk_lp_l_2: 90
 autogen_joe_jump_atk_r_2: 90
 autogen_joe_jump_atk_l_2: 90
+autogen_lee_atk_hk_r_3: 90
+autogen_lee_atk_hk_l_3: 90
 autogen_lee_atk_hp_r_2: 90
 autogen_lee_atk_hp_l_2: 90
 autogen_lee_atk_lk_l_2: 90

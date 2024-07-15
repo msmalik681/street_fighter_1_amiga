@@ -1,8 +1,11 @@
 {
-    "activeFile": "",
+    "activeFile": "levels/gen/gen_stage.tmx",
     "expandedProjectPaths": [
+        "templates",
+        "levels/gen",
+        "levels",
         ".",
-        "templates"
+        "levels/geki"
     ],
     "fileStates": {
         "Actors.tsx": {
@@ -10,6 +13,28 @@
         },
         "Blocks.tsx": {
             "scaleInDock": 1
+        },
+        "levels/geki/geki_stage.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "levels/geki/geki_stage.tmx": {
+            "scale": 1.0316406249999999,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 383.8546005301023,
+                "y": 119.71223021582733
+            }
+        },
+        "levels/gen/gen_stage.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "levels/gen/gen_stage.tmx": {
+            "scale": 1.0316406249999999,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 382.8852707307838,
+                "y": 110.98826202196136
+            }
         },
         "levels/lee/lee_stage.tileset.tsx": {
             "scaleInDock": 1
@@ -35,9 +60,12 @@
         }
     },
     "openFiles": [
+        "levels/gen/gen_stage.tmx"
     ],
     "project": "street_fighter.tiled-project",
     "recentFiles": [
+        "levels/gen/gen_stage.tmx",
+        "levels/geki/geki_stage.tmx",
         "levels/lee/lee_stage.tmx",
         "levels/mike/mike_stage.tmx"
     ]
