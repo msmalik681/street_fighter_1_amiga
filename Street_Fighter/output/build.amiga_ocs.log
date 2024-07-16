@@ -1,5 +1,5 @@
-Compiled on 16 July 2024 10:12:34
-Version string: SE2024.1.240701.13.49.EX
+Compiled on 16 July 2024 14:21:42
+Version string: SE2024.1.240716.23.57.EX
 
 === Misc ===
 ImageFrames: 542
@@ -155,7 +155,7 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 214932
+EXE memory: 216968
 vm memory: 41268
 project memory: 45936
 memory reserved for active actors on screen (32): 4616
@@ -163,8 +163,8 @@ memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 505280
-Accounted memory other: 421440
-Accounted memory total: 926720
+Accounted memory other: 423476
+Accounted memory total: 928756
 
 === Possibly unused animations ===
 blockflash
