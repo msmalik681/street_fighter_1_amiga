@@ -3008,13 +3008,6 @@
           "LeftSide": "player_var1",
           "Comparison": "Equals",
           "RightSide": "1",
-          "ComparisonNext": "Or",
-          "IsValid": true
-        },
-        {
-          "LeftSide": "player_var1",
-          "Comparison": "Equals",
-          "RightSide": "0",
           "ComparisonNext": "End",
           "IsValid": true
         }
