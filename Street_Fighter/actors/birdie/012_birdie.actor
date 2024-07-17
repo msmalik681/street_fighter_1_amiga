@@ -10,21 +10,21 @@
     "UpLeft": "",
     "Up": "",
     "UpRight": "",
-    "Left": "joe_idle_l",
-    "Right": "joe_idle_r",
+    "Left": "birdie_idle_l",
+    "Right": "birdie_idle_r",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
   },
   "Moves": {
-    "UpLeft": "joe_idle_l",
+    "UpLeft": "birdie_idle_l",
     "Up": "",
-    "UpRight": "joe_idle_r",
-    "Left": "joe_idle_l",
-    "Right": "joe_idle_r",
-    "DownLeft": "joe_idle_l",
+    "UpRight": "birdie_idle_r",
+    "Left": "birdie_idle_l",
+    "Right": "birdie_idle_r",
+    "DownLeft": "birdie_idle_l",
     "Down": "",
-    "DownRight": "joe_idle_r"
+    "DownRight": "birdie_idle_r"
   },
   "Attacks": {
     "UpLeft": "",
@@ -104,10 +104,10 @@
     false
   ],
   "CollBox": {
-    "X": -19,
-    "Y": -92,
-    "Width": 40,
-    "Height": 85
+    "X": -26,
+    "Y": -118,
+    "Width": 52,
+    "Height": 111
   },
   "AttackDelay": 0,
   "ZOrder": 0,
