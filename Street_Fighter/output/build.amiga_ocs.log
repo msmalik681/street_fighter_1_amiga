@@ -1,9 +1,9 @@
-Compiled on 16 July 2024 14:21:42
-Version string: SE2024.1.240716.23.57.EX
+Compiled on 22 July 2024 14:39:12
+Version string: SE2024.2.240722.09.19.EX
 
 === Misc ===
-ImageFrames: 542
-ImageFrame Data Size: 23848
+ImageFrames: 604
+ImageFrame Data Size: 26576
 Maps and Asset Bundles Count: 22
 Maps and Asset Bundles Data Size: 264
 Actor Count: 16
@@ -16,10 +16,10 @@ Sound Count: 10
 Sound Data Size: 280
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 253
-Animations Data Size: 4048
-AnimationFrame Count: 871
-AnimationFrame Data Size: 13936
+Animations Count: 289
+Animations Data Size: 4624
+AnimationFrame Count: 967
+AnimationFrame Data Size: 15472
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 5
@@ -45,7 +45,7 @@ Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 41268 Crunched size 41268
+Project virtual machine (codeblocks) Original size 43464 Crunched size 43464
 Header data for map adon_stage Original size 8000 Crunched size 8000
 Tile data for map adon_stage (mem restrictions:None) Original size 4196 Crunched size 4196
 Background for map adon_stage Original size 1684 Crunched size 1684
@@ -113,6 +113,7 @@ Header data for map vs_screen_all Original size 8000 Crunched size 8000
 Tile data for map vs_screen_all (mem restrictions:None) Original size 6140 Crunched size 6140
 Background for map vs_screen_all Original size 1396 Crunched size 1396
 Asset bundle 0 (Core project asset bundle) Original size 284952 Crunched size 284952
+Asset bundle 3 (birdie_stage) Original size 287228 Crunched size 287228
 Asset bundle 7 (geki_stage) Original size 194174 Crunched size 194174
 Asset bundle 9 (gen_stage) Original size 241996 Crunched size 241996
 Asset bundle 11 (joe_stage) Original size 228930 Crunched size 228930
@@ -121,8 +122,7 @@ Asset bundle 15 (mike_stage) Original size 211418 Crunched size 211418
 Asset bundle 17 (retsu_stage) Original size 255914 Crunched size 255914
 Asset bundle 1 (adon_stage) Original size 75748 Crunched size 75748
 Asset bundle 2 (adon_vs_screen) Original size 18696 Crunched size 18696
-Asset bundle 3 (birdie_stage) Original size 82954 Crunched size 82954
-Asset bundle 4 (birdie_vs_screen) Original size 18710 Crunched size 18710
+Asset bundle 4 (birdie_vs_screen) Original size 18748 Crunched size 18748
 Asset bundle 5 (eagle_stage) Original size 66812 Crunched size 66812
 Asset bundle 6 (eagle_vs_screen) Original size 19248 Crunched size 19248
 Asset bundle 8 (geki_vs_screen) Original size 17824 Crunched size 17824
@@ -136,14 +136,14 @@ Asset bundle 20 (sagat_vs_screen) Original size 18446 Crunched size 18446
 Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 45936 Crunched size 45936
-Project virtual machine redirects Original size 376 Crunched size 376
+Project Data Original size 50776 Crunched size 50776
+Project virtual machine redirects Original size 572 Crunched size 572
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
-Map gfx (level gfx bundle 17): 0
+Map gfx (level gfx bundle 3): 0
 Music memory (retsu_stage1): 0
 BP Buffer memory: 121000
 core sfx/gfx memory: 284952
@@ -155,18 +155,38 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 216968
-vm memory: 41268
-project memory: 45936
+EXE memory: 215412
+vm memory: 43464
+project memory: 50776
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 505280
-Accounted memory other: 423476
-Accounted memory total: 928756
+Accounted memory other: 428956
+Accounted memory total: 934236
 
 === Possibly unused animations ===
+birdie_atk_hk_l
+birdie_atk_hp_l
+birdie_atk_lp_l
+birdie_atk_mp_l
+birdie_atk_special_l
+birdie_atk_special2_land_r
+birdie_atk_special2_land_l
+birdie_atk_special2_l
+birdie_block_l
+birdie_dead_l
+birdie_fall_l
+birdie_jump_atk_land_r
+birdie_jump_atk_land_l
+birdie_jump_atk_r
+birdie_jump_atk_l
+birdie_jump_l
+birdie_pain_l
+birdie_waiting_l
+birdie_walk_l
+birdie_win_l
 blockflash
 geki_atk_hp_l
 geki_atk_lk_l
@@ -314,23 +334,22 @@ ryu_waiting_l
 007_geki
 008_joe
 009_mike
-012_birdie
 013_eagle
 014_adon
 015_sagat
 
 === Codeblocks by compiled size ===
-startup: 8184
-hitflash_update: 1726
+startup: 8490
+hitflash_update: 1742
 player_ontimer: 1502
 enemy_ai: 1328
 enemy_take_damage: 1312
+enemy_special: 1194
 player_take_damage: 1144
-enemy_special: 1048
 player_ducking: 1026
 stage_reset: 736
+enemy_on_land: 726
 stage_reset_gosub: 618
-enemy_on_land: 590
 load_level: 568
 player_on_land: 562
 do_teleport: 424
@@ -340,6 +359,7 @@ pre_startup: 354
 enemy_jump: 354
 flipscreen_smooth: 310 (Unused?)
 key_input: 304
+load_next_level: 300 (Unused?)
 flipxymove: 278 (Unused?)
 block_find: 206 (Unused?)
 004_ryu_autogen_attack: 206
@@ -357,6 +377,7 @@ flipymove: 162 (Unused?)
 ryu_dragon_punch: 160
 snap_to_screen: 158
 pre_quit: 152
+restart_this_level: 150 (Unused?)
 stage_timer: 148
 load_panel: 146
 flipxmove: 142 (Unused?)
@@ -379,6 +400,17 @@ enemy_jump_attack: 104
 load_panel_bottom: 96
 load_panel_top: 96
 destroy_child_actors: 94 (Unused?)
+autogen_birdie_atk_hk_l_2: 90
+autogen_birdie_atk_hp_r_2: 90
+autogen_birdie_atk_hp_r_3: 90
+autogen_birdie_atk_hp_l_2: 90
+autogen_birdie_atk_hp_l_3: 90
+autogen_birdie_atk_lp_r_1: 90
+autogen_birdie_atk_lp_l_1: 90
+autogen_birdie_atk_mp_r_2: 90
+autogen_birdie_atk_mp_l_2: 90
+autogen_birdie_jump_atk_r_3: 90
+autogen_birdie_jump_atk_l_3: 90
 autogen_geki_atk_hp_r_2: 90
 autogen_geki_atk_hp_l_2: 90
 autogen_geki_atk_lk_r_2: 90
@@ -473,6 +505,7 @@ autogen_ryu_jump_atk_lp_l_1: 90
 autogen_ryu_tatsu_r_5: 90
 autogen_ryu_tatsu_l_7: 90
 fadeout: 88
+autogen_birdie_atk_hk_r_2: 88
 autogen_lee_atk_lk_r_2: 88
 autogen_retsu_jump_atk_r_1: 88
 autogen_ryu_atk_lk_r_1: 88
@@ -496,7 +529,8 @@ wrap_screen_top: 72 (Unused?)
 quit: 70
 jump_actor: 66 (Unused?)
 load_panel_finish: 66
-autogen_gen_atk_lk_r_0: 64
+autogen_birdie_atk_lp_r_0: 64
+autogen_birdie_jump_r_1: 64
 unload_panel_bottom: 62
 unload_panel_top: 62
 destroy_all_actors: 60 (Unused?)
@@ -508,15 +542,15 @@ enemy_xy_update: 50
 regenerate_screen_wait: 46
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
-autogen_geki_atk_hp_r_0: 38
+autogen_birdie_atk_hk_r_0: 38
+autogen_birdie_atk_special_r_0: 38
+autogen_birdie_win_r_3: 38
 autogen_geki_atk_lk_r_1: 38
-autogen_geki_atk_ninjastar_r_3: 38
 autogen_geki_duck_atk_hp_r_0: 38
 autogen_geki_jump_forward_r_3: 38
 autogen_geki_jump_r_1: 38
 autogen_geki_walk_r_0: 38
 autogen_geki_win_2: 38
-autogen_geki_win_5: 38
 autogen_ryu_fireball_r_2: 38
 autogen_ryu_jump_r_1: 38
 autogen_ryu_tatsu_r_1: 38
