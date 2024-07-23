@@ -1,9 +1,9 @@
-Compiled on 22 July 2024 14:39:12
-Version string: SE2024.2.240722.09.19.EX
+Compiled on 23 July 2024 12:58:18
+Version string: SE2024.2.240723.10.35.EX
 
 === Misc ===
-ImageFrames: 604
-ImageFrame Data Size: 26576
+ImageFrames: 602
+ImageFrame Data Size: 26488
 Maps and Asset Bundles Count: 22
 Maps and Asset Bundles Data Size: 264
 Actor Count: 16
@@ -41,11 +41,11 @@ Music file sf1_stage10_sagat Original size 127530 Crunched size 127530
 Music file sf1_stage_clear Original size 145712 Crunched size 145712
 Music file sf1_stage_select Original size 123458 Crunched size 123458
 Music file sf1_vs Original size 174996 Crunched size 174996
-Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
+Panel scorpion_eng_splashscreen Original size 35172 Crunched size 3266
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 43464 Crunched size 43464
+Project virtual machine (codeblocks) Original size 43816 Crunched size 43816
 Header data for map adon_stage Original size 8000 Crunched size 8000
 Tile data for map adon_stage (mem restrictions:None) Original size 4196 Crunched size 4196
 Background for map adon_stage Original size 1684 Crunched size 1684
@@ -54,7 +54,7 @@ Header data for map adon_vs_screen Original size 8000 Crunched size 8000
 Tile data for map adon_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
 Background for map adon_vs_screen Original size 1396 Crunched size 1396
 Header data for map birdie_stage Original size 8000 Crunched size 8000
-Tile data for map birdie_stage (mem restrictions:None) Original size 4196 Crunched size 4196
+Tile data for map birdie_stage (mem restrictions:None) Original size 4454 Crunched size 4454
 Background for map birdie_stage Original size 1396 Crunched size 1396
 Header data for map birdie_vs_screen Original size 8000 Crunched size 8000
 Tile data for map birdie_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
@@ -136,8 +136,8 @@ Asset bundle 20 (sagat_vs_screen) Original size 18446 Crunched size 18446
 Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 50776 Crunched size 50776
-Project virtual machine redirects Original size 572 Crunched size 572
+Project Data Original size 50688 Crunched size 50688
+Project virtual machine redirects Original size 604 Crunched size 604
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -156,15 +156,15 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 215412
-vm memory: 43464
-project memory: 50776
+vm memory: 43816
+project memory: 50688
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 505280
-Accounted memory other: 428956
-Accounted memory total: 934236
+Accounted memory other: 429220
+Accounted memory total: 934500
 
 === Possibly unused animations ===
 birdie_atk_hk_l
@@ -174,6 +174,7 @@ birdie_atk_mp_l
 birdie_atk_special_l
 birdie_atk_special2_land_r
 birdie_atk_special2_land_l
+birdie_atk_special2_r
 birdie_atk_special2_l
 birdie_block_l
 birdie_dead_l
@@ -344,11 +345,11 @@ hitflash_update: 1742
 player_ontimer: 1502
 enemy_ai: 1328
 enemy_take_damage: 1312
-enemy_special: 1194
+enemy_special: 1246
 player_take_damage: 1144
 player_ducking: 1026
+enemy_on_land: 846
 stage_reset: 736
-enemy_on_land: 726
 stage_reset_gosub: 618
 load_level: 568
 player_on_land: 562
@@ -409,6 +410,8 @@ autogen_birdie_atk_lp_r_1: 90
 autogen_birdie_atk_lp_l_1: 90
 autogen_birdie_atk_mp_r_2: 90
 autogen_birdie_atk_mp_l_2: 90
+autogen_birdie_atk_special2_r_0: 90
+autogen_birdie_atk_special2_l_0: 90
 autogen_birdie_jump_atk_r_3: 90
 autogen_birdie_jump_atk_l_3: 90
 autogen_geki_atk_hp_r_2: 90
@@ -543,13 +546,13 @@ regenerate_screen_wait: 46
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
 autogen_birdie_atk_hk_r_0: 38
-autogen_birdie_atk_special_r_0: 38
+autogen_birdie_atk_special_r_2: 38
+autogen_birdie_walk_r_1: 38
 autogen_birdie_win_r_3: 38
 autogen_geki_atk_lk_r_1: 38
 autogen_geki_duck_atk_hp_r_0: 38
 autogen_geki_jump_forward_r_3: 38
 autogen_geki_jump_r_1: 38
-autogen_geki_walk_r_0: 38
 autogen_geki_win_2: 38
 autogen_ryu_fireball_r_2: 38
 autogen_ryu_jump_r_1: 38

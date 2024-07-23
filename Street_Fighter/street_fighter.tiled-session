@@ -1,9 +1,10 @@
 {
-    "activeFile": "levels/lee/lee_stage.tmx",
+    "activeFile": "levels/birdie/birdie_stage.tmx",
     "expandedProjectPaths": [
+        "levels/gen",
+        "levels/birdie",
         "levels",
         "levels/geki",
-        "levels/gen",
         "templates",
         "."
     ],
@@ -14,6 +15,17 @@
         "Blocks.tsx": {
             "scaleInDock": 1
         },
+        "levels/birdie/birdie_stage.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "levels/birdie/birdie_stage.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 425.6363636363636,
+                "y": 137.36363636363637
+            }
+        },
         "levels/geki/geki_stage.tileset.tsx": {
             "scaleInDock": 1
         },
@@ -21,8 +33,8 @@
             "scale": 1.0316406249999999,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 383.8546005301023,
-                "y": 119.71223021582733
+                "x": 381.9159409314654,
+                "y": 118.74290041650892
             }
         },
         "levels/gen/gen_stage.tileset.tsx": {
@@ -43,8 +55,8 @@
             "scale": 3,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 378.66666666666663,
-                "y": 196.49999999999997
+                "x": 384,
+                "y": 119.83333333333333
             }
         },
         "levels/mike/mike_stage.tileset.tsx": {
@@ -60,13 +72,14 @@
         }
     },
     "openFiles": [
-        "levels/lee/lee_stage.tmx"
+        "levels/birdie/birdie_stage.tmx"
     ],
     "project": "street_fighter.tiled-project",
     "recentFiles": [
+        "levels/birdie/birdie_stage.tmx",
+        "levels/geki/geki_stage.tmx",
         "levels/lee/lee_stage.tmx",
         "levels/gen/gen_stage.tmx",
-        "levels/geki/geki_stage.tmx",
         "levels/mike/mike_stage.tmx"
     ]
 }

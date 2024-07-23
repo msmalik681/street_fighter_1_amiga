@@ -4,15 +4,18 @@
       "EventContainer": {
         "Events": [
           {
-            "FrameEventType": "Trigger",
+            "FrameEventType": "MeleeBox",
             "Dir": "move_right",
-            "Codeblock": "hitflash_update",
+            "Codeblock": null,
             "Actor": "none",
             "Sound": "none",
             "Expression": null,
             "Tag": "FrameEvent0",
             "IsConditional": false,
             "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AnimationFrame": "0",
             "OverrideSpeed": false,
             "XFloat": null,
             "YFloat": null,
@@ -20,10 +23,10 @@
             "ColorG": 0,
             "ColorB": 255,
             "Box": {
-              "X": -4,
-              "Y": -4,
-              "Width": 8,
-              "Height": 8
+              "X": 10,
+              "Y": -91,
+              "Width": 54,
+              "Height": 86
             },
             "HasTag": true,
             "Color": {
@@ -39,44 +42,6 @@
             "HasAngle": false
           }
         ]
-      },
-      "Duration": 2,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "kick_00.png",
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "kick_00",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
-      },
-      "Duration": 2,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "kick_01.png",
-      "HandleX": -70,
-      "HandleY": -143,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "kick_01",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": []
       },
       "Duration": 1,
       "Multiplexes": 0,
@@ -95,7 +60,46 @@
     },
     {
       "EventContainer": {
-        "Events": []
+        "Events": [
+          {
+            "FrameEventType": "MeleeBox",
+            "Dir": "move_right",
+            "Codeblock": null,
+            "Actor": "none",
+            "Sound": "none",
+            "Expression": null,
+            "Tag": "FrameEvent0",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AnimationFrame": "0",
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": 10,
+              "Y": -91,
+              "Width": 54,
+              "Height": 86
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          }
+        ]
       },
       "Duration": 1,
       "Multiplexes": 0,
@@ -117,7 +121,7 @@
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
-  "LoopFrame": 2,
+  "LoopFrame": 0,
   "OnFinish": "",
   "AutoFlip": null,
   "Streamed": true,
