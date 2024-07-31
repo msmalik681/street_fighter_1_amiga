@@ -10,21 +10,21 @@
     "UpLeft": "",
     "Up": "",
     "UpRight": "",
-    "Left": "joe_idle_l",
-    "Right": "joe_idle_r",
+    "Left": "eagle_idle_l",
+    "Right": "eagle_idle_r",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
   },
   "Moves": {
-    "UpLeft": "joe_idle_l",
+    "UpLeft": "eagle_idle_l",
     "Up": "",
-    "UpRight": "joe_idle_r",
-    "Left": "joe_idle_l",
-    "Right": "joe_idle_r",
-    "DownLeft": "joe_idle_l",
+    "UpRight": "eagle_idle_r",
+    "Left": "eagle_idle_l",
+    "Right": "eagle_idle_r",
+    "DownLeft": "eagle_idle_l",
     "Down": "",
-    "DownRight": "joe_idle_r"
+    "DownRight": "eagle_idle_r"
   },
   "Attacks": {
     "UpLeft": "",
@@ -104,7 +104,7 @@
     false
   ],
   "CollBox": {
-    "X": -19,
+    "X": -20,
     "Y": -92,
     "Width": 40,
     "Height": 85

@@ -5954,7 +5954,7 @@
       "ActorType": "none",
       "Animation": "none",
       "PushXPixels": "80 * e_velo",
-      "PushYPixels": "-40",
+      "PushYPixels": "-80",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
       "ResetAnimations": true,
