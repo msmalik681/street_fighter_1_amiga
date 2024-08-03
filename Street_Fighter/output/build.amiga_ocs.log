@@ -1,9 +1,9 @@
-Compiled on 31 July 2024 09:23:58
-Version string: SE2024.2.240731.10.29.EX
+Compiled on 03 August 2024 08:48:51
+Version string: SE2024.2.240803.00.03.EX
 
 === Misc ===
-ImageFrames: 602
-ImageFrame Data Size: 26488
+ImageFrames: 659
+ImageFrame Data Size: 28996
 Maps and Asset Bundles Count: 22
 Maps and Asset Bundles Data Size: 264
 Actor Count: 16
@@ -16,10 +16,10 @@ Sound Count: 10
 Sound Data Size: 280
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 289
-Animations Data Size: 4624
-AnimationFrame Count: 967
-AnimationFrame Data Size: 15472
+Animations Count: 317
+Animations Data Size: 5072
+AnimationFrame Count: 1048
+AnimationFrame Data Size: 16768
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 5
@@ -48,7 +48,7 @@ Panel top_panel Original size 7968 Crunched size 7968
 Panel bobs top_panel Original size 7020 Crunched size 7020
 Panel wining_panel Original size 11884 Crunched size 11884
 Panel bobs wining_panel Original size 6412 Crunched size 6412
-Project virtual machine (codeblocks) Original size 43818 Crunched size 43818
+Project virtual machine (codeblocks) Original size 45038 Crunched size 45038
 Header data for map adon_stage Original size 8000 Crunched size 8000
 Tile data for map adon_stage (mem restrictions:None) Original size 4196 Crunched size 4196
 Background for map adon_stage Original size 1684 Crunched size 1684
@@ -117,6 +117,7 @@ Tile data for map vs_screen_all (mem restrictions:None) Original size 6140 Crunc
 Background for map vs_screen_all Original size 1396 Crunched size 1396
 Asset bundle 0 (Core project asset bundle) Original size 285330 Crunched size 285330
 Asset bundle 3 (birdie_stage) Original size 287854 Crunched size 287854
+Asset bundle 5 (eagle_stage) Original size 192144 Crunched size 192144
 Asset bundle 7 (geki_stage) Original size 194020 Crunched size 194020
 Asset bundle 9 (gen_stage) Original size 242028 Crunched size 242028
 Asset bundle 11 (joe_stage) Original size 228928 Crunched size 228928
@@ -126,7 +127,6 @@ Asset bundle 17 (retsu_stage) Original size 256048 Crunched size 256048
 Asset bundle 1 (adon_stage) Original size 75748 Crunched size 75748
 Asset bundle 2 (adon_vs_screen) Original size 18696 Crunched size 18696
 Asset bundle 4 (birdie_vs_screen) Original size 18748 Crunched size 18748
-Asset bundle 5 (eagle_stage) Original size 66812 Crunched size 66812
 Asset bundle 6 (eagle_vs_screen) Original size 19248 Crunched size 19248
 Asset bundle 8 (geki_vs_screen) Original size 17824 Crunched size 17824
 Asset bundle 10 (gen_vs_screen) Original size 18790 Crunched size 18790
@@ -139,8 +139,8 @@ Asset bundle 20 (sagat_vs_screen) Original size 18446 Crunched size 18446
 Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 50688 Crunched size 50688
-Project virtual machine redirects Original size 604 Crunched size 604
+Project Data Original size 54940 Crunched size 54940
+Project virtual machine redirects Original size 712 Crunched size 712
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -158,16 +158,16 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 199128
-vm memory: 43818
-project memory: 50688
+EXE memory: 191984
+vm memory: 45038
+project memory: 54940
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 793512
-Accounted memory other: 412938
-Accounted memory total: 1206450
+Accounted memory other: 411266
+Accounted memory total: 1204778
 
 === Possibly unused animations ===
 birdie_atk_hk_l
@@ -192,6 +192,19 @@ birdie_waiting_l
 birdie_walk_l
 birdie_win_l
 blockflash
+eagle_atk_hp_l
+eagle_atk_lp_l
+eagle_atk_special_l
+eagle_block_low_l
+eagle_block_l
+eagle_dead_l
+eagle_fall_l
+eagle_jump_atk_l
+eagle_jump_l
+eagle_pain_l
+eagle_waiting_l
+eagle_walk_l
+eagle_win_l
 geki_atk_hp_l
 geki_atk_lk_l
 geki_atk_ninjastar_l
@@ -338,17 +351,16 @@ ryu_waiting_l
 007_geki
 008_joe
 009_mike
-013_eagle
 014_adon
 015_sagat
 
 === Codeblocks by compiled size ===
-startup: 8490
-hitflash_update: 1744
+startup: 8796
+hitflash_update: 1758
 player_ontimer: 1502
 enemy_ai: 1328
 enemy_take_damage: 1312
-enemy_special: 1248
+enemy_special: 1250
 player_take_damage: 1144
 player_ducking: 1026
 enemy_on_land: 846
@@ -417,6 +429,15 @@ autogen_birdie_atk_special2_l_0: 90
 autogen_birdie_atk_special2_r_0: 90
 autogen_birdie_jump_atk_l_3: 90
 autogen_birdie_jump_atk_r_3: 90
+autogen_eagle_atk_hp_l_2: 90
+autogen_eagle_atk_hp_r_2: 90
+autogen_eagle_atk_lp_l_1: 90
+autogen_eagle_atk_lp_r_1: 90
+autogen_eagle_atk_special_l_2: 90
+autogen_eagle_atk_special_l_4: 90
+autogen_eagle_atk_special_r_2: 90
+autogen_eagle_atk_special_r_4: 90
+autogen_eagle_jump_atk_l_1: 90
 autogen_geki_atk_hp_l_2: 90
 autogen_geki_atk_hp_r_2: 90
 autogen_geki_atk_lk_l_2: 90
@@ -512,6 +533,7 @@ autogen_ryu_tatsu_l_7: 90
 autogen_ryu_tatsu_r_5: 90
 fadeout: 88
 autogen_birdie_atk_hk_r_2: 88
+autogen_eagle_jump_atk_r_1: 88
 autogen_lee_atk_lk_r_2: 88
 autogen_retsu_jump_atk_r_1: 88
 autogen_ryu_atk_lk_r_1: 88
@@ -552,11 +574,11 @@ autogen_birdie_atk_hk_l_0: 38
 autogen_birdie_atk_special_l_2: 38
 autogen_birdie_walk_l_1: 38
 autogen_birdie_win_l_3: 38
+autogen_eagle_jump_l_1: 38
+autogen_eagle_jump_l_2: 38
 autogen_geki_atk_lk_l_1: 38
 autogen_geki_duck_atk_hp_l_0: 38
-autogen_geki_jump_forward_l_3: 38
-autogen_geki_jump_l_1: 38
-autogen_geki_win_2: 38
+autogen_geki_win_3: 38
 autogen_ryu_fireball_l_2: 38
 autogen_ryu_jump_l_1: 38
 autogen_ryu_tatsu_l_1: 38
