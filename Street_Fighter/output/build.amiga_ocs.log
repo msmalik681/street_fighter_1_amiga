@@ -1,5 +1,5 @@
-Compiled on 03 August 2024 08:48:51
-Version string: SE2024.2.240803.00.03.EX
+Compiled on 03 August 2024 08:55:08
+Version string: SE2024.2.240729.20.36.EX
 
 === Misc ===
 ImageFrames: 659
@@ -41,14 +41,11 @@ Music file sf1_stage10_sagat Original size 127530 Crunched size 127530
 Music file sf1_stage_clear Original size 145712 Crunched size 145712
 Music file sf1_stage_select Original size 123458 Crunched size 123458
 Music file sf1_vs Original size 174996 Crunched size 174996
-Panel scorpion_eng_splashscreen Original size 35168 Crunched size 3258
-Panel bottom_panel Original size 14956 Crunched size 14956
-Panel bobs bottom_panel Original size 8318 Crunched size 8318
-Panel top_panel Original size 7968 Crunched size 7968
-Panel bobs top_panel Original size 7020 Crunched size 7020
-Panel wining_panel Original size 11884 Crunched size 11884
-Panel bobs wining_panel Original size 6412 Crunched size 6412
-Project virtual machine (codeblocks) Original size 45038 Crunched size 45038
+Panel scorpion_eng_splashscreen Original size 35172 Crunched size 3260
+Panel bottom_panel Original size 23278 Crunched size 23278
+Panel top_panel Original size 14992 Crunched size 14992
+Panel wining_panel Original size 18300 Crunched size 18300
+Project virtual machine (codeblocks) Original size 45040 Crunched size 45040
 Header data for map adon_stage Original size 8000 Crunched size 8000
 Tile data for map adon_stage (mem restrictions:None) Original size 4196 Crunched size 4196
 Background for map adon_stage Original size 1684 Crunched size 1684
@@ -146,7 +143,7 @@ Project virtual machine redirects Original size 712 Crunched size 712
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
-Map gfx (level gfx bundle 3): 287854
+Map gfx (level gfx bundle 3): 0
 Music memory (retsu_stage1): 0
 BP Buffer memory: 121000
 core sfx/gfx memory: 285330
@@ -158,16 +155,16 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 191984
-vm memory: 45038
+EXE memory: 201336
+vm memory: 45040
 project memory: 54940
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 793512
-Accounted memory other: 411266
-Accounted memory total: 1204778
+Accounted memory chip: 505658
+Accounted memory other: 420620
+Accounted memory total: 926278
 
 === Possibly unused animations ===
 birdie_atk_hk_l
