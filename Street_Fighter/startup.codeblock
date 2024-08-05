@@ -2135,7 +2135,7 @@
       "Goto": "",
       "Comment": "tells what stage your on",
       "Variable": "stage",
-      "Expression": "6",
+      "Expression": "8",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,

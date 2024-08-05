@@ -5919,7 +5919,7 @@
     },
     {
       "Values": {
-        "Decay": "False"
+        "Decay": "True"
       },
       "DataVersion": 6,
       "Category": "Actor",
@@ -5953,15 +5953,15 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": "80 * e_velo",
-      "PushYPixels": "-80",
+      "PushXPixels": "100 * e_velo",
+      "PushYPixels": "-60",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
       "ResetAnimations": true,
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
-      "Frames": "20",
+      "Frames": "15",
       "CameraX": "",
       "CameraY": "",
       "CameraBox": {

@@ -11393,7 +11393,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "birdie_atk_special2_r + e_dir",
+          "RightSide": "birdie_atk_special_r + e_dir",
           "ComparisonNext": "End",
           "IsValid": true
         }

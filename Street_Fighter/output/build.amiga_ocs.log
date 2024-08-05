@@ -1,9 +1,9 @@
-Compiled on 05 August 2024 14:28:11
+Compiled on 05 August 2024 17:53:26
 Version string: SE2024.2.240723.10.35.EX
 
 === Misc ===
-ImageFrames: 659
-ImageFrame Data Size: 28996
+ImageFrames: 661
+ImageFrame Data Size: 29084
 Maps and Asset Bundles Count: 22
 Maps and Asset Bundles Data Size: 264
 Actor Count: 16
@@ -18,8 +18,8 @@ Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 317
 Animations Data Size: 5072
-AnimationFrame Count: 1048
-AnimationFrame Data Size: 16768
+AnimationFrame Count: 1050
+AnimationFrame Data Size: 16800
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 5
@@ -45,7 +45,7 @@ Panel scorpion_eng_splashscreen Original size 35172 Crunched size 3266
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 45040 Crunched size 45040
+Project virtual machine (codeblocks) Original size 45414 Crunched size 45414
 Header data for map adon_stage Original size 8000 Crunched size 8000
 Tile data for map adon_stage (mem restrictions:None) Original size 4196 Crunched size 4196
 Background for map adon_stage Original size 1684 Crunched size 1684
@@ -60,9 +60,9 @@ Header data for map birdie_vs_screen Original size 8000 Crunched size 8000
 Tile data for map birdie_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
 Background for map birdie_vs_screen Original size 1396 Crunched size 1396
 Header data for map eagle_stage Original size 8000 Crunched size 8000
-Tile data for map eagle_stage (mem restrictions:None) Original size 4116 Crunched size 4116
+Tile data for map eagle_stage (mem restrictions:None) Original size 4370 Crunched size 4370
 Background for map eagle_stage Original size 1624 Crunched size 1624
-Parallax for map eagle_stage Original size 28524 Crunched size 28524
+Parallax for map eagle_stage Original size 28428 Crunched size 28428
 Header data for map eagle_vs_screen Original size 8000 Crunched size 8000
 Tile data for map eagle_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
 Background for map eagle_vs_screen Original size 1396 Crunched size 1396
@@ -124,7 +124,7 @@ Asset bundle 17 (retsu_stage) Original size 255914 Crunched size 255914
 Asset bundle 1 (adon_stage) Original size 75748 Crunched size 75748
 Asset bundle 2 (adon_vs_screen) Original size 18696 Crunched size 18696
 Asset bundle 4 (birdie_vs_screen) Original size 18748 Crunched size 18748
-Asset bundle 6 (eagle_vs_screen) Original size 19248 Crunched size 19248
+Asset bundle 6 (eagle_vs_screen) Original size 19150 Crunched size 19150
 Asset bundle 8 (geki_vs_screen) Original size 17824 Crunched size 17824
 Asset bundle 10 (gen_vs_screen) Original size 18790 Crunched size 18790
 Asset bundle 12 (joe_vs_screen) Original size 18404 Crunched size 18404
@@ -136,8 +136,8 @@ Asset bundle 20 (sagat_vs_screen) Original size 18446 Crunched size 18446
 Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 54940 Crunched size 54940
-Project virtual machine redirects Original size 712 Crunched size 712
+Project Data Original size 55060 Crunched size 55060
+Project virtual machine redirects Original size 732 Crunched size 732
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -156,15 +156,15 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 215412
-vm memory: 45040
-project memory: 54940
+vm memory: 45414
+project memory: 55060
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 505280
-Accounted memory other: 434696
-Accounted memory total: 939976
+Accounted memory other: 435190
+Accounted memory total: 940470
 
 === Possibly unused animations ===
 birdie_atk_hk_l
@@ -353,14 +353,14 @@ ryu_waiting_l
 
 === Codeblocks by compiled size ===
 startup: 8796
-hitflash_update: 1758
+hitflash_update: 2058
 player_ontimer: 1502
 enemy_ai: 1328
 enemy_take_damage: 1312
 enemy_special: 1250
 player_take_damage: 1144
 player_ducking: 1026
-enemy_on_land: 846
+enemy_on_land: 920
 stage_reset: 736
 stage_reset_gosub: 618
 load_level: 568

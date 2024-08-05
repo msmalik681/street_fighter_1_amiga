@@ -13,6 +13,9 @@
             "Tag": "FrameEvent0",
             "IsConditional": false,
             "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AnimationFrame": "0",
             "OverrideSpeed": false,
             "XFloat": null,
             "YFloat": null,
@@ -40,7 +43,7 @@
           }
         ]
       },
-      "Duration": 3,
+      "Duration": 1,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
@@ -59,7 +62,7 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 3,
+      "Duration": 1,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
@@ -87,6 +90,9 @@
             "Tag": "FrameEvent0",
             "IsConditional": false,
             "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AnimationFrame": "0",
             "OverrideSpeed": false,
             "XFloat": null,
             "YFloat": null,
@@ -114,7 +120,7 @@
           }
         ]
       },
-      "Duration": 4,
+      "Duration": 3,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
@@ -133,7 +139,7 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 3,
+      "Duration": 1,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
