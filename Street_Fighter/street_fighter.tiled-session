@@ -1,12 +1,13 @@
 {
     "activeFile": "",
     "expandedProjectPaths": [
-        "levels",
         ".",
-        "levels/gen",
         "templates",
         "levels/geki",
+        "levels",
+        "levels/adon",
         "levels/eagle",
+        "levels/gen",
         "levels/birdie"
     ],
     "fileStates": {
@@ -16,6 +17,17 @@
         "Blocks.tsx": {
             "scaleInDock": 1
         },
+        "levels/adon/adon_stage.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "levels/adon/adon_stage.tmx": {
+            "scale": 4,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 353.5,
+                "y": 161.375
+            }
+        },
         "levels/birdie/birdie_stage.tileset.tsx": {
             "scaleInDock": 1
         },
@@ -23,8 +35,8 @@
             "scale": 5.5,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 380.72727272727275,
-                "y": 163.1818181818182
+                "x": 380.3636363636364,
+                "y": 162.8181818181818
             }
         },
         "levels/eagle/eagle_stage.tileset.tsx": {
@@ -88,6 +100,7 @@
     "project": "street_fighter.tiled-project",
     "recentFiles": [
         "levels/birdie/birdie_stage.tmx",
+        "levels/adon/adon_stage.tmx",
         "levels/eagle/eagle_stage.tmx",
         "levels/geki/geki_stage.tmx",
         "levels/lee/lee_stage.tmx",

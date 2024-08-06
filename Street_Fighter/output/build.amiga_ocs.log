@@ -1,4 +1,4 @@
-Compiled on 05 August 2024 17:53:26
+Compiled on 06 August 2024 09:49:56
 Version string: SE2024.2.240723.10.35.EX
 
 === Misc ===
@@ -45,7 +45,7 @@ Panel scorpion_eng_splashscreen Original size 35172 Crunched size 3266
 Panel bottom_panel Original size 23278 Crunched size 23278
 Panel top_panel Original size 14992 Crunched size 14992
 Panel wining_panel Original size 18300 Crunched size 18300
-Project virtual machine (codeblocks) Original size 45414 Crunched size 45414
+Project virtual machine (codeblocks) Original size 45888 Crunched size 45888
 Header data for map adon_stage Original size 8000 Crunched size 8000
 Tile data for map adon_stage (mem restrictions:None) Original size 4196 Crunched size 4196
 Background for map adon_stage Original size 1684 Crunched size 1684
@@ -62,7 +62,7 @@ Background for map birdie_vs_screen Original size 1396 Crunched size 1396
 Header data for map eagle_stage Original size 8000 Crunched size 8000
 Tile data for map eagle_stage (mem restrictions:None) Original size 4370 Crunched size 4370
 Background for map eagle_stage Original size 1624 Crunched size 1624
-Parallax for map eagle_stage Original size 28428 Crunched size 28428
+Parallax for map eagle_stage Original size 26476 Crunched size 26476
 Header data for map eagle_vs_screen Original size 8000 Crunched size 8000
 Tile data for map eagle_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
 Background for map eagle_vs_screen Original size 1396 Crunched size 1396
@@ -137,7 +137,7 @@ Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
 Project Data Original size 55060 Crunched size 55060
-Project virtual machine redirects Original size 732 Crunched size 732
+Project virtual machine redirects Original size 768 Crunched size 768
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -156,15 +156,15 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 215412
-vm memory: 45414
+vm memory: 45888
 project memory: 55060
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 505280
-Accounted memory other: 435190
-Accounted memory total: 940470
+Accounted memory other: 435664
+Accounted memory total: 940944
 
 === Possibly unused animations ===
 birdie_atk_hk_l
@@ -353,11 +353,11 @@ ryu_waiting_l
 
 === Codeblocks by compiled size ===
 startup: 8796
-hitflash_update: 2058
+hitflash_update: 2262
 player_ontimer: 1502
 enemy_ai: 1328
+enemy_special: 1316
 enemy_take_damage: 1312
-enemy_special: 1250
 player_take_damage: 1144
 player_ducking: 1026
 enemy_on_land: 920
@@ -410,6 +410,8 @@ fadein: 112
 waitforfiredown: 110
 unload_panel: 106
 enemy_jump_attack: 104
+autogen_eagle_atk_special_r_2: 102
+autogen_eagle_atk_special_l_2: 102
 load_panel_bottom: 96
 load_panel_top: 96
 destroy_child_actors: 94 (Unused?)
@@ -430,10 +432,10 @@ autogen_eagle_atk_hp_r_2: 90
 autogen_eagle_atk_hp_l_2: 90
 autogen_eagle_atk_lp_r_1: 90
 autogen_eagle_atk_lp_l_1: 90
-autogen_eagle_atk_special_r_2: 90
 autogen_eagle_atk_special_r_4: 90
-autogen_eagle_atk_special_l_2: 90
+autogen_eagle_atk_special_r_6: 90
 autogen_eagle_atk_special_l_4: 90
+autogen_eagle_atk_special_l_6: 90
 autogen_eagle_jump_atk_l_1: 90
 autogen_geki_atk_hp_r_2: 90
 autogen_geki_atk_hp_l_2: 90
