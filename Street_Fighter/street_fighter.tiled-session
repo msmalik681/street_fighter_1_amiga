@@ -1,14 +1,13 @@
 {
-    "activeFile": "",
+    "activeFile": "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/street_fighter_2/stages/ken/ken_stage.tmx",
     "expandedProjectPaths": [
+        "levels/birdie",
         "levels/gen",
-        ".",
+        "templates",
         "levels/adon",
         "levels/geki",
-        "levels/birdie",
         "levels",
-        "levels/eagle",
-        "templates"
+        "levels/eagle"
     ],
     "fileStates": {
         "Actors.tsx": {
@@ -27,11 +26,11 @@
             "scaleInDock": 1
         },
         "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/street_fighter_2/stages/ken/ken_stage.tmx": {
-            "scale": 4,
+            "scale": 1.5,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 265,
-                "y": 135.125
+                "x": 478.66666666666663,
+                "y": 280.33333333333337
             }
         },
         "levels/adon/adon_stage.tileset.tsx": {
@@ -113,6 +112,7 @@
         }
     },
     "openFiles": [
+        "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/street_fighter_2/stages/ken/ken_stage.tmx"
     ],
     "project": "street_fighter.tiled-project",
     "recentFiles": [
