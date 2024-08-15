@@ -1,13 +1,13 @@
 {
-    "activeFile": "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/street_fighter_2/stages/ken/ken_stage.tmx",
+    "activeFile": "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/SOR/levels/stage_1/stage_1.tmx",
     "expandedProjectPaths": [
-        "levels",
         "levels/geki",
-        "levels/gen",
         "levels/eagle",
-        "levels/birdie",
+        "levels/adon",
+        "levels/gen",
         "templates",
-        "levels/adon"
+        "levels/birdie",
+        "levels"
     ],
     "fileStates": {
         "Actors.tsx": {
@@ -15,6 +15,23 @@
         },
         "Blocks.tsx": {
             "scaleInDock": 1
+        },
+        "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/SOR/Actors.tsx": {
+            "scaleInDock": 1
+        },
+        "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/SOR/Blocks.tsx": {
+            "scaleInDock": 1
+        },
+        "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/SOR/levels/stage_1/stage_1.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/SOR/levels/stage_1/stage_1.tmx": {
+            "scale": 2.4759375,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 160.3433043039253,
+                "y": 112.07875804619462
+            }
         },
         "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/street_fighter_2/Actors.tsx": {
             "scaleInDock": 1
@@ -29,8 +46,8 @@
             "scale": 3,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 474.99999999999994,
-                "y": 245.49999999999997
+                "x": 474.3333333333333,
+                "y": 244.83333333333331
             }
         },
         "levels/adon/adon_stage.tileset.tsx": {
@@ -112,10 +129,11 @@
         }
     },
     "openFiles": [
-        "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/street_fighter_2/stages/ken/ken_stage.tmx"
+        "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/SOR/levels/stage_1/stage_1.tmx"
     ],
     "project": "street_fighter.tiled-project",
     "recentFiles": [
+        "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/SOR/levels/stage_1/stage_1.tmx",
         "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/street_fighter_2/stages/ken/ken_stage.tmx",
         "levels/birdie/birdie_stage.tmx",
         "levels/adon/adon_stage.tmx",

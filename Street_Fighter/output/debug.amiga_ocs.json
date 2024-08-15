@@ -2903,7 +2903,7 @@
     {
       "CodeBlock": "startup",
       "Name": "stage",
-      "DefaultValue": "9",
+      "DefaultValue": "5",
       "Index": 234,
       "MemoryOffset": 446
     }
