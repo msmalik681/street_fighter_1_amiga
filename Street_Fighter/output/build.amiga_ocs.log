@@ -1,4 +1,4 @@
-Compiled on 15 August 2024 11:41:31
+Compiled on 16 August 2024 15:58:45
 Version string: SE2024.2.240723.10.35.EX
 
 === Misc ===
@@ -48,8 +48,7 @@ Panel wining_panel Original size 18300 Crunched size 18300
 Project virtual machine (codeblocks) Original size 48004 Crunched size 48004
 Header data for map adon_stage Original size 8000 Crunched size 8000
 Tile data for map adon_stage (mem restrictions:None) Original size 4454 Crunched size 4454
-Background for map adon_stage Original size 1684 Crunched size 1684
-Parallax for map adon_stage Original size 28676 Crunched size 28676
+Background for map adon_stage Original size 1396 Crunched size 1396
 Header data for map adon_vs_screen Original size 8000 Crunched size 8000
 Tile data for map adon_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
 Background for map adon_vs_screen Original size 1396 Crunched size 1396
@@ -113,7 +112,7 @@ Header data for map vs_screen_all Original size 8000 Crunched size 8000
 Tile data for map vs_screen_all (mem restrictions:None) Original size 6140 Crunched size 6140
 Background for map vs_screen_all Original size 1396 Crunched size 1396
 Asset bundle 0 (Core project asset bundle) Original size 284952 Crunched size 284952
-Asset bundle 1 (adon_stage) Original size 226166 Crunched size 226166
+Asset bundle 1 (adon_stage) Original size 228598 Crunched size 228598
 Asset bundle 3 (birdie_stage) Original size 287228 Crunched size 287228
 Asset bundle 5 (eagle_stage) Original size 192298 Crunched size 192298
 Asset bundle 7 (geki_stage) Original size 194174 Crunched size 194174

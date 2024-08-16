@@ -1,13 +1,14 @@
 {
-    "activeFile": "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/SOR/levels/stage_1/stage_1.tmx",
+    "activeFile": "",
     "expandedProjectPaths": [
-        "levels/geki",
-        "levels/eagle",
-        "levels/adon",
-        "levels/gen",
-        "templates",
         "levels/birdie",
-        "levels"
+        "levels/gen",
+        ".",
+        "levels/adon",
+        "templates",
+        "levels/eagle",
+        "levels",
+        "levels/geki"
     ],
     "fileStates": {
         "Actors.tsx": {
@@ -30,7 +31,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 160.3433043039253,
-                "y": 112.07875804619462
+                "y": 111.67487062981195
             }
         },
         "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/street_fighter_2/Actors.tsx": {
@@ -54,11 +55,11 @@
             "scaleInDock": 1
         },
         "levels/adon/adon_stage.tmx": {
-            "scale": 4,
-            "selectedLayer": 2,
+            "scale": 1,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 353.5,
-                "y": 161.375
+                "x": 311,
+                "y": -167.5
             }
         },
         "levels/birdie/birdie_stage.tileset.tsx": {
@@ -68,8 +69,8 @@
             "scale": 5.5,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 380.3636363636364,
-                "y": 162.8181818181818
+                "x": 380,
+                "y": 185.36363636363637
             }
         },
         "levels/eagle/eagle_stage.tileset.tsx": {
@@ -129,14 +130,13 @@
         }
     },
     "openFiles": [
-        "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/SOR/levels/stage_1/stage_1.tmx"
     ],
     "project": "street_fighter.tiled-project",
     "recentFiles": [
+        "levels/adon/adon_stage.tmx",
+        "levels/birdie/birdie_stage.tmx",
         "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/SOR/levels/stage_1/stage_1.tmx",
         "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/street_fighter_2/stages/ken/ken_stage.tmx",
-        "levels/birdie/birdie_stage.tmx",
-        "levels/adon/adon_stage.tmx",
         "levels/eagle/eagle_stage.tmx",
         "levels/geki/geki_stage.tmx",
         "levels/lee/lee_stage.tmx",
