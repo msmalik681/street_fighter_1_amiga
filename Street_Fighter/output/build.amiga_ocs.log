@@ -1,4 +1,4 @@
-Compiled on 16 August 2024 15:58:45
+Compiled on 18 August 2024 10:44:08
 Version string: SE2024.2.240723.10.35.EX
 
 === Misc ===
@@ -112,7 +112,7 @@ Header data for map vs_screen_all Original size 8000 Crunched size 8000
 Tile data for map vs_screen_all (mem restrictions:None) Original size 6140 Crunched size 6140
 Background for map vs_screen_all Original size 1396 Crunched size 1396
 Asset bundle 0 (Core project asset bundle) Original size 284952 Crunched size 284952
-Asset bundle 1 (adon_stage) Original size 228598 Crunched size 228598
+Asset bundle 1 (adon_stage) Original size 229230 Crunched size 229230
 Asset bundle 3 (birdie_stage) Original size 287228 Crunched size 287228
 Asset bundle 5 (eagle_stage) Original size 192298 Crunched size 192298
 Asset bundle 7 (geki_stage) Original size 194174 Crunched size 194174
