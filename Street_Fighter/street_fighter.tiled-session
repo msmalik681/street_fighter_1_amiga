@@ -1,14 +1,14 @@
 {
     "activeFile": "",
     "expandedProjectPaths": [
+        "levels/eagle",
+        "levels/geki",
         "levels/birdie",
         "levels/gen",
-        ".",
         "levels/adon",
-        "templates",
-        "levels/eagle",
+        ".",
         "levels",
-        "levels/geki"
+        "templates"
     ],
     "fileStates": {
         "Actors.tsx": {
