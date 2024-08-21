@@ -81,7 +81,15 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -1838,7 +1846,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "e_dir",
-      "Expression": "1",
+      "Expression": "-1",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
