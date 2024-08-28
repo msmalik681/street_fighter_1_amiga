@@ -1,13 +1,13 @@
 {
     "activeFile": "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/SOR/levels/stage_1/stage_1.tmx",
     "expandedProjectPaths": [
-        "levels/geki",
-        "levels/birdie",
-        "levels",
         "templates",
-        "levels/adon",
+        "levels/geki",
         "levels/eagle",
-        "levels/gen"
+        "levels/gen",
+        "levels/birdie",
+        "levels/adon",
+        "levels"
     ],
     "fileStates": {
         "Actors.tsx": {
@@ -29,7 +29,7 @@
             "scale": 2.4759375,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 159.5355294711599,
+                "x": 159.13164205477725,
                 "y": 111.67487062981195
             }
         },
