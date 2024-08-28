@@ -1,14 +1,13 @@
 {
-    "activeFile": "",
+    "activeFile": "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/SOR/levels/stage_1/stage_1.tmx",
     "expandedProjectPaths": [
-        "levels/eagle",
         "levels/geki",
         "levels/birdie",
-        "levels/gen",
-        "levels/adon",
-        ".",
         "levels",
-        "templates"
+        "templates",
+        "levels/adon",
+        "levels/eagle",
+        "levels/gen"
     ],
     "fileStates": {
         "Actors.tsx": {
@@ -30,7 +29,7 @@
             "scale": 2.4759375,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 160.3433043039253,
+                "x": 159.5355294711599,
                 "y": 111.67487062981195
             }
         },
@@ -130,12 +129,13 @@
         }
     },
     "openFiles": [
+        "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/SOR/levels/stage_1/stage_1.tmx"
     ],
     "project": "street_fighter.tiled-project",
     "recentFiles": [
+        "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/SOR/levels/stage_1/stage_1.tmx",
         "levels/adon/adon_stage.tmx",
         "levels/birdie/birdie_stage.tmx",
-        "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/SOR/levels/stage_1/stage_1.tmx",
         "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/street_fighter_2/stages/ken/ken_stage.tmx",
         "levels/eagle/eagle_stage.tmx",
         "levels/geki/geki_stage.tmx",
