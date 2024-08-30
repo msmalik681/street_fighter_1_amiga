@@ -159,7 +159,7 @@
     "0"
   ],
   "ControlPort": 1,
-  "DataVersion": 4,
+  "DataVersion": 6,
   "ActorTag": "20",
   "AutoSpawn": false,
   "AutoNavigate": false,
@@ -194,5 +194,8 @@
   "DivertMeleeByProjectile": null,
   "DivertMeleeAgainstProjectile": null,
   "IsAttacker": null,
-  "TileID": 13
+  "PreviewParent": null,
+  "RotationEnabled": false,
+  "TileID": 13,
+  "MaxTimelineFrames": 50
 }
