@@ -1,4 +1,4 @@
-Compiled on 13 September 2024 17:55:05
+Compiled on 13 September 2024 19:41:16
 Version string: SE2024.2.240913.06.48.EX
 
 === Misc ===
@@ -48,7 +48,7 @@ Panel top_panel Original size 7968 Crunched size 7968
 Panel bobs top_panel Original size 7020 Crunched size 7020
 Panel wining_panel Original size 11884 Crunched size 11884
 Panel bobs wining_panel Original size 6412 Crunched size 6412
-Project virtual machine (codeblocks) Original size 48020 Crunched size 48020
+Project virtual machine (codeblocks) Original size 48022 Crunched size 48022
 Map actor data for adon_stage Original size 84 Crunched size 84
 Header data for map adon_stage Original size 836 Crunched size 836
 Tile data for map adon_stage (mem restrictions:None) Original size 4454 Crunched size 4454
@@ -169,43 +169,29 @@ Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 196632
-vm memory: 48020
+vm memory: 48022
 project memory: 60874
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 793512
-Accounted memory other: 420222
-Accounted memory total: 1213734
+Accounted memory other: 420224
+Accounted memory total: 1213736
 
 === Possibly unused animations ===
-adon_atk_hk_l
 adon_atk_hk_r
-adon_atk_hp_l
 adon_atk_hp_r
-adon_atk_low_hk_l
 adon_atk_low_hk_r
-adon_atk_lp_l
 adon_atk_lp_r
-adon_block_l
 adon_block_r
-adon_dead_l
 adon_dead_r
-adon_fall_l
 adon_fall_r
-adon_idle_l
-adon_jump_atk_l
 adon_jump_atk_r
-adon_jump_l
 adon_jump_r
-adon_pain_l
 adon_pain_r
-adon_waiting_l
 adon_waiting_r
-adon_walk_l
 adon_walk_r
-adon_win_l
 adon_win_r
 birdie_atk_hk_l
 birdie_atk_hp_l
@@ -407,7 +393,7 @@ player_take_damage: 1144
 player_ducking: 1026
 enemy_on_land: 872
 stage_reset: 736
-stage_reset_gosub: 618
+stage_reset_gosub: 620
 load_level: 568
 player_on_land: 562
 do_teleport: 424
