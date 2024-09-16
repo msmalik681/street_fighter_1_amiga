@@ -342,9 +342,9 @@
       "VariableExpansionMode": "Word",
       "Conditions": [
         {
-          "LeftSide": "dir",
+          "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "0",
+          "RightSide": "Look_Right",
           "ComparisonNext": "End",
           "IsValid": true
         }

@@ -270,7 +270,7 @@
         {
           "LeftSide": "player_animation",
           "Comparison": "NotEquals",
-          "RightSide": "ryu_tatsu_r + dir",
+          "RightSide": "ryu_tatsu",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -2179,7 +2179,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
@@ -2211,7 +2213,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "e_ani_block_low + e_dir",
+      "Animation": "e_ani_block_low",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -2786,7 +2788,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
@@ -2818,7 +2822,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "e_ani_block + e_dir",
+      "Animation": "e_ani_block",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -3911,7 +3915,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
@@ -3943,7 +3949,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "e_ani_pain + e_dir",
+      "Animation": "e_ani_pain",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -4874,7 +4880,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
@@ -4906,7 +4914,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "e_ani_fall + e_dir",
+      "Animation": "e_ani_fall",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

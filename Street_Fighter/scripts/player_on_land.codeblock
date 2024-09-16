@@ -181,7 +181,7 @@
         {
           "LeftSide": "player_animation",
           "Comparison": "Equals",
-          "RightSide": "ryu_dead_r + dir",
+          "RightSide": "ryu_dead",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -714,7 +714,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -746,7 +748,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "ryu_hurt_stand_r + dir",
+      "Animation": "ryu_hurt_stand_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -1240,7 +1242,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -1272,7 +1276,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "ryu_dead_r + dir",
+      "Animation": "ryu_dead_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -2574,7 +2578,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -2606,7 +2612,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "ryu_hurt_stand_r + dir",
+      "Animation": "ryu_hurt_stand_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

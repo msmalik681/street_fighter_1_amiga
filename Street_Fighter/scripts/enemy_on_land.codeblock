@@ -255,14 +255,16 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "lee_atk_special_01_r + e_dir",
+          "RightSide": "lee_atk_special_01",
           "ComparisonNext": "End",
           "IsValid": true
         }
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
@@ -294,7 +296,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "lee_atk_special_02_r + e_dir",
+      "Animation": "lee_atk_special_02_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

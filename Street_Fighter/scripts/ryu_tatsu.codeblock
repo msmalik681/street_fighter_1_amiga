@@ -982,7 +982,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -1014,7 +1016,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "ryu_tatsu_end_r + dir",
+      "Animation": "ryu_tatsu_end_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
