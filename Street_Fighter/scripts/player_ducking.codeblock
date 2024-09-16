@@ -1691,7 +1691,7 @@
         {
           "LeftSide": "player_animation",
           "Comparison": "NotEquals",
-          "RightSide": "ryu_waiting_r + dir",
+          "RightSide": "ryu_waiting",
           "ComparisonNext": "End",
           "IsValid": true
         }
