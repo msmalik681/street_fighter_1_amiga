@@ -20010,955 +20010,955 @@
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 12,
+      "CodeBlockLine": 11,
       "MemoryOffset": 32718,
       "Description": "If player_var1 == 1 AND control1_buttons == 1 ELSE GOTO 00033208"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 14,
+      "CodeBlockLine": 13,
       "MemoryOffset": 32746,
       "Description": "If key_timelimit > key_timer ELSE GOTO 00032766"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 15,
+      "CodeBlockLine": 14,
       "MemoryOffset": 32760,
       "Description": "GOTO 'RESET_KEYS'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 17,
+      "CodeBlockLine": 16,
       "MemoryOffset": 32766,
       "Description": "If key_input_1 == 3 AND key_input_2 == 2 AND key_input_3 == 3"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 18,
+      "CodeBlockLine": 17,
       "MemoryOffset": 32802,
       "Description": "Set 'player_var1' to '7'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 19,
+      "CodeBlockLine": 18,
       "MemoryOffset": 32812,
       "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 19,
+      "CodeBlockLine": 18,
       "MemoryOffset": 32818,
       "Description": "Raw expression 'ryu_dragon_punch_r'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 19,
+      "CodeBlockLine": 18,
       "MemoryOffset": 32824,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 19,
+      "CodeBlockLine": 18,
       "MemoryOffset": 32830,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 19,
+      "CodeBlockLine": 18,
       "MemoryOffset": 32836,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 19,
+      "CodeBlockLine": 18,
       "MemoryOffset": 32844,
       "Description": "Core operation'ActorAutoFlip'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 20,
+      "CodeBlockLine": 19,
       "MemoryOffset": 32852,
       "Description": "Set 'player_flash_x' to '45 * velo'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 21,
+      "CodeBlockLine": 20,
       "MemoryOffset": 32862,
       "Description": "Set 'player_flash_y' to '87'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 22,
+      "CodeBlockLine": 21,
       "MemoryOffset": 32868,
       "Description": "GOTO 'RESET_KEYS'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 23,
+      "CodeBlockLine": 22,
       "MemoryOffset": 32874,
       "Description": "GOTO '00033208'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 23,
+      "CodeBlockLine": 22,
       "MemoryOffset": 32880,
       "Description": "If key_input_2 == 2 AND key_input_3 == 3"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 24,
+      "CodeBlockLine": 23,
       "MemoryOffset": 32904,
       "Description": "FIREBALL"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 25,
+      "CodeBlockLine": 24,
       "MemoryOffset": 32904,
       "Description": "Set 'player_var1' to '5'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 26,
+      "CodeBlockLine": 25,
       "MemoryOffset": 32914,
       "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 26,
+      "CodeBlockLine": 25,
       "MemoryOffset": 32920,
       "Description": "Raw expression 'ryu_fireball_r'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 26,
+      "CodeBlockLine": 25,
       "MemoryOffset": 32926,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 26,
+      "CodeBlockLine": 25,
       "MemoryOffset": 32932,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 26,
+      "CodeBlockLine": 25,
       "MemoryOffset": 32938,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 26,
+      "CodeBlockLine": 25,
       "MemoryOffset": 32946,
       "Description": "Core operation'ActorAutoFlip'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 27,
+      "CodeBlockLine": 26,
       "MemoryOffset": 32954,
       "Description": "GOTO 'RESET_KEYS'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 28,
+      "CodeBlockLine": 27,
       "MemoryOffset": 32960,
       "Description": "GOTO '00033208'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 28,
+      "CodeBlockLine": 27,
       "MemoryOffset": 32966,
       "Description": "If key_input_1 == 2 AND key_input_2 == 3 AND key_input_3 == 0"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 29,
+      "CodeBlockLine": 28,
       "MemoryOffset": 33002,
       "Description": "GOTO 'FIREBALL'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 30,
+      "CodeBlockLine": 29,
       "MemoryOffset": 33008,
       "Description": "GOTO '00033208'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 30,
+      "CodeBlockLine": 29,
       "MemoryOffset": 33014,
       "Description": "If key_input_2 == 2 AND key_input_3 == 1"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 31,
+      "CodeBlockLine": 30,
       "MemoryOffset": 33038,
       "Description": "TATSU"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 33,
+      "CodeBlockLine": 32,
       "MemoryOffset": 33038,
       "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 33,
+      "CodeBlockLine": 32,
       "MemoryOffset": 33044,
       "Description": "Raw expression 'player_number + 1'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 33,
+      "CodeBlockLine": 32,
       "MemoryOffset": 33054,
       "Description": "Raw expression 'True'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 33,
+      "CodeBlockLine": 32,
       "MemoryOffset": 33060,
       "Description": "Raw expression 'False'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 33,
+      "CodeBlockLine": 32,
       "MemoryOffset": 33066,
       "Description": "Core operation'ActorSetType'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 34,
+      "CodeBlockLine": 33,
       "MemoryOffset": 33074,
       "Description": "Set 'atk_damage' to 'p_damage_light'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 35,
+      "CodeBlockLine": 34,
       "MemoryOffset": 33080,
       "Description": "Set 'player_var1' to '7'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 36,
+      "CodeBlockLine": 35,
       "MemoryOffset": 33090,
       "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 36,
+      "CodeBlockLine": 35,
       "MemoryOffset": 33096,
       "Description": "Raw expression 'ryu_tatsu_r'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 36,
+      "CodeBlockLine": 35,
       "MemoryOffset": 33102,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 36,
+      "CodeBlockLine": 35,
       "MemoryOffset": 33108,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 36,
+      "CodeBlockLine": 35,
       "MemoryOffset": 33114,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 36,
+      "CodeBlockLine": 35,
       "MemoryOffset": 33122,
       "Description": "Core operation'ActorAutoFlip'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 37,
+      "CodeBlockLine": 36,
       "MemoryOffset": 33130,
       "Description": "GOTO 'RESET_KEYS'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 38,
+      "CodeBlockLine": 37,
       "MemoryOffset": 33136,
       "Description": "GOTO '00033208'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 38,
+      "CodeBlockLine": 37,
       "MemoryOffset": 33142,
       "Description": "If key_input_1 == 2 AND key_input_2 == 1 AND key_input_3 == 0"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 39,
+      "CodeBlockLine": 38,
       "MemoryOffset": 33178,
       "Description": "GOTO 'TATSU'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 40,
+      "CodeBlockLine": 39,
       "MemoryOffset": 33184,
       "Description": "GOTO '00033208'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 41,
+      "CodeBlockLine": 40,
       "MemoryOffset": 33190,
       "Description": "RESET_KEYS"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 42,
+      "CodeBlockLine": 41,
       "MemoryOffset": 33190,
       "Description": "Set 'key_input_1' to '0'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 43,
+      "CodeBlockLine": 42,
       "MemoryOffset": 33196,
       "Description": "Set 'key_input_2' to '0'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 44,
+      "CodeBlockLine": 43,
       "MemoryOffset": 33202,
       "Description": "Set 'key_input_3' to '0'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 51,
+      "CodeBlockLine": 50,
       "MemoryOffset": 33208,
       "Description": "If player_var1 == 1 ELSE GOTO 00033582"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 52,
+      "CodeBlockLine": 51,
       "MemoryOffset": 33224,
       "Description": "If control1_buttons == 1 ELSE GOTO 00033426"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 53,
+      "CodeBlockLine": 52,
       "MemoryOffset": 33236,
       "Description": "Set 'player_var1' to '5'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 54,
+      "CodeBlockLine": 53,
       "MemoryOffset": 33246,
       "Description": "If control1_x is not zero"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 55,
+      "CodeBlockLine": 54,
       "MemoryOffset": 33256,
       "Description": "Raw expression 'sfx_ryu_grunt'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 55,
+      "CodeBlockLine": 54,
       "MemoryOffset": 33262,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 55,
+      "CodeBlockLine": 54,
       "MemoryOffset": 33268,
       "Description": "Raw expression ''"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 55,
+      "CodeBlockLine": 54,
       "MemoryOffset": 33274,
       "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 56,
+      "CodeBlockLine": 55,
       "MemoryOffset": 33282,
       "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 56,
+      "CodeBlockLine": 55,
       "MemoryOffset": 33288,
       "Description": "Raw expression 'ryu_atk_hk_r'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 56,
+      "CodeBlockLine": 55,
       "MemoryOffset": 33294,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 56,
+      "CodeBlockLine": 55,
       "MemoryOffset": 33300,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 56,
+      "CodeBlockLine": 55,
       "MemoryOffset": 33306,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 56,
+      "CodeBlockLine": 55,
       "MemoryOffset": 33314,
       "Description": "Core operation'ActorAutoFlip'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 57,
+      "CodeBlockLine": 56,
       "MemoryOffset": 33322,
       "Description": "Set 'player_flash_x' to '97 * velo'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 58,
+      "CodeBlockLine": 57,
       "MemoryOffset": 33332,
       "Description": "Set 'player_flash_y' to '80'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 59,
+      "CodeBlockLine": 58,
       "MemoryOffset": 33338,
       "Description": "GOTO '00033426'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 60,
+      "CodeBlockLine": 59,
       "MemoryOffset": 33344,
       "Description": "Raw expression 'sfx_ryu_grunt'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 60,
+      "CodeBlockLine": 59,
       "MemoryOffset": 33350,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 60,
+      "CodeBlockLine": 59,
       "MemoryOffset": 33356,
       "Description": "Raw expression ''"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 60,
+      "CodeBlockLine": 59,
       "MemoryOffset": 33362,
       "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 61,
+      "CodeBlockLine": 60,
       "MemoryOffset": 33370,
       "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 61,
+      "CodeBlockLine": 60,
       "MemoryOffset": 33376,
       "Description": "Raw expression 'ryu_atk_hp_r'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 61,
+      "CodeBlockLine": 60,
       "MemoryOffset": 33382,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 61,
+      "CodeBlockLine": 60,
       "MemoryOffset": 33388,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 61,
+      "CodeBlockLine": 60,
       "MemoryOffset": 33394,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 61,
+      "CodeBlockLine": 60,
       "MemoryOffset": 33402,
       "Description": "Core operation'ActorAutoFlip'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 62,
+      "CodeBlockLine": 61,
       "MemoryOffset": 33410,
       "Description": "Set 'player_flash_x' to '66 * velo'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 63,
+      "CodeBlockLine": 62,
       "MemoryOffset": 33420,
       "Description": "Set 'player_flash_y' to '80'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 67,
+      "CodeBlockLine": 66,
       "MemoryOffset": 33426,
       "Description": "If control1_buttons == 2 ELSE GOTO 00033582"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 68,
+      "CodeBlockLine": 67,
       "MemoryOffset": 33438,
       "Description": "Set 'player_var1' to '5'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 69,
+      "CodeBlockLine": 68,
       "MemoryOffset": 33448,
       "Description": "Set 'atk_damage' to 'p_damage_light'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 70,
+      "CodeBlockLine": 69,
       "MemoryOffset": 33454,
       "Description": "If control1_x is not zero"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 71,
+      "CodeBlockLine": 70,
       "MemoryOffset": 33464,
       "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 71,
+      "CodeBlockLine": 70,
       "MemoryOffset": 33470,
       "Description": "Raw expression 'ryu_atk_lk_r'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 71,
+      "CodeBlockLine": 70,
       "MemoryOffset": 33476,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 71,
+      "CodeBlockLine": 70,
       "MemoryOffset": 33482,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 71,
+      "CodeBlockLine": 70,
       "MemoryOffset": 33488,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 71,
+      "CodeBlockLine": 70,
       "MemoryOffset": 33496,
       "Description": "Core operation'ActorAutoFlip'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 72,
+      "CodeBlockLine": 71,
       "MemoryOffset": 33504,
       "Description": "Set 'player_flash_x' to '49 * velo'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 73,
+      "CodeBlockLine": 72,
       "MemoryOffset": 33514,
       "Description": "Set 'player_flash_y' to '73'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 74,
+      "CodeBlockLine": 73,
       "MemoryOffset": 33520,
       "Description": "GOTO '00033582'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 75,
+      "CodeBlockLine": 74,
       "MemoryOffset": 33526,
       "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 75,
+      "CodeBlockLine": 74,
       "MemoryOffset": 33532,
       "Description": "Raw expression 'ryu_atk_lp_r'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 75,
+      "CodeBlockLine": 74,
       "MemoryOffset": 33538,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 75,
+      "CodeBlockLine": 74,
       "MemoryOffset": 33544,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 75,
+      "CodeBlockLine": 74,
       "MemoryOffset": 33550,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 75,
+      "CodeBlockLine": 74,
       "MemoryOffset": 33558,
       "Description": "Core operation'ActorAutoFlip'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 76,
+      "CodeBlockLine": 75,
       "MemoryOffset": 33566,
       "Description": "Set 'player_flash_x' to '61 * velo'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 77,
+      "CodeBlockLine": 76,
       "MemoryOffset": 33576,
       "Description": "Set 'player_flash_y' to '77'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 84,
+      "CodeBlockLine": 83,
       "MemoryOffset": 33582,
       "Description": "If player_var1 == 2 OR player_var1 == 8 ELSE GOTO 00033930"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 85,
+      "CodeBlockLine": 84,
       "MemoryOffset": 33614,
       "Description": "If player_isonplatform == false ELSE GOTO 00033930"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 86,
+      "CodeBlockLine": 85,
       "MemoryOffset": 33630,
       "Description": "If control1_buttons == 1 ELSE GOTO 00033774"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 87,
+      "CodeBlockLine": 86,
       "MemoryOffset": 33642,
       "Description": "Set 'player_var1' to '7'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 88,
+      "CodeBlockLine": 87,
       "MemoryOffset": 33652,
       "Description": "Set 'player_var1' to '5'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 89,
+      "CodeBlockLine": 88,
       "MemoryOffset": 33662,
       "Description": "If control1_x is not zero"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 90,
+      "CodeBlockLine": 89,
       "MemoryOffset": 33672,
       "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 90,
+      "CodeBlockLine": 89,
       "MemoryOffset": 33678,
       "Description": "Raw expression 'ryu_jump_atk_hk_r'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 90,
+      "CodeBlockLine": 89,
       "MemoryOffset": 33684,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 90,
+      "CodeBlockLine": 89,
       "MemoryOffset": 33690,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 90,
+      "CodeBlockLine": 89,
       "MemoryOffset": 33696,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 90,
+      "CodeBlockLine": 89,
       "MemoryOffset": 33704,
       "Description": "Core operation'ActorAutoFlip'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 91,
+      "CodeBlockLine": 90,
       "MemoryOffset": 33712,
       "Description": "Set 'player_flash_x' to '75 * velo'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 92,
+      "CodeBlockLine": 91,
       "MemoryOffset": 33722,
       "Description": "Set 'player_flash_y' to '84'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 93,
+      "CodeBlockLine": 92,
       "MemoryOffset": 33728,
       "Description": "GOTO '00033774'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 94,
+      "CodeBlockLine": 93,
       "MemoryOffset": 33734,
       "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 94,
+      "CodeBlockLine": 93,
       "MemoryOffset": 33740,
       "Description": "Raw expression 'ryu_jump_atk_hp_r'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 94,
+      "CodeBlockLine": 93,
       "MemoryOffset": 33746,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 94,
+      "CodeBlockLine": 93,
       "MemoryOffset": 33752,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 94,
+      "CodeBlockLine": 93,
       "MemoryOffset": 33758,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 94,
+      "CodeBlockLine": 93,
       "MemoryOffset": 33766,
       "Description": "Core operation'ActorAutoFlip'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 98,
+      "CodeBlockLine": 97,
       "MemoryOffset": 33774,
       "Description": "If Test bit 1 on control1_buttons ELSE GOTO 00033930"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 99,
+      "CodeBlockLine": 98,
       "MemoryOffset": 33786,
       "Description": "Set 'player_var1' to '7'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 100,
+      "CodeBlockLine": 99,
       "MemoryOffset": 33796,
       "Description": "Set 'atk_damage' to 'p_damage_light'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 101,
+      "CodeBlockLine": 100,
       "MemoryOffset": 33802,
       "Description": "If control1_x is not zero"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 102,
+      "CodeBlockLine": 101,
       "MemoryOffset": 33812,
       "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 102,
+      "CodeBlockLine": 101,
       "MemoryOffset": 33818,
       "Description": "Raw expression 'ryu_jump_atk_lk_r'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 102,
+      "CodeBlockLine": 101,
       "MemoryOffset": 33824,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 102,
+      "CodeBlockLine": 101,
       "MemoryOffset": 33830,
       "Description": "Raw expression '2'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 102,
+      "CodeBlockLine": 101,
       "MemoryOffset": 33836,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 102,
+      "CodeBlockLine": 101,
       "MemoryOffset": 33844,
       "Description": "Core operation'ActorAutoFlip'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 103,
+      "CodeBlockLine": 102,
       "MemoryOffset": 33852,
       "Description": "Set 'player_flash_x' to '80 * velo'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 104,
+      "CodeBlockLine": 103,
       "MemoryOffset": 33862,
       "Description": "Set 'player_flash_y' to '42'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 105,
+      "CodeBlockLine": 104,
       "MemoryOffset": 33868,
       "Description": "GOTO '00033930'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 106,
+      "CodeBlockLine": 105,
       "MemoryOffset": 33874,
       "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 106,
+      "CodeBlockLine": 105,
       "MemoryOffset": 33880,
       "Description": "Raw expression 'ryu_jump_atk_lp_r'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 106,
+      "CodeBlockLine": 105,
       "MemoryOffset": 33886,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 106,
+      "CodeBlockLine": 105,
       "MemoryOffset": 33892,
       "Description": "Raw expression '2'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 106,
+      "CodeBlockLine": 105,
       "MemoryOffset": 33898,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 106,
+      "CodeBlockLine": 105,
       "MemoryOffset": 33906,
       "Description": "Core operation'ActorAutoFlip'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 107,
+      "CodeBlockLine": 106,
       "MemoryOffset": 33914,
       "Description": "Set 'player_flash_x' to '60 * velo'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 108,
+      "CodeBlockLine": 107,
       "MemoryOffset": 33924,
       "Description": "Set 'player_flash_y' to '60'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 117,
+      "CodeBlockLine": 116,
       "MemoryOffset": 33930,
       "Description": "If player_var1 == 1 ELSE GOTO 00034034"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 118,
+      "CodeBlockLine": 117,
       "MemoryOffset": 33946,
       "Description": "If control1_y == -1 ELSE GOTO 00034034"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 119,
+      "CodeBlockLine": 118,
       "MemoryOffset": 33958,
       "Description": "Set 'player_var1' to '2'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 120,
+      "CodeBlockLine": 119,
       "MemoryOffset": 33968,
       "Description": "Raw expression 'sfx_ryu_grunt'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 120,
+      "CodeBlockLine": 119,
       "MemoryOffset": 33974,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 120,
+      "CodeBlockLine": 119,
       "MemoryOffset": 33980,
       "Description": "Raw expression ''"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 120,
+      "CodeBlockLine": 119,
       "MemoryOffset": 33986,
       "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 121,
+      "CodeBlockLine": 120,
       "MemoryOffset": 33994,
       "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 121,
+      "CodeBlockLine": 120,
       "MemoryOffset": 34000,
       "Description": "Raw expression 'ryu_jump_r'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 121,
+      "CodeBlockLine": 120,
       "MemoryOffset": 34006,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 121,
+      "CodeBlockLine": 120,
       "MemoryOffset": 34012,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 121,
+      "CodeBlockLine": 120,
       "MemoryOffset": 34018,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 121,
+      "CodeBlockLine": 120,
       "MemoryOffset": 34026,
       "Description": "Core operation'ActorAutoFlip'"
     },
     {
       "CodeBlock": "player_ontimer",
-      "CodeBlockLine": 127,
+      "CodeBlockLine": 126,
       "MemoryOffset": 34034,
       "Description": "GOSUB TO 'PLAYER_DUCKING'"
     },
