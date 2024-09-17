@@ -1,5 +1,5 @@
-Compiled on 17 September 2024 08:12:42
-Version string: SE2024.2.240913.06.48.EX
+Compiled on 17 September 2024 14:31:24
+Version string: SE2024.2.240917.21.58.EX
 
 === Misc ===
 ImageFrames: 742
@@ -168,7 +168,7 @@ Map header cache memory: 0
 Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 196632
+EXE memory: 196520
 vm memory: 47990
 project memory: 60874
 memory reserved for active actors on screen (32): 4616
@@ -176,8 +176,8 @@ memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 793512
-Accounted memory other: 420192
-Accounted memory total: 1213704
+Accounted memory other: 420080
+Accounted memory total: 1213592
 
 === Possibly unused animations ===
 adon_atk_hk_r
