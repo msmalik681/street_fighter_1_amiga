@@ -342,7 +342,7 @@
       "VariableExpansionMode": "Word",
       "Conditions": [
         {
-          "LeftSide": "actor_animation",
+          "LeftSide": "player_lookdir",
           "Comparison": "Equals",
           "RightSide": "Look_Right",
           "ComparisonNext": "End",

@@ -3665,7 +3665,7 @@
         {
           "LeftSide": "player_animation",
           "Comparison": "Equals",
-          "RightSide": "ryu_dead_r + dir",
+          "RightSide": "ryu_dead",
           "ComparisonNext": "And",
           "IsValid": true
         },
@@ -3761,7 +3761,14 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "NotEquals",
-          "RightSide": "e_ani_waiting + e_dir",
+          "RightSide": "e_ani_waiting",
+          "ComparisonNext": "Or",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "actor_animation",
+          "Comparison": "NotEquals",
+          "RightSide": "e_ani_waiting - 1",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -3857,7 +3864,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
@@ -3889,7 +3898,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "e_ani_waiting + e_dir",
+      "Animation": "e_ani_waiting",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

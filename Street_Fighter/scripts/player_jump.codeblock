@@ -92,7 +92,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -124,7 +126,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "ryu_jump_forward_r + dir",
+      "Animation": "ryu_jump_forward_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

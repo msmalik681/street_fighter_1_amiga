@@ -263,7 +263,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "geki_atk_ninjastar_r + e_dir",
+          "RightSide": "geki_atk_ninjastar",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -613,9 +613,9 @@
       "VariableExpansionMode": "Word",
       "Conditions": [
         {
-          "LeftSide": "e_dir",
+          "LeftSide": "actor_lookdir",
           "Comparison": "Equals",
-          "RightSide": "0",
+          "RightSide": "Look_Right",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -1141,7 +1141,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "geki_jump_atk_ninjastar_r + e_dir",
+          "RightSide": "geki_jump_atk_ninjastar",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -1497,9 +1497,9 @@
       "VariableExpansionMode": "Word",
       "Conditions": [
         {
-          "LeftSide": "e_dir",
+          "LeftSide": "actor_lookdir",
           "Comparison": "Equals",
-          "RightSide": "0",
+          "RightSide": "Look_Right",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -1806,97 +1806,6 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": "",
-      "PushYPixels": "",
-      "LookDirection": "look_upleft",
-      "ResetMovement": true,
-      "ResetAnimations": true,
-      "ShootDirType": "actor_direction",
-      "Panel": "none",
-      "WaitForFireHit": false,
-      "Frames": "0",
-      "CameraX": "",
-      "CameraY": "",
-      "CameraBox": {
-        "Left": "0",
-        "Right": "0",
-        "Up": "0",
-        "Down": "0"
-      },
-      "LookAhead": {
-        "Left": "0",
-        "Right": "0",
-        "Up": "0",
-        "Down": "0"
-      },
-      "YRes": "",
-      "FrameWait": "",
-      "CameraFollowLeft": true,
-      "CameraFollowRight": true,
-      "CameraFollowUp": true,
-      "CameraFollowDown": true,
-      "CameraFollowInterpolateCamera": false,
-      "CameraFollowInterpolateSprites": false,
-      "ColorIndex": "0",
-      "Color": {
-        "r": 0,
-        "g": 0,
-        "b": 0,
-        "a": 255
-      },
-      "Sound": "",
-      "Music": "",
-      "MusicPos": "0",
-      "SpeakDelay": 1,
-      "Platform": "all",
-      "VariableType": "Variable",
-      "VariableExpansionMode": "Word",
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ]
-    },
-    {
-      "Values": {
-        "LoopAnimation": "True"
-      },
-      "DataVersion": 6,
-      "Category": "New",
-      "BasicOperationType": "CommentOnly",
-      "DisplayOperationType": "SetPanel",
-      "AudioOperationType": "PlaySound",
-      "ConditionType": "Condition",
-      "LevelOperationType": "LoadLevel",
-      "ActorOperationType": "SetPosition",
-      "DialogueOperationType": "Speak",
-      "DataOperationType": "Load",
-      "ControlOperationType": "JumpControls",
-      "PaletteOperationType": "SetColor",
-      "CoreType": "ActorSetType",
-      "ControlMode": "Joys_1",
-      "Goto": "",
-      "Comment": "",
-      "Variable": "none",
-      "Expression": "",
-      "Index": "0",
-      "Label": "",
-      "DiceSides": 2,
-      "Disabled": true,
-      "Breakpoint": false,
-      "Level": "none",
-      "NewBlock": "none",
-      "XPosition": "55 * e_velo + enemy_x",
-      "YPosition": "enemy_y - 52",
-      "TeleportName": "none",
-      "XFloat": null,
-      "YFloat": null,
-      "ActorType": "none",
-      "Animation": "geki_ninjastar",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -4489,7 +4398,8 @@
     },
     {
       "Values": {
-        "LoopAnimation": "True"
+        "LoopAnimation": "True",
+        "AutoFlip": "True"
       },
       "DataVersion": 6,
       "Category": "Actor",
@@ -4522,7 +4432,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_jump_atk_special1_r + e_dir",
+      "Animation": "joe_jump_atk_special1_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -5640,7 +5550,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "birdie_jump_r + e_dir",
+          "RightSide": "birdie_jump",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -5648,7 +5558,8 @@
     },
     {
       "Values": {
-        "LoopAnimation": "True"
+        "LoopAnimation": "True",
+        "AutoFlip": "True"
       },
       "DataVersion": 6,
       "Category": "Actor",
@@ -5681,7 +5592,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "birdie_jump_atk_r + e_dir",
+      "Animation": "birdie_jump_atk_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -5820,7 +5731,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "birdie_atk_special_r + e_dir",
+          "RightSide": "birdie_atk_special",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -5828,7 +5739,8 @@
     },
     {
       "Values": {
-        "LoopAnimation": "True"
+        "LoopAnimation": "True",
+        "AutoFlip": "True"
       },
       "DataVersion": 6,
       "Category": "Actor",
@@ -5861,7 +5773,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "birdie_atk_special2_r + e_dir",
+      "Animation": "birdie_atk_special2_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

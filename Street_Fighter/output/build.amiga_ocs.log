@@ -1,4 +1,4 @@
-Compiled on 17 September 2024 14:31:24
+Compiled on 18 September 2024 18:21:08
 Version string: SE2024.2.240917.21.58.EX
 
 === Misc ===
@@ -48,7 +48,7 @@ Panel top_panel Original size 7968 Crunched size 7968
 Panel bobs top_panel Original size 7020 Crunched size 7020
 Panel wining_panel Original size 11884 Crunched size 11884
 Panel bobs wining_panel Original size 6412 Crunched size 6412
-Project virtual machine (codeblocks) Original size 47990 Crunched size 47990
+Project virtual machine (codeblocks) Original size 47638 Crunched size 47638
 Map actor data for adon_stage Original size 84 Crunched size 84
 Header data for map adon_stage Original size 836 Crunched size 836
 Tile data for map adon_stage (mem restrictions:None) Original size 4454 Crunched size 4454
@@ -149,7 +149,7 @@ Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4400 Crunched size 4400
 Project Data Original size 60874 Crunched size 60874
-Project virtual machine redirects Original size 892 Crunched size 892
+Project virtual machine redirects Original size 880 Crunched size 880
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -169,46 +169,42 @@ Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 196520
-vm memory: 47990
+vm memory: 47638
 project memory: 60874
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 793512
-Accounted memory other: 420080
-Accounted memory total: 1213592
+Accounted memory other: 419728
+Accounted memory total: 1213240
 
 === Possibly unused animations ===
-adon_atk_hk_r
-adon_atk_hp_r
-adon_atk_low_hk_r
-adon_atk_lp_r
-adon_block_r
-adon_dead_r
-adon_fall_r
-adon_jump_atk_r
-adon_jump_r
-adon_pain_r
-adon_waiting_r
-adon_walk_r
-adon_win_r
+adon_atk_hk_l
+adon_atk_hp_l
+adon_atk_low_hk_l
+adon_atk_lp_l
+adon_block_l
+adon_dead_l
+adon_fall_l
+adon_jump_atk_l
+adon_jump_l
+adon_pain_l
+adon_waiting_l
+adon_walk_l
+adon_win_l
 birdie_atk_hk_l
 birdie_atk_hp_l
 birdie_atk_lp_l
 birdie_atk_mp_l
 birdie_atk_special_l
 birdie_atk_special2_land_l
-birdie_atk_special2_land_r
 birdie_atk_special2_l
-birdie_atk_special2_r
 birdie_block_l
 birdie_dead_l
 birdie_fall_l
 birdie_jump_atk_land_l
-birdie_jump_atk_land_r
 birdie_jump_atk_l
-birdie_jump_atk_r
 birdie_jump_l
 birdie_pain_l
 birdie_waiting_l
@@ -265,7 +261,6 @@ joe_hurt_stand_l
 joe_jump_atk_l
 joe_jump_atk_special_l
 joe_jump_atk_special1_l
-joe_jump_atk_special1_r
 joe_jump_l
 joe_waiting_l
 joe_walk_l
@@ -337,7 +332,6 @@ ryu_jump_atk_hp_l
 ryu_jump_atk_lk_l
 ryu_jump_atk_lp_l
 ryu_jump_forward_l
-ryu_jump_forward_r
 ryu_jump_l
 ryu_tatsu_end_l
 ryu_tatsu_l
@@ -361,52 +355,51 @@ sagat_win_r
 
 === Codeblocks by compiled size ===
 startup: 9414
-hitflash_update: 2276
+hitflash_update: 2060
 player_ontimer: 1432
-enemy_special: 1360
-enemy_ai: 1284
+enemy_special: 1362
+enemy_ai: 1304
 enemy_take_damage: 1254
 player_take_damage: 1152
 player_ducking: 1010
-enemy_on_land: 868
+enemy_on_land: 854
 stage_reset: 706
-stage_reset_gosub: 610
+stage_reset_gosub: 596
 load_level: 568
 player_on_land: 564
 do_teleport: 424
 camera: 414
 pre_startup: 366
-check_direction: 360
 ryu_tatsu: 360
 enemy_jump: 358
+check_direction: 334
 flipscreen_smooth: 310 (Unused?)
 key_input: 304
 load_next_level: 300 (Unused?)
 flipxymove: 278 (Unused?)
 block_find: 206 (Unused?)
 004_ryu_autogen_attack: 206
-fireball_hit: 204
 set_yresolution: 202 (Unused?)
+fireball_hit: 198
 waitforframes: 194
 check_talkpad: 192 (Unused?)
-ryu_fireball: 188
+stage_timer: 188
 005_ryu_duck_autogen_attack: 184
+ryu_fireball: 182
 block_count: 178 (Unused?)
+player_jump: 178
 pause: 176 (Unused?)
-player_jump: 176
 enemy_walk: 170
 flipymove: 162 (Unused?)
 ryu_dragon_punch: 160
 snap_to_screen: 158
 pre_quit: 152
 restart_this_level: 150 (Unused?)
-stage_timer: 148
 load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142
 win_sfx: 142
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
-test: 130 (Unused?)
 destroy_all_blocks: 128 (Unused?)
 pre_load_level: 122
 autogen_ryu_dragon_punch_l_1: 116

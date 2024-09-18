@@ -263,7 +263,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "retsu_atk_hk_r + e_dir",
+          "RightSide": "retsu_atk_hk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -530,7 +530,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "retsu_atk_hp_r + e_dir",
+          "RightSide": "retsu_atk_hp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -797,7 +797,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "retsu_atk_lk_r + e_dir",
+          "RightSide": "retsu_atk_lk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -1064,7 +1064,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "retsu_atk_lp_r + e_dir",
+          "RightSide": "retsu_atk_lp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -1331,7 +1331,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "retsu_duck_atk_hk_r + e_dir",
+          "RightSide": "retsu_duck_atk_hk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -1598,7 +1598,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "retsu_jump_atk_r + e_dir",
+          "RightSide": "retsu_jump_atk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -2035,7 +2035,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "geki_atk_hp_r + e_dir",
+          "RightSide": "geki_atk_hp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -2302,7 +2302,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "geki_atk_lk_r + e_dir",
+          "RightSide": "geki_atk_lk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -2569,7 +2569,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "geki_duck_atk_hp_r",
+          "RightSide": "geki_duck_atk_hp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -3095,7 +3095,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "joe_atk_hp_r + e_dir",
+          "RightSide": "joe_atk_hp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -3362,7 +3362,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "joe_atk_low_punch_r + e_dir",
+          "RightSide": "joe_atk_low_punch",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -3629,7 +3629,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "joe_atk_lp_r + e_dir",
+          "RightSide": "joe_atk_lp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -3896,14 +3896,14 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "joe_jump_atk_r + e_dir",
+          "RightSide": "joe_jump_atk",
           "ComparisonNext": "Or",
           "IsValid": true
         },
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "joe_jump_atk_special1_r + e_dir",
+          "RightSide": "joe_jump_atk_special1",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -4170,7 +4170,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "joe_atk_low_kick_r + e_dir",
+          "RightSide": "joe_atk_low_kick",
           "ComparisonNext": "And",
           "IsValid": true
         },
@@ -4444,7 +4444,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "joe_atk_low_kick_r + e_dir",
+          "RightSide": "joe_atk_low_kick",
           "ComparisonNext": "And",
           "IsValid": true
         },
@@ -4985,7 +4985,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "mike_atk_hp_r + e_dir",
+          "RightSide": "mike_atk_hp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -5252,7 +5252,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "mike_atk_lowp_r + e_dir",
+          "RightSide": "mike_atk_lowp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -5519,7 +5519,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "mike_atk_lp_r + e_dir",
+          "RightSide": "mike_atk_lp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -5786,7 +5786,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "mike_atk_mp_r + e_dir",
+          "RightSide": "mike_atk_mp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -6320,7 +6320,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "lee_jump_atk_r + e_dir",
+          "RightSide": "lee_jump_atk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -6587,7 +6587,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "lee_atk_hk_r + e_dir",
+          "RightSide": "lee_atk_hk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -6854,7 +6854,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "lee_atk_lk_r + e_dir",
+          "RightSide": "lee_atk_lk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -7121,7 +7121,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "lee_atk_low_hk_r + e_dir",
+          "RightSide": "lee_atk_low_hk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -7388,7 +7388,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "lee_atk_lp_r + e_dir",
+          "RightSide": "lee_atk_lp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -7655,7 +7655,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "lee_atk_special_02_r + e_dir",
+          "RightSide": "lee_atk_special_02",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -7922,7 +7922,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "lee_atk_hp_r + e_dir",
+          "RightSide": "lee_atk_hp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -8456,7 +8456,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "gen_atk_hk_r + e_dir",
+          "RightSide": "gen_atk_hk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -8723,7 +8723,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "gen_atk_hp_r + e_dir",
+          "RightSide": "gen_atk_hp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -8990,7 +8990,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "gen_atk_lk_r + e_dir",
+          "RightSide": "gen_atk_lk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -9257,7 +9257,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "gen_atk_lp_r + e_dir",
+          "RightSide": "gen_atk_lp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -9524,7 +9524,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "gen_atk_special_r + e_dir",
+          "RightSide": "gen_atk_special",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -9791,7 +9791,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "gen_jump_atk_r + e_dir",
+          "RightSide": "gen_jump_atk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -10325,7 +10325,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "birdie_atk_hk_r + e_dir",
+          "RightSide": "birdie_atk_hk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -10592,7 +10592,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "birdie_atk_hp_r + e_dir",
+          "RightSide": "birdie_atk_hp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -10859,7 +10859,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "birdie_atk_lp_r + e_dir",
+          "RightSide": "birdie_atk_lp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -11126,7 +11126,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "birdie_atk_mp_r + e_dir",
+          "RightSide": "birdie_atk_mp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -11393,7 +11393,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "birdie_atk_special_r + e_dir",
+          "RightSide": "birdie_atk_special",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -11660,7 +11660,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "birdie_jump_atk_r + e_dir",
+          "RightSide": "birdie_jump_atk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -12186,7 +12186,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "eagle_atk_hp_r + e_dir",
+          "RightSide": "eagle_atk_hp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -12453,7 +12453,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "eagle_atk_lp_r + e_dir",
+          "RightSide": "eagle_atk_lp",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -12720,7 +12720,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "eagle_atk_special_r + e_dir",
+          "RightSide": "eagle_atk_special",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -12987,7 +12987,7 @@
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
-          "RightSide": "eagle_jump_atk_r + e_dir",
+          "RightSide": "eagle_jump_atk",
           "ComparisonNext": "End",
           "IsValid": true
         }

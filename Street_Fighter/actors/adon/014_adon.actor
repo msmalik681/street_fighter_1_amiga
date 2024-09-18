@@ -10,21 +10,21 @@
     "UpLeft": "",
     "Up": "",
     "UpRight": "",
-    "Left": "joe_idle_l",
-    "Right": "joe_idle_r",
+    "Left": "adon_idle_l",
+    "Right": "adon_idle_r",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
   },
   "Moves": {
-    "UpLeft": "joe_idle_l",
+    "UpLeft": "adon_idle_l",
     "Up": "",
-    "UpRight": "joe_idle_r",
-    "Left": "joe_idle_l",
-    "Right": "joe_idle_r",
-    "DownLeft": "joe_idle_l",
+    "UpRight": "adon_idle_r",
+    "Left": "adon_idle_l",
+    "Right": "adon_idle_r",
+    "DownLeft": "adon_idle_l",
     "Down": "",
-    "DownRight": "joe_idle_r"
+    "DownRight": "adon_idle_r"
   },
   "Attacks": {
     "UpLeft": "",
@@ -191,6 +191,7 @@
     "PingPong": false
   },
   "DontSpawnIfTooMany": false,
+  "AutoClearChildren": false,
   "DivertMeleeByProjectile": null,
   "DivertMeleeAgainstProjectile": null,
   "IsAttacker": null,
