@@ -1,4 +1,4 @@
-Compiled on 20 September 2024 10:42:00
+Compiled on 20 September 2024 12:57:28
 Version string: SE2024.2.240919.19.15.EX
 
 === Misc ===
@@ -48,7 +48,7 @@ Panel top_panel Original size 7968 Crunched size 7968
 Panel bobs top_panel Original size 7020 Crunched size 7020
 Panel wining_panel Original size 11884 Crunched size 11884
 Panel bobs wining_panel Original size 6412 Crunched size 6412
-Project virtual machine (codeblocks) Original size 47824 Crunched size 47824
+Project virtual machine (codeblocks) Original size 47850 Crunched size 47850
 Map actor data for adon_stage Original size 84 Crunched size 84
 Header data for map adon_stage Original size 836 Crunched size 836
 Tile data for map adon_stage (mem restrictions:None) Original size 4454 Crunched size 4454
@@ -149,7 +149,7 @@ Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4400 Crunched size 4400
 Project Data Original size 60874 Crunched size 60874
-Project virtual machine redirects Original size 888 Crunched size 888
+Project virtual machine redirects Original size 892 Crunched size 892
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -169,15 +169,15 @@ Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 196484
-vm memory: 47824
+vm memory: 47850
 project memory: 60874
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 793512
-Accounted memory other: 419878
-Accounted memory total: 1213390
+Accounted memory other: 419904
+Accounted memory total: 1213416
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -351,7 +351,7 @@ sagat_win_r
 
 === Codeblocks by compiled size ===
 startup: 9414
-hitflash_update: 2252
+hitflash_update: 2288
 player_ontimer: 1432
 enemy_special: 1362
 enemy_ai: 1344
@@ -580,7 +580,6 @@ regenerate_screen: 58
 destroy_block: 52 (Unused?)
 return: 52 (Unused?)
 regenerate_screen_wait: 46
-enemy_atk_light: 42
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
 autogen_adon_atk_hk_l_0: 38
@@ -598,6 +597,7 @@ autogen_ryu_tatsu_l_1: 38
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
 clear_block_collision: 32
+enemy_atk_light: 32
 vm_registers: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)
