@@ -5177,7 +5177,9 @@
       "Conditions": []
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
@@ -5199,7 +5201,7 @@
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
-      "Disabled": true,
+      "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
       "NewBlock": "none",
@@ -5209,7 +5211,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "e_atk_01 + e_dir",
+      "Animation": "adon_atk_lp_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

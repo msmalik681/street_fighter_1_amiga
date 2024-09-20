@@ -1,5 +1,5 @@
-Compiled on 18 September 2024 18:21:08
-Version string: SE2024.2.240917.21.58.EX
+Compiled on 20 September 2024 10:42:00
+Version string: SE2024.2.240919.19.15.EX
 
 === Misc ===
 ImageFrames: 742
@@ -48,7 +48,7 @@ Panel top_panel Original size 7968 Crunched size 7968
 Panel bobs top_panel Original size 7020 Crunched size 7020
 Panel wining_panel Original size 11884 Crunched size 11884
 Panel bobs wining_panel Original size 6412 Crunched size 6412
-Project virtual machine (codeblocks) Original size 47638 Crunched size 47638
+Project virtual machine (codeblocks) Original size 47824 Crunched size 47824
 Map actor data for adon_stage Original size 84 Crunched size 84
 Header data for map adon_stage Original size 836 Crunched size 836
 Tile data for map adon_stage (mem restrictions:None) Original size 4454 Crunched size 4454
@@ -149,7 +149,7 @@ Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4400 Crunched size 4400
 Project Data Original size 60874 Crunched size 60874
-Project virtual machine redirects Original size 880 Crunched size 880
+Project virtual machine redirects Original size 888 Crunched size 888
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -168,16 +168,16 @@ Map header cache memory: 0
 Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 196520
-vm memory: 47638
+EXE memory: 196484
+vm memory: 47824
 project memory: 60874
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 793512
-Accounted memory other: 419728
-Accounted memory total: 1213240
+Accounted memory other: 419878
+Accounted memory total: 1213390
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -347,20 +347,16 @@ sagat_win_r
 002_camera
 004_ryu
 005_ryu_duck
-006_retsu
-007_geki
-008_joe
-009_mike
 015_sagat
 
 === Codeblocks by compiled size ===
 startup: 9414
-hitflash_update: 2060
+hitflash_update: 2252
 player_ontimer: 1432
 enemy_special: 1362
-enemy_ai: 1304
+enemy_ai: 1344
 enemy_take_damage: 1254
-player_take_damage: 1152
+player_take_damage: 1112
 player_ducking: 1010
 enemy_on_land: 854
 stage_reset: 706
@@ -368,19 +364,19 @@ stage_reset_gosub: 596
 load_level: 568
 player_on_land: 564
 do_teleport: 424
-camera: 414
+camera: 374
 pre_startup: 366
 ryu_tatsu: 360
 enemy_jump: 358
-check_direction: 334
+check_direction: 318
 flipscreen_smooth: 310 (Unused?)
 key_input: 304
 load_next_level: 300 (Unused?)
 flipxymove: 278 (Unused?)
+fireball_hit: 212
 block_find: 206 (Unused?)
 004_ryu_autogen_attack: 206
 set_yresolution: 202 (Unused?)
-fireball_hit: 198
 waitforframes: 194
 check_talkpad: 192 (Unused?)
 stage_timer: 188
@@ -389,9 +385,9 @@ ryu_fireball: 182
 block_count: 178 (Unused?)
 player_jump: 178
 pause: 176 (Unused?)
+ryu_dragon_punch: 172
 enemy_walk: 170
 flipymove: 162 (Unused?)
-ryu_dragon_punch: 160
 snap_to_screen: 158
 pre_quit: 152
 restart_this_level: 150 (Unused?)
@@ -574,6 +570,7 @@ quit: 70
 jump_actor: 66 (Unused?)
 load_panel_finish: 66
 autogen_adon_atk_lp_l_0: 64
+autogen_birdie_atk_lp_l_0: 64
 autogen_birdie_jump_l_1: 64
 unload_panel_bottom: 62
 unload_panel_top: 62
@@ -582,8 +579,8 @@ destroy_actor: 58
 regenerate_screen: 58
 destroy_block: 52 (Unused?)
 return: 52 (Unused?)
-enemy_xy_update: 50
 regenerate_screen_wait: 46
+enemy_atk_light: 42
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
 autogen_adon_atk_hk_l_0: 38
@@ -601,7 +598,6 @@ autogen_ryu_tatsu_l_1: 38
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
 clear_block_collision: 32
-enemy_atk_light: 32
 vm_registers: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)
