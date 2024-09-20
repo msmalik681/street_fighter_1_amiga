@@ -4,17 +4,19 @@
       "EventContainer": {
         "Events": [
           {
-            "FrameEventType": "Trigger",
+            "FrameEventType": "SetVariable",
             "Dir": "move_right",
-            "Codeblock": "hitflash_update",
+            "Codeblock": null,
             "Actor": "none",
             "Sound": "none",
+            "Variable": "enemy_flash_x",
             "Expression": null,
             "Tag": "FrameEvent0",
             "IsConditional": false,
             "OverrideDirection": false,
             "Animation": "none",
             "AnimationLoop": false,
+            "AutoFlip": false,
             "AnimationFrame": "0",
             "OverrideSpeed": false,
             "XFloat": null,
@@ -28,7 +30,7 @@
               "Width": 8,
               "Height": 8
             },
-            "HasTag": true,
+            "HasTag": false,
             "Color": {
               "r": 0,
               "g": 0,
@@ -62,17 +64,19 @@
       "EventContainer": {
         "Events": [
           {
-            "FrameEventType": "MeleeBox",
+            "FrameEventType": "SetVariable",
             "Dir": "move_right",
             "Codeblock": null,
             "Actor": "none",
             "Sound": "none",
-            "Expression": null,
-            "Tag": "FrameEvent0",
+            "Variable": "enemy_flash_x",
+            "Expression": "75 * e_velo",
+            "Tag": "FrameEvent1",
             "IsConditional": false,
             "OverrideDirection": false,
             "Animation": "none",
             "AnimationLoop": false,
+            "AutoFlip": false,
             "AnimationFrame": "0",
             "OverrideSpeed": false,
             "XFloat": null,
@@ -81,10 +85,90 @@
             "ColorG": 0,
             "ColorB": 255,
             "Box": {
-              "X": 24,
-              "Y": -72,
-              "Width": 38,
-              "Height": 22
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": false,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          },
+          {
+            "FrameEventType": "SetVariable",
+            "Dir": "move_right",
+            "Codeblock": null,
+            "Actor": "none",
+            "Sound": "none",
+            "Variable": "enemy_flash_y",
+            "Expression": "73",
+            "Tag": "FrameEvent2",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AutoFlip": false,
+            "AnimationFrame": "0",
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": false,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": true
+          },
+          {
+            "FrameEventType": "MeleeBox",
+            "Dir": "move_right",
+            "Codeblock": null,
+            "Actor": "none",
+            "Sound": "none",
+            "Variable": null,
+            "Expression": null,
+            "Tag": "FrameEvent3",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AutoFlip": false,
+            "AnimationFrame": "0",
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": 22,
+              "Y": -73,
+              "Width": 41,
+              "Height": 25
             },
             "HasTag": true,
             "Color": {
@@ -145,5 +229,6 @@
   "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0,
+  "AnimationTag": null,
   "LinkedMap": "adon_stage"
 }

@@ -1,5 +1,5 @@
-Compiled on 20 September 2024 12:57:28
-Version string: SE2024.2.240919.19.15.EX
+Compiled on 20 September 2024 14:14:27
+Version string: SE2024.2.240920.23.42.EX
 
 === Misc ===
 ImageFrames: 742
@@ -48,7 +48,7 @@ Panel top_panel Original size 7968 Crunched size 7968
 Panel bobs top_panel Original size 7020 Crunched size 7020
 Panel wining_panel Original size 11884 Crunched size 11884
 Panel bobs wining_panel Original size 6412 Crunched size 6412
-Project virtual machine (codeblocks) Original size 47850 Crunched size 47850
+Project virtual machine (codeblocks) Original size 47882 Crunched size 47882
 Map actor data for adon_stage Original size 84 Crunched size 84
 Header data for map adon_stage Original size 836 Crunched size 836
 Tile data for map adon_stage (mem restrictions:None) Original size 4454 Crunched size 4454
@@ -169,15 +169,15 @@ Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 196484
-vm memory: 47850
+vm memory: 47882
 project memory: 60874
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 793512
-Accounted memory other: 419904
-Accounted memory total: 1213416
+Accounted memory other: 419936
+Accounted memory total: 1213448
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -406,6 +406,10 @@ autogen_ryu_tatsu_r_4: 114
 fadein: 112
 waitforfiredown: 110
 unload_panel: 106
+autogen_adon_atk_lp_l_1: 106
+autogen_adon_atk_lp_l_3: 106
+autogen_adon_atk_lp_r_1: 106
+autogen_adon_atk_lp_r_3: 106
 enemy_jump_attack: 106
 autogen_eagle_atk_special_l_2: 102
 autogen_eagle_atk_special_r_2: 102
@@ -420,10 +424,6 @@ autogen_adon_atk_hp_l_1: 90
 autogen_adon_atk_hp_r_1: 90
 autogen_adon_atk_low_hk_l_1: 90
 autogen_adon_atk_low_hk_r_1: 90
-autogen_adon_atk_lp_l_1: 90
-autogen_adon_atk_lp_l_3: 90
-autogen_adon_atk_lp_r_1: 90
-autogen_adon_atk_lp_r_3: 90
 autogen_adon_jump_atk_l_1: 90
 autogen_adon_jump_atk_l_3: 90
 autogen_adon_jump_atk_r_1: 90
@@ -569,7 +569,6 @@ wrap_screen_top: 72 (Unused?)
 quit: 70
 jump_actor: 66 (Unused?)
 load_panel_finish: 66
-autogen_adon_atk_lp_l_0: 64
 autogen_birdie_atk_lp_l_0: 64
 autogen_birdie_jump_l_1: 64
 unload_panel_bottom: 62
@@ -597,6 +596,7 @@ autogen_ryu_tatsu_l_1: 38
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
 clear_block_collision: 32
+autogen_adon_atk_lp_l_0: 32
 enemy_atk_light: 32
 vm_registers: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
