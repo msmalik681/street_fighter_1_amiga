@@ -185,7 +185,7 @@
           }
         ]
       },
-      "Duration": 30,
+      "Duration": 2,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
@@ -229,7 +229,7 @@
             "Actor": "none",
             "Sound": "none",
             "Variable": "enemy_flash_x",
-            "Expression": "68 * e_velo",
+            "Expression": "68",
             "Tag": "FrameEvent1",
             "IsConditional": false,
             "OverrideDirection": false,
@@ -260,7 +260,7 @@
             "Angle": 0.0,
             "HasActorAngle": false,
             "HasChildAngle": false,
-            "HasAngle": false
+            "HasAngle": true
           },
           {
             "FrameEventType": "SetVariable",
@@ -344,7 +344,7 @@
           }
         ]
       },
-      "Duration": 30,
+      "Duration": 2,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
