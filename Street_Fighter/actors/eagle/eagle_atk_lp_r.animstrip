@@ -64,7 +64,7 @@
       "EventContainer": {
         "Events": [
           {
-            "FrameEventType": "MeleeBox",
+            "FrameEventType": "SetVariable",
             "Dir": "move_right",
             "Codeblock": null,
             "Actor": "none",
@@ -90,7 +90,7 @@
               "Width": 62,
               "Height": 25
             },
-            "HasTag": true,
+            "HasTag": false,
             "Color": {
               "r": 0,
               "g": 0,
@@ -104,7 +104,7 @@
             "HasAngle": false
           },
           {
-            "FrameEventType": "Trigger",
+            "FrameEventType": "SetVariable",
             "Dir": "move_right",
             "Codeblock": null,
             "Actor": "none",
@@ -130,7 +130,7 @@
               "Width": 8,
               "Height": 8
             },
-            "HasTag": true,
+            "HasTag": false,
             "Color": {
               "r": 0,
               "g": 0,

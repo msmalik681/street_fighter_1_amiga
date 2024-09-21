@@ -2,43 +2,7 @@
   "Frames": [
     {
       "EventContainer": {
-        "Events": [
-          {
-            "FrameEventType": "Trigger",
-            "Dir": "move_right",
-            "Codeblock": "hitflash_update",
-            "Actor": "none",
-            "Sound": "none",
-            "Expression": null,
-            "Tag": "FrameEvent0",
-            "IsConditional": false,
-            "OverrideDirection": false,
-            "OverrideSpeed": false,
-            "XFloat": null,
-            "YFloat": null,
-            "ColorR": 0,
-            "ColorG": 0,
-            "ColorB": 255,
-            "Box": {
-              "X": -4,
-              "Y": -4,
-              "Width": 8,
-              "Height": 8
-            },
-            "HasTag": true,
-            "Color": {
-              "r": 0,
-              "g": 0,
-              "b": 255,
-              "a": 128
-            },
-            "Conditions": [],
-            "Angle": 0.0,
-            "HasActorAngle": false,
-            "HasChildAngle": false,
-            "HasAngle": false
-          }
-        ]
+        "Events": []
       },
       "Duration": 2,
       "Multiplexes": 0,
@@ -83,10 +47,15 @@
             "Codeblock": null,
             "Actor": "none",
             "Sound": "none",
+            "Variable": null,
             "Expression": null,
             "Tag": "none",
             "IsConditional": false,
             "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AutoFlip": false,
+            "AnimationFrame": "0",
             "OverrideSpeed": false,
             "XFloat": null,
             "YFloat": null,
@@ -98,6 +67,86 @@
               "Y": -91,
               "Width": 54,
               "Height": 33
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          },
+          {
+            "FrameEventType": "Trigger",
+            "Dir": "move_right",
+            "Codeblock": null,
+            "Actor": "none",
+            "Sound": "none",
+            "Variable": null,
+            "Expression": null,
+            "Tag": "FrameEvent1",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AutoFlip": false,
+            "AnimationFrame": "0",
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          },
+          {
+            "FrameEventType": "Trigger",
+            "Dir": "move_right",
+            "Codeblock": null,
+            "Actor": "none",
+            "Sound": "none",
+            "Variable": null,
+            "Expression": null,
+            "Tag": "FrameEvent2",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AutoFlip": false,
+            "AnimationFrame": "0",
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
             },
             "HasTag": true,
             "Color": {
@@ -196,5 +245,6 @@
   "AutoFlip": true,
   "Streamed": true,
   "PatternBuffer": 0,
+  "AnimationTag": null,
   "LinkedMap": "retsu_stage"
 }
