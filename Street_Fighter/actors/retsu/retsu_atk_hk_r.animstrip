@@ -122,20 +122,20 @@
             "HasAngle": false
           },
           {
-            "FrameEventType": "Trigger",
+            "FrameEventType": "MeleeBox",
             "Dir": "move_right",
             "Codeblock": null,
             "Actor": "none",
             "Sound": "none",
             "Variable": null,
             "Expression": null,
-            "Tag": "FrameEvent2",
+            "Tag": "none",
             "IsConditional": false,
             "OverrideDirection": false,
             "Animation": "none",
             "AnimationLoop": false,
             "AutoFlip": false,
-            "AnimationFrame": "0",
+            "AnimationFrame": "2",
             "OverrideSpeed": false,
             "XFloat": null,
             "YFloat": null,
@@ -143,10 +143,10 @@
             "ColorG": 0,
             "ColorB": 255,
             "Box": {
-              "X": -4,
-              "Y": -4,
-              "Width": 8,
-              "Height": 8
+              "X": 21,
+              "Y": -91,
+              "Width": 54,
+              "Height": 33
             },
             "HasTag": true,
             "Color": {

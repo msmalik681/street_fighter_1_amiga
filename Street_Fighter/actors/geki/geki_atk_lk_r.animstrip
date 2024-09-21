@@ -163,7 +163,7 @@
             "HasAngle": false
           },
           {
-            "FrameEventType": "Trigger",
+            "FrameEventType": "MeleeBox",
             "Dir": "move_right",
             "Codeblock": null,
             "Actor": "none",
@@ -184,10 +184,10 @@
             "ColorG": 0,
             "ColorB": 255,
             "Box": {
-              "X": -4,
-              "Y": -4,
-              "Width": 8,
-              "Height": 8
+              "X": 40,
+              "Y": -84,
+              "Width": 29,
+              "Height": 24
             },
             "HasTag": true,
             "Color": {
