@@ -129,13 +129,13 @@
             "Sound": "none",
             "Variable": null,
             "Expression": null,
-            "Tag": "none",
+            "Tag": "FrameEvent2",
             "IsConditional": false,
             "OverrideDirection": false,
             "Animation": "none",
             "AnimationLoop": false,
             "AutoFlip": false,
-            "AnimationFrame": "2",
+            "AnimationFrame": "0",
             "OverrideSpeed": false,
             "XFloat": null,
             "YFloat": null,
@@ -143,10 +143,10 @@
             "ColorG": 0,
             "ColorB": 255,
             "Box": {
-              "X": 21,
-              "Y": -91,
-              "Width": 54,
-              "Height": 33
+              "X": 18,
+              "Y": -89,
+              "Width": 57,
+              "Height": 26
             },
             "HasTag": true,
             "Color": {
