@@ -4,13 +4,13 @@
       "EventContainer": {
         "Events": [
           {
-            "FrameEventType": "Trigger",
+            "FrameEventType": "SetVariable",
             "Dir": "move_right",
             "Codeblock": null,
             "Actor": "none",
             "Sound": "none",
-            "Variable": null,
-            "Expression": null,
+            "Variable": "enemy_flash_x",
+            "Expression": "80",
             "Tag": "FrameEvent1",
             "IsConditional": false,
             "OverrideDirection": false,
@@ -30,7 +30,7 @@
               "Width": 8,
               "Height": 8
             },
-            "HasTag": true,
+            "HasTag": false,
             "Color": {
               "r": 0,
               "g": 0,
@@ -41,16 +41,16 @@
             "Angle": 0.0,
             "HasActorAngle": false,
             "HasChildAngle": false,
-            "HasAngle": false
+            "HasAngle": true
           },
           {
-            "FrameEventType": "Trigger",
+            "FrameEventType": "SetVariable",
             "Dir": "move_right",
             "Codeblock": null,
             "Actor": "none",
             "Sound": "none",
-            "Variable": null,
-            "Expression": null,
+            "Variable": "enemy_flash_y",
+            "Expression": "83",
             "Tag": "FrameEvent2",
             "IsConditional": false,
             "OverrideDirection": false,
@@ -70,7 +70,7 @@
               "Width": 8,
               "Height": 8
             },
-            "HasTag": true,
+            "HasTag": false,
             "Color": {
               "r": 0,
               "g": 0,
@@ -81,7 +81,7 @@
             "Angle": 0.0,
             "HasActorAngle": false,
             "HasChildAngle": false,
-            "HasAngle": false
+            "HasAngle": true
           },
           {
             "FrameEventType": "MeleeBox",
@@ -143,86 +143,6 @@
     {
       "EventContainer": {
         "Events": [
-          {
-            "FrameEventType": "Trigger",
-            "Dir": "move_right",
-            "Codeblock": null,
-            "Actor": "none",
-            "Sound": "none",
-            "Variable": null,
-            "Expression": null,
-            "Tag": "FrameEvent1",
-            "IsConditional": false,
-            "OverrideDirection": false,
-            "Animation": "none",
-            "AnimationLoop": false,
-            "AutoFlip": false,
-            "AnimationFrame": "0",
-            "OverrideSpeed": false,
-            "XFloat": null,
-            "YFloat": null,
-            "ColorR": 0,
-            "ColorG": 0,
-            "ColorB": 255,
-            "Box": {
-              "X": -4,
-              "Y": -4,
-              "Width": 8,
-              "Height": 8
-            },
-            "HasTag": true,
-            "Color": {
-              "r": 0,
-              "g": 0,
-              "b": 255,
-              "a": 128
-            },
-            "Conditions": [],
-            "Angle": 0.0,
-            "HasActorAngle": false,
-            "HasChildAngle": false,
-            "HasAngle": false
-          },
-          {
-            "FrameEventType": "Trigger",
-            "Dir": "move_right",
-            "Codeblock": null,
-            "Actor": "none",
-            "Sound": "none",
-            "Variable": null,
-            "Expression": null,
-            "Tag": "FrameEvent2",
-            "IsConditional": false,
-            "OverrideDirection": false,
-            "Animation": "none",
-            "AnimationLoop": false,
-            "AutoFlip": false,
-            "AnimationFrame": "0",
-            "OverrideSpeed": false,
-            "XFloat": null,
-            "YFloat": null,
-            "ColorR": 0,
-            "ColorG": 0,
-            "ColorB": 255,
-            "Box": {
-              "X": -4,
-              "Y": -4,
-              "Width": 8,
-              "Height": 8
-            },
-            "HasTag": true,
-            "Color": {
-              "r": 0,
-              "g": 0,
-              "b": 255,
-              "a": 128
-            },
-            "Conditions": [],
-            "Angle": 0.0,
-            "HasActorAngle": false,
-            "HasChildAngle": false,
-            "HasAngle": false
-          },
           {
             "FrameEventType": "MeleeBox",
             "Dir": "move_right",

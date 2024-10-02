@@ -61,12 +61,12 @@
       "EventContainer": {
         "Events": [
           {
-            "FrameEventType": "MeleeBox",
+            "FrameEventType": "SetVariable",
             "Dir": "move_right",
             "Codeblock": null,
             "Actor": "none",
             "Sound": "none",
-            "Variable": null,
+            "Variable": "enemy_flash_x",
             "Expression": null,
             "Tag": "FrameEvent0",
             "IsConditional": false,
@@ -87,7 +87,7 @@
               "Width": 41,
               "Height": 16
             },
-            "HasTag": true,
+            "HasTag": false,
             "Color": {
               "r": 0,
               "g": 0,
@@ -101,12 +101,12 @@
             "HasAngle": false
           },
           {
-            "FrameEventType": "Trigger",
+            "FrameEventType": "SetVariable",
             "Dir": "move_right",
             "Codeblock": null,
             "Actor": "none",
             "Sound": "none",
-            "Variable": null,
+            "Variable": "enemy_flash_y",
             "Expression": null,
             "Tag": "FrameEvent1",
             "IsConditional": false,
@@ -127,7 +127,7 @@
               "Width": 8,
               "Height": 8
             },
-            "HasTag": true,
+            "HasTag": false,
             "Color": {
               "r": 0,
               "g": 0,

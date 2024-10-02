@@ -61,13 +61,13 @@
       "EventContainer": {
         "Events": [
           {
-            "FrameEventType": "MeleeBox",
+            "FrameEventType": "SetVariable",
             "Dir": "move_right",
             "Codeblock": null,
             "Actor": "none",
             "Sound": "none",
-            "Variable": null,
-            "Expression": null,
+            "Variable": "enemy_flash_x",
+            "Expression": "68",
             "Tag": "FrameEvent0",
             "IsConditional": false,
             "OverrideDirection": false,
@@ -87,7 +87,7 @@
               "Width": 73,
               "Height": 43
             },
-            "HasTag": true,
+            "HasTag": false,
             "Color": {
               "r": 0,
               "g": 0,
@@ -98,16 +98,16 @@
             "Angle": 0.0,
             "HasActorAngle": false,
             "HasChildAngle": false,
-            "HasAngle": false
+            "HasAngle": true
           },
           {
-            "FrameEventType": "Trigger",
+            "FrameEventType": "SetVariable",
             "Dir": "move_right",
             "Codeblock": null,
             "Actor": "none",
             "Sound": "none",
-            "Variable": null,
-            "Expression": null,
+            "Variable": "enemy_flash_y",
+            "Expression": "85",
             "Tag": "FrameEvent1",
             "IsConditional": false,
             "OverrideDirection": false,
@@ -127,7 +127,7 @@
               "Width": 8,
               "Height": 8
             },
-            "HasTag": true,
+            "HasTag": false,
             "Color": {
               "r": 0,
               "g": 0,
@@ -138,7 +138,7 @@
             "Angle": 0.0,
             "HasActorAngle": false,
             "HasChildAngle": false,
-            "HasAngle": false
+            "HasAngle": true
           },
           {
             "FrameEventType": "MeleeBox",
