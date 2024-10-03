@@ -23,13 +23,13 @@
       "EventContainer": {
         "Events": [
           {
-            "FrameEventType": "MeleeBox",
+            "FrameEventType": "SetVariable",
             "Dir": "move_right",
             "Codeblock": null,
             "Actor": "none",
             "Sound": "none",
-            "Variable": null,
-            "Expression": null,
+            "Variable": "enemy_flash_x",
+            "Expression": "68",
             "Tag": "none",
             "IsConditional": false,
             "OverrideDirection": false,
@@ -49,7 +49,7 @@
               "Width": 57,
               "Height": 40
             },
-            "HasTag": true,
+            "HasTag": false,
             "Color": {
               "r": 0,
               "g": 0,
@@ -60,16 +60,16 @@
             "Angle": 0.0,
             "HasActorAngle": false,
             "HasChildAngle": false,
-            "HasAngle": false
+            "HasAngle": true
           },
           {
-            "FrameEventType": "Trigger",
+            "FrameEventType": "SetVariable",
             "Dir": "move_right",
             "Codeblock": null,
             "Actor": "none",
             "Sound": "none",
-            "Variable": null,
-            "Expression": null,
+            "Variable": "enemy_flash_y",
+            "Expression": "39",
             "Tag": "FrameEvent1",
             "IsConditional": false,
             "OverrideDirection": false,
@@ -89,7 +89,7 @@
               "Width": 8,
               "Height": 8
             },
-            "HasTag": true,
+            "HasTag": false,
             "Color": {
               "r": 0,
               "g": 0,
@@ -100,10 +100,10 @@
             "Angle": 0.0,
             "HasActorAngle": false,
             "HasChildAngle": false,
-            "HasAngle": false
+            "HasAngle": true
           },
           {
-            "FrameEventType": "Trigger",
+            "FrameEventType": "MeleeBox",
             "Dir": "move_right",
             "Codeblock": null,
             "Actor": "none",
@@ -124,10 +124,10 @@
             "ColorG": 0,
             "ColorB": 255,
             "Box": {
-              "X": -4,
-              "Y": -4,
-              "Width": 8,
-              "Height": 8
+              "X": 1,
+              "Y": -59,
+              "Width": 59,
+              "Height": 34
             },
             "HasTag": true,
             "Color": {
@@ -170,7 +170,7 @@
             "Sound": "none",
             "Variable": null,
             "Expression": null,
-            "Tag": "none",
+            "Tag": "FrameEvent2",
             "IsConditional": false,
             "OverrideDirection": false,
             "Animation": "none",
@@ -184,10 +184,10 @@
             "ColorG": 0,
             "ColorB": 255,
             "Box": {
-              "X": 3,
-              "Y": -62,
-              "Width": 57,
-              "Height": 40
+              "X": 1,
+              "Y": -59,
+              "Width": 59,
+              "Height": 34
             },
             "HasTag": true,
             "Color": {
