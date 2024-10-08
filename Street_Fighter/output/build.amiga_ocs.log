@@ -1,5 +1,5 @@
-Compiled on 04 October 2024 13:01:00
-Version string: SE2024.2.241003.19.15.EX
+Compiled on 08 October 2024 08:38:56
+Version string: SE2024.2.241006.23.12.EX
 
 === Misc ===
 ImageFrames: 740
@@ -18,8 +18,8 @@ Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 351
 Animations Data Size: 5616
-AnimationFrame Count: 1152
-AnimationFrame Data Size: 18432
+AnimationFrame Count: 1154
+AnimationFrame Data Size: 18464
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 5
@@ -132,7 +132,7 @@ Asset bundle 20 (sagat_vs_screen) Original size 18498 Crunched size 18498
 Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4404 Crunched size 4404
-Project Data Original size 60754 Crunched size 60754
+Project Data Original size 60786 Crunched size 60786
 Project virtual machine redirects Original size 936 Crunched size 936
 
 === Accounted Memory Usage ===
@@ -152,16 +152,16 @@ Map header cache memory: 0
 Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 196508
+EXE memory: 196736
 vm memory: 48340
-project memory: 60754
+project memory: 60786
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 793512
-Accounted memory other: 420298
-Accounted memory total: 1213810
+Accounted memory other: 420558
+Accounted memory total: 1214070
 
 === Possibly unused animations ===
 adon_atk_hk_l
