@@ -1,5 +1,5 @@
-Compiled on 08 October 2024 08:38:56
-Version string: SE2024.2.241006.23.12.EX
+Compiled on 11 October 2024 08:32:32
+Version string: SE2024.2.241008.22.57.EX
 
 === Misc ===
 ImageFrames: 740
@@ -152,7 +152,7 @@ Map header cache memory: 0
 Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 196736
+EXE memory: 196684
 vm memory: 48340
 project memory: 60786
 memory reserved for active actors on screen (32): 4616
@@ -160,8 +160,8 @@ memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 793512
-Accounted memory other: 420558
-Accounted memory total: 1214070
+Accounted memory other: 420506
+Accounted memory total: 1214018
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -284,7 +284,6 @@ retsu_atk_lp_l
 retsu_block_low_l
 retsu_block_l
 retsu_dead_l
-retsu_duck_atk_hk_l
 retsu_duck_block_l
 retsu_duck_block_r
 retsu_duck_pain_l
