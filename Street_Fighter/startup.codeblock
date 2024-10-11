@@ -81,7 +81,15 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -5601,7 +5609,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "e_ani_jump_forward",
-      "Expression": "retsu_jump_r",
+      "Expression": "0",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
@@ -12298,7 +12306,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "e_ani_win",
-      "Expression": "geki_win",
+      "Expression": "geki_win_r",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
