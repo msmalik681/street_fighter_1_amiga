@@ -86,7 +86,7 @@
   "HideChildren": false,
   "LoopFrame": 0,
   "OnFinish": "",
-  "AutoFlip": false,
+  "AutoFlip": true,
   "Streamed": true,
   "PatternBuffer": 0,
   "AnimationTag": null,
