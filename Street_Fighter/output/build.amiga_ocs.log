@@ -1,5 +1,5 @@
-Compiled on 14 October 2024 11:58:22
-Version string: SE2024.2.241014.19.20.EX
+Compiled on 16 October 2024 13:08:54
+Version string: SE2024.2.241016.17.15.EX
 
 === Misc ===
 ImageFrames: 739
@@ -55,7 +55,7 @@ Panel top_panel Original size 7968 Crunched size 7968
 Panel bobs top_panel Original size 7020 Crunched size 7020
 Panel wining_panel Original size 11884 Crunched size 11884
 Panel bobs wining_panel Original size 6412 Crunched size 6412
-Project virtual machine (codeblocks) Original size 48348 Crunched size 48348
+Project virtual machine (codeblocks) Original size 48322 Crunched size 48322
 Map actor data for adon_stage Original size 84 Crunched size 84
 Header data for map adon_stage Original size 836 Crunched size 836
 Tile data for map adon_stage (mem restrictions:None) Original size 4454 Crunched size 4454
@@ -153,15 +153,15 @@ Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 196684
-vm memory: 48348
+vm memory: 48322
 project memory: 60790
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 793512
-Accounted memory other: 420518
-Accounted memory total: 1214030
+Accounted memory other: 420492
+Accounted memory total: 1214004
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -338,7 +338,7 @@ sagat_win_r
 startup: 8766
 enemy_special: 1410
 player_ontimer: 1320
-enemy_ai: 1304
+enemy_ai: 1278
 enemy_take_damage: 1246
 player_take_damage: 1124
 player_ducking: 946

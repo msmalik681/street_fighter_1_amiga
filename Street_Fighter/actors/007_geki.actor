@@ -191,6 +191,7 @@
     "PingPong": false
   },
   "DontSpawnIfTooMany": false,
+  "AutoClearChildren": false,
   "DivertMeleeByProjectile": null,
   "DivertMeleeAgainstProjectile": null,
   "IsAttacker": null,
