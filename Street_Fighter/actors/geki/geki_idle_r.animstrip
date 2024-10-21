@@ -20,6 +20,7 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
@@ -28,5 +29,6 @@
   "AutoFlip": true,
   "Streamed": true,
   "PatternBuffer": 0,
+  "AnimationTag": null,
   "LinkedMap": "geki_stage"
 }
