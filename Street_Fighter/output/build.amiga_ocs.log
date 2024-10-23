@@ -1,9 +1,9 @@
-Compiled on 22 October 2024 16:55:01
-Version string: SE2024.2.241022.17.07.EX
+Compiled on 23 October 2024 16:18:54
+Version string: SE2024.2.241023.17.59.EX
 
 === Misc ===
-ImageFrames: 786
-ImageFrame Data Size: 34584
+ImageFrames: 1228
+ImageFrame Data Size: 54032
 Maps and Asset Bundles Count: 22
 Maps and Asset Bundles Data Size: 264
 Actor Count: 16
@@ -49,13 +49,11 @@ Panel bobs bottom_panel Original size 8318 Crunched size 8318
 Parallax for background eagle_stage_plx Original size 26476 Crunched size 26476
 Panel (background)eagle_stage_plx Original size 1636 Crunched size 1636
 Panel (background)mike_stage_sky Original size 1296 Crunched size 1296
-Parallax for background sagat_stage_plx Original size 14340 Crunched size 14340
-Panel (background)sagat_stage_plx Original size 1564 Crunched size 1564
 Panel top_panel Original size 7968 Crunched size 7968
 Panel bobs top_panel Original size 7020 Crunched size 7020
 Panel wining_panel Original size 11884 Crunched size 11884
 Panel bobs wining_panel Original size 6412 Crunched size 6412
-Project virtual machine (codeblocks) Original size 49898 Crunched size 49898
+Project virtual machine (codeblocks) Original size 50304 Crunched size 50304
 Map actor data for adon_stage Original size 84 Crunched size 84
 Header data for map adon_stage Original size 836 Crunched size 836
 Tile data for map adon_stage (mem restrictions:None) Original size 4454 Crunched size 4454
@@ -101,9 +99,9 @@ Header data for map retsu_stage Original size 836 Crunched size 836
 Tile data for map retsu_stage (mem restrictions:None) Original size 4454 Crunched size 4454
 Header data for map retsu_vs_screen Original size 836 Crunched size 836
 Tile data for map retsu_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
-Map actor data for sagat_stage Original size 28 Crunched size 28
+Map actor data for sagat_stage Original size 84 Crunched size 84
 Header data for map sagat_stage Original size 836 Crunched size 836
-Tile data for map sagat_stage (mem restrictions:None) Original size 4196 Crunched size 4196
+Tile data for map sagat_stage (mem restrictions:None) Original size 4454 Crunched size 4454
 Header data for map sagat_vs_screen Original size 836 Crunched size 836
 Tile data for map sagat_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
 Header data for map vs_screen_all Original size 836 Crunched size 836
@@ -118,7 +116,7 @@ Asset bundle 11 (joe_stage) Original size 228928 Crunched size 228928
 Asset bundle 13 (lee_stage) Original size 253492 Crunched size 253492
 Asset bundle 15 (mike_stage) Original size 211548 Crunched size 211548
 Asset bundle 17 (retsu_stage) Original size 256048 Crunched size 256048
-Asset bundle 19 (sagat_stage) Original size 190262 Crunched size 190262
+Asset bundle 19 (sagat_stage) Original size 190194 Crunched size 190194
 Asset bundle 2 (adon_vs_screen) Original size 18734 Crunched size 18734
 Asset bundle 4 (birdie_vs_screen) Original size 18748 Crunched size 18748
 Asset bundle 6 (eagle_vs_screen) Original size 19150 Crunched size 19150
@@ -132,8 +130,8 @@ Asset bundle 20 (sagat_vs_screen) Original size 18498 Crunched size 18498
 Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4404 Crunched size 4404
-Project Data Original size 64490 Crunched size 64490
-Project virtual machine redirects Original size 996 Crunched size 996
+Project Data Original size 83938 Crunched size 83938
+Project virtual machine redirects Original size 1004 Crunched size 1004
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -153,15 +151,15 @@ Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 196960
-vm memory: 49898
-project memory: 64490
+vm memory: 50304
+project memory: 83938
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 793512
-Accounted memory other: 426044
-Accounted memory total: 1219556
+Accounted memory other: 445898
+Accounted memory total: 1239410
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -322,36 +320,22 @@ ryu_tatsu_end_l
 ryu_tatsu_l
 ryu_waiting_l
 sagat_atk_hk_l
-sagat_atk_hk_r
 sagat_atk_hp_l
-sagat_atk_hp_r
 sagat_atk_low_hk_l
-sagat_atk_low_hk_r
 sagat_atk_lp_l
-sagat_atk_lp_r
 sagat_block_l
-sagat_block_r
 sagat_dead_l
-sagat_dead_r
 sagat_fall_l
-sagat_fall_r
 sagat_fireball_l
-sagat_fireball_r
 sagat_pain_l
-sagat_pain_r
 sagat_tiger_knee_land_l
 sagat_tiger_knee_l
-sagat_tiger_knee_r
 sagat_tiger_l
-sagat_tiger_r
 sagat_waiting_l
-sagat_waiting_r
 sagat_walk_back_l
 sagat_walk_back_r
 sagat_walk_l
-sagat_walk_r
 sagat_win_l
-sagat_win_r
 
 === Possibly unused Actors ===
 002_camera
@@ -360,9 +344,9 @@ sagat_win_r
 
 === Codeblocks by compiled size ===
 startup: 8766
-enemy_special: 1508
+enemy_special: 1740
+enemy_ai: 1344
 player_ontimer: 1320
-enemy_ai: 1278
 enemy_take_damage: 1246
 player_take_damage: 1124
 enemy_on_land: 978
@@ -371,8 +355,8 @@ stage_reset: 706
 stage_reset_gosub: 602
 player_on_land: 564
 load_level: 550
+camera: 414
 do_teleport: 402
-camera: 374
 pre_startup: 366
 ryu_tatsu: 360
 enemy_jump: 358
@@ -388,16 +372,18 @@ block_find: 206 (Unused?)
 set_yresolution: 202 (Unused?)
 waitforframes: 194
 check_talkpad: 192 (Unused?)
-stage_timer: 188
 005_ryu_duck_autogen_attack: 184
 ryu_fireball: 182
 block_count: 178 (Unused?)
 player_jump: 178
 pause: 176 (Unused?)
 ryu_dragon_punch: 172
+autogen_sagat_tiger_knee_l_2: 168
+autogen_sagat_tiger_knee_r_2: 166
 flipymove: 162 (Unused?)
 snap_to_screen: 158
 pre_quit: 152
+stage_timer: 148
 load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142
@@ -411,9 +397,7 @@ pre_load_level: 122
 autogen_ryu_tatsu_l_4: 116
 waitforfireup: 114
 autogen_ryu_tatsu_r_4: 114
-autogen_sagat_tiger_knee_l_2: 114
 fadein: 112
-autogen_sagat_tiger_knee_r_2: 112
 waitforfiredown: 110
 unload_panel: 106
 enemy_jump_attack: 106

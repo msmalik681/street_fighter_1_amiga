@@ -3,6 +3,7 @@
   <properties>
     <property name="override_palette" type="file" value="sagat_pal.png" />
     <property name="parallax_path" type="file" value="" />
+    <property name="divert_timer" type="string" value="stage_timer" />
   </properties>
   <tileset firstgid="1" source="../../Actors.tsx" />
   <tileset firstgid="257" source="../../Blocks.tsx" />

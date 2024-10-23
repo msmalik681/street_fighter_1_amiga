@@ -147,7 +147,7 @@
   "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
-  "DivertPlatformLand": "enemy_on_land",
+  "DivertPlatformLand": "",
   "DivertTimer": "",
   "DivertTimerFrames": 1,
   "Vars": [
