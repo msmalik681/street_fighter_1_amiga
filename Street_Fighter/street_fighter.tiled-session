@@ -1,13 +1,16 @@
 {
     "activeFile": "",
     "expandedProjectPaths": [
-        "levels/gen",
-        "levels/eagle",
         "templates",
         "levels/adon",
-        "levels",
+        "levels/sagat",
+        "levels/geki",
         "levels/birdie",
-        "levels/geki"
+        ".",
+        "levels/retsu",
+        "levels",
+        "levels/gen",
+        "levels/eagle"
     ],
     "fileStates": {
         "Actors.tsx": {
@@ -126,12 +129,36 @@
                 "x": 384.82393032942076,
                 "y": 120.6815600151458
             }
+        },
+        "levels/retsu/retsu_stage.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "levels/retsu/retsu_stage.tmx": {
+            "scale": 1.0316406249999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 384.82393032942076,
+                "y": 120.6815600151458
+            }
+        },
+        "levels/sagat/sagat_stage.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "levels/sagat/sagat_stage.tmx": {
+            "scale": 1.0316406249999999,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 383.8546005301023,
+                "y": -9.20863309352518
+            }
         }
     },
     "openFiles": [
     ],
     "project": "street_fighter.tiled-project",
     "recentFiles": [
+        "levels/retsu/retsu_stage.tmx",
+        "levels/sagat/sagat_stage.tmx",
         "levels/geki/geki_stage.tmx",
         "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/SOR/levels/stage_1/stage_1.tmx",
         "levels/adon/adon_stage.tmx",

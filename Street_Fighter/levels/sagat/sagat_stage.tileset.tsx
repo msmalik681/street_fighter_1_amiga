@@ -11,8 +11,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -26,8 +26,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -41,8 +41,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -56,8 +56,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -71,8 +71,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -86,8 +86,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -101,8 +101,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -116,8 +116,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -131,8 +131,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -146,8 +146,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -161,8 +161,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -176,8 +176,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -191,8 +191,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -206,8 +206,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -221,8 +221,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -236,8 +236,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -251,8 +251,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -266,8 +266,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -281,8 +281,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -296,8 +296,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -311,8 +311,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -326,8 +326,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -341,8 +341,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -356,8 +356,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -371,8 +371,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -386,8 +386,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -401,8 +401,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -416,8 +416,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -431,8 +431,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -446,8 +446,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -461,8 +461,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -476,8 +476,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -491,8 +491,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -506,8 +506,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -521,8 +521,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -536,8 +536,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -551,8 +551,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -566,8 +566,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -581,8 +581,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -596,8 +596,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -611,8 +611,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -626,8 +626,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -641,8 +641,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -656,8 +656,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -671,8 +671,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -686,8 +686,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -701,8 +701,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -716,8 +716,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -731,8 +731,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -746,8 +746,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -761,8 +761,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -776,8 +776,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -791,8 +791,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -806,8 +806,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -821,8 +821,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -836,8 +836,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -851,8 +851,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -866,8 +866,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -881,8 +881,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -896,8 +896,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -911,8 +911,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -926,8 +926,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -941,8 +941,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -956,8 +956,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -971,8 +971,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -986,8 +986,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1001,8 +1001,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1016,8 +1016,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1031,8 +1031,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1046,8 +1046,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1061,8 +1061,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1076,8 +1076,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1091,8 +1091,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1106,8 +1106,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1121,8 +1121,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1136,8 +1136,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1151,8 +1151,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1166,8 +1166,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1181,8 +1181,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1196,8 +1196,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1211,8 +1211,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1226,8 +1226,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1241,8 +1241,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1256,8 +1256,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1271,8 +1271,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1286,8 +1286,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1301,8 +1301,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1316,8 +1316,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1331,8 +1331,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1346,8 +1346,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1361,8 +1361,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1376,8 +1376,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1391,8 +1391,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1406,8 +1406,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1421,8 +1421,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1436,8 +1436,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1451,8 +1451,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1466,8 +1466,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1481,8 +1481,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1496,8 +1496,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1511,8 +1511,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1526,8 +1526,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1541,8 +1541,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1556,8 +1556,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1571,8 +1571,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1586,8 +1586,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1601,8 +1601,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1616,8 +1616,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1631,8 +1631,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1646,8 +1646,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1661,8 +1661,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1676,8 +1676,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1691,8 +1691,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1706,8 +1706,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1721,8 +1721,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1736,8 +1736,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1751,8 +1751,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1766,8 +1766,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1781,8 +1781,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1796,8 +1796,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1811,8 +1811,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1826,8 +1826,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1841,8 +1841,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1856,8 +1856,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1871,8 +1871,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1886,8 +1886,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1901,8 +1901,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1916,8 +1916,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1931,8 +1931,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1946,8 +1946,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1961,8 +1961,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1976,8 +1976,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -1991,8 +1991,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2006,8 +2006,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2021,8 +2021,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2036,8 +2036,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2051,8 +2051,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2066,8 +2066,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2081,8 +2081,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2096,8 +2096,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2111,8 +2111,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2126,8 +2126,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2141,8 +2141,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2156,8 +2156,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2171,8 +2171,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2186,8 +2186,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2201,8 +2201,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2216,8 +2216,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2231,8 +2231,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2246,8 +2246,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2261,8 +2261,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2276,8 +2276,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2291,8 +2291,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2306,8 +2306,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2321,8 +2321,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2336,8 +2336,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2351,8 +2351,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2366,8 +2366,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2381,8 +2381,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2396,8 +2396,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2411,8 +2411,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2426,8 +2426,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2441,8 +2441,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2456,8 +2456,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2471,8 +2471,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2486,8 +2486,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2501,8 +2501,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2516,8 +2516,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2531,8 +2531,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2546,8 +2546,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2561,8 +2561,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2576,8 +2576,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2591,8 +2591,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2606,8 +2606,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2621,8 +2621,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2636,8 +2636,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2651,8 +2651,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2666,8 +2666,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2681,8 +2681,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2696,8 +2696,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2711,8 +2711,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2726,8 +2726,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2741,8 +2741,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2756,8 +2756,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2771,8 +2771,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2786,8 +2786,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2801,8 +2801,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2816,8 +2816,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2831,8 +2831,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2846,8 +2846,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2861,8 +2861,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2876,8 +2876,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2891,8 +2891,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2906,8 +2906,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2921,8 +2921,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2936,8 +2936,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2951,8 +2951,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2966,8 +2966,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2981,8 +2981,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -2996,8 +2996,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3011,8 +3011,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3026,8 +3026,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3041,8 +3041,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3056,8 +3056,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3071,8 +3071,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3086,8 +3086,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3101,8 +3101,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3116,8 +3116,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3131,8 +3131,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3146,8 +3146,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3161,8 +3161,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3176,8 +3176,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3191,8 +3191,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3206,8 +3206,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3221,8 +3221,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3236,8 +3236,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3251,8 +3251,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3266,8 +3266,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3281,8 +3281,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3296,8 +3296,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3311,8 +3311,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3326,8 +3326,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3341,8 +3341,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3356,8 +3356,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3371,8 +3371,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3386,8 +3386,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3401,8 +3401,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3416,8 +3416,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3431,8 +3431,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3446,8 +3446,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3461,8 +3461,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3476,8 +3476,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3491,8 +3491,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3506,8 +3506,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3521,8 +3521,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3536,8 +3536,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3551,8 +3551,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3566,8 +3566,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3581,8 +3581,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3596,8 +3596,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3611,8 +3611,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3626,8 +3626,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3641,8 +3641,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3656,8 +3656,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3671,8 +3671,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3686,8 +3686,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3701,8 +3701,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3716,8 +3716,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3731,8 +3731,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3746,8 +3746,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3761,8 +3761,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3776,8 +3776,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3791,8 +3791,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3806,8 +3806,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3821,8 +3821,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3836,8 +3836,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3851,8 +3851,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3866,8 +3866,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3881,8 +3881,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3896,8 +3896,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3911,8 +3911,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3926,8 +3926,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3941,8 +3941,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3956,8 +3956,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3971,8 +3971,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -3986,8 +3986,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4001,8 +4001,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4016,8 +4016,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4031,8 +4031,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4046,8 +4046,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4061,8 +4061,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4076,8 +4076,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4091,8 +4091,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4106,8 +4106,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4121,8 +4121,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4136,8 +4136,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4151,8 +4151,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4166,8 +4166,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4181,8 +4181,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4196,8 +4196,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4211,8 +4211,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4226,8 +4226,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4241,8 +4241,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4256,8 +4256,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4271,8 +4271,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4286,8 +4286,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4301,8 +4301,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
@@ -4316,8 +4316,8 @@
       <property name="MD_Palette_BL" type="string" />
       <property name="MD_Palette_BR" type="string" />
       <property name="Neo_Palette" type="string" />
-      <property name="AnimateProperties" value="False" type="bool" />
       <property name="Neo_AutoAnim" value="False" type="bool" />
+      <property name="AnimateProperties" value="False" type="bool" />
     </properties>
     <animation />
   </tile>
