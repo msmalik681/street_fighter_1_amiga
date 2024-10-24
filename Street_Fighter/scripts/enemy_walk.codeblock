@@ -245,11 +245,11 @@
       "VariableExpansionMode": "Word",
       "Conditions": [
         {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
+          "LeftSide": "actor_type",
+          "Comparison": "Equals",
+          "RightSide": "015_sagat",
           "ComparisonNext": "End",
-          "IsValid": false
+          "IsValid": true
         }
       ]
     },
@@ -334,11 +334,11 @@
       "VariableExpansionMode": "Word",
       "Conditions": [
         {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
+          "LeftSide": "actor_animationtag",
+          "Comparison": "Equals",
+          "RightSide": "sagat_walk",
           "ComparisonNext": "End",
-          "IsValid": false
+          "IsValid": true
         }
       ]
     },
@@ -512,11 +512,11 @@
       "VariableExpansionMode": "Word",
       "Conditions": [
         {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
+          "LeftSide": "actor_animationtag",
+          "Comparison": "Equals",
+          "RightSide": "sagat_walk_back",
           "ComparisonNext": "End",
-          "IsValid": false
+          "IsValid": true
         }
       ]
     },
@@ -777,7 +777,15 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},

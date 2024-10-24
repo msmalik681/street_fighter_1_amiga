@@ -1,5 +1,5 @@
-Compiled on 23 October 2024 16:18:54
-Version string: SE2024.2.241023.17.59.EX
+Compiled on 24 October 2024 10:52:00
+Version string: SE2024.2.241024.16.53.EX
 
 === Misc ===
 ImageFrames: 1228
@@ -53,7 +53,7 @@ Panel top_panel Original size 7968 Crunched size 7968
 Panel bobs top_panel Original size 7020 Crunched size 7020
 Panel wining_panel Original size 11884 Crunched size 11884
 Panel bobs wining_panel Original size 6412 Crunched size 6412
-Project virtual machine (codeblocks) Original size 50304 Crunched size 50304
+Project virtual machine (codeblocks) Original size 50274 Crunched size 50274
 Map actor data for adon_stage Original size 84 Crunched size 84
 Header data for map adon_stage Original size 836 Crunched size 836
 Tile data for map adon_stage (mem restrictions:None) Original size 4454 Crunched size 4454
@@ -151,15 +151,15 @@ Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 196960
-vm memory: 50304
+vm memory: 50274
 project memory: 83938
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 793512
-Accounted memory other: 445898
-Accounted memory total: 1239410
+Accounted memory other: 445868
+Accounted memory total: 1239380
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -345,8 +345,8 @@ sagat_win_l
 === Codeblocks by compiled size ===
 startup: 8766
 enemy_special: 1740
-enemy_ai: 1344
 player_ontimer: 1320
+enemy_ai: 1278
 enemy_take_damage: 1246
 player_take_damage: 1124
 enemy_on_land: 978
@@ -360,9 +360,9 @@ do_teleport: 402
 pre_startup: 366
 ryu_tatsu: 360
 enemy_jump: 358
+enemy_walk: 342
 check_direction: 318
 flipscreen_smooth: 310 (Unused?)
-enemy_walk: 306
 key_input: 304
 flipxymove: 278 (Unused?)
 load_next_level: 252 (Unused?)

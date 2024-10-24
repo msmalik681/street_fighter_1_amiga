@@ -59,14 +59,13 @@
     }
   ],
   "PreventAttack": false,
-  "PreventMovement": true,
+  "PreventMovement": false,
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
   "OnFinish": "",
   "AutoFlip": null,
   "Streamed": true,
-  "PatternBuffer": 0,
   "AnimationTag": null,
   "LinkedMap": "sagat_stage"
 }

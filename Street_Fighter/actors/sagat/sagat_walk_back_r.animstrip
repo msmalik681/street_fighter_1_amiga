@@ -107,7 +107,6 @@
   "OnFinish": "enemy_on_land",
   "AutoFlip": null,
   "Streamed": true,
-  "PatternBuffer": 0,
   "AnimationTag": null,
   "LinkedMap": "sagat_stage"
 }
