@@ -2,15 +2,15 @@
     "activeFile": "",
     "expandedProjectPaths": [
         "levels/gen",
-        "levels/birdie",
-        ".",
-        "levels/geki",
-        "templates",
-        "levels/retsu",
         "levels/sagat",
-        "levels/eagle",
+        "levels/birdie",
+        "levels/retsu",
         "levels/adon",
-        "levels"
+        "templates",
+        "levels/eagle",
+        ".",
+        "levels",
+        "levels/geki"
     ],
     "fileStates": {
         "Actors.tsx": {
@@ -32,8 +32,8 @@
             "scale": 2.4759375,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 160.3433043039253,
-                "y": 96.32714880726998
+                "x": 159.9394168875426,
+                "y": 95.5193739745046
             }
         },
         "Z:/mnt/8d5a8c25-9281-45ed-95ce-b0862040f59d/Amiga/SOR/Actors.tsx": {
