@@ -1,5 +1,5 @@
-Compiled on 24 October 2024 10:52:00
-Version string: SE2024.2.241024.16.53.EX
+Compiled on 26 November 2024 11:37:39
+Version string: SE2024.2.241126.23.28.EX
 
 === Misc ===
 ImageFrames: 1228
@@ -41,82 +41,82 @@ Music file sf1_stage10_sagat Original size 127530 Crunched size 127530
 Music file sf1_stage_clear Original size 145712 Crunched size 145712
 Music file sf1_stage_select Original size 123458 Crunched size 123458
 Music file sf1_vs Original size 174996 Crunched size 174996
-Panel (default background) Original size 1296 Crunched size 76
-Panel scorpion_eng_splashscreen Original size 35168 Crunched size 3258
+Panel (background color #000) Original size 1296 Crunched size 76
+Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
 Panel (background)birdie_stage_sky Original size 1296 Crunched size 1296
-Panel bottom_panel Original size 14956 Crunched size 14956
-Panel bobs bottom_panel Original size 8318 Crunched size 8318
+Panel bottom_panel Original size 14592 Crunched size 14592
+Panel bobs bottom_panel Original size 5370 Crunched size 5370
 Parallax for background eagle_stage_plx Original size 26476 Crunched size 26476
 Panel (background)eagle_stage_plx Original size 1636 Crunched size 1636
 Panel (background)mike_stage_sky Original size 1296 Crunched size 1296
-Panel top_panel Original size 7968 Crunched size 7968
-Panel bobs top_panel Original size 7020 Crunched size 7020
-Panel wining_panel Original size 11884 Crunched size 11884
-Panel bobs wining_panel Original size 6412 Crunched size 6412
-Project virtual machine (codeblocks) Original size 50274 Crunched size 50274
+Panel top_panel Original size 7612 Crunched size 7612
+Panel bobs top_panel Original size 4846 Crunched size 4846
+Panel wining_panel Original size 11528 Crunched size 11528
+Panel bobs wining_panel Original size 4504 Crunched size 4504
+Project virtual machine (codeblocks) Original size 49898 Crunched size 49898
 Map actor data for adon_stage Original size 84 Crunched size 84
-Header data for map adon_stage Original size 836 Crunched size 836
+Header data for map adon_stage Original size 844 Crunched size 844
 Tile data for map adon_stage (mem restrictions:None) Original size 4454 Crunched size 4454
-Header data for map adon_vs_screen Original size 836 Crunched size 836
+Header data for map adon_vs_screen Original size 844 Crunched size 844
 Tile data for map adon_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
 Map actor data for birdie_stage Original size 84 Crunched size 84
-Header data for map birdie_stage Original size 836 Crunched size 836
+Header data for map birdie_stage Original size 844 Crunched size 844
 Tile data for map birdie_stage (mem restrictions:None) Original size 4454 Crunched size 4454
-Header data for map birdie_vs_screen Original size 836 Crunched size 836
+Header data for map birdie_vs_screen Original size 844 Crunched size 844
 Tile data for map birdie_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
 Map actor data for eagle_stage Original size 84 Crunched size 84
-Header data for map eagle_stage Original size 836 Crunched size 836
+Header data for map eagle_stage Original size 844 Crunched size 844
 Tile data for map eagle_stage (mem restrictions:None) Original size 4370 Crunched size 4370
-Header data for map eagle_vs_screen Original size 836 Crunched size 836
+Header data for map eagle_vs_screen Original size 844 Crunched size 844
 Tile data for map eagle_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
 Map actor data for geki_stage Original size 84 Crunched size 84
-Header data for map geki_stage Original size 836 Crunched size 836
+Header data for map geki_stage Original size 844 Crunched size 844
 Tile data for map geki_stage (mem restrictions:None) Original size 4454 Crunched size 4454
-Header data for map geki_vs_screen Original size 836 Crunched size 836
+Header data for map geki_vs_screen Original size 844 Crunched size 844
 Tile data for map geki_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
 Map actor data for gen_stage Original size 84 Crunched size 84
-Header data for map gen_stage Original size 836 Crunched size 836
+Header data for map gen_stage Original size 844 Crunched size 844
 Tile data for map gen_stage (mem restrictions:None) Original size 4454 Crunched size 4454
-Header data for map gen_vs_screen Original size 836 Crunched size 836
+Header data for map gen_vs_screen Original size 844 Crunched size 844
 Tile data for map gen_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
 Map actor data for joe_stage Original size 84 Crunched size 84
-Header data for map joe_stage Original size 836 Crunched size 836
+Header data for map joe_stage Original size 844 Crunched size 844
 Tile data for map joe_stage (mem restrictions:None) Original size 4454 Crunched size 4454
-Header data for map joe_vs_screen Original size 836 Crunched size 836
+Header data for map joe_vs_screen Original size 844 Crunched size 844
 Tile data for map joe_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
 Map actor data for lee_stage Original size 84 Crunched size 84
-Header data for map lee_stage Original size 836 Crunched size 836
+Header data for map lee_stage Original size 844 Crunched size 844
 Tile data for map lee_stage (mem restrictions:None) Original size 4454 Crunched size 4454
-Header data for map lee_vs_screen Original size 836 Crunched size 836
+Header data for map lee_vs_screen Original size 844 Crunched size 844
 Tile data for map lee_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
 Map actor data for mike_stage Original size 84 Crunched size 84
-Header data for map mike_stage Original size 836 Crunched size 836
+Header data for map mike_stage Original size 844 Crunched size 844
 Tile data for map mike_stage (mem restrictions:None) Original size 4454 Crunched size 4454
-Header data for map mike_vs_screen Original size 836 Crunched size 836
+Header data for map mike_vs_screen Original size 844 Crunched size 844
 Tile data for map mike_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
 Map actor data for retsu_stage Original size 84 Crunched size 84
-Header data for map retsu_stage Original size 836 Crunched size 836
+Header data for map retsu_stage Original size 844 Crunched size 844
 Tile data for map retsu_stage (mem restrictions:None) Original size 4454 Crunched size 4454
-Header data for map retsu_vs_screen Original size 836 Crunched size 836
+Header data for map retsu_vs_screen Original size 844 Crunched size 844
 Tile data for map retsu_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
 Map actor data for sagat_stage Original size 84 Crunched size 84
-Header data for map sagat_stage Original size 836 Crunched size 836
+Header data for map sagat_stage Original size 844 Crunched size 844
 Tile data for map sagat_stage (mem restrictions:None) Original size 4454 Crunched size 4454
-Header data for map sagat_vs_screen Original size 836 Crunched size 836
+Header data for map sagat_vs_screen Original size 844 Crunched size 844
 Tile data for map sagat_vs_screen (mem restrictions:None) Original size 3236 Crunched size 3236
-Header data for map vs_screen_all Original size 836 Crunched size 836
+Header data for map vs_screen_all Original size 844 Crunched size 844
 Tile data for map vs_screen_all (mem restrictions:None) Original size 6140 Crunched size 6140
-Asset bundle 0 (Core project asset bundle) Original size 285330 Crunched size 285330
-Asset bundle 1 (adon_stage) Original size 229404 Crunched size 229404
-Asset bundle 3 (birdie_stage) Original size 287854 Crunched size 287854
-Asset bundle 5 (eagle_stage) Original size 192144 Crunched size 192144
-Asset bundle 7 (geki_stage) Original size 194020 Crunched size 194020
-Asset bundle 9 (gen_stage) Original size 242028 Crunched size 242028
-Asset bundle 11 (joe_stage) Original size 228928 Crunched size 228928
-Asset bundle 13 (lee_stage) Original size 253492 Crunched size 253492
-Asset bundle 15 (mike_stage) Original size 211548 Crunched size 211548
-Asset bundle 17 (retsu_stage) Original size 256048 Crunched size 256048
-Asset bundle 19 (sagat_stage) Original size 190194 Crunched size 190194
+Asset bundle 0 (Core project asset bundle) Original size 291258 Crunched size 291258
+Asset bundle 1 (adon_stage) Original size 232750 Crunched size 232750
+Asset bundle 3 (birdie_stage) Original size 292730 Crunched size 292730
+Asset bundle 5 (eagle_stage) Original size 195388 Crunched size 195388
+Asset bundle 7 (geki_stage) Original size 199658 Crunched size 199658
+Asset bundle 9 (gen_stage) Original size 246712 Crunched size 246712
+Asset bundle 11 (joe_stage) Original size 232678 Crunched size 232678
+Asset bundle 13 (lee_stage) Original size 257320 Crunched size 257320
+Asset bundle 15 (mike_stage) Original size 214678 Crunched size 214678
+Asset bundle 17 (retsu_stage) Original size 258432 Crunched size 258432
+Asset bundle 19 (sagat_stage) Original size 192478 Crunched size 192478
 Asset bundle 2 (adon_vs_screen) Original size 18734 Crunched size 18734
 Asset bundle 4 (birdie_vs_screen) Original size 18748 Crunched size 18748
 Asset bundle 6 (eagle_vs_screen) Original size 19150 Crunched size 19150
@@ -131,16 +131,16 @@ Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4404 Crunched size 4404
 Project Data Original size 83938 Crunched size 83938
-Project virtual machine redirects Original size 1004 Crunched size 1004
+Project virtual machine redirects Original size 1008 Crunched size 1008
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
-Map gfx (level gfx bundle 3): 287854
+Map gfx (level gfx bundle 3): 292730
 Music memory (retsu_stage1): 0
 BP Buffer memory: 121000
-core sfx/gfx memory: 285330
+core sfx/gfx memory: 291258
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -150,16 +150,16 @@ Map header cache memory: 0
 Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 196960
-vm memory: 50274
+EXE memory: 198580
+vm memory: 49898
 project memory: 83938
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 793512
-Accounted memory other: 445868
-Accounted memory total: 1239380
+Accounted memory chip: 804316
+Accounted memory other: 447112
+Accounted memory total: 1251428
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -344,22 +344,22 @@ sagat_win_l
 
 === Codeblocks by compiled size ===
 startup: 8766
-enemy_special: 1740
-player_ontimer: 1320
-enemy_ai: 1278
-enemy_take_damage: 1246
-player_take_damage: 1124
-enemy_on_land: 978
-player_ducking: 946
-stage_reset: 706
-stage_reset_gosub: 602
-player_on_land: 564
+enemy_special: 1708
+player_ontimer: 1224
+enemy_take_damage: 1214
+enemy_ai: 1142
+player_take_damage: 1092
+enemy_on_land: 922
+player_ducking: 898
+stage_reset: 698
+stage_reset_gosub: 594
 load_level: 550
+player_on_land: 540
 camera: 414
 do_teleport: 402
 pre_startup: 366
-ryu_tatsu: 360
-enemy_jump: 358
+ryu_tatsu: 352
+enemy_jump: 342
 enemy_walk: 342
 check_direction: 318
 flipscreen_smooth: 310 (Unused?)
@@ -375,13 +375,13 @@ check_talkpad: 192 (Unused?)
 005_ryu_duck_autogen_attack: 184
 ryu_fireball: 182
 block_count: 178 (Unused?)
-player_jump: 178
 pause: 176 (Unused?)
 ryu_dragon_punch: 172
-autogen_sagat_tiger_knee_l_2: 168
-autogen_sagat_tiger_knee_r_2: 166
+player_jump: 170
 flipymove: 162 (Unused?)
+autogen_sagat_tiger_knee_l_2: 160
 snap_to_screen: 158
+autogen_sagat_tiger_knee_r_2: 158
 pre_quit: 152
 stage_timer: 148
 load_panel: 146
@@ -400,7 +400,6 @@ autogen_ryu_tatsu_r_4: 114
 fadein: 112
 waitforfiredown: 110
 unload_panel: 106
-enemy_jump_attack: 106
 autogen_adon_atk_hk_l_2: 102
 autogen_adon_atk_hk_l_6: 102
 autogen_adon_atk_hk_r_2: 102
@@ -543,6 +542,7 @@ autogen_ryu_jump_atk_lk_r_2: 100
 autogen_ryu_jump_atk_lp_r_2: 100
 autogen_ryu_tatsu_l_5: 100
 autogen_sagat_atk_lp_r_1: 100
+enemy_jump_attack: 98
 load_panel_bottom: 96
 load_panel_top: 96
 destroy_child_actors: 94 (Unused?)
@@ -617,6 +617,10 @@ autogen_birdie_atk_lp_l_0: 38
 autogen_eagle_atk_special_l_0: 38
 autogen_geki_duck_atk_hp_l_0: 38
 autogen_geki_win2_2: 38
+autogen_joe_atk_lp_l_1: 38
+autogen_lee_win_l_1: 38
+autogen_retsu_jump_l_1: 38
+autogen_retsu_win_l_3: 38
 autogen_ryu_fireball_l_2: 38
 autogen_ryu_jump_l_1: 38
 autogen_ryu_tatsu_l_1: 38
