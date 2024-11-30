@@ -1,5 +1,5 @@
-Compiled on 26 November 2024 11:37:39
-Version string: SE2024.2.241126.23.28.EX
+Compiled on 30 November 2024 11:14:43
+Version string: SE2024.2.241130.16.16.EX
 
 === Misc ===
 ImageFrames: 1228
@@ -50,7 +50,7 @@ Parallax for background eagle_stage_plx Original size 26476 Crunched size 26476
 Panel (background)eagle_stage_plx Original size 1636 Crunched size 1636
 Panel (background)mike_stage_sky Original size 1296 Crunched size 1296
 Panel top_panel Original size 7612 Crunched size 7612
-Panel bobs top_panel Original size 4846 Crunched size 4846
+Panel bobs top_panel Original size 4924 Crunched size 4924
 Panel wining_panel Original size 11528 Crunched size 11528
 Panel bobs wining_panel Original size 4504 Crunched size 4504
 Project virtual machine (codeblocks) Original size 49898 Crunched size 49898
@@ -150,7 +150,7 @@ Map header cache memory: 0
 Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 198580
+EXE memory: 198756
 vm memory: 49898
 project memory: 83938
 memory reserved for active actors on screen (32): 4616
@@ -158,8 +158,8 @@ memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 804316
-Accounted memory other: 447112
-Accounted memory total: 1251428
+Accounted memory other: 447288
+Accounted memory total: 1251604
 
 === Possibly unused animations ===
 adon_atk_hk_l
