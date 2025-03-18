@@ -1,4 +1,4 @@
-Compiled on 18 March 2025 11:39:18
+Compiled on 18 March 2025 12:21:20
 Version string: SE2024.2.250317.10.48.EX
 
 === Misc ===
@@ -45,7 +45,7 @@ Panel (background color #000) Original size 1296 Crunched size 76
 Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
 Panel bottom_panel Original size 14592 Crunched size 14592
 Panel bobs bottom_panel Original size 5370 Crunched size 5370
-Parallax for background eagle_stage_plx Original size 26476 Crunched size 26476
+Parallax for background eagle_stage_plx Original size 5798 Crunched size 5798
 Panel (background)eagle_stage_plx Original size 1636 Crunched size 1636
 Panel top_panel Original size 7612 Crunched size 7612
 Panel bobs top_panel Original size 4924 Crunched size 4924
@@ -151,13 +151,13 @@ Map background memory: 0
 EXE memory: 202724
 vm memory: 49914
 project memory: 83966
-memory reserved for active actors on screen (32): 4616
-memory reserved for dormant actors in map (128): 4608
+memory reserved for active actors on screen (10): 1448
+memory reserved for dormant actors in map (10): 360
 OS/other estimated: 105472
 
 Accounted memory chip: 811342
-Accounted memory other: 451300
-Accounted memory total: 1262642
+Accounted memory other: 443884
+Accounted memory total: 1255226
 
 === Possibly unused animations ===
 adon_atk_hk_l
