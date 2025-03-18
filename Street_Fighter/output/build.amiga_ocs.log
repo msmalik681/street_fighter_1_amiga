@@ -1,5 +1,5 @@
-Compiled on 14 March 2025 10:23:59
-Version string: SE2024.2.250313.20.59.EX
+Compiled on 18 March 2025 11:39:18
+Version string: SE2024.2.250317.10.48.EX
 
 === Misc ===
 ImageFrames: 1228
@@ -12,8 +12,8 @@ Block Count: 2
 Block Data Size: 136
 Anim5 Count: 0
 Anim5 Data Size: 0
-Sound Count: 10
-Sound Data Size: 280
+Sound Count: 11
+Sound Data Size: 308
 Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 381
@@ -43,7 +43,6 @@ Music file sf1_stage_select Original size 123458 Crunched size 123458
 Music file sf1_vs Original size 174996 Crunched size 174996
 Panel (background color #000) Original size 1296 Crunched size 76
 Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
-Panel (background)birdie_stage_sky Original size 1296 Crunched size 1296
 Panel bottom_panel Original size 14592 Crunched size 14592
 Panel bobs bottom_panel Original size 5370 Crunched size 5370
 Parallax for background eagle_stage_plx Original size 26476 Crunched size 26476
@@ -105,9 +104,9 @@ Header data for map sagat_vs_screen Original size 844 Crunched size 844
 Tile data for map sagat_vs_screen (mem restrictions:None) Original size 3240 Crunched size 3240
 Header data for map vs_screen_all Original size 844 Crunched size 844
 Tile data for map vs_screen_all (mem restrictions:None) Original size 6144 Crunched size 6144
-Asset bundle 0 (Core project asset bundle) Original size 291258 Crunched size 291258
+Asset bundle 0 (Core project asset bundle) Original size 298586 Crunched size 298586
 Asset bundle 1 (adon_stage) Original size 232750 Crunched size 232750
-Asset bundle 3 (birdie_stage) Original size 292730 Crunched size 292730
+Asset bundle 3 (birdie_stage) Original size 292428 Crunched size 292428
 Asset bundle 5 (eagle_stage) Original size 195388 Crunched size 195388
 Asset bundle 7 (geki_stage) Original size 199658 Crunched size 199658
 Asset bundle 9 (gen_stage) Original size 246712 Crunched size 246712
@@ -129,17 +128,17 @@ Asset bundle 20 (sagat_vs_screen) Original size 18498 Crunched size 18498
 Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4408 Crunched size 4408
-Project Data Original size 83938 Crunched size 83938
+Project Data Original size 83966 Crunched size 83966
 Project virtual machine redirects Original size 1008 Crunched size 1008
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
-Map gfx (level gfx bundle 3): 292730
+Map gfx (level gfx bundle 3): 292428
 Music memory (retsu_stage1): 0
 BP Buffer memory: 121000
-core sfx/gfx memory: 291258
+core sfx/gfx memory: 298586
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -149,16 +148,16 @@ Map header cache memory: 0
 Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 202652
+EXE memory: 202724
 vm memory: 49914
-project memory: 83938
+project memory: 83966
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 804316
-Accounted memory other: 451200
-Accounted memory total: 1255516
+Accounted memory chip: 811342
+Accounted memory other: 451300
+Accounted memory total: 1262642
 
 === Possibly unused animations ===
 adon_atk_hk_l
