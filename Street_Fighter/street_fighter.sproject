@@ -268,6 +268,27 @@
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
+    },
+    "mike_win": {
+      "LinkedMap": "mike_stage",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "sfx_win_mike": {
+      "LinkedMap": "mike_stage",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "sfx_win_retsu": {
+      "LinkedMap": "retsu_stage",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},

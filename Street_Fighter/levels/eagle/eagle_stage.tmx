@@ -1,17 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="47" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
- <properties>
-  <property name="override_palette" type="file" value="eagle_pal.png"/>
- </properties>
- <tileset firstgid="1" source="../../Actors.tsx"/>
- <tileset firstgid="257" source="../../Blocks.tsx"/>
- <tileset firstgid="513" source="eagle_stage.tileset.tsx"/>
- <layer id="1" name="map" width="47" height="15">
+<?xml version="1.0" encoding="utf-8"?>
+<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="47" height="15" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="7" nextobjectid="1">
   <properties>
-   <property name="amiga_ocs" type="bool" value="true"/>
-   <property name="foreground" type="bool" value="false"/>
+    <property name="override_palette" type="file" value="eagle_pal.png" />
+    <property name="divert_timer" type="string" value="stage_timer" />
   </properties>
-  <data encoding="csv">
+  <tileset firstgid="1" source="../../Actors.tsx" />
+  <tileset firstgid="257" source="../../Blocks.tsx" />
+  <tileset firstgid="513" source="eagle_stage.tileset.tsx" />
+  <layer id="1" name="map" width="47" height="15">
+    <data encoding="csv">
 513,513,513,513,513,513,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,513,513,513,513,513,513,528,527,513,513,529,530,513,513,513,513,513,513,514,515,516,517,518,519,520,521,
 531,532,533,534,535,513,513,513,513,513,513,536,537,538,539,540,541,542,543,544,545,513,546,547,548,549,550,513,551,552,553,554,555,556,557,534,535,513,513,513,513,513,513,536,537,538,539,
 558,559,560,561,562,563,513,513,513,513,513,513,564,565,566,567,568,569,513,513,513,513,513,513,570,571,572,573,574,575,576,577,578,579,580,581,562,563,513,513,513,513,513,513,564,565,566,
@@ -28,13 +25,13 @@
 954,955,954,955,954,955,954,955,954,955,954,955,954,955,954,955,954,955,954,955,954,955,954,955,954,955,954,955,954,955,954,955,954,955,954,955,954,955,954,955,954,955,954,955,954,955,954,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
- </layer>
- <layer id="2" name="blocks" width="47" height="15">
-  <properties>
-   <property name="amiga_ocs" type="bool" value="true"/>
-   <property name="foreground" type="bool" value="false"/>
-  </properties>
-  <data encoding="csv">
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="false" />
+    </properties>
+  </layer>
+  <layer id="2" name="blocks" width="47" height="15">
+    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -51,13 +48,13 @@
 257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
- </layer>
- <layer id="3" name="actors" width="47" height="15">
-  <properties>
-   <property name="amiga_ocs" type="bool" value="true"/>
-   <property name="foreground" type="bool" value="false"/>
-  </properties>
-  <data encoding="csv">
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="false" />
+    </properties>
+  </layer>
+  <layer id="3" name="actors" width="47" height="15">
+    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -74,13 +71,13 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
- </layer>
- <layer id="4" name="foreground" width="47" height="15">
-  <properties>
-   <property name="amiga_ocs" type="bool" value="true"/>
-   <property name="foreground" type="bool" value="true"/>
-  </properties>
-  <data encoding="csv">
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="false" />
+    </properties>
+  </layer>
+  <layer id="4" name="foreground" width="47" height="15">
+    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -97,6 +94,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
- </layer>
- <objectgroup id="6" name="events"/>
+    <properties>
+      <property name="amiga_ocs" type="bool" value="true" />
+      <property name="foreground" type="bool" value="true" />
+    </properties>
+  </layer>
+  <objectgroup id="6" name="events" />
 </map>
