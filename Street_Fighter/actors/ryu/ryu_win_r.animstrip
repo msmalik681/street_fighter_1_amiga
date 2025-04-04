@@ -5,7 +5,6 @@
         "Events": []
       },
       "Duration": 50,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
@@ -24,43 +23,43 @@
       "EventContainer": {
         "Events": [
           {
-            "FrameEventType": "Trigger",
+            "FrameEventType": "Sound",
             "Dir": "move_right",
-            "Codeblock": "win_sfx",
+            "Codeblock": null,
             "Actor": "none",
-            "Sound": "none",
+            "Sound": "sfx_ryu_wins",
+            "Variable": null,
             "Expression": null,
             "Tag": "FrameEvent0",
             "IsConditional": false,
             "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AutoFlip": false,
+            "AnimationFrame": "0",
+            "IsGlobal": true,
             "OverrideSpeed": false,
             "XFloat": null,
             "YFloat": null,
             "ColorR": 0,
             "ColorG": 0,
             "ColorB": 255,
+            "ResetMovement": true,
+            "ResetAnimation": true,
             "Box": {
               "X": -4,
               "Y": -4,
               "Width": 8,
               "Height": 8
             },
-            "HasTag": true,
+            "HasTag": false,
             "Color": {
               "r": 0,
               "g": 0,
               "b": 255,
               "a": 128
             },
-            "Conditions": [
-              {
-                "LeftSide": "",
-                "Comparison": "NotZero",
-                "RightSide": "",
-                "ComparisonNext": "End",
-                "IsValid": false
-              }
-            ],
+            "Conditions": [],
             "Angle": 0.0,
             "HasActorAngle": false,
             "HasChildAngle": false,
@@ -69,7 +68,6 @@
         ]
       },
       "Duration": 10,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
@@ -89,7 +87,6 @@
         "Events": []
       },
       "Duration": 20,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
@@ -113,16 +110,24 @@
             "Codeblock": "stage_reset",
             "Actor": "none",
             "Sound": "none",
+            "Variable": null,
             "Expression": null,
             "Tag": "none",
             "IsConditional": false,
             "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AutoFlip": false,
+            "AnimationFrame": "0",
+            "IsGlobal": true,
             "OverrideSpeed": false,
             "XFloat": null,
             "YFloat": null,
             "ColorR": 0,
             "ColorG": 0,
             "ColorB": 255,
+            "ResetMovement": true,
+            "ResetAnimation": true,
             "Box": {
               "X": -4,
               "Y": -4,
@@ -145,7 +150,6 @@
         ]
       },
       "Duration": -1,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
@@ -161,13 +165,15 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": true,
   "PreventCollision": true,
+  "PreventJump": false,
   "HideChildren": false,
   "LoopFrame": 0,
   "OnFinish": "",
   "AutoFlip": true,
   "Streamed": true,
-  "PatternBuffer": 0,
+  "AnimationTag": null,
   "LinkedMap": ""
 }

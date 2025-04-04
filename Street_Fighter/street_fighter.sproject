@@ -289,6 +289,48 @@
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
+    },
+    "sfx_win_geki": {
+      "LinkedMap": "geki_stage",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "sfx_win_joe": {
+      "LinkedMap": "joe_stage",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "sfx_win_lee": {
+      "LinkedMap": "lee_stage",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "sfx_win_gen": {
+      "LinkedMap": "gen_stage",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "sfx_win_birdie": {
+      "LinkedMap": "birdie_stage",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "sfx_win_eagle": {
+      "LinkedMap": "eagle_stage",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},

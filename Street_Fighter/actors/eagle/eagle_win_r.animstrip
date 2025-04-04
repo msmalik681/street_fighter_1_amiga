@@ -21,7 +21,51 @@
     },
     {
       "EventContainer": {
-        "Events": []
+        "Events": [
+          {
+            "FrameEventType": "Sound",
+            "Dir": "move_right",
+            "Codeblock": null,
+            "Actor": "none",
+            "Sound": "sfx_win_eagle",
+            "Variable": null,
+            "Expression": null,
+            "Tag": "FrameEvent0",
+            "IsConditional": false,
+            "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AutoFlip": false,
+            "AnimationFrame": "0",
+            "IsGlobal": true,
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "ResetMovement": true,
+            "ResetAnimation": true,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": false,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
+          }
+        ]
       },
       "Duration": 5,
       "Multiplexes": 0,
@@ -66,19 +110,24 @@
             "Codeblock": "stage_reset",
             "Actor": "none",
             "Sound": "none",
+            "Variable": null,
             "Expression": null,
             "Tag": "FrameEvent0",
             "IsConditional": false,
             "OverrideDirection": false,
             "Animation": "none",
             "AnimationLoop": false,
+            "AutoFlip": false,
             "AnimationFrame": "0",
+            "IsGlobal": true,
             "OverrideSpeed": false,
             "XFloat": null,
             "YFloat": null,
             "ColorR": 0,
             "ColorG": 0,
             "ColorB": 255,
+            "ResetMovement": true,
+            "ResetAnimation": true,
             "Box": {
               "X": -4,
               "Y": -4,
@@ -119,11 +168,12 @@
   "PreventAttack": true,
   "PreventMovement": true,
   "PreventCollision": true,
+  "PreventJump": false,
   "HideChildren": false,
   "LoopFrame": 0,
   "OnFinish": "",
   "AutoFlip": null,
   "Streamed": true,
-  "PatternBuffer": 0,
+  "AnimationTag": null,
   "LinkedMap": "eagle_stage"
 }
