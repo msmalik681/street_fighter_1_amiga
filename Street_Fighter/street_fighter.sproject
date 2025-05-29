@@ -2,7 +2,6 @@
   "TargetPlatform": "amiga_ocs",
   "StartupCodeBlock": "startup",
   "Recompile": false,
-  "DebugMode": false,
   "DataVersion": 4,
   "Commands": [
     {
@@ -327,6 +326,27 @@
     },
     "sfx_win_eagle": {
       "LinkedMap": "eagle_stage",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "sfx_sagat_tiger": {
+      "LinkedMap": "sagat_stage",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "sfx_win_sagat": {
+      "LinkedMap": "sagat_stage",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "sfx_win_adon": {
+      "LinkedMap": "adon_stage",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,
