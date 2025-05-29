@@ -462,7 +462,7 @@
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "23 * 16",
-      "YPosition": "13 * 16 + 4",
+      "YPosition": "12 * 16 + 4",
       "TeleportName": "none",
       "XFloat": null,
       "YFloat": null,
