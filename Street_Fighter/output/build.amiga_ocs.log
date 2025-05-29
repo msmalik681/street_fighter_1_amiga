@@ -1,4 +1,4 @@
-Compiled on 29 May 2025 11:29:17
+Compiled on 29 May 2025 17:17:14
 Version string: SE2025.0.250529.20.56.EX
 
 === Misc ===
@@ -49,7 +49,7 @@ Panel top_panel Original size 7612 Crunched size 7612
 Panel bobs top_panel Original size 4924 Crunched size 4924
 Panel wining_panel Original size 11528 Crunched size 11528
 Panel bobs wining_panel Original size 4504 Crunched size 4504
-Project virtual machine (codeblocks) Original size 50454 Crunched size 50454
+Project virtual machine (codeblocks) Original size 50310 Crunched size 50310
 Map actor data for adon_stage Original size 84 Crunched size 84
 Header data for map adon_stage Original size 844 Crunched size 844
 Tile data for map adon_stage (mem restrictions:None) Original size 4458 Crunched size 4458
@@ -127,7 +127,7 @@ Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4376 Crunched size 4376
 Project Data Original size 83954 Crunched size 83954
-Project virtual machine redirects Original size 1012 Crunched size 1012
+Project virtual machine redirects Original size 1004 Crunched size 1004
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -144,15 +144,15 @@ For other:
 Map data memory: 6144
 Map background memory: 1296
 EXE memory: 202520
-vm memory: 50454
+vm memory: 50310
 project memory: 83954
 memory reserved for active actors on screen (10): 1448
 memory reserved for dormant actors in map (10): 360
 OS/other estimated: 105472
 
 Accounted memory chip: 995672
-Accounted memory other: 451648
-Accounted memory total: 1447320
+Accounted memory other: 451504
+Accounted memory total: 1447176
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -344,9 +344,9 @@ enemy_take_damage: 1236
 enemy_ai: 1148
 player_take_damage: 1106
 enemy_on_land: 922
-stage_reset: 728
 player_ducking: 698
-stage_reset_gosub: 638
+stage_reset_gosub: 626
+stage_reset: 596
 player_on_land: 566
 load_level: 550
 pre_startup: 422
