@@ -1,11 +1,11 @@
-Compiled on 29 May 2025 17:23:47
-Version string: SE2025.0.250529.20.56.EX
+Compiled on 29 May 2025 17:59:46
+Version string: SE2024.2.250322.21.16.EX
 
 === Misc ===
 ImageFrames: 1228
 ImageFrame Data Size: 54032
 Maps and Asset Bundles Count: 22
-Maps and Asset Bundles Data Size: 0
+Maps and Asset Bundles Data Size: 264
 Actor Count: 16
 Actor Data Size: 2880
 Block Count: 2
@@ -49,7 +49,7 @@ Panel top_panel Original size 7612 Crunched size 7612
 Panel bobs top_panel Original size 4924 Crunched size 4924
 Panel wining_panel Original size 11528 Crunched size 11528
 Panel bobs wining_panel Original size 4504 Crunched size 4504
-Project virtual machine (codeblocks) Original size 50310 Crunched size 50310
+Project virtual machine (codeblocks) Original size 50490 Crunched size 50490
 Map actor data for adon_stage Original size 84 Crunched size 84
 Header data for map adon_stage Original size 844 Crunched size 844
 Tile data for map adon_stage (mem restrictions:None) Original size 4458 Crunched size 4458
@@ -102,10 +102,10 @@ Header data for map sagat_vs_screen Original size 844 Crunched size 844
 Tile data for map sagat_vs_screen (mem restrictions:None) Original size 3240 Crunched size 3240
 Header data for map vs_screen_all Original size 844 Crunched size 844
 Tile data for map vs_screen_all (mem restrictions:None) Original size 6144 Crunched size 6144
-Asset bundle 0 (Core project asset bundle) Original size 291260 Crunched size 291260
+Asset bundle 0 (Core project asset bundle) Original size 291258 Crunched size 291258
 Asset bundle 1 (adon_stage) Original size 239878 Crunched size 239878
 Asset bundle 3 (birdie_stage) Original size 296460 Crunched size 296460
-Asset bundle 5 (eagle_stage) Original size 205476 Crunched size 205476
+Asset bundle 5 (eagle_stage) Original size 205474 Crunched size 205474
 Asset bundle 7 (geki_stage) Original size 206868 Crunched size 206868
 Asset bundle 9 (gen_stage) Original size 254394 Crunched size 254394
 Asset bundle 11 (joe_stage) Original size 235976 Crunched size 235976
@@ -125,34 +125,37 @@ Asset bundle 18 (retsu_vs_screen) Original size 17622 Crunched size 17622
 Asset bundle 20 (sagat_vs_screen) Original size 18498 Crunched size 18498
 Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
-Project Header Original size 4376 Crunched size 4376
-Project Data Original size 83954 Crunched size 83954
-Project virtual machine redirects Original size 1004 Crunched size 1004
+Project Header Original size 4408 Crunched size 4408
+Project Data Original size 84218 Crunched size 84218
+Project virtual machine redirects Original size 1012 Crunched size 1012
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
 Map gfx (level gfx bundle 3): 296460
-Music memory (retsu_stage1): 187624
+Music memory (retsu_stage1): 0
 BP Buffer memory: 121000
-Core sfx/gfx memory: 291260
+core sfx/gfx memory: 291258
 Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
-Map data memory: 6144
-Map background memory: 1296
-EXE memory: 202520
-vm memory: 50310
-project memory: 83954
+Map cache memory: 0
+Map header cache memory: 0
+Map actor cache memory: 0
+Map data memory: 0
+Map background memory: 0
+EXE memory: 202744
+vm memory: 50490
+project memory: 84218
 memory reserved for active actors on screen (10): 1448
 memory reserved for dormant actors in map (10): 360
 OS/other estimated: 105472
 
-Accounted memory chip: 995672
-Accounted memory other: 451504
-Accounted memory total: 1447176
+Accounted memory chip: 808046
+Accounted memory other: 444732
+Accounted memory total: 1252778
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -337,17 +340,17 @@ sagat_win_l
 005_ryu_duck
 
 === Codeblocks by compiled size ===
-startup: 8790
+startup: 8766
 enemy_special: 1714
-player_ontimer: 1458
-enemy_take_damage: 1236
+player_ontimer: 1448
+enemy_take_damage: 1220
 enemy_ai: 1148
-player_take_damage: 1106
+player_take_damage: 1092
 enemy_on_land: 922
-player_ducking: 698
-stage_reset_gosub: 626
-stage_reset: 596
-player_on_land: 566
+stage_reset: 710
+player_ducking: 694
+stage_reset_gosub: 602
+player_on_land: 560
 load_level: 550
 pre_startup: 422
 camera: 414
@@ -367,16 +370,17 @@ set_yresolution: 202
 waitforframes: 194
 check_talkpad: 192 (Unused?)
 pause: 184 (Unused?)
+005_ryu_duck_autogen_attack: 184
 ryu_fireball: 182
-stage_timer: 180
 block_count: 178 (Unused?)
 ryu_dragon_punch: 172
 player_jump: 170
+stage_timer: 168
 flipymove: 162 (Unused?)
-pre_quit: 160
 autogen_sagat_tiger_knee_l_2: 160
 snap_to_screen: 158
 autogen_sagat_tiger_knee_r_2: 158
+pre_quit: 152
 load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142

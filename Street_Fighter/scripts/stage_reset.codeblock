@@ -2363,7 +2363,7 @@
       "Expression": "0",
       "Index": "0",
       "Label": "",
-      "Disabled": true,
+      "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
       "NewBlock": "none",
@@ -2630,7 +2630,7 @@
       "Expression": "<Y40>player wins the round!",
       "Index": "0",
       "Label": "",
-      "Disabled": true,
+      "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
       "NewBlock": "none",
@@ -2897,7 +2897,7 @@
       "Expression": "enemy wins the round!",
       "Index": "0",
       "Label": "",
-      "Disabled": true,
+      "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
       "NewBlock": "none",
@@ -3846,9 +3846,7 @@
       ]
     },
     {
-      "Values": {
-        "PanelTop": "top_panel"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Display",
       "BasicOperationType": "CommentOnly",
@@ -3869,7 +3867,7 @@
       "Expression": "0",
       "Index": "0",
       "Label": "",
-      "Disabled": true,
+      "Disabled": false,
       "Breakpoint": false,
       "Level": "none",
       "NewBlock": "none",
