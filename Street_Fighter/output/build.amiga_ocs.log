@@ -1,5 +1,5 @@
-Compiled on 30 May 2025 16:06:55
-Version string: SE2025.0.250530.22.48.EX
+Compiled on 01 June 2025 16:42:30
+Version string: SE2025.0.250531.22.30.EX
 
 === Misc ===
 ImageFrames: 1228
@@ -49,7 +49,7 @@ Panel top_panel Original size 7612 Crunched size 7612
 Panel bobs top_panel Original size 4924 Crunched size 4924
 Panel wining_panel Original size 11528 Crunched size 11528
 Panel bobs wining_panel Original size 4504 Crunched size 4504
-Project virtual machine (codeblocks) Original size 50454 Crunched size 50454
+Project virtual machine (codeblocks) Original size 50474 Crunched size 50474
 Map actor data for adon_stage Original size 84 Crunched size 84
 Header data for map adon_stage Original size 844 Crunched size 844
 Tile data for map adon_stage (mem restrictions:None) Original size 4458 Crunched size 4458
@@ -127,7 +127,7 @@ Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4376 Crunched size 4376
 Project Data Original size 83954 Crunched size 83954
-Project virtual machine redirects Original size 1012 Crunched size 1012
+Project virtual machine redirects Original size 1016 Crunched size 1016
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -143,16 +143,16 @@ OS/other estimated: 99328
 For other:
 Map data memory: 6144
 Map background memory: 1296
-EXE memory: 202716
-vm memory: 50454
+EXE memory: 203176
+vm memory: 50474
 project memory: 83954
 memory reserved for active actors on screen (10): 1448
 memory reserved for dormant actors in map (10): 360
 OS/other estimated: 105472
 
 Accounted memory chip: 995672
-Accounted memory other: 451844
-Accounted memory total: 1447516
+Accounted memory other: 452324
+Accounted memory total: 1447996
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -344,7 +344,7 @@ enemy_take_damage: 1236
 enemy_ai: 1148
 player_take_damage: 1106
 enemy_on_land: 922
-stage_reset: 740
+stage_reset: 760
 player_ducking: 698
 stage_reset_gosub: 626
 player_on_land: 566
