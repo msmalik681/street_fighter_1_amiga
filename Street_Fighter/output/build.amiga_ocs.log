@@ -1,13 +1,13 @@
-Compiled on 01 June 2025 16:42:30
-Version string: SE2025.0.250531.22.30.EX
+Compiled on 03 June 2025 11:13:05
+Version string: SE2025.0.250602.19.05.EX
 
 === Misc ===
 ImageFrames: 1228
 ImageFrame Data Size: 54032
 Maps and Asset Bundles Count: 22
 Maps and Asset Bundles Data Size: 0
-Actor Count: 16
-Actor Data Size: 2880
+Actor Count: 17
+Actor Data Size: 3060
 Block Count: 2
 Block Data Size: 136
 Anim5 Count: 0
@@ -49,7 +49,7 @@ Panel top_panel Original size 7612 Crunched size 7612
 Panel bobs top_panel Original size 4924 Crunched size 4924
 Panel wining_panel Original size 11528 Crunched size 11528
 Panel bobs wining_panel Original size 4504 Crunched size 4504
-Project virtual machine (codeblocks) Original size 50474 Crunched size 50474
+Project virtual machine (codeblocks) Original size 50324 Crunched size 50324
 Map actor data for adon_stage Original size 84 Crunched size 84
 Header data for map adon_stage Original size 844 Crunched size 844
 Tile data for map adon_stage (mem restrictions:None) Original size 4458 Crunched size 4458
@@ -126,8 +126,8 @@ Asset bundle 20 (sagat_vs_screen) Original size 18498 Crunched size 18498
 Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4376 Crunched size 4376
-Project Data Original size 83954 Crunched size 83954
-Project virtual machine redirects Original size 1016 Crunched size 1016
+Project Data Original size 84134 Crunched size 84134
+Project virtual machine redirects Original size 992 Crunched size 992
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -143,16 +143,16 @@ OS/other estimated: 99328
 For other:
 Map data memory: 6144
 Map background memory: 1296
-EXE memory: 203176
-vm memory: 50474
-project memory: 83954
+EXE memory: 203784
+vm memory: 50324
+project memory: 84134
 memory reserved for active actors on screen (10): 1448
 memory reserved for dormant actors in map (10): 360
 OS/other estimated: 105472
 
 Accounted memory chip: 995672
-Accounted memory other: 452324
-Accounted memory total: 1447996
+Accounted memory other: 452962
+Accounted memory total: 1448634
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -320,7 +320,6 @@ sagat_atk_lp_l
 sagat_block_l
 sagat_dead_l
 sagat_fall_l
-sagat_fireball_l
 sagat_pain_l
 sagat_tiger_knee_land_l
 sagat_tiger_knee_l
@@ -337,14 +336,14 @@ sagat_win_l
 005_ryu_duck
 
 === Codeblocks by compiled size ===
-startup: 8790
-enemy_special: 1714
+startup: 8650
+enemy_special: 1716
 player_ontimer: 1458
 enemy_take_damage: 1236
 enemy_ai: 1148
 player_take_damage: 1106
 enemy_on_land: 922
-stage_reset: 760
+stage_reset: 780
 player_ducking: 698
 stage_reset_gosub: 626
 player_on_land: 566
@@ -360,7 +359,6 @@ flipscreen_smooth: 310 (Unused?)
 key_input: 304
 flipxymove: 278 (Unused?)
 load_next_level: 252 (Unused?)
-fireball_hit: 212
 block_find: 206 (Unused?)
 004_ryu_autogen_attack: 206
 set_yresolution: 202
@@ -368,6 +366,7 @@ waitforframes: 194
 check_talkpad: 192 (Unused?)
 pause: 184 (Unused?)
 ryu_fireball: 182
+fireball_hit: 180
 stage_timer: 180
 block_count: 178 (Unused?)
 ryu_dragon_punch: 172

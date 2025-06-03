@@ -4,7 +4,7 @@
       "EventContainer": {
         "Events": []
       },
-      "Duration": 5,
+      "Duration": 0,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
@@ -20,15 +20,15 @@
       "IsBlank": false
     }
   ],
-  "PreventAttack": false,
+  "PreventAttack": true,
   "PreventMovement": true,
-  "PreventCollision": false,
+  "PreventCollision": true,
+  "PreventJump": false,
   "HideChildren": false,
   "LoopFrame": 0,
   "OnFinish": "enemy_on_land",
   "AutoFlip": null,
   "Streamed": true,
-  "PatternBuffer": 0,
   "AnimationTag": null,
   "LinkedMap": "sagat_stage"
 }
