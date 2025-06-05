@@ -23,11 +23,12 @@
   "PreventAttack": true,
   "PreventMovement": true,
   "PreventCollision": true,
+  "PreventJump": false,
   "HideChildren": false,
   "LoopFrame": 1,
   "OnFinish": "camera",
   "AutoFlip": false,
   "Streamed": true,
-  "PatternBuffer": 0,
+  "AnimationTag": null,
   "LinkedMap": ""
 }

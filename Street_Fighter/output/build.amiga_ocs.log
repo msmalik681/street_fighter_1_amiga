@@ -1,5 +1,5 @@
-Compiled on 03 June 2025 11:13:05
-Version string: SE2025.0.250602.19.05.EX
+Compiled on 05 June 2025 10:53:37
+Version string: SE2025.0.250605.20.54.EX
 
 === Misc ===
 ImageFrames: 1228
@@ -49,7 +49,7 @@ Panel top_panel Original size 7612 Crunched size 7612
 Panel bobs top_panel Original size 4924 Crunched size 4924
 Panel wining_panel Original size 11528 Crunched size 11528
 Panel bobs wining_panel Original size 4504 Crunched size 4504
-Project virtual machine (codeblocks) Original size 50324 Crunched size 50324
+Project virtual machine (codeblocks) Original size 50092 Crunched size 50092
 Map actor data for adon_stage Original size 84 Crunched size 84
 Header data for map adon_stage Original size 844 Crunched size 844
 Tile data for map adon_stage (mem restrictions:None) Original size 4458 Crunched size 4458
@@ -127,7 +127,7 @@ Asset bundle 21 (vs_screen_all) Original size 128494 Crunched size 128494
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4376 Crunched size 4376
 Project Data Original size 84134 Crunched size 84134
-Project virtual machine redirects Original size 992 Crunched size 992
+Project virtual machine redirects Original size 980 Crunched size 980
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
@@ -143,16 +143,16 @@ OS/other estimated: 99328
 For other:
 Map data memory: 6144
 Map background memory: 1296
-EXE memory: 203784
-vm memory: 50324
+EXE memory: 203276
+vm memory: 50092
 project memory: 84134
 memory reserved for active actors on screen (10): 1448
 memory reserved for dormant actors in map (10): 360
 OS/other estimated: 105472
 
 Accounted memory chip: 995672
-Accounted memory other: 452962
-Accounted memory total: 1448634
+Accounted memory other: 452222
+Accounted memory total: 1447894
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -347,9 +347,9 @@ stage_reset: 780
 player_ducking: 698
 stage_reset_gosub: 626
 player_on_land: 566
-load_level: 550
-pre_startup: 422
+load_level: 538
 camera: 414
+pre_startup: 406
 do_teleport: 402
 ryu_tatsu: 352
 enemy_jump: 348
@@ -369,16 +369,16 @@ ryu_fireball: 182
 fireball_hit: 180
 stage_timer: 180
 block_count: 178 (Unused?)
+snap_to_screen: 176
 ryu_dragon_punch: 172
 player_jump: 170
 flipymove: 162 (Unused?)
 pre_quit: 160
 autogen_sagat_tiger_knee_l_2: 160
-snap_to_screen: 158
 autogen_sagat_tiger_knee_r_2: 158
-load_panel: 146
 flipxmove: 142 (Unused?)
-unload_level: 142
+load_panel: 134
+unload_level: 130
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
 destroy_all_blocks: 128 (Unused?)
 restart_this_level: 128 (Unused?)
@@ -387,9 +387,9 @@ autogen_ryu_dragon_punch_r_1: 128
 pre_load_level: 122
 autogen_ryu_tatsu_l_4: 116
 autogen_ryu_tatsu_r_4: 114
-fadein: 112
-unload_panel: 106
+fadein: 108
 enemy_jump_attack: 104
+unload_panel: 102
 waitforfireup: 102
 autogen_adon_atk_hk_l_2: 102
 autogen_adon_atk_hk_l_6: 102
@@ -568,17 +568,16 @@ autogen_ryu_jump_atk_lp_l_1: 90
 autogen_ryu_jump_atk_lp_r_1: 90
 autogen_ryu_tatsu_l_7: 90
 autogen_sagat_tiger_knee_l_3: 90
-fadeout: 88
 autogen_retsu_jump_atk_r_2: 88
 autogen_ryu_jump_atk_lk_r_1: 88
 autogen_ryu_tatsu_r_7: 88
 autogen_sagat_tiger_knee_r_3: 88
 enemy_low_attack: 88
-pre_anim5: 86 (Unused?)
 waitforfirehit: 86
 load_music: 78
 autogen_sagat_tiger_l_1: 78
 AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_None_None: 78
+fadeout: 76
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
@@ -588,13 +587,9 @@ wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
 quit: 70
 jump_actor: 66 (Unused?)
-load_panel_finish: 66
 autogen_birdie_jump_l_1: 64
-unload_panel_bottom: 62
-unload_panel_top: 62
 destroy_all_actors: 60 (Unused?)
 destroy_actor: 58
-regenerate_screen: 58
 destroy_block: 52 (Unused?)
 return: 52 (Unused?)
 autogen_adon_win_l_1: 52
@@ -608,7 +603,10 @@ autogen_mike_win_l_1: 52
 autogen_retsu_win_l_1: 52
 autogen_ryu_win_l_1: 52
 autogen_sagat_win_l_1: 52
-regenerate_screen_wait: 46
+seperate: 52
+load_panel_finish: 50
+unload_panel_bottom: 50
+unload_panel_top: 50
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
 autogen_adon_atk_hk_l_3: 38
