@@ -138,7 +138,7 @@
   "JumpSound": null,
   "DivertAttack": "",
   "DivertSpawn": "stage_reset_gosub",
-  "DivertPlayerCollision": "",
+  "DivertPlayerCollision": "seperate",
   "DivertPlayerHit": "enemy_take_damage",
   "DivertHitAgainstPlayer": "player_take_damage",
   "DivertProjectileCollision": "fireball_hit",
@@ -191,6 +191,7 @@
     "PingPong": false
   },
   "DontSpawnIfTooMany": false,
+  "AutoClearChildren": false,
   "DivertMeleeByProjectile": null,
   "DivertMeleeAgainstProjectile": null,
   "IsAttacker": null,
