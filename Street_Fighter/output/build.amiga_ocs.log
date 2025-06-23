@@ -1,4 +1,4 @@
-Compiled on 23 June 2025 11:34:21
+Compiled on 23 June 2025 13:21:58
 Version string: SE2025.0.250623.12.39.EX
 
 === Misc ===
@@ -55,8 +55,8 @@ Misc data size: 86
    66320 |        | Music file sf1_stage03_joe
    56690 |        | Music file sf1_stage09_adon
    50836 |        | Music file sf1_stage08_eagle
-   50260 |        | Project virtual machine (codeblocks)
-   34048 |        | Panel intro
+   50328 |        | Project virtual machine (codeblocks)
+   34080 |        | Panel intro
    32948 |        | Music file sf1_coin
    19374 |        | Asset bundle 14 (lee_vs_screen)
    19150 |        | Asset bundle 6 (eagle_vs_screen)
@@ -71,6 +71,7 @@ Misc data size: 86
    14592 |        | Panel bottom_panel
    11528 |        | Panel wining_panel
     7612 |        | Panel top_panel
+    6332 |        | Panel bobs intro
     6144 |        | Tile data for map vs_screen_all (mem restrictions:None)
     5370 |        | Panel bobs bottom_panel
     4924 |        | Panel bobs top_panel
@@ -97,7 +98,7 @@ Misc data size: 86
     3240 |        | Tile data for map mike_vs_screen (mem restrictions:None)
     3240 |        | Tile data for map retsu_vs_screen (mem restrictions:None)
     3240 |        | Tile data for map sagat_vs_screen (mem restrictions:None)
-    1000 |        | Project virtual machine redirects
+    1004 |        | Project virtual machine redirects
      844 |        | Header data for map adon_stage
      844 |        | Header data for map adon_vs_screen
      844 |        | Header data for map birdie_stage
@@ -147,15 +148,15 @@ For other:
 Map data memory: 6144
 Map background memory: 1296
 EXE memory: 204720
-vm memory: 50260
+vm memory: 50328
 project memory: 84134
-memory reserved for active actors on screen (10): 1448
-memory reserved for dormant actors in map (10): 360
+memory reserved for active actors on screen (6): 872
+memory reserved for dormant actors in map (6): 216
 OS/other estimated: 105472
 
 Accounted memory chip: 995672
-Accounted memory other: 453834
-Accounted memory total: 1449506
+Accounted memory other: 453182
+Accounted memory total: 1448854
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -339,14 +340,14 @@ sagat_win_l
 005_ryu_duck
 
 === Codeblocks by compiled size ===
-startup: 8760
+startup: 8834
 enemy_special: 1716
 player_ontimer: 1246
 enemy_take_damage: 1236
 enemy_ai: 1148
 player_take_damage: 1106
 enemy_on_land: 922
-stage_reset: 780
+stage_reset: 752
 player_ducking: 718
 stage_reset_gosub: 626
 player_on_land: 566

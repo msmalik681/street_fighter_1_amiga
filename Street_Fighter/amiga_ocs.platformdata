@@ -19,11 +19,10 @@
   "YFillSizeMD": 16,
   "MapCache": false,
   "DoubleCopper": false,
-  "AllocateMemoryUpfront": false,
   "NTSC": false,
   "CrunchMode": "NoCrunch",
-  "MaxActiveActors": 10,
-  "MaxDormantActors": 10,
+  "MaxActiveActors": 6,
+  "MaxDormantActors": 6,
   "DynamicPatterns": 0,
   "PaletteLines": 1,
   "StartingPaletteLine": 0

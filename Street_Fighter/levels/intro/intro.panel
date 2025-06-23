@@ -18,7 +18,26 @@
   "FireIndicatorX": 0,
   "FireIndicatorY": 0,
   "Options": [],
-  "Elements": [],
+  "Elements": [
+    {
+      "PanelElementType": 3,
+      "Variable": "loser",
+      "X": 6,
+      "Y": 140,
+      "NumberFont": null,
+      "Font": "blue",
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "IsHighPriority": true,
+      "IsRightToLeft": false,
+      "PadZeroes": true,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
+      "MaxValue": 9,
+      "CanBeRightToLeft": false
+    }
+  ],
   "GFXMode": "BP4",
   "PanelSlot": "Middle",
   "PanelOptionSound": "none",
