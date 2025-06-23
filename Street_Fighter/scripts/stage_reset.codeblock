@@ -276,7 +276,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "string",
-      "Expression": "print",
+      "Expression": "one<br>two<br>one<br>two<br>one<br>two<br>",
       "Index": "0",
       "Label": "",
       "Disabled": false,
