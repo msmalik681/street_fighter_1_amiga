@@ -1,5 +1,5 @@
-Compiled on 23 June 2025 17:34:23
-Version string: SE2025.0.250623.12.39.EX
+Compiled on 24 June 2025 20:58:54
+Version string: SE2025.0.250624.15.33.EX
 
 === Misc ===
 ImageFrames: 1228
@@ -20,8 +20,8 @@ Animations Count: 381
 Animations Data Size: 6096
 AnimationFrame Count: 1229
 AnimationFrame Data Size: 19664
-Sprites: 1
-Sprites Data Size: 14
+Sprites: 69
+Sprites Data Size: 966
 Attack Data: 5
 Attack Data Size: 440
 Misc data size: 86
@@ -30,8 +30,8 @@ Misc data size: 86
     Size | Crunch | Detail
   296460 |        | Asset bundle 3 (birdie_stage)
   289252 |        | Asset bundle 0 (Core project asset bundle)
+  264306 |        | Asset bundle 17 (retsu_stage)
   263344 |        | Asset bundle 13 (lee_stage)
-  258432 |        | Asset bundle 17 (retsu_stage)
   254394 |        | Asset bundle 9 (gen_stage)
   239878 |        | Asset bundle 1 (adon_stage)
   235976 |        | Asset bundle 11 (joe_stage)
@@ -51,12 +51,12 @@ Misc data size: 86
   127530 |        | Music file sf1_stage10_sagat
   123458 |        | Music file sf1_stage_select
    92284 |        | Music file sf1_stage07_birdie
-   84134 |        | Project Data
+   85086 |        | Project Data
    66320 |        | Music file sf1_stage03_joe
    56690 |        | Music file sf1_stage09_adon
    50836 |        | Music file sf1_stage08_eagle
-   50274 |        | Project virtual machine (codeblocks)
-   34048 |        | Panel intro
+   50246 |        | Project virtual machine (codeblocks)
+   34080 |        | Panel intro
    32948 |        | Music file sf1_coin
    19374 |        | Asset bundle 14 (lee_vs_screen)
    19150 |        | Asset bundle 6 (eagle_vs_screen)
@@ -72,6 +72,7 @@ Misc data size: 86
    11528 |        | Panel wining_panel
     7686 |        | Panel bobs bottom_panel
     7612 |        | Panel top_panel
+    6944 |        | Panel bobs intro
     6144 |        | Tile data for map vs_screen_all (mem restrictions:None)
     4924 |        | Panel bobs top_panel
     4504 |        | Panel bobs wining_panel
@@ -97,7 +98,7 @@ Misc data size: 86
     3240 |        | Tile data for map mike_vs_screen (mem restrictions:None)
     3240 |        | Tile data for map retsu_vs_screen (mem restrictions:None)
     3240 |        | Tile data for map sagat_vs_screen (mem restrictions:None)
-    1004 |        | Project virtual machine redirects
+    1000 |        | Project virtual machine redirects
      844 |        | Header data for map adon_stage
      844 |        | Header data for map adon_vs_screen
      844 |        | Header data for map birdie_stage
@@ -147,15 +148,15 @@ For other:
 Map data memory: 6144
 Map background memory: 1296
 EXE memory: 204720
-vm memory: 50274
-project memory: 84134
+vm memory: 50246
+project memory: 85086
 memory reserved for active actors on screen (6): 872
 memory reserved for dormant actors in map (6): 216
 OS/other estimated: 105472
 
 Accounted memory chip: 993664
-Accounted memory other: 453128
-Accounted memory total: 1446792
+Accounted memory other: 454052
+Accounted memory total: 1447716
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -339,7 +340,7 @@ sagat_win_l
 005_ryu_duck
 
 === Codeblocks by compiled size ===
-startup: 8796
+startup: 8768
 enemy_special: 1716
 player_ontimer: 1246
 enemy_take_damage: 1236

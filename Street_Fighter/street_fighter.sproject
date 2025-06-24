@@ -372,7 +372,7 @@
     }
   },
   "SplashScreen": null,
-  "LogicSpeed": "PAL_25HZ",
+  "LogicSpeed": "PAL_50HZ",
   "ReadCD32Buttons": false,
   "ReadMD6Buttons": false,
   "MDRegion": "Universal",
