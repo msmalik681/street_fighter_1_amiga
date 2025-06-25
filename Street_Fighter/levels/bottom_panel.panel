@@ -53,27 +53,8 @@
       "PadZeroes": true,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
-      "Characters": 0,
+      "Characters": 36,
       "MaxValue": 36,
-      "CanBeRightToLeft": false
-    },
-    {
-      "PanelElementType": 0,
-      "Variable": null,
-      "X": 0,
-      "Y": 0,
-      "NumberFont": null,
-      "Font": null,
-      "BarImage": null,
-      "CounterImage1": null,
-      "CounterDivisions": 1,
-      "IsHighPriority": true,
-      "IsRightToLeft": false,
-      "PadZeroes": true,
-      "PaletteLine_MegaDrive": 3,
-      "PaletteLine_NeoGeo": 15,
-      "Characters": 0,
-      "MaxValue": 9,
       "CanBeRightToLeft": false
     }
   ],
@@ -90,10 +71,10 @@
   "CenterAdjust_MegaDrive": 0,
   "MegaDrivePaletteLines": {
     "Start": 3,
-    "Talkpad": 0,
-    "FireIndicator": 0,
-    "ChoiceIndicator": 0,
-    "NumberFont": 0,
+    "Talkpad": 3,
+    "FireIndicator": 3,
+    "ChoiceIndicator": 3,
+    "NumberFont": 3,
     "Total": 1
   },
   "NeoGeoPaletteLines": {
