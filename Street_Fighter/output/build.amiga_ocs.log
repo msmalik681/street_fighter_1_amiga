@@ -1,5 +1,5 @@
-Compiled on 25 June 2025 17:54:12
-Version string: SE2025.0.250625.21.39.EX
+Compiled on 30 June 2025 09:17:22
+Version string: SE2025.0.250630.12.20.EX
 
 === Misc ===
 ImageFrames: 1228
@@ -55,8 +55,8 @@ Misc data size: 86
    66320 |        | Music file sf1_stage03_joe
    56690 |        | Music file sf1_stage09_adon
    50836 |        | Music file sf1_stage08_eagle
-   50180 |        | Project virtual machine (codeblocks)
-   34048 |        | Panel intro
+   50050 |        | Project virtual machine (codeblocks)
+   34040 |        | Panel intro
    32948 |        | Music file sf1_coin
    19374 |        | Asset bundle 14 (lee_vs_screen)
    19150 |        | Asset bundle 6 (eagle_vs_screen)
@@ -68,9 +68,9 @@ Misc data size: 86
    18404 |        | Asset bundle 12 (joe_vs_screen)
    17824 |        | Asset bundle 8 (geki_vs_screen)
    17622 |        | Asset bundle 18 (retsu_vs_screen)
-   14592 |        | Panel bottom_panel
-   11528 |        | Panel wining_panel
-    7612 |        | Panel top_panel
+   14584 |        | Panel bottom_panel
+   11520 |        | Panel wining_panel
+    7604 |        | Panel top_panel
     6144 |        | Tile data for map vs_screen_all (mem restrictions:None)
     5370 |        | Panel bobs bottom_panel
     4924 |        | Panel bobs top_panel
@@ -146,16 +146,16 @@ OS/other estimated: 99328
 For other:
 Map data memory: 6144
 Map background memory: 1296
-EXE memory: 204708
-vm memory: 50180
+EXE memory: 204296
+vm memory: 50050
 project memory: 85086
 memory reserved for active actors on screen (6): 872
 memory reserved for dormant actors in map (6): 216
 OS/other estimated: 105472
 
 Accounted memory chip: 993664
-Accounted memory other: 453974
-Accounted memory total: 1447638
+Accounted memory other: 453432
+Accounted memory total: 1447096
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -339,7 +339,7 @@ sagat_win_l
 005_ryu_duck
 
 === Codeblocks by compiled size ===
-startup: 8722
+startup: 8522
 enemy_special: 1716
 player_ontimer: 1246
 enemy_take_damage: 1236
@@ -348,21 +348,21 @@ player_take_damage: 1106
 enemy_on_land: 922
 stage_reset: 738
 player_ducking: 718
+load_level: 650
 stage_reset_gosub: 626
 player_on_land: 566
-load_level: 538
 camera: 414
 pre_startup: 406
-do_teleport: 402
 ryu_tatsu: 352
 enemy_jump: 348
 enemy_walk: 348
 check_direction: 318
 flipscreen_smooth: 310 (Unused?)
 key_input: 304
+do_teleport: 300
+load_next_level: 292 (Unused?)
 flipxymove: 278 (Unused?)
 player_win_check: 258
-load_next_level: 252 (Unused?)
 block_find: 206 (Unused?)
 004_ryu_autogen_attack: 206
 set_yresolution: 202
@@ -380,12 +380,12 @@ pre_quit: 160
 autogen_sagat_tiger_knee_l_2: 160
 snap_to_screen: 158
 autogen_sagat_tiger_knee_r_2: 158
+restart_this_level: 148 (Unused?)
 flipxmove: 142 (Unused?)
 load_panel: 134
 unload_level: 130
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130
 destroy_all_blocks: 128 (Unused?)
-restart_this_level: 128 (Unused?)
 autogen_ryu_dragon_punch_l_1: 128
 autogen_ryu_dragon_punch_r_1: 128
 pre_load_level: 122
