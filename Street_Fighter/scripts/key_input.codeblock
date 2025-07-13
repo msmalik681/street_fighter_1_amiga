@@ -81,8 +81,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "txt"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -163,8 +162,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "txt"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -245,8 +243,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "txt"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -327,8 +324,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "txt"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -409,8 +405,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "txt"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -491,8 +486,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "txt"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -581,8 +575,7 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -663,8 +656,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "png"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -753,8 +745,7 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -843,8 +834,7 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -933,8 +923,7 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -1023,8 +1012,7 @@
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -1120,8 +1108,7 @@
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -1210,8 +1197,7 @@
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -1307,8 +1293,7 @@
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -1397,8 +1382,7 @@
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -1494,8 +1478,7 @@
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -1584,8 +1567,7 @@
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -1666,8 +1648,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "png"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -1756,8 +1737,7 @@
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -1846,8 +1826,7 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -1936,8 +1915,7 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -2018,8 +1996,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "png"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -2108,8 +2085,7 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -2198,8 +2174,7 @@
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -2288,8 +2263,7 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -2378,8 +2352,7 @@
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -2468,8 +2441,7 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -2558,8 +2530,7 @@
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -2648,8 +2619,7 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -2738,8 +2708,7 @@
           "ComparisonNext": "End",
           "IsValid": true
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -2828,8 +2797,7 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -2910,8 +2878,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "png"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -2992,8 +2959,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "png"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -3074,8 +3040,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "png"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -3156,8 +3121,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "png"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -3238,8 +3202,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "png"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -3328,8 +3291,7 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -3418,8 +3380,7 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -3500,8 +3461,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "png"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -3582,8 +3542,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "png"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -3672,8 +3631,7 @@
           "ComparisonNext": "End",
           "IsValid": false
         }
-      ],
-      "FileType": "png"
+      ]
     },
     {
       "Values": {},
@@ -3754,8 +3712,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "png"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -3776,7 +3733,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "key_timelimit",
-      "Expression": "key_timer - 1",
+      "Expression": "key_timer - 3",
       "Index": "0",
       "Label": "",
       "Disabled": false,
@@ -3836,8 +3793,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "png"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -3918,8 +3874,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": [],
-      "FileType": "png"
+      "Conditions": []
     },
     {
       "Values": {},
@@ -4000,8 +3955,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
-      "Conditions": [],
-      "FileType": "png"
+      "Conditions": []
     }
   ]
 }

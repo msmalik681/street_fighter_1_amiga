@@ -34,6 +34,7 @@
       "PadZeroes": true,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
+      "Characters": 0,
       "MaxValue": 100,
       "CanBeRightToLeft": true
     },
@@ -52,6 +53,7 @@
       "PadZeroes": true,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
+      "Characters": 0,
       "MaxValue": 100,
       "CanBeRightToLeft": true
     },
@@ -70,6 +72,7 @@
       "PadZeroes": true,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
+      "Characters": 0,
       "MaxValue": 2,
       "CanBeRightToLeft": true
     },
@@ -88,6 +91,7 @@
       "PadZeroes": true,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
+      "Characters": 0,
       "MaxValue": 2,
       "CanBeRightToLeft": true
     },
@@ -106,6 +110,7 @@
       "PadZeroes": true,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
+      "Characters": 0,
       "MaxValue": 100,
       "CanBeRightToLeft": false
     },
@@ -124,6 +129,7 @@
       "PadZeroes": true,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
+      "Characters": 0,
       "MaxValue": 99999,
       "CanBeRightToLeft": false
     },
@@ -142,7 +148,65 @@
       "PadZeroes": true,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
+      "Characters": 0,
       "MaxValue": 999,
+      "CanBeRightToLeft": false
+    },
+    {
+      "PanelElementType": 0,
+      "Variable": "key_input_1",
+      "X": 61,
+      "Y": 3,
+      "NumberFont": "defaultnumberfont",
+      "Font": null,
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "IsHighPriority": true,
+      "IsRightToLeft": false,
+      "PadZeroes": true,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
+      "Characters": 0,
+      "MaxValue": 9,
+      "CanBeRightToLeft": false
+    },
+    {
+      "PanelElementType": 0,
+      "Variable": "key_input_2",
+      "X": 71,
+      "Y": 4,
+      "NumberFont": "defaultnumberfont",
+      "Font": null,
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "IsHighPriority": true,
+      "IsRightToLeft": false,
+      "PadZeroes": true,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
+      "Characters": 0,
+      "MaxValue": 9,
+      "CanBeRightToLeft": false
+    },
+    {
+      "PanelElementType": 0,
+      "Variable": "key_input_3",
+      "X": 81,
+      "Y": 4,
+      "NumberFont": "defaultnumberfont",
+      "Font": null,
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "IsHighPriority": true,
+      "IsRightToLeft": false,
+      "PadZeroes": true,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
+      "Characters": 0,
+      "MaxValue": 9,
       "CanBeRightToLeft": false
     }
   ],
@@ -190,7 +254,10 @@
       "CloudAnimIdle": 0.0,
       "CloudAnimRight": 0.5,
       "Pseudo3DDistance": 0.0,
-      "Pseudo3DSpeed": 0.0
+      "Pseudo3DSpeed": 0.0,
+      "Variable": null,
+      "Divisions": 10,
+      "MaxValue": 9
     }
   ],
   "ParallaxOverlayPath": null,

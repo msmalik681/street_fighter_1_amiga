@@ -1,9 +1,9 @@
-Compiled on 13 July 2025 21:42:24
+Compiled on 13 July 2025 22:53:42
 Version string: SE2025.0.250710.15.32.EX
 
 === Misc ===
-ImageFrames: 1226
-ImageFrame Data Size: 53944
+ImageFrames: 1224
+ImageFrame Data Size: 53856
 Maps and Asset Bundles Count: 22
 Maps and Asset Bundles Data Size: 0
 Actor Count: 17
@@ -18,8 +18,8 @@ Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 379
 Animations Data Size: 6064
-AnimationFrame Count: 1227
-AnimationFrame Data Size: 19632
+AnimationFrame Count: 1225
+AnimationFrame Data Size: 19600
 Sprites: 53
 Sprites Data Size: 742
 Attack Data: 5
@@ -29,10 +29,10 @@ Misc data size: 86
 === Data Sizes ===
     Size | Crunch | Detail
   296460 |        | Asset bundle 3 (birdie_stage)
-  289252 |        | Asset bundle 0 (Core project asset bundle)
+  287818 |        | Asset bundle 0 (Core project asset bundle)
   263344 |        | Asset bundle 13 (lee_stage)
   254394 |        | Asset bundle 9 (gen_stage)
-  252150 |        | Asset bundle 17 (retsu_stage)
+  251798 |        | Asset bundle 17 (retsu_stage)
   239878 |        | Asset bundle 1 (adon_stage)
   235976 |        | Asset bundle 11 (joe_stage)
   222010 |        | Asset bundle 15 (mike_stage)
@@ -47,15 +47,15 @@ Misc data size: 86
   145712 |        | Music file sf1_stage_clear
   143708 |        | Music file sf1_stage05_lee
   139856 |        | Music file sf1_stage04_mike
-  128494 |        | Asset bundle 21 (vs_screen_all)
+  130902 |        | Asset bundle 21 (vs_screen_all)
   127530 |        | Music file sf1_stage10_sagat
   123458 |        | Music file sf1_stage_select
    92284 |        | Music file sf1_stage07_birdie
-   84710 |        | Project Data
+   84590 |        | Project Data
    66320 |        | Music file sf1_stage03_joe
    56690 |        | Music file sf1_stage09_adon
    50836 |        | Music file sf1_stage08_eagle
-   50330 |        | Project virtual machine (codeblocks)
+   50738 |        | Project virtual machine (codeblocks)
    34040 |        | Panel intro
    32948 |        | Music file sf1_coin
    19374 |        | Asset bundle 14 (lee_vs_screen)
@@ -70,7 +70,7 @@ Misc data size: 86
    17622 |        | Asset bundle 18 (retsu_vs_screen)
    14584 |        | Panel bottom_panel
    11520 |        | Panel wining_panel
-    7604 |        | Panel top_panel
+    7700 |        | Panel top_panel
     6144 |        | Tile data for map vs_screen_all (mem restrictions:None)
     5370 |        | Panel bobs bottom_panel
     4924 |        | Panel bobs top_panel
@@ -139,7 +139,7 @@ For chip:
 Map gfx (level gfx bundle 3): 296460
 Music memory (retsu_stage1): 187624
 BP Buffer memory: 121000
-Core sfx/gfx memory: 289252
+Core sfx/gfx memory: 287818
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -147,15 +147,15 @@ For other:
 Map data memory: 6144
 Map background memory: 1296
 EXE memory: 204680
-vm memory: 50330
-project memory: 84710
+vm memory: 50738
+project memory: 84590
 memory reserved for active actors on screen (6): 872
 memory reserved for dormant actors in map (6): 216
 OS/other estimated: 105472
 
-Accounted memory chip: 993664
-Accounted memory other: 453720
-Accounted memory total: 1447384
+Accounted memory chip: 992230
+Accounted memory other: 454008
+Accounted memory total: 1446238
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -339,16 +339,17 @@ sagat_win_l
 === Codeblocks by compiled size ===
 startup: 8962
 enemy_special: 1716
-player_ontimer: 1246
+player_ontimer: 1324
 enemy_take_damage: 1236
 enemy_ai: 1148
 player_take_damage: 1106
 enemy_on_land: 922
 stage_reset: 738
 player_ducking: 718
+stage_reset_gosub: 704
 load_level: 650
-stage_reset_gosub: 626
 player_on_land: 566
+key_input: 524
 pre_startup: 446
 camera: 414
 ryu_tatsu: 352
@@ -356,7 +357,6 @@ enemy_jump: 348
 enemy_walk: 348
 check_direction: 318
 flipscreen_smooth: 310 (Unused?)
-key_input: 304
 do_teleport: 300
 flipxymove: 278 (Unused?)
 load_next_level: 268 (Unused?)
@@ -629,6 +629,7 @@ block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
 clear_block_collision: 32
 autogen_adon_atk_lp_l_0: 32
+autogen_retsu_atk_lk_l_1: 32
 enemy_atk_light: 32
 vm_registers: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)

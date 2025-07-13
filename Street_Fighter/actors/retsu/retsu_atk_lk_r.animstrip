@@ -25,10 +25,10 @@
           {
             "FrameEventType": "SetVariable",
             "Dir": "move_right",
-            "Codeblock": "enemy_atk_light",
+            "Codeblock": null,
             "Actor": "none",
             "Sound": "none",
-            "Variable": "e_atk_damage",
+            "Variable": "atk_damage",
             "Expression": "e_damage_light",
             "Tag": "FrameEvent0",
             "IsConditional": false,
