@@ -1,4 +1,4 @@
-Compiled on 13 July 2025 18:27:29
+Compiled on 13 July 2025 21:42:24
 Version string: SE2025.0.250710.15.32.EX
 
 === Misc ===
@@ -55,7 +55,7 @@ Misc data size: 86
    66320 |        | Music file sf1_stage03_joe
    56690 |        | Music file sf1_stage09_adon
    50836 |        | Music file sf1_stage08_eagle
-   50494 |        | Project virtual machine (codeblocks)
+   50330 |        | Project virtual machine (codeblocks)
    34040 |        | Panel intro
    32948 |        | Music file sf1_coin
    19374 |        | Asset bundle 14 (lee_vs_screen)
@@ -147,15 +147,15 @@ For other:
 Map data memory: 6144
 Map background memory: 1296
 EXE memory: 204680
-vm memory: 50494
+vm memory: 50330
 project memory: 84710
 memory reserved for active actors on screen (6): 872
 memory reserved for dormant actors in map (6): 216
 OS/other estimated: 105472
 
 Accounted memory chip: 993664
-Accounted memory other: 453884
-Accounted memory total: 1447548
+Accounted memory other: 453720
+Accounted memory total: 1447384
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -492,7 +492,6 @@ autogen_retsu_atk_lp_l_2: 102
 autogen_retsu_atk_lp_r_2: 102
 autogen_retsu_duck_atk_hk_l_3: 102
 autogen_retsu_duck_atk_hk_r_3: 102
-autogen_retsu_jump_atk_l_1: 102
 autogen_ryu_atk_hk_l_2: 102
 autogen_ryu_atk_hk_r_2: 102
 autogen_ryu_atk_hp_l_3: 102
@@ -527,7 +526,6 @@ autogen_eagle_jump_atk_r_1: 100
 autogen_eagle_jump_atk_r_2: 100
 autogen_lee_atk_lk_r_2: 100
 autogen_retsu_atk_lk_r_2: 100
-autogen_retsu_jump_atk_r_1: 100
 autogen_ryu_dragon_punch_r_0: 100
 autogen_ryu_jump_atk_hk_r_2: 100
 autogen_ryu_jump_atk_hp_r_2: 100
@@ -562,7 +560,7 @@ autogen_joe_jump_atk_l_3: 90
 autogen_joe_jump_atk_r_3: 90
 autogen_lee_jump_atk_l_2: 90
 autogen_lee_jump_atk_r_2: 90
-autogen_retsu_jump_atk_l_2: 90
+autogen_retsu_jump_atk_l_1: 90
 autogen_ryu_dragon_punch_l_2: 90
 autogen_ryu_dragon_punch_r_2: 90
 autogen_ryu_jump_atk_lk_l_1: 90
@@ -570,7 +568,7 @@ autogen_ryu_jump_atk_lp_l_1: 90
 autogen_ryu_jump_atk_lp_r_1: 90
 autogen_ryu_tatsu_l_7: 90
 autogen_sagat_tiger_knee_l_3: 90
-autogen_retsu_jump_atk_r_2: 88
+autogen_retsu_jump_atk_r_1: 88
 autogen_ryu_jump_atk_lk_r_1: 88
 autogen_ryu_tatsu_r_7: 88
 autogen_sagat_tiger_knee_r_3: 88
@@ -620,6 +618,7 @@ autogen_birdie_atk_lp_l_0: 38
 autogen_eagle_atk_special_l_0: 38
 autogen_geki_duck_atk_hp_l_0: 38
 autogen_joe_atk_lp_l_1: 38
+autogen_retsu_jump_atk_l_0: 38
 autogen_retsu_jump_l_1: 38
 autogen_retsu_win_l_3: 38
 autogen_ryu_fireball_l_2: 38

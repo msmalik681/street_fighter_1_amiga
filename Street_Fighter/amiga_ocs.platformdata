@@ -23,7 +23,6 @@
   "CrunchMode": "NoCrunch",
   "MaxActiveActors": 6,
   "MaxDormantActors": 6,
-  "DynamicPatterns": 0,
   "PaletteLines": 1,
   "StartingPaletteLine": 0
 }
