@@ -1,9 +1,9 @@
-Compiled on 30 June 2025 09:17:22
-Version string: SE2025.0.250630.12.20.EX
+Compiled on 13 July 2025 18:27:29
+Version string: SE2025.0.250710.15.32.EX
 
 === Misc ===
-ImageFrames: 1228
-ImageFrame Data Size: 54032
+ImageFrames: 1226
+ImageFrame Data Size: 53944
 Maps and Asset Bundles Count: 22
 Maps and Asset Bundles Data Size: 0
 Actor Count: 17
@@ -16,12 +16,12 @@ Sound Count: 20
 Sound Data Size: 560
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 381
-Animations Data Size: 6096
-AnimationFrame Count: 1229
-AnimationFrame Data Size: 19664
-Sprites: 69
-Sprites Data Size: 966
+Animations Count: 379
+Animations Data Size: 6064
+AnimationFrame Count: 1227
+AnimationFrame Data Size: 19632
+Sprites: 53
+Sprites Data Size: 742
 Attack Data: 5
 Attack Data Size: 440
 Misc data size: 86
@@ -30,9 +30,9 @@ Misc data size: 86
     Size | Crunch | Detail
   296460 |        | Asset bundle 3 (birdie_stage)
   289252 |        | Asset bundle 0 (Core project asset bundle)
-  264072 |        | Asset bundle 17 (retsu_stage)
   263344 |        | Asset bundle 13 (lee_stage)
   254394 |        | Asset bundle 9 (gen_stage)
+  252150 |        | Asset bundle 17 (retsu_stage)
   239878 |        | Asset bundle 1 (adon_stage)
   235976 |        | Asset bundle 11 (joe_stage)
   222010 |        | Asset bundle 15 (mike_stage)
@@ -51,11 +51,11 @@ Misc data size: 86
   127530 |        | Music file sf1_stage10_sagat
   123458 |        | Music file sf1_stage_select
    92284 |        | Music file sf1_stage07_birdie
-   85086 |        | Project Data
+   84710 |        | Project Data
    66320 |        | Music file sf1_stage03_joe
    56690 |        | Music file sf1_stage09_adon
    50836 |        | Music file sf1_stage08_eagle
-   50050 |        | Project virtual machine (codeblocks)
+   50494 |        | Project virtual machine (codeblocks)
    34040 |        | Panel intro
    32948 |        | Music file sf1_coin
    19374 |        | Asset bundle 14 (lee_vs_screen)
@@ -146,16 +146,16 @@ OS/other estimated: 99328
 For other:
 Map data memory: 6144
 Map background memory: 1296
-EXE memory: 204296
-vm memory: 50050
-project memory: 85086
+EXE memory: 204680
+vm memory: 50494
+project memory: 84710
 memory reserved for active actors on screen (6): 872
 memory reserved for dormant actors in map (6): 216
 OS/other estimated: 105472
 
 Accounted memory chip: 993664
-Accounted memory other: 453432
-Accounted memory total: 1447096
+Accounted memory other: 453884
+Accounted memory total: 1447548
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -282,8 +282,6 @@ retsu_dead_l
 retsu_duck_atk_hk_l
 retsu_duck_block_l
 retsu_duck_block_r
-retsu_duck_pain_l
-retsu_duck_pain_r
 retsu_fall_l
 retsu_hurt_stand_l
 retsu_jump_atk_l
@@ -339,7 +337,7 @@ sagat_win_l
 005_ryu_duck
 
 === Codeblocks by compiled size ===
-startup: 8522
+startup: 8962
 enemy_special: 1716
 player_ontimer: 1246
 enemy_take_damage: 1236
@@ -351,8 +349,8 @@ player_ducking: 718
 load_level: 650
 stage_reset_gosub: 626
 player_on_land: 566
+pre_startup: 446
 camera: 414
-pre_startup: 406
 ryu_tatsu: 352
 enemy_jump: 348
 enemy_walk: 348
@@ -360,8 +358,8 @@ check_direction: 318
 flipscreen_smooth: 310 (Unused?)
 key_input: 304
 do_teleport: 300
-load_next_level: 292 (Unused?)
 flipxymove: 278 (Unused?)
+load_next_level: 268 (Unused?)
 player_win_check: 258
 block_find: 206 (Unused?)
 004_ryu_autogen_attack: 206
@@ -380,8 +378,8 @@ pre_quit: 160
 autogen_sagat_tiger_knee_l_2: 160
 snap_to_screen: 158
 autogen_sagat_tiger_knee_r_2: 158
-restart_this_level: 148 (Unused?)
 flipxmove: 142 (Unused?)
+restart_this_level: 136 (Unused?)
 load_panel: 134
 unload_level: 130
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_destroy_actor_destroy_actor: 130

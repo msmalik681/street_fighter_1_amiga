@@ -8,7 +8,7 @@
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
-      "RenderType": "OnlySprite",
+      "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "dead.png",
       "HandleX": -70,
