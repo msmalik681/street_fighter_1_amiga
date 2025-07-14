@@ -20,13 +20,15 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": true,
   "PreventCollision": true,
+  "PreventJump": false,
   "HideChildren": false,
   "LoopFrame": 0,
   "OnFinish": "",
   "AutoFlip": true,
   "Streamed": true,
-  "PatternBuffer": 0,
+  "AnimationTag": null,
   "LinkedMap": "geki_stage"
 }

@@ -42,11 +42,12 @@
   "PreventAttack": true,
   "PreventMovement": true,
   "PreventCollision": true,
+  "PreventJump": false,
   "HideChildren": false,
   "LoopFrame": 0,
   "OnFinish": "enemy_on_land",
   "AutoFlip": null,
   "Streamed": true,
-  "PatternBuffer": 0,
+  "AnimationTag": null,
   "LinkedMap": "lee_stage"
 }

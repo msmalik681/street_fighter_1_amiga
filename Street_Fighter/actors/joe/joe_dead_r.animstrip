@@ -23,11 +23,12 @@
   "PreventAttack": true,
   "PreventMovement": true,
   "PreventCollision": true,
+  "PreventJump": false,
   "HideChildren": false,
   "LoopFrame": 0,
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,
-  "PatternBuffer": 0,
+  "AnimationTag": null,
   "LinkedMap": "joe_stage"
 }
