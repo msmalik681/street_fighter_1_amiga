@@ -1,4 +1,4 @@
-Compiled on 15 July 2025 13:14:20
+Compiled on 15 July 2025 17:53:49
 Version string: SE2025.0.250710.15.32.EX
 
 === Misc ===
@@ -20,8 +20,8 @@ Animations Count: 379
 Animations Data Size: 6064
 AnimationFrame Count: 1225
 AnimationFrame Data Size: 19600
-Sprites: 303
-Sprites Data Size: 4242
+Sprites: 355
+Sprites Data Size: 4970
 Attack Data: 5
 Attack Data Size: 440
 Misc data size: 86
@@ -30,15 +30,15 @@ Misc data size: 86
     Size | Crunch | Detail
   509980 |        | Asset bundle 3 (birdie_stage)
   380300 |        | Asset bundle 13 (lee_stage)
+  380116 |        | Asset bundle 19 (sagat_stage)
   363102 |        | Asset bundle 9 (gen_stage)
+  351264 |        | Asset bundle 1 (adon_stage)
   327090 |        | Asset bundle 17 (retsu_stage)
   320946 |        | Asset bundle 5 (eagle_stage)
   310228 |        | Asset bundle 11 (joe_stage)
   300118 |        | Asset bundle 15 (mike_stage)
   287818 |        | Asset bundle 0 (Core project asset bundle)
   276108 |        | Asset bundle 7 (geki_stage)
-  239050 |        | Asset bundle 1 (adon_stage)
-  201584 |        | Asset bundle 19 (sagat_stage)
   187624 |        | Music file retsu_stage1
   184100 |        | Music file sf1_stage01_retsu
   174996 |        | Music file sf1_vs
@@ -51,7 +51,7 @@ Misc data size: 86
   127530 |        | Music file sf1_stage10_sagat
   123458 |        | Music file sf1_stage_select
    92284 |        | Music file sf1_stage07_birdie
-   88090 |        | Project Data
+   88818 |        | Project Data
    66320 |        | Music file sf1_stage03_joe
    56690 |        | Music file sf1_stage09_adon
    50836 |        | Music file sf1_stage08_eagle
@@ -148,14 +148,14 @@ Map data memory: 6144
 Map background memory: 1296
 EXE memory: 204680
 vm memory: 50532
-project memory: 88090
+project memory: 88818
 memory reserved for active actors on screen (6): 872
 memory reserved for dormant actors in map (6): 216
 OS/other estimated: 105472
 
 Accounted memory chip: 1205750
-Accounted memory other: 457302
-Accounted memory total: 1663052
+Accounted memory other: 458030
+Accounted memory total: 1663780
 
 === Possibly unused animations ===
 adon_atk_hk_l
