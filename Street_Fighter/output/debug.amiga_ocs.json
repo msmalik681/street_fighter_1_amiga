@@ -2987,7 +2987,7 @@
     {
       "CodeBlock": "startup",
       "Name": "stage",
-      "DefaultValue": "9",
+      "DefaultValue": "10",
       "Index": 241,
       "MemoryOffset": 459
     }
@@ -30957,7 +30957,7 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 663,
       "MemoryOffset": 48558,
-      "Description": "Set 'e_atk_005' to 'adon_atk_hk'"
+      "Description": "Set 'e_atk_005' to 'sagat_atk_hk_r'"
     },
     {
       "CodeBlock": "startup",
