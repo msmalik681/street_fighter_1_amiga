@@ -1,4 +1,4 @@
-Compiled on 15 July 2025 11:29:58
+Compiled on 15 July 2025 13:14:20
 Version string: SE2025.0.250710.15.32.EX
 
 === Misc ===
@@ -20,25 +20,25 @@ Animations Count: 379
 Animations Data Size: 6064
 AnimationFrame Count: 1225
 AnimationFrame Data Size: 19600
-Sprites: 201
-Sprites Data Size: 2814
+Sprites: 303
+Sprites Data Size: 4242
 Attack Data: 5
 Attack Data Size: 440
 Misc data size: 86
 
 === Data Sizes ===
     Size | Crunch | Detail
-  296460 |        | Asset bundle 3 (birdie_stage)
+  509980 |        | Asset bundle 3 (birdie_stage)
+  380300 |        | Asset bundle 13 (lee_stage)
+  363102 |        | Asset bundle 9 (gen_stage)
+  327090 |        | Asset bundle 17 (retsu_stage)
+  320946 |        | Asset bundle 5 (eagle_stage)
+  310228 |        | Asset bundle 11 (joe_stage)
+  300118 |        | Asset bundle 15 (mike_stage)
   287818 |        | Asset bundle 0 (Core project asset bundle)
-  262984 |        | Asset bundle 13 (lee_stage)
-  254394 |        | Asset bundle 9 (gen_stage)
-  251798 |        | Asset bundle 17 (retsu_stage)
-  239878 |        | Asset bundle 1 (adon_stage)
-  231022 |        | Asset bundle 11 (joe_stage)
-  222112 |        | Asset bundle 15 (mike_stage)
-  210474 |        | Asset bundle 7 (geki_stage)
-  205476 |        | Asset bundle 5 (eagle_stage)
-  201794 |        | Asset bundle 19 (sagat_stage)
+  276108 |        | Asset bundle 7 (geki_stage)
+  239050 |        | Asset bundle 1 (adon_stage)
+  201584 |        | Asset bundle 19 (sagat_stage)
   187624 |        | Music file retsu_stage1
   184100 |        | Music file sf1_stage01_retsu
   174996 |        | Music file sf1_vs
@@ -51,7 +51,7 @@ Misc data size: 86
   127530 |        | Music file sf1_stage10_sagat
   123458 |        | Music file sf1_stage_select
    92284 |        | Music file sf1_stage07_birdie
-   86662 |        | Project Data
+   88090 |        | Project Data
    66320 |        | Music file sf1_stage03_joe
    56690 |        | Music file sf1_stage09_adon
    50836 |        | Music file sf1_stage08_eagle
@@ -136,7 +136,7 @@ Misc data size: 86
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
-Map gfx (level gfx bundle 3): 296460
+Map gfx (level gfx bundle 3): 509980
 Music memory (retsu_stage1): 187624
 BP Buffer memory: 121000
 Core sfx/gfx memory: 287818
@@ -148,14 +148,14 @@ Map data memory: 6144
 Map background memory: 1296
 EXE memory: 204680
 vm memory: 50532
-project memory: 86662
+project memory: 88090
 memory reserved for active actors on screen (6): 872
 memory reserved for dormant actors in map (6): 216
 OS/other estimated: 105472
 
-Accounted memory chip: 992230
-Accounted memory other: 455874
-Accounted memory total: 1448104
+Accounted memory chip: 1205750
+Accounted memory other: 457302
+Accounted memory total: 1663052
 
 === Possibly unused animations ===
 adon_atk_hk_l

@@ -158,7 +158,7 @@
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
+      "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "jump_attack_01.png",
       "HandleX": -70,

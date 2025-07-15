@@ -2987,7 +2987,7 @@
     {
       "CodeBlock": "startup",
       "Name": "stage",
-      "DefaultValue": "5",
+      "DefaultValue": "8",
       "Index": 241,
       "MemoryOffset": 459
     }

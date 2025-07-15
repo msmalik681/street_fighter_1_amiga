@@ -195,7 +195,7 @@
       "Multiplexes": 0,
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
-      "RenderType": "Sliced",
+      "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "low_punch_04.png",
       "HandleX": -70,
