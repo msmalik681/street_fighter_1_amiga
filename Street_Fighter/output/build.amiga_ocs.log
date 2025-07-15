@@ -1,4 +1,4 @@
-Compiled on 14 July 2025 12:20:23
+Compiled on 15 July 2025 11:29:58
 Version string: SE2025.0.250710.15.32.EX
 
 === Misc ===
@@ -55,7 +55,7 @@ Misc data size: 86
    66320 |        | Music file sf1_stage03_joe
    56690 |        | Music file sf1_stage09_adon
    50836 |        | Music file sf1_stage08_eagle
-   50400 |        | Project virtual machine (codeblocks)
+   50532 |        | Project virtual machine (codeblocks)
    34040 |        | Panel intro
    32948 |        | Music file sf1_coin
    19374 |        | Asset bundle 14 (lee_vs_screen)
@@ -147,15 +147,15 @@ For other:
 Map data memory: 6144
 Map background memory: 1296
 EXE memory: 204680
-vm memory: 50400
+vm memory: 50532
 project memory: 86662
 memory reserved for active actors on screen (6): 872
 memory reserved for dormant actors in map (6): 216
 OS/other estimated: 105472
 
 Accounted memory chip: 992230
-Accounted memory other: 455742
-Accounted memory total: 1447972
+Accounted memory other: 455874
+Accounted memory total: 1448104
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -339,10 +339,10 @@ sagat_win_l
 === Codeblocks by compiled size ===
 startup: 8962
 enemy_special: 1716
+enemy_take_damage: 1280
 player_ontimer: 1246
-enemy_take_damage: 1236
+player_take_damage: 1194
 enemy_ai: 1148
-player_take_damage: 1106
 enemy_on_land: 922
 stage_reset: 738
 player_ducking: 718

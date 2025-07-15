@@ -2581,9 +2581,9 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "control1_buttons",
-          "Comparison": "Equals",
-          "RightSide": "1",
+          "LeftSide": "control1_hitbuttons",
+          "Comparison": "BitTest",
+          "RightSide": "Amiga_Fire1",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -3475,9 +3475,9 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "control1_buttons",
-          "Comparison": "Equals",
-          "RightSide": "2",
+          "LeftSide": "control1_hitbuttons",
+          "Comparison": "BitTest",
+          "RightSide": "Amiga_Fire2",
           "ComparisonNext": "End",
           "IsValid": true
         }
