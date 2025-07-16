@@ -14,7 +14,7 @@
   "OverrideGamePalette": true,
   "PanelImagePath": "bottom_panel.png",
   "FireIndicatorPath": null,
-  "ChoiceIndicatorPath": null,
+  "ChoiceIndicatorPath": "continue_selector.png",
   "FireIndicatorX": 0,
   "FireIndicatorY": 0,
   "Options": [],
