@@ -23,7 +23,7 @@
       "PanelElementType": 3,
       "Variable": "loser1",
       "X": 84,
-      "Y": 7,
+      "Y": 21,
       "NumberFont": null,
       "Font": "blue",
       "BarImage": null,
@@ -41,8 +41,8 @@
     {
       "PanelElementType": 3,
       "Variable": "loser2",
-      "X": 1,
-      "Y": 36,
+      "X": 3,
+      "Y": 40,
       "NumberFont": null,
       "Font": "blue",
       "BarImage": null,
@@ -53,7 +53,7 @@
       "PadZeroes": true,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
-      "Characters": 0,
+      "Characters": 31,
       "MaxValue": 31,
       "CanBeRightToLeft": false
     },
@@ -61,7 +61,7 @@
       "PanelElementType": 3,
       "Variable": "loser3",
       "X": 0,
-      "Y": 67,
+      "Y": 60,
       "NumberFont": null,
       "Font": "blue",
       "BarImage": null,
@@ -72,7 +72,7 @@
       "PadZeroes": true,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
-      "Characters": 36,
+      "Characters": 32,
       "MaxValue": 32,
       "CanBeRightToLeft": false
     }
@@ -82,7 +82,7 @@
   "PanelOptionSound": "none",
   "OverlapsGameView": false,
   "CenterAdjustments": {
-    "0": 0,
+    "0": 32,
     "1": 0,
     "2": 0,
     "3": 0
