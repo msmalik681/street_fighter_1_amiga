@@ -25215,293 +25215,305 @@
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 40,
       "MemoryOffset": 39684,
-      "Description": "If player2_wins == 2 ELSE GOTO 00039998"
+      "Description": "If player2_wins == 2 ELSE GOTO 00039952"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 41,
       "MemoryOffset": 39696,
-      "Description": "GOSUB TO 'CHECK_TALKPAD'"
-    },
-    {
-      "CodeBlock": "stage_reset",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 39716,
       "Description": "Core operation'Print'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 41,
+      "MemoryOffset": 39704,
+      "Description": "Print '<Y40>continue?' to middle panel"
+    },
+    {
+      "CodeBlock": "stage_reset",
+      "CodeBlockLine": 42,
       "MemoryOffset": 39724,
-      "Description": "Say '<Y40>continue?'"
-    },
-    {
-      "CodeBlock": "stage_reset",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 39744,
-      "Description": "Set 'wait' to '0'"
-    },
-    {
-      "CodeBlock": "stage_reset",
-      "CodeBlockLine": 41,
-      "MemoryOffset": 39750,
-      "Description": "GOSUB TO 'WAITFORFRAMES'"
-    },
-    {
-      "CodeBlock": "stage_reset",
-      "CodeBlockLine": 42,
-      "MemoryOffset": 39770,
       "Description": "Core operation'Print'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 42,
-      "MemoryOffset": 39786,
+      "MemoryOffset": 39740,
       "Description": "GOTO 'CONTINUE'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 43,
-      "MemoryOffset": 39792,
+      "MemoryOffset": 39746,
       "Description": "Core operation'Print'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 43,
-      "MemoryOffset": 39808,
+      "MemoryOffset": 39762,
       "Description": "GOTO 'GAME_OVER'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 44,
-      "MemoryOffset": 39814,
+      "MemoryOffset": 39768,
       "Description": "Core operation'PresentChoice'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 45,
-      "MemoryOffset": 39848,
+      "MemoryOffset": 39802,
       "Description": "GAME_OVER"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 46,
-      "MemoryOffset": 39848,
+      "MemoryOffset": 39802,
       "Description": "GOSUB TO 'CHECK_TALKPAD'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 46,
-      "MemoryOffset": 39868,
+      "MemoryOffset": 39822,
       "Description": "Core operation'Print'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 46,
-      "MemoryOffset": 39876,
+      "MemoryOffset": 39830,
       "Description": "Say '<Y40>game over'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 46,
-      "MemoryOffset": 39896,
+      "MemoryOffset": 39850,
       "Description": "Set 'wait' to '0'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 46,
-      "MemoryOffset": 39902,
+      "MemoryOffset": 39856,
       "Description": "GOSUB TO 'WAITFORFRAMES'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 47,
-      "MemoryOffset": 39922,
+      "MemoryOffset": 39876,
       "Description": "Set 'stage' to '0'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 48,
-      "MemoryOffset": 39928,
+      "MemoryOffset": 39882,
       "Description": "GOTO 'GAME_OVER_RESET'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 49,
-      "MemoryOffset": 39934,
+      "MemoryOffset": 39888,
       "Description": "CONTINUE"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 50,
-      "MemoryOffset": 39934,
-      "Description": "If player1_wins != 0 ELSE GOTO 00039966"
+      "MemoryOffset": 39888,
+      "Description": "If player1_wins != 0 ELSE GOTO 00039920"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 50,
-      "MemoryOffset": 39946,
+      "MemoryOffset": 39900,
       "Description": "Set 'player1_wins' to '0'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 50,
-      "MemoryOffset": 39952,
+      "MemoryOffset": 39906,
       "Description": "Raw expression '2'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 50,
-      "MemoryOffset": 39958,
+      "MemoryOffset": 39912,
       "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 51,
-      "MemoryOffset": 39966,
-      "Description": "If player2_wins != 0 ELSE GOTO 00039998"
+      "MemoryOffset": 39920,
+      "Description": "If player2_wins != 0 ELSE GOTO 00039952"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 51,
-      "MemoryOffset": 39978,
+      "MemoryOffset": 39932,
       "Description": "Set 'player2_wins' to '0'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 51,
-      "MemoryOffset": 39984,
+      "MemoryOffset": 39938,
       "Description": "Raw expression '2'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 51,
-      "MemoryOffset": 39990,
+      "MemoryOffset": 39944,
       "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 54,
-      "MemoryOffset": 39998,
-      "Description": "If player1_wins == 2 ELSE GOTO 00040108"
+      "MemoryOffset": 39952,
+      "Description": "If player1_wins == 2 ELSE GOTO 00040102"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 55,
-      "MemoryOffset": 40010,
+      "MemoryOffset": 39964,
       "Description": "Set 'stage' to 'stage + 1'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 56,
-      "MemoryOffset": 40020,
+      "MemoryOffset": 39974,
       "Description": "GAME_OVER_RESET"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 57,
-      "MemoryOffset": 40020,
+      "MemoryOffset": 39974,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 57,
-      "MemoryOffset": 40028,
+      "MemoryOffset": 39982,
       "Description": "GOSUB TO 'UNLOAD_LEVEL'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 58,
-      "MemoryOffset": 40048,
+      "MemoryOffset": 40002,
       "Description": "Set 'newvalue' to 'none'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 58,
-      "MemoryOffset": 40054,
+      "MemoryOffset": 40008,
       "Description": "GOSUB TO 'LOAD_PANEL_TOP'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 59,
-      "MemoryOffset": 40074,
-      "Description": "Core operation'MusicStop'"
+      "MemoryOffset": 40028,
+      "Description": "Set 'showtalkpad' to 'false'"
+    },
+    {
+      "CodeBlock": "stage_reset",
+      "CodeBlockLine": 59,
+      "MemoryOffset": 40034,
+      "Description": "Core operation'RegenerateScreen'"
+    },
+    {
+      "CodeBlock": "stage_reset",
+      "CodeBlockLine": 59,
+      "MemoryOffset": 40042,
+      "Description": "Set 'panel_talkpad' to 'none'"
+    },
+    {
+      "CodeBlock": "stage_reset",
+      "CodeBlockLine": 59,
+      "MemoryOffset": 40048,
+      "Description": "GOSUB TO 'LOAD_PANEL_FINISH'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 60,
-      "MemoryOffset": 40082,
-      "Description": "GOSUB TO 'FADEOUT'"
+      "MemoryOffset": 40068,
+      "Description": "Core operation'MusicStop'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 61,
-      "MemoryOffset": 40102,
+      "MemoryOffset": 40076,
+      "Description": "GOSUB TO 'FADEOUT'"
+    },
+    {
+      "CodeBlock": "stage_reset",
+      "CodeBlockLine": 62,
+      "MemoryOffset": 40096,
       "Description": "GOTO 'STARTUP'"
     },
     {
       "CodeBlock": "stage_reset",
-      "CodeBlockLine": 64,
-      "MemoryOffset": 40108,
+      "CodeBlockLine": 65,
+      "MemoryOffset": 40102,
       "Description": "Set 'wait' to '75'"
     },
     {
       "CodeBlock": "stage_reset",
-      "CodeBlockLine": 64,
-      "MemoryOffset": 40114,
+      "CodeBlockLine": 65,
+      "MemoryOffset": 40108,
       "Description": "GOSUB TO 'WAITFORFRAMES'"
     },
     {
       "CodeBlock": "stage_reset",
-      "CodeBlockLine": 65,
+      "CodeBlockLine": 66,
+      "MemoryOffset": 40128,
+      "Description": "Set 'showtalkpad' to 'false'"
+    },
+    {
+      "CodeBlock": "stage_reset",
+      "CodeBlockLine": 66,
       "MemoryOffset": 40134,
-      "Description": "Core operation'WaitForNoActors'"
+      "Description": "Core operation'RegenerateScreen'"
     },
     {
       "CodeBlock": "stage_reset",
-      "CodeBlockLine": 65,
+      "CodeBlockLine": 66,
       "MemoryOffset": 40142,
-      "Description": "Set 'newvalue' to 'none'"
+      "Description": "Set 'panel_talkpad' to 'none'"
     },
     {
       "CodeBlock": "stage_reset",
-      "CodeBlockLine": 65,
+      "CodeBlockLine": 66,
       "MemoryOffset": 40148,
-      "Description": "GOSUB TO 'LOAD_PANEL'"
+      "Description": "GOSUB TO 'LOAD_PANEL_FINISH'"
     },
     {
       "CodeBlock": "stage_reset",
-      "CodeBlockLine": 67,
+      "CodeBlockLine": 68,
       "MemoryOffset": 40168,
       "Description": "Core operation'Foreach'"
     },
     {
       "CodeBlock": "stage_reset",
-      "CodeBlockLine": 67,
+      "CodeBlockLine": 68,
       "MemoryOffset": 40180,
       "Description": "If actor_tag == 50 ELSE GOTO 00040206"
     },
     {
       "CodeBlock": "stage_reset",
-      "CodeBlockLine": 67,
+      "CodeBlockLine": 68,
       "MemoryOffset": 40200,
       "Description": "GOTO 'STAGE_RESET_GOSUB'"
     },
     {
       "CodeBlock": "stage_reset",
-      "CodeBlockLine": 68,
+      "CodeBlockLine": 69,
       "MemoryOffset": 40208,
       "Description": "Core operation'Foreach'"
     },
     {
       "CodeBlock": "stage_reset",
-      "CodeBlockLine": 68,
+      "CodeBlockLine": 69,
       "MemoryOffset": 40220,
       "Description": "If actor_tag == 20 ELSE GOTO 00040246"
     },
     {
       "CodeBlock": "stage_reset",
-      "CodeBlockLine": 68,
+      "CodeBlockLine": 69,
       "MemoryOffset": 40240,
       "Description": "GOTO 'STAGE_RESET_GOSUB'"
     },

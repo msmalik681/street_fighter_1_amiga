@@ -1,4 +1,4 @@
-Compiled on 17 July 2025 11:55:05
+Compiled on 18 July 2025 17:47:11
 Version string: SE2025.0.250710.15.32.EX
 
 === Misc ===
@@ -97,7 +97,7 @@ Misc data size: 86
     3240 |        | Tile data for map mike_vs_screen (mem restrictions:None)
     3240 |        | Tile data for map retsu_vs_screen (mem restrictions:None)
     3240 |        | Tile data for map sagat_vs_screen (mem restrictions:None)
-    1044 |        | Project virtual machine redirects
+    1040 |        | Project virtual machine redirects
      844 |        | Header data for map adon_stage
      844 |        | Header data for map adon_vs_screen
      844 |        | Header data for map birdie_stage
