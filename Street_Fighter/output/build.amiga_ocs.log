@@ -1,4 +1,4 @@
-Compiled on 19 July 2025 10:47:08
+Compiled on 19 July 2025 15:40:09
 Version string: SE2025.0.250710.15.32.EX
 
 === Misc ===
@@ -54,7 +54,7 @@ Misc data size: 86
    88818 |        | Project Data
    66320 |        | Music file sf1_stage03_joe
    56690 |        | Music file sf1_stage09_adon
-   51394 |        | Project virtual machine (codeblocks)
+   51390 |        | Project virtual machine (codeblocks)
    50836 |        | Music file sf1_stage08_eagle
    42104 |        | Panel ending
    34040 |        | Panel intro
@@ -150,15 +150,15 @@ For other:
 Map data memory: 6144
 Map background memory: 1296
 EXE memory: 204680
-vm memory: 51394
+vm memory: 51390
 project memory: 88818
 memory reserved for active actors on screen (6): 872
 memory reserved for dormant actors in map (6): 216
 OS/other estimated: 105472
 
 Accounted memory chip: 1205750
-Accounted memory other: 458892
-Accounted memory total: 1664642
+Accounted memory other: 458888
+Accounted memory total: 1664638
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -344,9 +344,9 @@ startup: 9338
 enemy_special: 1716
 enemy_take_damage: 1280
 player_ontimer: 1258
+stage_reset: 1208
 player_take_damage: 1194
-stage_reset: 1186
-enemy_ai: 1174
+enemy_ai: 1148
 enemy_on_land: 922
 player_ducking: 718
 stage_reset_gosub: 660

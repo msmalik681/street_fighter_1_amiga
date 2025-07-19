@@ -28,6 +28,7 @@
     <properties>
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="amiga_ecs_trackdisk" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="2" name="blocks" width="47" height="15">
@@ -51,6 +52,7 @@
     <properties>
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="amiga_ecs_trackdisk" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="3" name="actors" width="47" height="15">
@@ -74,6 +76,7 @@
     <properties>
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="false" />
+      <property name="amiga_ecs_trackdisk" type="bool" value="true" />
     </properties>
   </layer>
   <layer id="4" name="foreground" width="47" height="15">
@@ -97,6 +100,7 @@
     <properties>
       <property name="amiga_ocs" type="bool" value="true" />
       <property name="foreground" type="bool" value="true" />
+      <property name="amiga_ecs_trackdisk" type="bool" value="true" />
     </properties>
   </layer>
   <objectgroup id="6" name="events" />
