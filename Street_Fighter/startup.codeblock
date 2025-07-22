@@ -59520,7 +59520,15 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -59541,7 +59549,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "none",
-      "Expression": "<X60>street fighter 1<br>ported by msmalik681<br><br>all music by im76<br><br>special thanks to mike at bitbeamcannon",
+      "Expression": "street fighter ported by msmalik681<br><br>all music by ilario moretto (im76)<br><br>special thanks to mike at bitbeamcannon,<br><br>erik hogan, everyone from the se dscord,<br><br>saberman retronews and the zzap! amiga team.",
       "Index": "0",
       "Label": "",
       "Disabled": false,
