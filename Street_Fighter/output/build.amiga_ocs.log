@@ -1,4 +1,4 @@
-Compiled on 22 July 2025 10:38:43
+Compiled on 22 July 2025 11:40:06
 Version string: SE2025.0.250722.15.21.EX
 
 === Misc ===
@@ -54,7 +54,7 @@ Misc data size: 86
    88818 |        | Project Data
    66320 |        | Music file sf1_stage03_joe
    56690 |        | Music file sf1_stage09_adon
-   51750 |        | Project virtual machine (codeblocks)
+   51972 |        | Project virtual machine (codeblocks)
    50836 |        | Music file sf1_stage08_eagle
    42104 |        | Panel ending
    34040 |        | Panel intro
@@ -102,7 +102,7 @@ Misc data size: 86
     3240 |        | Tile data for map mike_vs_screen (mem restrictions:None)
     3240 |        | Tile data for map retsu_vs_screen (mem restrictions:None)
     3240 |        | Tile data for map sagat_vs_screen (mem restrictions:None)
-    1096 |        | Project virtual machine redirects
+    1108 |        | Project virtual machine redirects
      844 |        | Header data for map adon_stage
      844 |        | Header data for map adon_vs_screen
      844 |        | Header data for map birdie_stage
@@ -152,15 +152,15 @@ For other:
 Map data memory: 6144
 Map background memory: 1296
 EXE memory: 204680
-vm memory: 51750
+vm memory: 51972
 project memory: 88818
 memory reserved for active actors on screen (6): 872
 memory reserved for dormant actors in map (6): 216
 OS/other estimated: 105472
 
 Accounted memory chip: 1205750
-Accounted memory other: 459248
-Accounted memory total: 1664998
+Accounted memory other: 459470
+Accounted memory total: 1665220
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -342,7 +342,7 @@ sagat_win_l
 005_ryu_duck
 
 === Codeblocks by compiled size ===
-startup: 9698
+startup: 9920
 enemy_special: 1716
 enemy_take_damage: 1280
 player_ontimer: 1258
