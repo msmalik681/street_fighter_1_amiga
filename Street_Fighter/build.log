@@ -1,0 +1,275 @@
+=== Image optimisations ===
+
+=== Estimated memory usages ===
+
+For chip:
+Map gfx (level gfx bundle 11): 137600
+Music memory (retsu_stage1): 187624
+BP Buffer memory: 116400
+core sfx/gfx memory: 437612
+Parallax memory: 28800
+
+For other:
+Map cache memory: 0
+Map header cache memory: 0
+Map data memory: 29788
+Map background memory: 2672
+EXE memory: 203164
+vm memory: 29646
+project memory: 18384
+
+Accounted memory chip: 908036
+Accounted memory other: 283654
+Accounted memory total: 1191690
+
+=== Misc ===
+Maps and Asset Bundles Count: 13
+Maps and Asset Bundles Data Size: 156
+Actor Count: 12
+Actor Data Size: 2256
+Block Count: 2
+Block Data Size: 104
+Anim5 Count: 0
+Anim5 Data Size: 0
+Sound Count: 5
+Sound Data Size: 120
+Teleporter Count: 1
+Teleporter Data Size: 8
+Animations Count: 89
+Animations Data Size: 1424
+AnimationFrame Count: 316
+AnimationFrame Data Size: 5056
+ImageFrames: 206
+ImageFrame Data Size: 9064
+Sprites: 1
+Sprites Data Size: 14
+Attack Data: 1
+Attack Data Size: 66
+Misc data size: 114
+Asset bundle 0 (Core project asset bundle) Original size 437612 Crunched size 437612
+Asset bundle 1 (adon_stage) Original size 79200 Crunched size 79200
+Asset bundle 2 (birdie_stage) Original size 85920 Crunched size 85920
+Asset bundle 3 (eagle_stage) Original size 70240 Crunched size 70240
+Asset bundle 4 (geki_stage) Original size 69920 Crunched size 69920
+Asset bundle 5 (gen_stage) Original size 77920 Crunched size 77920
+Asset bundle 6 (joe_stage) Original size 83040 Crunched size 83040
+Asset bundle 7 (lee_stage) Original size 94560 Crunched size 94560
+Asset bundle 8 (mike_stage) Original size 94240 Crunched size 94240
+Asset bundle 9 (retsu_stage) Original size 81440 Crunched size 81440
+Asset bundle 10 (sagat_stage) Original size 45920 Crunched size 45920
+Asset bundle 11 (vs_screen) Original size 137600 Crunched size 137600
+Background for map adon_stage Original size 2672 Crunched size 2672
+Background for map birdie_stage Original size 2672 Crunched size 2672
+Background for map eagle_stage Original size 2672 Crunched size 2672
+Background for map geki_stage Original size 2672 Crunched size 2672
+Background for map gen_stage Original size 2672 Crunched size 2672
+Background for map joe_stage Original size 2672 Crunched size 2672
+Background for map lee_stage Original size 2672 Crunched size 2672
+Background for map mike_stage Original size 2672 Crunched size 2672
+Background for map retsu_stage Original size 2672 Crunched size 2672
+Background for map sagat_stage Original size 2672 Crunched size 2672
+Background for map vs_screen Original size 2672 Crunched size 2672
+Music file retsu_stage1 Original size 187624 Crunched size 187624
+Tile data for map adon_stage (mem restrictions:None) Original size 4188 Crunched size 4188
+Tile data for map birdie_stage (mem restrictions:None) Original size 4188 Crunched size 4188
+Tile data for map eagle_stage (mem restrictions:None) Original size 4108 Crunched size 4108
+Tile data for map geki_stage (mem restrictions:None) Original size 4188 Crunched size 4188
+Tile data for map gen_stage (mem restrictions:None) Original size 4188 Crunched size 4188
+Tile data for map joe_stage (mem restrictions:None) Original size 4188 Crunched size 4188
+Tile data for map lee_stage (mem restrictions:None) Original size 4188 Crunched size 4188
+Tile data for map mike_stage (mem restrictions:None) Original size 4188 Crunched size 4188
+Tile data for map retsu_stage (mem restrictions:None) Original size 4446 Crunched size 4446
+Tile data for map sagat_stage (mem restrictions:None) Original size 4188 Crunched size 4188
+Tile data for map vs_screen (mem restrictions:None) Original size 29788 Crunched size 29788
+Header data for map adon_stage Original size 7996 Crunched size 7996
+Header data for map birdie_stage Original size 7996 Crunched size 7996
+Header data for map eagle_stage Original size 7996 Crunched size 7996
+Header data for map geki_stage Original size 7996 Crunched size 7996
+Header data for map gen_stage Original size 7996 Crunched size 7996
+Header data for map joe_stage Original size 7996 Crunched size 7996
+Header data for map lee_stage Original size 7996 Crunched size 7996
+Header data for map mike_stage Original size 7996 Crunched size 7996
+Header data for map retsu_stage Original size 7996 Crunched size 7996
+Header data for map sagat_stage Original size 7996 Crunched size 7996
+Header data for map vs_screen Original size 7996 Crunched size 7996
+Parallax for map adon_stage Original size 28800 Crunched size 28800
+Parallax for map eagle_stage Original size 28800 Crunched size 28800
+Parallax for map geki_stage Original size 28800 Crunched size 28800
+Parallax for map gen_stage Original size 28800 Crunched size 28800
+Parallax for map sagat_stage Original size 14400 Crunched size 14400
+Project Data Original size 18384 Crunched size 18384
+Project Header Original size 4032 Crunched size 4032
+Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
+Panel bottom_panel Original size 23326 Crunched size 23326
+Panel top_panel Original size 18810 Crunched size 18810
+Panel wining_panel Original size 14862 Crunched size 14862
+Project virtual machine (codeblocks) Original size 29646 Crunched size 29646
+Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Possibly unused animations ===
+retsu_atk_hk_l
+retsu_atk_hp_l
+retsu_atk_lk_l
+retsu_atk_lp_l
+retsu_block_r
+retsu_block_l
+retsu_dead_l
+retsu_duck_atk_hk_l
+retsu_duck_pain_r
+retsu_duck_pain_l
+retsu_fall_l
+retsu_hurt_stand_l
+retsu_jump_atk_r
+retsu_jump_atk_l
+retsu_jump_l
+retsu_walk_l
+retsu_win_l
+flash_block
+ryu_atk_hk_r
+ryu_atk_hk_l
+ryu_atk_hp_r
+ryu_atk_hp_l
+ryu_atk_lk_r
+ryu_atk_lk_l
+ryu_atk_lp_r
+ryu_atk_lp_l
+ryu_dead_r
+ryu_dead_l
+ryu_dragon_punch_r
+ryu_dragon_punch_l
+ryu_duck_atk_hk_r
+ryu_duck_atk_hk_l
+ryu_duck_atk_hp_r
+ryu_duck_atk_hp_l
+ryu_duck_atk_lk_r
+ryu_duck_atk_lk_l
+ryu_duck_atk_lp_r
+ryu_duck_atk_lp_l
+ryu_fireball_r
+ryu_fireball_l
+ryu_hurt_fall_r
+ryu_hurt_fall_l
+ryu_hurt_stand_r
+ryu_hurt_stand_l
+ryu_jump_atk_hk_r
+ryu_jump_atk_hk_l
+ryu_jump_atk_hp_r
+ryu_jump_atk_hp_l
+ryu_jump_atk_lk_r
+ryu_jump_atk_lk_l
+ryu_jump_atk_lp_r
+ryu_jump_atk_lp_l
+ryu_jump_forward_r
+ryu_jump_forward_l
+ryu_jump_r
+ryu_jump_l
+ryu_tatsu_end_r
+ryu_tatsu_end_l
+ryu_tatsu_r
+ryu_tatsu_l
+ryu_win_r
+ryu_win_l
+
+=== Possibly unused Actors ===
+001_fireball
+002_ryu_r
+003_ryu_l
+004_ryu_duck_r
+005_ryu_duck_l
+006_camera
+007_flash
+008_retsu_r
+009_retsu_l
+010_retsu_duck_r
+011_retsu_duck_l
+
+=== Codeblocks by compiled size ===
+startup: 7938
+player_ontimer: 1734
+enemy_ai: 1158
+load_level: 920
+player_ducking: 694
+vs_colour_adon: 474
+vs_colour_birdie: 474
+vs_colour_eagle: 474
+vs_colour_geki: 474
+vs_colour_gen: 474
+vs_colour_joe: 474
+vs_colour_ken: 474
+vs_colour_lee: 474
+vs_colour_mike: 474
+vs_colour_sagat: 474
+colour_stages: 458
+set_yresolution: 448 (Unused?)
+player_on_land: 446
+vs_colour_ryu: 446
+colour_geki_stage: 418
+colour_joe_stage: 418
+enemy_take_damage: 408
+player_take_damage: 398
+do_teleport: 392
+enemy_on_land: 368
+vs_colour_retsu: 362
+ryu_tatsu: 350
+stage_reset: 348
+flipscreen_smooth: 346 (Unused?)
+camera: 340
+flipxymove: 306 (Unused?)
+stage_reset_gosub: 302
+pause: 252 (Unused?)
+enemy_jump: 224
+pre_startup: 194
+snap_to_screen: 190
+flipymove: 174 (Unused?)
+player_jump: 164
+flipxmove: 158 (Unused?)
+check_direction: 152
+fireball_hit: 148
+load_panel: 146
+pre_quit: 146
+damage_light_standing_gosub: 138 (Unused?)
+ryu_dragon_punch: 126
+destroy_all_blocks: 124 (Unused?)
+pre_load_level: 118
+unload_level: 114
+blocks_clear: 98 (Unused?)
+load_panel_bottom: 96
+load_panel_top: 96
+waitforfireup: 94
+unload_panel: 92
+wrap_screen_bottom: 92 (Unused?)
+wrap_screen_right: 92 (Unused?)
+waitforfiredown: 90
+AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_None_None: 90
+wrap_screen_left: 88 (Unused?)
+wrap_screen_top: 88 (Unused?)
+flipscreen: 86 (Unused?)
+pre_anim5: 86 (Unused?)
+waitforfirehit: 86
+fadeout: 84
+waitforframes: 78
+enemy_x: 68
+quit: 66 (Unused?)
+vs_goto_restsu_in: 66 (Unused?)
+destroy_all_actors: 62 (Unused?)
+jump_actor: 62 (Unused?)
+load_music: 62
+unload_panel_bottom: 62
+unload_panel_top: 62
+ryu_fireball: 60
+fadein: 58
+load_panel_finish: 56
+destroy_actor: 54
+regenerate_screen: 52
+return: 52 (Unused?)
+destroy_block: 48 (Unused?)
+test: 46 (Unused?)
+regenerate_screen_wait: 42
+camera_enemy_pos: 42
+vm_registers: 26 (Unused?)
+vm_constants: 26 (Unused?)
+debug_breakpoint: 26 (Unused?)
+vm_constants_controlbits: 26 (Unused?)
+vm_constants_notes: 26 (Unused?)
+vm_constants_tile_properties: 26 (Unused?)
+vm_constants_platform: 26 (Unused?)
