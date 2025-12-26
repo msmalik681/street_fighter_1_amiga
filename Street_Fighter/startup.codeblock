@@ -2299,7 +2299,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "p_damage_hard",
-      "Expression": "25 + 85",
+      "Expression": "25",
       "Index": "0",
       "Label": "",
       "Disabled": false,
