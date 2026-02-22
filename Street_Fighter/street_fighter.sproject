@@ -64,7 +64,7 @@
       "Neo_Select": false,
       "OnPress": "key_input",
       "OnRelease": null,
-      "buttonState": 0
+      "buttonState": 4
     },
     {
       "Compiler": "amiga",
@@ -95,7 +95,7 @@
       "Neo_Select": false,
       "OnPress": "key_input",
       "OnRelease": null,
-      "buttonState": 0
+      "buttonState": 2
     },
     {
       "Compiler": "amiga",
@@ -126,7 +126,7 @@
       "Neo_Select": false,
       "OnPress": "key_input",
       "OnRelease": null,
-      "buttonState": 0
+      "buttonState": 8
     },
     {
       "Compiler": "amiga",
@@ -380,5 +380,5 @@
   "SplashScreenFrames": 50,
   "TestLevel": "",
   "SafetyRails": false,
-  "NGH": 21317
+  "VDPColor": false
 }

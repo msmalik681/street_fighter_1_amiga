@@ -150,7 +150,7 @@
       "Values": {
         "IsCenter": "False",
         "CameraWarp": "True",
-        "CameraWarpFast": "True"
+        "CameraWarpFast": "False"
       },
       "DataVersion": 7,
       "Category": "Display",
