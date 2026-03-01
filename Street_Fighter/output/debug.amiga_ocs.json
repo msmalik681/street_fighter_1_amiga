@@ -26221,7 +26221,7 @@
       "CodeBlock": "stage_reset_gosub",
       "CodeBlockLine": 3,
       "MemoryOffset": 40964,
-      "Description": "Set 'fr[2]' to 'True'"
+      "Description": "Set 'fr[2]' to 'False'"
     },
     {
       "CodeBlock": "stage_reset_gosub",

@@ -1,7 +1,6 @@
 {
   "OutputSpeed": "PAL_50HZ",
   "GFXMode": "BP5",
-  "MemorySaver": "None",
   "EmulatedAmiga": "A1200",
   "EmulatedFastRam": 4,
   "WinUAEConfiguration": "",
@@ -15,6 +14,7 @@
   "XOffset": 16,
   "XFillSize": 22,
   "YFillSize": 17,
+  "MDPlaneMode": "Width_512_Height_256",
   "XFillSizeMD": 21,
   "YFillSizeMD": 16,
   "MapCache": false,
