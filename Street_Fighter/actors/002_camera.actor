@@ -10,21 +10,21 @@
     "UpLeft": "",
     "Up": "",
     "UpRight": "",
-    "Left": "camera",
-    "Right": "camera",
-    "DownLeft": "camera",
+    "Left": "camera_idle",
+    "Right": "camera_idle",
+    "DownLeft": "camera_idle",
     "Down": "",
-    "DownRight": "camera"
+    "DownRight": "camera_idle"
   },
   "Moves": {
     "UpLeft": "",
-    "Up": "camera",
+    "Up": "camera_idle",
     "UpRight": "",
-    "Left": "camera",
-    "Right": "camera",
-    "DownLeft": "camera",
+    "Left": "camera_idle",
+    "Right": "camera_idle",
+    "DownLeft": "camera_idle",
     "Down": "",
-    "DownRight": "camera"
+    "DownRight": "camera_idle"
   },
   "Attacks": {
     "UpLeft": "",

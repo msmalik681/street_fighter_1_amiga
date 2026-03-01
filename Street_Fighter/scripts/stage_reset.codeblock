@@ -68,7 +68,15 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -2990,7 +2998,7 @@
       "PaletteOperationType": "SetColor",
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
-      "Goto": "continue",
+      "Goto": "goto_continue",
       "Comment": "",
       "Variable": "none",
       "Expression": "<Y40><X120>continue",
@@ -3066,7 +3074,7 @@
       "PaletteOperationType": "SetColor",
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
-      "Goto": "game_over",
+      "Goto": "goto_game_over",
       "Comment": "",
       "Variable": "none",
       "Expression": "<Y50><X120>quit",
@@ -3223,7 +3231,7 @@
       "Variable": "none",
       "Expression": "",
       "Index": "0",
-      "Label": "game_over",
+      "Label": "goto_game_over",
       "Disabled": false,
       "Breakpoint": false,
       "Background": null,
@@ -3438,7 +3446,7 @@
       "PaletteOperationType": "SetColor",
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
-      "Goto": "game_over_reset",
+      "Goto": "goto_game_over_reset",
       "Comment": "",
       "Variable": "none",
       "Expression": "",
@@ -3519,7 +3527,7 @@
       "Variable": "none",
       "Expression": "",
       "Index": "0",
-      "Label": "continue",
+      "Label": "goto_continue",
       "Disabled": false,
       "Breakpoint": false,
       "Background": null,
@@ -3943,7 +3951,7 @@
       "Variable": "none",
       "Expression": "",
       "Index": "0",
-      "Label": "game_over_reset",
+      "Label": "goto_game_over_reset",
       "Disabled": false,
       "Breakpoint": false,
       "Background": null,

@@ -56,5 +56,12 @@
   "OnType": null,
   "IsRightAligned": false,
   "MDPlane": 1,
+  "WaterEnabled": false,
+  "WaterFirst": 1,
+  "WaterCount": 0,
+  "WaterScale": 1,
+  "WaterWave": false,
+  "WaterShadowHighlight": false,
+  "WaterPalettePath": null,
   "ParallaxLineDivisions": 1
 }
