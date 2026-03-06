@@ -7,3 +7,6 @@ project_name=
 project_name_international=
 publisher=
 version=
+
+[amiga_all]
+tightly_pack_graphics=true
