@@ -9,4 +9,5 @@ publisher=
 version=
 
 [amiga_all]
+atlas_compression=0
 tightly_pack_graphics=true

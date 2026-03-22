@@ -1,5 +1,5 @@
 {
-  "OutputSpeed": "PAL_50HZ",
+  "OutputSpeed": "PAL_25HZ",
   "GFXMode": "BP5",
   "EmulatedAmiga": "A1200",
   "EmulatedFastRam": 4,
@@ -24,5 +24,6 @@
   "MaxActiveActors": 6,
   "MaxDormantActors": 6,
   "PaletteLines": 1,
-  "StartingPaletteLine": 0
+  "StartingPaletteLine": 0,
+  "Players": 1
 }
