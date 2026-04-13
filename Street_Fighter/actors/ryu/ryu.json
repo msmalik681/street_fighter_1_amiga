@@ -73,7 +73,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "OnFinish": "player_on_land"
+      }
     },
     "atk_lk_r": {
       "FrameData": [
@@ -110,7 +112,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "OnFinish": "player_on_land"
+      }
     },
     "atk_lp_r": {
       "FrameData": [
@@ -147,7 +151,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "OnFinish": "player_on_land"
+      }
     },
     "atk_hp_r": {
       "FrameData": [
@@ -184,7 +190,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "OnFinish": "player_on_land"
+      }
     },
     "waiting_r": {
       "FrameData": [
@@ -197,7 +205,12 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "PreventMovement": "True",
+        "PreventCollision": "True",
+        "PreventAttack": "True",
+        "PreventJump": "True"
+      }
     },
     "win_r": {
       "FrameData": [
@@ -247,7 +260,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "OnFinish": "player_on_land"
+      }
     },
     "dead_r": {
       "FrameData": [
@@ -260,7 +275,12 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "PreventMovement": "True",
+        "PreventCollision": "True",
+        "PreventAttack": "True",
+        "PreventJump": "True"
+      }
     },
     "dragon_punch_r": {
       "FrameData": [
@@ -321,7 +341,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "OnFinish": "player_on_land"
+      }
     },
     "duck_r": {
       "FrameData": [
@@ -363,7 +385,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "OnFinish": "player_on_land"
+      }
     },
     "duck_atk_hp_r": {
       "FrameData": [
@@ -400,7 +424,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "OnFinish": "player_on_land"
+      }
     },
     "duck_atk_lk_r": {
       "FrameData": [
@@ -429,7 +455,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "OnFinish": "player_on_land"
+      }
     },
     "duck_atk_hk_r": {
       "FrameData": [
@@ -474,7 +502,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "OnFinish": "player_on_land"
+      }
     },
     "fireball_r": {
       "FrameData": [
@@ -495,7 +525,10 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
+      }
     },
     "tatsu_r": {
       "FrameData": [
@@ -620,7 +653,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "PreventMovement": "True"
+      }
     },
     "walk_r": {
       "FrameData": [
@@ -710,7 +745,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "PreventMovement": "True"
+      }
     },
     "jump_forward_r": {
       "FrameData": [
@@ -755,7 +792,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "PreventMovement": "True"
+      }
     },
     "jump_atk_hk_r": {
       "FrameData": [
@@ -792,7 +831,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "PreventMovement": "True"
+      }
     },
     "jump_atk_hp_r": {
       "FrameData": [
@@ -829,7 +870,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "PreventMovement": "True"
+      }
     },
     "jump_atk_lk_r": {
       "FrameData": [
@@ -858,7 +901,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "PreventMovement": "True"
+      }
     },
     "jump_atk_lp_r": {
       "FrameData": [
@@ -887,7 +932,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "PreventMovement": "True"
+      }
     },
     "pain_r": {
       "FrameData": [
@@ -908,7 +955,11 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True",
+        "PreventCollision": "True"
+      }
     },
     "fall_r": {
       "FrameData": [
@@ -921,7 +972,25 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "PreventMovement": "True",
+        "PreventCollision": "True"
+      }
+    },
+    "duck_block_r": {
+      "FrameData": [
+        {
+          "FrameID": "duck_block",
+          "Duration": 10,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "OnFinish": "player_on_land"
+      }
     }
   },
   "Frames": {
