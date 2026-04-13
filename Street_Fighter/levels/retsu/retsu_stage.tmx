@@ -3,6 +3,7 @@
   <properties>
     <property name="divert_timer" type="string" value="stage_timer_sub" />
     <property name="override_palette" type="file" value="retsu_pal.png" />
+    <property name="divert_timerframes" type="int" value="15" />
   </properties>
   <tileset firstgid="1" source="../../Actors.tsx" />
   <tileset firstgid="257" source="../../Blocks.tsx" />

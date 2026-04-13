@@ -416,7 +416,7 @@
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
-      "Frames": "23",
+      "Frames": "25",
       "CameraBox": {
         "Left": "0",
         "Right": "0",

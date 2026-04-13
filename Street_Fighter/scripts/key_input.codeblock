@@ -68,7 +68,15 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -3174,7 +3182,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "key_timelimit",
-      "Expression": "key_timer - 3",
+      "Expression": "key_timer - 2",
       "Index": "0",
       "Label": "",
       "Disabled": false,

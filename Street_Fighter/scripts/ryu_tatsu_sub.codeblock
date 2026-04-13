@@ -796,7 +796,7 @@
       "Animation": "none",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
-      "ResetAnimations": true,
+      "ResetAnimations": false,
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,

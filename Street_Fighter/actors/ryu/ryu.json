@@ -74,7 +74,8 @@
         }
       ],
       "Properties": {
-        "OnFinish": "player_on_land"
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
       }
     },
     "atk_lk_r": {
@@ -113,7 +114,8 @@
         }
       ],
       "Properties": {
-        "OnFinish": "player_on_land"
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
       }
     },
     "atk_lp_r": {
@@ -152,7 +154,8 @@
         }
       ],
       "Properties": {
-        "OnFinish": "player_on_land"
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
       }
     },
     "atk_hp_r": {
@@ -191,7 +194,8 @@
         }
       ],
       "Properties": {
-        "OnFinish": "player_on_land"
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
       }
     },
     "waiting_r": {
@@ -247,7 +251,12 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "PreventMovement": "True",
+        "PreventCollision": "True",
+        "PreventAttack": "True",
+        "PreventJump": "True"
+      }
     },
     "block_r": {
       "FrameData": [
@@ -261,7 +270,8 @@
         }
       ],
       "Properties": {
-        "OnFinish": "player_on_land"
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
       }
     },
     "dead_r": {
@@ -342,7 +352,8 @@
         }
       ],
       "Properties": {
-        "OnFinish": "player_on_land"
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
       }
     },
     "duck_r": {
@@ -356,7 +367,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "PreventMovement": "True"
+      }
     },
     "duck_atk_lp_r": {
       "FrameData": [
@@ -386,7 +399,8 @@
         }
       ],
       "Properties": {
-        "OnFinish": "player_on_land"
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
       }
     },
     "duck_atk_hp_r": {
@@ -425,7 +439,8 @@
         }
       ],
       "Properties": {
-        "OnFinish": "player_on_land"
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
       }
     },
     "duck_atk_lk_r": {
@@ -456,7 +471,8 @@
         }
       ],
       "Properties": {
-        "OnFinish": "player_on_land"
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
       }
     },
     "duck_atk_hk_r": {
@@ -503,7 +519,8 @@
         }
       ],
       "Properties": {
-        "OnFinish": "player_on_land"
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
       }
     },
     "fireball_r": {
@@ -714,9 +731,17 @@
       "FrameData": [
         {
           "FrameID": "land",
-          "Duration": 4,
+          "Duration": 3,
           "Properties": {
             "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "land",
+          "Duration": 1,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"Trigger\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": \"player_jump\",\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}",
             "RenderType": "RetroAnimator"
           }
         },
@@ -753,7 +778,7 @@
       "FrameData": [
         {
           "FrameID": "land",
-          "Duration": 4,
+          "Duration": 1,
           "Properties": {
             "Events": "{\r\n  \"Events\": []\r\n}",
             "RenderType": "RetroAnimator"
@@ -902,7 +927,8 @@
         }
       ],
       "Properties": {
-        "PreventMovement": "True"
+        "PreventMovement": "True",
+        "LoopFrame": "1"
       }
     },
     "jump_atk_lp_r": {
@@ -933,7 +959,8 @@
         }
       ],
       "Properties": {
-        "PreventMovement": "True"
+        "PreventMovement": "True",
+        "LoopFrame": "1"
       }
     },
     "pain_r": {
@@ -989,7 +1016,8 @@
         }
       ],
       "Properties": {
-        "OnFinish": "player_on_land"
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
       }
     }
   },
