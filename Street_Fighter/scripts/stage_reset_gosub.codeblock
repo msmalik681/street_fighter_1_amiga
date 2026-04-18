@@ -1135,7 +1135,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "p2_life",
-      "Expression": "100",
+      "Expression": "1",
       "Index": "0",
       "Label": "",
       "Disabled": false,
