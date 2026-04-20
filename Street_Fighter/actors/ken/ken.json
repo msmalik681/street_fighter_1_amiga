@@ -1,0 +1,4442 @@
+{
+  "ProjectType": "RetroAnimator",
+  "Animations": {
+    "idle_r": {
+      "FrameData": [
+        {
+          "FrameID": "ilde",
+          "Duration": 5,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {}
+    },
+    "atk_hk_r": {
+      "FrameData": [
+        {
+          "FrameID": "hard_kick_01",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "hard_kick_02",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "hard_kick_03",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "hard_kick_04",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"97\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_y\",\r\n      \"Expression\": \"88\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "hard_kick_05",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "hard_kick_06",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "hard_kick_01",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
+      }
+    },
+    "atk_lk_r": {
+      "FrameData": [
+        {
+          "FrameID": "light_kick_01",
+          "Duration": 1,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "light_kick_02",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"49\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_y\",\r\n      \"Expression\": \"73\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "light_kick_01",
+          "Duration": 1,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "ilde",
+          "Duration": 1,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
+      }
+    },
+    "atk_lp_r": {
+      "FrameData": [
+        {
+          "FrameID": "light_punch_01",
+          "Duration": 1,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "light_punch_02",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"61\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_y\",\r\n      \"Expression\": \"77\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "light_punch_01",
+          "Duration": 1,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "ilde",
+          "Duration": 1,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
+      }
+    },
+    "atk_hp_r": {
+      "FrameData": [
+        {
+          "FrameID": "block",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "hard_punch_01",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "hard_punch_02",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"66\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_y\",\r\n      \"Expression\": \"80\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "hard_punch_01",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
+      }
+    },
+    "waiting_r": {
+      "FrameData": [
+        {
+          "FrameID": "ilde",
+          "Duration": 0,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "PreventMovement": "True",
+        "PreventCollision": "True",
+        "PreventAttack": "True",
+        "PreventJump": "True"
+      }
+    },
+    "win_r": {
+      "FrameData": [
+        {
+          "FrameID": "ilde",
+          "Duration": 50,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "win_01",
+          "Duration": 10,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"Sound\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"sfx_ryu_wins\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "win_02",
+          "Duration": 20,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "win_02",
+          "Duration": 0,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"Trigger\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": \"stage_reset\",\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "PreventMovement": "True",
+        "PreventCollision": "True",
+        "PreventAttack": "True",
+        "PreventJump": "True"
+      }
+    },
+    "block_r": {
+      "FrameData": [
+        {
+          "FrameID": "block",
+          "Duration": 10,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
+      }
+    },
+    "dead_r": {
+      "FrameData": [
+        {
+          "FrameID": "dead_01",
+          "Duration": 5,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "PreventMovement": "True",
+        "PreventCollision": "True",
+        "PreventAttack": "True",
+        "PreventJump": "True"
+      }
+    },
+    "dragon_punch_r": {
+      "FrameData": [
+        {
+          "FrameID": "dragon_01",
+          "Duration": 4,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"50\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_y\",\r\n      \"Expression\": \"81\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "dragon_02",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"45\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_y\",\r\n      \"Expression\": \"87\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"Trigger\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": \"ryu_dragon_punch_sub\",\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent2\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "dragon_02",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"45\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_y\",\r\n      \"Expression\": \"87\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "dragon_02",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"45\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_y\",\r\n      \"Expression\": \"87\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "dragon_02",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"45\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_y\",\r\n      \"Expression\": \"87\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "dragon_02",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"45\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_y\",\r\n      \"Expression\": \"87\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "dragon_03",
+          "Duration": 0,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
+      }
+    },
+    "duck_r": {
+      "FrameData": [
+        {
+          "FrameID": "duck_idle",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "PreventMovement": "True"
+      }
+    },
+    "duck_atk_lp_r": {
+      "FrameData": [
+        {
+          "FrameID": "duck_light_punch_01",
+          "Duration": 1,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "duck_light_punch_02",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"68\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_y\",\r\n      \"Expression\": \"64\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "duck_light_punch_01",
+          "Duration": 1,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
+      }
+    },
+    "duck_atk_hp_r": {
+      "FrameData": [
+        {
+          "FrameID": "duck_block",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "duck_light_punch_01",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "duck_hard_punch_02",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "duck_light_punch_01",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
+      }
+    },
+    "duck_atk_lk_r": {
+      "FrameData": [
+        {
+          "FrameID": "duck_light_kick_01",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "duck_light_kick_02",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"63\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_y\",\r\n      \"Expression\": \"5\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "duck_light_kick_01",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
+      }
+    },
+    "duck_atk_hk_r": {
+      "FrameData": [
+        {
+          "FrameID": "duck_hard_kick_00",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "duck_hard_kick_01",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "duck_hard_kick_02",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"92\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_y\",\r\n      \"Expression\": \"5\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "duck_hard_kick_03",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "duck_hard_kick_04",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
+      }
+    },
+    "fireball_r": {
+      "FrameData": [
+        {
+          "FrameID": "hadoken_01",
+          "Duration": 5,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "hadoken_02",
+          "Duration": 25,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"Trigger\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": \"ryu_fireball_sub\",\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
+      }
+    },
+    "tatsu_r": {
+      "FrameData": [
+        {
+          "FrameID": "land",
+          "Duration": 4,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_01",
+          "Duration": 6,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"Trigger\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": \"ryu_tatsu_sub\",\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_02",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"74\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_y\",\r\n      \"Expression\": \"45\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "tatsu_01",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"light_atk\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": 4,\r\n        \"Y\": -55,\r\n        \"Width\": 52,\r\n        \"Height\": 46\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    },\r\n    {\r\n      \"FrameEventType\": \"Trigger\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": \"ryu_tatsu_sub\",\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "tatsu_02",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"light_atk\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -52,\r\n        \"Y\": -58,\r\n        \"Width\": 51,\r\n        \"Height\": 59\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"-66\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "tatsu_03",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"74\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "tatsu_01",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"light_atk\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": 4,\r\n        \"Y\": -55,\r\n        \"Width\": 52,\r\n        \"Height\": 46\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "tatsu_02",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"light_atk\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -52,\r\n        \"Y\": -58,\r\n        \"Width\": 51,\r\n        \"Height\": 59\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"-66\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "tatsu_03",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"74\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "tatsu_01",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"light_atk\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": 4,\r\n        \"Y\": -55,\r\n        \"Width\": 52,\r\n        \"Height\": 46\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "tatsu_02",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"light_atk\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -52,\r\n        \"Y\": -58,\r\n        \"Width\": 51,\r\n        \"Height\": 59\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"-66\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "tatsu_03",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"74\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "tatsu_01",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"light_atk\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": 4,\r\n        \"Y\": -55,\r\n        \"Width\": 52,\r\n        \"Height\": 46\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "tatsu_02",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"light_atk\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -52,\r\n        \"Y\": -58,\r\n        \"Width\": 51,\r\n        \"Height\": 59\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"-66\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "tatsu_03",
+          "Duration": 0,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"Trigger\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": \"ryu_tatsu_sub\",\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "PreventMovement": "True"
+      }
+    },
+    "walk_r": {
+      "FrameData": [
+        {
+          "FrameID": "walk_01_a",
+          "Duration": 1,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "walk_01_b",
+          "Duration": 1,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "walk_01_c",
+          "Duration": 1,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "walk_02_a",
+          "Duration": 1,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "walk_02_b",
+          "Duration": 1,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "walk_02_c",
+          "Duration": 1,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {}
+    },
+    "jump_r": {
+      "FrameData": [
+        {
+          "FrameID": "land",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "land",
+          "Duration": 1,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"Trigger\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": \"player_jump\",\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_01",
+          "Duration": 11,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_02",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_01",
+          "Duration": 0,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "PreventMovement": "True"
+      }
+    },
+    "jump_forward_r": {
+      "FrameData": [
+        {
+          "FrameID": "land",
+          "Duration": 1,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_forward_01",
+          "Duration": 5,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_forward_02",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_forward_03",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_forward_01",
+          "Duration": 0,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "PreventMovement": "True"
+      }
+    },
+    "jump_atk_hk_r": {
+      "FrameData": [
+        {
+          "FrameID": "jump_02",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_atk_hard_kick",
+          "Duration": 6,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"75\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_y\",\r\n      \"Expression\": \"84\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_02",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_01",
+          "Duration": 0,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "PreventMovement": "True"
+      }
+    },
+    "jump_atk_hp_r": {
+      "FrameData": [
+        {
+          "FrameID": "jump_02",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_atk_hard_punch",
+          "Duration": 6,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"64\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_y\",\r\n      \"Expression\": \"75\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_02",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_01",
+          "Duration": 0,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "PreventMovement": "True"
+      }
+    },
+    "jump_atk_lk_r": {
+      "FrameData": [
+        {
+          "FrameID": "jump_02",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_atk_light_kick",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"88\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_y\",\r\n      \"Expression\": \"42\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_atk_light_kick",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "PreventMovement": "True",
+        "LoopFrame": "1"
+      }
+    },
+    "jump_atk_lp_r": {
+      "FrameData": [
+        {
+          "FrameID": "jump_02",
+          "Duration": 3,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_atk_light_punch",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_x\",\r\n      \"Expression\": \"60\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    },\r\n    {\r\n      \"FrameEventType\": \"SetVariable\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": \"player_flash_y\",\r\n      \"Expression\": \"60\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": true\r\n    }\r\n  ]\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "jump_atk_light_punch",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "PreventMovement": "True",
+        "LoopFrame": "1"
+      }
+    },
+    "pain_r": {
+      "FrameData": [
+        {
+          "FrameID": "pain_01",
+          "Duration": 4,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        },
+        {
+          "FrameID": "hard_punch_01",
+          "Duration": 2,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True",
+        "PreventCollision": "True"
+      }
+    },
+    "fall_r": {
+      "FrameData": [
+        {
+          "FrameID": "fall_01",
+          "Duration": 0,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "PreventMovement": "True",
+        "PreventCollision": "True"
+      }
+    },
+    "duck_block_r": {
+      "FrameData": [
+        {
+          "FrameID": "duck_block",
+          "Duration": 10,
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}",
+            "RenderType": "RetroAnimator"
+          }
+        }
+      ],
+      "Properties": {
+        "OnFinish": "player_on_land",
+        "PreventMovement": "True"
+      }
+    }
+  },
+  "Frames": {
+    "ilde": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\idle_body.png",
+          "HandleX": -16,
+          "HandleY": -80,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -3,
+          "HandleY": -91,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_legs.png",
+          "HandleX": -23,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "hard_kick_01": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\h.kick_block_legs.png",
+          "HandleX": -27,
+          "HandleY": -52,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_0_02.png",
+          "HandleX": -27,
+          "HandleY": -76,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -16,
+          "HandleY": -86,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "hard_kick_03": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\h.kick_2_01.png",
+          "HandleX": -2,
+          "HandleY": -81,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_2_02.png",
+          "HandleX": 6,
+          "HandleY": -48,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_2_03.png",
+          "HandleX": 22,
+          "HandleY": -68,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_2_04.png",
+          "HandleX": 38,
+          "HandleY": -58,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": 6,
+          "HandleY": -92,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "hard_kick_04": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\h.kick_3_02.png",
+          "HandleX": 3,
+          "HandleY": -77,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_3_01.png",
+          "HandleX": -13,
+          "HandleY": -83,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_3_03.png",
+          "HandleX": 35,
+          "HandleY": -72,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_3_04.png",
+          "HandleX": 51,
+          "HandleY": -79,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_3_05.png",
+          "HandleX": 67,
+          "HandleY": -82,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "hard": {
+          "Value": 0,
+          "X": 14,
+          "Y": -83,
+          "Width": 61,
+          "Height": 42,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
+      "Properties": {}
+    },
+    "hard_kick_05": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\h.kick_4_04.png",
+          "HandleX": 6,
+          "HandleY": -78,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_4_05.png",
+          "HandleX": 4,
+          "HandleY": -4,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_4_01.png",
+          "HandleX": -15,
+          "HandleY": -70,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_4_03.png",
+          "HandleX": -10,
+          "HandleY": -78,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_4_02.png",
+          "HandleX": -4,
+          "HandleY": -87,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_4_06.png",
+          "HandleX": 22,
+          "HandleY": -78,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_4_07.png",
+          "HandleX": 38,
+          "HandleY": -69,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "hard_kick_06": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\h.kick_5_04.png",
+          "HandleX": 6,
+          "HandleY": -52,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_5_03.png",
+          "HandleX": -10,
+          "HandleY": -52,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_5_02.png",
+          "HandleX": -8,
+          "HandleY": -78,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -8,
+          "HandleY": -89,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_5_01.png",
+          "HandleX": -15,
+          "HandleY": -69,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_5_05.png",
+          "HandleX": 22,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "hard_kick_02": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\h.kick_1_05.png",
+          "HandleX": 6,
+          "HandleY": -54,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_1_03.png",
+          "HandleX": -8,
+          "HandleY": -84,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_1_04.png",
+          "HandleX": -10,
+          "HandleY": -54,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_1_02.png",
+          "HandleX": -20,
+          "HandleY": -39,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_1_06.png",
+          "HandleX": 22,
+          "HandleY": -54,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_1_01.png",
+          "HandleX": -12,
+          "HandleY": -73,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": 9,
+          "HandleY": -94,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "light_kick_01": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\h.kick_5_04.png",
+          "HandleX": -28,
+          "HandleY": -52,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_5_03.png",
+          "HandleX": -12,
+          "HandleY": -52,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.kick_5_05.png",
+          "HandleX": -30,
+          "HandleY": -51,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\l.kick_1_01.png",
+          "HandleX": -40,
+          "HandleY": -81,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\l.kick_1_02.png",
+          "HandleX": -34,
+          "HandleY": -52,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -27,
+          "HandleY": -92,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "light_kick_02": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\l.kick_2_04.png",
+          "HandleX": -25,
+          "HandleY": -3,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\l.kick_2_03.png",
+          "HandleX": -22,
+          "HandleY": -75,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\l.kick_2_02.png",
+          "HandleX": -38,
+          "HandleY": -75,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\l.kick_2_01.png",
+          "HandleX": -47,
+          "HandleY": -71,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\l.kick_2_05.png",
+          "HandleX": -6,
+          "HandleY": -75,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\l.kick_2_06.png",
+          "HandleX": 10,
+          "HandleY": -75,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\l.kick_2_07.png",
+          "HandleX": 26,
+          "HandleY": -77,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -36,
+          "HandleY": -83,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "light": {
+          "Value": 0,
+          "X": -21,
+          "Y": -79,
+          "Width": 65,
+          "Height": 33,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
+      "Properties": {}
+    },
+    "win_01": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\idle_legs.png",
+          "HandleX": -23,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\win_1_02.png",
+          "HandleX": -17,
+          "HandleY": -80,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\win_1_03.png",
+          "HandleX": 15,
+          "HandleY": -61,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -4,
+          "HandleY": -91,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\win_1_01.png",
+          "HandleX": -7,
+          "HandleY": -88,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "win_02": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\idle_legs.png",
+          "HandleX": -23,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\win_2_03.png",
+          "HandleX": -14,
+          "HandleY": -69,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -3,
+          "HandleY": -91,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\win_2_02.png",
+          "HandleX": -15,
+          "HandleY": -82,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\win_2_01.png",
+          "HandleX": -13,
+          "HandleY": -109,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "light_punch_01": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\idle_legs.png",
+          "HandleX": -23,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\l.punch_1_01.png",
+          "HandleX": -18,
+          "HandleY": -80,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\l.punch_1_02.png",
+          "HandleX": 11,
+          "HandleY": -79,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -4,
+          "HandleY": -90,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "light_punch_02": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\l.punch_2_01.png",
+          "HandleX": -23,
+          "HandleY": -52,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\l.punch_1_01.png",
+          "HandleX": -14,
+          "HandleY": -80,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\l.punch_2_02.png",
+          "HandleX": 15,
+          "HandleY": -79,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": 0,
+          "HandleY": -90,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "light": {
+          "Value": 0,
+          "X": 8,
+          "Y": -83,
+          "Width": 46,
+          "Height": 19,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
+      "Properties": {}
+    },
+    "block": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\h.kick_block_legs.png",
+          "HandleX": -25,
+          "HandleY": -52,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\block_01.png",
+          "HandleX": -25,
+          "HandleY": -80,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\block_02.png",
+          "HandleX": 7,
+          "HandleY": -92,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\block_03.png",
+          "HandleX": 23,
+          "HandleY": -85,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -11,
+          "HandleY": -91,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "hard_punch_01": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\l.punch_2_01.png",
+          "HandleX": -23,
+          "HandleY": -52,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_1_01.png",
+          "HandleX": -15,
+          "HandleY": -81,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_1_02.png",
+          "HandleX": 17,
+          "HandleY": -61,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -3,
+          "HandleY": -91,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "hard_punch_02": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\h.punch_2_01.png",
+          "HandleX": -22,
+          "HandleY": -26,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_2_02.png",
+          "HandleX": -13,
+          "HandleY": -50,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_2_03.png",
+          "HandleX": 3,
+          "HandleY": -55,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_2_04.png",
+          "HandleX": 19,
+          "HandleY": -55,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": 16,
+          "HandleY": -88,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_2_05.png",
+          "HandleX": -4,
+          "HandleY": -79,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_2_06.png",
+          "HandleX": 44,
+          "HandleY": -80,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_2_07.png",
+          "HandleX": 60,
+          "HandleY": -82,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "hard": {
+          "Value": 0,
+          "X": 18,
+          "Y": -85,
+          "Width": 53,
+          "Height": 24,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
+      "Properties": {}
+    },
+    "duck_idle": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -10,
+          "HandleY": -63,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_legs_idle.png",
+          "HandleX": -25,
+          "HandleY": -28,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_idle_01.png",
+          "HandleX": -22,
+          "HandleY": -52,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_idle_02.png",
+          "HandleX": 10,
+          "HandleY": -47,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "shoryuken_01": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\shoryuken_1_03.png",
+          "HandleX": -19,
+          "HandleY": -68,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -9,
+          "HandleY": -79,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_1_02.png",
+          "HandleX": -29,
+          "HandleY": -16,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_1_04.png",
+          "HandleX": 13,
+          "HandleY": -78,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_1_01.png",
+          "HandleX": -31,
+          "HandleY": -66,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "shoryuken_02": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\shoryuken_2_04.png",
+          "HandleX": -15,
+          "HandleY": -25,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_2_02.png",
+          "HandleX": -5,
+          "HandleY": -95,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_2_03.png",
+          "HandleX": -21,
+          "HandleY": -82,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_2_06.png",
+          "HandleX": 11,
+          "HandleY": -61,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_2_01.png",
+          "HandleX": -11,
+          "HandleY": -96,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_2_05.png",
+          "HandleX": 11,
+          "HandleY": -117,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "shoryuken_03": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\shoryuken_3_01.png",
+          "HandleX": 2,
+          "HandleY": -115,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_3_06.png",
+          "HandleX": -12,
+          "HandleY": -23,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_3_05.png",
+          "HandleX": -14,
+          "HandleY": -35,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_3_04.png",
+          "HandleX": -20,
+          "HandleY": -53,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_3_03.png",
+          "HandleX": -19,
+          "HandleY": -69,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_3_02.png",
+          "HandleX": -4,
+          "HandleY": -85,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -4,
+          "HandleY": -96,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "duck_light_punch_01": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\h.punch_1_01.png",
+          "HandleX": -12,
+          "HandleY": -50,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_h.punch_2_legs.png",
+          "HandleX": -23,
+          "HandleY": -27,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_h.punch_1_blend.png",
+          "HandleX": -12,
+          "HandleY": -27,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": 0,
+          "HandleY": -60,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_1_02.png",
+          "HandleX": 20,
+          "HandleY": -30,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "dead_01": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\dead_02.png",
+          "HandleX": -32,
+          "HandleY": -28,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\dead_01.png",
+          "HandleX": -47,
+          "HandleY": -13,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\dead_03.png",
+          "HandleX": 48,
+          "HandleY": -9,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "dragon_01": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\shoryuken_1_01.png",
+          "HandleX": -28,
+          "HandleY": -66,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_1_02.png",
+          "HandleX": -26,
+          "HandleY": -16,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_1_03.png",
+          "HandleX": -16,
+          "HandleY": -68,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_1_04.png",
+          "HandleX": 16,
+          "HandleY": -78,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -6,
+          "HandleY": -79,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "hard": {
+          "Value": 0,
+          "X": 0,
+          "Y": -81,
+          "Width": 35,
+          "Height": 47,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
+      "Properties": {}
+    },
+    "dragon_02": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\shoryuken_2_04.png",
+          "HandleX": -22,
+          "HandleY": -25,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_2_01.png",
+          "HandleX": -18,
+          "HandleY": -96,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_2_02.png",
+          "HandleX": -12,
+          "HandleY": -95,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_2_03.png",
+          "HandleX": -28,
+          "HandleY": -82,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_2_05.png",
+          "HandleX": 4,
+          "HandleY": -118,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_2_06.png",
+          "HandleX": 4,
+          "HandleY": -62,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "hard": {
+          "Value": 0,
+          "X": -6,
+          "Y": -121,
+          "Width": 29,
+          "Height": 102,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
+      "Properties": {}
+    },
+    "dragon_03": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\shoryuken_3_01.png",
+          "HandleX": -6,
+          "HandleY": -115,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_3_02.png",
+          "HandleX": -12,
+          "HandleY": -85,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_3_03.png",
+          "HandleX": -28,
+          "HandleY": -69,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_3_04.png",
+          "HandleX": -28,
+          "HandleY": -53,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_3_05.png",
+          "HandleX": -22,
+          "HandleY": -35,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\shoryuken_3_06.png",
+          "HandleX": -20,
+          "HandleY": -23,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -12,
+          "HandleY": -96,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "hadoken_01": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\l.punch_2_01.png",
+          "HandleX": -20,
+          "HandleY": -52,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\hadoken_1_01.png",
+          "HandleX": -21,
+          "HandleY": -80,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": 0,
+          "HandleY": -91,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "hadoken_02": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\hadoken_2_01.png",
+          "HandleX": 6,
+          "HandleY": -77,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\hadoken_2_02.png",
+          "HandleX": 33,
+          "HandleY": -76,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\hadoken_2_03.png",
+          "HandleX": 49,
+          "HandleY": -84,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\hadoken_2_04.png",
+          "HandleX": 49,
+          "HandleY": -64,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": 17,
+          "HandleY": -88,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_2_01.png",
+          "HandleX": -18,
+          "HandleY": -26,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_2_02.png",
+          "HandleX": -9,
+          "HandleY": -50,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_2_04.png",
+          "HandleX": 23,
+          "HandleY": -55,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_2_03.png",
+          "HandleX": 7,
+          "HandleY": -55,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "duck_light_punch_02": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\duck_h.punch_2_legs.png",
+          "HandleX": -22,
+          "HandleY": -27,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": 5,
+          "HandleY": -59,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_2_05.png",
+          "HandleX": -15,
+          "HandleY": -50,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_2_06.png",
+          "HandleX": 33,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_2_07.png",
+          "HandleX": 49,
+          "HandleY": -53,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "light": {
+          "Value": 0,
+          "X": 7,
+          "Y": -56,
+          "Width": 53,
+          "Height": 26,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
+      "Properties": {}
+    },
+    "duck_block": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\duck_legs_idle.png",
+          "HandleX": -25,
+          "HandleY": -28,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_h.punch_0_01.png",
+          "HandleX": -25,
+          "HandleY": -54,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_h.punch_0_02.png",
+          "HandleX": 7,
+          "HandleY": -65,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -15,
+          "HandleY": -63,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "duck_light_kick_01": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\duck_l.kick_1_01.png",
+          "HandleX": -25,
+          "HandleY": -50,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_l.kick_1_02.png",
+          "HandleX": 13,
+          "HandleY": -57,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -9,
+          "HandleY": -61,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "duck_light_kick_02": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\jump_l.kick_01.png",
+          "HandleX": -31,
+          "HandleY": -49,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_l.kick_02.png",
+          "HandleX": -15,
+          "HandleY": -49,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_l.kick_03.png",
+          "HandleX": 17,
+          "HandleY": -21,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_l.kick_04.png",
+          "HandleX": 33,
+          "HandleY": -17,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_l.kick_05.png",
+          "HandleX": 49,
+          "HandleY": -7,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -15,
+          "HandleY": -60,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_l.kick_foot.png",
+          "HandleX": -23,
+          "HandleY": -11,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "light": {
+          "Value": 0,
+          "X": -9,
+          "Y": -29,
+          "Width": 64,
+          "Height": 30,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
+      "Properties": {}
+    },
+    "duck_hard_kick_01": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\duck_idle_02.png",
+          "HandleX": 10,
+          "HandleY": -47,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_h.kick_1_01.png",
+          "HandleX": -2,
+          "HandleY": -47,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_h.kick_1_02.png",
+          "HandleX": 11,
+          "HandleY": -58,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_h.kick_1_03.png",
+          "HandleX": 46,
+          "HandleY": -19,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "duck_hard_kick_02": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\duck_h.kick_2_01.png",
+          "HandleX": -8,
+          "HandleY": -47,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_h.kick_2_02.png",
+          "HandleX": 6,
+          "HandleY": -55,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_h.kick_2_03.png",
+          "HandleX": 40,
+          "HandleY": -19,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_h.kick_2_04.png",
+          "HandleX": 56,
+          "HandleY": -15,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_h.kick_2_05.png",
+          "HandleX": 72,
+          "HandleY": -10,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "hard": {
+          "Value": 0,
+          "X": 18,
+          "Y": -24,
+          "Width": 63,
+          "Height": 25,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
+      "Properties": {}
+    },
+    "duck_hard_kick_03": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -7,
+          "HandleY": -55,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_h.kick_3_01.png",
+          "HandleX": -9,
+          "HandleY": -46,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_h.kick_3_02.png",
+          "HandleX": 23,
+          "HandleY": -36,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_h.kick_3_03.png",
+          "HandleX": 39,
+          "HandleY": -13,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "duck_hard_kick_04": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -8,
+          "HandleY": -63,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_legs_idle.png",
+          "HandleX": -25,
+          "HandleY": -28,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_idle_01.png",
+          "HandleX": -12,
+          "HandleY": -52,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_idle_02.png",
+          "HandleX": -23,
+          "HandleY": -47,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "duck_hard_kick_00": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\duck_h.kick_0_01.png",
+          "HandleX": 0,
+          "HandleY": -21,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\duck_h.kick_0_02.png",
+          "HandleX": 4,
+          "HandleY": -50,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": 19,
+          "HandleY": -60,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "land": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\land_01.png",
+          "HandleX": -15,
+          "HandleY": -71,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\land_02.png",
+          "HandleX": -20,
+          "HandleY": -44,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\land_03.png",
+          "HandleX": -20,
+          "HandleY": -14,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\land_04.png",
+          "HandleX": -21,
+          "HandleY": -3,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\land_05.png",
+          "HandleX": 2,
+          "HandleY": -14,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\land_06.png",
+          "HandleX": 5,
+          "HandleY": -3,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": 1,
+          "HandleY": -79,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "jump_01": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\jump_1_01.png",
+          "HandleX": -15,
+          "HandleY": -83,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_1_02.png",
+          "HandleX": -9,
+          "HandleY": -9,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -4,
+          "HandleY": -94,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "jump_02": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\jump_2_02.png",
+          "HandleX": -18,
+          "HandleY": -80,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_2_03.png",
+          "HandleX": -16,
+          "HandleY": -32,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_2_01.png",
+          "HandleX": -22,
+          "HandleY": -68,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -4,
+          "HandleY": -88,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "tatsu_01": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\tatsu_2_01.png",
+          "HandleX": -32,
+          "HandleY": -80,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\tatsu_2_02.png",
+          "HandleX": -15,
+          "HandleY": -80,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\tatsu_2_03.png",
+          "HandleX": -8,
+          "HandleY": -88,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\tatsu_2_04.png",
+          "HandleX": 1,
+          "HandleY": -80,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\tatsu_2_05.png",
+          "HandleX": 17,
+          "HandleY": -74,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\tatsu_2_06.png",
+          "HandleX": 17,
+          "HandleY": -49,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\tatsu_2_07.png",
+          "HandleX": 33,
+          "HandleY": -43,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\tatsu_2_08.png",
+          "HandleX": 49,
+          "HandleY": -36,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "light": {
+          "Value": 0,
+          "X": 4,
+          "Y": -55,
+          "Width": 52,
+          "Height": 46,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {
+            "HurtBox": "False"
+          }
+        }
+      },
+      "Properties": {}
+    },
+    "tatsu_02": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -20,
+          "HandleY": -87,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\tatsu_3_02.png",
+          "HandleX": -19,
+          "HandleY": -81,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\tatsu_3_01.png",
+          "HandleX": -3,
+          "HandleY": -13,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\tatsu_3_04.png",
+          "HandleX": -35,
+          "HandleY": -52,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\tatsu_3_03.png",
+          "HandleX": -26,
+          "HandleY": -72,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\tatsu_3_05.png",
+          "HandleX": -51,
+          "HandleY": -43,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "light": {
+          "Value": 0,
+          "X": -52,
+          "Y": -58,
+          "Width": 51,
+          "Height": 59,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {
+            "HurtBox": "False"
+          }
+        }
+      },
+      "Properties": {}
+    },
+    "tatsu_03": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\tatsu_1_01.png",
+          "HandleX": -27,
+          "HandleY": -77,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\tatsu_1_02.png",
+          "HandleX": -1,
+          "HandleY": -8,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -9,
+          "HandleY": -88,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\tatsu_1_03.png",
+          "HandleX": 21,
+          "HandleY": -71,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "walk_01_a": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\walk_1_01.png",
+          "HandleX": -18,
+          "HandleY": -79,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_1_02.png",
+          "HandleX": 14,
+          "HandleY": -75,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_01.png",
+          "HandleX": 5,
+          "HandleY": -41,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_02.png",
+          "HandleX": -19,
+          "HandleY": -41,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_03.png",
+          "HandleX": -20,
+          "HandleY": -32,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_04.png",
+          "HandleX": -21,
+          "HandleY": -29,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_05.png",
+          "HandleX": -25,
+          "HandleY": -22,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -4,
+          "HandleY": -93,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_face.png",
+          "HandleX": -15,
+          "HandleY": -84,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "walk_02_a": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\walk_legs_01.png",
+          "HandleX": -26,
+          "HandleY": -45,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_02.png",
+          "HandleX": -11,
+          "HandleY": -45,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_03.png",
+          "HandleX": 0,
+          "HandleY": -36,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_04.png",
+          "HandleX": 1,
+          "HandleY": -33,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_05.png",
+          "HandleX": 5,
+          "HandleY": -26,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_2_01.png",
+          "HandleX": -23,
+          "HandleY": -83,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_2_03.png",
+          "HandleX": 9,
+          "HandleY": -78,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -10,
+          "HandleY": -97,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_face.png",
+          "HandleX": -21,
+          "HandleY": -88,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_2_02.png",
+          "HandleX": -20,
+          "HandleY": -62,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "walk_01_c": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\walk_1_01.png",
+          "HandleX": -18,
+          "HandleY": -83,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_1_02.png",
+          "HandleX": 14,
+          "HandleY": -79,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_01.png",
+          "HandleX": 5,
+          "HandleY": -45,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_02.png",
+          "HandleX": -19,
+          "HandleY": -45,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_03.png",
+          "HandleX": -20,
+          "HandleY": -36,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_04.png",
+          "HandleX": -21,
+          "HandleY": -33,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_05.png",
+          "HandleX": -25,
+          "HandleY": -26,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -4,
+          "HandleY": -97,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_face.png",
+          "HandleX": -15,
+          "HandleY": -88,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "walk_01_b": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\walk_1_01.png",
+          "HandleX": -18,
+          "HandleY": -81,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_1_02.png",
+          "HandleX": 14,
+          "HandleY": -77,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_01.png",
+          "HandleX": 5,
+          "HandleY": -43,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_02.png",
+          "HandleX": -19,
+          "HandleY": -43,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_03.png",
+          "HandleX": -20,
+          "HandleY": -34,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_04.png",
+          "HandleX": -21,
+          "HandleY": -31,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_05.png",
+          "HandleX": -25,
+          "HandleY": -24,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -4,
+          "HandleY": -95,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_face.png",
+          "HandleX": -15,
+          "HandleY": -86,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "walk_02_b": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\walk_legs_01.png",
+          "HandleX": -26,
+          "HandleY": -43,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_02.png",
+          "HandleX": -11,
+          "HandleY": -43,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_03.png",
+          "HandleX": 0,
+          "HandleY": -34,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_04.png",
+          "HandleX": 1,
+          "HandleY": -31,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_05.png",
+          "HandleX": 5,
+          "HandleY": -24,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_2_01.png",
+          "HandleX": -23,
+          "HandleY": -81,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_2_03.png",
+          "HandleX": 9,
+          "HandleY": -76,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -10,
+          "HandleY": -95,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_face.png",
+          "HandleX": -21,
+          "HandleY": -86,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_2_02.png",
+          "HandleX": -20,
+          "HandleY": -60,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "walk_02_c": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\walk_legs_01.png",
+          "HandleX": -26,
+          "HandleY": -41,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_02.png",
+          "HandleX": -11,
+          "HandleY": -41,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_03.png",
+          "HandleX": 0,
+          "HandleY": -32,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_04.png",
+          "HandleX": 1,
+          "HandleY": -29,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_legs_05.png",
+          "HandleX": 5,
+          "HandleY": -22,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_2_01.png",
+          "HandleX": -23,
+          "HandleY": -79,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_2_03.png",
+          "HandleX": 9,
+          "HandleY": -74,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -10,
+          "HandleY": -93,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_face.png",
+          "HandleX": -21,
+          "HandleY": -84,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\walk_2_02.png",
+          "HandleX": -20,
+          "HandleY": -58,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "jump_forward_01": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\jump_forward_1_02.png",
+          "HandleX": -14,
+          "HandleY": -77,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_forward_1_03.png",
+          "HandleX": -17,
+          "HandleY": -10,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_forward_1_01.png",
+          "HandleX": -17,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_forward_1_04.png",
+          "HandleX": 18,
+          "HandleY": -49,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": 4,
+          "HandleY": -86,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_forward_3_02.png",
+          "HandleX": 17,
+          "HandleY": -76,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "jump_forward_02": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\jump_forward_2_01.png",
+          "HandleX": -21,
+          "HandleY": -64,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_forward_2_02.png",
+          "HandleX": 9,
+          "HandleY": -24,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_forward_2_03.png",
+          "HandleX": 11,
+          "HandleY": -54,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "jump_forward_03": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\jump_forward_3_01.png",
+          "HandleX": -23,
+          "HandleY": -60,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_forward_3_03.png",
+          "HandleX": -7,
+          "HandleY": -53,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_forward_3_02.png",
+          "HandleX": -7,
+          "HandleY": -55,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "jump_atk_hard_kick": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\jump_h.kick_02.png",
+          "HandleX": -2,
+          "HandleY": -90,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_h.kick_03.png",
+          "HandleX": 13,
+          "HandleY": -81,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_h.kick_01.png",
+          "HandleX": -19,
+          "HandleY": -81,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_h.kick_04.png",
+          "HandleX": 29,
+          "HandleY": -77,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_h.kick_05.png",
+          "HandleX": 45,
+          "HandleY": -77,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "hard": {
+          "Value": 0,
+          "X": -5,
+          "Y": -80,
+          "Width": 63,
+          "Height": 38,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
+      "Properties": {}
+    },
+    "jump_atk_hard_punch": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\jump_h.punch_01.png",
+          "HandleX": -26,
+          "HandleY": -83,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_h.punch_02.png",
+          "HandleX": -6,
+          "HandleY": -87,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_h.punch_03.png",
+          "HandleX": 22,
+          "HandleY": -75,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_h.punch_04.png",
+          "HandleX": 38,
+          "HandleY": -69,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "hard": {
+          "Value": 0,
+          "X": 1,
+          "Y": -81,
+          "Width": 48,
+          "Height": 26,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
+      "Properties": {}
+    },
+    "jump_atk_light_kick": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\jump_l.kick_01.png",
+          "HandleX": -19,
+          "HandleY": -77,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_l.kick_02.png",
+          "HandleX": -3,
+          "HandleY": -76,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_l.kick_03.png",
+          "HandleX": 29,
+          "HandleY": -48,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_l.kick_04.png",
+          "HandleX": 45,
+          "HandleY": -44,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_l.kick_05.png",
+          "HandleX": 61,
+          "HandleY": -34,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_l.kick_06.png",
+          "HandleX": -7,
+          "HandleY": -41,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": -3,
+          "HandleY": -87,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "light": {
+          "Value": 0,
+          "X": 6,
+          "Y": -54,
+          "Width": 61,
+          "Height": 29,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
+      "Properties": {}
+    },
+    "jump_atk_light_punch": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": 5,
+          "HandleY": -86,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_l.punch_01.png",
+          "HandleX": -22,
+          "HandleY": -80,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_l.punch_02.png",
+          "HandleX": 26,
+          "HandleY": -63,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\jump_l.punch_03.png",
+          "HandleX": 42,
+          "HandleY": -53,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "light": {
+          "Value": 0,
+          "X": 6,
+          "Y": -73,
+          "Width": 44,
+          "Height": 35,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
+      "Properties": {}
+    },
+    "pain_01": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\pain_1_01.png",
+          "HandleX": -19,
+          "HandleY": -78,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\pain_1_02.png",
+          "HandleX": -11,
+          "HandleY": -91,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\l.punch_2_01.png",
+          "HandleX": -25,
+          "HandleY": -52,
+          "XFlip": true,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\pain_1_03.png",
+          "HandleX": 9,
+          "HandleY": -49,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "fall_01": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\fall_01.png",
+          "HandleX": -29,
+          "HandleY": -75,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\fall_02.png",
+          "HandleX": -13,
+          "HandleY": -77,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\fall_03.png",
+          "HandleX": -19,
+          "HandleY": -86,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\fall_04.png",
+          "HandleX": 3,
+          "HandleY": -80,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\fall_05.png",
+          "HandleX": 19,
+          "HandleY": -52,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "duck_hard_punch_02": {
+      "Sprites": [
+        {
+          "FramePath": "ryu\\duck_h.punch_2_legs.png",
+          "HandleX": -22,
+          "HandleY": -27,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\idle_head.png",
+          "HandleX": 5,
+          "HandleY": -59,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_2_05.png",
+          "HandleX": -15,
+          "HandleY": -50,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_2_06.png",
+          "HandleX": 33,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ryu\\h.punch_2_07.png",
+          "HandleX": 49,
+          "HandleY": -53,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "hard": {
+          "Value": 0,
+          "X": 7,
+          "Y": -56,
+          "Width": 53,
+          "Height": 26,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
+      "Properties": {}
+    }
+  },
+  "Properties": {}
+}
