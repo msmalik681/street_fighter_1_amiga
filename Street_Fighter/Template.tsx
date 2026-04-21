@@ -16,13 +16,21 @@
       <property name="Name" value="004_ryu" type="string" />
     </properties>
   </tile>
-  <tile id="3" />
+  <tile id="3">
+    <properties>
+      <property name="Name" value="ken" type="string" />
+    </properties>
+  </tile>
   <tile id="4">
     <properties>
       <property name="Name" value="005_ryu_duck" type="string" />
     </properties>
   </tile>
-  <tile id="5" />
+  <tile id="5">
+    <properties>
+      <property name="Name" value="ken_duck" type="string" />
+    </properties>
+  </tile>
   <tile id="6">
     <properties>
       <property name="Name" value="002_camera" type="string" />
