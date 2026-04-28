@@ -1025,7 +1025,7 @@
     "ilde": {
       "Sprites": [
         {
-          "FramePath": "ryu\\idle_body.png",
+          "FramePath": "ken\\idle_body.png",
           "HandleX": -16,
           "HandleY": -80,
           "XFlip": false,
@@ -1034,7 +1034,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -3,
           "HandleY": -91,
           "XFlip": false,
@@ -1043,7 +1043,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_legs.png",
+          "FramePath": "ken\\idle_legs.png",
           "HandleX": -23,
           "HandleY": -51,
           "XFlip": false,
@@ -1058,7 +1058,7 @@
     "hard_kick_01": {
       "Sprites": [
         {
-          "FramePath": "ryu\\h.kick_block_legs.png",
+          "FramePath": "ken\\h.kick_block_legs.png",
           "HandleX": -27,
           "HandleY": -52,
           "XFlip": false,
@@ -1067,7 +1067,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_0_02.png",
+          "FramePath": "ken\\h.kick_0_02.png",
           "HandleX": -27,
           "HandleY": -76,
           "XFlip": false,
@@ -1076,7 +1076,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -16,
           "HandleY": -86,
           "XFlip": false,
@@ -1091,7 +1091,7 @@
     "hard_kick_03": {
       "Sprites": [
         {
-          "FramePath": "ryu\\h.kick_2_01.png",
+          "FramePath": "ken\\h.kick_2_01.png",
           "HandleX": -2,
           "HandleY": -81,
           "XFlip": false,
@@ -1100,7 +1100,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_2_02.png",
+          "FramePath": "ken\\h.kick_2_02.png",
           "HandleX": 6,
           "HandleY": -48,
           "XFlip": false,
@@ -1109,7 +1109,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_2_03.png",
+          "FramePath": "ken\\h.kick_2_03.png",
           "HandleX": 22,
           "HandleY": -68,
           "XFlip": false,
@@ -1118,7 +1118,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_2_04.png",
+          "FramePath": "ken\\h.kick_2_04.png",
           "HandleX": 38,
           "HandleY": -58,
           "XFlip": false,
@@ -1127,7 +1127,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": 6,
           "HandleY": -92,
           "XFlip": false,
@@ -1142,7 +1142,7 @@
     "hard_kick_04": {
       "Sprites": [
         {
-          "FramePath": "ryu\\h.kick_3_02.png",
+          "FramePath": "ken\\h.kick_3_02.png",
           "HandleX": 3,
           "HandleY": -77,
           "XFlip": false,
@@ -1151,7 +1151,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_3_01.png",
+          "FramePath": "ken\\h.kick_3_01.png",
           "HandleX": -13,
           "HandleY": -83,
           "XFlip": false,
@@ -1160,7 +1160,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_3_03.png",
+          "FramePath": "ken\\h.kick_3_03.png",
           "HandleX": 35,
           "HandleY": -72,
           "XFlip": false,
@@ -1169,7 +1169,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_3_04.png",
+          "FramePath": "ken\\h.kick_3_04.png",
           "HandleX": 51,
           "HandleY": -79,
           "XFlip": false,
@@ -1178,7 +1178,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_3_05.png",
+          "FramePath": "ken\\h.kick_3_05.png",
           "HandleX": 67,
           "HandleY": -82,
           "XFlip": false,
@@ -1205,7 +1205,7 @@
     "hard_kick_05": {
       "Sprites": [
         {
-          "FramePath": "ryu\\h.kick_4_04.png",
+          "FramePath": "ken\\h.kick_4_04.png",
           "HandleX": 6,
           "HandleY": -78,
           "XFlip": false,
@@ -1214,7 +1214,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_4_05.png",
+          "FramePath": "ken\\h.kick_4_05.png",
           "HandleX": 4,
           "HandleY": -4,
           "XFlip": false,
@@ -1223,7 +1223,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_4_01.png",
+          "FramePath": "ken\\h.kick_4_01.png",
           "HandleX": -15,
           "HandleY": -70,
           "XFlip": false,
@@ -1232,7 +1232,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_4_03.png",
+          "FramePath": "ken\\h.kick_4_03.png",
           "HandleX": -10,
           "HandleY": -78,
           "XFlip": false,
@@ -1241,7 +1241,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_4_02.png",
+          "FramePath": "ken\\h.kick_4_02.png",
           "HandleX": -4,
           "HandleY": -87,
           "XFlip": false,
@@ -1250,7 +1250,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_4_06.png",
+          "FramePath": "ken\\h.kick_4_06.png",
           "HandleX": 22,
           "HandleY": -78,
           "XFlip": false,
@@ -1259,7 +1259,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_4_07.png",
+          "FramePath": "ken\\h.kick_4_07.png",
           "HandleX": 38,
           "HandleY": -69,
           "XFlip": false,
@@ -1274,7 +1274,7 @@
     "hard_kick_06": {
       "Sprites": [
         {
-          "FramePath": "ryu\\h.kick_5_04.png",
+          "FramePath": "ken\\h.kick_5_04.png",
           "HandleX": 6,
           "HandleY": -52,
           "XFlip": false,
@@ -1283,7 +1283,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_5_03.png",
+          "FramePath": "ken\\h.kick_5_03.png",
           "HandleX": -10,
           "HandleY": -52,
           "XFlip": false,
@@ -1292,7 +1292,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_5_02.png",
+          "FramePath": "ken\\h.kick_5_02.png",
           "HandleX": -8,
           "HandleY": -78,
           "XFlip": false,
@@ -1301,7 +1301,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -8,
           "HandleY": -89,
           "XFlip": true,
@@ -1310,7 +1310,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_5_01.png",
+          "FramePath": "ken\\h.kick_5_01.png",
           "HandleX": -15,
           "HandleY": -69,
           "XFlip": false,
@@ -1319,7 +1319,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_5_05.png",
+          "FramePath": "ken\\h.kick_5_05.png",
           "HandleX": 22,
           "HandleY": -51,
           "XFlip": false,
@@ -1334,7 +1334,7 @@
     "hard_kick_02": {
       "Sprites": [
         {
-          "FramePath": "ryu\\h.kick_1_05.png",
+          "FramePath": "ken\\h.kick_1_05.png",
           "HandleX": 6,
           "HandleY": -54,
           "XFlip": false,
@@ -1343,7 +1343,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_1_03.png",
+          "FramePath": "ken\\h.kick_1_03.png",
           "HandleX": -8,
           "HandleY": -84,
           "XFlip": false,
@@ -1352,7 +1352,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_1_04.png",
+          "FramePath": "ken\\h.kick_1_04.png",
           "HandleX": -10,
           "HandleY": -54,
           "XFlip": false,
@@ -1361,7 +1361,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_1_02.png",
+          "FramePath": "ken\\h.kick_1_02.png",
           "HandleX": -20,
           "HandleY": -39,
           "XFlip": false,
@@ -1370,7 +1370,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_1_06.png",
+          "FramePath": "ken\\h.kick_1_06.png",
           "HandleX": 22,
           "HandleY": -54,
           "XFlip": false,
@@ -1379,7 +1379,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_1_01.png",
+          "FramePath": "ken\\h.kick_1_01.png",
           "HandleX": -12,
           "HandleY": -73,
           "XFlip": false,
@@ -1388,7 +1388,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": 9,
           "HandleY": -94,
           "XFlip": false,
@@ -1403,7 +1403,7 @@
     "light_kick_01": {
       "Sprites": [
         {
-          "FramePath": "ryu\\h.kick_5_04.png",
+          "FramePath": "ken\\h.kick_5_04.png",
           "HandleX": -28,
           "HandleY": -52,
           "XFlip": true,
@@ -1412,7 +1412,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_5_03.png",
+          "FramePath": "ken\\h.kick_5_03.png",
           "HandleX": -12,
           "HandleY": -52,
           "XFlip": true,
@@ -1421,7 +1421,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.kick_5_05.png",
+          "FramePath": "ken\\h.kick_5_05.png",
           "HandleX": -30,
           "HandleY": -51,
           "XFlip": true,
@@ -1430,7 +1430,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\l.kick_1_01.png",
+          "FramePath": "ken\\l.kick_1_01.png",
           "HandleX": -40,
           "HandleY": -81,
           "XFlip": false,
@@ -1439,7 +1439,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\l.kick_1_02.png",
+          "FramePath": "ken\\l.kick_1_02.png",
           "HandleX": -34,
           "HandleY": -52,
           "XFlip": false,
@@ -1448,7 +1448,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -27,
           "HandleY": -92,
           "XFlip": false,
@@ -1463,7 +1463,7 @@
     "light_kick_02": {
       "Sprites": [
         {
-          "FramePath": "ryu\\l.kick_2_04.png",
+          "FramePath": "ken\\l.kick_2_04.png",
           "HandleX": -25,
           "HandleY": -3,
           "XFlip": false,
@@ -1472,7 +1472,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\l.kick_2_03.png",
+          "FramePath": "ken\\l.kick_2_03.png",
           "HandleX": -22,
           "HandleY": -75,
           "XFlip": false,
@@ -1481,7 +1481,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\l.kick_2_02.png",
+          "FramePath": "ken\\l.kick_2_02.png",
           "HandleX": -38,
           "HandleY": -75,
           "XFlip": false,
@@ -1490,7 +1490,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\l.kick_2_01.png",
+          "FramePath": "ken\\l.kick_2_01.png",
           "HandleX": -47,
           "HandleY": -71,
           "XFlip": false,
@@ -1499,7 +1499,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\l.kick_2_05.png",
+          "FramePath": "ken\\l.kick_2_05.png",
           "HandleX": -6,
           "HandleY": -75,
           "XFlip": false,
@@ -1508,7 +1508,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\l.kick_2_06.png",
+          "FramePath": "ken\\l.kick_2_06.png",
           "HandleX": 10,
           "HandleY": -75,
           "XFlip": false,
@@ -1517,7 +1517,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\l.kick_2_07.png",
+          "FramePath": "ken\\l.kick_2_07.png",
           "HandleX": 26,
           "HandleY": -77,
           "XFlip": false,
@@ -1526,7 +1526,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -36,
           "HandleY": -83,
           "XFlip": false,
@@ -1553,7 +1553,7 @@
     "win_01": {
       "Sprites": [
         {
-          "FramePath": "ryu\\idle_legs.png",
+          "FramePath": "ken\\idle_legs.png",
           "HandleX": -23,
           "HandleY": -51,
           "XFlip": false,
@@ -1562,7 +1562,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\win_1_02.png",
+          "FramePath": "ken\\win_1_02.png",
           "HandleX": -17,
           "HandleY": -80,
           "XFlip": false,
@@ -1571,7 +1571,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\win_1_03.png",
+          "FramePath": "ken\\win_1_03.png",
           "HandleX": 15,
           "HandleY": -61,
           "XFlip": false,
@@ -1580,7 +1580,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -4,
           "HandleY": -91,
           "XFlip": false,
@@ -1589,7 +1589,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\win_1_01.png",
+          "FramePath": "ken\\win_1_01.png",
           "HandleX": -7,
           "HandleY": -88,
           "XFlip": false,
@@ -1604,7 +1604,7 @@
     "win_02": {
       "Sprites": [
         {
-          "FramePath": "ryu\\idle_legs.png",
+          "FramePath": "ken\\idle_legs.png",
           "HandleX": -23,
           "HandleY": -51,
           "XFlip": false,
@@ -1613,7 +1613,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\win_2_03.png",
+          "FramePath": "ken\\win_2_03.png",
           "HandleX": -14,
           "HandleY": -69,
           "XFlip": false,
@@ -1622,7 +1622,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -3,
           "HandleY": -91,
           "XFlip": false,
@@ -1631,7 +1631,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\win_2_02.png",
+          "FramePath": "ken\\win_2_02.png",
           "HandleX": -15,
           "HandleY": -82,
           "XFlip": false,
@@ -1640,7 +1640,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\win_2_01.png",
+          "FramePath": "ken\\win_2_01.png",
           "HandleX": -13,
           "HandleY": -109,
           "XFlip": false,
@@ -1655,7 +1655,7 @@
     "light_punch_01": {
       "Sprites": [
         {
-          "FramePath": "ryu\\idle_legs.png",
+          "FramePath": "ken\\idle_legs.png",
           "HandleX": -23,
           "HandleY": -51,
           "XFlip": false,
@@ -1664,7 +1664,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\l.punch_1_01.png",
+          "FramePath": "ken\\l.punch_1_01.png",
           "HandleX": -18,
           "HandleY": -80,
           "XFlip": false,
@@ -1673,7 +1673,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\l.punch_1_02.png",
+          "FramePath": "ken\\l.punch_1_02.png",
           "HandleX": 11,
           "HandleY": -79,
           "XFlip": false,
@@ -1682,7 +1682,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -4,
           "HandleY": -90,
           "XFlip": false,
@@ -1697,7 +1697,7 @@
     "light_punch_02": {
       "Sprites": [
         {
-          "FramePath": "ryu\\l.punch_2_01.png",
+          "FramePath": "ken\\l.punch_2_01.png",
           "HandleX": -23,
           "HandleY": -52,
           "XFlip": false,
@@ -1706,7 +1706,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\l.punch_1_01.png",
+          "FramePath": "ken\\l.punch_1_01.png",
           "HandleX": -14,
           "HandleY": -80,
           "XFlip": false,
@@ -1715,7 +1715,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\l.punch_2_02.png",
+          "FramePath": "ken\\l.punch_2_02.png",
           "HandleX": 15,
           "HandleY": -79,
           "XFlip": false,
@@ -1724,7 +1724,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": 0,
           "HandleY": -90,
           "XFlip": false,
@@ -1751,7 +1751,7 @@
     "block": {
       "Sprites": [
         {
-          "FramePath": "ryu\\h.kick_block_legs.png",
+          "FramePath": "ken\\h.kick_block_legs.png",
           "HandleX": -25,
           "HandleY": -52,
           "XFlip": false,
@@ -1760,7 +1760,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\block_01.png",
+          "FramePath": "ken\\block_01.png",
           "HandleX": -25,
           "HandleY": -80,
           "XFlip": false,
@@ -1769,7 +1769,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\block_02.png",
+          "FramePath": "ken\\block_02.png",
           "HandleX": 7,
           "HandleY": -92,
           "XFlip": false,
@@ -1778,7 +1778,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\block_03.png",
+          "FramePath": "ken\\block_03.png",
           "HandleX": 23,
           "HandleY": -85,
           "XFlip": false,
@@ -1787,7 +1787,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -11,
           "HandleY": -91,
           "XFlip": false,
@@ -1802,7 +1802,7 @@
     "hard_punch_01": {
       "Sprites": [
         {
-          "FramePath": "ryu\\l.punch_2_01.png",
+          "FramePath": "ken\\l.punch_2_01.png",
           "HandleX": -23,
           "HandleY": -52,
           "XFlip": false,
@@ -1811,7 +1811,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_1_01.png",
+          "FramePath": "ken\\h.punch_1_01.png",
           "HandleX": -15,
           "HandleY": -81,
           "XFlip": false,
@@ -1820,7 +1820,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_1_02.png",
+          "FramePath": "ken\\h.punch_1_02.png",
           "HandleX": 17,
           "HandleY": -61,
           "XFlip": false,
@@ -1829,7 +1829,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -3,
           "HandleY": -91,
           "XFlip": false,
@@ -1844,7 +1844,7 @@
     "hard_punch_02": {
       "Sprites": [
         {
-          "FramePath": "ryu\\h.punch_2_01.png",
+          "FramePath": "ken\\h.punch_2_01.png",
           "HandleX": -22,
           "HandleY": -26,
           "XFlip": false,
@@ -1853,7 +1853,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_2_02.png",
+          "FramePath": "ken\\h.punch_2_02.png",
           "HandleX": -13,
           "HandleY": -50,
           "XFlip": false,
@@ -1862,7 +1862,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_2_03.png",
+          "FramePath": "ken\\h.punch_2_03.png",
           "HandleX": 3,
           "HandleY": -55,
           "XFlip": false,
@@ -1871,7 +1871,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_2_04.png",
+          "FramePath": "ken\\h.punch_2_04.png",
           "HandleX": 19,
           "HandleY": -55,
           "XFlip": false,
@@ -1880,7 +1880,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": 16,
           "HandleY": -88,
           "XFlip": false,
@@ -1889,7 +1889,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_2_05.png",
+          "FramePath": "ken\\h.punch_2_05.png",
           "HandleX": -4,
           "HandleY": -79,
           "XFlip": false,
@@ -1898,7 +1898,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_2_06.png",
+          "FramePath": "ken\\h.punch_2_06.png",
           "HandleX": 44,
           "HandleY": -80,
           "XFlip": false,
@@ -1907,7 +1907,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_2_07.png",
+          "FramePath": "ken\\h.punch_2_07.png",
           "HandleX": 60,
           "HandleY": -82,
           "XFlip": false,
@@ -1934,7 +1934,7 @@
     "duck_idle": {
       "Sprites": [
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -10,
           "HandleY": -63,
           "XFlip": false,
@@ -1943,7 +1943,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_legs_idle.png",
+          "FramePath": "ken\\duck_legs_idle.png",
           "HandleX": -25,
           "HandleY": -28,
           "XFlip": false,
@@ -1952,7 +1952,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_idle_01.png",
+          "FramePath": "ken\\duck_idle_01.png",
           "HandleX": -22,
           "HandleY": -52,
           "XFlip": false,
@@ -1961,7 +1961,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_idle_02.png",
+          "FramePath": "ken\\duck_idle_02.png",
           "HandleX": 10,
           "HandleY": -47,
           "XFlip": false,
@@ -1976,7 +1976,7 @@
     "shoryuken_01": {
       "Sprites": [
         {
-          "FramePath": "ryu\\shoryuken_1_03.png",
+          "FramePath": "ken\\shoryuken_1_03.png",
           "HandleX": -19,
           "HandleY": -68,
           "XFlip": false,
@@ -1985,7 +1985,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -9,
           "HandleY": -79,
           "XFlip": false,
@@ -1994,7 +1994,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_1_02.png",
+          "FramePath": "ken\\shoryuken_1_02.png",
           "HandleX": -29,
           "HandleY": -16,
           "XFlip": false,
@@ -2003,7 +2003,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_1_04.png",
+          "FramePath": "ken\\shoryuken_1_04.png",
           "HandleX": 13,
           "HandleY": -78,
           "XFlip": false,
@@ -2012,7 +2012,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_1_01.png",
+          "FramePath": "ken\\shoryuken_1_01.png",
           "HandleX": -31,
           "HandleY": -66,
           "XFlip": false,
@@ -2027,7 +2027,7 @@
     "shoryuken_02": {
       "Sprites": [
         {
-          "FramePath": "ryu\\shoryuken_2_04.png",
+          "FramePath": "ken\\shoryuken_2_04.png",
           "HandleX": -15,
           "HandleY": -25,
           "XFlip": false,
@@ -2036,7 +2036,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_2_02.png",
+          "FramePath": "ken\\shoryuken_2_02.png",
           "HandleX": -5,
           "HandleY": -95,
           "XFlip": false,
@@ -2045,7 +2045,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_2_03.png",
+          "FramePath": "ken\\shoryuken_2_03.png",
           "HandleX": -21,
           "HandleY": -82,
           "XFlip": false,
@@ -2054,7 +2054,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_2_06.png",
+          "FramePath": "ken\\shoryuken_2_06.png",
           "HandleX": 11,
           "HandleY": -61,
           "XFlip": false,
@@ -2063,7 +2063,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_2_01.png",
+          "FramePath": "ken\\shoryuken_2_01.png",
           "HandleX": -11,
           "HandleY": -96,
           "XFlip": false,
@@ -2072,7 +2072,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_2_05.png",
+          "FramePath": "ken\\shoryuken_2_05.png",
           "HandleX": 11,
           "HandleY": -117,
           "XFlip": false,
@@ -2087,7 +2087,7 @@
     "shoryuken_03": {
       "Sprites": [
         {
-          "FramePath": "ryu\\shoryuken_3_01.png",
+          "FramePath": "ken\\shoryuken_3_01.png",
           "HandleX": 2,
           "HandleY": -115,
           "XFlip": false,
@@ -2096,7 +2096,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_3_06.png",
+          "FramePath": "ken\\shoryuken_3_06.png",
           "HandleX": -12,
           "HandleY": -23,
           "XFlip": false,
@@ -2105,7 +2105,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_3_05.png",
+          "FramePath": "ken\\shoryuken_3_05.png",
           "HandleX": -14,
           "HandleY": -35,
           "XFlip": false,
@@ -2114,7 +2114,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_3_04.png",
+          "FramePath": "ken\\shoryuken_3_04.png",
           "HandleX": -20,
           "HandleY": -53,
           "XFlip": false,
@@ -2123,7 +2123,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_3_03.png",
+          "FramePath": "ken\\shoryuken_3_03.png",
           "HandleX": -19,
           "HandleY": -69,
           "XFlip": false,
@@ -2132,7 +2132,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_3_02.png",
+          "FramePath": "ken\\shoryuken_3_02.png",
           "HandleX": -4,
           "HandleY": -85,
           "XFlip": false,
@@ -2141,7 +2141,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -4,
           "HandleY": -96,
           "XFlip": true,
@@ -2156,7 +2156,7 @@
     "duck_light_punch_01": {
       "Sprites": [
         {
-          "FramePath": "ryu\\h.punch_1_01.png",
+          "FramePath": "ken\\h.punch_1_01.png",
           "HandleX": -12,
           "HandleY": -50,
           "XFlip": false,
@@ -2165,7 +2165,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_h.punch_2_legs.png",
+          "FramePath": "ken\\duck_h.punch_2_legs.png",
           "HandleX": -23,
           "HandleY": -27,
           "XFlip": false,
@@ -2174,7 +2174,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_h.punch_1_blend.png",
+          "FramePath": "ken\\duck_h.punch_1_blend.png",
           "HandleX": -12,
           "HandleY": -27,
           "XFlip": false,
@@ -2183,7 +2183,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": 0,
           "HandleY": -60,
           "XFlip": false,
@@ -2192,7 +2192,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_1_02.png",
+          "FramePath": "ken\\h.punch_1_02.png",
           "HandleX": 20,
           "HandleY": -30,
           "XFlip": false,
@@ -2207,7 +2207,7 @@
     "dead_01": {
       "Sprites": [
         {
-          "FramePath": "ryu\\dead_02.png",
+          "FramePath": "ken\\dead_02.png",
           "HandleX": -32,
           "HandleY": -28,
           "XFlip": false,
@@ -2216,7 +2216,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\dead_01.png",
+          "FramePath": "ken\\dead_01.png",
           "HandleX": -47,
           "HandleY": -13,
           "XFlip": false,
@@ -2225,7 +2225,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\dead_03.png",
+          "FramePath": "ken\\dead_03.png",
           "HandleX": 48,
           "HandleY": -9,
           "XFlip": false,
@@ -2240,7 +2240,7 @@
     "dragon_01": {
       "Sprites": [
         {
-          "FramePath": "ryu\\shoryuken_1_01.png",
+          "FramePath": "ken\\shoryuken_1_01.png",
           "HandleX": -28,
           "HandleY": -66,
           "XFlip": false,
@@ -2249,7 +2249,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_1_02.png",
+          "FramePath": "ken\\shoryuken_1_02.png",
           "HandleX": -26,
           "HandleY": -16,
           "XFlip": false,
@@ -2258,7 +2258,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_1_03.png",
+          "FramePath": "ken\\shoryuken_1_03.png",
           "HandleX": -16,
           "HandleY": -68,
           "XFlip": false,
@@ -2267,7 +2267,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_1_04.png",
+          "FramePath": "ken\\shoryuken_1_04.png",
           "HandleX": 16,
           "HandleY": -78,
           "XFlip": false,
@@ -2276,7 +2276,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -6,
           "HandleY": -79,
           "XFlip": false,
@@ -2303,7 +2303,7 @@
     "dragon_02": {
       "Sprites": [
         {
-          "FramePath": "ryu\\shoryuken_2_04.png",
+          "FramePath": "ken\\shoryuken_2_04.png",
           "HandleX": -22,
           "HandleY": -25,
           "XFlip": false,
@@ -2312,7 +2312,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_2_01.png",
+          "FramePath": "ken\\shoryuken_2_01.png",
           "HandleX": -18,
           "HandleY": -96,
           "XFlip": false,
@@ -2321,7 +2321,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_2_02.png",
+          "FramePath": "ken\\shoryuken_2_02.png",
           "HandleX": -12,
           "HandleY": -95,
           "XFlip": false,
@@ -2330,7 +2330,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_2_03.png",
+          "FramePath": "ken\\shoryuken_2_03.png",
           "HandleX": -28,
           "HandleY": -82,
           "XFlip": false,
@@ -2339,7 +2339,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_2_05.png",
+          "FramePath": "ken\\shoryuken_2_05.png",
           "HandleX": 4,
           "HandleY": -118,
           "XFlip": false,
@@ -2348,7 +2348,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_2_06.png",
+          "FramePath": "ken\\shoryuken_2_06.png",
           "HandleX": 4,
           "HandleY": -62,
           "XFlip": false,
@@ -2375,7 +2375,7 @@
     "dragon_03": {
       "Sprites": [
         {
-          "FramePath": "ryu\\shoryuken_3_01.png",
+          "FramePath": "ken\\shoryuken_3_01.png",
           "HandleX": -6,
           "HandleY": -115,
           "XFlip": false,
@@ -2384,7 +2384,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_3_02.png",
+          "FramePath": "ken\\shoryuken_3_02.png",
           "HandleX": -12,
           "HandleY": -85,
           "XFlip": false,
@@ -2393,7 +2393,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_3_03.png",
+          "FramePath": "ken\\shoryuken_3_03.png",
           "HandleX": -28,
           "HandleY": -69,
           "XFlip": false,
@@ -2402,7 +2402,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_3_04.png",
+          "FramePath": "ken\\shoryuken_3_04.png",
           "HandleX": -28,
           "HandleY": -53,
           "XFlip": false,
@@ -2411,7 +2411,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_3_05.png",
+          "FramePath": "ken\\shoryuken_3_05.png",
           "HandleX": -22,
           "HandleY": -35,
           "XFlip": false,
@@ -2420,7 +2420,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\shoryuken_3_06.png",
+          "FramePath": "ken\\shoryuken_3_06.png",
           "HandleX": -20,
           "HandleY": -23,
           "XFlip": false,
@@ -2429,7 +2429,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -12,
           "HandleY": -96,
           "XFlip": true,
@@ -2444,7 +2444,7 @@
     "hadoken_01": {
       "Sprites": [
         {
-          "FramePath": "ryu\\l.punch_2_01.png",
+          "FramePath": "ken\\l.punch_2_01.png",
           "HandleX": -20,
           "HandleY": -52,
           "XFlip": true,
@@ -2453,7 +2453,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\hadoken_1_01.png",
+          "FramePath": "ken\\hadoken_1_01.png",
           "HandleX": -21,
           "HandleY": -80,
           "XFlip": false,
@@ -2462,7 +2462,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": 0,
           "HandleY": -91,
           "XFlip": false,
@@ -2477,7 +2477,7 @@
     "hadoken_02": {
       "Sprites": [
         {
-          "FramePath": "ryu\\hadoken_2_01.png",
+          "FramePath": "ken\\hadoken_2_01.png",
           "HandleX": 6,
           "HandleY": -77,
           "XFlip": false,
@@ -2486,7 +2486,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\hadoken_2_02.png",
+          "FramePath": "ken\\hadoken_2_02.png",
           "HandleX": 33,
           "HandleY": -76,
           "XFlip": false,
@@ -2495,7 +2495,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\hadoken_2_03.png",
+          "FramePath": "ken\\hadoken_2_03.png",
           "HandleX": 49,
           "HandleY": -84,
           "XFlip": false,
@@ -2504,7 +2504,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\hadoken_2_04.png",
+          "FramePath": "ken\\hadoken_2_04.png",
           "HandleX": 49,
           "HandleY": -64,
           "XFlip": false,
@@ -2513,7 +2513,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": 17,
           "HandleY": -88,
           "XFlip": false,
@@ -2522,7 +2522,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_2_01.png",
+          "FramePath": "ken\\h.punch_2_01.png",
           "HandleX": -18,
           "HandleY": -26,
           "XFlip": false,
@@ -2531,7 +2531,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_2_02.png",
+          "FramePath": "ken\\h.punch_2_02.png",
           "HandleX": -9,
           "HandleY": -50,
           "XFlip": false,
@@ -2540,7 +2540,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_2_04.png",
+          "FramePath": "ken\\h.punch_2_04.png",
           "HandleX": 23,
           "HandleY": -55,
           "XFlip": false,
@@ -2549,7 +2549,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_2_03.png",
+          "FramePath": "ken\\h.punch_2_03.png",
           "HandleX": 7,
           "HandleY": -55,
           "XFlip": false,
@@ -2564,7 +2564,7 @@
     "duck_light_punch_02": {
       "Sprites": [
         {
-          "FramePath": "ryu\\duck_h.punch_2_legs.png",
+          "FramePath": "ken\\duck_h.punch_2_legs.png",
           "HandleX": -22,
           "HandleY": -27,
           "XFlip": false,
@@ -2573,7 +2573,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": 5,
           "HandleY": -59,
           "XFlip": false,
@@ -2582,7 +2582,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_2_05.png",
+          "FramePath": "ken\\h.punch_2_05.png",
           "HandleX": -15,
           "HandleY": -50,
           "XFlip": false,
@@ -2591,7 +2591,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_2_06.png",
+          "FramePath": "ken\\h.punch_2_06.png",
           "HandleX": 33,
           "HandleY": -51,
           "XFlip": false,
@@ -2600,7 +2600,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_2_07.png",
+          "FramePath": "ken\\h.punch_2_07.png",
           "HandleX": 49,
           "HandleY": -53,
           "XFlip": false,
@@ -2627,7 +2627,7 @@
     "duck_block": {
       "Sprites": [
         {
-          "FramePath": "ryu\\duck_legs_idle.png",
+          "FramePath": "ken\\duck_legs_idle.png",
           "HandleX": -25,
           "HandleY": -28,
           "XFlip": false,
@@ -2636,7 +2636,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_h.punch_0_01.png",
+          "FramePath": "ken\\duck_h.punch_0_01.png",
           "HandleX": -25,
           "HandleY": -54,
           "XFlip": false,
@@ -2645,7 +2645,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_h.punch_0_02.png",
+          "FramePath": "ken\\duck_h.punch_0_02.png",
           "HandleX": 7,
           "HandleY": -65,
           "XFlip": false,
@@ -2654,8 +2654,8 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
-          "HandleX": -15,
+          "FramePath": "ken\\idle_head.png",
+          "HandleX": -14,
           "HandleY": -63,
           "XFlip": false,
           "NoFlip": false,
@@ -2669,7 +2669,7 @@
     "duck_light_kick_01": {
       "Sprites": [
         {
-          "FramePath": "ryu\\duck_l.kick_1_01.png",
+          "FramePath": "ken\\duck_l.kick_1_01.png",
           "HandleX": -25,
           "HandleY": -50,
           "XFlip": false,
@@ -2678,7 +2678,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_l.kick_1_02.png",
+          "FramePath": "ken\\duck_l.kick_1_02.png",
           "HandleX": 13,
           "HandleY": -57,
           "XFlip": false,
@@ -2687,7 +2687,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -9,
           "HandleY": -61,
           "XFlip": false,
@@ -2702,7 +2702,7 @@
     "duck_light_kick_02": {
       "Sprites": [
         {
-          "FramePath": "ryu\\jump_l.kick_01.png",
+          "FramePath": "ken\\jump_l.kick_01.png",
           "HandleX": -31,
           "HandleY": -49,
           "XFlip": false,
@@ -2711,7 +2711,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_l.kick_02.png",
+          "FramePath": "ken\\jump_l.kick_02.png",
           "HandleX": -15,
           "HandleY": -49,
           "XFlip": false,
@@ -2720,7 +2720,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_l.kick_03.png",
+          "FramePath": "ken\\jump_l.kick_03.png",
           "HandleX": 17,
           "HandleY": -21,
           "XFlip": false,
@@ -2729,7 +2729,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_l.kick_04.png",
+          "FramePath": "ken\\jump_l.kick_04.png",
           "HandleX": 33,
           "HandleY": -17,
           "XFlip": false,
@@ -2738,7 +2738,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_l.kick_05.png",
+          "FramePath": "ken\\jump_l.kick_05.png",
           "HandleX": 49,
           "HandleY": -7,
           "XFlip": false,
@@ -2747,7 +2747,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -15,
           "HandleY": -60,
           "XFlip": false,
@@ -2756,7 +2756,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_l.kick_foot.png",
+          "FramePath": "ken\\duck_l.kick_foot.png",
           "HandleX": -23,
           "HandleY": -11,
           "XFlip": false,
@@ -2783,7 +2783,7 @@
     "duck_hard_kick_01": {
       "Sprites": [
         {
-          "FramePath": "ryu\\duck_idle_02.png",
+          "FramePath": "ken\\duck_idle_02.png",
           "HandleX": 10,
           "HandleY": -47,
           "XFlip": false,
@@ -2792,7 +2792,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_h.kick_1_01.png",
+          "FramePath": "ken\\duck_h.kick_1_01.png",
           "HandleX": -2,
           "HandleY": -47,
           "XFlip": false,
@@ -2801,7 +2801,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_h.kick_1_02.png",
+          "FramePath": "ken\\duck_h.kick_1_02.png",
           "HandleX": 11,
           "HandleY": -58,
           "XFlip": false,
@@ -2810,7 +2810,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_h.kick_1_03.png",
+          "FramePath": "ken\\duck_h.kick_1_03.png",
           "HandleX": 46,
           "HandleY": -19,
           "XFlip": false,
@@ -2825,7 +2825,7 @@
     "duck_hard_kick_02": {
       "Sprites": [
         {
-          "FramePath": "ryu\\duck_h.kick_2_01.png",
+          "FramePath": "ken\\duck_h.kick_2_01.png",
           "HandleX": -8,
           "HandleY": -47,
           "XFlip": false,
@@ -2834,7 +2834,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_h.kick_2_02.png",
+          "FramePath": "ken\\duck_h.kick_2_02.png",
           "HandleX": 6,
           "HandleY": -55,
           "XFlip": false,
@@ -2843,7 +2843,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_h.kick_2_03.png",
+          "FramePath": "ken\\duck_h.kick_2_03.png",
           "HandleX": 40,
           "HandleY": -19,
           "XFlip": false,
@@ -2852,7 +2852,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_h.kick_2_04.png",
+          "FramePath": "ken\\duck_h.kick_2_04.png",
           "HandleX": 56,
           "HandleY": -15,
           "XFlip": false,
@@ -2861,7 +2861,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_h.kick_2_05.png",
+          "FramePath": "ken\\duck_h.kick_2_05.png",
           "HandleX": 72,
           "HandleY": -10,
           "XFlip": false,
@@ -2888,7 +2888,7 @@
     "duck_hard_kick_03": {
       "Sprites": [
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -7,
           "HandleY": -55,
           "XFlip": true,
@@ -2897,7 +2897,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_h.kick_3_01.png",
+          "FramePath": "ken\\duck_h.kick_3_01.png",
           "HandleX": -9,
           "HandleY": -46,
           "XFlip": false,
@@ -2906,7 +2906,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_h.kick_3_02.png",
+          "FramePath": "ken\\duck_h.kick_3_02.png",
           "HandleX": 23,
           "HandleY": -36,
           "XFlip": false,
@@ -2915,7 +2915,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_h.kick_3_03.png",
+          "FramePath": "ken\\duck_h.kick_3_03.png",
           "HandleX": 39,
           "HandleY": -13,
           "XFlip": false,
@@ -2930,7 +2930,7 @@
     "duck_hard_kick_04": {
       "Sprites": [
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -8,
           "HandleY": -63,
           "XFlip": true,
@@ -2939,7 +2939,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_legs_idle.png",
+          "FramePath": "ken\\duck_legs_idle.png",
           "HandleX": -25,
           "HandleY": -28,
           "XFlip": true,
@@ -2948,7 +2948,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_idle_01.png",
+          "FramePath": "ken\\duck_idle_01.png",
           "HandleX": -12,
           "HandleY": -52,
           "XFlip": true,
@@ -2957,7 +2957,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_idle_02.png",
+          "FramePath": "ken\\duck_idle_02.png",
           "HandleX": -23,
           "HandleY": -47,
           "XFlip": true,
@@ -2972,7 +2972,7 @@
     "duck_hard_kick_00": {
       "Sprites": [
         {
-          "FramePath": "ryu\\duck_h.kick_0_01.png",
+          "FramePath": "ken\\duck_h.kick_0_01.png",
           "HandleX": 0,
           "HandleY": -21,
           "XFlip": false,
@@ -2981,7 +2981,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\duck_h.kick_0_02.png",
+          "FramePath": "ken\\duck_h.kick_0_02.png",
           "HandleX": 4,
           "HandleY": -50,
           "XFlip": false,
@@ -2990,7 +2990,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": 19,
           "HandleY": -60,
           "XFlip": false,
@@ -3005,7 +3005,7 @@
     "land": {
       "Sprites": [
         {
-          "FramePath": "ryu\\land_01.png",
+          "FramePath": "ken\\land_01.png",
           "HandleX": -15,
           "HandleY": -71,
           "XFlip": false,
@@ -3014,7 +3014,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\land_02.png",
+          "FramePath": "ken\\land_02.png",
           "HandleX": -20,
           "HandleY": -44,
           "XFlip": false,
@@ -3023,7 +3023,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\land_03.png",
+          "FramePath": "ken\\land_03.png",
           "HandleX": -20,
           "HandleY": -14,
           "XFlip": false,
@@ -3032,7 +3032,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\land_04.png",
+          "FramePath": "ken\\land_04.png",
           "HandleX": -21,
           "HandleY": -3,
           "XFlip": false,
@@ -3041,7 +3041,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\land_05.png",
+          "FramePath": "ken\\land_05.png",
           "HandleX": 2,
           "HandleY": -14,
           "XFlip": false,
@@ -3050,7 +3050,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\land_06.png",
+          "FramePath": "ken\\land_06.png",
           "HandleX": 5,
           "HandleY": -3,
           "XFlip": false,
@@ -3059,7 +3059,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": 1,
           "HandleY": -79,
           "XFlip": false,
@@ -3074,7 +3074,7 @@
     "jump_01": {
       "Sprites": [
         {
-          "FramePath": "ryu\\jump_1_01.png",
+          "FramePath": "ken\\jump_1_01.png",
           "HandleX": -15,
           "HandleY": -83,
           "XFlip": false,
@@ -3083,7 +3083,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_1_02.png",
+          "FramePath": "ken\\jump_1_02.png",
           "HandleX": -9,
           "HandleY": -9,
           "XFlip": false,
@@ -3092,7 +3092,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -4,
           "HandleY": -94,
           "XFlip": false,
@@ -3107,7 +3107,7 @@
     "jump_02": {
       "Sprites": [
         {
-          "FramePath": "ryu\\jump_2_02.png",
+          "FramePath": "ken\\jump_2_02.png",
           "HandleX": -18,
           "HandleY": -80,
           "XFlip": false,
@@ -3116,7 +3116,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_2_03.png",
+          "FramePath": "ken\\jump_2_03.png",
           "HandleX": -16,
           "HandleY": -32,
           "XFlip": false,
@@ -3125,7 +3125,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_2_01.png",
+          "FramePath": "ken\\jump_2_01.png",
           "HandleX": -22,
           "HandleY": -68,
           "XFlip": false,
@@ -3134,7 +3134,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -4,
           "HandleY": -88,
           "XFlip": false,
@@ -3149,8 +3149,8 @@
     "tatsu_01": {
       "Sprites": [
         {
-          "FramePath": "ryu\\tatsu_2_01.png",
-          "HandleX": -32,
+          "FramePath": "ken\\tatsu_2_01.png",
+          "HandleX": -31,
           "HandleY": -80,
           "XFlip": false,
           "NoFlip": false,
@@ -3158,7 +3158,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\tatsu_2_02.png",
+          "FramePath": "ken\\tatsu_2_02.png",
           "HandleX": -15,
           "HandleY": -80,
           "XFlip": false,
@@ -3167,7 +3167,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\tatsu_2_03.png",
+          "FramePath": "ken\\tatsu_2_03.png",
           "HandleX": -8,
           "HandleY": -88,
           "XFlip": false,
@@ -3176,7 +3176,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\tatsu_2_04.png",
+          "FramePath": "ken\\tatsu_2_04.png",
           "HandleX": 1,
           "HandleY": -80,
           "XFlip": false,
@@ -3185,7 +3185,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\tatsu_2_05.png",
+          "FramePath": "ken\\tatsu_2_05.png",
           "HandleX": 17,
           "HandleY": -74,
           "XFlip": false,
@@ -3194,7 +3194,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\tatsu_2_06.png",
+          "FramePath": "ken\\tatsu_2_06.png",
           "HandleX": 17,
           "HandleY": -49,
           "XFlip": false,
@@ -3203,7 +3203,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\tatsu_2_07.png",
+          "FramePath": "ken\\tatsu_2_07.png",
           "HandleX": 33,
           "HandleY": -43,
           "XFlip": false,
@@ -3212,7 +3212,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\tatsu_2_08.png",
+          "FramePath": "ken\\tatsu_2_08.png",
           "HandleX": 49,
           "HandleY": -36,
           "XFlip": false,
@@ -3241,7 +3241,7 @@
     "tatsu_02": {
       "Sprites": [
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -20,
           "HandleY": -87,
           "XFlip": true,
@@ -3250,7 +3250,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\tatsu_3_02.png",
+          "FramePath": "ken\\tatsu_3_02.png",
           "HandleX": -19,
           "HandleY": -81,
           "XFlip": false,
@@ -3259,7 +3259,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\tatsu_3_01.png",
+          "FramePath": "ken\\tatsu_3_01.png",
           "HandleX": -3,
           "HandleY": -13,
           "XFlip": false,
@@ -3268,7 +3268,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\tatsu_3_04.png",
+          "FramePath": "ken\\tatsu_3_04.png",
           "HandleX": -35,
           "HandleY": -52,
           "XFlip": false,
@@ -3277,7 +3277,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\tatsu_3_03.png",
+          "FramePath": "ken\\tatsu_3_03.png",
           "HandleX": -26,
           "HandleY": -72,
           "XFlip": false,
@@ -3286,7 +3286,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\tatsu_3_05.png",
+          "FramePath": "ken\\tatsu_3_05.png",
           "HandleX": -51,
           "HandleY": -43,
           "XFlip": false,
@@ -3315,7 +3315,7 @@
     "tatsu_03": {
       "Sprites": [
         {
-          "FramePath": "ryu\\tatsu_1_01.png",
+          "FramePath": "ken\\tatsu_1_01.png",
           "HandleX": -27,
           "HandleY": -77,
           "XFlip": false,
@@ -3324,7 +3324,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\tatsu_1_02.png",
+          "FramePath": "ken\\tatsu_1_02.png",
           "HandleX": -1,
           "HandleY": -8,
           "XFlip": false,
@@ -3333,7 +3333,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -9,
           "HandleY": -88,
           "XFlip": false,
@@ -3342,7 +3342,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\tatsu_1_03.png",
+          "FramePath": "ken\\tatsu_1_03.png",
           "HandleX": 21,
           "HandleY": -71,
           "XFlip": false,
@@ -3357,7 +3357,7 @@
     "walk_01_a": {
       "Sprites": [
         {
-          "FramePath": "ryu\\walk_1_01.png",
+          "FramePath": "ken\\walk_1_01.png",
           "HandleX": -18,
           "HandleY": -79,
           "XFlip": false,
@@ -3366,7 +3366,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_1_02.png",
+          "FramePath": "ken\\walk_1_02.png",
           "HandleX": 14,
           "HandleY": -75,
           "XFlip": false,
@@ -3375,7 +3375,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_01.png",
+          "FramePath": "ken\\walk_legs_01.png",
           "HandleX": 5,
           "HandleY": -41,
           "XFlip": true,
@@ -3384,7 +3384,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_02.png",
+          "FramePath": "ken\\walk_legs_02.png",
           "HandleX": -19,
           "HandleY": -41,
           "XFlip": true,
@@ -3393,7 +3393,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_03.png",
+          "FramePath": "ken\\walk_legs_03.png",
           "HandleX": -20,
           "HandleY": -32,
           "XFlip": true,
@@ -3402,7 +3402,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_04.png",
+          "FramePath": "ken\\walk_legs_04.png",
           "HandleX": -21,
           "HandleY": -29,
           "XFlip": true,
@@ -3411,7 +3411,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_05.png",
+          "FramePath": "ken\\walk_legs_05.png",
           "HandleX": -25,
           "HandleY": -22,
           "XFlip": true,
@@ -3420,7 +3420,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -4,
           "HandleY": -93,
           "XFlip": false,
@@ -3429,7 +3429,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_face.png",
+          "FramePath": "ken\\walk_face.png",
           "HandleX": -15,
           "HandleY": -84,
           "XFlip": false,
@@ -3444,7 +3444,7 @@
     "walk_02_a": {
       "Sprites": [
         {
-          "FramePath": "ryu\\walk_legs_01.png",
+          "FramePath": "ken\\walk_legs_01.png",
           "HandleX": -26,
           "HandleY": -45,
           "XFlip": false,
@@ -3453,7 +3453,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_02.png",
+          "FramePath": "ken\\walk_legs_02.png",
           "HandleX": -11,
           "HandleY": -45,
           "XFlip": false,
@@ -3462,7 +3462,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_03.png",
+          "FramePath": "ken\\walk_legs_03.png",
           "HandleX": 0,
           "HandleY": -36,
           "XFlip": false,
@@ -3471,7 +3471,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_04.png",
+          "FramePath": "ken\\walk_legs_04.png",
           "HandleX": 1,
           "HandleY": -33,
           "XFlip": false,
@@ -3480,7 +3480,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_05.png",
+          "FramePath": "ken\\walk_legs_05.png",
           "HandleX": 5,
           "HandleY": -26,
           "XFlip": false,
@@ -3489,7 +3489,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_2_01.png",
+          "FramePath": "ken\\walk_2_01.png",
           "HandleX": -23,
           "HandleY": -83,
           "XFlip": false,
@@ -3498,7 +3498,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_2_03.png",
+          "FramePath": "ken\\walk_2_03.png",
           "HandleX": 9,
           "HandleY": -78,
           "XFlip": false,
@@ -3507,7 +3507,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -10,
           "HandleY": -97,
           "XFlip": false,
@@ -3516,7 +3516,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_face.png",
+          "FramePath": "ken\\walk_face.png",
           "HandleX": -21,
           "HandleY": -88,
           "XFlip": false,
@@ -3525,7 +3525,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_2_02.png",
+          "FramePath": "ken\\walk_2_02.png",
           "HandleX": -20,
           "HandleY": -62,
           "XFlip": false,
@@ -3540,7 +3540,7 @@
     "walk_01_c": {
       "Sprites": [
         {
-          "FramePath": "ryu\\walk_1_01.png",
+          "FramePath": "ken\\walk_1_01.png",
           "HandleX": -18,
           "HandleY": -83,
           "XFlip": false,
@@ -3549,7 +3549,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_1_02.png",
+          "FramePath": "ken\\walk_1_02.png",
           "HandleX": 14,
           "HandleY": -79,
           "XFlip": false,
@@ -3558,7 +3558,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_01.png",
+          "FramePath": "ken\\walk_legs_01.png",
           "HandleX": 5,
           "HandleY": -45,
           "XFlip": true,
@@ -3567,7 +3567,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_02.png",
+          "FramePath": "ken\\walk_legs_02.png",
           "HandleX": -19,
           "HandleY": -45,
           "XFlip": true,
@@ -3576,7 +3576,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_03.png",
+          "FramePath": "ken\\walk_legs_03.png",
           "HandleX": -20,
           "HandleY": -36,
           "XFlip": true,
@@ -3585,7 +3585,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_04.png",
+          "FramePath": "ken\\walk_legs_04.png",
           "HandleX": -21,
           "HandleY": -33,
           "XFlip": true,
@@ -3594,7 +3594,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_05.png",
+          "FramePath": "ken\\walk_legs_05.png",
           "HandleX": -25,
           "HandleY": -26,
           "XFlip": true,
@@ -3603,7 +3603,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -4,
           "HandleY": -97,
           "XFlip": false,
@@ -3612,7 +3612,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_face.png",
+          "FramePath": "ken\\walk_face.png",
           "HandleX": -15,
           "HandleY": -88,
           "XFlip": false,
@@ -3627,7 +3627,7 @@
     "walk_01_b": {
       "Sprites": [
         {
-          "FramePath": "ryu\\walk_1_01.png",
+          "FramePath": "ken\\walk_1_01.png",
           "HandleX": -18,
           "HandleY": -81,
           "XFlip": false,
@@ -3636,7 +3636,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_1_02.png",
+          "FramePath": "ken\\walk_1_02.png",
           "HandleX": 14,
           "HandleY": -77,
           "XFlip": false,
@@ -3645,7 +3645,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_01.png",
+          "FramePath": "ken\\walk_legs_01.png",
           "HandleX": 5,
           "HandleY": -43,
           "XFlip": true,
@@ -3654,7 +3654,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_02.png",
+          "FramePath": "ken\\walk_legs_02.png",
           "HandleX": -19,
           "HandleY": -43,
           "XFlip": true,
@@ -3663,7 +3663,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_03.png",
+          "FramePath": "ken\\walk_legs_03.png",
           "HandleX": -20,
           "HandleY": -34,
           "XFlip": true,
@@ -3672,7 +3672,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_04.png",
+          "FramePath": "ken\\walk_legs_04.png",
           "HandleX": -21,
           "HandleY": -31,
           "XFlip": true,
@@ -3681,7 +3681,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_05.png",
+          "FramePath": "ken\\walk_legs_05.png",
           "HandleX": -25,
           "HandleY": -24,
           "XFlip": true,
@@ -3690,7 +3690,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -4,
           "HandleY": -95,
           "XFlip": false,
@@ -3699,7 +3699,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_face.png",
+          "FramePath": "ken\\walk_face.png",
           "HandleX": -15,
           "HandleY": -86,
           "XFlip": false,
@@ -3714,7 +3714,7 @@
     "walk_02_b": {
       "Sprites": [
         {
-          "FramePath": "ryu\\walk_legs_01.png",
+          "FramePath": "ken\\walk_legs_01.png",
           "HandleX": -26,
           "HandleY": -43,
           "XFlip": false,
@@ -3723,7 +3723,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_02.png",
+          "FramePath": "ken\\walk_legs_02.png",
           "HandleX": -11,
           "HandleY": -43,
           "XFlip": false,
@@ -3732,7 +3732,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_03.png",
+          "FramePath": "ken\\walk_legs_03.png",
           "HandleX": 0,
           "HandleY": -34,
           "XFlip": false,
@@ -3741,7 +3741,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_04.png",
+          "FramePath": "ken\\walk_legs_04.png",
           "HandleX": 1,
           "HandleY": -31,
           "XFlip": false,
@@ -3750,7 +3750,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_05.png",
+          "FramePath": "ken\\walk_legs_05.png",
           "HandleX": 5,
           "HandleY": -24,
           "XFlip": false,
@@ -3759,7 +3759,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_2_01.png",
+          "FramePath": "ken\\walk_2_01.png",
           "HandleX": -23,
           "HandleY": -81,
           "XFlip": false,
@@ -3768,7 +3768,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_2_03.png",
+          "FramePath": "ken\\walk_2_03.png",
           "HandleX": 9,
           "HandleY": -76,
           "XFlip": false,
@@ -3777,7 +3777,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -10,
           "HandleY": -95,
           "XFlip": false,
@@ -3786,7 +3786,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_face.png",
+          "FramePath": "ken\\walk_face.png",
           "HandleX": -21,
           "HandleY": -86,
           "XFlip": false,
@@ -3795,7 +3795,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_2_02.png",
+          "FramePath": "ken\\walk_2_02.png",
           "HandleX": -20,
           "HandleY": -60,
           "XFlip": false,
@@ -3810,7 +3810,7 @@
     "walk_02_c": {
       "Sprites": [
         {
-          "FramePath": "ryu\\walk_legs_01.png",
+          "FramePath": "ken\\walk_legs_01.png",
           "HandleX": -26,
           "HandleY": -41,
           "XFlip": false,
@@ -3819,7 +3819,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_02.png",
+          "FramePath": "ken\\walk_legs_02.png",
           "HandleX": -11,
           "HandleY": -41,
           "XFlip": false,
@@ -3828,7 +3828,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_03.png",
+          "FramePath": "ken\\walk_legs_03.png",
           "HandleX": 0,
           "HandleY": -32,
           "XFlip": false,
@@ -3837,7 +3837,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_04.png",
+          "FramePath": "ken\\walk_legs_04.png",
           "HandleX": 1,
           "HandleY": -29,
           "XFlip": false,
@@ -3846,7 +3846,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_legs_05.png",
+          "FramePath": "ken\\walk_legs_05.png",
           "HandleX": 5,
           "HandleY": -22,
           "XFlip": false,
@@ -3855,7 +3855,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_2_01.png",
+          "FramePath": "ken\\walk_2_01.png",
           "HandleX": -23,
           "HandleY": -79,
           "XFlip": false,
@@ -3864,7 +3864,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_2_03.png",
+          "FramePath": "ken\\walk_2_03.png",
           "HandleX": 9,
           "HandleY": -74,
           "XFlip": false,
@@ -3873,7 +3873,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -10,
           "HandleY": -93,
           "XFlip": false,
@@ -3882,7 +3882,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_face.png",
+          "FramePath": "ken\\walk_face.png",
           "HandleX": -21,
           "HandleY": -84,
           "XFlip": false,
@@ -3891,7 +3891,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\walk_2_02.png",
+          "FramePath": "ken\\walk_2_02.png",
           "HandleX": -20,
           "HandleY": -58,
           "XFlip": false,
@@ -3906,7 +3906,7 @@
     "jump_forward_01": {
       "Sprites": [
         {
-          "FramePath": "ryu\\jump_forward_1_02.png",
+          "FramePath": "ken\\jump_forward_1_02.png",
           "HandleX": -14,
           "HandleY": -77,
           "XFlip": false,
@@ -3915,7 +3915,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_forward_1_03.png",
+          "FramePath": "ken\\jump_forward_1_03.png",
           "HandleX": -17,
           "HandleY": -10,
           "XFlip": false,
@@ -3924,7 +3924,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_forward_1_01.png",
+          "FramePath": "ken\\jump_forward_1_01.png",
           "HandleX": -17,
           "HandleY": -51,
           "XFlip": false,
@@ -3933,7 +3933,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_forward_1_04.png",
+          "FramePath": "ken\\jump_forward_1_04.png",
           "HandleX": 18,
           "HandleY": -49,
           "XFlip": false,
@@ -3942,7 +3942,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": 4,
           "HandleY": -86,
           "XFlip": false,
@@ -3951,7 +3951,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_forward_3_02.png",
+          "FramePath": "ken\\jump_forward_3_02.png",
           "HandleX": 17,
           "HandleY": -76,
           "XFlip": false,
@@ -3966,7 +3966,7 @@
     "jump_forward_02": {
       "Sprites": [
         {
-          "FramePath": "ryu\\jump_forward_2_01.png",
+          "FramePath": "ken\\jump_forward_2_01.png",
           "HandleX": -21,
           "HandleY": -64,
           "XFlip": false,
@@ -3975,7 +3975,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_forward_2_02.png",
+          "FramePath": "ken\\jump_forward_2_02.png",
           "HandleX": 9,
           "HandleY": -24,
           "XFlip": false,
@@ -3984,7 +3984,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_forward_2_03.png",
+          "FramePath": "ken\\jump_forward_2_03.png",
           "HandleX": 11,
           "HandleY": -54,
           "XFlip": false,
@@ -3999,7 +3999,7 @@
     "jump_forward_03": {
       "Sprites": [
         {
-          "FramePath": "ryu\\jump_forward_3_01.png",
+          "FramePath": "ken\\jump_forward_3_01.png",
           "HandleX": -23,
           "HandleY": -60,
           "XFlip": false,
@@ -4008,7 +4008,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_forward_3_03.png",
+          "FramePath": "ken\\jump_forward_3_03.png",
           "HandleX": -7,
           "HandleY": -53,
           "XFlip": false,
@@ -4017,7 +4017,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_forward_3_02.png",
+          "FramePath": "ken\\jump_forward_3_02.png",
           "HandleX": -7,
           "HandleY": -55,
           "XFlip": false,
@@ -4032,7 +4032,7 @@
     "jump_atk_hard_kick": {
       "Sprites": [
         {
-          "FramePath": "ryu\\jump_h.kick_02.png",
+          "FramePath": "ken\\jump_h.kick_02.png",
           "HandleX": -2,
           "HandleY": -90,
           "XFlip": false,
@@ -4041,7 +4041,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_h.kick_03.png",
+          "FramePath": "ken\\jump_h.kick_03.png",
           "HandleX": 13,
           "HandleY": -81,
           "XFlip": false,
@@ -4050,7 +4050,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_h.kick_01.png",
+          "FramePath": "ken\\jump_h.kick_01.png",
           "HandleX": -19,
           "HandleY": -81,
           "XFlip": false,
@@ -4059,7 +4059,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_h.kick_04.png",
+          "FramePath": "ken\\jump_h.kick_04.png",
           "HandleX": 29,
           "HandleY": -77,
           "XFlip": false,
@@ -4068,7 +4068,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_h.kick_05.png",
+          "FramePath": "ken\\jump_h.kick_05.png",
           "HandleX": 45,
           "HandleY": -77,
           "XFlip": false,
@@ -4095,7 +4095,7 @@
     "jump_atk_hard_punch": {
       "Sprites": [
         {
-          "FramePath": "ryu\\jump_h.punch_01.png",
+          "FramePath": "ken\\jump_h.punch_01.png",
           "HandleX": -26,
           "HandleY": -83,
           "XFlip": false,
@@ -4104,7 +4104,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_h.punch_02.png",
+          "FramePath": "ken\\jump_h.punch_02.png",
           "HandleX": -6,
           "HandleY": -87,
           "XFlip": false,
@@ -4113,7 +4113,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_h.punch_03.png",
+          "FramePath": "ken\\jump_h.punch_03.png",
           "HandleX": 22,
           "HandleY": -75,
           "XFlip": false,
@@ -4122,7 +4122,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_h.punch_04.png",
+          "FramePath": "ken\\jump_h.punch_04.png",
           "HandleX": 38,
           "HandleY": -69,
           "XFlip": false,
@@ -4149,7 +4149,7 @@
     "jump_atk_light_kick": {
       "Sprites": [
         {
-          "FramePath": "ryu\\jump_l.kick_01.png",
+          "FramePath": "ken\\jump_l.kick_01.png",
           "HandleX": -19,
           "HandleY": -77,
           "XFlip": false,
@@ -4158,7 +4158,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_l.kick_02.png",
+          "FramePath": "ken\\jump_l.kick_02.png",
           "HandleX": -3,
           "HandleY": -76,
           "XFlip": false,
@@ -4167,7 +4167,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_l.kick_03.png",
+          "FramePath": "ken\\jump_l.kick_03.png",
           "HandleX": 29,
           "HandleY": -48,
           "XFlip": false,
@@ -4176,7 +4176,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_l.kick_04.png",
+          "FramePath": "ken\\jump_l.kick_04.png",
           "HandleX": 45,
           "HandleY": -44,
           "XFlip": false,
@@ -4185,7 +4185,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_l.kick_05.png",
+          "FramePath": "ken\\jump_l.kick_05.png",
           "HandleX": 61,
           "HandleY": -34,
           "XFlip": false,
@@ -4194,7 +4194,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_l.kick_06.png",
+          "FramePath": "ken\\jump_l.kick_06.png",
           "HandleX": -7,
           "HandleY": -41,
           "XFlip": false,
@@ -4203,7 +4203,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": -3,
           "HandleY": -87,
           "XFlip": false,
@@ -4230,7 +4230,7 @@
     "jump_atk_light_punch": {
       "Sprites": [
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": 5,
           "HandleY": -86,
           "XFlip": false,
@@ -4239,7 +4239,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_l.punch_01.png",
+          "FramePath": "ken\\jump_l.punch_01.png",
           "HandleX": -22,
           "HandleY": -80,
           "XFlip": false,
@@ -4248,7 +4248,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_l.punch_02.png",
+          "FramePath": "ken\\jump_l.punch_02.png",
           "HandleX": 26,
           "HandleY": -63,
           "XFlip": false,
@@ -4257,7 +4257,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\jump_l.punch_03.png",
+          "FramePath": "ken\\jump_l.punch_03.png",
           "HandleX": 42,
           "HandleY": -53,
           "XFlip": false,
@@ -4284,7 +4284,7 @@
     "pain_01": {
       "Sprites": [
         {
-          "FramePath": "ryu\\pain_1_01.png",
+          "FramePath": "ken\\pain_1_01.png",
           "HandleX": -19,
           "HandleY": -78,
           "XFlip": false,
@@ -4293,7 +4293,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\pain_1_02.png",
+          "FramePath": "ken\\pain_1_02.png",
           "HandleX": -11,
           "HandleY": -91,
           "XFlip": false,
@@ -4302,7 +4302,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\l.punch_2_01.png",
+          "FramePath": "ken\\l.punch_2_01.png",
           "HandleX": -25,
           "HandleY": -52,
           "XFlip": true,
@@ -4311,7 +4311,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\pain_1_03.png",
+          "FramePath": "ken\\pain_1_03.png",
           "HandleX": 9,
           "HandleY": -49,
           "XFlip": false,
@@ -4326,7 +4326,7 @@
     "fall_01": {
       "Sprites": [
         {
-          "FramePath": "ryu\\fall_01.png",
+          "FramePath": "ken\\fall_01.png",
           "HandleX": -29,
           "HandleY": -75,
           "XFlip": false,
@@ -4335,7 +4335,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\fall_02.png",
+          "FramePath": "ken\\fall_02.png",
           "HandleX": -13,
           "HandleY": -77,
           "XFlip": false,
@@ -4344,7 +4344,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\fall_03.png",
+          "FramePath": "ken\\fall_03.png",
           "HandleX": -19,
           "HandleY": -86,
           "XFlip": false,
@@ -4353,7 +4353,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\fall_04.png",
+          "FramePath": "ken\\fall_04.png",
           "HandleX": 3,
           "HandleY": -80,
           "XFlip": false,
@@ -4362,7 +4362,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\fall_05.png",
+          "FramePath": "ken\\fall_05.png",
           "HandleX": 19,
           "HandleY": -52,
           "XFlip": false,
@@ -4377,7 +4377,7 @@
     "duck_hard_punch_02": {
       "Sprites": [
         {
-          "FramePath": "ryu\\duck_h.punch_2_legs.png",
+          "FramePath": "ken\\duck_h.punch_2_legs.png",
           "HandleX": -22,
           "HandleY": -27,
           "XFlip": false,
@@ -4386,7 +4386,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\idle_head.png",
+          "FramePath": "ken\\idle_head.png",
           "HandleX": 5,
           "HandleY": -59,
           "XFlip": false,
@@ -4395,7 +4395,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_2_05.png",
+          "FramePath": "ken\\h.punch_2_05.png",
           "HandleX": -15,
           "HandleY": -50,
           "XFlip": false,
@@ -4404,7 +4404,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_2_06.png",
+          "FramePath": "ken\\h.punch_2_06.png",
           "HandleX": 33,
           "HandleY": -51,
           "XFlip": false,
@@ -4413,7 +4413,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "ryu\\h.punch_2_07.png",
+          "FramePath": "ken\\h.punch_2_07.png",
           "HandleX": 49,
           "HandleY": -53,
           "XFlip": false,
