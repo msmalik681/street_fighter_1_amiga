@@ -17,14 +17,14 @@
     "DownRight": ""
   },
   "Moves": {
-    "UpLeft": "ryu_walk_l",
+    "UpLeft": "ken_walk_l",
     "Up": "",
     "UpRight": "ken_walk_r",
-    "Left": "ryu_walk_l",
+    "Left": "ken_walk_l",
     "Right": "ken_walk_r",
-    "DownLeft": "ryu_walk_l",
+    "DownLeft": "ken_walk_l",
     "Down": "",
-    "DownRight": ""
+    "DownRight": "ken_walk_r"
   },
   "Attacks": {
     "UpLeft": "",
