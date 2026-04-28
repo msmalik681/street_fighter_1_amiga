@@ -161,7 +161,7 @@
   ],
   "ControlPort": 1,
   "DataVersion": 8,
-  "ActorTag": "2",
+  "ActorTag": "10",
   "AutoSpawn": true,
   "AutoNavigate": false,
   "ActorTimeline": {
