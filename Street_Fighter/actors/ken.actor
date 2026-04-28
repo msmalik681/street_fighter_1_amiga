@@ -10,8 +10,8 @@
     "UpLeft": "",
     "Up": "",
     "UpRight": "",
-    "Left": "ryu_idle_l",
-    "Right": "ryu_idle_r",
+    "Left": "ken_idle_l",
+    "Right": "ken_idle_r",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
@@ -19,9 +19,9 @@
   "Moves": {
     "UpLeft": "ryu_walk_l",
     "Up": "",
-    "UpRight": "",
+    "UpRight": "ken_walk_r",
     "Left": "ryu_walk_l",
-    "Right": "ryu_walk_r",
+    "Right": "ken_walk_r",
     "DownLeft": "ryu_walk_l",
     "Down": "",
     "DownRight": ""
