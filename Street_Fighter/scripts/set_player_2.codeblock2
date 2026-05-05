@@ -1,2 +1,2 @@
-Set actor_controller=2
+Set player_controller=2
 Goto stage_reset_gosub
