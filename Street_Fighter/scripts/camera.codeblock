@@ -249,7 +249,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "actor_var1",
-      "Expression": "player_x",
+      "Expression": "player1_x",
       "Index": "0",
       "Label": "",
       "Disabled": false,

@@ -1,0 +1,7 @@
+Variable word p2_spawn_x=464
+Variable word p2_spawn_y=212
+//### SET PLAYER AS ENEMYS PARENT ###
+If stage == 100
+    MusicPause //debug
+    Spawn ken X=p2_spawn_x Y=p2_spawn_y
+End

@@ -1,9 +1,1 @@
-PlayerType player_number ResetMovement ResetAnimation //reset player actor
-PlayerDirection look_right
-PlayerAnimation ryu_waiting_r Frame=0 //back to idle animation
-Set player_var1=-1
-PlayerDirection look_right
-Set velo=1
-PlayerAnimation ryu_idle_r Frame=0
-Set player_var1=1
 Return
