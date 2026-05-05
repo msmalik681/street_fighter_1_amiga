@@ -10,4 +10,5 @@ version=
 
 [amiga_all]
 atlas_compression=0
+buffer_count=2
 tightly_pack_graphics=true
