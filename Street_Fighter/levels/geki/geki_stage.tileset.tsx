@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <tileset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="geki_stage" tilewidth="16" tileheight="16" tilecount="448" columns="16">
   <image source="geki_stage.tileset.png" width="256" height="448" />
   <tile id="0">
@@ -21,6 +21,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -44,6 +45,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -67,6 +69,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -90,6 +93,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -113,6 +117,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -136,6 +141,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -159,6 +165,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -182,6 +189,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -205,6 +213,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -228,6 +237,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -251,6 +261,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -274,6 +285,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -297,6 +309,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -320,6 +333,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -343,6 +357,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -366,6 +381,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -389,6 +405,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -412,6 +429,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -435,6 +453,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -458,6 +477,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -481,6 +501,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -504,6 +525,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -527,6 +549,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -550,6 +573,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -573,6 +597,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -596,6 +621,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -619,6 +645,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -642,6 +669,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -665,6 +693,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -688,6 +717,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -711,6 +741,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -734,6 +765,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -757,6 +789,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -780,6 +813,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -803,6 +837,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -826,6 +861,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -849,6 +885,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -872,6 +909,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -895,6 +933,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -918,6 +957,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -941,6 +981,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -964,6 +1005,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -987,6 +1029,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1010,6 +1053,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1033,6 +1077,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1056,6 +1101,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1079,6 +1125,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1102,6 +1149,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1125,6 +1173,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1148,6 +1197,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1171,6 +1221,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1194,6 +1245,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1217,6 +1269,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1240,6 +1293,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1263,6 +1317,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1286,6 +1341,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1309,6 +1365,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1332,6 +1389,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1355,6 +1413,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1378,6 +1437,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1401,6 +1461,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1424,6 +1485,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1447,6 +1509,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1470,6 +1533,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1493,6 +1557,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1516,6 +1581,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1539,6 +1605,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1562,6 +1629,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1585,6 +1653,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1608,6 +1677,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1631,6 +1701,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1654,6 +1725,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1677,6 +1749,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1700,6 +1773,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1723,6 +1797,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1746,6 +1821,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1769,6 +1845,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1792,6 +1869,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1815,6 +1893,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1838,6 +1917,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1861,6 +1941,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1884,6 +1965,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1907,6 +1989,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1930,6 +2013,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1953,6 +2037,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1976,6 +2061,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -1999,6 +2085,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2022,6 +2109,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2045,6 +2133,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2068,6 +2157,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2091,6 +2181,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2114,6 +2205,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2137,6 +2229,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2160,6 +2253,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2183,6 +2277,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2206,6 +2301,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2229,6 +2325,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2252,6 +2349,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2275,6 +2373,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2298,6 +2397,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2321,6 +2421,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2344,6 +2445,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2367,6 +2469,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2390,6 +2493,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2413,6 +2517,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2436,6 +2541,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2459,6 +2565,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2482,6 +2589,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2505,6 +2613,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2528,6 +2637,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2551,6 +2661,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2574,6 +2685,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2597,6 +2709,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2620,6 +2733,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2643,6 +2757,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2666,6 +2781,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2689,6 +2805,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2712,6 +2829,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2735,6 +2853,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2758,6 +2877,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2781,6 +2901,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2804,6 +2925,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2827,6 +2949,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2850,6 +2973,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2873,6 +2997,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2896,6 +3021,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2919,6 +3045,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2942,6 +3069,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2965,6 +3093,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -2988,6 +3117,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3011,6 +3141,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3034,6 +3165,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3057,6 +3189,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3080,6 +3213,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3103,6 +3237,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3126,6 +3261,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3149,6 +3285,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3172,6 +3309,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3195,6 +3333,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3218,6 +3357,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3241,6 +3381,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3264,6 +3405,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3287,6 +3429,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3310,6 +3453,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3333,6 +3477,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3356,6 +3501,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3379,6 +3525,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3402,6 +3549,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3425,6 +3573,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3448,6 +3597,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3471,6 +3621,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3494,6 +3645,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3517,6 +3669,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3540,6 +3693,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3563,6 +3717,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3586,6 +3741,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3609,6 +3765,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3632,6 +3789,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3655,6 +3813,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3678,6 +3837,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3701,6 +3861,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3724,6 +3885,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3747,6 +3909,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3770,6 +3933,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3793,6 +3957,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3816,6 +3981,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3839,6 +4005,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3862,6 +4029,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3885,6 +4053,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3908,6 +4077,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3931,6 +4101,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3954,6 +4125,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -3977,6 +4149,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4000,6 +4173,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4023,6 +4197,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4046,6 +4221,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4069,6 +4245,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4092,6 +4269,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4115,6 +4293,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4138,6 +4317,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4161,6 +4341,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4184,6 +4365,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4207,6 +4389,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4230,6 +4413,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4253,6 +4437,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4276,6 +4461,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4299,6 +4485,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4322,6 +4509,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4345,6 +4533,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4368,6 +4557,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4391,6 +4581,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4414,6 +4605,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4437,6 +4629,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4460,6 +4653,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4483,6 +4677,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4506,6 +4701,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4529,6 +4725,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4552,6 +4749,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4575,6 +4773,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4598,6 +4797,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4621,6 +4821,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4644,6 +4845,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4667,6 +4869,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4690,6 +4893,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4713,6 +4917,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4736,6 +4941,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4759,6 +4965,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4782,6 +4989,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4805,6 +5013,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4828,6 +5037,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4851,6 +5061,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4874,6 +5085,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4897,6 +5109,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4920,6 +5133,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4943,6 +5157,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4966,6 +5181,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -4989,6 +5205,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5012,6 +5229,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5035,6 +5253,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5058,6 +5277,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5081,6 +5301,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5104,6 +5325,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5127,6 +5349,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5150,6 +5373,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5173,6 +5397,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5196,6 +5421,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5219,6 +5445,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5242,6 +5469,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5265,6 +5493,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5288,6 +5517,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5311,6 +5541,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5334,6 +5565,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5357,6 +5589,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5380,6 +5613,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5403,6 +5637,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5426,6 +5661,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5449,6 +5685,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5472,6 +5709,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5495,6 +5733,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5518,6 +5757,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5541,6 +5781,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5564,6 +5805,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5587,6 +5829,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5610,6 +5853,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5633,6 +5877,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5656,6 +5901,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5679,6 +5925,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5702,6 +5949,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5725,6 +5973,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5748,6 +5997,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5771,6 +6021,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5794,6 +6045,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5817,6 +6069,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5840,6 +6093,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5863,6 +6117,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5886,6 +6141,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5909,6 +6165,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5932,6 +6189,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5955,6 +6213,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -5978,6 +6237,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6001,6 +6261,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6024,6 +6285,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6047,6 +6309,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6070,6 +6333,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6093,6 +6357,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6116,6 +6381,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6139,6 +6405,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6162,6 +6429,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6185,6 +6453,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6208,6 +6477,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6231,6 +6501,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6254,6 +6525,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6277,6 +6549,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6300,6 +6573,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6323,6 +6597,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6346,6 +6621,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6369,6 +6645,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6392,6 +6669,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6415,6 +6693,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6438,6 +6717,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6461,6 +6741,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6484,6 +6765,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6507,6 +6789,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6530,6 +6813,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6553,6 +6837,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6576,6 +6861,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6599,6 +6885,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6622,6 +6909,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6645,6 +6933,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6668,6 +6957,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6691,6 +6981,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6714,6 +7005,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6737,6 +7029,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6760,6 +7053,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6783,6 +7077,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6806,6 +7101,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6829,6 +7125,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6852,6 +7149,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6875,6 +7173,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6898,6 +7197,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6921,6 +7221,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6944,6 +7245,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6967,6 +7269,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -6990,6 +7293,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7013,6 +7317,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7036,6 +7341,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7059,6 +7365,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7082,6 +7389,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7105,6 +7413,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7128,6 +7437,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7151,6 +7461,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7174,6 +7485,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7197,6 +7509,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7220,6 +7533,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7243,6 +7557,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7266,6 +7581,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7289,6 +7605,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7312,6 +7629,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7335,6 +7653,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7358,6 +7677,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7381,6 +7701,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7404,6 +7725,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7427,6 +7749,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7450,6 +7773,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7473,6 +7797,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7496,6 +7821,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7519,6 +7845,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7542,6 +7869,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7565,6 +7893,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7588,6 +7917,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7611,6 +7941,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7634,6 +7965,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7657,6 +7989,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7680,6 +8013,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7703,6 +8037,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7726,6 +8061,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7749,6 +8085,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7772,6 +8109,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7795,6 +8133,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7818,6 +8157,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7841,6 +8181,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7864,6 +8205,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7887,6 +8229,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7910,6 +8253,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7933,6 +8277,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7956,6 +8301,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -7979,6 +8325,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8002,6 +8349,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8025,6 +8373,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8048,6 +8397,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8071,6 +8421,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8094,6 +8445,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8117,6 +8469,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8140,6 +8493,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8163,6 +8517,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8186,6 +8541,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8209,6 +8565,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8232,6 +8589,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8255,6 +8613,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8278,6 +8637,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8301,6 +8661,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8324,6 +8685,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8347,6 +8709,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8370,6 +8733,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8393,6 +8757,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8416,6 +8781,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8439,6 +8805,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8462,6 +8829,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8485,6 +8853,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8508,6 +8877,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8531,6 +8901,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8554,6 +8925,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8577,6 +8949,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8600,6 +8973,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8623,6 +8997,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8646,6 +9021,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8669,6 +9045,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8692,6 +9069,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8715,6 +9093,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8738,6 +9117,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8761,6 +9141,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8784,6 +9165,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8807,6 +9189,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8830,6 +9213,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8853,6 +9237,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8876,6 +9261,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8899,6 +9285,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8922,6 +9309,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8945,6 +9333,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8968,6 +9357,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -8991,6 +9381,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9014,6 +9405,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9037,6 +9429,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9060,6 +9453,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9083,6 +9477,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9106,6 +9501,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9129,6 +9525,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9152,6 +9549,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9175,6 +9573,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9198,6 +9597,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9221,6 +9621,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9244,6 +9645,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9267,6 +9669,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9290,6 +9693,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9313,6 +9717,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9336,6 +9741,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9359,6 +9765,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9382,6 +9789,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9405,6 +9813,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9428,6 +9837,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9451,6 +9861,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9474,6 +9885,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9497,6 +9909,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9520,6 +9933,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9543,6 +9957,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9566,6 +9981,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9589,6 +10005,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9612,6 +10029,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9635,6 +10053,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9658,6 +10077,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9681,6 +10101,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9704,6 +10125,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9727,6 +10149,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9750,6 +10173,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9773,6 +10197,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9796,6 +10221,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9819,6 +10245,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9842,6 +10269,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9865,6 +10293,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9888,6 +10317,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9911,6 +10341,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9934,6 +10365,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9957,6 +10389,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -9980,6 +10413,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -10003,6 +10437,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -10026,6 +10461,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -10049,6 +10485,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -10072,6 +10509,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -10095,6 +10533,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -10118,6 +10557,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -10141,6 +10581,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -10164,6 +10605,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -10187,6 +10629,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -10210,6 +10653,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -10233,6 +10677,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -10256,6 +10701,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -10279,6 +10725,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
@@ -10302,6 +10749,7 @@
       <property name="MD_BG_Priority_TR" value="False" type="bool" />
       <property name="MD_BG_Priority_BL" value="False" type="bool" />
       <property name="MD_BG_Priority_BR" value="False" type="bool" />
+      <property name="Neo_PaletteOffset" type="string" />
     </properties>
     <animation />
   </tile>
