@@ -1,0 +1,50 @@
+//### PLAYER SETUP ###
+If actor_controller == 1
+    Set current_player=1
+    Set key_timelimit=p1_key_timelimit
+    Set key_input_1=p1_key_input_1
+    Set key_input_2=p1_key_input_2
+    Set key_input_3=p1_key_input_3
+    Set p_ani_hard_punch=ryu_atk_hp_r
+    Set p_ani_hard_kick=ryu_atk_hk_r
+    Set p_ani_light_punch=ryu_atk_lp_r
+    Set p_ani_light_kick=ryu_atk_lk_r
+    Set p_ani_jump_hard_punch=ryu_jump_atk_hp_r
+    Set p_ani_jump_hard_kick=ryu_jump_atk_hk_r
+    Set p_ani_jump_light_punch=ryu_jump_atk_lp_r
+    Set p_ani_jump_light_kick=ryu_jump_atk_lk_r
+    Set p_ani_jump=ryu_jump_r
+    Set p_ani_tatsu=ryu_tatsu_r
+    Set p_ani_dragon=ryu_dragon_punch_r
+    Set p_ani_fireball=ryu_fireball_r
+    Set current_player_actor=004_ryu
+    Set current_player_actor_duck=005_ryu_duck
+    Set p_ani_duck_hard_punch=ryu_duck_atk_hp_r
+    Set p_ani_duck_hard_kick=ryu_duck_atk_hk_r
+    Set p_ani_duck_light_punch=ryu_duck_atk_lp_r
+    Set p_ani_duck_light_kick=ryu_duck_atk_lk_r
+Else
+    Set current_player=2
+    Set key_timelimit=p1_key_timelimit
+    Set key_input_1=p2_key_input_1
+    Set key_input_2=p2_key_input_2
+    Set key_input_3=p2_key_input_3
+    Set p_ani_hard_punch=ken_atk_hp_r
+    Set p_ani_hard_kick=ken_atk_hk_r
+    Set p_ani_light_punch=ken_atk_lp_r
+    Set p_ani_light_kick=ken_atk_lk_r
+    Set p_ani_jump_hard_punch=ken_jump_atk_hp_r
+    Set p_ani_jump_hard_kick=ken_jump_atk_hk_r
+    Set p_ani_jump_light_punch=ken_jump_atk_lp_r
+    Set p_ani_jump_light_kick=ken_jump_atk_lk_r
+    Set p_ani_jump=ken_jump_r
+    Set p_ani_tatsu=ken_tatsu_r
+    Set p_ani_dragon=ken_dragon_punch_r
+    Set p_ani_fireball=ken_fireball_r
+    Set current_player_actor=ken
+    Set current_player_actor_duck=ken_duck
+    Set p_ani_duck_hard_punch=ken_duck_atk_hp_r
+    Set p_ani_duck_hard_kick=ken_duck_atk_hk_r
+    Set p_ani_duck_light_punch=ken_duck_atk_lp_r
+    Set p_ani_duck_light_kick=ken_duck_atk_lk_r
+End

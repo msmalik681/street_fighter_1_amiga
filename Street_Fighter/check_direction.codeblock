@@ -444,23 +444,23 @@
     },
     {
       "Values": {
-        "SetAsNew": "Parent"
+        "MathsOperationType": "Angle"
       },
       "DataVersion": 7,
-      "Category": "Actor",
+      "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
       "AudioOperationType": "PlaySound",
-      "ConditionType": "Condition",
+      "ConditionType": "ForeachActor",
       "LevelOperationType": "LoadLevel",
-      "ActorOperationType": "SetAsNew",
+      "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
       "PaletteOperationType": "SetColor",
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
-      "Goto": "",
+      "Goto": "player_to_new",
       "Comment": "",
       "Variable": "none",
       "Expression": "",
@@ -510,7 +510,15 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "actor_tag",
+          "Comparison": "Equals",
+          "RightSide": "2",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ]
     },
     {
       "Values": {
@@ -580,7 +588,15 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},

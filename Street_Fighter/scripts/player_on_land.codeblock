@@ -146,7 +146,7 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "player_animation",
+          "LeftSide": "actor_animation",
           "Comparison": "Equals",
           "RightSide": "ryu_waiting_r",
           "ComparisonNext": "Or",
@@ -449,7 +449,7 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "player_var1",
+          "LeftSide": "actor_var1",
           "Comparison": "Equals",
           "RightSide": "4",
           "ComparisonNext": "End",
@@ -460,7 +460,7 @@
     {
       "Values": {},
       "DataVersion": 7,
-      "Category": "Player",
+      "Category": "Actor",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
       "AudioOperationType": "PlaySound",
@@ -614,7 +614,7 @@
         "AutoFlip": "True"
       },
       "DataVersion": 7,
-      "Category": "Player",
+      "Category": "Actor",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
       "AudioOperationType": "PlaySound",
@@ -975,7 +975,7 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "player_var1",
+          "LeftSide": "actor_var1",
           "Comparison": "Equals",
           "RightSide": "3",
           "ComparisonNext": "End",
@@ -1064,7 +1064,7 @@
         "AutoFlip": "True"
       },
       "DataVersion": 7,
-      "Category": "Player",
+      "Category": "Actor",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
       "AudioOperationType": "PlaySound",
@@ -1155,7 +1155,7 @@
       "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "player is dead",
-      "Variable": "player_var1",
+      "Variable": "actor_var1",
       "Expression": "-1",
       "Index": "0",
       "Label": "",
@@ -1231,7 +1231,7 @@
       "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "player 2 wins",
-      "Variable": "player_var5",
+      "Variable": "actor_var5",
       "Expression": "2",
       "Index": "0",
       "Label": "",
@@ -1729,7 +1729,7 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "player_var1",
+          "LeftSide": "actor_var1",
           "Comparison": "Equals",
           "RightSide": "6",
           "ComparisonNext": "End",
@@ -1755,7 +1755,7 @@
       "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
-      "Variable": "player_var1",
+      "Variable": "actor_var1",
       "Expression": "0",
       "Index": "0",
       "Label": "",
@@ -1843,7 +1843,7 @@
       "Y": "",
       "NewBlock": "none",
       "TeleportName": "none",
-      "ActorType": "player_number + 1",
+      "ActorType": "current_player_actor_duck",
       "Animation": "none",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
@@ -2205,7 +2205,7 @@
         "AutoFlip": "True"
       },
       "DataVersion": 7,
-      "Category": "Player",
+      "Category": "Actor",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
       "AudioOperationType": "PlaySound",
@@ -2536,7 +2536,7 @@
       "Y": "",
       "NewBlock": "none",
       "TeleportName": "none",
-      "ActorType": "player_number",
+      "ActorType": "current_player_actor",
       "Animation": "none",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
@@ -2600,7 +2600,7 @@
       "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
-      "Variable": "player_var1",
+      "Variable": "actor_var1",
       "Expression": "1",
       "Index": "0",
       "Label": "",
@@ -2676,7 +2676,7 @@
       "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
-      "Variable": "player_var3",
+      "Variable": "actor_var3",
       "Expression": "0",
       "Index": "0",
       "Label": "",
