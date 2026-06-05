@@ -1712,1354 +1712,1347 @@
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "VanishingPointX",
+      "Name": "HorizonX",
       "DefaultValue": "0",
       "Index": 42,
       "MemoryOffset": 84
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "VanishingPointY",
+      "Name": "Option",
       "DefaultValue": "0",
       "Index": 43,
       "MemoryOffset": 86
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Option",
-      "DefaultValue": "0",
+      "Name": "OptionsEnabled",
+      "DefaultValue": "true",
       "Index": 44,
       "MemoryOffset": 88
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "OptionsEnabled",
-      "DefaultValue": "true",
+      "Name": "Block_Type",
+      "DefaultValue": "0",
       "Index": 45,
       "MemoryOffset": 90
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Block_Type",
+      "Name": "Block_Tag",
       "DefaultValue": "0",
       "Index": 46,
       "MemoryOffset": 92
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Block_Tag",
+      "Name": "Block_X",
       "DefaultValue": "0",
       "Index": 47,
       "MemoryOffset": 94
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Block_X",
+      "Name": "Block_Y",
       "DefaultValue": "0",
       "Index": 48,
       "MemoryOffset": 96
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Block_Y",
+      "Name": "Handle_Collision",
       "DefaultValue": "0",
       "Index": 49,
       "MemoryOffset": 98
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Handle_Collision",
+      "Name": "Tile_Properties",
       "DefaultValue": "0",
       "Index": 50,
       "MemoryOffset": 100
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Tile_Properties",
+      "Name": "Teleport",
       "DefaultValue": "0",
       "Index": 51,
       "MemoryOffset": 102
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Teleport",
+      "Name": "EventTag",
       "DefaultValue": "0",
       "Index": 52,
       "MemoryOffset": 104
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "EventTag",
+      "Name": "HurtTag",
       "DefaultValue": "0",
       "Index": 53,
       "MemoryOffset": 106
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "HurtTag",
+      "Name": "ForceFadeOut",
       "DefaultValue": "0",
       "Index": 54,
       "MemoryOffset": 108
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "ForceFadeOut",
-      "DefaultValue": "0",
+      "Name": "Camera_Follow",
+      "DefaultValue": "15",
       "Index": 55,
       "MemoryOffset": 110
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Camera_Follow",
-      "DefaultValue": "15",
+      "Name": "Frame_Wait",
+      "DefaultValue": "0",
       "Index": 56,
       "MemoryOffset": 112
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Frame_Wait",
-      "DefaultValue": "0",
+      "Name": "MusicVol",
+      "DefaultValue": "256",
       "Index": 57,
       "MemoryOffset": 114
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "MusicVol",
-      "DefaultValue": "256",
+      "Name": "Success",
+      "DefaultValue": "0",
       "Index": 58,
       "MemoryOffset": 116
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Success",
-      "DefaultValue": "0",
+      "Name": "SoundVol",
+      "DefaultValue": "256",
       "Index": 59,
       "MemoryOffset": 118
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "SoundVol",
-      "DefaultValue": "256",
+      "Name": "AutoFadeMusic",
+      "DefaultValue": "0",
       "Index": 60,
       "MemoryOffset": 120
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "AutoFadeMusic",
-      "DefaultValue": "0",
+      "Name": "FadeTime",
+      "DefaultValue": "24",
       "Index": 61,
       "MemoryOffset": 122
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "FadeTime",
-      "DefaultValue": "24",
+      "Name": "Camera_BoxLeft",
+      "DefaultValue": "0",
       "Index": 62,
       "MemoryOffset": 124
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Camera_BoxLeft",
+      "Name": "Camera_BoxRight",
       "DefaultValue": "0",
       "Index": 63,
       "MemoryOffset": 126
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Camera_BoxRight",
+      "Name": "Camera_BoxUp",
       "DefaultValue": "0",
       "Index": 64,
       "MemoryOffset": 128
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Camera_BoxUp",
+      "Name": "Camera_BoxDown",
       "DefaultValue": "0",
       "Index": 65,
       "MemoryOffset": 130
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Camera_BoxDown",
+      "Name": "Frame_CountDown",
       "DefaultValue": "0",
       "Index": 66,
       "MemoryOffset": 132
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Frame_CountDown",
-      "DefaultValue": "0",
+      "Name": "YRes",
+      "DefaultValue": "224",
       "Index": 67,
       "MemoryOffset": 134
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "YRes",
-      "DefaultValue": "224",
+      "Name": "CameraTargetX",
+      "DefaultValue": "0",
       "Index": 68,
       "MemoryOffset": 136
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "CameraTargetX",
+      "Name": "CameraTargetY",
       "DefaultValue": "0",
       "Index": 69,
       "MemoryOffset": 138
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "CameraTargetY",
+      "Name": "Actor_Count",
       "DefaultValue": "0",
       "Index": 70,
       "MemoryOffset": 140
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Actor_Count",
+      "Name": "MapWidth",
       "DefaultValue": "0",
       "Index": 71,
       "MemoryOffset": 142
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "MapWidth",
+      "Name": "MapHeight",
       "DefaultValue": "0",
       "Index": 72,
       "MemoryOffset": 144
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "MapHeight",
+      "Name": "MapWidthTiles",
       "DefaultValue": "0",
       "Index": 73,
       "MemoryOffset": 146
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "MapWidthTiles",
+      "Name": "MapHeightTiles",
       "DefaultValue": "0",
       "Index": 74,
       "MemoryOffset": 148
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "MapHeightTiles",
+      "Name": "DisplayDirty",
       "DefaultValue": "0",
       "Index": 75,
       "MemoryOffset": 150
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "DisplayDirty",
+      "Name": "Brightness",
       "DefaultValue": "0",
       "Index": 76,
       "MemoryOffset": 152
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Brightness",
+      "Name": "ScreenTop",
       "DefaultValue": "0",
       "Index": 77,
       "MemoryOffset": 154
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "ScreenTop",
-      "DefaultValue": "0",
+      "Name": "BlinkTime",
+      "DefaultValue": "5",
       "Index": 78,
       "MemoryOffset": 156
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "BlinkTime",
-      "DefaultValue": "5",
+      "Name": "BlockTime",
+      "DefaultValue": "10",
       "Index": 79,
       "MemoryOffset": 158
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "BlockTime",
-      "DefaultValue": "10",
+      "Name": "NewValue",
+      "DefaultValue": "0",
       "Index": 80,
       "MemoryOffset": 160
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "NewValue",
+      "Name": "Red",
       "DefaultValue": "0",
       "Index": 81,
       "MemoryOffset": 162
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Red",
+      "Name": "Green",
       "DefaultValue": "0",
       "Index": 82,
       "MemoryOffset": 164
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Green",
+      "Name": "Blue",
       "DefaultValue": "0",
       "Index": 83,
       "MemoryOffset": 166
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Blue",
+      "Name": "Math_X",
       "DefaultValue": "0",
       "Index": 84,
       "MemoryOffset": 168
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Math_X",
-      "DefaultValue": "0",
-      "Index": 85,
-      "MemoryOffset": 170
-    },
-    {
-      "CodeBlock": "vm_registers",
       "Name": "Math_Y",
       "DefaultValue": "0",
-      "Index": 86,
-      "MemoryOffset": 174
+      "Index": 85,
+      "MemoryOffset": 172
     },
     {
       "CodeBlock": "vm_registers",
       "Name": "Math_X2",
       "DefaultValue": "0",
-      "Index": 87,
-      "MemoryOffset": 178
+      "Index": 86,
+      "MemoryOffset": 176
     },
     {
       "CodeBlock": "vm_registers",
       "Name": "Math_Y2",
       "DefaultValue": "0",
-      "Index": 88,
-      "MemoryOffset": 182
+      "Index": 87,
+      "MemoryOffset": 180
     },
     {
       "CodeBlock": "vm_registers",
       "Name": "SpawnArea_X",
+      "DefaultValue": "0",
+      "Index": 88,
+      "MemoryOffset": 184
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "SpawnArea_Y",
       "DefaultValue": "0",
       "Index": 89,
       "MemoryOffset": 186
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "SpawnArea_Y",
+      "Name": "SpawnArea_Width",
       "DefaultValue": "0",
       "Index": 90,
       "MemoryOffset": 188
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "SpawnArea_Width",
+      "Name": "SpawnArea_Height",
       "DefaultValue": "0",
       "Index": 91,
       "MemoryOffset": 190
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "SpawnArea_Height",
-      "DefaultValue": "0",
+      "Name": "RecycleDistance",
+      "DefaultValue": "16",
       "Index": 92,
       "MemoryOffset": 192
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "RecycleDistance",
-      "DefaultValue": "16",
+      "Name": "Breakpoint",
+      "DefaultValue": "0",
       "Index": 93,
       "MemoryOffset": 194
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Breakpoint",
-      "DefaultValue": "0",
+      "Name": "Autonum",
+      "DefaultValue": "0x8000",
       "Index": 94,
       "MemoryOffset": 196
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Autonum",
-      "DefaultValue": "0x8000",
+      "Name": "Seed1",
+      "DefaultValue": "0",
       "Index": 95,
       "MemoryOffset": 198
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Seed1",
+      "Name": "Seed2",
       "DefaultValue": "0",
       "Index": 96,
       "MemoryOffset": 200
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Seed2",
+      "Name": "Seed3",
       "DefaultValue": "0",
       "Index": 97,
       "MemoryOffset": 202
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Seed3",
+      "Name": "Seed4",
       "DefaultValue": "0",
       "Index": 98,
       "MemoryOffset": 204
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Seed4",
+      "Name": "Water_Y",
       "DefaultValue": "0",
       "Index": 99,
       "MemoryOffset": 206
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Water_Y",
+      "Name": "DrawClipBottom",
       "DefaultValue": "0",
       "Index": 100,
       "MemoryOffset": 208
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "DrawClipBottom",
-      "DefaultValue": "0",
+      "Name": "BackgroundZ",
+      "DefaultValue": "-1000",
       "Index": 101,
       "MemoryOffset": 210
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "BackgroundZ",
-      "DefaultValue": "-1000",
+      "Name": "ForegroundZ",
+      "DefaultValue": "1000",
       "Index": 102,
       "MemoryOffset": 212
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "ForegroundZ",
-      "DefaultValue": "1000",
+      "Name": "MaxSlopeStep",
+      "DefaultValue": "4",
       "Index": 103,
       "MemoryOffset": 214
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "MaxSlopeStep",
-      "DefaultValue": "4",
+      "Name": "OptionMoveCooldown",
+      "DefaultValue": "25",
       "Index": 104,
       "MemoryOffset": 216
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "OptionMoveCooldown",
-      "DefaultValue": "25",
+      "Name": "KeyboardRawCode",
+      "DefaultValue": "0",
       "Index": 105,
       "MemoryOffset": 218
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "KeyboardRawCode",
+      "Name": "ControlMode",
       "DefaultValue": "0",
       "Index": 106,
       "MemoryOffset": 220
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "ControlMode",
+      "Name": "HighColor",
       "DefaultValue": "0",
       "Index": 107,
       "MemoryOffset": 222
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "HighColor",
+      "Name": "AGAFMode",
       "DefaultValue": "0",
       "Index": 108,
       "MemoryOffset": 224
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "AGAFMode",
-      "DefaultValue": "0",
+      "Name": "SpecialScroll",
+      "DefaultValue": "2",
       "Index": 109,
       "MemoryOffset": 226
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "SpecialScroll",
-      "DefaultValue": "2",
+      "Name": "BPLCon3",
+      "DefaultValue": "0xC00",
       "Index": 110,
       "MemoryOffset": 228
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "BPLCon3",
-      "DefaultValue": "0xC00",
+      "Name": "IsAGA",
+      "DefaultValue": "0",
       "Index": 111,
       "MemoryOffset": 230
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "IsAGA",
-      "DefaultValue": "0",
-      "Index": 112,
-      "MemoryOffset": 232
-    },
-    {
-      "CodeBlock": "vm_registers",
       "Name": "IsNTSC",
       "DefaultValue": "0",
-      "Index": 113,
-      "MemoryOffset": 233
+      "Index": 112,
+      "MemoryOffset": 231
     },
     {
       "CodeBlock": "vm_registers",
       "Name": "IsFloppy",
       "DefaultValue": "0",
-      "Index": 114,
-      "MemoryOffset": 234
+      "Index": 113,
+      "MemoryOffset": 232
     },
     {
       "CodeBlock": "vm_registers",
       "Name": "CDTracks",
       "DefaultValue": "0",
-      "Index": 115,
-      "MemoryOffset": 235
+      "Index": 114,
+      "MemoryOffset": 233
     },
     {
       "CodeBlock": "vm_registers",
       "Name": "ChipRam",
       "DefaultValue": "0",
-      "Index": 116,
-      "MemoryOffset": 236
+      "Index": 115,
+      "MemoryOffset": 234
     },
     {
       "CodeBlock": "vm_registers",
       "Name": "OtherRam",
       "DefaultValue": "0",
-      "Index": 117,
-      "MemoryOffset": 240
+      "Index": 116,
+      "MemoryOffset": 238
     },
     {
       "CodeBlock": "vm_registers",
       "Name": "Processor",
+      "DefaultValue": "0",
+      "Index": 117,
+      "MemoryOffset": 242
+    },
+    {
+      "CodeBlock": "vm_registers",
+      "Name": "ROM",
       "DefaultValue": "0",
       "Index": 118,
       "MemoryOffset": 244
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "ROM",
+      "Name": "E8Trigger",
       "DefaultValue": "0",
       "Index": 119,
       "MemoryOffset": 246
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "E8Trigger",
+      "Name": "ShowTalkpad",
       "DefaultValue": "0",
       "Index": 120,
       "MemoryOffset": 248
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "ShowTalkpad",
+      "Name": "Scroll_Speed_X",
       "DefaultValue": "0",
       "Index": 121,
       "MemoryOffset": 250
     },
     {
       "CodeBlock": "vm_registers",
-      "Name": "Scroll_Speed_X",
-      "DefaultValue": "0",
-      "Index": 122,
-      "MemoryOffset": 252
-    },
-    {
-      "CodeBlock": "vm_registers",
       "Name": "Scroll_Speed_Y",
       "DefaultValue": "0",
-      "Index": 123,
-      "MemoryOffset": 256
+      "Index": 122,
+      "MemoryOffset": 254
     },
     {
       "CodeBlock": "vm_registers",
       "Name": "Warn_Frameskip",
       "DefaultValue": "0",
-      "Index": 124,
-      "MemoryOffset": 260
+      "Index": 123,
+      "MemoryOffset": 258
     },
     {
       "CodeBlock": "vm_registers",
       "Name": "CacheEnabled",
       "DefaultValue": "true",
-      "Index": 125,
-      "MemoryOffset": 261
+      "Index": 124,
+      "MemoryOffset": 259
     },
     {
       "CodeBlock": "vm_registers",
       "Name": "All_Buttons",
       "DefaultValue": "0",
-      "Index": 126,
-      "MemoryOffset": 262
+      "Index": 125,
+      "MemoryOffset": 260
     },
     {
       "CodeBlock": "vm_registers",
       "Name": "Port",
       "DefaultValue": "2",
-      "Index": 127,
-      "MemoryOffset": 264
+      "Index": 126,
+      "MemoryOffset": 262
     },
     {
       "CodeBlock": "vm_registers",
       "Name": "IsometricScale",
       "DefaultValue": "0",
-      "Index": 128,
-      "MemoryOffset": 266
+      "Index": 127,
+      "MemoryOffset": 264
     },
     {
       "CodeBlock": "vm_registers",
       "Name": "StringLength",
       "DefaultValue": "0",
-      "Index": 129,
-      "MemoryOffset": 270
+      "Index": 128,
+      "MemoryOffset": 268
     },
     {
       "CodeBlock": "vm_registers",
       "Name": "CharBuffer",
       "DefaultValue": "512",
-      "Index": 130,
-      "MemoryOffset": 272
+      "Index": 129,
+      "MemoryOffset": 270
     },
     {
       "CodeBlock": "vm_registers",
       "Name": "NumBuffer",
       "DefaultValue": "10",
-      "Index": 131,
-      "MemoryOffset": 784
+      "Index": 130,
+      "MemoryOffset": 782
     },
     {
       "CodeBlock": "check_direction",
       "Name": "enemy_x",
+      "DefaultValue": "0",
+      "Index": 188,
+      "MemoryOffset": 954
+    },
+    {
+      "CodeBlock": "check_direction",
+      "Name": "enemy_y",
       "DefaultValue": "0",
       "Index": 189,
       "MemoryOffset": 956
     },
     {
       "CodeBlock": "check_direction",
-      "Name": "enemy_y",
+      "Name": "player1_x",
       "DefaultValue": "0",
       "Index": 190,
       "MemoryOffset": 958
     },
     {
-      "CodeBlock": "check_direction",
-      "Name": "player1_x",
-      "DefaultValue": "0",
+      "CodeBlock": "enemy_ai",
+      "Name": "e_damage_hard",
+      "DefaultValue": "20",
       "Index": 191,
       "MemoryOffset": 960
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_damage_hard",
-      "DefaultValue": "20",
+      "Name": "e_damage_light",
+      "DefaultValue": "10",
       "Index": 192,
       "MemoryOffset": 962
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_damage_light",
-      "DefaultValue": "10",
+      "Name": "e_atk_01",
+      "DefaultValue": "0",
       "Index": 193,
       "MemoryOffset": 964
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_atk_01",
+      "Name": "e_atk_02",
       "DefaultValue": "0",
       "Index": 194,
       "MemoryOffset": 966
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_atk_02",
+      "Name": "e_atk_03",
       "DefaultValue": "0",
       "Index": 195,
       "MemoryOffset": 968
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_atk_03",
+      "Name": "e_atk_04",
       "DefaultValue": "0",
       "Index": 196,
       "MemoryOffset": 970
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_atk_04",
+      "Name": "e_atk_05",
       "DefaultValue": "0",
       "Index": 197,
       "MemoryOffset": 972
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_atk_05",
+      "Name": "e_atk_001",
       "DefaultValue": "0",
       "Index": 198,
       "MemoryOffset": 974
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_atk_001",
+      "Name": "e_atk_002",
       "DefaultValue": "0",
       "Index": 199,
       "MemoryOffset": 976
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_atk_002",
+      "Name": "e_atk_003",
       "DefaultValue": "0",
       "Index": 200,
       "MemoryOffset": 978
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_atk_003",
+      "Name": "e_atk_004",
       "DefaultValue": "0",
       "Index": 201,
       "MemoryOffset": 980
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_atk_004",
+      "Name": "e_atk_005",
       "DefaultValue": "0",
       "Index": 202,
       "MemoryOffset": 982
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_atk_005",
+      "Name": "e_atk_0001",
       "DefaultValue": "0",
       "Index": 203,
       "MemoryOffset": 984
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_atk_0001",
+      "Name": "e_atk_0002",
       "DefaultValue": "0",
       "Index": 204,
       "MemoryOffset": 986
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_atk_0002",
+      "Name": "e_atk_0003",
       "DefaultValue": "0",
       "Index": 205,
       "MemoryOffset": 988
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_atk_0003",
+      "Name": "e_atk_0004",
       "DefaultValue": "0",
       "Index": 206,
       "MemoryOffset": 990
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_atk_0004",
+      "Name": "e_atk_0005",
       "DefaultValue": "0",
       "Index": 207,
       "MemoryOffset": 992
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_atk_0005",
+      "Name": "e_ani_block",
       "DefaultValue": "0",
       "Index": 208,
       "MemoryOffset": 994
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_ani_block",
+      "Name": "e_ani_block_low",
       "DefaultValue": "0",
       "Index": 209,
       "MemoryOffset": 996
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_ani_block_low",
+      "Name": "e_ani_idle",
       "DefaultValue": "0",
       "Index": 210,
       "MemoryOffset": 998
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_ani_idle",
+      "Name": "e_ani_walk",
       "DefaultValue": "0",
       "Index": 211,
       "MemoryOffset": 1000
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_ani_walk",
+      "Name": "e_ani_jump",
       "DefaultValue": "0",
       "Index": 212,
       "MemoryOffset": 1002
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_ani_jump",
+      "Name": "e_ani_jump_forward",
       "DefaultValue": "0",
       "Index": 213,
       "MemoryOffset": 1004
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_ani_jump_forward",
+      "Name": "e_ani_jump_atk",
       "DefaultValue": "0",
       "Index": 214,
       "MemoryOffset": 1006
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_ani_jump_atk",
+      "Name": "e_ani_dead",
       "DefaultValue": "0",
       "Index": 215,
       "MemoryOffset": 1008
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_ani_dead",
+      "Name": "e_ani_win",
       "DefaultValue": "0",
       "Index": 216,
       "MemoryOffset": 1010
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_ani_win",
+      "Name": "e_ani_pain",
       "DefaultValue": "0",
       "Index": 217,
       "MemoryOffset": 1012
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_ani_pain",
+      "Name": "e_ani_pain_low",
       "DefaultValue": "0",
       "Index": 218,
       "MemoryOffset": 1014
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_ani_pain_low",
+      "Name": "e_ani_fall",
       "DefaultValue": "0",
       "Index": 219,
       "MemoryOffset": 1016
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_ani_fall",
+      "Name": "e_ani_waiting",
       "DefaultValue": "0",
       "Index": 220,
       "MemoryOffset": 1018
     },
     {
       "CodeBlock": "enemy_ai",
-      "Name": "e_ani_waiting",
-      "DefaultValue": "0",
+      "Name": "e_air_attack_once",
+      "DefaultValue": "1",
       "Index": 221,
       "MemoryOffset": 1020
     },
     {
-      "CodeBlock": "enemy_ai",
-      "Name": "e_air_attack_once",
-      "DefaultValue": "1",
+      "CodeBlock": "p1_key_input",
+      "Name": "p1_key_input_1",
+      "DefaultValue": "0",
       "Index": 222,
       "MemoryOffset": 1022
     },
     {
       "CodeBlock": "p1_key_input",
-      "Name": "p1_key_input_1",
+      "Name": "p1_key_input_2",
       "DefaultValue": "0",
       "Index": 223,
       "MemoryOffset": 1024
     },
     {
       "CodeBlock": "p1_key_input",
-      "Name": "p1_key_input_2",
+      "Name": "p1_key_input_3",
       "DefaultValue": "0",
       "Index": 224,
       "MemoryOffset": 1026
     },
     {
       "CodeBlock": "p1_key_input",
-      "Name": "p1_key_input_3",
+      "Name": "p1_input_keyed",
       "DefaultValue": "0",
       "Index": 225,
       "MemoryOffset": 1028
     },
     {
       "CodeBlock": "p1_key_input",
-      "Name": "p1_input_keyed",
+      "Name": "p1_key_timelimit",
       "DefaultValue": "0",
       "Index": 226,
       "MemoryOffset": 1030
     },
     {
       "CodeBlock": "p1_key_input",
-      "Name": "p1_key_timelimit",
+      "Name": "key_timer",
       "DefaultValue": "0",
       "Index": 227,
       "MemoryOffset": 1032
     },
     {
-      "CodeBlock": "p1_key_input",
-      "Name": "key_timer",
+      "CodeBlock": "p2_key_input",
+      "Name": "p2_key_input_1",
       "DefaultValue": "0",
       "Index": 228,
       "MemoryOffset": 1034
     },
     {
       "CodeBlock": "p2_key_input",
-      "Name": "p2_key_input_1",
+      "Name": "p2_key_input_2",
       "DefaultValue": "0",
       "Index": 229,
       "MemoryOffset": 1036
     },
     {
       "CodeBlock": "p2_key_input",
-      "Name": "p2_key_input_2",
+      "Name": "p2_key_input_3",
       "DefaultValue": "0",
       "Index": 230,
       "MemoryOffset": 1038
     },
     {
       "CodeBlock": "p2_key_input",
-      "Name": "p2_key_input_3",
+      "Name": "p2_input_keyed",
       "DefaultValue": "0",
       "Index": 231,
       "MemoryOffset": 1040
     },
     {
       "CodeBlock": "p2_key_input",
-      "Name": "p2_input_keyed",
+      "Name": "p2_key_timelimit",
       "DefaultValue": "0",
       "Index": 232,
       "MemoryOffset": 1042
     },
     {
-      "CodeBlock": "p2_key_input",
-      "Name": "p2_key_timelimit",
+      "CodeBlock": "player_on_timer",
+      "Name": "key_timelimit",
       "DefaultValue": "0",
       "Index": 233,
       "MemoryOffset": 1044
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "key_timelimit",
+      "Name": "key_input_1",
       "DefaultValue": "0",
       "Index": 234,
       "MemoryOffset": 1046
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "key_input_1",
+      "Name": "key_input_2",
       "DefaultValue": "0",
       "Index": 235,
       "MemoryOffset": 1048
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "key_input_2",
+      "Name": "key_input_3",
       "DefaultValue": "0",
       "Index": 236,
       "MemoryOffset": 1050
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "key_input_3",
+      "Name": "p_ani_hard_punch",
       "DefaultValue": "0",
       "Index": 237,
       "MemoryOffset": 1052
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "p_ani_hard_punch",
+      "Name": "p_ani_hard_kick",
       "DefaultValue": "0",
       "Index": 238,
       "MemoryOffset": 1054
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "p_ani_hard_kick",
+      "Name": "p_ani_light_punch",
       "DefaultValue": "0",
       "Index": 239,
       "MemoryOffset": 1056
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "p_ani_light_punch",
+      "Name": "p_ani_light_kick",
       "DefaultValue": "0",
       "Index": 240,
       "MemoryOffset": 1058
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "p_ani_light_kick",
+      "Name": "p_ani_jump_hard_punch",
       "DefaultValue": "0",
       "Index": 241,
       "MemoryOffset": 1060
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "p_ani_jump_hard_punch",
+      "Name": "p_ani_jump_hard_kick",
       "DefaultValue": "0",
       "Index": 242,
       "MemoryOffset": 1062
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "p_ani_jump_hard_kick",
+      "Name": "p_ani_jump_light_punch",
       "DefaultValue": "0",
       "Index": 243,
       "MemoryOffset": 1064
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "p_ani_jump_light_punch",
+      "Name": "p_ani_jump_light_kick",
       "DefaultValue": "0",
       "Index": 244,
       "MemoryOffset": 1066
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "p_ani_jump_light_kick",
+      "Name": "p_ani_jump",
       "DefaultValue": "0",
       "Index": 245,
       "MemoryOffset": 1068
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "p_ani_jump",
+      "Name": "p_ani_tatsu",
       "DefaultValue": "0",
       "Index": 246,
       "MemoryOffset": 1070
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "p_ani_tatsu",
+      "Name": "p_ani_fireball",
       "DefaultValue": "0",
       "Index": 247,
       "MemoryOffset": 1072
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "p_ani_fireball",
+      "Name": "p_ani_dragon",
       "DefaultValue": "0",
       "Index": 248,
       "MemoryOffset": 1074
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "p_ani_dragon",
+      "Name": "current_player_actor",
       "DefaultValue": "0",
       "Index": 249,
       "MemoryOffset": 1076
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "current_player_actor",
+      "Name": "current_player_actor_duck",
       "DefaultValue": "0",
       "Index": 250,
       "MemoryOffset": 1078
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "current_player_actor_duck",
+      "Name": "p_ani_duck_hard_punch",
       "DefaultValue": "0",
       "Index": 251,
       "MemoryOffset": 1080
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "p_ani_duck_hard_punch",
+      "Name": "p_ani_duck_hard_kick",
       "DefaultValue": "0",
       "Index": 252,
       "MemoryOffset": 1082
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "p_ani_duck_hard_kick",
+      "Name": "p_ani_duck_light_punch",
       "DefaultValue": "0",
       "Index": 253,
       "MemoryOffset": 1084
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "p_ani_duck_light_punch",
+      "Name": "p_ani_duck_light_kick",
       "DefaultValue": "0",
       "Index": 254,
       "MemoryOffset": 1086
     },
     {
       "CodeBlock": "player_on_timer",
-      "Name": "p_ani_duck_light_kick",
+      "Name": "current_player",
       "DefaultValue": "0",
       "Index": 255,
       "MemoryOffset": 1088
     },
     {
-      "CodeBlock": "player_on_timer",
-      "Name": "current_player",
-      "DefaultValue": "0",
+      "CodeBlock": "player_spawn",
+      "Name": "p2_spawn_x",
+      "DefaultValue": "464",
       "Index": 256,
       "MemoryOffset": 1090
     },
     {
       "CodeBlock": "player_spawn",
-      "Name": "p2_spawn_x",
-      "DefaultValue": "464",
+      "Name": "p2_spawn_y",
+      "DefaultValue": "212",
       "Index": 257,
       "MemoryOffset": 1092
     },
     {
-      "CodeBlock": "player_spawn",
-      "Name": "p2_spawn_y",
-      "DefaultValue": "212",
+      "CodeBlock": "stage_reset",
+      "Name": "stage_timer",
+      "DefaultValue": "0",
       "Index": 258,
       "MemoryOffset": 1094
     },
     {
       "CodeBlock": "stage_reset",
-      "Name": "stage_timer",
+      "Name": "stage_fighting",
       "DefaultValue": "0",
       "Index": 259,
       "MemoryOffset": 1096
     },
     {
       "CodeBlock": "stage_reset",
-      "Name": "stage_fighting",
-      "DefaultValue": "0",
+      "Name": "round_winner_text",
+      "DefaultValue": "something",
       "Index": 260,
       "MemoryOffset": 1098
     },
     {
       "CodeBlock": "stage_reset",
-      "Name": "round_winner_text",
-      "DefaultValue": "something",
-      "Index": 261,
-      "MemoryOffset": 1100
-    },
-    {
-      "CodeBlock": "stage_reset",
       "Name": "string",
       "DefaultValue": "one<br>two<br>one<br>two<br>one<br>two<br>",
-      "Index": 262,
-      "MemoryOffset": 1110
+      "Index": 261,
+      "MemoryOffset": 1108
     },
     {
       "CodeBlock": "startup",
       "Name": "velo",
       "DefaultValue": "1",
+      "Index": 262,
+      "MemoryOffset": 1152
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "e_velo",
+      "DefaultValue": "0",
       "Index": 263,
       "MemoryOffset": 1154
     },
     {
       "CodeBlock": "startup",
-      "Name": "e_velo",
+      "Name": "enemy_number",
       "DefaultValue": "0",
       "Index": 264,
       "MemoryOffset": 1156
     },
     {
       "CodeBlock": "startup",
-      "Name": "enemy_number",
+      "Name": "enemy_range",
       "DefaultValue": "0",
       "Index": 265,
       "MemoryOffset": 1158
     },
     {
       "CodeBlock": "startup",
-      "Name": "enemy_range",
+      "Name": "temp",
       "DefaultValue": "0",
       "Index": 266,
       "MemoryOffset": 1160
     },
     {
       "CodeBlock": "startup",
-      "Name": "temp",
+      "Name": "e_atk_damage",
       "DefaultValue": "0",
       "Index": 267,
       "MemoryOffset": 1162
     },
     {
       "CodeBlock": "startup",
-      "Name": "e_atk_damage",
-      "DefaultValue": "0",
+      "Name": "p1_life",
+      "DefaultValue": "100",
       "Index": 268,
       "MemoryOffset": 1164
     },
     {
       "CodeBlock": "startup",
-      "Name": "p1_life",
+      "Name": "p2_life",
       "DefaultValue": "100",
       "Index": 269,
       "MemoryOffset": 1166
     },
     {
       "CodeBlock": "startup",
-      "Name": "p2_life",
-      "DefaultValue": "100",
+      "Name": "atk_damage",
+      "DefaultValue": "0",
       "Index": 270,
       "MemoryOffset": 1168
     },
     {
       "CodeBlock": "startup",
-      "Name": "atk_damage",
+      "Name": "p1_score",
       "DefaultValue": "0",
       "Index": 271,
       "MemoryOffset": 1170
     },
     {
       "CodeBlock": "startup",
-      "Name": "p1_score",
+      "Name": "player_flash_x",
       "DefaultValue": "0",
       "Index": 272,
-      "MemoryOffset": 1172
+      "MemoryOffset": 1174
     },
     {
       "CodeBlock": "startup",
-      "Name": "player_flash_x",
+      "Name": "player_flash_y",
       "DefaultValue": "0",
       "Index": 273,
       "MemoryOffset": 1176
     },
     {
       "CodeBlock": "startup",
-      "Name": "player_flash_y",
+      "Name": "enemy_flash_x",
       "DefaultValue": "0",
       "Index": 274,
       "MemoryOffset": 1178
     },
     {
       "CodeBlock": "startup",
-      "Name": "enemy_flash_x",
+      "Name": "enemy_flash_y",
       "DefaultValue": "0",
       "Index": 275,
       "MemoryOffset": 1180
     },
     {
       "CodeBlock": "startup",
-      "Name": "enemy_flash_y",
-      "DefaultValue": "0",
+      "Name": "loser1",
+      "DefaultValue": "what strengh!!",
       "Index": 276,
       "MemoryOffset": 1182
     },
     {
       "CodeBlock": "startup",
-      "Name": "loser1",
-      "DefaultValue": "what strengh!!",
-      "Index": 277,
-      "MemoryOffset": 1184
-    },
-    {
-      "CodeBlock": "startup",
       "Name": "loser2",
       "DefaultValue": "but don't forget there are many",
-      "Index": 278,
-      "MemoryOffset": 1200
+      "Index": 277,
+      "MemoryOffset": 1198
     },
     {
       "CodeBlock": "startup",
       "Name": "loser3",
       "DefaultValue": "guys like you all over the world",
-      "Index": 279,
-      "MemoryOffset": 1232
+      "Index": 278,
+      "MemoryOffset": 1230
     },
     {
       "CodeBlock": "startup",
       "Name": "p_damage_light",
+      "DefaultValue": "0",
+      "Index": 279,
+      "MemoryOffset": 1262
+    },
+    {
+      "CodeBlock": "startup",
+      "Name": "p_damage_hard",
       "DefaultValue": "0",
       "Index": 280,
       "MemoryOffset": 1264
     },
     {
       "CodeBlock": "startup",
-      "Name": "p_damage_hard",
+      "Name": "player1_wins",
       "DefaultValue": "0",
       "Index": 281,
       "MemoryOffset": 1266
     },
     {
       "CodeBlock": "startup",
-      "Name": "player1_wins",
+      "Name": "player2_wins",
       "DefaultValue": "0",
       "Index": 282,
       "MemoryOffset": 1268
     },
     {
       "CodeBlock": "startup",
-      "Name": "player2_wins",
+      "Name": "continue",
       "DefaultValue": "0",
       "Index": 283,
       "MemoryOffset": 1270
     },
     {
       "CodeBlock": "startup",
-      "Name": "continue",
+      "Name": "enemy_block_ratio",
       "DefaultValue": "0",
       "Index": 284,
       "MemoryOffset": 1272
     },
     {
       "CodeBlock": "startup",
-      "Name": "enemy_block_ratio",
-      "DefaultValue": "0",
+      "Name": "player_number",
+      "DefaultValue": "4",
       "Index": 285,
       "MemoryOffset": 1274
     },
     {
       "CodeBlock": "startup",
-      "Name": "player_number",
-      "DefaultValue": "4",
+      "Name": "air_attack_once",
+      "DefaultValue": "1",
       "Index": 286,
       "MemoryOffset": 1276
     },
     {
       "CodeBlock": "startup",
-      "Name": "air_attack_once",
-      "DefaultValue": "1",
+      "Name": "i",
+      "DefaultValue": "0",
       "Index": 287,
       "MemoryOffset": 1278
     },
     {
       "CodeBlock": "startup",
-      "Name": "i",
+      "Name": "imax",
       "DefaultValue": "0",
       "Index": 288,
       "MemoryOffset": 1280
     },
     {
       "CodeBlock": "startup",
-      "Name": "imax",
+      "Name": "free_memory",
       "DefaultValue": "0",
       "Index": 289,
       "MemoryOffset": 1282
     },
     {
       "CodeBlock": "startup",
-      "Name": "free_memory",
-      "DefaultValue": "0",
-      "Index": 290,
-      "MemoryOffset": 1284
-    },
-    {
-      "CodeBlock": "startup",
       "Name": "stage",
       "DefaultValue": "100",
-      "Index": 291,
-      "MemoryOffset": 1288
+      "Index": 290,
+      "MemoryOffset": 1286
     }
   ],
   "Lines": [
