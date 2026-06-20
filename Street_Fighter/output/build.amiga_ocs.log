@@ -1,5 +1,5 @@
-Compiled on 05 June 2026 19:39:21
-Version string: SE2026.0.260605.19.46.EX
+Compiled on 20 June 2026 11:22:15
+Version string: SE2026.0.260620.13.06.EX
 
 === Misc ===
 ImageFrames: 1414
@@ -28,138 +28,139 @@ Misc data size: 110
 
 === Cartridge Composition ===
  Header |   Offset | Size     | Crunch    | Detail
-   MC01 |     2380 |    12348 |  NoCrunch | Music data retsu_stage1
-   MS01 |    14728 |   175276 |  NoCrunch | Music samples retsu_stage1
-   MC02 |   190004 |     2108 |  NoCrunch | Music data sf1_coin
-   MS02 |   192112 |    30840 |  NoCrunch | Music samples sf1_coin
-   MC03 |   222952 |    12348 |  NoCrunch | Music data sf1_stage01_retsu
-   MS03 |   235300 |   171752 |  NoCrunch | Music samples sf1_stage01_retsu
-   MC04 |   407052 |    13372 |  NoCrunch | Music data sf1_stage02_geki
-   MS04 |   420424 |   153584 |  NoCrunch | Music samples sf1_stage02_geki
-   MC05 |   574008 |     5180 |  NoCrunch | Music data sf1_stage03_joe
-   MS05 |   579188 |    61140 |  NoCrunch | Music samples sf1_stage03_joe
-   MC06 |   640328 |     7228 |  NoCrunch | Music data sf1_stage04_mike
-   MS06 |   647556 |   132628 |  NoCrunch | Music samples sf1_stage04_mike
-   MC07 |   780184 |     7228 |  NoCrunch | Music data sf1_stage05_lee
-   MS07 |   787412 |   136480 |  NoCrunch | Music samples sf1_stage05_lee
-   MC08 |   923892 |     7228 |  NoCrunch | Music data sf1_stage06_gen
-   MS08 |   931120 |   166340 |  NoCrunch | Music samples sf1_stage06_gen
-   MC09 |  1097460 |     9276 |  NoCrunch | Music data sf1_stage07_birdie
-   MS09 |  1106736 |    83008 |  NoCrunch | Music samples sf1_stage07_birdie
-   MC10 |  1189744 |     6204 |  NoCrunch | Music data sf1_stage08_eagle
-   MS10 |  1195948 |    44632 |  NoCrunch | Music samples sf1_stage08_eagle
-   MC11 |  1240580 |     6204 |  NoCrunch | Music data sf1_stage09_adon
-   MS11 |  1246784 |    50486 |  NoCrunch | Music samples sf1_stage09_adon
-   MC12 |  1297270 |     6204 |  NoCrunch | Music data sf1_stage10_sagat
-   MS12 |  1303474 |   121326 |  NoCrunch | Music samples sf1_stage10_sagat
-   MC13 |  1424800 |     4156 |  NoCrunch | Music data sf1_stage_clear
-   MS13 |  1428956 |   141556 |  NoCrunch | Music samples sf1_stage_clear
-   MC14 |  1570512 |    10300 |  NoCrunch | Music data sf1_stage_select
-   MS14 |  1580812 |   113158 |  NoCrunch | Music samples sf1_stage_select
-   MC15 |  1693970 |     5180 |  NoCrunch | Music data sf1_vs
-   MS15 |  1699150 |   169816 |  NoCrunch | Music samples sf1_vs
-   PL09 |  1868966 |     4932 |  NoCrunch | Panel (background color #000)
-   PL01 |  1873898 |     2474 |       ZX0 | Panel scorpion_eng_splashscreen
-   PL02 |  1876372 |    14680 |  NoCrunch | Panel bottom_panel
-   PC02 |  1891052 |     7686 |  NoCrunch | Panel bobs bottom_panel
-   PL03 |  1898738 |    29184 |  NoCrunch | Panel credits_panel
-   PC03 |  1927922 |     4504 |  NoCrunch | Panel bobs credits_panel
-   PL04 |  1932426 |    42104 |  NoCrunch | Panel ending_panel
-   PL05 |  1974530 |    34040 |  NoCrunch | Panel intro_panel
-   PL06 |  2008570 |    11512 |  NoCrunch | Panel loser_panel
-   PC06 |  2020082 |     4454 |  NoCrunch | Panel bobs loser_panel
-   PL07 |  2024536 |     7604 |  NoCrunch | Panel top_panel
-   PC07 |  2032140 |     4924 |  NoCrunch | Panel bobs top_panel
-   PL08 |  2037064 |    11520 |  NoCrunch | Panel wining_panel
-   PC08 |  2048584 |     4558 |  NoCrunch | Panel bobs wining_panel
-   VV00 |  2053142 |     1352 |  NoCrunch | Project Variables
-   VC00 |  2054494 |    51992 |  NoCrunch | Project virtual machine (codeblocks)
-   MA01 |  2106486 |       84 |  NoCrunch | Map actor data for adon_stage
-   MH01 |  2106570 |      848 |  NoCrunch | Header data for map adon_stage
-   MD01 |  2107418 |     4466 |  NoCrunch | Tile data for map adon_stage (mem restrictions:None)
-   MH02 |  2111884 |      848 |  NoCrunch | Header data for map adon_vs_screen
-   MD02 |  2112732 |     3248 |  NoCrunch | Tile data for map adon_vs_screen (mem restrictions:None)
-   MA03 |  2115980 |       84 |  NoCrunch | Map actor data for birdie_stage
-   MH03 |  2116064 |      848 |  NoCrunch | Header data for map birdie_stage
-   MD03 |  2116912 |     4466 |  NoCrunch | Tile data for map birdie_stage (mem restrictions:None)
-   MH04 |  2121378 |      848 |  NoCrunch | Header data for map birdie_vs_screen
-   MD04 |  2122226 |     3248 |  NoCrunch | Tile data for map birdie_vs_screen (mem restrictions:None)
-   MA05 |  2125474 |       84 |  NoCrunch | Map actor data for eagle_stage
-   MH05 |  2125558 |      848 |  NoCrunch | Header data for map eagle_stage
-   MD05 |  2126406 |     4382 |  NoCrunch | Tile data for map eagle_stage (mem restrictions:None)
-   MH06 |  2130788 |      848 |  NoCrunch | Header data for map eagle_vs_screen
-   MD06 |  2131636 |     3248 |  NoCrunch | Tile data for map eagle_vs_screen (mem restrictions:None)
-   MA07 |  2134884 |       84 |  NoCrunch | Map actor data for geki_stage
-   MH07 |  2134968 |      848 |  NoCrunch | Header data for map geki_stage
-   MD07 |  2135816 |     4466 |  NoCrunch | Tile data for map geki_stage (mem restrictions:None)
-   MH08 |  2140282 |      848 |  NoCrunch | Header data for map geki_vs_screen
-   MD08 |  2141130 |     3248 |  NoCrunch | Tile data for map geki_vs_screen (mem restrictions:None)
-   MA09 |  2144378 |       84 |  NoCrunch | Map actor data for gen_stage
-   MH09 |  2144462 |      848 |  NoCrunch | Header data for map gen_stage
-   MD09 |  2145310 |     4466 |  NoCrunch | Tile data for map gen_stage (mem restrictions:None)
-   MH10 |  2149776 |      848 |  NoCrunch | Header data for map gen_vs_screen
-   MD10 |  2150624 |     3248 |  NoCrunch | Tile data for map gen_vs_screen (mem restrictions:None)
-   MA11 |  2153872 |       84 |  NoCrunch | Map actor data for joe_stage
-   MH11 |  2153956 |      848 |  NoCrunch | Header data for map joe_stage
-   MD11 |  2154804 |     4466 |  NoCrunch | Tile data for map joe_stage (mem restrictions:None)
-   MH12 |  2159270 |      848 |  NoCrunch | Header data for map joe_vs_screen
-   MD12 |  2160118 |     3248 |  NoCrunch | Tile data for map joe_vs_screen (mem restrictions:None)
-   MA13 |  2163366 |       84 |  NoCrunch | Map actor data for ken_stage
-   MH13 |  2163450 |      848 |  NoCrunch | Header data for map ken_stage
-   MD13 |  2164298 |     4466 |  NoCrunch | Tile data for map ken_stage (mem restrictions:None)
-   MH14 |  2168764 |      848 |  NoCrunch | Header data for map ken_vs_screen
-   MD14 |  2169612 |     3248 |  NoCrunch | Tile data for map ken_vs_screen (mem restrictions:None)
-   MA15 |  2172860 |       84 |  NoCrunch | Map actor data for lee_stage
-   MH15 |  2172944 |      848 |  NoCrunch | Header data for map lee_stage
-   MD15 |  2173792 |     4466 |  NoCrunch | Tile data for map lee_stage (mem restrictions:None)
-   MH16 |  2178258 |      848 |  NoCrunch | Header data for map lee_vs_screen
-   MD16 |  2179106 |     3248 |  NoCrunch | Tile data for map lee_vs_screen (mem restrictions:None)
-   MA17 |  2182354 |       84 |  NoCrunch | Map actor data for mike_stage
-   MH17 |  2182438 |      848 |  NoCrunch | Header data for map mike_stage
-   MD17 |  2183286 |     4466 |  NoCrunch | Tile data for map mike_stage (mem restrictions:None)
-   MH18 |  2187752 |      848 |  NoCrunch | Header data for map mike_vs_screen
-   MD18 |  2188600 |     3248 |  NoCrunch | Tile data for map mike_vs_screen (mem restrictions:None)
-   MA19 |  2191848 |       84 |  NoCrunch | Map actor data for retsu_stage
-   MH19 |  2191932 |      848 |  NoCrunch | Header data for map retsu_stage
-   MD19 |  2192780 |     4466 |  NoCrunch | Tile data for map retsu_stage (mem restrictions:None)
-   MH20 |  2197246 |      848 |  NoCrunch | Header data for map retsu_vs_screen
-   MD20 |  2198094 |     3248 |  NoCrunch | Tile data for map retsu_vs_screen (mem restrictions:None)
-   MA21 |  2201342 |       84 |  NoCrunch | Map actor data for sagat_stage
-   MH21 |  2201426 |      848 |  NoCrunch | Header data for map sagat_stage
-   MD21 |  2202274 |     4466 |  NoCrunch | Tile data for map sagat_stage (mem restrictions:None)
-   MH22 |  2206740 |      848 |  NoCrunch | Header data for map sagat_vs_screen
-   MD22 |  2207588 |     3248 |  NoCrunch | Tile data for map sagat_vs_screen (mem restrictions:None)
-   MH23 |  2210836 |      848 |  NoCrunch | Header data for map vs_screen_all
-   MD23 |  2211684 |     6152 |  NoCrunch | Tile data for map vs_screen_all (mem restrictions:None)
-   AB00 |  2217836 |   278396 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
-   AB21 |  2496232 |   376158 |  NoCrunch | Asset bundle 21 (sagat_stage)
-   AB03 |  2872390 |   505104 |  NoCrunch | Asset bundle 3 (birdie_stage)
-   AB05 |  3377494 |   319928 |  NoCrunch | Asset bundle 5 (eagle_stage)
-   AB17 |  3697422 |   298702 |  NoCrunch | Asset bundle 17 (mike_stage)
-   AB07 |  3996124 |   274320 |  NoCrunch | Asset bundle 7 (geki_stage)
-   AB09 |  4270444 |   362018 |  NoCrunch | Asset bundle 9 (gen_stage)
-   AB01 |  4632462 |   348826 |  NoCrunch | Asset bundle 1 (adon_stage)
-   AB15 |  4981288 |   375432 |  NoCrunch | Asset bundle 15 (lee_stage)
-   AB11 |  5356720 |   309484 |  NoCrunch | Asset bundle 11 (joe_stage)
-   AB19 |  5666204 |   235940 |  NoCrunch | Asset bundle 19 (retsu_stage)
-   AB02 |  5902144 |    18734 |  NoCrunch | Asset bundle 2 (adon_vs_screen)
-   AB04 |  5920878 |    18748 |  NoCrunch | Asset bundle 4 (birdie_vs_screen)
-   AB06 |  5939626 |    19150 |  NoCrunch | Asset bundle 6 (eagle_vs_screen)
-   AB08 |  5958776 |    17824 |  NoCrunch | Asset bundle 8 (geki_vs_screen)
-   AB10 |  5976600 |    18790 |  NoCrunch | Asset bundle 10 (gen_vs_screen)
-   AB12 |  5995390 |    18420 |  NoCrunch | Asset bundle 12 (joe_vs_screen)
-   AB13 |  6013810 |    79876 |  NoCrunch | Asset bundle 13 (ken_stage)
-   AB14 |  6093686 |    18896 |  NoCrunch | Asset bundle 14 (ken_vs_screen)
-   AB16 |  6112582 |    19374 |  NoCrunch | Asset bundle 16 (lee_vs_screen)
-   AB18 |  6131956 |    18674 |  NoCrunch | Asset bundle 18 (mike_vs_screen)
-   AB20 |  6150630 |    17622 |  NoCrunch | Asset bundle 20 (retsu_vs_screen)
-   AB22 |  6168252 |    18498 |  NoCrunch | Asset bundle 22 (sagat_vs_screen)
-   AB23 |  6186750 |   129490 |  NoCrunch | Asset bundle 23 (vs_screen_all)
-   DB00 |  6316240 |   143040 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |  6459280 |     4508 |  NoCrunch | Project Header
-   PD01 |  6463788 |        4 |  NoCrunch | Project Custom Collisions
-   PD00 |  6463792 |   111982 |  NoCrunch | Project Data
-   VR00 |  6575774 |     1112 |  NoCrunch | Project virtual machine redirects
+   MC01 |    16086 |    12348 |  NoCrunch | Music data retsu_stage1
+   MS01 |    28434 |   175276 |  NoCrunch | Music samples retsu_stage1
+   MC02 |   203710 |     2108 |  NoCrunch | Music data sf1_coin
+   MS02 |   205818 |    30840 |  NoCrunch | Music samples sf1_coin
+   MC03 |   236658 |    12348 |  NoCrunch | Music data sf1_stage01_retsu
+   MS03 |   249006 |   171752 |  NoCrunch | Music samples sf1_stage01_retsu
+   MC04 |   420758 |    13372 |  NoCrunch | Music data sf1_stage02_geki
+   MS04 |   434130 |   153584 |  NoCrunch | Music samples sf1_stage02_geki
+   MC05 |   587714 |     5180 |  NoCrunch | Music data sf1_stage03_joe
+   MS05 |   592894 |    61140 |  NoCrunch | Music samples sf1_stage03_joe
+   MC06 |   654034 |     7228 |  NoCrunch | Music data sf1_stage04_mike
+   MS06 |   661262 |   132628 |  NoCrunch | Music samples sf1_stage04_mike
+   MC07 |   793890 |     7228 |  NoCrunch | Music data sf1_stage05_lee
+   MS07 |   801118 |   136480 |  NoCrunch | Music samples sf1_stage05_lee
+   MC08 |   937598 |     7228 |  NoCrunch | Music data sf1_stage06_gen
+   MS08 |   944826 |   166340 |  NoCrunch | Music samples sf1_stage06_gen
+   MC09 |  1111166 |     9276 |  NoCrunch | Music data sf1_stage07_birdie
+   MS09 |  1120442 |    83008 |  NoCrunch | Music samples sf1_stage07_birdie
+   MC10 |  1203450 |     6204 |  NoCrunch | Music data sf1_stage08_eagle
+   MS10 |  1209654 |    44632 |  NoCrunch | Music samples sf1_stage08_eagle
+   MC11 |  1254286 |     6204 |  NoCrunch | Music data sf1_stage09_adon
+   MS11 |  1260490 |    50486 |  NoCrunch | Music samples sf1_stage09_adon
+   MC12 |  1310976 |     6204 |  NoCrunch | Music data sf1_stage10_sagat
+   MS12 |  1317180 |   121326 |  NoCrunch | Music samples sf1_stage10_sagat
+   MC13 |  1438506 |     4156 |  NoCrunch | Music data sf1_stage_clear
+   MS13 |  1442662 |   141556 |  NoCrunch | Music samples sf1_stage_clear
+   MC14 |  1584218 |    10300 |  NoCrunch | Music data sf1_stage_select
+   MS14 |  1594518 |   113158 |  NoCrunch | Music samples sf1_stage_select
+   MC15 |  1707676 |     5180 |  NoCrunch | Music data sf1_vs
+   MS15 |  1712856 |   169816 |  NoCrunch | Music samples sf1_vs
+   PG-1 |     2560 |    13526 |  NoCrunch | Plugin: PT Player
+   PL09 |  1882672 |     4932 |  NoCrunch | Panel (background color #000)
+   PL01 |  1887604 |     2474 |       ZX0 | Panel scorpion_eng_splashscreen
+   PL02 |  1890078 |    14680 |  NoCrunch | Panel bottom_panel
+   PC02 |  1904758 |     7686 |  NoCrunch | Panel bobs bottom_panel
+   PL03 |  1912444 |    29184 |  NoCrunch | Panel credits_panel
+   PC03 |  1941628 |     4504 |  NoCrunch | Panel bobs credits_panel
+   PL04 |  1946132 |    42104 |  NoCrunch | Panel ending_panel
+   PL05 |  1988236 |    34040 |  NoCrunch | Panel intro_panel
+   PL06 |  2022276 |    11512 |  NoCrunch | Panel loser_panel
+   PC06 |  2033788 |     4454 |  NoCrunch | Panel bobs loser_panel
+   PL07 |  2038242 |     7604 |  NoCrunch | Panel top_panel
+   PC07 |  2045846 |     4924 |  NoCrunch | Panel bobs top_panel
+   PL08 |  2050770 |    11520 |  NoCrunch | Panel wining_panel
+   PC08 |  2062290 |     4558 |  NoCrunch | Panel bobs wining_panel
+   VV00 |  2066848 |     1352 |  NoCrunch | Project Variables
+   VC00 |  2068200 |    51988 |  NoCrunch | Project virtual machine (codeblocks)
+   MA01 |     2398 |       84 |  NoCrunch | Map actor data for adon_stage
+   MH01 |  2120188 |      848 |  NoCrunch | Header data for map adon_stage
+   MD01 |  2121036 |     4466 |  NoCrunch | Tile data for map adon_stage (mem restrictions:None)
+   MH02 |  2125502 |      848 |  NoCrunch | Header data for map adon_vs_screen
+   MD02 |  2126350 |     3248 |  NoCrunch | Tile data for map adon_vs_screen (mem restrictions:None)
+   MA03 |  2129598 |       84 |  NoCrunch | Map actor data for birdie_stage
+   MH03 |  2129682 |      848 |  NoCrunch | Header data for map birdie_stage
+   MD03 |  2130530 |     4466 |  NoCrunch | Tile data for map birdie_stage (mem restrictions:None)
+   MH04 |  2134996 |      848 |  NoCrunch | Header data for map birdie_vs_screen
+   MD04 |  2135844 |     3248 |  NoCrunch | Tile data for map birdie_vs_screen (mem restrictions:None)
+   MA05 |  2139092 |       84 |  NoCrunch | Map actor data for eagle_stage
+   MH05 |  2139176 |      848 |  NoCrunch | Header data for map eagle_stage
+   MD05 |  2140024 |     4382 |  NoCrunch | Tile data for map eagle_stage (mem restrictions:None)
+   MH06 |  2144406 |      848 |  NoCrunch | Header data for map eagle_vs_screen
+   MD06 |  2145254 |     3248 |  NoCrunch | Tile data for map eagle_vs_screen (mem restrictions:None)
+   MA07 |  2148502 |       84 |  NoCrunch | Map actor data for geki_stage
+   MH07 |  2148586 |      848 |  NoCrunch | Header data for map geki_stage
+   MD07 |  2149434 |     4466 |  NoCrunch | Tile data for map geki_stage (mem restrictions:None)
+   MH08 |  2153900 |      848 |  NoCrunch | Header data for map geki_vs_screen
+   MD08 |  2154748 |     3248 |  NoCrunch | Tile data for map geki_vs_screen (mem restrictions:None)
+   MA09 |  2157996 |       84 |  NoCrunch | Map actor data for gen_stage
+   MH09 |  2158080 |      848 |  NoCrunch | Header data for map gen_stage
+   MD09 |  2158928 |     4466 |  NoCrunch | Tile data for map gen_stage (mem restrictions:None)
+   MH10 |  2163394 |      848 |  NoCrunch | Header data for map gen_vs_screen
+   MD10 |  2164242 |     3248 |  NoCrunch | Tile data for map gen_vs_screen (mem restrictions:None)
+   MA11 |  2167490 |       84 |  NoCrunch | Map actor data for joe_stage
+   MH11 |  2167574 |      848 |  NoCrunch | Header data for map joe_stage
+   MD11 |  2168422 |     4466 |  NoCrunch | Tile data for map joe_stage (mem restrictions:None)
+   MH12 |  2172888 |      848 |  NoCrunch | Header data for map joe_vs_screen
+   MD12 |  2173736 |     3248 |  NoCrunch | Tile data for map joe_vs_screen (mem restrictions:None)
+   MA13 |  2176984 |       84 |  NoCrunch | Map actor data for ken_stage
+   MH13 |  2177068 |      848 |  NoCrunch | Header data for map ken_stage
+   MD13 |  2177916 |     4466 |  NoCrunch | Tile data for map ken_stage (mem restrictions:None)
+   MH14 |  2182382 |      848 |  NoCrunch | Header data for map ken_vs_screen
+   MD14 |  2183230 |     3248 |  NoCrunch | Tile data for map ken_vs_screen (mem restrictions:None)
+   MA15 |  2186478 |       84 |  NoCrunch | Map actor data for lee_stage
+   MH15 |  2186562 |      848 |  NoCrunch | Header data for map lee_stage
+   MD15 |  2187410 |     4466 |  NoCrunch | Tile data for map lee_stage (mem restrictions:None)
+   MH16 |  2191876 |      848 |  NoCrunch | Header data for map lee_vs_screen
+   MD16 |  2192724 |     3248 |  NoCrunch | Tile data for map lee_vs_screen (mem restrictions:None)
+   MA17 |  2195972 |       84 |  NoCrunch | Map actor data for mike_stage
+   MH17 |  2196056 |      848 |  NoCrunch | Header data for map mike_stage
+   MD17 |  2196904 |     4466 |  NoCrunch | Tile data for map mike_stage (mem restrictions:None)
+   MH18 |  2201370 |      848 |  NoCrunch | Header data for map mike_vs_screen
+   MD18 |  2202218 |     3248 |  NoCrunch | Tile data for map mike_vs_screen (mem restrictions:None)
+   MA19 |  2205466 |       84 |  NoCrunch | Map actor data for retsu_stage
+   MH19 |  2205550 |      848 |  NoCrunch | Header data for map retsu_stage
+   MD19 |  2206398 |     4466 |  NoCrunch | Tile data for map retsu_stage (mem restrictions:None)
+   MH20 |  2210864 |      848 |  NoCrunch | Header data for map retsu_vs_screen
+   MD20 |  2211712 |     3248 |  NoCrunch | Tile data for map retsu_vs_screen (mem restrictions:None)
+   MA21 |  2214960 |       84 |  NoCrunch | Map actor data for sagat_stage
+   MH21 |  2215044 |      848 |  NoCrunch | Header data for map sagat_stage
+   MD21 |  2215892 |     4466 |  NoCrunch | Tile data for map sagat_stage (mem restrictions:None)
+   MH22 |  2220358 |      848 |  NoCrunch | Header data for map sagat_vs_screen
+   MD22 |  2221206 |     3248 |  NoCrunch | Tile data for map sagat_vs_screen (mem restrictions:None)
+   MH23 |  2224454 |      848 |  NoCrunch | Header data for map vs_screen_all
+   MD23 |  2225302 |     6152 |  NoCrunch | Tile data for map vs_screen_all (mem restrictions:None)
+   AB00 |  2231454 |   278396 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB21 |  2509850 |   376158 |  NoCrunch | Asset bundle 21 (sagat_stage)
+   AB03 |  2886008 |   505104 |  NoCrunch | Asset bundle 3 (birdie_stage)
+   AB05 |  3391112 |   319928 |  NoCrunch | Asset bundle 5 (eagle_stage)
+   AB17 |  3711040 |   298702 |  NoCrunch | Asset bundle 17 (mike_stage)
+   AB07 |  4009742 |   274320 |  NoCrunch | Asset bundle 7 (geki_stage)
+   AB09 |  4284062 |   362018 |  NoCrunch | Asset bundle 9 (gen_stage)
+   AB01 |  4646080 |   348826 |  NoCrunch | Asset bundle 1 (adon_stage)
+   AB15 |  4994906 |   375432 |  NoCrunch | Asset bundle 15 (lee_stage)
+   AB11 |  5370338 |   309484 |  NoCrunch | Asset bundle 11 (joe_stage)
+   AB19 |  5679822 |   235940 |  NoCrunch | Asset bundle 19 (retsu_stage)
+   AB02 |  5915762 |    18734 |  NoCrunch | Asset bundle 2 (adon_vs_screen)
+   AB04 |  5934496 |    18748 |  NoCrunch | Asset bundle 4 (birdie_vs_screen)
+   AB06 |  5953244 |    19150 |  NoCrunch | Asset bundle 6 (eagle_vs_screen)
+   AB08 |  5972394 |    17824 |  NoCrunch | Asset bundle 8 (geki_vs_screen)
+   AB10 |  5990218 |    18790 |  NoCrunch | Asset bundle 10 (gen_vs_screen)
+   AB12 |  6009008 |    18420 |  NoCrunch | Asset bundle 12 (joe_vs_screen)
+   AB13 |  6027428 |    79876 |  NoCrunch | Asset bundle 13 (ken_stage)
+   AB14 |  6107304 |    18896 |  NoCrunch | Asset bundle 14 (ken_vs_screen)
+   AB16 |  6126200 |    19374 |  NoCrunch | Asset bundle 16 (lee_vs_screen)
+   AB18 |  6145574 |    18674 |  NoCrunch | Asset bundle 18 (mike_vs_screen)
+   AB20 |  6164248 |    17622 |  NoCrunch | Asset bundle 20 (retsu_vs_screen)
+   AB22 |  6181870 |    18498 |  NoCrunch | Asset bundle 22 (sagat_vs_screen)
+   AB23 |  6200368 |   129490 |  NoCrunch | Asset bundle 23 (vs_screen_all)
+   DB00 |  6329858 |   143040 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |  6472898 |     4508 |  NoCrunch | Project Header
+   PD01 |     2482 |        4 |  NoCrunch | Project Custom Collisions
+   PD00 |  6477406 |   111982 |  NoCrunch | Project Data
+   VR00 |  6589388 |     1116 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
@@ -190,7 +191,7 @@ Misc data size: 110
    83008 |    83008 |        | Music samples sf1_stage07_birdie
    79876 |    79876 |        | Asset bundle 13 (ken_stage)
    61140 |    61140 |        | Music samples sf1_stage03_joe
-   51992 |    51992 |        | Project virtual machine (codeblocks)
+   51988 |    51988 |        | Project virtual machine (codeblocks)
    50486 |    50486 |        | Music samples sf1_stage09_adon
    44632 |    44632 |        | Music samples sf1_stage08_eagle
    42104 |    42104 |        | Panel ending_panel
@@ -209,6 +210,7 @@ Misc data size: 110
    17824 |    17824 |        | Asset bundle 8 (geki_vs_screen)
    17622 |    17622 |        | Asset bundle 20 (retsu_vs_screen)
    14680 |    14680 |        | Panel bottom_panel
+   13526 |    13526 |        | Plugin: PT Player
    13372 |    13372 |        | Music data sf1_stage02_geki
    12348 |    12348 |        | Music data retsu_stage1
    12348 |    12348 |        | Music data sf1_stage01_retsu
@@ -259,7 +261,7 @@ Misc data size: 110
     2474 |    36784 |  (94%) | Panel scorpion_eng_splashscreen
     2108 |     2108 |        | Music data sf1_coin
     1352 |     1352 |        | Project Variables
-    1112 |     1112 |        | Project virtual machine redirects
+    1116 |     1116 |        | Project virtual machine redirects
      848 |      848 |        | Header data for map adon_stage
      848 |      848 |        | Header data for map adon_vs_screen
      848 |      848 |        | Header data for map birdie_stage
@@ -310,19 +312,20 @@ OS/other estimated: 99328
 For other:
 Map data memory: 6152
 Map background memory: 4932
-EXE memory: 234508
-vm memory: 51992
+EXE memory: 221408
+vm memory: 51988
 project memory: 111982
 Music data (sf1_stage02_geki): 13372
 Misc data memory: 143040
+Plugin: PT Player: 13526
 memory reserved for codeblocks variables: 1352
 memory reserved for active actors on screen (6): 956
 memory reserved for dormant actors in map (6): 216
 OS/other estimated: 105472
 
 Accounted memory chip: 1192476
-Accounted memory other: 660602
-Accounted memory total: 1853078
+Accounted memory other: 661024
+Accounted memory total: 1853500
 
 === Possibly unused animations ===
 adon_atk_hk_l
@@ -553,6 +556,7 @@ p2_key_input: 304 (Unused?)
 freemem: 296
 flipxymove: 278 (Unused?)
 load_next_level: 268 (Unused?)
+player_jump: 246
 block_find: 210 (Unused?)
 set_yresolution: 202
 waitforframes: 194
@@ -562,7 +566,6 @@ ryu_fireball_sub: 182
 fireball_hits: 180
 block_count: 178 (Unused?)
 ryu_dragon_punch_sub: 172
-player_jump: 170
 stage_timer_sub: 168
 flipymove: 162 (Unused?)
 snap_to_screen: 162
@@ -769,13 +772,12 @@ autogen_sagat_tiger_knee_r_3: 88
 enemy_low_attack: 88
 pre_load_level: 86
 waitforfirehit: 86
-load_music: 78
 autogen_sagat_tiger_l_1: 78
 AUTOGEN_OUTOFSCREEN_snap_to_screen_snap_to_screen_None_None: 78
 fadeout: 76
-load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
+load_music: 74
 set_ntsc: 74 (Unused?)
 flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
