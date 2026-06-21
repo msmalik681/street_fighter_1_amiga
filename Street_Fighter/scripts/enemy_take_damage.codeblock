@@ -3419,9 +3419,9 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "atk_damage",
-          "Comparison": "LessThan",
-          "RightSide": "p_damage_hard",
+          "LeftSide": "meleetag",
+          "Comparison": "Equals",
+          "RightSide": "light",
           "ComparisonNext": "End",
           "IsValid": true
         }
