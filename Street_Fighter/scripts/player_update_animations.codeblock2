@@ -23,6 +23,8 @@ If actor_controller == 1
     Set p_ani_duck_hard_kick=ryu_duck_atk_hk_r
     Set p_ani_duck_light_punch=ryu_duck_atk_lp_r
     Set p_ani_duck_light_kick=ryu_duck_atk_lk_r
+    Set p_ani_waiting=ryu_waiting_r
+    Set p_ani_win=ryu_win_r
 Else
     Set current_player=2
     Set key_timelimit=p1_key_timelimit
@@ -47,4 +49,6 @@ Else
     Set p_ani_duck_hard_kick=ken_duck_atk_hk_r
     Set p_ani_duck_light_punch=ken_duck_atk_lp_r
     Set p_ani_duck_light_kick=ken_duck_atk_lk_r
+    Set p_ani_waiting=ken_waiting_r
+    Set p_ani_win=ken_win_r
 End
