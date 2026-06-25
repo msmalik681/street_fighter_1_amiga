@@ -1026,7 +1026,7 @@
         {
           "LeftSide": "actor_tag",
           "Comparison": "Equals",
-          "RightSide": "2",
+          "RightSide": "ryu",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -1178,7 +1178,15 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {
