@@ -1,3 +1,1 @@
 ActorController=1
-ActorAsNew self
-CameraFollow ! Snap MaxCamera=8
