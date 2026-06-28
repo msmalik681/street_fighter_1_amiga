@@ -9,7 +9,7 @@
   "TalkpadFont": "defaultfont",
   "TalkpadX": 1,
   "TalkpadY": 1,
-  "TalkpadWidth": 254,
+  "TalkpadWidth": 285,
   "TalkpadHeight": 94,
   "OverrideGamePalette": true,
   "PanelImagePath": "bottom_panel.png",

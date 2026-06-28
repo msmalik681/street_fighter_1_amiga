@@ -9,8 +9,8 @@
   "TalkpadFont": "blue",
   "TalkpadX": 2,
   "TalkpadY": 3,
-  "TalkpadWidth": 254,
-  "TalkpadHeight": 88,
+  "TalkpadWidth": 282,
+  "TalkpadHeight": 90,
   "OverrideGamePalette": true,
   "PanelImagePath": "bottom_panel.png",
   "FireIndicatorPath": null,
@@ -32,11 +32,12 @@
       "IsHighPriority": true,
       "IsRightToLeft": false,
       "PadZeroes": true,
+      "NoRestore": false,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
       "Characters": 14,
-      "MaxValue": 14,
-      "CanBeRightToLeft": false
+      "IsSprite": false,
+      "MaxValue": 14
     },
     {
       "PanelElementType": 3,
@@ -51,11 +52,12 @@
       "IsHighPriority": true,
       "IsRightToLeft": false,
       "PadZeroes": true,
+      "NoRestore": false,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
       "Characters": 31,
-      "MaxValue": 31,
-      "CanBeRightToLeft": false
+      "IsSprite": false,
+      "MaxValue": 31
     },
     {
       "PanelElementType": 3,
@@ -70,11 +72,12 @@
       "IsHighPriority": true,
       "IsRightToLeft": false,
       "PadZeroes": true,
+      "NoRestore": false,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
       "Characters": 32,
-      "MaxValue": 32,
-      "CanBeRightToLeft": false
+      "IsSprite": false,
+      "MaxValue": 32
     }
   ],
   "GFXMode": "BP4",
@@ -115,6 +118,7 @@
       "Left": -0.5,
       "Idle": 0.0,
       "Right": 0.5,
+      "AmigaSliceMode": "Repeating",
       "IsCloud": false,
       "InitialCloudOffset": 0.0,
       "CloudAnimLeft": -0.5,
@@ -133,5 +137,22 @@
   "OnType": null,
   "IsRightAligned": false,
   "MDPlane": 1,
+  "WaterFrom": 1,
+  "WaterFirst": 1,
+  "WaterCount": 0,
+  "WaterScale": 1,
+  "WaterWave": false,
+  "WaterShadowHighlight": false,
+  "WaterPalettePath": null,
+  "RoadPath": null,
+  "AdvancedBackgroundMode": "none",
+  "RoadMode": "floor",
+  "RoadRepeat": 0,
+  "RoadNear": 0.5,
+  "RoadFar": 2.0,
+  "RoadDistanceBottom": 0.0,
+  "RoadHeightBottom": 0,
+  "RoadDistanceTop": 0.0,
+  "RoadHeightTop": 0,
   "ParallaxLineDivisions": 1
 }
