@@ -514,7 +514,7 @@
         {
           "LeftSide": "actor_tag",
           "Comparison": "Equals",
-          "RightSide": "2",
+          "RightSide": "ryu",
           "ComparisonNext": "End",
           "IsValid": true
         }
