@@ -161,7 +161,7 @@
     },
     {
       "PanelElementType": 0,
-      "Variable": "p1_key_input_3",
+      "Variable": "key_input_3",
       "X": 12,
       "Y": 34,
       "NumberFont": "defaultnumberfont",
@@ -181,7 +181,7 @@
     },
     {
       "PanelElementType": 0,
-      "Variable": "p1_key_input_2",
+      "Variable": "key_input_2",
       "X": 23,
       "Y": 35,
       "NumberFont": "defaultnumberfont",
@@ -201,7 +201,7 @@
     },
     {
       "PanelElementType": 0,
-      "Variable": "p1_key_input_1",
+      "Variable": "key_input_1",
       "X": 36,
       "Y": 34,
       "NumberFont": "defaultnumberfont",

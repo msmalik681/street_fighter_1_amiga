@@ -149,7 +149,7 @@
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
   "DivertPlatformLand": null,
-  "DivertTimer": "player_ducking",
+  "DivertTimer": "player_on_timer",
   "DivertTimerFrames": 0,
   "Vars": [
     "0",

@@ -251,7 +251,7 @@
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
       "Goto": "",
-      "Comment": "move player to start position",
+      "Comment": "move camera to start position",
       "Variable": "none",
       "Expression": "0",
       "Index": "0",

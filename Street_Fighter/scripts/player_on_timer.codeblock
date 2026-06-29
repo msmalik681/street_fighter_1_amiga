@@ -3059,13 +3059,6 @@
           "LeftSide": "actor_controlhitbuttons",
           "Comparison": "BitTest",
           "RightSide": "Amiga_Fire1",
-          "ComparisonNext": "And",
-          "IsValid": true
-        },
-        {
-          "LeftSide": "actor_var1",
-          "Comparison": "Equals",
-          "RightSide": "1",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -3144,6 +3137,89 @@
           "RightSide": "",
           "ComparisonNext": "End",
           "IsValid": false
+        }
+      ]
+    },
+    {
+      "Values": {},
+      "DataVersion": 7,
+      "Category": "Conditional",
+      "BasicOperationType": "CommentOnly",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "Condition",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "PaletteOperationType": "SetColor",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
+      "Goto": "",
+      "Comment": "",
+      "Variable": "none",
+      "Expression": "",
+      "Index": "0",
+      "Label": "",
+      "Disabled": false,
+      "Breakpoint": false,
+      "Background": null,
+      "Level": "none",
+      "X": "",
+      "Y": "",
+      "NewBlock": "none",
+      "TeleportName": "none",
+      "ActorType": "none",
+      "Animation": "none",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "CameraFollowMask": 0,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "",
+      "Music": "",
+      "MusicPos": "0",
+      "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
+      "DiceSides": "6",
+      "Conditions": [
+        {
+          "LeftSide": "actor_var1",
+          "Comparison": "Equals",
+          "RightSide": "1",
+          "ComparisonNext": "Or",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "actor_var1",
+          "Comparison": "Equals",
+          "RightSide": "0",
+          "ComparisonNext": "End",
+          "IsValid": true
         }
       ]
     },
@@ -3454,6 +3530,82 @@
           "RightSide": "5",
           "ComparisonNext": "End",
           "IsValid": true
+        }
+      ]
+    },
+    {
+      "Values": {},
+      "DataVersion": 7,
+      "Category": "Actor",
+      "BasicOperationType": "CommentOnly",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "Condition",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "PaletteOperationType": "SetColor",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
+      "Goto": "",
+      "Comment": "",
+      "Variable": "none",
+      "Expression": "",
+      "Index": "0",
+      "Label": "",
+      "Disabled": false,
+      "Breakpoint": false,
+      "Background": null,
+      "Level": "none",
+      "X": "",
+      "Y": "",
+      "NewBlock": "none",
+      "TeleportName": "none",
+      "ActorType": "current_player_actor",
+      "Animation": "none",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "CameraFollowMask": 0,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "",
+      "Music": "",
+      "MusicPos": "0",
+      "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
+      "DiceSides": "6",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
         }
       ]
     },
@@ -5475,6 +5627,84 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
+    },
+    {
+      "Values": {
+        "MathsOperationType": "Angle"
+      },
+      "DataVersion": 7,
+      "Category": "Conditional",
+      "BasicOperationType": "CommentOnly",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "EndCondition",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "PaletteOperationType": "SetColor",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
+      "Goto": "",
+      "Comment": "",
+      "Variable": "none",
+      "Expression": "",
+      "Index": "0",
+      "Label": "",
+      "Disabled": false,
+      "Breakpoint": false,
+      "Background": null,
+      "Level": "none",
+      "X": "",
+      "Y": "",
+      "NewBlock": "none",
+      "TeleportName": "none",
+      "ActorType": "none",
+      "Animation": "none",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "CameraFollowMask": 0,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "",
+      "Music": "",
+      "MusicPos": "0",
+      "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
+      "DiceSides": "6",
       "Conditions": []
     },
     {
