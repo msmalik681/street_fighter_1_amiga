@@ -32,12 +32,12 @@
       "IsHighPriority": true,
       "IsRightToLeft": false,
       "PadZeroes": true,
+      "NoRestore": false,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
       "Characters": 0,
       "IsSprite": false,
-      "MaxValue": 100,
-      "CanBeRightToLeft": true
+      "MaxValue": 100
     },
     {
       "PanelElementType": 2,
@@ -52,12 +52,12 @@
       "IsHighPriority": true,
       "IsRightToLeft": false,
       "PadZeroes": true,
+      "NoRestore": false,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
       "Characters": 0,
       "IsSprite": false,
-      "MaxValue": 100,
-      "CanBeRightToLeft": true
+      "MaxValue": 100
     },
     {
       "PanelElementType": 1,
@@ -72,12 +72,12 @@
       "IsHighPriority": true,
       "IsRightToLeft": false,
       "PadZeroes": true,
+      "NoRestore": false,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
       "Characters": 0,
       "IsSprite": false,
-      "MaxValue": 2,
-      "CanBeRightToLeft": true
+      "MaxValue": 2
     },
     {
       "PanelElementType": 1,
@@ -92,12 +92,12 @@
       "IsHighPriority": true,
       "IsRightToLeft": false,
       "PadZeroes": true,
+      "NoRestore": false,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
       "Characters": 0,
       "IsSprite": false,
-      "MaxValue": 2,
-      "CanBeRightToLeft": true
+      "MaxValue": 2
     },
     {
       "PanelElementType": 0,
@@ -112,18 +112,18 @@
       "IsHighPriority": true,
       "IsRightToLeft": false,
       "PadZeroes": true,
+      "NoRestore": false,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
       "Characters": 0,
       "IsSprite": false,
-      "MaxValue": 100,
-      "CanBeRightToLeft": false
+      "MaxValue": 100
     },
     {
       "PanelElementType": 0,
       "Variable": "temp",
-      "X": 8,
-      "Y": 35,
+      "X": 263,
+      "Y": 5,
       "NumberFont": "defaultnumberfont",
       "Font": null,
       "BarImage": null,
@@ -132,12 +132,12 @@
       "IsHighPriority": true,
       "IsRightToLeft": false,
       "PadZeroes": true,
+      "NoRestore": false,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
       "Characters": 0,
       "IsSprite": false,
-      "MaxValue": 9,
-      "CanBeRightToLeft": false
+      "MaxValue": 9
     },
     {
       "PanelElementType": 0,
@@ -152,12 +152,72 @@
       "IsHighPriority": true,
       "IsRightToLeft": false,
       "PadZeroes": true,
+      "NoRestore": false,
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
       "Characters": 0,
       "IsSprite": false,
-      "MaxValue": 9999999,
-      "CanBeRightToLeft": false
+      "MaxValue": 9999999
+    },
+    {
+      "PanelElementType": 0,
+      "Variable": "p1_key_input_3",
+      "X": 12,
+      "Y": 34,
+      "NumberFont": "defaultnumberfont",
+      "Font": null,
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "IsHighPriority": true,
+      "IsRightToLeft": false,
+      "PadZeroes": true,
+      "NoRestore": false,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
+      "Characters": 0,
+      "IsSprite": false,
+      "MaxValue": 9
+    },
+    {
+      "PanelElementType": 0,
+      "Variable": "p1_key_input_2",
+      "X": 23,
+      "Y": 35,
+      "NumberFont": "defaultnumberfont",
+      "Font": null,
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "IsHighPriority": true,
+      "IsRightToLeft": false,
+      "PadZeroes": true,
+      "NoRestore": false,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
+      "Characters": 0,
+      "IsSprite": false,
+      "MaxValue": 9
+    },
+    {
+      "PanelElementType": 0,
+      "Variable": "p1_key_input_1",
+      "X": 36,
+      "Y": 34,
+      "NumberFont": "defaultnumberfont",
+      "Font": null,
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "IsHighPriority": true,
+      "IsRightToLeft": false,
+      "PadZeroes": true,
+      "NoRestore": false,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
+      "Characters": 0,
+      "IsSprite": false,
+      "MaxValue": 9
     }
   ],
   "GFXMode": "BP3",
@@ -226,9 +286,13 @@
   "WaterPalettePath": null,
   "RoadPath": null,
   "AdvancedBackgroundMode": "none",
-  "RoadMode": "perspective",
+  "RoadMode": "floor",
   "RoadRepeat": 32,
   "RoadNear": 0.5,
   "RoadFar": 1.0,
+  "RoadDistanceBottom": 0.0,
+  "RoadHeightBottom": 0,
+  "RoadDistanceTop": 0.0,
+  "RoadHeightTop": 0,
   "ParallaxLineDivisions": 1
 }

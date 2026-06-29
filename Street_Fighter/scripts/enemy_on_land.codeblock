@@ -2503,7 +2503,7 @@
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
       "Goto": "",
-      "Comment": "enemy was in pain",
+      "Comment": "enemy was in pain, are they dead",
       "Variable": "player_var1",
       "Expression": "4",
       "Index": "0",
