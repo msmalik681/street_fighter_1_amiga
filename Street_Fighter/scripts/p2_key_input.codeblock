@@ -1233,14 +1233,14 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "control1_x",
+          "LeftSide": "control2_x",
           "Comparison": "Equals",
           "RightSide": "velo * -1",
           "ComparisonNext": "And",
           "IsValid": true
         },
         {
-          "LeftSide": "control1_y",
+          "LeftSide": "control2_y",
           "Comparison": "Equals",
           "RightSide": "1",
           "ComparisonNext": "End",
@@ -1396,14 +1396,14 @@
       "DiceSides": "6",
       "Conditions": [
         {
-          "LeftSide": "control1_x",
+          "LeftSide": "control2_x",
           "Comparison": "Equals",
           "RightSide": "velo",
           "ComparisonNext": "And",
           "IsValid": true
         },
         {
-          "LeftSide": "control1_y",
+          "LeftSide": "control2_y",
           "Comparison": "Equals",
           "RightSide": "0",
           "ComparisonNext": "End",
@@ -1555,14 +1555,14 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "control1_y",
+          "LeftSide": "control2_y",
           "Comparison": "Equals",
           "RightSide": "1",
           "ComparisonNext": "And",
           "IsValid": true
         },
         {
-          "LeftSide": "control1_x",
+          "LeftSide": "control2_x",
           "Comparison": "Equals",
           "RightSide": "0",
           "ComparisonNext": "End",
@@ -1714,14 +1714,14 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "control1_x",
+          "LeftSide": "control2_x",
           "Comparison": "Equals",
           "RightSide": "velo * -1",
           "ComparisonNext": "And",
           "IsValid": true
         },
         {
-          "LeftSide": "control1_y",
+          "LeftSide": "control2_y",
           "Comparison": "Equals",
           "RightSide": "0",
           "ComparisonNext": "End",
