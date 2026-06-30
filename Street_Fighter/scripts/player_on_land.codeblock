@@ -2536,7 +2536,7 @@
       "Y": "",
       "NewBlock": "none",
       "TeleportName": "none",
-      "ActorType": "current_player_actor",
+      "ActorType": "004_ryu",
       "Animation": "none",
       "LookDirection": "look_upleft",
       "ResetMovement": true,

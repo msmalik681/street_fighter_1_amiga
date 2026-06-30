@@ -3,6 +3,8 @@ author=
 copyright_month=
 copyright_year=
 description=
+experiment_ignore_actor_configuration_errors=false
+experiment_show_internal_codeblocks=false
 project_name=
 project_name_international=
 publisher=
@@ -10,5 +12,8 @@ version=
 
 [amiga_all]
 atlas_compression=0
-buffer_count=2
+experiment_allow_any_size_panel_gap=false
+experiment_buffer_count=2
+experiment_disable_double_copperlist=false
+experiment_exceed_max_map_size=false
 tightly_pack_graphics=true

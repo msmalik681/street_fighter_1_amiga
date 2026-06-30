@@ -278,7 +278,7 @@
       "FrameData": [
         {
           "FrameID": "dead_01",
-          "Duration": 5,
+          "Duration": 0,
           "Properties": {
             "Events": "{\r\n  \"Events\": []\r\n}",
             "RenderType": "RetroAnimator"

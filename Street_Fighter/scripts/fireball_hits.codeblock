@@ -249,7 +249,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "atk_damage",
-      "Expression": "p_damage_light + 5",
+      "Expression": "p_damage_hard",
       "Index": "0",
       "Label": "",
       "Disabled": false,
