@@ -443,27 +443,25 @@
       ]
     },
     {
-      "Values": {
-        "MathsOperationType": "Angle"
-      },
+      "Values": {},
       "DataVersion": 7,
-      "Category": "Conditional",
+      "Category": "Actor",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
       "AudioOperationType": "PlaySound",
-      "ConditionType": "ForeachActor",
+      "ConditionType": "Condition",
       "LevelOperationType": "LoadLevel",
-      "ActorOperationType": "SetType",
+      "ActorOperationType": "SelectPlayer",
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
       "ControlOperationType": "JumpControls",
       "PaletteOperationType": "SetColor",
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
-      "Goto": "player_to_new",
+      "Goto": "",
       "Comment": "",
       "Variable": "none",
-      "Expression": "",
+      "Expression": "1",
       "Index": "0",
       "Label": "",
       "Disabled": false,
@@ -512,11 +510,11 @@
       "DiceSides": "6",
       "Conditions": [
         {
-          "LeftSide": "actor_tag",
-          "Comparison": "Equals",
-          "RightSide": "ryu",
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
           "ComparisonNext": "End",
-          "IsValid": true
+          "IsValid": false
         }
       ]
     },
@@ -541,7 +539,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "player1_x",
-      "Expression": "new_x",
+      "Expression": "player_x",
       "Index": "0",
       "Label": "",
       "Disabled": false,
@@ -802,7 +800,7 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "new_x",
+          "LeftSide": "player_x",
           "Comparison": "GreaterThan",
           "RightSide": "enemy_x",
           "ComparisonNext": "End",
@@ -1250,7 +1248,7 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "new_lookdir",
+          "LeftSide": "player_lookdir",
           "Comparison": "NotEquals",
           "RightSide": "Look_Left",
           "ComparisonNext": "And",
@@ -1344,7 +1342,7 @@
     {
       "Values": {},
       "DataVersion": 7,
-      "Category": "New",
+      "Category": "Player",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
       "AudioOperationType": "PlaySound",
@@ -2001,7 +1999,7 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "new_lookdir",
+          "LeftSide": "player_lookdir",
           "Comparison": "NotEquals",
           "RightSide": "Look_Right",
           "ComparisonNext": "And",
@@ -2095,7 +2093,7 @@
     {
       "Values": {},
       "DataVersion": 7,
-      "Category": "New",
+      "Category": "Player",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
       "AudioOperationType": "PlaySound",
