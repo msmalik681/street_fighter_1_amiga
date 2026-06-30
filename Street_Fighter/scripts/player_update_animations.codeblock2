@@ -1,5 +1,5 @@
 //### PLAYER SETUP ###
-If actor_controller == 1
+If actor_tag == ryu
     Set current_player=1
     Set key_timelimit=p1_key_timelimit
     Set key_input_1=p1_key_input_1

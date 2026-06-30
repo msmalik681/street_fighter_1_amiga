@@ -1145,7 +1145,7 @@
       "Expression": "0",
       "Index": "0",
       "Label": "",
-      "Disabled": true,
+      "Disabled": false,
       "Breakpoint": false,
       "Background": null,
       "Level": "none",
