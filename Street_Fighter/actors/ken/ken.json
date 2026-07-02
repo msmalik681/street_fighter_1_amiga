@@ -154,7 +154,7 @@
         }
       ],
       "Properties": {
-        "OnFinish": "player_on_land",
+        "OnFinish": "enemy_on_land",
         "PreventMovement": "True"
       }
     },
