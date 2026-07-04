@@ -260,8 +260,8 @@
       "Breakpoint": false,
       "Background": null,
       "Level": "none",
-      "X": "e_velo * 52 + Player_X",
-      "Y": "Player_Y - 67",
+      "X": "e_velo * 52 + actor_x",
+      "Y": "actor_y - 67",
       "NewBlock": "none",
       "TeleportName": "none",
       "ActorType": "none",
@@ -406,8 +406,8 @@
       "Breakpoint": false,
       "Background": null,
       "Level": "none",
-      "X": "velo * 52 + Player_X",
-      "Y": "Player_Y - 67",
+      "X": "velo * 52 + actor_x",
+      "Y": "actor_y - 67",
       "NewBlock": "none",
       "TeleportName": "none",
       "ActorType": "none",
@@ -446,7 +446,15 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {
@@ -586,7 +594,7 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "player_lookdir",
+          "LeftSide": "actor_lookdir",
           "Comparison": "Equals",
           "RightSide": "Look_Right",
           "ComparisonNext": "End",
@@ -888,6 +896,74 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "Conditions": []
+    },
+    {
+      "Values": {},
+      "DataVersion": 7,
+      "Category": "Base",
+      "BasicOperationType": "CommentOnly",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "Condition",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "PaletteOperationType": "SetColor",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
+      "Goto": "",
+      "Comment": "",
+      "Variable": "none",
+      "Expression": "",
+      "Index": "0",
+      "Label": "",
+      "Disabled": false,
+      "Breakpoint": false,
+      "Background": null,
+      "Level": "none",
+      "X": "",
+      "Y": "",
+      "NewBlock": "none",
+      "TeleportName": "none",
+      "ActorType": "none",
+      "Animation": "none",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "CameraFollowMask": 0,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "",
+      "Music": "",
+      "MusicPos": "0",
+      "Platform": "all",
+      "VariableType": "Variable",
+      "VariableExpansionMode": "Word",
+      "DiceSides": "6",
       "Conditions": []
     }
   ]
