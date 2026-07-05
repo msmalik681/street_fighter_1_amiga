@@ -207,7 +207,7 @@
             "Sound": "none",
             "Variable": null,
             "Expression": null,
-            "Tag": "FrameEvent2",
+            "Tag": "hard",
             "IsConditional": false,
             "OverrideDirection": false,
             "Animation": "none",

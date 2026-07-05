@@ -186,7 +186,7 @@
             "Sound": "none",
             "Variable": null,
             "Expression": null,
-            "Tag": "FrameEvent2",
+            "Tag": "light",
             "IsConditional": false,
             "OverrideDirection": false,
             "Animation": "none",

@@ -3321,6 +3321,13 @@
           "LeftSide": "actor_var1",
           "Comparison": "Equals",
           "RightSide": "6",
+          "ComparisonNext": "And",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "actor_type",
+          "Comparison": "Equals",
+          "RightSide": "ken_duck",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -3405,74 +3412,6 @@
       ]
     },
     {
-      "Values": {},
-      "DataVersion": 7,
-      "Category": "Base",
-      "BasicOperationType": "Gosub",
-      "DisplayOperationType": "SetPanel",
-      "AudioOperationType": "PlaySound",
-      "ConditionType": "Condition",
-      "LevelOperationType": "LoadLevel",
-      "ActorOperationType": "SetType",
-      "DialogueOperationType": "Speak",
-      "DataOperationType": "Load",
-      "ControlOperationType": "JumpControls",
-      "PaletteOperationType": "SetColor",
-      "CoreType": "ActorSetType",
-      "ControlMode": "Joys_1",
-      "Goto": "player_update_animations",
-      "Comment": "",
-      "Variable": "none",
-      "Expression": "",
-      "Index": "0",
-      "Label": "",
-      "Disabled": false,
-      "Breakpoint": false,
-      "Background": null,
-      "Level": "none",
-      "X": "",
-      "Y": "",
-      "NewBlock": "none",
-      "TeleportName": "none",
-      "ActorType": "none",
-      "Animation": "none",
-      "LookDirection": "look_upleft",
-      "ResetMovement": true,
-      "ResetAnimations": true,
-      "ShootDirType": "actor_direction",
-      "Panel": "none",
-      "WaitForFireHit": false,
-      "Frames": "0",
-      "CameraBox": {
-        "Left": "0",
-        "Right": "0",
-        "Up": "0",
-        "Down": "0"
-      },
-      "LookAhead": {
-        "Left": "0",
-        "Right": "0",
-        "Up": "0",
-        "Down": "0"
-      },
-      "CameraFollowMask": 0,
-      "ColorIndex": "0",
-      "Color": {
-        "r": 0,
-        "g": 0,
-        "b": 0,
-        "a": 255
-      },
-      "Sound": "",
-      "Music": "",
-      "MusicPos": "0",
-      "Platform": "all",
-      "VariableType": "Variable",
-      "VariableExpansionMode": "Word",
-      "DiceSides": "6",
-      "Conditions": []
-    },
-    {
       "Values": {
         "MathsOperationType": "Angle"
       },
@@ -3504,7 +3443,7 @@
       "Y": "",
       "NewBlock": "none",
       "TeleportName": "none",
-      "ActorType": "current_player_actor_duck",
+      "ActorType": "ken_duck",
       "Animation": "none",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
@@ -3540,7 +3479,15 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {
