@@ -105,9 +105,9 @@
   ],
   "CollBox": {
     "X": -17,
-    "Y": -57,
-    "Width": 38,
-    "Height": 50
+    "Y": -52,
+    "Width": 33,
+    "Height": 45
   },
   "AttackDelay": 0,
   "ZOrder": 0,
@@ -143,8 +143,8 @@
   "DivertPlayerHit": "enemy_take_damage",
   "DivertHitAgainstPlayer": "player_take_damage",
   "DivertProjectileCollision": "fireball_hits",
-  "DivertOutOfScreenLeft": "",
-  "DivertOutOfScreenRight": "",
+  "DivertOutOfScreenLeft": "snap_to_screen",
+  "DivertOutOfScreenRight": "snap_to_screen",
   "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,

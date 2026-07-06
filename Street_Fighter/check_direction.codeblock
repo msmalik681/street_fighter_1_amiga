@@ -879,6 +879,20 @@
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
           "RightSide": "e_ani_idle - 1",
+          "ComparisonNext": "Or",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "actor_animation",
+          "Comparison": "Equals",
+          "RightSide": "e_ani_walk - 1",
+          "ComparisonNext": "Or",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "actor_animation",
+          "Comparison": "Equals",
+          "RightSide": "e_ani_idle_low - 1",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -1560,7 +1574,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "MathsOperationType": "Angle"
+      },
       "DataVersion": 7,
       "Category": "Conditional",
       "BasicOperationType": "CommentOnly",
@@ -1610,7 +1626,7 @@
         "Up": "0",
         "Down": "0"
       },
-      "CameraFollowMask": 15,
+      "CameraFollowMask": 0,
       "ColorIndex": "0",
       "Color": {
         "r": 0,
@@ -1624,12 +1640,26 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
-      "DiceSides": "2",
+      "DiceSides": "6",
       "Conditions": [
         {
           "LeftSide": "actor_animation",
           "Comparison": "Equals",
           "RightSide": "e_ani_idle",
+          "ComparisonNext": "Or",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "actor_animation",
+          "Comparison": "Equals",
+          "RightSide": "e_ani_walk",
+          "ComparisonNext": "Or",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "actor_animation",
+          "Comparison": "Equals",
+          "RightSide": "e_ani_idle_low",
           "ComparisonNext": "End",
           "IsValid": true
         }
