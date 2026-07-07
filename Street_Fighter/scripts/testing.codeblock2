@@ -1,0 +1,9 @@
+ActorSelectPlayer=2
+Set player_var1=5
+PlayerAnimation ken_fireball_r Frame=0 AutoFlip
+
+ActorSelectPlayer=1
+
+Set player_var1=7
+# PlayerType 005_ryu_duck ResetMovement ResetAnimation
+PlayerAnimation ryu_dragon_punch_r Frame=0 AutoFlip
