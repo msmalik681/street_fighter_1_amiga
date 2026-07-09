@@ -1,5 +1,5 @@
-Compiled on 07 July 2026 17:03:47
-Version string: SE2026.0.260707.13.05.EX
+Compiled on 09 July 2026 20:33:06
+Version string: SE2026.0.260709.12.34.EX
 
 === Misc ===
 ImageFrames: 1432
@@ -314,7 +314,7 @@ OS/other estimated: 99328
 For other:
 Map data memory: 6152
 Map background memory: 4932
-EXE memory: 221184
+EXE memory: 220864
 vm memory: 58076
 project memory: 113224
 Music data (sf1_stage02_geki): 13372
@@ -326,8 +326,8 @@ memory reserved for dormant actors in map (6): 216
 OS/other estimated: 105472
 
 Accounted memory chip: 1192480
-Accounted memory other: 672086
-Accounted memory total: 1864566
+Accounted memory other: 671766
+Accounted memory total: 1864246
 
 === Possibly unused animations ===
 adon_atk_hk_l
