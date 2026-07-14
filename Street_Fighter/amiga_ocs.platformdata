@@ -11,7 +11,7 @@
   "SmoothScrolling": true,
   "FMode": 0,
   "Width": 288,
-  "XOffset": 0,
+  "XOffset": 16,
   "XFillSize": 22,
   "YFillSize": 17,
   "MDPlaneMode": "Width_512_Height_256",
