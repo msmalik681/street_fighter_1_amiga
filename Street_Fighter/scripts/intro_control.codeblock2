@@ -1,0 +1,19 @@
+
+If camera_y == 0
+    Yield 50
+ElseIf camera_y == 224 * 5
+    Yield 40
+ElseIf camera_y == 224 * 8
+    Yield 75
+ElseIf camera_y > 224 * 4
+    Yield 10
+End
+
+
+If camera_y == 224 * 8
+    FadeOut
+    Set stage=0
+    Goto startup
+End
+
+CameraPosition Y=camera_y + 224 ResetMovement Fast
