@@ -1,19 +1,66 @@
 [all]
+//The author of this game
+//Currently only for WHDLoad
 author=
+
+//Three letter month such as JAN or SEP, used in the Mega Drive copyright string.
 copyright_month=
+
+//Four digit year of release.
+//Used in the Mega Drive copyright string, the NeoSD header and the Neo Geo MAME entry.
 copyright_year=
+
+//How many decals the Level->Decal command may paint into the level in a single frame, up to 254.
+//Zero disables decals entirely and costs no memory. Going over the limit is a kill screen.
+//Amiga and Mega Drive paint decals, NeoGeo does not yet.
+decals=16
+
+//A longer description of the game.
+//At present only the Neo Geo MAME entry uses it.
 description=
+
+//Set true to skip the sanity checks on actors, such as a platformer actor whose collision box starts below the ground line.
 experiment_ignore_actor_configuration_errors=false
+
+//Set true to list Scorpion's own standard library codeblocks in the code editor.
+//They are hidden normally because changing them can break the engine.
 experiment_show_internal_codeblocks=false
+
+//The name of the game.
+//Written into the Mega Drive ROM header and used as the name of the save file.
 project_name=
+
+//Overseas title for the Mega Drive ROM header.
+//Leave blank to reuse project_name.
 project_name_international=
+
+//Who published the game.
+//The Mega Drive copyright string only keeps the first four characters.
 publisher=
+
+//Version number reported by the WHDLoad slave. Amiga only.
 version=
 
 [amiga_all]
+//Atlas packing setting, it's difficult to quantify the amount of saving but feel free to experiment with this value to see if memory usage goes up or down.
+//Zero turns atlas packing off.
 atlas_compression=0
+
+//Set true to use a custom panel gap size, overriding Scorpion's bare minimum.
+//If the gap is too low, graphical corruption will result.
 experiment_allow_any_size_panel_gap=false
+
+//Number of screen buffers the engine allocates, where two means double buffering.
+//Only 1 or 2 buffers currently supported
 experiment_buffer_count=2
+
+//Set true to build without a double buffered copper list.
+//Saves memory at a high risk of graphical corruption when loading or unloading panels.
 experiment_disable_double_copperlist=false
+
+//Set true to skip the check on level width and height.
+//Levels past the limit may not display properly.
 experiment_exceed_max_map_size=false
+
+//Lets exported graphics overlap bytes that already exist in the bundle, which saves chip memory but makes compiling slower and introduces a slight risk of graphical glitches.
 tightly_pack_graphics=true
