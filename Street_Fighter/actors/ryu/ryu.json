@@ -18,7 +18,7 @@
       "FrameData": [
         {
           "FrameID": "hard_kick_01",
-          "Duration": 3,
+          "Duration": 16,
           "Properties": {
             "Events": "{\r\n  \"Events\": []\r\n}",
             "RenderType": "RetroAnimator"

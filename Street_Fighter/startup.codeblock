@@ -68,6 +68,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -144,6 +145,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -212,6 +214,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -280,6 +283,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -348,6 +352,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -416,6 +421,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -484,6 +490,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -552,6 +559,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -620,6 +628,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -688,6 +697,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -756,6 +766,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Long",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -824,6 +835,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -892,6 +904,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -960,6 +973,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1028,6 +1042,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1096,6 +1111,7 @@
       "VariableType": "String",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1164,6 +1180,7 @@
       "VariableType": "String",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1232,6 +1249,7 @@
       "VariableType": "String",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1300,6 +1318,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1368,6 +1387,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1436,6 +1456,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1504,6 +1525,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1572,6 +1594,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1640,6 +1663,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1708,6 +1732,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1776,6 +1801,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Byte",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -1844,6 +1870,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1920,6 +1947,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1996,6 +2024,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Long",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -2064,6 +2093,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2140,6 +2170,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -2208,6 +2239,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -2278,6 +2310,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -2352,6 +2385,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -2426,6 +2460,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -2498,6 +2533,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -2570,6 +2606,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -2638,6 +2675,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2714,6 +2752,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2790,6 +2829,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -2858,6 +2898,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -2926,6 +2967,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -2994,6 +3036,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -3070,6 +3113,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "player2_wins",
@@ -3146,6 +3190,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -3222,6 +3267,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -3298,6 +3344,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -3374,6 +3421,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -3442,6 +3490,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "stage",
@@ -3518,6 +3567,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -3594,6 +3644,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -3672,6 +3723,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "stage",
@@ -3748,6 +3800,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -3826,6 +3879,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -3904,6 +3958,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -3982,6 +4037,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -4058,6 +4114,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -4136,6 +4193,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -4204,6 +4262,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -4280,6 +4339,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "stage",
@@ -4358,6 +4418,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -4434,6 +4495,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -4510,6 +4572,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -4578,6 +4641,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -4646,6 +4710,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "stage",
@@ -4722,6 +4787,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -4798,6 +4864,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "player1_wins",
@@ -4874,6 +4941,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -4950,6 +5018,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -5018,6 +5087,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -5094,6 +5164,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -5170,6 +5241,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -5246,6 +5318,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -5322,6 +5395,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -5398,6 +5472,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -5474,6 +5549,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -5542,6 +5618,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -5610,6 +5687,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -5678,6 +5756,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -5746,6 +5825,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -5814,6 +5894,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -5882,6 +5963,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -5950,6 +6032,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -6026,6 +6109,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -6102,6 +6186,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -6170,6 +6255,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -6246,6 +6332,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -6322,6 +6409,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -6398,6 +6486,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -6474,6 +6563,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -6550,6 +6640,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -6626,6 +6717,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -6702,6 +6794,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -6778,6 +6871,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -6854,6 +6948,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -6930,6 +7025,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -7006,6 +7102,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -7082,6 +7179,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -7158,6 +7256,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -7226,6 +7325,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -7302,6 +7402,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -7378,6 +7479,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -7454,6 +7556,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -7530,6 +7633,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -7606,6 +7710,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -7682,6 +7787,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -7758,6 +7864,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -7834,6 +7941,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -7910,6 +8018,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -7986,6 +8095,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -8062,6 +8172,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -8138,6 +8249,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -8206,6 +8318,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -8282,6 +8395,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -8358,6 +8472,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -8434,6 +8549,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -8510,6 +8626,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -8586,6 +8703,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -8657,6 +8775,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -8733,6 +8852,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -8809,6 +8929,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -8877,6 +8998,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -8953,6 +9075,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -9029,6 +9152,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -9099,6 +9223,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -9175,6 +9300,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -9246,6 +9372,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -9322,6 +9449,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -9390,6 +9518,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -9468,6 +9597,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -9544,6 +9674,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -9620,6 +9751,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -9696,6 +9828,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -9772,6 +9905,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -9840,6 +9974,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -9908,6 +10043,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -9976,6 +10112,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -10044,6 +10181,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -10120,6 +10258,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -10188,6 +10327,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -10264,6 +10404,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -10332,6 +10473,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "stage",
@@ -10408,6 +10550,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -10484,6 +10627,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -10560,6 +10704,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "player1_wins",
@@ -10636,6 +10781,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -10712,6 +10858,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -10788,6 +10935,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -10864,6 +11012,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -10940,6 +11089,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -11016,6 +11166,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -11092,6 +11243,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -11160,6 +11312,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -11236,6 +11389,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -11304,6 +11458,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -11372,6 +11527,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -11440,6 +11596,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -11508,6 +11665,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -11576,6 +11734,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -11644,6 +11803,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -11720,6 +11880,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -11796,6 +11957,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -11864,6 +12026,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -11940,6 +12103,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -12016,6 +12180,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -12092,6 +12257,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -12168,6 +12334,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -12244,6 +12411,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -12320,6 +12488,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -12396,6 +12565,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -12472,6 +12642,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -12548,6 +12719,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -12624,6 +12796,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -12700,6 +12873,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -12776,6 +12950,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -12852,6 +13027,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -12920,6 +13096,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -12996,6 +13173,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -13072,6 +13250,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -13148,6 +13327,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -13224,6 +13404,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -13300,6 +13481,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -13376,6 +13558,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -13444,6 +13627,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -13520,6 +13704,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -13596,6 +13781,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -13672,6 +13858,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -13748,6 +13935,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -13824,6 +14012,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -13892,6 +14081,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -13968,6 +14158,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -14044,6 +14235,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -14120,6 +14312,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -14196,6 +14389,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -14272,6 +14466,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -14343,6 +14538,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -14419,6 +14615,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -14495,6 +14692,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -14563,6 +14761,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -14639,6 +14838,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -14709,6 +14909,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -14785,6 +14986,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -14853,6 +15055,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -14921,6 +15124,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "stage",
@@ -14997,6 +15201,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -15073,6 +15278,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -15149,6 +15355,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "player1_wins",
@@ -15225,6 +15432,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -15301,6 +15509,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -15377,6 +15586,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -15453,6 +15663,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -15529,6 +15740,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -15605,6 +15817,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -15681,6 +15894,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -15749,6 +15963,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -15825,6 +16040,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -15893,6 +16109,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -15961,6 +16178,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -16029,6 +16247,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -16097,6 +16316,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -16165,6 +16385,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -16233,6 +16454,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -16309,6 +16531,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -16385,6 +16608,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -16453,6 +16677,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -16529,6 +16754,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -16605,6 +16831,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -16681,6 +16908,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -16757,6 +16985,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -16833,6 +17062,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -16909,6 +17139,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -16985,6 +17216,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -17061,6 +17293,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -17137,6 +17370,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -17213,6 +17447,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -17289,6 +17524,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -17365,6 +17601,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -17441,6 +17678,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -17509,6 +17747,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -17585,6 +17824,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -17661,6 +17901,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -17737,6 +17978,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -17813,6 +18055,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -17889,6 +18132,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -17965,6 +18209,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -18033,6 +18278,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -18109,6 +18355,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -18185,6 +18432,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -18261,6 +18509,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -18337,6 +18586,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -18413,6 +18663,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -18481,6 +18732,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -18557,6 +18809,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -18633,6 +18886,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -18709,6 +18963,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -18785,6 +19040,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -18861,6 +19117,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -18932,6 +19189,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -19008,6 +19266,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -19084,6 +19343,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -19160,6 +19420,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -19228,6 +19489,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -19304,6 +19566,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -19374,6 +19637,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -19450,6 +19714,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -19518,6 +19783,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -19594,6 +19860,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "stage",
@@ -19670,6 +19937,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -19746,6 +20014,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "player1_wins",
@@ -19822,6 +20091,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -19898,6 +20168,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -19974,6 +20245,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -20050,6 +20322,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -20126,6 +20399,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -20202,6 +20476,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -20278,6 +20553,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -20346,6 +20622,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -20422,6 +20699,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -20490,6 +20768,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -20558,6 +20837,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -20626,6 +20906,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -20694,6 +20975,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -20762,6 +21044,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -20830,6 +21113,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -20906,6 +21190,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -20982,6 +21267,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -21050,6 +21336,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -21126,6 +21413,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -21202,6 +21490,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -21278,6 +21567,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -21354,6 +21644,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -21430,6 +21721,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -21506,6 +21798,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -21582,6 +21875,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -21658,6 +21952,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -21734,6 +22029,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -21810,6 +22106,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -21886,6 +22183,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -21962,6 +22260,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -22038,6 +22337,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -22106,6 +22406,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -22182,6 +22483,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -22258,6 +22560,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -22334,6 +22637,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -22410,6 +22714,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -22486,6 +22791,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -22562,6 +22868,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -22630,6 +22937,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -22706,6 +23014,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -22782,6 +23091,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -22858,6 +23168,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -22934,6 +23245,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -23010,6 +23322,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -23078,6 +23391,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -23154,6 +23468,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -23230,6 +23545,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -23306,6 +23622,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -23382,6 +23699,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -23458,6 +23776,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -23529,6 +23848,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -23605,6 +23925,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -23681,6 +24002,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -23757,6 +24079,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -23825,6 +24148,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -23901,6 +24225,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -23971,6 +24296,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -24047,6 +24373,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -24115,6 +24442,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -24183,6 +24511,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "stage",
@@ -24259,6 +24588,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -24335,6 +24665,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "player1_wins",
@@ -24411,6 +24742,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -24487,6 +24819,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -24563,6 +24896,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -24639,6 +24973,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -24715,6 +25050,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -24791,6 +25127,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -24867,6 +25204,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -24935,6 +25273,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -25011,6 +25350,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -25079,6 +25419,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -25147,6 +25488,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -25215,6 +25557,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -25283,6 +25626,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -25351,6 +25695,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -25419,6 +25764,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -25495,6 +25841,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -25571,6 +25918,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -25639,6 +25987,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -25715,6 +26064,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -25791,6 +26141,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -25867,6 +26218,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -25943,6 +26295,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -26019,6 +26372,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -26095,6 +26449,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -26171,6 +26526,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -26247,6 +26603,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -26323,6 +26680,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -26399,6 +26757,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -26475,6 +26834,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -26551,6 +26911,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -26627,6 +26988,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -26695,6 +27057,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -26771,6 +27134,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -26847,6 +27211,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -26923,6 +27288,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -26999,6 +27365,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -27075,6 +27442,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -27151,6 +27519,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -27219,6 +27588,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -27295,6 +27665,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -27371,6 +27742,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -27447,6 +27819,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -27523,6 +27896,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -27599,6 +27973,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -27667,6 +28042,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -27743,6 +28119,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -27819,6 +28196,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -27895,6 +28273,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -27971,6 +28350,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -28047,6 +28427,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -28118,6 +28499,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -28194,6 +28576,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -28270,6 +28653,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -28346,6 +28730,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -28414,6 +28799,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -28490,6 +28876,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -28560,6 +28947,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -28636,6 +29024,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -28704,6 +29093,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "stage",
@@ -28780,6 +29170,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -28856,6 +29247,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "player1_wins",
@@ -28932,6 +29324,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -29008,6 +29401,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -29084,6 +29478,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -29160,6 +29555,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -29236,6 +29632,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -29312,6 +29709,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -29388,6 +29786,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -29456,6 +29855,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -29532,6 +29932,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -29600,6 +30001,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -29668,6 +30070,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -29736,6 +30139,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -29804,6 +30208,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -29872,6 +30277,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -29940,6 +30346,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -30016,6 +30423,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -30092,6 +30500,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -30160,6 +30569,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -30236,6 +30646,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -30312,6 +30723,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -30388,6 +30800,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -30464,6 +30877,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -30540,6 +30954,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -30616,6 +31031,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -30692,6 +31108,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -30768,6 +31185,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -30844,6 +31262,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -30920,6 +31339,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -30996,6 +31416,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -31072,6 +31493,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -31148,6 +31570,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -31216,6 +31639,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -31292,6 +31716,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -31368,6 +31793,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -31444,6 +31870,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -31520,6 +31947,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -31596,6 +32024,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -31672,6 +32101,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -31740,6 +32170,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -31816,6 +32247,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -31892,6 +32324,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -31968,6 +32401,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -32044,6 +32478,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -32120,6 +32555,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -32188,6 +32624,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -32264,6 +32701,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -32340,6 +32778,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -32416,6 +32855,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -32492,6 +32932,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -32568,6 +33009,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -32639,6 +33081,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -32715,6 +33158,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -32791,6 +33235,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -32867,6 +33312,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -32935,6 +33381,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -33011,6 +33458,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -33081,6 +33529,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -33157,6 +33606,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -33225,6 +33675,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "stage",
@@ -33301,6 +33752,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -33377,6 +33829,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "player1_wins",
@@ -33453,6 +33906,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -33529,6 +33983,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -33605,6 +34060,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -33681,6 +34137,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -33757,6 +34214,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -33833,6 +34291,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -33909,6 +34368,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -33977,6 +34437,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -34053,6 +34514,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -34121,6 +34583,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -34189,6 +34652,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -34257,6 +34721,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -34325,6 +34790,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -34393,6 +34859,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -34461,6 +34928,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -34537,6 +35005,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -34613,6 +35082,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -34681,6 +35151,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -34757,6 +35228,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -34833,6 +35305,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -34909,6 +35382,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -34985,6 +35459,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -35061,6 +35536,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -35137,6 +35613,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -35213,6 +35690,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -35289,6 +35767,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -35365,6 +35844,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -35441,6 +35921,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -35517,6 +35998,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -35593,6 +36075,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -35669,6 +36152,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -35737,6 +36221,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -35813,6 +36298,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -35889,6 +36375,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -35965,6 +36452,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -36041,6 +36529,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -36117,6 +36606,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -36193,6 +36683,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -36261,6 +36752,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -36337,6 +36829,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -36413,6 +36906,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -36489,6 +36983,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -36565,6 +37060,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -36641,6 +37137,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -36709,6 +37206,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -36785,6 +37283,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -36861,6 +37360,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -36937,6 +37437,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -37013,6 +37514,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -37089,6 +37591,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -37160,6 +37663,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -37236,6 +37740,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -37312,6 +37817,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -37388,6 +37894,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -37456,6 +37963,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -37532,6 +38040,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -37602,6 +38111,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -37678,6 +38188,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -37746,6 +38257,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "stage",
@@ -37822,6 +38334,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -37898,6 +38411,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "player1_wins",
@@ -37974,6 +38488,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -38050,6 +38565,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -38126,6 +38642,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -38202,6 +38719,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -38278,6 +38796,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -38354,6 +38873,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -38430,6 +38950,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -38498,6 +39019,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -38574,6 +39096,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -38642,6 +39165,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -38710,6 +39234,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -38778,6 +39303,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -38846,6 +39372,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -38914,6 +39441,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -38982,6 +39510,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -39058,6 +39587,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -39134,6 +39664,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -39202,6 +39733,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -39278,6 +39810,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -39354,6 +39887,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -39430,6 +39964,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -39506,6 +40041,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -39582,6 +40118,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -39658,6 +40195,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -39734,6 +40272,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -39810,6 +40349,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -39886,6 +40426,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -39962,6 +40503,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -40038,6 +40580,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -40114,6 +40657,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -40190,6 +40734,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -40258,6 +40803,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -40334,6 +40880,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -40410,6 +40957,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -40486,6 +41034,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -40562,6 +41111,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -40638,6 +41188,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -40714,6 +41265,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -40782,6 +41334,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -40858,6 +41411,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -40934,6 +41488,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -41010,6 +41565,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -41086,6 +41642,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -41162,6 +41719,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -41230,6 +41788,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -41306,6 +41865,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -41382,6 +41942,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -41458,6 +42019,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -41534,6 +42096,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -41610,6 +42173,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -41681,6 +42245,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -41757,6 +42322,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -41833,6 +42399,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -41909,6 +42476,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -41977,6 +42545,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -42053,6 +42622,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -42123,6 +42693,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -42199,6 +42770,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -42267,6 +42839,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "stage",
@@ -42343,6 +42916,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -42419,6 +42993,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "player1_wins",
@@ -42495,6 +43070,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -42571,6 +43147,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -42647,6 +43224,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -42723,6 +43301,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -42799,6 +43378,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -42875,6 +43455,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -42951,6 +43532,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -43019,6 +43601,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -43095,6 +43678,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -43163,6 +43747,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -43231,6 +43816,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -43299,6 +43885,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -43367,6 +43954,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -43435,6 +44023,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -43503,6 +44092,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -43579,6 +44169,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -43655,6 +44246,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -43723,6 +44315,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -43799,6 +44392,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -43875,6 +44469,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -43951,6 +44546,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -44027,6 +44623,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -44103,6 +44700,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -44179,6 +44777,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -44255,6 +44854,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -44331,6 +44931,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -44407,6 +45008,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -44483,6 +45085,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -44559,6 +45162,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -44635,6 +45239,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -44711,6 +45316,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -44779,6 +45385,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -44855,6 +45462,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -44931,6 +45539,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -45007,6 +45616,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -45083,6 +45693,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -45159,6 +45770,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -45235,6 +45847,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -45303,6 +45916,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -45379,6 +45993,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -45455,6 +46070,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -45531,6 +46147,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -45607,6 +46224,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -45683,6 +46301,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -45751,6 +46370,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -45827,6 +46447,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -45903,6 +46524,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -45979,6 +46601,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -46055,6 +46678,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -46131,6 +46755,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -46202,6 +46827,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -46278,6 +46904,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -46354,6 +46981,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -46430,6 +47058,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -46498,6 +47127,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -46574,6 +47204,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -46644,6 +47275,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -46720,6 +47352,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -46788,6 +47421,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "stage",
@@ -46864,6 +47498,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -46940,6 +47575,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "player1_wins",
@@ -47016,6 +47652,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -47092,6 +47729,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -47168,6 +47806,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -47244,6 +47883,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -47320,6 +47960,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -47396,6 +48037,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -47472,6 +48114,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -47540,6 +48183,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -47616,6 +48260,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -47684,6 +48329,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -47752,6 +48398,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -47820,6 +48467,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -47888,6 +48536,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -47956,6 +48605,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -48024,6 +48674,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -48100,6 +48751,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -48176,6 +48828,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -48244,6 +48897,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -48320,6 +48974,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -48396,6 +49051,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -48472,6 +49128,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -48548,6 +49205,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -48624,6 +49282,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -48700,6 +49359,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -48776,6 +49436,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -48852,6 +49513,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -48928,6 +49590,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -49004,6 +49667,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -49080,6 +49744,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -49156,6 +49821,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -49232,6 +49898,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -49300,6 +49967,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -49376,6 +50044,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -49452,6 +50121,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -49528,6 +50198,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -49604,6 +50275,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -49680,6 +50352,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -49756,6 +50429,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -49824,6 +50498,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -49900,6 +50575,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -49976,6 +50652,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -50052,6 +50729,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -50128,6 +50806,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -50204,6 +50883,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -50272,6 +50952,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -50348,6 +51029,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -50424,6 +51106,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -50500,6 +51183,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -50576,6 +51260,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -50652,6 +51337,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -50723,6 +51409,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -50799,6 +51486,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -50875,6 +51563,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -50951,6 +51640,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -51019,6 +51709,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -51095,6 +51786,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -51174,6 +51866,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -51250,6 +51943,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -51318,6 +52012,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -51386,6 +52081,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -51454,6 +52150,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -51522,6 +52219,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -51590,6 +52288,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -51658,6 +52357,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -51734,6 +52434,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -51802,6 +52503,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -51870,6 +52572,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -51946,6 +52649,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -52014,6 +52718,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -52082,6 +52787,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -52158,6 +52864,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -52226,6 +52933,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -52302,6 +53010,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -52370,6 +53079,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -52446,6 +53156,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -52522,6 +53233,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -52590,6 +53302,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "stage",
@@ -52666,6 +53379,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -52736,6 +53450,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "player1_wins",
@@ -52812,6 +53527,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -52882,6 +53598,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -52960,6 +53677,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -53030,6 +53748,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -53100,6 +53819,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -53170,6 +53890,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -53240,6 +53961,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -53308,6 +54030,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -53378,6 +54101,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -53446,6 +54170,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -53514,6 +54239,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -53584,6 +54310,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -53654,6 +54381,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -53722,6 +54450,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -53792,6 +54521,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -53862,6 +54592,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -53932,6 +54663,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -54000,6 +54732,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -54070,6 +54803,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -54140,6 +54874,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -54210,6 +54945,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -54280,6 +55016,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -54350,6 +55087,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -54420,6 +55158,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -54490,6 +55229,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -54560,6 +55300,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -54630,6 +55371,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -54700,6 +55442,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -54770,6 +55513,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -54840,6 +55584,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -54910,6 +55655,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -54978,6 +55724,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -55057,6 +55804,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -55127,6 +55875,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -55200,6 +55949,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -55270,6 +56020,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -55338,6 +56089,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -55416,6 +56168,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
+      "CacheType": "nocache",
       "Conditions": []
     },
     {
@@ -55484,6 +56237,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",
@@ -55560,6 +56314,7 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
+      "CacheType": "nocache",
       "Conditions": [
         {
           "LeftSide": "",

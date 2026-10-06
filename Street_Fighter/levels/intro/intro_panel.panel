@@ -20,7 +20,7 @@
   "Options": [],
   "Elements": [],
   "GFXMode": "BP4",
-  "PanelSlot": "Middle",
+  "PanelSlot": "Top",
   "PanelOptionSound": "none",
   "OverlapsGameView": false,
   "CenterAdjustments": {
